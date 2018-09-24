@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on Open Force Field Initiative</title>
+    <link>/tags/website/</link>
+    <description>Recent content in Website on Open Force Field Initiative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing the Open Force Field Initiative</title>
+      <link>/news/introducing-the-initiative/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/news/introducing-the-initiative/</guid>
+      <description>Molecular modeling is widely used in diverse pharmaceutical discovery applications, but its utility and predictive power is limited by the accuracy of the underlying molecular mechanics force field used to compute the energetics of biomolecular systems. The Open Force Field Initiative (OpenFF) is an open effort to build iteratively more accurate force fields to improve predictive design, along with the necessary infrastructure to make these force fields easier to build and use, and to provide a modern platform for powering force field science.</description>
+    </item>
+    
+  </channel>
+</rss>
