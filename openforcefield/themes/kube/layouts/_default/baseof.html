@@ -34,16 +34,16 @@
 
   {{ partial "favicon" . }}
 
-  <link href="{{ "{{ .Site.BaseURL }}/css/font.css" | relURL }}" rel="stylesheet" type="text/css">
-  <link href="{{ "{{ .Site.BaseURL }}/css/kube.min.css" | relURL }}" rel="stylesheet" type="text/css">
-  <link href="{{ "{{ .Site.BaseURL }}/css/kube.legenda.css" | relURL }}" rel="stylesheet" type="text/css">
-  <link href="{{ "{{ .Site.BaseURL }}/css/highlight.css" | relURL }}" rel="stylesheet" type="text/css">
-  <link href="{{ "{{ .Site.BaseURL }}/css/master.css" | relURL }}" rel="stylesheet" type="text/css">
-  <link href="{{ "{{ .Site.BaseURL }}/css/kube.demo.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ $.Site.BaseURL }}{{ "/css/font.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ $.Site.BaseURL }}{{ "/css/kube.min.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ $.Site.BaseURL }}{{ "/css/kube.legenda.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ $.Site.BaseURL }}{{ "/css/highlight.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ $.Site.BaseURL }}{{ "/css/master.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ $.Site.BaseURL }}{{ "/css/kube.demo.css" | relURL }}" rel="stylesheet" type="text/css">
 <!-- Your own theme here -->
- <link href="{{ "{{ .Site.BaseURL }}/css/custom.css" | relURL }}" rel="stylesheet" type="text/css">
+ <link href="{{ $.Site.BaseURL }}{{ "/css/custom.css" | relURL }}" rel="stylesheet" type="text/css">
 <!-- js vendor -->
-  <script src="{{ "{{ .Site.BaseURL }}/js/jquery-2.1.4.min.js" | relURL }}" type="text/javascript">
+  <script src="{{ $.Site.BaseURL }}{{ "/js/jquery-2.1.4.min.js" | relURL }}" type="text/javascript">
   </script>
 
   <script type="text/javascript" src="{{ "/js/tocbot.min.js" | relURL }}"></script>
