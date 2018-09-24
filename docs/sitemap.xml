@@ -31,13 +31,13 @@
   </url>
   
   <url>
-    <loc>/tags/news/</loc>
+    <loc>/categories/news/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/news/</loc>
+    <loc>/tags/news/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
