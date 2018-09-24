@@ -1,0 +1,56 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>{{.Description}}</p>
+  </div>
+  <div id="action-buttons">
+    <a class="button primary big" href="https://github.com/openforcefield/openforcefield/releases" onclick="_gaq.push(['_trackEvent', 'kube', 'download']);">Download</a>
+    <a class="button secondary big" href="https://open-forcefield-toolkit.readthedocs.io/en/topology" onclick="_gaq.push(['_trackEvent', 'kube', 'docs']);">Docs</a>
+    <a class="button outline big" href="https://github.com/openforcefield/openforcefield" onclick="_gaq.push(['_trackEvent', 'kube', 'github']);">View on Github</a>
+  </div>
+  <div class="row align-center">
+    <p><quote>Developed in coordination with the NSF-funded <a href="https://molssi.org/">Molecular Sciences Software Institute</a></quote></p>
+  </div>
+
+  <div id="features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Open Source" height="48" src="{{ "/img/freepik/Anindyanfitri/computer.png" | relURL }}" width="96">
+        </figure>
+        <h3>Open Source</h3>
+        <p>All our software is permissively licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a> and developed openly on <a href="https://github.com/openforcefield">GitHub</a>.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Open Science" height="48" src="{{ "/img/freepik/Anindyanfitri/atom.png" | relURL }}" width="96">
+        </figure>
+        <h3>Open Science</h3>
+        <p>We rapidly publish our scientific reports on open access preprint servers <a href="https://www.biorxiv.org/search/open-force-field-consortium">bioRxiv</a> and <a href="https://chemrxiv.org/articles/Toward_Learned_Chemical_Perception_of_Force_Field_Typing_Rules/6230627">chemRxiv</a>.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Open Data" height="48" src="{{ "/img/freepik/Anindyanfitri/beaker.png" | relURL }}" width="96">
+        </figure>
+        <h3>Open Data</h3>
+        <p>We measure and compile high-quality physical property and quantum chemical <a href="https://github.com/openforcefield/open-forcefield-data">datasets</a> for building high-quality biomolecular force fields.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Join the Consortium message box -->
+  <div class="message focus" data-component="message"> <span class="close small"></span>
+    <a class="button inverted" href="consortium" >Join</a> the Open Force Field Consortium as an Industry Partner to support high-quality open force fields and receive prioritized support.
+  </div>
+
+  <!-- Acknowledgments -->
+  <p>Icon vector graphics created by <a href="https://www.freepik.com/free-photos-vectors/icon">Anindyanfitri from Freepik.com</a></p>
+</div>
+
+
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
