@@ -9,6 +9,6 @@ The **Open Force Field Consortium** is composed of academic investigators from t
 
 **Stay tuned for the official launch on Oct 1, 2018.**
 
-## Interested in joining the Consortium?
+## Interested in joining the Consortium as an Industry Partner?
 
 [Email us](mailto:john.chodera@choderalab.org) to find out how.
