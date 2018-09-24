@@ -25,7 +25,8 @@ features = ["Minimalism","Mobile-first Design",
   "SEO Site Verification"]
 min_version = 0.19
 
+baseURL = 'https://openforcefield.org/website-preview/'
+
 [author]
   name = "jeblister"
   homepage = "http://findme.surge.sh/"
- 
