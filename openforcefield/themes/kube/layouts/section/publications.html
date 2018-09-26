@@ -3,13 +3,63 @@
 
 {{ define "main" }}
 
+<!-- Title and description  -->
 <div id="hero" class="wrap">
   <h1>{{.Title }}</h1>
     <p>{{.Params.description}}<br></p>
 </div>
+
+<!-- Text from markdown content -->
+<!--
 <div id="kube-faq">
 {{.Content}}
 </div>
+-->
+
+<!-- Automatic formatting of publications -->
+<div id="main">
+
+  <!-- Iterate over publiations -->
+  <ul>
+  {{ range $.Site.Data.publications.publications }}
+    <div class="row gutters">
+
+      <!-- Publication graphic -->
+      <div class="col col-2">
+        {{ if .img }} <img src=img/{{ .img }}> {{ end }}
+      </div>
+
+      <!-- Text content -->
+      <div class="col col-10">
+        <h5><b>{{ .title }}</b></h5>
+        <p>
+          {{ .authors }}<br>
+
+          {{ if .preprint_server }}
+            Preprint ahead of publication: <a href={{ .preprint_url }}>[{{ .preprint_server }}]</a>
+            {{ if eq .license "CC-BY 4.0" }} | <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 <img width="50" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg"> </a>{{ end }}
+            {{ if eq .license "Public Domain" }} | Public Domain {{ end }}
+            <br>
+          {{ end }}
+
+          {{ if .citation }}
+            Published: <b>{{ .citation.journal }}</b> {{ .citation.volume }}:{{ .citation.pages }}, {{ .citation.year }}. <a href={{ .citation.doi }}>[DOI]</a>
+            {{ if eq .license "Public Domain" }} | Public Domain {{ end }}
+            <br>
+          {{ end }}
+
+          {{ if .github_url }} Code accompanying the publication: <a href={{ .github_url }}>[GitHub]</a><br> {{ end }}
+          <i>{{ .summary }}</i><br>
+        </p>
+      </div>
+
+    </div>
+    <hr>
+  {{ end }}
+  </ul>
+</div>
+
+<!-- Footer -->
 {{ end }}
 {{ define "footer" }}
   {{ partial "footer" . }}

@@ -1,5 +1,5 @@
 +++
-description = "Science roadmap and updates from the Open Force Field Initiative"
+description = "Roadmap and scientific output from the Open Force Field Initiative"
 title = "Science"
 draft = false
 
