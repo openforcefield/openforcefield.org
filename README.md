@@ -25,7 +25,8 @@ with the fields replaced with their equivalents.
 * `forcefields/_index.md`: information about available force field releases
 * `datasets/_index.md`: information about available datasets
 * `science/_index.md`: overview of planned science, timelines, science updates, etc.
-* `publications/_index.md`: publications and white papers
+* `data/publications/publications.yaml`: publications and white papers
+   * `content/publications/img/`: thumbnail images for publications and white papers
 * `consortium/_index.md`: information about the Open Force Field Consortium and other federal funding sources
 * `faq/_index.md`: frequently asked questions
 
@@ -33,7 +34,7 @@ See the [Kube for Hugo GitHub repo](https://github.com/jeblister/kube) for more 
 
 ### Adding new members
 
-1. Add an image to `members/img/` (e.g. `firstname-lastname.jpg`).
+1. Add an image to `content/members/img/` (e.g. `firstname-lastname.jpg`).
 2. Add a YAML file `firstname-lastname.yaml` to `openforcefield/data/members/` in the following format:
 ```YAML
 name: John D. Chodera
@@ -48,6 +49,37 @@ google_scholar: http://goo.gl/qO0JW
 ORCID: 0000-0003-0542-119X
 ```
 where `role` can be `Researcher` or `Primary Investigator`.
+
+### Adding new publications
+
+1. Add a thumbnail image to `content/publications/img`
+2. Add an entry to the YAML file `data/publications/publications.yaml` in the following format:
+```YAML
+- title: "Toward learned chemical perception of force field typing rules"
+  authors: "Camila Zanette, Caitlin C. Bannan, Christopher I. Bayly, Josh Fass, Michael K. Gilson, Michael R. Shirts, John Chodera, and David L. Mobley"
+  summary: This paper introduces the SMIRNOFF format in the context of traditional force fields, explains the development and validation of our new small molecule force field smirnoff99Frosst, and highlights some directions the initiative is headed.
+  img: smarty.jpg
+  preprint:
+    server: chemRxiv
+    url: https://chemrxiv.org/articles/Toward_Learned_Chemical_Perception_of_Force_Field_Typing_Rules/6230627
+    license: "CC-BY 4.0"
+    date: 2018-08-06
+  github:
+    url: https://github.com/openforcefield/smarty
+- title: "Uncertainty quantification confirms unreliable extrapolation toward high pressures for united-atom Mie $\\lambda$-6 force field"
+  authors: "Richard A. Messerly, Michael R. Shirts, and Andrei F. Kazakov"
+  summary: We demonstrate how Bayesian approaches can be used to estimate the reliability of predictions made with molecular mechanics force fields.
+  img: mie-potential.png
+  published:
+    doi: https://doi.org/10.1063/1.5039504
+    journal: The Journal of Chemical Physics
+    volume: 149
+    pages: 114109
+    year: 2018
+    license: "Public Domain"
+    date: 2018-09-21
+```
+The `preprint`, `published`, and `github` fields are optional, though at least one should be specified.
 
 ## Building and deploying
 
