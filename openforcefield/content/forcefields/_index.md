@@ -7,6 +7,8 @@ draft = false
 
 # smirnoff99Frosst
 
+![Status: Experimental](https://img.shields.io/badge/status-experimental-orange.svg?style=for-the-badge)
+
 A minimalist AMBER-compatible general small molecule force field with excellent coverage of druglike chemical space,
 using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirnoff.html) direct chemical perception specification.
 
