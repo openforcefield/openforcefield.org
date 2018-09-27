@@ -35,20 +35,23 @@
         <p>
           {{ .authors }}<br>
 
-          {{ if .preprint_server }}
-            Preprint ahead of publication: <a href={{ .preprint_url }}>[{{ .preprint_server }}]</a>
-            {{ if eq .license "CC-BY 4.0" }} | <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 <img width="50" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg"> </a>{{ end }}
-            {{ if eq .license "Public Domain" }} | Public Domain {{ end }}
+          {{ with .preprint }}
+            Preprint ahead of publication: <a href={{ .url }}>[{{ .server }}]</a>
+            {{ partial "license" . }}
             <br>
           {{ end }}
 
-          {{ if .citation }}
-            Published: <b>{{ .citation.journal }}</b> {{ .citation.volume }}:{{ .citation.pages }}, {{ .citation.year }}. <a href={{ .citation.doi }}>[DOI]</a>
-            {{ if eq .license "Public Domain" }} | Public Domain {{ end }}
+          {{ with .published }}
+            Published: <b>{{ .journal }}</b> {{ .volume }}:{{ .pages }}, {{ .year }}. <a href={{ .citation.doi }}>[DOI]</a>
+            {{ partial "license" . }}
             <br>
           {{ end }}
 
-          {{ if .github_url }} Code accompanying the publication: <a href={{ .github_url }}>[GitHub]</a><br> {{ end }}
+          {{ with .github }}
+              Code accompanying the publication: <a href={{ .url }}>[GitHub]</a>
+              <br>
+          {{ end }}
+
           <i>{{ .summary }}</i><br>
         </p>
       </div>

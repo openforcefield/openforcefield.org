@@ -5,9 +5,13 @@ description: "Frequently Asked Questions"
 layout: faq
 ---
 
-## How can I stay up to date with Open Force Field Initiatve activites and developments?
+## How can I join the Open Force Field Consortium as an Industry Partner?
 
-You can sign up for your mailing list [here](http://eepurl.com/dHzukb).
+See the [Open Force Field Consortium](../consortium/) page for more information on how to join.
+
+## How can I join the Open Force Field Consortium as an Academic Investigator?
+
+Get in touch with one of the [current Open Force Field Investigators](../members/) if you're interested in joining as an investigator.
 
 ## What molecular simulation packages will your force fields work in?
 
@@ -17,10 +21,6 @@ The reference implementation of the [SMIRNOFF](https://open-forcefield-toolkit.r
 
 See our [science page](../science/) for the latest scientific roadmap.
 
-## How can I join the Open Force Field Consortium as an Industry Partner?
+## How can I stay up to date with Open Force Field Initiatve activites and developments?
 
-If you would like to join the Consortium as an Industry Partner, see the [Open Force Field Consortium](../consortium/) page.
-
-## How can I join the Open Force Field Consortium as an Academic Investigator?
-
-If you would like to join the Consortium as an Academic Investigator, contact one of the [current Open Force Field Investigators](../members/).
+You can sign up for your mailing list [here](http://eepurl.com/dHzukb).

@@ -1,0 +1,4 @@
+{{ if .license }}
+{{ if eq .license "CC-BY 4.0" }} | <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 <img width="50" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg"> </a>{{ end }}
+{{ if eq .license "Public Domain" }} | Public Domain {{ end }}
+{{ end }}
