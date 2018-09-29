@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Open Force Field Initiative</title>
-    <link>//openforcefield.org/website-preview/tags/</link>
+    <link>//openforcefield.org/tags/</link>
     <description>Recent content in Tags on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//openforcefield.org/website-preview/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//openforcefield.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>News</title>
-      <link>//openforcefield.org/website-preview/tags/news/</link>
+      <link>//openforcefield.org/tags/news/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>//openforcefield.org/website-preview/tags/news/</guid>
+      <guid>//openforcefield.org/tags/news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Force Field Initiative</title>
-      <link>//openforcefield.org/website-preview/tags/open-force-field-initiative/</link>
+      <link>//openforcefield.org/tags/open-force-field-initiative/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>//openforcefield.org/website-preview/tags/open-force-field-initiative/</guid>
+      <guid>//openforcefield.org/tags/open-force-field-initiative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Website</title>
-      <link>//openforcefield.org/website-preview/tags/website/</link>
+      <link>//openforcefield.org/tags/website/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>//openforcefield.org/website-preview/tags/website/</guid>
+      <guid>//openforcefield.org/tags/website/</guid>
       <description></description>
     </item>
     

@@ -3,80 +3,80 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//openforcefield.org/website-preview/news/introducing-the-initiative/</loc>
+    <loc>//openforcefield.org/news/introducing-the-initiative/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/categories/</loc>
+    <loc>//openforcefield.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/datasets/</loc>
+    <loc>//openforcefield.org/datasets/</loc>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/faq/</loc>
+    <loc>//openforcefield.org/faq/</loc>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/members/</loc>
+    <loc>//openforcefield.org/members/</loc>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/news/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//openforcefield.org/website-preview/tags/news/</loc>
+    <loc>//openforcefield.org/news/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/categories/news/</loc>
+    <loc>//openforcefield.org/tags/news/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/consortium/</loc>
-  </url>
-  
-  <url>
-    <loc>//openforcefield.org/website-preview/tags/open-force-field-initiative/</loc>
+    <loc>//openforcefield.org/categories/news/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
+    <loc>//openforcefield.org/consortium/</loc>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/forcefields/</loc>
-  </url>
-  
-  <url>
-    <loc>//openforcefield.org/website-preview/publications/</loc>
-  </url>
-  
-  <url>
-    <loc>//openforcefield.org/website-preview/science/</loc>
-  </url>
-  
-  <url>
-    <loc>//openforcefield.org/website-preview/tags/</loc>
+    <loc>//openforcefield.org/tags/open-force-field-initiative/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//openforcefield.org/website-preview/tags/website/</loc>
+    <loc>//openforcefield.org/</loc>
+    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/forcefields/</loc>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/science/</loc>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/tags/</loc>
+    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/tags/website/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

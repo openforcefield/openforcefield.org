@@ -1,4 +1,4 @@
-baseURL = '//openforcefield.org/website-preview/'
+baseURL = '//openforcefield.org/'
 languageCode = "en-us"
 title = "Open Force Field Initiative"
 theme = "kube"

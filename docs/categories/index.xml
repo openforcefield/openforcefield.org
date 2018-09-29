@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Open Force Field Initiative</title>
-    <link>//openforcefield.org/website-preview/categories/</link>
+    <link>//openforcefield.org/categories/</link>
     <description>Recent content in Categories on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="//openforcefield.org/website-preview/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//openforcefield.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>News</title>
-      <link>//openforcefield.org/website-preview/categories/news/</link>
+      <link>//openforcefield.org/categories/news/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>//openforcefield.org/website-preview/categories/news/</guid>
+      <guid>//openforcefield.org/categories/news/</guid>
       <description></description>
     </item>
     
