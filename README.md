@@ -83,10 +83,11 @@ The `preprint`, `published`, and `github` fields are optional, though at least o
 
 ## Building and deploying
 
-1. [Download and install Hugo](https://gohugo.io/getting-started/installing/).
-2. In `openforcefield/`, run `./hugo` to rebuild the static site
-3. Make sure any new files in `docs/` are added to the commit:
+0. [Download and install Hugo](https://gohugo.io/getting-started/installing/).
+1. In `openforcefield/`, run `./hugo` to rebuild the static site
+2. Make sure any new files in `docs/` are added to the commit:
 ```bash
+cp CNAME docs/
 git add docs/*
 ```
-4. Commit the changes and push the repository to `master`
+3. Commit the changes and push the repository to `master`
