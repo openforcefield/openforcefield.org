@@ -5,6 +5,8 @@ theme = "kube"
 description = "A new approach to modern collaborative biomolecular force field development based on open source software, open science, and high-quality curated open datasets."
 Paginate = 4
 publishDir = "../docs"
+pygmentsCodefences = true
+pygmentsStyle = "colorful"
 
 [Params]
   RSSLink = "/index.xml"

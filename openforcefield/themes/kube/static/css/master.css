@@ -790,8 +790,9 @@ body.page-account #hero {
   color: rgba(0, 0, 0, 0.5); }
 
 #post-box {
-  max-width: 740px;
-  margin: auto; }
+  max-width: 1020px;
+  margin: auto;
+  text-align: justify; }
 
 #post {
   font-size: 18px;
