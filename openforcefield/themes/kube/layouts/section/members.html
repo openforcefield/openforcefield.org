@@ -28,8 +28,8 @@
         {{ .title }}, {{ .institution }}<br>
         <i>{{ .description }}</i><br>
         {{ with .webpage }} web: <a href={{ . }}>{{ . }}</a><br> {{ end }}
-        {{ with .ORCID }} ORCID: <a href="https://orcid.org/{{ . }}">{{ . }}</a><br> {{ end }}
-        {{ with .google_scholar }} Google Scholar: <a href="{{ . }}">{{ . }}</a> {{ end }}
+        {{ with .ORCID }} ORCID: <a href="https://orcid.org/{{ . }}">{{ . }}</a> {{ end }}
+        {{ with .google_scholar }} | <a href="{{ . }}">Google Scholar</a> {{ end }}
       </p>
     </div>
   </div>
@@ -56,7 +56,7 @@
         <i>{{ .description }}</i><br>
         <a href={{ .webpage }}>{{ .webpage }}</a><br>
         {{ with .ORCID }} ORCID: <a href="https://orcid.org/{{ . }}">{{ . }}</a> {{ end }}
-        {{ with .google_scholar }} | Google Scholar: <a href="{{ . }}">{{ . }}</a> {{ end }}
+        {{ with .google_scholar }} | <a href="{{ . }}">Google Scholar</a> {{ end }}
       </p>
     </div>
   </div>
