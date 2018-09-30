@@ -112,7 +112,7 @@
 
 <meta itemprop="datePublished" content="2018-09-30T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-09-30T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1094">
+<meta itemprop="wordCount" content="1188">
 
 
 
@@ -220,15 +220,19 @@ To support the migration toward broader support for fully open source toolkits, 
 
 <p>These classes aim to simplify reading chemical descriptions of systems from several popular formats to generate parameterized molecular systems.
 For example, to read small molecule from an RDKit <code>rdmol</code>:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">molecule <span style="color:#333">=</span> Molecule<span style="color:#333">.</span>from_rdkit(rdmol)</code></pre></div>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#888"># Create an openforcefield Molecule object from an RDKit Mol molecule</span>
+molecule <span style="color:#333">=</span> Molecule<span style="color:#333">.</span>from_rdkit(rdmol)</code></pre></div>
 <p>or from a file</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">openforcefield.topology</span> <span style="color:#080;font-weight:bold">import</span> Molecule
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#888"># Create an openforcefield Molecule object from a Tripos mol2 file using whatever toolkit(s) are available</span>
+<span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">openforcefield.topology</span> <span style="color:#080;font-weight:bold">import</span> Molecule
 molecule <span style="color:#333">=</span> Molecule<span style="color:#333">.</span>from_file(mol2_filename)</code></pre></div>
 <p>Creating a <code>Topology</code> object from one or more <code>Molecule</code> objects is easy:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">openforcefield.topology</span> <span style="color:#080;font-weight:bold">import</span> Topology
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#888"># Create an openforcefield Topology object consisting of a single openforcefield Molecule</span>
+<span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">openforcefield.topology</span> <span style="color:#080;font-weight:bold">import</span> Topology
 topology <span style="color:#333">=</span> Topology<span style="color:#333">.</span>from_molecules(molecule)</code></pre></div>
 <p>While we have not yet added biomolecular force fields in SMIRNOFF format, reading of PDB files containing small molecules will also be straightforward if your small molecules is also available (with any atom ordering) in some format that can be read from a file (such as a Tripos mol2 file):</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">simtk.openmm</span> <span style="color:#080;font-weight:bold">import</span> app
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#888"># Create an openforcefield Topology object from a PDB file and Tripos mol2 files defining each component of the PDB file</span>
+<span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">simtk.openmm</span> <span style="color:#080;font-weight:bold">import</span> app
 pdbfile <span style="color:#333">=</span> app<span style="color:#333">.</span>PDBFile(pdb_filename)
 unique_molecules <span style="color:#333">=</span> [ Molecule<span style="color:#333">.</span>from_file(mol2_filename) <span style="color:#080;font-weight:bold">for</span> mol2_filename <span style="color:#000;font-weight:bold">in</span> mol2_filenames ]
 topology <span style="color:#333">=</span> Topology<span style="color:#333">.</span>from_openmm(pdbfile<span style="color:#333">.</span>topology, unique_molecules<span style="color:#333">=</span>unique_molecules)</code></pre></div>
@@ -240,11 +244,13 @@ topology <span style="color:#333">=</span> Topology<span style="color:#333">.</s
 As we seek to make the toolkit less OpenMM-centric and easier to use with various molecular simulation packages directly, we have refined its API to make this process easier, in addition to conforming with Python PEP8 naming standards.</p>
 
 <p>Generation of parameterized OpenMM <code>System</code> objects is still easy:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">openforcefield.typing.engines</span> <span style="color:#080;font-weight:bold">import</span> ForceField
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#888"># Create an OpenMM System object from the openforcefield Topology object</span>
+<span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">openforcefield.typing.engines</span> <span style="color:#080;font-weight:bold">import</span> ForceField
 forcefield <span style="color:#333">=</span> ForceField(<span style="background-color:#fff0f0">&#39;smirnoff99frosst&#39;</span>)
 openmm_system <span style="color:#333">=</span> forcefield<span style="color:#333">.</span>create_openmm_system(topology)</code></pre></div>
-<p>but now you will also be able to create input files for other packages easily via <a href="http://github.com/parmed/parmed">ParmEd</a>:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">parmed_structure <span style="color:#333">=</span> forcefield<span style="color:#333">.</span>create_parmed_structure(topology, positions)
+<p>but now you will also be able to create input files for other packages easily via <a href="http://github.com/parmed/parmed">ParmEd</a> (which will also be automatically installed with the <code>conda</code> package):</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#888"># Generate a ParmEd Structure object from the openforcefield Topology object, attaching positions</span>
+parmed_structure <span style="color:#333">=</span> forcefield<span style="color:#333">.</span>create_parmed_structure(topology, positions)
 <span style="color:#888"># Write AMBER input files</span>
 parmed_structure<span style="color:#333">.</span>save(<span style="background-color:#fff0f0">&#39;amber.inpcrd&#39;</span>)
 parmed_structure<span style="color:#333">.</span>save(<span style="background-color:#fff0f0">&#39;amber.prmtop&#39;</span>)
@@ -283,7 +289,7 @@ Throughout the documentation, numerous examples are provided to make it easy for
   
     and tagged <a href="/tags/smirnoff/">SMIRNOFF</a>, <a href="/tags/cheminformatics-toolkits/">cheminformatics toolkits</a> and <a href="/tags/openforcefield-toolkit/">openforcefield toolkit</a>
   
-  using <span itemprop="wordCount">1094</span> words.
+  using <span itemprop="wordCount">1188</span> words.
 </p>
 
         

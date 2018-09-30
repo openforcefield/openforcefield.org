@@ -76,20 +76,24 @@ To support the migration toward broader support for fully open source toolkits, 
 These classes aim to simplify reading chemical descriptions of systems from several popular formats to generate parameterized molecular systems.
 For example, to read small molecule from an RDKit `rdmol`:
 ```python
+# Create an openforcefield Molecule object from an RDKit Mol molecule
 molecule = Molecule.from_rdkit(rdmol)
 ```
 or from a file
 ```python
+# Create an openforcefield Molecule object from a Tripos mol2 file using whatever toolkit(s) are available
 from openforcefield.topology import Molecule
 molecule = Molecule.from_file(mol2_filename)
 ```
 Creating a `Topology` object from one or more `Molecule` objects is easy:
 ```python
+# Create an openforcefield Topology object consisting of a single openforcefield Molecule
 from openforcefield.topology import Topology
 topology = Topology.from_molecules(molecule)
 ```
 While we have not yet added biomolecular force fields in SMIRNOFF format, reading of PDB files containing small molecules will also be straightforward if your small molecules is also available (with any atom ordering) in some format that can be read from a file (such as a Tripos mol2 file):
 ```python
+# Create an openforcefield Topology object from a PDB file and Tripos mol2 files defining each component of the PDB file
 from simtk.openmm import app
 pdbfile = app.PDBFile(pdb_filename)
 unique_molecules = [ Molecule.from_file(mol2_filename) for mol2_filename in mol2_filenames ]
@@ -105,12 +109,14 @@ As we seek to make the toolkit less OpenMM-centric and easier to use with variou
 
 Generation of parameterized OpenMM `System` objects is still easy:
 ```python
+# Create an OpenMM System object from the openforcefield Topology object
 from openforcefield.typing.engines import ForceField
 forcefield = ForceField('smirnoff99frosst')
 openmm_system = forcefield.create_openmm_system(topology)
 ```
-but now you will also be able to create input files for other packages easily via [ParmEd](http://github.com/parmed/parmed):
+but now you will also be able to create input files for other packages easily via [ParmEd](http://github.com/parmed/parmed) (which will also be automatically installed with the `conda` package):
 ```python
+# Generate a ParmEd Structure object from the openforcefield Topology object, attaching positions
 parmed_structure = forcefield.create_parmed_structure(topology, positions)
 # Write AMBER input files
 parmed_structure.save('amber.inpcrd')
