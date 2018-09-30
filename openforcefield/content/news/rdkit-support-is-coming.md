@@ -1,5 +1,5 @@
 ---
-date: "2018-9-30T19:10+02:00"
+date: "2018-09-30T00:00:00+00:00"
 title: "Support for open source cheminformatics toolkits is coming!"
 tags: ["openforcefield toolkit", "cheminformatics toolkits", "SMIRNOFF"]
 categories: ["news"]
