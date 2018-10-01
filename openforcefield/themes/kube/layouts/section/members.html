@@ -23,7 +23,9 @@
       <img src=img/{{ .img }}>
     </div>
     <div class="col col-9">
-      <h4><b>{{ .name }}</b> ({{ .role }})</h4>
+      <h4><b>{{ .name }}</b> ({{ .role }})
+      {{ with .twitter }} <a href="http://twitter.com/{{ . }}"><img width="20" src="img/twitter.png"></a> {{ end }}
+      </h4>
       <p>
         {{ .title }}, {{ .institution }}<br>
         <i>{{ .description }}</i><br>
@@ -50,7 +52,9 @@
       <img src=img/{{ .img }}>
     </div>
     <div class="col col-9">
-      <h4><b>{{ .name }}</b> ({{ .role }})</h4>
+      <h4><b>{{ .name }}</b> ({{ .role }})
+      {{ with .twitter }} <a href="http://twitter.com/{{ . }}"><img width="20" src="img/twitter.png"></a> {{ end }}        
+      </h4>
       <p>
         {{ .title }}, {{ .institution }}<br>
         <i>{{ .description }}</i><br>
