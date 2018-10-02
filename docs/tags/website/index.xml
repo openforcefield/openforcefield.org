@@ -6,10 +6,20 @@
     <description>Recent content in Website on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//openforcefield.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announcing the Open Force Field Consortium</title>
+      <link>//openforcefield.org/news/introducing-the-consortium/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/news/introducing-the-consortium/</guid>
+      <description>We’re excited to announce the launch of the Open Force Field Consortium, an academic-industry collaboration designed to improve small molecule force fields used to guide pharmaceutical drug discovery. The Open Force Field Initiative is what we are calling our overall research effort, whereas the Open Force Field Consortium refers specifically to the academic-industry collaboration.
+Modeling tools based on force fields assist development of therapies for diseases such as cancer and neurodegenerative disease throughout academia and industry.</description>
+    </item>
     
     <item>
       <title>Introducing the Open Force Field Initiative</title>

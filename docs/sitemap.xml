@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//openforcefield.org/news/introducing-the-consortium/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/news/rdkit-support-is-coming/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url>
@@ -36,20 +41,20 @@
   </url>
   
   <url>
-    <loc>//openforcefield.org/tags/news/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
+    <loc>//openforcefield.org/categories/news/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//openforcefield.org/categories/news/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+    <loc>//openforcefield.org/tags/news/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//openforcefield.org/news/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -64,7 +69,7 @@
   
   <url>
     <loc>//openforcefield.org/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -99,7 +104,7 @@
   
   <url>
     <loc>//openforcefield.org/tags/website/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
