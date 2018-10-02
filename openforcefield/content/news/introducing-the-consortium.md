@@ -9,10 +9,12 @@ weight: 10
 author: "Lee-Ping Wang"
 ---
 
-We’re excited to announce the launch of the [Open Force Field
-Consortium](consortium), an academic-industry collaboration designed
+We’re excited to announce the launch of the Open Force Field
+Consortium, an academic-industry collaboration designed
 to improve small molecule force fields used to guide pharmaceutical
-drug discovery.
+drug discovery.  The Open Force Field Initiative is what we are calling
+our overall research effort, whereas the Open Force Field Consortium 
+refers specifically to the academic-industry collaboration.
 
 Modeling tools based on force fields assist development of therapies
 for diseases such as cancer and neurodegenerative disease throughout
