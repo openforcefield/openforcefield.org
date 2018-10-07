@@ -6,10 +6,20 @@
     <description>Recent content on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//openforcefield.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Webinar on the SMIRNOFF format and learned chemical perception Oct. 10</title>
+      <link>//openforcefield.org/news/bioexcel_webinar/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/news/bioexcel_webinar/</guid>
+      <description>Check out a webinar on the Initiative this Oct. 10 from BioExcel! MolSSI fellow Caitlin Bannan will talk about the Initiative&amp;rsquo;s overall goals and her work on learned chemical perception. Register through BioExcel, or if you can&amp;rsquo;t make it, video should be available afterwards.
+Bannan&amp;rsquo;s Abstract: The Open Force Field Initiative is developing a machinery to automatically parameterize molecular mechanics force fields. An important part of this process will be automating chemical perception — the way force field parameters are assigned to a molecule based on chemical environment.</description>
+    </item>
     
     <item>
       <title>Announcing the Open Force Field Consortium</title>
