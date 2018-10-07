@@ -23,4 +23,4 @@ See our [science page](../science/) for the latest scientific roadmap.
 
 ## How can I stay up to date with Open Force Field Initiatve activites and developments?
 
-You can sign up for your mailing list [here](http://eepurl.com/dHzukb).
+You can sign up for our mailing list [here](http://eepurl.com/dHzukb).
