@@ -90,4 +90,4 @@ The `preprint`, `published`, and `github` fields are optional, though at least o
 cp CNAME docs/
 git add docs/*
 ```
-3. Commit the changes and push the repository to `master`
+3. Commit the changes and push the repository to `master` 
