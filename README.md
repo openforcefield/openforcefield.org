@@ -81,6 +81,16 @@ where `role` can be `Researcher` or `Primary Investigator`.
 ```
 The `preprint`, `published`, and `github` fields are optional, though at least one should be specified.
 
+## Preview the website locally
+
+0. [Download and install Hugo](https://gohugo.io/getting-started/installing/).
+1. In the `openforcefield/` directory, run `hugo server -D`
+2. Copy the Web address from this line (in this example, it is `localhost:1313`):
+
+```Web Server is available at //localhost:1313/ (bind address 127.0.0.1)```
+
+3. Paste the Web address into your browser
+
 ## Building and deploying
 
 0. [Download and install Hugo](https://gohugo.io/getting-started/installing/).
