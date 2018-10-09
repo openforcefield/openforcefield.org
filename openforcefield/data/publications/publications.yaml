@@ -30,3 +30,23 @@
     year: 2018
     license: "Public Domain"
     date: 2018-09-21
+- title: "Toward Expanded Diversity of Host–Guest Interactions via Synthesis and Characterization of Cyclodextrin Derivatives"
+  authors: "Kathryn Kellett, S. A. Kantonen, Brendan M. Duggan and Michael K. Gilson"
+  summary: This paper shows the synthesis of a mono-3-functionalized cyclodextrin and how cyclodextrin derivatives can effect the binding of guest molecules using 1D/2D NMR and ITC experiments.
+  img: gilson_cd_1.jpg
+  published:
+    doi: https://doi.org/10.1007/s10953-018-0769-1 
+    journal: The Journal of Solution Chemistry
+    pages: 1-12
+    year: 2018
+    license: "public domain"
+    date: 2018-06-04
+- title: "Facile Synthesis of a Diverse Library of Mono-3-substituted β-Cyclodextrin Analogues"
+  authors: "Kathryn Kellett, Brendan M. Duggan and Michael K. Gilson"
+  summary: We show the facile synthesis of a library of diverse mono-3-substituted β-cyclodextrin analogues, that have the potential to be used to collect host-guest binding data to test and improve simulation force fields. 
+  img: gilson_cd_2.jpg
+  preprint:
+    server: chemRxiv
+    url: https://chemrxiv.org/articles/Facile_Synthesis_of_a_Diverse_Library_of_Mono-3-substituted_-Cyclodextrin_Analogues/6453302
+    license: "CC-BY-NC-ND 4.0"
+    date: 2018-07-26
