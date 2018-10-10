@@ -42,7 +42,7 @@
           {{ end }}
 
           {{ with .published }}
-            Published: <b>{{ .journal }}</b> {{ .volume }}:{{ .pages }}, {{ .year }}. <a href={{ .citation.doi }}>[DOI]</a>
+            Published: <b>{{ .journal }}</b> {{ with .volume }}{{ . }}:{{ end }}{{ with .pages }}{{ . }},{{ end }} {{ with .year }}{{ . }}{{ end }}. <a href={{ .citation.doi }}>[DOI]</a>
             {{ partial "license" . }}
             <br>
           {{ end }}
