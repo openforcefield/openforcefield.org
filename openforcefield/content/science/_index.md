@@ -13,3 +13,5 @@ Read about where we're headed.
 
 # Presentations
 - [The Open Force Field Initiative: A brief update on our progress and plans](http://dx.doi.org/10.13140/RG.2.2.21679.38569), David Mobley, OpenEye MiniCUP Meeting, San Diego, CA, Oct. 2018.
+
+# Science Updates

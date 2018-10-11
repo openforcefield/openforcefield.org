@@ -32,6 +32,28 @@ with the fields replaced with their equivalents.
 
 See the [Kube for Hugo GitHub repo](https://github.com/jeblister/kube) for more examples of Markdown content.
 
+### Adding Science Updates
+
+1. Create a new file in `content/science/updates/` using the format `YYYY-MM-DD-lastname.md` (e.g. `2018-10-11-chodera.md`)
+2. Populate the file in Markdown with the following header style:
+```yaml
+---
+date: "2018-10-11T00:00:00+00:00"
+title: "Introducing Open Force Field Science Updates"
+tags: ["general"]
+categories: ["science"]
+draft: false
+description: "Open Force Field Science Updates will help you keep track of research and engineering activities from the Open Force Field Initiative"
+weight: 10
+author: "John D. Chodera"
+---
+```
+3. If you have images to post, create a subdirectory in `content/science/updates/` using the format `YYYY-MM-DD-lastname/` (e.g. `2018-10-11-chodera/`) and put your images there. You can reference them with
+```
+![GAFF densities](gaff-densities.jpg "GAFF densities")
+```
+where the file `gaff-densities.jpg` is located in `content/science/updates/YYYY-MM-DD-lastname/gaff-densities.jpg`
+
 ### Adding new members
 
 1. Add an image to `content/members/img/` (e.g. `firstname-lastname.jpg`).
@@ -100,4 +122,4 @@ The `preprint`, `published`, and `github` fields are optional, though at least o
 cp CNAME docs/
 git add docs/*
 ```
-3. Commit the changes and push the repository to `master` 
+3. Commit the changes and push the repository to `master`
