@@ -24,3 +24,7 @@ See our [science page](../science/) for the latest scientific roadmap.
 ## How can I stay up to date with Open Force Field Initiative activites and developments?
 
 You can sign up for our mailing list [here](http://eepurl.com/dHzukb).
+
+## What is the difference between the Initiative and the Consortium?
+
+The Open Force Field Initiative includes everyone supported by and/or working with the initiative; thus, we use the term "Initiative" to refer to the whole project and everyone involved, including commercial partners and scientific plans. The "Consortium" is the group of people and entities involved in the formal project/funding initiative.   
