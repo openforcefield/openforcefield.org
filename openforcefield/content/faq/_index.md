@@ -21,6 +21,6 @@ The reference implementation of the [SMIRNOFF](https://open-forcefield-toolkit.r
 
 See our [science page](../science/) for the latest scientific roadmap.
 
-## How can I stay up to date with Open Force Field Initiatve activites and developments?
+## How can I stay up to date with Open Force Field Initiative activites and developments?
 
 You can sign up for our mailing list [here](http://eepurl.com/dHzukb).
