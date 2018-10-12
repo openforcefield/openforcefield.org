@@ -5,6 +5,14 @@ description: "Frequently Asked Questions"
 layout: faq
 ---
 
+## How can I use the research products of the Open Force Field Consortium (papers, data, software)? 
+
+Everything that we develop will be fully open source under permissive licenses. Our codes are all distributed with the MIT or BSD-3 license, and written materials are made available under CC-BY 4.0.
+
+## I am interested in contributing some codes to the Consortium.  Will I retain the right to use my codes for commercial research and products?
+
+Because the MIT and BSD-3 software licenses permit commercial use, any codes distributed by the Consortium may be used commercially.
+
 ## How can I join the Open Force Field Consortium as an Industry Partner?
 
 See the [Open Force Field Consortium](../consortium/) page for more information on how to join.
