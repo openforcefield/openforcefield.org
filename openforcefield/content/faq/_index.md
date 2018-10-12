@@ -11,7 +11,7 @@ Everything that we develop will be fully open source under permissive licenses. 
 
 ## I am interested in contributing some codes to the Consortium.  Will I retain the right to use my codes for commercial research and products?
 
-Commercial use is fully allowed for any codes distributed by the Consortium.
+Because the MIT or BSD-3 software licenses permit commercial use, any codes distributed by the Consortium may be used in commercial products.
 
 ## How can I join the Open Force Field Consortium as an Industry Partner?
 
