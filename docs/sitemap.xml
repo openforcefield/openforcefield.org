@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//openforcefield.org/science/updates/2018-10-11-chodera/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/news/bioexcel_webinar/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
   </url>
@@ -42,6 +47,12 @@
   </url>
   
   <url>
+    <loc>//openforcefield.org/tags/general/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/members/</loc>
   </url>
   
@@ -74,7 +85,7 @@
   
   <url>
     <loc>//openforcefield.org/</loc>
-    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -92,7 +103,14 @@
   </url>
   
   <url>
+    <loc>//openforcefield.org/categories/science/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/science/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>

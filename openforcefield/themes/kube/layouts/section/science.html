@@ -7,9 +7,17 @@
   <h1>{{.Title }}</h1>
     <p>{{.Params.description}}<br></p>
 </div>
+
 <div id="kube-faq">
 {{.Content}}
 </div>
+
+<ul id="posts">
+  {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
+  <section>{{ partial "pagination" .}}</section>
+</ul>
+
+
 {{ end }}
 {{ define "footer" }}
   {{ partial "footer" . }}
