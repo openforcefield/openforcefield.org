@@ -21,15 +21,16 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 
 ### Governing Board
 - John D. Chodera (MSKCC)
+- Thomas Fox (Boehringer-Ingelheim)
 - Michael K. Gilson (UCSD)
 - Katharina Meier (Bayer)
 - David L. Mobley (UCI)
 - Michael R. Shirts (CU Boulder)
 - Lee-Ping Wang (UC Davis)
-- Additional industry member to be disclosed following legal approval
 
 
 ### Advisory Board
 - Ian Craig (BASF)
+- Thomas Fox (Boehringer-Ingelheim)
 - Katharina Meier (Bayer)
-- Six additional members to be disclosed following legal approval
+- Five additional members to be disclosed following legal approval
