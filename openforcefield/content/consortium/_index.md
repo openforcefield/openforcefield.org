@@ -30,5 +30,6 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 
 
 ### Advisory Board
+- Ian Craig (BASF)
 - Katharina Meier (Bayer)
-- Seven additional members to be disclosed following legal approval
+- Six additional members to be disclosed following legal approval
