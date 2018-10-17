@@ -35,4 +35,4 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 - Thomas Fox (Boehringer-Ingelheim)
 - Katharina Meier (Bayer)
 - Arjun Narayanan (Vertex)
-- Five additional members to be disclosed following legal approval
+- Several additional members to be disclosed following legal approval
