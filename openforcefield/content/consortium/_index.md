@@ -30,6 +30,7 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 
 
 ### Advisory Board
+- Virginia Burger (XtalPi)
 - Ian Craig (BASF)
 - Thomas Fox (Boehringer-Ingelheim)
 - Katharina Meier (Bayer)
