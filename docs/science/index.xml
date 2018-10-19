@@ -6,10 +6,22 @@
     <description>Recent content in Science on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//openforcefield.org/science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Torsion subgroup update</title>
+      <link>//openforcefield.org/science/updates/2018-10-16-torsions/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/science/updates/2018-10-16-torsions/</guid>
+      <description>Participants John Chodera (MSKCC), Jessica Maat (Mobley group), David Mobley (UC Irvine), Levi Naden (MolSSI), Jessica Nash (MolSSI), Yudong Qiu (Wang group), Daniel Smith (MolSSI), Chaya Stern (Chodera group), Jeff Wagner (OpenFF), Lee-Ping Wang (UC Davis)
+Glossary geomeTRIC: Geometry optimization software package, Wang lab
+fragmenter: Fragment molecules for QM torsion scans, Chodera lab. Provides input to torsiondrive and QCFractal.
+torsiondrive: Manages geometry optimization calculations for torsion scan, Wang lab. Uses geomeTRIC to carry out optimizations.</description>
+    </item>
     
     <item>
       <title>Introducing Open Force Field Science Updates</title>
