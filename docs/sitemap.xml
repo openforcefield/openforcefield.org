@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>//openforcefield.org/consortium/minutes/2018-10-11-minutes/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/news/bioexcel_webinar/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
   </url>
@@ -62,7 +67,13 @@
   </url>
   
   <url>
-    <loc>//openforcefield.org/tags/news/</loc>
+    <loc>//openforcefield.org/categories/minutes/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/categories/news/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -80,6 +91,7 @@
   
   <url>
     <loc>//openforcefield.org/consortium/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
