@@ -9,7 +9,7 @@
     date: 2018-07-13
 - title: "Toward learned chemical perception of force field typing rules"
   authors: "Camila Zanette, Caitlin C. Bannan, Christopher I. Bayly, Josh Fass, Michael K. Gilson, Michael R. Shirts, John Chodera, and David L. Mobley"
-  summary: This paper introduces the SMIRNOFF format in the context of traditional force fields, explains the development and validation of our new small molecule force field smirnoff99Frosst, and highlights some directions the initiative is headed.
+  summary: Here, we introduce a proof of principle for automatically sampling chemical perception compared to traditional atom typed force fields and our SMIRNOFF format. 
   img: smarty.jpg
   preprint:
     server: chemRxiv
