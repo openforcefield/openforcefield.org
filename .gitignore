@@ -7,4 +7,6 @@ __pycache__/
 
 # OS X extra files
 *.DS_Store
+*/.DS_Store
+*/*/.DS_Store
 
