@@ -1,5 +1,5 @@
 - title: "Open Force Field Consortium: Escaping atom types using direct chemical perception with SMIRNOFF v0.1"
-  authors: "Chaya Stern, David Mobley, Caitlin C. Bannan, Andrea Rizzi, Christopher I. Bayly, John D. Chodera, Victoria T Lim, Nathan M. Lim, Kyle A. Beauchamp, Michael R. Shirts, Michael K. Gilson, and Peter K. Eastman"
+  authors: "David Mobley, Caitlin C. Bannan, Andrea Rizzi, Christopher I. Bayly, John D. Chodera, Victoria T Lim, Nathan M. Lim, Kyle A. Beauchamp, Michael R. Shirts, Michael K. Gilson, and Peter K. Eastman"
   summary: This paper introduces the SMIRNOFF format in the context of traditional force fields, explains the development and validation of our new small molecule force field smirnoff99Frosst, and highlights some directions the initiative is headed.
   img: smirnoff-v0.1.png
   preprint:
@@ -7,9 +7,13 @@
     url: https://doi.org/10.1101/286542
     license: "CC-BY 4.0"
     date: 2018-07-13
+  published:
+      doi: https://dx.doi.org/doi/10.1021/acs.jctc.8b00640
+      journal: Journal of Chemical Theory and Computation
+      date: 2018-10-11
 - title: "Toward learned chemical perception of force field typing rules"
   authors: "Camila Zanette, Caitlin C. Bannan, Christopher I. Bayly, Josh Fass, Michael K. Gilson, Michael R. Shirts, John Chodera, and David L. Mobley"
-  summary: Here, we introduce a proof of principle for automatically sampling chemical perception compared to traditional atom typed force fields and our SMIRNOFF format. 
+  summary: Here, we introduce a proof of principle for automatically sampling chemical perception compared to traditional atom typed force fields and our SMIRNOFF format.
   img: smarty.jpg
   preprint:
     server: chemRxiv
