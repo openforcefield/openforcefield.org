@@ -37,6 +37,6 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 - Daniel Kuhn (Merck KGaA), Chair
 - Katharina Meier (Bayer)
 - Arjun Narayanan (Vertex), Secretary
-- Five additional members to be disclosed following legal approval
+- Additional members to be disclosed following legal approval
 
 ### Meeting Minutes
