@@ -55,3 +55,7 @@ pygmentsStyle = "colorful"
     name = "FAQ"
     weight = -10
     url = "/faq/"
+[[menu.main]]
+    name = "Jobs"
+    weight = 0
+    url = "/jobs/"

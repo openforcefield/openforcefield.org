@@ -31,15 +31,15 @@ Our initiative focuses on building software, infrastructure, and force fields to
 
 We firmly believe that research in this space is not a zero-sum game; with the rising interest in physical methods to help guide pharmaceutical discovery, there is a need for new and better force fields and infrastructure, and this need can drive the availability of additional funds.  Moreover, our current efforts focus on small molecule force field development, and we are not currently engaged directly in biomolecular (i.e. protein, lipid, carbohydrate) force field development.
 
-## Can we use your software in our force field effort? 
+## Can we use your software in our force field effort?
 
 Yes! Everything is open source under permissive licenses (generally the MIT License). We are also open to suggestions from the community, as well as community input on the codes and research directions. Please contribute to our GitHub issue trackers for projects at http://github.com/openforcefield, or even feel free to contribute code if you find it useful!
 
-## How can we collaborate with you? 
+## How can we collaborate with you?
 
 Collaborations can be science-focused or software-focused; if you are willing to commit to open science and open source software, you’re welcome to get involved with one of our science sub-groups focusing on specific parts of the project, and/or involved with code development. Both kinds of collaborations could also involve jointly exploring funding opportunities from federal or philanthropic agencies. Please reach out to the PIs or Lead Software Scientist Jeff Wagner by email to discuss potential involvement.
 
-## How can I use the research products of the Open Force Field Consortium (papers, data, software)? 
+## How can I use the research products of the Open Force Field Consortium (papers, data, software)?
 
 Everything that we develop will be fully open source under permissive licenses. Our codes are all distributed with the MIT or BSD-3 license, and written materials are made available under CC-BY 4.0.
 
