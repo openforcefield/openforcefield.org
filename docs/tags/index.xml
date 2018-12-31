@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//openforcefield.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agenda</title>
+      <link>//openforcefield.org/tags/agenda/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/agenda/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cheminformatics Toolkits</title>
@@ -21,11 +30,29 @@
     </item>
     
     <item>
+      <title>Consortium</title>
+      <link>//openforcefield.org/tags/consortium/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/consortium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>General</title>
       <link>//openforcefield.org/tags/general/</link>
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>//openforcefield.org/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meeting</title>
+      <link>//openforcefield.org/tags/meeting/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/meeting/</guid>
       <description></description>
     </item>
     
