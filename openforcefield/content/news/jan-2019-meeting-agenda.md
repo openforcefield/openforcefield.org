@@ -16,12 +16,12 @@ Attendance is open to Consortium members and collaborators, but parts of the mee
 
 * *Date:* January 7-8, 2018
 * *Location:* [Jacobs Medical Center, UC San Diego, La Jolla, CA](https://goo.gl/maps/VxCtgVb8wst), Rooms 2 and 3
-* *Local contact:* Mike Gilson, `mgilson@ucsd.edu`, mobile 301-910-3848
+* *Local contact:* Mike Gilson `<mgilson@ucsd.edu>`
 * *Last update of this document:* 10:53 AM, Friday, December 28, 2018
 
 ## Directions
 
-The workshop will take place at the Jacobs Medical Center Community & Medical Education Center, Rooms 2 and 3, locatd at [9300 Campus Point Drive, La Jolla, CA 92037](https://goo.gl/maps/VxCtgVb8wst) (mailing address for the entire medical center), about two miles from nearby hotels.
+The workshop will take place at the Jacobs Medical Center Community & Medical Education Center, Rooms 2 and 3, located at [9300 Campus Point Drive, La Jolla, CA 92037](https://goo.gl/maps/VxCtgVb8wst) (mailing address for the entire medical center), about two miles from nearby hotels.
 
 From hotel, take e.g., [Lyft](http://lyft.com) or [Uber](http://uber.com) to the main entrance of the hospital.
 Enter there and walk all the way down the long corridor, past the Cove cafeteria on your left, into the modern Jacobs pavilion.
