@@ -50,7 +50,7 @@ _Research topics: 45 min talk + 15 min discussion_
  -------------|-------|---------|---------------
  7.45 -  8.00	| [Introduction](00-introduction.pdf) | Gilson |
  8.00 -  8.30 | [Roadmap overview](01-roadmap.pdf) | Shirts | `#project-planning`
- 8.30 -  9.30	| Short-term parameter optimization strategy: ForceBalance | Wang | `#forcebalance`
+ 8.30 -  9.30	| [Short-term parameter optimization strategy: ForceBalance](02-forcebalance.pdf) | Wang | `#forcebalance`
  9.30 - 10.00 | Coffee break | | `#random`
 10.00 - 11.00 | Long-term parameter optimization strategy: Bayesian Fitting | Chodera | `#bayesian-inference`
 11.00 - 12.00 | Chemical perception and SMIRNOFF typing | Mobley | `#smirnoff`
