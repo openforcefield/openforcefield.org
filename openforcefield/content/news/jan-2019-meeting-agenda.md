@@ -48,7 +48,7 @@ _Research topics: 45 min talk + 15 min discussion_
 
  Time         | Event | Speaker | Slack channel
  -------------|-------|---------|---------------
- 7.45 -  8.00	| Convene, introductions | Gilson |
+ 7.45 -  8.00	| [Introduction](00-introduction.pdf) | Gilson |
  8.00 -  8.30 | Roadmap overview | Shirts | `#project-planning`
  8.30 -  9.30	| Short-term parameter optimization strategy: ForceBalance | Wang | `#forcebalance`
  9.30 - 10.00 | Coffee break | | `#random`
