@@ -54,7 +54,7 @@ _Research topics: 45 min talk + 15 min discussion_
  9.30 - 10.00 | Coffee break | | `#random`
 10.00 - 11.00 | [Long-term parameter optimization strategy: Bayesian Fitting](03-bayesian-fitting.pdf) | Chodera | `#bayesian-inference`
 11.00 - 12.00 | [Chemical perception and SMIRNOFF typing](04-chemical-perception.pdf) | Mobley | `#smirnoff`
-12.00 -  1.00 | Torsion fitting and fragmentation | Chodera/Wang | `#torsions`
+12.00 -  1.00 | [Torsion fitting and fragmentation](05-torsion-fitting.pdf) | Chodera/Wang | `#torsions`
  1.00 -  2.00	| Lunch (catered) | |
  2.00 -  2.30 | Group discussion to define ad hoc breakouts and breakout leaders/note-takers | |
 			        | _Proposed Breakout Session 1_ : typing via chemical perception, torsion fitting | |
