@@ -53,7 +53,7 @@ _Research topics: 45 min talk + 15 min discussion_
  8.30 -  9.30	| [Short-term parameter optimization strategy: ForceBalance](02-forcebalance.pdf) | Wang | `#forcebalance`
  9.30 - 10.00 | Coffee break | | `#random`
 10.00 - 11.00 | [Long-term parameter optimization strategy: Bayesian Fitting](03-bayesian-fitting.pdf) | Chodera | `#bayesian-inference`
-11.00 - 12.00 | [Chemical perception and SMIRNOFF typing](doi.org/10.13140/RG.2.2.18976.43521) | Mobley/Bannan | `#smirnoff`
+11.00 - 12.00 | [Chemical perception and SMIRNOFF typing](http://doi.org/10.13140/RG.2.2.18976.43521) | Mobley/Bannan | `#smirnoff`
 12.00 -  1.00 | [Torsion fitting and fragmentation](05-torsion-fitting.pdf) | Chodera/Wang | `#torsions`
  1.00 -  2.00	| Lunch (catered) | |
  2.00 -  2.30 | Group discussion to define ad hoc breakouts and breakout leaders/note-takers | |
@@ -75,7 +75,7 @@ _Research topics 45 min talk + 15 min discussion_
 
 Time         | Event | Speaker | Slack channel
 -------------|-------|---------|---------------
- 8.00 -  9.00 | Charge models | Schauperl| `#nextgen_am1-bcc`
+ 8.00 -  9.00 | Charge models | Schauperl| `#charge-models`
  9.00 - 10.00 | Fitting non-torsion valence terms | Mobley/Wang | `#valence`
 10.00 - 10.30	| Coffee break | | `#random`
 10.30 - 11.30	| Software architecture and infrastructure | Wagner/Chodera | `#infrastructure`
