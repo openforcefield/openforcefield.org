@@ -50,7 +50,7 @@ _Research topics: 45 min talk + 15 min discussion_
  -------------|-------|---------|---------------
  7.45 -  8.00	| [Introduction](00-introduction.pdf) | Gilson |
  8.00 -  8.30 | [Roadmap overview](01-roadmap.pdf) | Shirts | `#project-planning`
- 8.30 -  9.30	| [Short-term parameter optimization strategy: ForceBalance](02-forcebalance.pdf) | Wang | `#forcebalance`
+ 8.30 -  9.30	| [Short-term parameter optimization strategy: ForceBalance](http://doi.org/10.13140/RG.2.2.12894.69449) | Wang | `#forcebalance`
  9.30 - 10.00 | Coffee break | | `#random`
 10.00 - 11.00 | [Long-term parameter optimization strategy: Bayesian Fitting](03-bayesian-fitting.pdf) | Chodera | `#bayesian-inference`
 11.00 - 12.00 | [Chemical perception and SMIRNOFF typing](http://doi.org/10.13140/RG.2.2.18976.43521) | Mobley/Bannan | `#smirnoff`
@@ -75,11 +75,11 @@ _Research topics 45 min talk + 15 min discussion_
 
 Time         | Event | Speaker | Slack channel
 -------------|-------|---------|---------------
- 8.00 -  9.00 | Charge models | Schauperl| `#charge-models`
- 9.00 - 10.00 | Fitting non-torsion valence terms | Mobley/Wang | `#valence`
+ 8.00 -  9.00 | [Charge models](http://doi.org/10.13140/RG.2.2.35543.93608) | Schauperl| `#charge-models`
+ 9.00 - 10.00 | [Fitting non-torsion valence terms](http://doi.org/10.13140/RG.2.2.11216.97289) | Mobley/Wang | `#valence`
 10.00 - 10.30	| Coffee break | | `#random`
-10.30 - 11.30	| Software architecture and infrastructure | Wagner/Chodera | `#infrastructure`
-11.30 - 12.30	| Fitting condensed-phase properties | Chodera/Shirts | `#propertycalculator`
+10.30 - 11.30	| [Software architecture and infrastructure](08-software-infrastructure.pdf) | Wagner | `#infrastructure`
+11.30 - 12.30	| [Fitting condensed-phase properties](09-physical-properties.pdf) | Chodera/Shirts | `#propertycalculator`
 12.30 -  1.30	| Lunch (catered) | |
  1.30 -  2.00 | Group discussion to define ad hoc breakouts and breakout leaders/note-takers
               | _Proposed Breakout Sessions:_ electrostatics, software preview / toolkit hands-on
