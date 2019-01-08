@@ -63,6 +63,9 @@ _Research topics: 45 min talk + 15 min discussion_
  3.00 -  3.30 | Coffee break | | `#random`
  3.30 -  4.00 | Breakout Session 2 | |
  4.00 -  5.00 | Reconvene for breakout reports and all-hands discussions | |
+              | [Breakout session notes: Benchmarking Accuracy](breakout-benchmarking.pdf) | |
+              | [Breakout session notes: Property calculation framework](breakout-property-calculator.pdf) | |
+              | [Breakout session notes: Use cases](breakout-use-cases.pdf) | |
  5.00 -  5.15 | Roadmap recap and discussion (reviewing Slack input from remote attendees) | | `#project-planning`
  6.00         | Group dinner in La Jolla at [Rock Bottom Brewing](https://rockbottom.com/locations/la-jolla/) | |
 
