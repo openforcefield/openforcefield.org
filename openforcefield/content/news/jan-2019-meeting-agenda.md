@@ -75,7 +75,7 @@ _Research topics 45 min talk + 15 min discussion_
 
 Time         | Event | Speaker | Slack channel
 -------------|-------|---------|---------------
- 8.00 -  9.00 | Charge models | Schauperl| `#nextgen_am1-bcc`
+ 8.00 -  9.00 | Charge models | Schauperl| `#charge-models`
  9.00 - 10.00 | Fitting non-torsion valence terms | Mobley/Wang | `#valence`
 10.00 - 10.30	| Coffee break | | `#random`
 10.30 - 11.30	| Software architecture and infrastructure | Wagner/Chodera | `#infrastructure`
