@@ -85,6 +85,7 @@ Time         | Event | Speaker | Slack channel
               | _Proposed Breakout Sessions:_ electrostatics, software preview / toolkit hands-on
  2.00 -  4.00 | Breakout Session (with coffee)
  4.00 -  5.00	| Reconvene and wrap-up discussion
+              | [Breakout session notes: neural network potentials](breakout-neural-networks.pdf)              
 
 ### Other discussion topics for the Open Force Field Initiative science team
 
