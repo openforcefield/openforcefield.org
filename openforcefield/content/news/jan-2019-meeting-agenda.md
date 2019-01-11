@@ -48,13 +48,13 @@ _Research topics: 45 min talk + 15 min discussion_
 
  Time         | Event | Speaker | Slack channel
  -------------|-------|---------|---------------
- 7.45 -  8.00	| [Introduction](00-introduction.pdf) | Gilson |
- 8.00 -  8.30 | [Roadmap overview](01-roadmap.pdf) | Shirts | `#project-planning`
- 8.30 -  9.30	| [Short-term parameter optimization strategy: ForceBalance](http://doi.org/10.13140/RG.2.2.12894.69449) | Wang | `#forcebalance`
+ 7.45 -  8.00	| Introduction [[PDF]](00-introduction.pdf) | Gilson |
+ 8.00 -  8.30 | Roadmap overview [[DOI]](http://doi.org/10.13140/RG.2.2.27587.86562) | Shirts | `#project-planning`
+ 8.30 -  9.30	| Short-term parameter optimization strategy: ForceBalance [[DOI]](http://doi.org/10.13140/RG.2.2.12894.69449) | Wang | `#forcebalance`
  9.30 - 10.00 | Coffee break | | `#random`
-10.00 - 11.00 | [Long-term parameter optimization strategy: Bayesian Fitting](03-bayesian-fitting.pdf) | Chodera | `#bayesian-inference`
-11.00 - 12.00 | [Chemical perception and SMIRNOFF typing](http://doi.org/10.13140/RG.2.2.18976.43521) | Mobley/Bannan | `#smirnoff`
-12.00 -  1.00 | [Torsion fitting and fragmentation](http://doi.org/10.13140/RG.2.2.17521.53606) | Chodera/Wang | `#torsions`
+10.00 - 11.00 | Long-term parameter optimization strategy: Bayesian Fitting [[DOI]](http://doi.org/10.13140/RG.2.2.20876.97926) | Chodera | `#bayesian-inference`
+11.00 - 12.00 | Chemical perception and SMIRNOFF typing [[DOI]](http://doi.org/10.13140/RG.2.2.18976.43521) | Mobley/Bannan | `#smirnoff`
+12.00 -  1.00 | Torsion fitting and fragmentation [[DOI]](http://doi.org/10.13140/RG.2.2.17521.53606) | Chodera/Wang | `#torsions`
  1.00 -  2.00	| Lunch (catered) | |
  2.00 -  2.30 | Group discussion to define ad hoc breakouts and breakout leaders/note-takers | |
 			        | _Proposed Breakout Session 1_ : typing via chemical perception, torsion fitting | |
@@ -63,9 +63,9 @@ _Research topics: 45 min talk + 15 min discussion_
  3.00 -  3.30 | Coffee break | | `#random`
  3.30 -  4.00 | Breakout Session 2 | |
  4.00 -  5.00 | Reconvene for breakout reports and all-hands discussions | |
-              | [Breakout session notes: Benchmarking Accuracy](breakout-benchmarking.pdf) | |
-              | [Breakout session notes: Property calculation framework](breakout-property-calculator.pdf) | |
-              | [Breakout session notes: Use cases](breakout-use-cases.pdf) | |
+              | Breakout session notes: Benchmarking Accuracy [[PDF]](breakout-benchmarking.pdf) | |
+              | Breakout session notes: Property calculation framework [[PDF]](breakout-property-calculator.pdf) | |
+              | Breakout session notes: Use cases [[PDF]](breakout-use-cases.pdf) | |
  5.00 -  5.15 | Roadmap recap and discussion (reviewing Slack input from remote attendees) | | `#project-planning`
  6.00         | Group dinner in La Jolla at [Rock Bottom Brewing](https://rockbottom.com/locations/la-jolla/) | |
 
@@ -75,17 +75,17 @@ _Research topics 45 min talk + 15 min discussion_
 
 Time         | Event | Speaker | Slack channel
 -------------|-------|---------|---------------
- 8.00 -  9.00 | [Charge models](http://doi.org/10.13140/RG.2.2.35543.93608) | Schauperl| `#charge-models`
- 9.00 - 10.00 | [Fitting non-torsion valence terms](http://doi.org/10.13140/RG.2.2.11216.97289) | Mobley/Wang | `#valence`
+ 8.00 -  9.00 | Charge models [[DOI]](http://doi.org/10.13140/RG.2.2.35543.93608) | Schauperl| `#charge-models`
+ 9.00 - 10.00 | Fitting non-torsion valence terms [[DOI]](http://doi.org/10.13140/RG.2.2.11216.97289) | Mobley/Wang | `#valence`
 10.00 - 10.30	| Coffee break | | `#random`
-10.30 - 11.30	| [Software architecture and infrastructure](08-software-infrastructure.pdf) | Wagner | `#infrastructure`
-11.30 - 12.30	| [Fitting condensed-phase properties](09-physical-properties.pdf) | Chodera/Shirts | `#propertycalculator`
+10.30 - 11.30	| Software architecture and infrastructure [[DOI]](http://doi.org/10.13140/RG.2.2.25910.14400) | Wagner | `#infrastructure`
+11.30 - 12.30	| Fitting condensed-phase properties [[DOI]](http://doi.org/10.13140/RG.2.2.19199.25767) | Chodera/Shirts | `#propertycalculator`
 12.30 -  1.30	| Lunch (catered) | |
  1.30 -  2.00 | Group discussion to define ad hoc breakouts and breakout leaders/note-takers
               | _Proposed Breakout Sessions:_ electrostatics, software preview / toolkit hands-on
  2.00 -  4.00 | Breakout Session (with coffee)
  4.00 -  5.00	| Reconvene and wrap-up discussion
-              | [Breakout session notes: neural network potentials](breakout-neural-networks.pdf)              
+              | Breakout session notes: neural network potentials [[PDF]](breakout-neural-networks.pdf)              
 
 ### Other discussion topics for the Open Force Field Initiative science team
 
