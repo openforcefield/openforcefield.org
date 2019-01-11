@@ -9,8 +9,9 @@ weight: 10
 author: "John D. Chodera"
 ---
 
-We are hosting the first [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop in La Jolla, CA on January 7-8, 2019.
-Attendance is open to Consortium members and collaborators, but parts of the meeting will be broadcast and recorded for posting online.
+We hosted the first [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop in La Jolla, CA on January 7-8, 2019.
+The meeting was open to Consortium members and collaborators, and parts of the meeting were recorded for posting online.
+In addition, slides discussing current Consortium research and future plans are given below.
 
 ## Details at a glance
 
@@ -19,26 +20,7 @@ Attendance is open to Consortium members and collaborators, but parts of the mee
 * *Local contact:* Mike Gilson `<mgilson@ucsd.edu>`
 * *Last update of this document:* 10:53 AM, Friday, December 28, 2018
 
-## Directions
-
-The workshop will take place at the Jacobs Medical Center Community & Medical Education Center, Rooms 2 and 3, located at [9300 Campus Point Drive, La Jolla, CA 92037](https://goo.gl/maps/VxCtgVb8wst) (mailing address for the entire medical center), about two miles from nearby hotels.
-
-From hotel, take e.g., [Lyft](http://lyft.com) or [Uber](http://uber.com) to the main entrance of the hospital.
-Enter there and walk all the way down the long corridor, past the Cove cafeteria on your left, into the modern Jacobs pavilion.
-Continue walking past the elevators to the very end, and the meeting room will be on your right.  
-See photos of the route below.
-
-![Getting to the meeting rooms](visual-directions.png "Getting to the meeting rooms")
-
-## Meals and breaks
-
-Breakfast, lunch, snacks. and coffee will be provided at the meeting room both days.
-
-The dinner on Day 1 will be held in a private room at the [Rock Bottom Restaurant and Brewery](https://rockbottom.com/locations/la-jolla/), [8980 Villa La Jolla, La Jolla, CA 92037](https://goo.gl/maps/eeFi5YqTWL42), two miles from the meeting location.
-Please use Lyft, Uber, or another carsharing or taxi service to get there.  
-We ask that each individual or group pay their own portion of the bill.
-
-## Agenda (subject to change)
+## Agenda
 
 Comments and questions for discussion during the workshop are invited in the Slack channels indicated after each topic; e.g, `#project-planning` for "Roadmap overview".
 
@@ -86,6 +68,27 @@ Time         | Event | Speaker | Slack channel
  2.00 -  4.00 | Breakout Session (with coffee)
  4.00 -  5.00	| Reconvene and wrap-up discussion
               | Breakout session notes: neural network potentials [[PDF]](breakout-neural-networks.pdf)              
+
+#### Note: Information below this line is mainly relevant to planning and attending the workshop, which has already taken place.
+
+## Directions
+
+The workshop will take place at the Jacobs Medical Center Community & Medical Education Center, Rooms 2 and 3, located at [9300 Campus Point Drive, La Jolla, CA 92037](https://goo.gl/maps/VxCtgVb8wst) (mailing address for the entire medical center), about two miles from nearby hotels.
+
+From hotel, take e.g., [Lyft](http://lyft.com) or [Uber](http://uber.com) to the main entrance of the hospital.
+Enter there and walk all the way down the long corridor, past the Cove cafeteria on your left, into the modern Jacobs pavilion.
+Continue walking past the elevators to the very end, and the meeting room will be on your right.  
+See photos of the route below.
+
+![Getting to the meeting rooms](visual-directions.png "Getting to the meeting rooms")
+
+## Meals and breaks
+
+Breakfast, lunch, snacks. and coffee will be provided at the meeting room both days.
+
+The dinner on Day 1 will be held in a private room at the [Rock Bottom Restaurant and Brewery](https://rockbottom.com/locations/la-jolla/), [8980 Villa La Jolla, La Jolla, CA 92037](https://goo.gl/maps/eeFi5YqTWL42), two miles from the meeting location.
+Please use Lyft, Uber, or another carsharing or taxi service to get there.  
+We ask that each individual or group pay their own portion of the bill.
 
 ### Other discussion topics for the Open Force Field Initiative science team
 

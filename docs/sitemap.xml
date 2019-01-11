@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//openforcefield.org/consortium/minutes/2019-01-07-minutes/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/science/updates/2018-10-16-torsions/</loc>
     <lastmod>2018-10-16T00:00:00+00:00</lastmod>
   </url>
@@ -80,7 +85,7 @@
   
   <url>
     <loc>//openforcefield.org/tags/general/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,7 +101,7 @@
   
   <url>
     <loc>//openforcefield.org/categories/minutes/</loc>
-    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,7 +124,7 @@
   
   <url>
     <loc>//openforcefield.org/consortium/</loc>
-    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -130,7 +135,7 @@
   
   <url>
     <loc>//openforcefield.org/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
