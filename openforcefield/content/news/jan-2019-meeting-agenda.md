@@ -1,13 +1,15 @@
 ---
 date: "2018-10-06T00:00:00+00:00"
-title: "Jan 2019 Open Force Field Consortium Workshop Agenda"
+title: "Jan 2019 Open Force Field Consortium Workshop"
 tags: ["website","news","consortium","meeting","agenda"]
 categories: ["news"]
 draft: false
-description: "Agenda for the Open Force Field Consortium Workshop in San Diego, January 7-8, 2019."
+description: "Open Force Field Consortium Workshop in San Diego, January 7-8, 2019."
 weight: 10
 author: "John D. Chodera"
 ---
+
+![Group photo](group-photo.jpg "Group photo")
 
 We hosted the first [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop in La Jolla, CA on January 7-8, 2019.
 The meeting was open to Consortium members and collaborators, and parts of the meeting were recorded for posting online.
