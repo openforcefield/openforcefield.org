@@ -6,10 +6,20 @@
     <description>Recent content in Minutes on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//openforcefield.org/categories/minutes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>January 7-8, 2019 Consortium Workshop</title>
+      <link>//openforcefield.org/consortium/minutes/2019-01-07-minutes/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/consortium/minutes/2019-01-07-minutes/</guid>
+      <description>Minutes: Attending: All PIs and software scientists; most industry partners, postdocs, and students (including via Zoom); academic and industry community members
+Visit the agenda page for more details of the workshop.</description>
+    </item>
     
     <item>
       <title>October 11, 2018 Governing Board Meetings and notes</title>
