@@ -36,7 +36,7 @@ _Research topics: 45 min talk + 15 min discussion_
  8.00 -  8.30 | Roadmap overview [[DOI]](http://doi.org/10.13140/RG.2.2.27587.86562) [[Video]](https://www.youtube.com/watch?v=z5Cqz9KpA1M&list=PLYW6oF6nr8NuEMjEyGXlyPQh7ETonpOIN&index=2) | Shirts | `#project-planning`
  8.30 -  9.30	| Short-term parameter optimization strategy: ForceBalance [[DOI]](http://doi.org/10.13140/RG.2.2.12894.69449) [[Video]](https://www.youtube.com/watch?v=0xDLRP4zi2g&list=PLYW6oF6nr8NuEMjEyGXlyPQh7ETonpOIN&index=3) | Wang | `#forcebalance`
  9.30 - 10.00 | Coffee break | | `#random`
-10.00 - 11.00 | Long-term parameter optimization strategy: Bayesian Fitting [[DOI]](http://doi.org/10.13140/RG.2.2.20876.97926) [[Video]](https://www.youtube.com/watch?v=X-zZvgoOG1U&list=PLYW6oF6nr8NuEMjEyGXlyPQh7ETonpOIN&index=4) | Chodera | `#bayesian-inference`
+10.00 - 11.00 | Long-term parameter optimization strategy: Bayesian Fitting [[DOI]](http://doi.org/10.13140/RG.2.2.30384.61443) [[Video]](https://www.youtube.com/watch?v=X-zZvgoOG1U&list=PLYW6oF6nr8NuEMjEyGXlyPQh7ETonpOIN&index=4) | Chodera | `#bayesian-inference`
 11.00 - 12.00 | Chemical perception and SMIRNOFF typing [[DOI]](http://doi.org/10.13140/RG.2.2.18976.43521) [[Video]](https://www.youtube.com/watch?v=e4P-OlW9WBY&index=5&list=PLYW6oF6nr8NuEMjEyGXlyPQh7ETonpOIN) | Mobley/Bannan | `#smirnoff`
 12.00 -  1.00 | Torsion fitting and fragmentation [[DOI]](http://doi.org/10.13140/RG.2.2.17521.53606) [[Video]](https://www.youtube.com/watch?v=1mQEaFWoEpw&list=PLYW6oF6nr8NuEMjEyGXlyPQh7ETonpOIN&index=6) | Chodera/Wang | `#torsions`
  1.00 -  2.00	| Lunch (catered) | |
