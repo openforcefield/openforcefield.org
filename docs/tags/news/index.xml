@@ -6,20 +6,10 @@
     <description>Recent content in News on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//openforcefield.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Jan 2019 Open Force Field Consortium Advisory Board Meeting</title>
-      <link>//openforcefield.org/news/jan-2019-advisory-board-meeting/</link>
-      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//openforcefield.org/news/jan-2019-advisory-board-meeting/</guid>
-      <description>The Open Force Field Consortium Advisory Board met on 23 Jan 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – January 23, 2019  RDKit Integration  Key infrastructure seems to be working Currently implementing testing to make sure energies/parameters are same between RDKit and OpenEye toolkit backends Documentation being worked on Limited to SDF file format initially RDKit support being added initially for OpenFF toolkit, not for other packages being used internally for parameter development Bespoke torsion parameterization tool will be able to use RDKit or other wholly open-source backend  Workflows  Workflow documentation / example requests should be posted to #documentation Slack channel Some suggested workflows from agenda and discussion: Parameterization of protein-ligand system using SMIRNOFF Conformer energy evaluation Minimization of multiple ligands from SDF file (is this with protein, without, both?</description>
-    </item>
     
     <item>
       <title>Jan 2019 Open Force Field Consortium Workshop</title>
