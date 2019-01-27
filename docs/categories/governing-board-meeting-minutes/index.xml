@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Governing Board Meeting Minutes on Open Force Field Initiative</title>
+    <link>//openforcefield.org/categories/governing-board-meeting-minutes/</link>
+    <description>Recent content in Governing Board Meeting Minutes on Open Force Field Initiative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//openforcefield.org/categories/governing-board-meeting-minutes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>October 11, 2018 Governing Board Meeting</title>
+      <link>//openforcefield.org/consortium/minutes/2018-10-11-minutes/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/consortium/minutes/2018-10-11-minutes/</guid>
+      <description>Agenda:  October meeting draft agenda and start time January meeting location Maat hiring Slack Funding processing update/onboarding update Involvement with science meetings (subprojects) and project planning Discuss blog posts? Yes, just get sub-groups to do brief updates after meetings; better for keeping people up to date.  Minutes: Attending: All PIs except Shirts, and both industry members, Thomas Fox and Katharina Meier
+Shared the detailed budget outline Google Doc and went over the personnel who would be involved and their distribution across different locations, $ amounts, etc.</description>
+    </item>
+    
+    <item>
+      <title>October 29, 2018 Joint Governing/Advisory Board Meeting</title>
+      <link>//openforcefield.org/consortium/minutes/2018-10-29-minutes/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/consortium/minutes/2018-10-29-minutes/</guid>
+      <description>Minutes: Attending: All PIs, both governing board members, and most advisory board members, via Zoom.
+Short-term roadmap/minimum viable product: In general folks are supportive of current effort plans. However, there was consensus we need a tool for bespoke parameterization of molecules, especially internal molecules which might not be able to be disclosed to the larger effort, as part of our minimum viable product.
+Funding/financials:  Currently we have eight partners on board (with openforcefield.</description>
+    </item>
+    
+  </channel>
+</rss>

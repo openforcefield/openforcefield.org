@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//openforcefield.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Advisory Board</title>
+      <link>//openforcefield.org/tags/advisory-board/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/advisory-board/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advisory Board Meeting</title>
+      <link>//openforcefield.org/tags/advisory-board-meeting/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/advisory-board-meeting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Agenda</title>
@@ -41,9 +59,18 @@
     <item>
       <title>General</title>
       <link>//openforcefield.org/tags/general/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>//openforcefield.org/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Governing Board Meeting</title>
+      <link>//openforcefield.org/tags/governing-board-meeting/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/governing-board-meeting/</guid>
       <description></description>
     </item>
     
@@ -57,11 +84,29 @@
     </item>
     
     <item>
+      <title>Minutes</title>
+      <link>//openforcefield.org/tags/minutes/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/minutes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>News</title>
       <link>//openforcefield.org/tags/news/</link>
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>//openforcefield.org/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Consortium</title>
+      <link>//openforcefield.org/tags/open-force-field-consortium/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/open-force-field-consortium/</guid>
       <description></description>
     </item>
     
@@ -98,6 +143,15 @@
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>//openforcefield.org/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop</title>
+      <link>//openforcefield.org/tags/workshop/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/workshop/</guid>
       <description></description>
     </item>
     
