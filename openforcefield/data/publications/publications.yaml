@@ -8,7 +8,7 @@
     license: "CC-BY 4.0"
     date: 2018-07-13
   published:
-      doi: https://dx.doi.org/doi/10.1021/acs.jctc.8b00640
+      doi: https://dx.doi.org/10.1021/acs.jctc.8b00640
       journal: Journal of Chemical Theory and Computation
       date: 2018-10-11
 - title: "Toward learned chemical perception of force field typing rules"
