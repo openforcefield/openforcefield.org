@@ -759,15 +759,18 @@ body.page-account #hero {
   line-height: 28px; }
 
 #posts {
-  list-style: none;
+  max-width: 740px;
+  margin: auto;
+  font-size: 17px;
+  margin-bottom: 104px;
   margin: auto;
   margin-top: 48px;
   margin-bottom: 128px;
-  max-width: 680px;
   text-align: justify; }
 
 #posts li {
-  margin-bottom: 40px; }
+  margin-top: 0px;
+  margin-bottom: 0px;}
 
 #posts h2 {
   font-size: 22px;
@@ -848,7 +851,6 @@ body.page-account #hero {
   margin: auto;
   font-size: 17px;
   line-height: 28px;
-  margin-bottom: 104px;
   border-top: 1px solid rgba(0, 0, 0, 0.07); }
   #kube-faq h2 {
     font-size: 24px;
