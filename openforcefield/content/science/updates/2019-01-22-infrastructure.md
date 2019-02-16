@@ -6,10 +6,12 @@ categories: ["science"]
 draft: false
 description: "Meeting of Open Force Field package developers"
 weight: 10
+markup: markdown
 author: "Jeff Wagner"
 ---
 
 ## Participants
+
 Caitlin Bannan (Mobley group), Simon Boothroyd (Chodera group), John Chodera (MSKCC), Hyesu Jang (Wang group), Victoria Lim (Mobley group), Jessica Maat (Mobley group), Owen Madin (Shirts group), David Mobley (UC Irvine), Levi Naden (MolSSI), Jessica Nash (MolSSI), Yudong Qiu (Wang group), Andrea Rizzi (Chodera group), Michael Schauperl (Gilson group), David Slochower (Gilson group), Daniel Smith (MolSSI), Chaya Stern (Chodera group), Jeff Wagner (OpenFF), Lee-Ping Wang (UC Davis)
 
 ## Glossary
@@ -41,18 +43,18 @@ Our ultimate goal is to have all of the Open Force Field pacakges distributed on
 
 ## January Developers Workshop in Irvine
 
-Two weeks prior to this meeting, the infrastructure team led a workshop at UC Irvine to lay out the technologies that will be used by developers in the Open Force Field Consortium. Some package developers were new to these technologies, while others were already familiar with many of them. 
+Two weeks prior to this meeting, the infrastructure team led a workshop at UC Irvine to lay out the technologies that will be used by developers in the Open Force Field Consortium. Some package developers were new to these technologies, while others were already familiar with many of them.
 
-The main goal of the workshop was to get each package developer running with at least minimally functional Travis, CodeCov, ReadTheDocs, and LGTM integrations. To provide this functionality, each developer installed `cookiecutter` and used it to download and personalize their own version of the most recent MolSSI cookiecutter repository. 
+The main goal of the workshop was to get each package developer running with at least minimally functional Travis, CodeCov, ReadTheDocs, and LGTM integrations. To provide this functionality, each developer installed `cookiecutter` and used it to download and personalize their own version of the most recent MolSSI cookiecutter repository.
 
-Depending on the maturity of the project, developers then either moved their source code inside of their newly-stamped  cookiecutter repo, or moved a few files (`.travis.yml`, `versioneer.py`, `CODE_OF_CONDUCT`, `lgtm.yml`, `setup.cfg`, ) and directories (`devtools`, `docs/`) from the newly-stamped repo into their existing source code. 
+Depending on the maturity of the project, developers then either moved their source code inside of their newly-stamped  cookiecutter repo, or moved a few files (`.travis.yml`, `versioneer.py`, `CODE_OF_CONDUCT`, `lgtm.yml`, `setup.cfg`, ) and directories (`devtools`, `docs/`) from the newly-stamped repo into their existing source code.
 
 Most of the workshop was focused on bringing Travis online for each component, as its build system enumerates package dependencies and lets us check whether the packages can build completely from conda-forge
 
 
 ## YAMLs
 
-YAML is a general serialization format for data. In the context of the MolSSI cookiecutter, YAML files contain configuration instructions for the service integrations such as Travis. Since there are so many YAML files from the cookiecutter, we thought it would be helpful to put out a guide for which YAMLs should and shouldn't be modified from the cookiecutter. 
+YAML is a general serialization format for data. In the context of the MolSSI cookiecutter, YAML files contain configuration instructions for the service integrations such as Travis. Since there are so many YAML files from the cookiecutter, we thought it would be helpful to put out a guide for which YAMLs should and shouldn't be modified from the cookiecutter.
 
 
 
@@ -71,12 +73,3 @@ YAML is a general serialization format for data. In the context of the MolSSI co
   * Don’t touch
 * .lgtm.yml
   * Don’t touch
-
-
-
-
-
-
-
-
-
