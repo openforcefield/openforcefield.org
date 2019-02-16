@@ -34,8 +34,7 @@
     pages: 402
     year: 2019
     nihmsid: 1012523
-  github:
-    url: https://github.com/openforcefield/smarty
+  github: openforcefield/smarty
 - title: "Uncertainty quantification confirms unreliable extrapolation toward high pressures for united-atom Mie $\\lambda$-6 force field"
   authors: "Richard A. Messerly, Michael R. Shirts, and Andrei F. Kazakov"
   summary: We demonstrate how Bayesian approaches can be used to estimate the reliability of predictions made with molecular mechanics force fields.
@@ -98,9 +97,8 @@
     pages: 1559
     year: 2017
     date: 2017-04-24
-    pmcid: PMC5648357 
-  github:
-    url: https://github.com/mobleylab/freesolv
+    pmcid: PMC5648357
+  github: mobleylab/freesolv
 - title: "Towards Automated Benchmarking of Atomistic Forcefields: Neat Liquid Densities and Static Dielectric Constants from the ThermoML Data Archive"
   authors: "Kyle A. Beauchamp, Julie M. Behr, Ariën S. Rustenburg, Christopher I. Bayly, Kenneth Kroenlein, and John D. Chodera"
   summary: Progress in forcefield validation and parameterization has been hindered by the availability of high-quality machine-readable physical property data for small organic molecules. We show how the NIST ThermoML dataset provides a solution to this problem, and demonstrate its utility in benchmarking the GAFF/AM1-BCC small molecule forcefield on neat liquid densities and static dielectric constants to uncover problems in the representation of low-dielectric environments.
@@ -119,5 +117,4 @@
     year: 2015
     date: 2015-09-04
     pmcid: PMC4667959
-  github:
-    url: https://github.com/choderalab/LiquidBenchmark
+  github: choderalab/LiquidBenchmark
