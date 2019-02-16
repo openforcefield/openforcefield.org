@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Force Field Consortium Workshop on Open Force Field Initiative</title>
+    <link>//openforcefield.org/categories/open-force-field-consortium-workshop/</link>
+    <description>Recent content in Open Force Field Consortium Workshop on Open Force Field Initiative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//openforcefield.org/categories/open-force-field-consortium-workshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>January 7-8, 2019 Consortium Workshop</title>
+      <link>//openforcefield.org/consortium/minutes/2019-01-07-minutes/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/consortium/minutes/2019-01-07-minutes/</guid>
+      <description>Minutes: Attending: All PIs and software scientists; most industry partners, postdocs, and students (including via Zoom); academic and industry community members
+Visit the agenda page for more details of the workshop.</description>
+    </item>
+    
+  </channel>
+</rss>

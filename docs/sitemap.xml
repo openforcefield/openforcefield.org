@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//openforcefield.org/consortium/minutes/2019-01-23-minutes/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/science/updates/2019-01-22-infrastructure/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
   </url>
@@ -58,6 +63,24 @@
   </url>
   
   <url>
+    <loc>//openforcefield.org/tags/advisory-board/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/tags/advisory-board-meeting/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/categories/advisory-board-meeting-minutes/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/tags/agenda/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -65,6 +88,7 @@
   
   <url>
     <loc>//openforcefield.org/categories/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -95,6 +119,18 @@
   </url>
   
   <url>
+    <loc>//openforcefield.org/tags/governing-board-meeting/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/categories/governing-board-meeting-minutes/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/tags/maintainers/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -111,8 +147,8 @@
   </url>
   
   <url>
-    <loc>//openforcefield.org/categories/minutes/</loc>
-    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <loc>//openforcefield.org/tags/minutes/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -134,8 +170,20 @@
   </url>
   
   <url>
+    <loc>//openforcefield.org/tags/open-force-field-consortium/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//openforcefield.org/consortium/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/categories/open-force-field-consortium-workshop/</loc>
     <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -146,7 +194,7 @@
   
   <url>
     <loc>//openforcefield.org/</loc>
-    <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -186,13 +234,19 @@
   
   <url>
     <loc>//openforcefield.org/tags/</loc>
-    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//openforcefield.org/tags/website/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//openforcefield.org/tags/workshop/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

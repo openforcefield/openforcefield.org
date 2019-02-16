@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minutes on Open Force Field Initiative</title>
+    <link>//openforcefield.org/tags/minutes/</link>
+    <description>Recent content in Minutes on Open Force Field Initiative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//openforcefield.org/tags/minutes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>January 23, 2019 Advisory Board Meeting</title>
+      <link>//openforcefield.org/consortium/minutes/2019-01-23-minutes/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/consortium/minutes/2019-01-23-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 23 Jan 2019. The minutes are summarized as follows:
+Open Forcefield Advisory Board Meeting Minutes – January 23, 2019  RDKit Integration  Key infrastructure seems to be working Currently implementing testing to make sure energies/parameters are same between RDKit and OpenEye toolkit backends Documentation being worked on Limited to SDF file format initially RDKit support being added initially for OpenFF toolkit, not for other packages being used internally for parameter development Bespoke torsion parameterization tool will be able to use RDKit or other wholly open-source backend  Workflows  Workflow documentation / example requests should be posted to #documentation Slack channel Some suggested workflows from agenda and discussion: Parameterization of protein-ligand system using SMIRNOFF Conformer energy evaluation Minimization of multiple ligands from SDF file (is this with protein, without, both?</description>
+    </item>
+    
+    <item>
+      <title>October 11, 2018 Governing Board Meeting</title>
+      <link>//openforcefield.org/consortium/minutes/2018-10-11-minutes/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/consortium/minutes/2018-10-11-minutes/</guid>
+      <description>Agenda:  October meeting draft agenda and start time January meeting location Maat hiring Slack Funding processing update/onboarding update Involvement with science meetings (subprojects) and project planning Discuss blog posts? Yes, just get sub-groups to do brief updates after meetings; better for keeping people up to date.  Minutes: Attending: All PIs except Shirts, and both industry members, Thomas Fox and Katharina Meier
+Shared the detailed budget outline Google Doc and went over the personnel who would be involved and their distribution across different locations, $ amounts, etc.</description>
+    </item>
+    
+    <item>
+      <title>October 29, 2018 Joint Governing/Advisory Board Meeting</title>
+      <link>//openforcefield.org/consortium/minutes/2018-10-29-minutes/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/consortium/minutes/2018-10-29-minutes/</guid>
+      <description>Minutes: Attending: All PIs, both governing board members, and most advisory board members, via Zoom.
+Short-term roadmap/minimum viable product: In general folks are supportive of current effort plans. However, there was consensus we need a tool for bespoke parameterization of molecules, especially internal molecules which might not be able to be disclosed to the larger effort, as part of our minimum viable product.
+Funding/financials:  Currently we have eight partners on board (with openforcefield.</description>
+    </item>
+    
+  </channel>
+</rss>

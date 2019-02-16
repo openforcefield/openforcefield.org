@@ -6,16 +6,26 @@
     <description>Recent content in Categories on Open Force Field Initiative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 26 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//openforcefield.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Minutes</title>
-      <link>//openforcefield.org/categories/minutes/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <title>Advisory Board Meeting Minutes</title>
+      <link>//openforcefield.org/categories/advisory-board-meeting-minutes/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//openforcefield.org/categories/minutes/</guid>
+      <guid>//openforcefield.org/categories/advisory-board-meeting-minutes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Governing Board Meeting Minutes</title>
+      <link>//openforcefield.org/categories/governing-board-meeting-minutes/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/categories/governing-board-meeting-minutes/</guid>
       <description></description>
     </item>
     
@@ -25,6 +35,15 @@
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>//openforcefield.org/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Consortium Workshop</title>
+      <link>//openforcefield.org/categories/open-force-field-consortium-workshop/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/categories/open-force-field-consortium-workshop/</guid>
       <description></description>
     </item>
     
