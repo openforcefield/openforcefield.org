@@ -25,6 +25,20 @@
 {{ end }}
 </ul>
 
+<!-- Consultants -->
+
+<h2>Consultants</h2>
+
+<ul>
+{{ range $.Site.Data.members }}
+  {{ if eq .role "Consultant" }}
+  <div class="row gutters">
+    {{ partial "person" . }}
+  </div>
+  {{ end }}
+{{ end }}
+</ul>
+
 <!-- Software Scientists -->
 
 <h2>Software Scientists</h2>
@@ -53,6 +67,7 @@
 {{ end }}
 </ul>
 
+<!-- Researchers -->
 
 </div>
 {{ end }}
