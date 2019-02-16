@@ -9,10 +9,11 @@
 </div>
 
 <div id="kube-faq">
-{{.Content}}
+  {{.Content}}
 </div>
 
 <ul id="posts">
+  <h1>Science Updates</h1>
   {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
   <section>{{ partial "pagination" .}}</section>
 </ul>

@@ -59,7 +59,7 @@
     <item>
       <title>General</title>
       <link>//openforcefield.org/tags/general/</link>
-      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>//openforcefield.org/tags/general/</guid>
       <description></description>
@@ -71,6 +71,15 @@
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>//openforcefield.org/tags/governing-board-meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maintainers</title>
+      <link>//openforcefield.org/tags/maintainers/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/tags/maintainers/</guid>
       <description></description>
     </item>
     

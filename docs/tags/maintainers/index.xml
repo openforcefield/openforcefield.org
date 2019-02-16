@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maintainers on Open Force Field Initiative</title>
+    <link>//openforcefield.org/tags/maintainers/</link>
+    <description>Recent content in Maintainers on Open Force Field Initiative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//openforcefield.org/tags/maintainers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Infrastructure Update</title>
+      <link>//openforcefield.org/science/updates/2019-01-22-infrastructure/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//openforcefield.org/science/updates/2019-01-22-infrastructure/</guid>
+      <description>Participants Caitlin Bannan (Mobley group), Simon Boothroyd (Chodera group), John Chodera (MSKCC), Hyesu Jang (Wang group), Victoria Lim (Mobley group), Jessica Maat (Mobley group), Owen Madin (Shirts group), David Mobley (UC Irvine), Levi Naden (MolSSI), Jessica Nash (MolSSI), Yudong Qiu (Wang group), Andrea Rizzi (Chodera group), Michael Schauperl (Gilson group), David Slochower (Gilson group), Daniel Smith (MolSSI), Chaya Stern (Chodera group), Jeff Wagner (OpenFF), Lee-Ping Wang (UC Davis)
+Glossary MolSSI Cookiecutter: The MolSSI project cookiecutter for compuational and molecular sciences projects.</description>
+    </item>
+    
+  </channel>
+</rss>
