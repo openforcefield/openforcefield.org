@@ -11,6 +11,7 @@
 {{.Content}}
 </div>
 <ul id="posts">
+  <h1> Meeting Minutes</h1>
   {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
   <section>{{ partial "pagination" .}}</section>
 </ul>

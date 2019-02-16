@@ -38,6 +38,3 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 - Katharina Meier (Bayer)
 - Arjun Narayanan (Vertex), Secretary
 - Additional members to be disclosed following legal approval
-
-### Meeting Minutes
-
