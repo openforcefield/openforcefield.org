@@ -27,11 +27,11 @@
 
 <!-- Consultants -->
 
-<h2>Consultants</h2>
+<h2>Advisors</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if eq .role "Consultant" }}
+  {{ if eq .role "Advisor" }}
   <div class="row gutters">
     {{ partial "person" . }}
   </div>
