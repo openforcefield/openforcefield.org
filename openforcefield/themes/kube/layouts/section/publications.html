@@ -21,42 +21,9 @@
 
   <!-- Iterate over publiations -->
   <ul>
-  {{ range $.Site.Data.publications.publications }}
+  {{ range sort $.Site.Data.publications.publications ".date" "desc" }}
     <div class="row gutters">
-
-      <!-- Publication graphic -->
-      <div class="col col-2">
-        {{ if .img }} <img src=img/{{ .img }}> {{ end }}
-      </div>
-
-      <!-- Text content -->
-      <div class="col col-10">
-        <h5><b>{{ .title }}</b></h5>
-        <p>
-          {{ .authors }}<br>
-
-          {{ with .preprint }}
-            Preprint ahead of publication: <a href={{ .url }}>[{{ .server }}]</a>
-            {{ partial "license" . }}
-            <br>
-          {{ end }}
-
-          {{ with .published }}
-            Published: <b>{{ .journal }}</b> {{ with .volume }}{{ . }}:{{ end }}{{ with .pages }}{{ . }},{{ end }} {{ with .year }}{{ . }}{{ end }}. <a href={{ .doi }}>[DOI]</a>
-            {{ partial "license" . }}
-            <br>
-          {{ end }}
-
-          {{ with .github }}
-              Code accompanying the publication: <a href={{ .url }}>[GitHub]</a>
-              <br>
-          {{ end }}
-
-          <i>{{ .summary }}</i><br>
-        </p>
-      </div>
-
-    </div>
+      {{ partial "publication" . }}
     <hr>
   {{ end }}
   </ul>
