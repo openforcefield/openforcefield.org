@@ -62,64 +62,81 @@ where the file `gaff-densities.jpg` is located in `content/science/updates/YYYY-
 name: John D. Chodera
 role: Primary Investigator
 lab: Chodera lab
-title: Assistant Member
+title: Associate Member
 institution: Sloan Kettering Institute
 img: john-chodera.jpg
 webpage: "http://choderalab.org"
 description: Automated Bayesian force field fitting and prediction of systematic error
 google_scholar: http://goo.gl/qO0JW
 ORCID: 0000-0003-0542-119X
+twitter: jchodera
+github: jchodera
 ```
-where `role` can be `Researcher` or `Primary Investigator`.
+where `role` can be `Researcher`, `Advisor`, `Software Scientist`, or `Primary Investigator`.
 
 ### Adding new publications
 
 1. Add a thumbnail image to `content/publications/img`
 2. Add an entry to the YAML file `data/publications/publications.yaml` in the following format:
 ```YAML
+- title: "Escaping atom types using direct chemical perception"
+  authors: "David Mobley, Caitlin C. Bannan, Andrea Rizzi, Christopher I. Bayly, John D. Chodera, Victoria T Lim, Nathan M. Lim, Kyle A. Beauchamp, Michael R. Shirts, Michael K. Gilson, and Peter K. Eastman"
+  summary: This paper introduces the SMIRNOFF format in the context of traditional force fields, explains the development and validation of our new small molecule force field smirnoff99Frosst, and highlights some directions the initiative is headed.
+  img: smirnoff-v0.1.png
+  date: 2018-10-11
+  preprint:
+    server: bioRxiv
+    url: https://doi.org/10.1101/286542
+    license: "CC BY 4.0"
+    date: 2018-07-13
+  published:
+    doi: 10.1021/acs.jctc.8b00640
+    journal: Journal of Chemical Theory and Computation
+    date: 2018-10-11
+    volume: 14
+    pages: 6076
+    year: 2018
+    pmcid: PMC6245550
 - title: "Toward learned chemical perception of force field typing rules"
   authors: "Camila Zanette, Caitlin C. Bannan, Christopher I. Bayly, Josh Fass, Michael K. Gilson, Michael R. Shirts, John Chodera, and David L. Mobley"
-  summary: This paper introduces the SMIRNOFF format in the context of traditional force fields, explains the development and validation of our new small molecule force field smirnoff99Frosst, and highlights some directions the initiative is headed.
+  summary: Here, we introduce a proof of principle for automatically sampling chemical perception compared to traditional atom typed force fields and our SMIRNOFF format.
   img: smarty.jpg
+  date: 2018-12-04
   preprint:
     server: chemRxiv
     url: https://chemrxiv.org/articles/Toward_Learned_Chemical_Perception_of_Force_Field_Typing_Rules/6230627
-    license: "CC-BY 4.0"
+    license: "CC BY 4.0"
     date: 2018-08-06
-  github:
-    url: https://github.com/openforcefield/smarty
-- title: "Uncertainty quantification confirms unreliable extrapolation toward high pressures for united-atom Mie $\\lambda$-6 force field"
-  authors: "Richard A. Messerly, Michael R. Shirts, and Andrei F. Kazakov"
-  summary: We demonstrate how Bayesian approaches can be used to estimate the reliability of predictions made with molecular mechanics force fields.
-  img: mie-potential.png
   published:
-    doi: https://doi.org/10.1063/1.5039504
-    journal: The Journal of Chemical Physics
-    volume: 149
-    pages: 114109
-    year: 2018
-    license: "Public Domain"
-    date: 2018-09-21
+    doi: 10.1021/acs.jctc.8b00821
+    journal: Journal of Chemical Theory and Computation
+    date: 2018-12-04
+    volume: 15
+    pages: 402
+    year: 2019
+    nihmsid: 1012523
+  github: openforcefield/smarty
 ```
-The `preprint`, `published`, and `github` fields are optional, though at least one should be specified.
+* The `preprint`, `published`, and `github` fields are optional, though at least one should be specified.
+* For preprints, `server` can either be `bioRxiv` or `chemRxiv`.
+* For published papers, the `pmcid` ([PubMed Central PMCID](https://www.mbl.edu/osp/2015/08/31/nih-pmid-vs-pmcid-whats-the-difference/)) should be specified. If the article doesn't yet have a PMCID, be sure to [submit it to PubMed Central](https://www.nihlibrary.nih.gov/services/editing/pubmed-central-submission-assistance) and report the `nihmsid` instead. Failure to do so will jeopardize our NIH grants.
+* Each `preprint` block should list a `url`, while `published` blocks should report a `doi` (not a URL).
+* The `license` can be one of `CC BY 4.0` or `Public Domain`. Please ensure all manuscripts are available via one of these licenses, as other licenses violate the terms of the Open Force Field Consortium.
 
 ## Preview the website locally
 
 0. [Download and install Hugo](https://gohugo.io/getting-started/installing/).
 1. In the `openforcefield/` directory, run `hugo server -D`
 2. Copy the Web address from this line (in this example, it is `localhost:1313`):
-
-```Web Server is available at //localhost:1313/ (bind address 127.0.0.1)```
-
+```
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+```
 3. Paste the Web address into your browser
 
 ## Building and deploying
 
-0. [Download and install Hugo](https://gohugo.io/getting-started/installing/).
-1. In the `openforcefield/` directory, run `hugo` to rebuild the static site
-2. Make sure any new files in `docs/` are added to the commit:
-```bash
-cp CNAME docs/
-git add docs/*
-```
-3. Commit the changes and push the repository to `master`
+0. Make sure you have [downloaded and installed Hugo](https://gohugo.io/getting-started/installing/).
+1. Create a new branch with `git checkout -b <mybranch>`, where `<mybranch>` is the name of your new branch.
+2. Run `./rebuild.sh` to rebuild the `docs/` directory and add any missing files to `git`
+3. Commit the changes (`git commit .`) and push the repository to your branch (`git push origin <mybranch>`)
+4. Open a PR and request review
