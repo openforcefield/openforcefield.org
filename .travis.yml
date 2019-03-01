@@ -3,6 +3,7 @@ language: go
 go:
     - master
 
+
 install:
     - go get github.com/gohugoio/hugo
 
@@ -21,4 +22,4 @@ deploy:
   keep-history: true
   local-dir: public
   on:
-    branch: master
+    branch: travis_deploy
