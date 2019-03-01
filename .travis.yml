@@ -1,0 +1,25 @@
+dist: xenial
+language: go
+go:
+    - master
+
+
+install:
+    - go get github.com/gohugoio/hugo
+
+before_script:
+    - rm -rf public 2> /dev/null
+
+script:
+    - hugo
+    - echo "$CNAME_URL" > public/CNAME
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  verbose: true
+  keep-history: false
+  local-dir: public
+  on:
+    branch: master

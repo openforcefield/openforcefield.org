@@ -1,0 +1,61 @@
+baseURL = '//openforcefield.org/'
+languageCode = "en-us"
+title = "Open Force Field Initiative"
+theme = "kube"
+description = "A new approach to modern collaborative biomolecular force field development based on open source software, open science, and high-quality curated open datasets."
+Paginate = 4
+publishDir = "./public"
+pygmentsCodefences = true
+pygmentsStyle = "colorful"
+
+[Params]
+  RSSLink = "/index.xml"
+  author = "newpixcom" # add your company name
+  github = "https://github.com/openforcefield" # add your github profile name
+  twitter = "openforcefield" # add your twitter profile
+  email = "john.chodera@choderalab.org"
+
+[[menu.main]]
+    name = "News"
+    weight = -100
+    url = "/news/"
+[[menu.main]]
+    name = "Code"
+    weight = -90
+    url = "https://github.com/openforcefield/"
+#[[menu.main]]
+#    name = "Docs"
+#    weight = -80
+#    url = "https://open-forcefield-toolkit.readthedocs.io/en/topology/"
+[[menu.main]]
+    name = "Data"
+    weight = -70
+    url = "/datasets/"
+[[menu.main]]
+    name = "Science"
+    weight = -60
+    url = "/science/"
+[[menu.main]]
+    name = "Publications"
+    weight = -50
+    url = "/publications/"
+[[menu.main]]
+    name = "Force fields"
+    weight = -40
+    url = "/forcefields/"
+[[menu.main]]
+    name = "Members"
+    weight = -30
+    url = "/members/"
+[[menu.main]]
+    name = "Consortium"
+    weight = -20
+    url = "/consortium/"
+[[menu.main]]
+    name = "FAQ"
+    weight = -10
+    url = "/faq/"
+[[menu.main]]
+    name = "Jobs"
+    weight = 0
+    url = "/jobs/"

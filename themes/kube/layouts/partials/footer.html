@@ -1,0 +1,57 @@
+  <footer id="footer">
+    <nav>
+      <ul>
+        <li><span>Open Force Field Initiative</span></li>
+        <li>
+          <a href="/about-us/">About Us</a>
+        </li>
+        <li>
+          <a href="/contact-us/">Contact Us</a>
+        </li>
+          <li>
+          <a href="/join/">Join the Consortium</a>
+        </li>
+      </ul>
+    </nav>
+    <p>All materials licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons By Attribution (CC-BY) 4.0</a></p>
+
+  </footer>
+
+
+
+  <!-- LaTeX style equation processing -->
+  <!-- Solution from: http://nosubstance.me/post/a-great-toolset-for-static-blogging/ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+  <script>
+    renderMathInElement(document.body,
+      {
+          delimiters: [
+              {left: "$$", right: "$$", display: true},
+              {left: "$", right: "$", display: false},
+          ]
+      }
+    );
+
+    var inlineMathArray = document.querySelectorAll("script[type='math/tex']");
+    for (var i = 0; i < inlineMathArray.length; i++) {
+      var inlineMath = inlineMathArray[i];
+      var tex = inlineMath.innerText || inlineMath.textContent;
+      var replaced = document.createElement("span");
+      replaced.innerHTML = katex.renderToString(tex, {displayMode: false});
+      inlineMath.parentNode.replaceChild(replaced, inlineMath);
+    }
+
+    var displayMathArray = document.querySelectorAll("script[type='math/tex; mode=display']");
+    for (var i = 0; i < displayMathArray.length; i++) {
+      var displayMath = displayMathArray[i];
+      var tex = displayMath.innerHTML;
+      var replaced = document.createElement("span");
+      replaced.innerHTML = katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+      displayMath.parentNode.replaceChild(replaced, displayMath);
+    }
+  </script>
+
+  <script>renderMathInElement(document.body);</script>
