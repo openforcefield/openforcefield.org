@@ -6,9 +6,7 @@ This website is hosted by [GitHub Pages](https://pages.github.com/) at http://op
 
 Changes should be contributed as pull requests.
 
-Only the source files in `openforcefield/` should be changed.
-
-You will primarily want to focus on changing the following Markdown files in `openforcefield/content/`:
+You will primarily want to focus on changing the following Markdown files in `content/`:
 * `_index.md`: main landing page content (some detail is in `themes/kube/layouts/index.html`)
 * `news/`: Add new news posts here as separate Markdown files, using a header like
 ```yaml
@@ -57,7 +55,7 @@ where the file `gaff-densities.jpg` is located in `content/science/updates/YYYY-
 ### Adding new members
 
 1. Add an image to `content/members/img/` (e.g. `firstname-lastname.jpg`).
-2. Add a YAML file `firstname-lastname.yaml` to `openforcefield/data/members/` in the following format:
+2. Add a YAML file `firstname-lastname.yaml` to `data/members/` in the following format:
 ```YAML
 name: John D. Chodera
 role: Primary Investigator
@@ -126,17 +124,19 @@ where `role` can be `Researcher`, `Advisor`, `Software Scientist`, or `Primary I
 ## Preview the website locally
 
 0. [Download and install Hugo](https://gohugo.io/getting-started/installing/).
-1. In the `openforcefield/` directory, run `hugo server -D`
+1. In the top-level directory, run `hugo server -D`
 2. Copy the Web address from this line (in this example, it is `localhost:1313`):
 ```
 Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
 ```
 3. Paste the Web address into your browser
 
-## Building and deploying
+## Making changes
 
-0. Make sure you have [downloaded and installed Hugo](https://gohugo.io/getting-started/installing/).
 1. Create a new branch with `git checkout -b <mybranch>`, where `<mybranch>` is the name of your new branch.
-2. Run `./rebuild.sh` to rebuild the `docs/` directory and add any missing files to `git`
-3. Commit the changes (`git commit .`) and push the repository to your branch (`git push origin <mybranch>`)
-4. Open a PR and request review
+2. Commit the changes (`git commit .`) and push the repository to your branch (`git push origin <mybranch>`)
+3. Open a PR and request review
+
+## Deploying
+
+Deploying is handled by a Travis build service. Commits/PRs into master will trigger a new build, which can be monitored [here](https://travis-ci.org/openforcefield/openforcefield.org). Once built, travis will push the content to the `gh-pages` branch of `openforcefield.org`, which the website is now served from.
