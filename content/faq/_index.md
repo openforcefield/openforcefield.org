@@ -24,6 +24,8 @@ The Open Force Field Consortium is an industry-funded effort to develop small mo
 ## Do you have plans to broaden your effort to include protein and biopolymer force fields?
 
 We would like to partner with the biopolymer force field community to build a family of fully consistent general biopolymer and small molecule force fields, with the goal of fully consistent handling of biopolymers and small molecules, including natural (proteins, RNA, DNA) and unnatural (e.g. peptoids) biopolymers, as well as posttranslational modifications and nonnatural amino acids. Handling of unusual nonnatural amino acids or bases can be a major headache with current force fields, but our approach will allow a single simple force field to consistently treat biopolymers and small molecules. This expanded effort is not within the current scope of Consortium funding, and would benefit from bringing in partners with significant expertise in biopolymer force field development.
+To this end, we have [applied for federal funding](http://openforcefield.org/news/seeking-nih-funding) allow us to broaden the scope of the Initiative beyond the Consortium-funded focus on small molecules to cover complex biomolecular systems.
+We aim for our effort to be synergistic with, not competitive with, existing force field efforts, and are always excited to support other efforts to seek funding for exciting new force field science---see **Requesting Letters of Collaboration** below if you would like us to demonstrate our support in your application for funding.
 
 ## Will your effort compete with other force field projects?
 
@@ -34,6 +36,13 @@ We firmly believe that research in this space is not a zero-sum game; with the r
 ## Can we use your software in our force field effort?
 
 Yes! Everything is open source under permissive licenses (generally the MIT License). We are also open to suggestions from the community, as well as community input on the codes and research directions. Please contribute to our GitHub issue trackers for projects at http://github.com/openforcefield, or even feel free to contribute code if you find it useful!
+Our [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirnoff.html) force field specification is an excellent way to ensure your force field will be portable between many biomolecular simulation packages, and we intend for our tools for force field parameterization to also be widely useful in addressing exciting questions in force field science.
+
+## Requesting Letters of Collaboration
+
+We aim for our effort to be synergistic with, not competitive with, existing force field efforts, and are always excited to support other efforts to seek funding for exciting new force field science and technology.
+We can articulate how our effort synergizes with yours through a Letter of Support that can be included with your funding application to agencies such as the NIH or NSF.
+To request a letter of support, please email [one of the Primary Investigators](https://openforcefield.org/members/) with the subject like "Requesting a Letter of Support from the Open Force Field Initiative" and include some information about your project.
 
 ## How can we collaborate with you?
 
