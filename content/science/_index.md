@@ -21,4 +21,4 @@ Roadmap Presentation at January 2019 Consortium Workshop [[DOI]](http://10.13140
 
 # Submitted proposals
 
-- [NIH Focused Technology Research & Development R01](https://grants.nih.gov/grants/guide/pa-files/PAR-17-045.html), submitted 5 Mar 2019: [PDF](proposals/2019-03-05 Open Force Field Initiative R01 science.pdf)
+- Read more about our proposal to extend our approach to complex heterogeneous biomolecular systems in our [NIH Focused Technology Research & Development R01](https://grants.nih.gov/grants/guide/pa-files/PAR-17-045.html) proposal, submitted 5 Mar 2019: [PDF](proposals/2019-03-05 Open Force Field Initiative R01 science.pdf)
