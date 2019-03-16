@@ -1,10 +1,10 @@
 ---
 date: "2019-03-16T00:00:00+00:00"
-title: "Open Force Field Initiative seeks NIH funding"
+title: "Open Force Field Initiative applies for NIH funding"
 tags: ["Open Force Field Initiative", "NIH", "funding"]
 categories: ["news"]
 draft: false
-description: "The Open Force Field Initiative is seeking NIH funding to produce modern toolkits and high-quality biomolecular force fields to model complex heterogeneous biomolecular systems."
+description: "The Open Force Field Initiative has applied for NIH R&D funding to produce modern toolkits and high-quality biomolecular force fields to model complex heterogeneous biomolecular systems"
 markup: mmark
 weight: 10
 author: "John Chodera"
