@@ -39,13 +39,13 @@
 {{ end }}
 </ul>
 
-<!-- Scientific Managers -->
+<!-- Scientific Coordinators -->
 
-<h2>Advisors</h2>
+<h2>Scientific Coordinators</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if eq .role "Scientific Manager" }}
+  {{ if eq .role "Scientific Coordinator" }}
   <div class="row gutters">
     {{ partial "person" . }}
   </div>
