@@ -39,6 +39,20 @@
 {{ end }}
 </ul>
 
+<!-- Scientific Managers -->
+
+<h2>Advisors</h2>
+
+<ul>
+{{ range $.Site.Data.members }}
+  {{ if eq .role "Scientific Manager" }}
+  <div class="row gutters">
+    {{ partial "person" . }}
+  </div>
+  {{ end }}
+{{ end }}
+</ul>
+
 <!-- Software Scientists -->
 
 <h2>Software Scientists</h2>
