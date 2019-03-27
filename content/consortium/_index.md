@@ -38,5 +38,6 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 - Katharina Meier (Bayer)
 - Arjun Narayanan (Vertex), Secretary
 - Alireza Shabani (Qulab)
+- Xinjun Hou (Pfizer)
 - Doree Sitkoff (Bristol-Myers Squibb)
 - Additional members to be disclosed following legal approval
