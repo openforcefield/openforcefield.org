@@ -78,14 +78,17 @@ At this early stage in the 0.2 toolkit series, we expect to initially release a 
 
 Several features are not yet available in the toolkit, and will be rolled out in the coming months.
 These include:
- * more convenient and robust functions to export to other simulation packages
  * reading partial charges from SDF files
- * support for parameterizing biopolymers
  * assignment of library charges
- * SMIRKS-based bond-charge corrections
- * flexible partial charge calculations beyond AM1-BCC
  * valence parameter interpolation based on fractional bond order
  * SMIRKS-based GBSA parameterization
+ * more convenient and robust functions to export to other simulation packages
+
+
+We also expect to make several other changes and enhancements on a somewhat longer timescale:
+ * SMIRKS-based bond-charge corrections
+ * flexible partial charge calculations beyond AM1-BCC
  * support for virtual sites.
+ * support for parameterizing biopolymers
 
 If you'd like to stay up to date on our progress toward these features, you can watch our progress on our [project milestones](https://github.com/openforcefield/openforcefield/milestones).
