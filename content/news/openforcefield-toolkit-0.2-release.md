@@ -68,7 +68,7 @@ We are especially interested in receiving feedback on:
 * new examples that you would like to see
 * issues with the installation or build process
 
-We've worked hard to ensure that the Open Force Field toolkit has close-to-identical behavior whether it's using the OpenEye or RDKit cheminformatics toolkits, and will continue to work with toolkit developers to ensure that it is possible to get reproducible parameters and charges regardless of toolkit in the future. At this time, we expect the two toolkits to handle vast majority of molecules identically. However, we are aware of certain motifs which are perceived differently by the toolkits, are are interested in learning about any more that you encounter.
+We've worked hard to ensure that the Open Force Field toolkit has close-to-identical behavior whether it's using the OpenEye or RDKit cheminformatics toolkits, and will continue to work with toolkit developers to ensure that it is possible to get reproducible parameters and charges regardless of toolkit in the future. At this time, we expect the two toolkits to handle vast majority of molecules identically. However, we are aware of certain motifs which are perceived differently by the toolkits, and are interested in learning about any more that you encounter.
 
 ## What's coming up?
 
