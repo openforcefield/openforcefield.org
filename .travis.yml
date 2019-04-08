@@ -6,7 +6,7 @@ go:
 
 install:
     #- go get github.com/gohugoio/hugo@v0.54.0
-    - go get gopkg.in/gohugoio/hugo.v0.54.0
+    - go get gopkg.in/gohugoio/hugo.v0
 
 before_script:
     - rm -rf public 2> /dev/null
