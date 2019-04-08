@@ -26,7 +26,7 @@ This version of the toolkit is a big step on the way to our 1.0 release.
 
 First and foremost, the Open Force Field toolkit no longer requires an OpenEye license to assign SMIRNOFF parameters and partial charges. By default, [`conda`](https://conda.io) installation of the Open Force Field toolkit will now install open source cheminformatics toolkits ([the RDKit](http://rdkit.org) and [AmberTools](http://ambermd.org/AmberTools.php)) that provide capabilities to perceive chemical environments, assign charges, and parameterize systems in accordance with the [SMIRNOFF specification](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html).
 
-We have also made significant updates to SMIRNOFF the [SMIRNOFF spec v0.2](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html). The specification describes a data model for a flexible way of describing force fields that encompasses the broad range of science that our toolkit aims to enable, and shows how we expose relevant parameters in different energy components to enable rapid experimentation and improvement. While the SMIRNOFF spec currently describes an [XML serialization format](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html#xml-representation), future iterations will also support other internet-friendly serialization schemes, like [JSON](https://www.json.org/) or [MessagePack](https://msgpack.org/index.html).
+We have also made significant updates to SMIRNOFF the [SMIRNOFF spec v0.2](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html). The specification lays out a flexible data model for describing force fields that encompasses the broad range of science that our toolkit aims to enable, and shows how we expose relevant parameters in different energy components to enable rapid experimentation and improvement. While the SMIRNOFF spec currently describes an [XML serialization format](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html#xml-representation), future iterations will also support other internet-friendly serialization schemes, like [JSON](https://www.json.org/) or [MessagePack](https://msgpack.org/index.html).
 
 Behind the scenes, significant engineering has gone into making the toolkit extensible and easier to use by other force field developers. Specifically, the machinery that powers our SMIRKS-based typing has been exposed to a much larger degree, exposing [new portable molecular topology objects](https://open-forcefield-toolkit.readthedocs.io/en/latest/topology.html) and [modular parameter classes](https://open-forcefield-toolkit.readthedocs.io/en/latest/typing.html). We aim for these tools to lower the technical barrier to entry for force field scientists and developers so they can begin contributing to the Open Force Field ecosystem and doing exciting science with less hassle.
 
@@ -71,21 +71,22 @@ We are especially interested in receiving feedback on:
 We've worked hard to ensure that the Open Force Field toolkit has close-to-identical behavior whether you're using the OpenEye or RDKit cheminformatics toolkits, and will continue to work with toolkit developers to ensure that it is possible to get reproducible parameters and charges regardless of toolkit in the future. At this time, we expect the two toolkits to handle vast majority of molecules identically. However, we are aware of certain motifs which are perceived differently by the toolkits, are are interested in learning about any more that you encounter.
 
 ## What's coming up?
-
-At this early stage in the 0.2 toolkit series, we aim to rapidly (potentially weekly) release bugfix and optimization releases (0.2.1, 0.2.2, ...) and feature releases (0.3.0, 0.4.0, ...) following [standard versioning practices](https://www.python.org/dev/peps/pep-0440/).
+At this early stage in the 0.2 toolkit series, we expect to initially release a series of rapid (potentially even weekly) bugfix and optimization releases (0.2.1, 0.2.2, ...) and feature releases (0.3.0, 0.4.0, ...) following [standard versioning practices](https://www.python.org/dev/peps/pep-0440/).
 
 **Warning!** It is likely that our API will change between now and the 1.0 fully stable release. Please be aware of this if you are developing workflows based on the toolkit, as toolkit behavior may change significantly at that time.
 
-Several features are not yet available in the toolkit, and will be rolled out in the coming months.
+Several features are not yet available in the toolkit, and will be rolled out in the coming months. 
 These include:
- * more convenient and robust functions to export to other simulation packages
- * reading partial charges from SDF files
- * support for parameterizing biopolymers
- * assignment of library charges
- * SMIRKS-based bond-charge corrections
- * flexible partial charge calculations beyond AM1-BCC
+ * reading partial charges from SDF files 
+ * assignment of library charges   
  * valence parameter interpolation based on fractional bond order
  * SMIRKS-based GBSA parameterization
- * support for virtual sites.
+ * more convenient and robust functions to take parameterized systems from the `openforcefield` toolkit to ParmEd and/or InterMol for export to other simulation packages
+
+We also expect to make several other changes and enhancements on a somewhat longer timescale: 
+  * SMIRKS-based bond-charge corrections
+  * flexible partial charge calculations beyond AM1-BCC 
+  * support for virtual sites
+  * support for parameterizing biopolymers 
 
 If you'd like to stay up to date on our progress toward these features, you can follow our progress on [toolkit project milestones](https://github.com/openforcefield/openforcefield/milestones) page on GitHub.
