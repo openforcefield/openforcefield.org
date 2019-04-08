@@ -23,7 +23,7 @@ By default, the Open Force Field toolkit will now install with RDKit and AmberTo
 These open-source tools provide us the cheminformatics and molecular modeling support to parameterize systems in accordance with the SMIRNOFF spec.
 
 We have also updated the [SMIRNOFF specification](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) to version 0.2.
-This spec describes the science that our toolkit aims to cover, and shows how we expose the relevant variables in different energy components to enable experimentation and improvement. 
+This document describes the science that our toolkit aims to cover, and shows how we expose the relevant variables in different energy components to enable experimentation and improvement. 
 
 Behind the scenes, significant engineering has gone into making the toolkit extensible by other force field developers.
 Specifically, the machinery that powers our SMIRKS-based typing has been exposed to a much larger degree. 
@@ -36,7 +36,7 @@ These features are essential in order to support the toolkit's use in iterative 
 
 ## Accessing and running examples
 
-We've updated several of our examples to work with the 0.2.0 release, and now run all of them in Jupyter notebooks.
+We've updated several of our examples to work with the 0.2.0 release, and now present them in Jupyter notebooks.
 
 You can view a static version of these examples in [the Open Force Field Github repository](https://github.com/openforcefield/openforcefield/tree/master/examples).
 
@@ -44,15 +44,19 @@ Several examples can be run interactively on [binder](https://mybinder.org/).
 These have a special binder badge on their GitHub page. 
 Clicking on the badge will start an interactive session on [mybinder.org](mybinder.org), where you can run and modify the examples in an interactive session.
 
-To run our examples locally, [install the toolkit using conda](https://open-forcefield-toolkit.readthedocs.io/en/latest/installation.html), and also install jupyter.
+To run our examples locally, [first install the toolkit using conda](https://open-forcefield-toolkit.readthedocs.io/en/latest/installation.html), and then further install jupyter.
 
-``conda install jupyter``
+```
+conda install jupyter
+```
 
 Then, download the project data into your current directory using
 
-``git clone https://github.com/openforcefield/openforcefield.git``
+```
+git clone https://github.com/openforcefield/openforcefield.git
+```
 
-and access them using `jupyter-notebook`:
+and access them using: 
 
 ```
 cd openforcefield/examples/SMIRNOFF_simulation
@@ -63,7 +67,7 @@ Please let us know which new examples you would like to see by posting requests 
 
 ## How should I provide feedback?
 
-One of our biggest goals in putting this release out is to start gathering feedback.
+One of our primary goals in putting this release out is to start gathering feedback.
 If you have any questions or bugs to report, please post to the [Open Force Field issue tracker](https://github.com/openforcefield/openforcefield/issues) or contact us on the Open Force Field Slack.
 
 We are especially interested in receiving feedback on:
@@ -72,7 +76,7 @@ We are especially interested in receiving feedback on:
 * new examples that you would like to see
 * issues with the installation or build process
 
-We've worked to ensure that the Open Force Field toolkit has close-to-identical behavior whether it's using OpenEye or RDKit on the backend.
+We've worked hard to ensure that the Open Force Field toolkit has close-to-identical behavior whether it's using OpenEye or RDKit on the backend.
 At this time, we expect the two toolkits to handle vast majority of molecules identically.
 However, we are aware of certain motifs which are perceived differently by the toolkits, are are interested in learning about any more that you encounter.
 
@@ -86,16 +90,14 @@ These will be numbered 0.2.1, 0.2.2, and so on, and will initially see frequent 
 **Warning!** It is likely that our API will change between now and the 1.0.0 release. 
 Please be aware of this if you are developing workflows based on the toolkit, as toolkit behavior may change significantly at that time.
 
-Several features are not yet available in the toolkit, and will be rolled out in the coming months.
-
-These include:
+Several features are not yet available in the toolkit, and will be rolled out in the coming months. These include:
  * more convenient and robust functions to export to other simulation packages
  * reading partial charges from SDF files
  * support for parameterizing biopolymers
  * assignment of library charges 
- * SMIRKS-based BCCs 
- * partial charge calculations beyond AM1-BCC 
- * parameter interpolation based on fractional bond order 
+ * SMIRKS-based bond-charge corrections 
+ * flexible partial charge calculations beyond AM1-BCC 
+ * valence parameter interpolation based on fractional bond order 
  * SMIRKS-based GBSA parameterization
  * support for virtual sites. 
 
