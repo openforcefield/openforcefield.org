@@ -82,7 +82,7 @@ These include:
  * assignment of library charges
  * valence parameter interpolation based on fractional bond order
  * SMIRKS-based GBSA parameterization
- * more convenient and robust functions to export to other simulation packages
+ * more convenient and robust functions to take parameterized systems from the `openforcefield` toolkit to ParmEd and/or InterMol for export to other simulation packages
 
 
 We also expect to make several other changes and enhancements on a somewhat longer timescale:
