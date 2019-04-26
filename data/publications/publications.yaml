@@ -1,3 +1,14 @@
+- title: "Systematic Optimization of Water Models Using Liquid/Vapor Surface Tension Data"
+  authors: "Yudong Qiu, Paul S. Nerenberg, Teresa Head-Gordon, Lee-Ping Wang"
+  summary: This work investigates whether experimental surface tension measurements, which are less sensitive to quantum and self-polarization corrections, are able to replace the usual reliance on the heat of vaporization as experimental reference data for fitting force field models of molecular liquids.
+  img: LPW_Chemrxiv_20190423.jpg
+  date: 2019-04-26
+  preprint:
+    server: chemRxiv
+    url: https://chemrxiv.org/articles/Systematic_Optimization_of_Water_Models_Using_Liquid_Vapor_Surface_Tension_Data/8016293/1
+    license: "CC BY 4.0"
+    date: 2019-04-23
+  github: leeping/forcebalance
 - title: "Escaping atom types using direct chemical perception"
   authors: "David Mobley, Caitlin C. Bannan, Andrea Rizzi, Christopher I. Bayly, John D. Chodera, Victoria T Lim, Nathan M. Lim, Kyle A. Beauchamp, Michael R. Shirts, Michael K. Gilson, and Peter K. Eastman"
   summary: This paper introduces the SMIRNOFF format in the context of traditional force fields, explains the development and validation of our new small molecule force field smirnoff99Frosst, and highlights some directions the initiative is headed.
