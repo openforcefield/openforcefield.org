@@ -11,6 +11,8 @@ Read about where we're headed.
 
 [Executive Summary](downloads/roadmap/open-forcefield-summary.pdf) | [Detailed Project Plan](downloads/roadmap/open-forcefield-plan.pdf)
 
+[May 2019 Roadmap Update](downloads/roadmap/roadmap-graphic-may-2019-update.pdf)
+
 Roadmap Presentation at January 2019 Consortium Workshop [[DOI]](http://10.13140/RG.2.2.27587.86562)
 
 # Presentations
