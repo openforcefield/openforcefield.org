@@ -13,7 +13,7 @@ Read about where we're headed.
 
 [May 2019 Roadmap Update](downloads/roadmap/roadmap-graphic-may-2019-update.pdf)
 
-Roadmap Presentation at January 2019 Consortium Workshop [[DOI]](http://10.13140/RG.2.2.27587.86562)
+Roadmap Presentation at January 2019 Consortium Workshop [[DOI]](http://doi.org/10.5281/zenodo.3228414)
 
 # Presentations
 
