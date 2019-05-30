@@ -1,6 +1,6 @@
 ---
 date: "2019-03-05T00:00:00+00:00"
-title: "Torsion Meeting Summary (March 5, 2019)"
+title: "Torsion Meeting Summary (Mar 5, 2019)"
 tags: ["torsion", "QCFractal", "QCArchive", "TorsionDrive", "documentation", "infrastructure"]
 categories: ["science"]
 draft: false
