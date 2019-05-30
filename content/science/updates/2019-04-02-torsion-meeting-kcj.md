@@ -12,4 +12,6 @@ author: "Karmen Condic-Jurkic and Jeffrey Wagner"
 ---
 
 
-Low meeting attendance due to ACS Orlando meeting. There was an attempt to change the meeting schedule, but it didn't work out. Y. Qiu will update the [geomeTRIC](https://github.com/leeping/geomeTRIC) `conda-forge` package.
+Low meeting attendance due to ACS Orlando meeting. There was an attempt to change the meeting schedule, but no suitable alternative time was found.
+
+**GeomeTRIC**: Y. Qiu will be putting out an update to the [geomeTRIC](https://github.com/leeping/geomeTRIC) conda-forge package.
