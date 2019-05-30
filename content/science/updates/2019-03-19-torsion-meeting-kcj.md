@@ -1,6 +1,6 @@
 ---
 date: "2019-03-19T00:00:00+00:00"
-title: "Torsion Meeting Summary (March 19, 2019)"
+title: "Torsion Meeting Summary (Mar 19, 2019)"
 tags: ["torsion", "charges", "QCArchive", "CMILES", "TorsionDrive", "QC datasets", "Jupyter notebook"]
 categories: ["science"]
 draft: false
