@@ -13,7 +13,7 @@ author: "Karmen Condic-Jurkic and Jeffrey Wagner"
 
 This meeting generally focused on planning for the first round of parameter optimization.
 
-**OFF Toolkit:** J. Wagner presented the initial release of the [Open Force Field Toolkit](https://github.com/openforcefield/openforcefield), which includes specific Force Field modification tools that could be used by the [Wang lab](http://www.lpwchem.org/) / [ForceBalance](https://github.com/leeping/forcebalance) to more robustly handle OFFXML files and workflow integration.
+**OFF Toolkit:** J. Wagner presented the initial release of the [Open Force Field Toolkit](https://github.com/openforcefield/openforcefield), which includes specific Force Field modification tools that could be used by the [Lee-Ping Wang lab](http://www.lpwchem.org/) / [ForceBalance](https://github.com/leeping/forcebalance) to more robustly handle OFFXML files and workflow integration.
 
 **Torsion Workflow:** J. Chodera led a short discussion on the overall shape of the final workflow, and what the interface would be to push molecules through it. The workflow will eventually automate the process of moving data from molecules → fragments → torsions → QM → QCArchive result entries. For the initial rounds of processing, many of these steps will be run manually, however we expect to automate it as  we gain experience.
 
