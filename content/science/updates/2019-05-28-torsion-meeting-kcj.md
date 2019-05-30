@@ -1,6 +1,6 @@
 ---
 date: "2019-05-28T00:00:00+00:00"
-title: "Torsion Subgroup Meeting Summary"
+title: "Torsion Meeting Summary (May 28, 2019)"
 tags: ["torsion", "QCFractal", "QCArchive", "ForceBalance", "RDKit", "Fragmenter", "OFF Toolkit"]
 categories: ["science"]
 draft: false
