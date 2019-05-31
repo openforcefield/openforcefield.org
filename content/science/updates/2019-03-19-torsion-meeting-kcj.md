@@ -14,8 +14,8 @@ author: "Karmen Condic-Jurkic and Jeffrey Wagner"
 
 **QCArchive:** C. Stern is working on a more automated workflow for submitting molecules to [QCArchive](https://qcarchive.molssi.org/) and getting them run with appropriate defaults. Using [OpenEye](https://www.eyesopen.com/) tools and [CMILES](https://github.com/openforcefield/cmiles) could be a problem for running things on QCArchive due to licensing. A lot of work has been done on QCArchive and a press release about how QCArchive interfaces with Open Force Field is coming up soon.
 
-**Charges:** Charge model API specs are under construction and it should support simple alternatives to AM1 and convert BCC atom types to [SMIRKS](https://daylight.com/dayhtml_tutorials/languages/smirks/), among other things. More discussion to follow in #charge-model channel.
+**Charges:** A charge model API spec is under construction, which should support simple alternatives to AM1 and convert BCC atom types to [SMIRKS](https://daylight.com/dayhtml_tutorials/languages/smirks/), among other things. More discussion to follow in #charge-model channel.
 
-**TorsionDrive:** Mudong created a [Jupyter notebook](https://mybinder.org/v2/gh/fengmudong/notebook/a9bb690ed42060f955242493485af97ef54faa31?filepath=torsiondrive.ipynb) connected to [geomeTRIC](https://github.com/leeping/geomeTRIC) that aids in visualizing calculation results. L.-P. Wang suggested adding something similar in [TorsionDrive](https://github.com/lpwgroup/torsiondrive).
+**TorsionDrive:** M. Feng created a [Jupyter notebook](https://github.com/fengmudong/notebook/blob/master/torsiondrive.ipynb) connected to [geomeTRIC](https://github.com/leeping/geomeTRIC) that aids in visualizing calculation results. L.-P. Wang suggested adding something similar in [TorsionDrive](https://github.com/lpwgroup/torsiondrive).
 
 **QC Datasets:** Set of molecular fragments provided by Roche under consideration for torsion drives.
