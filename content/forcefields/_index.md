@@ -12,10 +12,10 @@ draft = false
 [![License: CC-BY 4.0](https://img.shields.io/github/license/openforcefield/smirnoff99Frosst.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 A minimalist AMBER-compatible general small molecule force field with excellent coverage of druglike chemical space,
-using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirnoff.html) direct chemical perception specification.
+using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/0.3.0/smirnoff.html) direct chemical perception specification.
 
 [[Preprint]](https://doi.org/10.1101/286542) |
-[[Publication]](10.1021/acs.jctc.8b00640) | 
+[[Publication]](10.1021/acs.jctc.8b00640) |
 [[GitHub]](https://github.com/openforcefield/smirnoff99Frosst) |
 [[Download]](https://github.com/openforcefield/smirnoff99Frosst/releases)
 
