@@ -1,7 +1,7 @@
 ---
 date: "2019-05-24T00:00:00+00:00"
 title: "Webinar on fragmenting molecules for QC torsion drives by Chaya Stern (Jun 4, 2019)"
-tags: ["Chaya Stern", "webinar","torsions", "fragmentation", "QCArchive", "Open Force Field Initiative"]
+tags: ["Chaya Stern", "webinar","torsions", "fragmentation", "QCArchive", "Open Force Field Initiative", "CMILES"]
 categories: ["news"]
 draft: false
 description: "Chaya Stern gives a webinar about her work done on molecular fragmentation and torsion drive pipeline on Jun 4 at 11 am (EDT)"
@@ -9,6 +9,9 @@ markup: mmark
 weight: 10
 author: "Karmen Condic-Jurkic and Chaya Stern"
 ---
+
+_**You can watch this webinar on [YouTube](https://youtu.be/afZp538VpMA) and access slides on [Zenodo](http://doi.org/10.5281/zenodo.3238643).**_
+
 
 
 Chaya Stern ([Chodera lab](http://www.choderalab.org)) will give a webinar on Jun 4 at 11 am (EDT) under title “Fragmenting molecules for QC torsion drives”, based on her talk presented at the [ACS Orlando conference](https://plan.core-apps.com/acsorlando2019/) (Mar 31 - Apr 4, 2019). Join the webinar in real time via Zoom link (https://meetmsk.zoom.us/j/987691623) or for those who can’t make it, Chaya’s talk will be recorded and shared on the website.
