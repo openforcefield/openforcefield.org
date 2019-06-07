@@ -40,6 +40,5 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 - Alireza Shabani (Qulab)
 - Xinjun Hou (Pfizer)
 - Doree Sitkoff (Bristol-Myers Squibb)
-- Gary Tresadern (Janssen)
 - Herman Van Vlijmen (Janssen)
 - Additional members to be disclosed following legal approval
