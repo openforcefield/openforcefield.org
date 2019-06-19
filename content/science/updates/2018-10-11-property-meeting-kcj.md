@@ -5,7 +5,7 @@ tags: ["PropertyCalculator", "surrogate models", "RJMC", "AIS-RJMC", "ThermoML",
 categories: ["science"]
 draft: false
 description: "Summary from PropertyCalculator subgroup meeting on Oct 11, 2018"
-slug: "propertycalculator-meeting-2019-03-19"
+slug: "propertycalculator-meeting-2018-10-11"
 weight: 10
 markup: markdown
 author: "Karmen Condic-Jurkic, Owen Madin and Jeff Wagner"
