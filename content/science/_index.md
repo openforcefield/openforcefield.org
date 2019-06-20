@@ -25,3 +25,12 @@ Roadmap Presentation at January 2019 Consortium Workshop [[DOI]](http://doi.org/
 # Submitted proposals
 
 - Read more about our proposal to extend our approach to complex heterogeneous biomolecular systems in our [NIH Focused Technology Research & Development R01](https://grants.nih.gov/grants/guide/pa-files/PAR-17-045.html) proposal, submitted 5 Mar 2019: [PDF](downloads/proposals/2019-03-05 Open Force Field Initiative R01 science.pdf)
+
+# Subgroup meetings
+
+- Torsions subgroup meetings take place every other Tuesday at 2 pm EDT (the next meeting is on Jun 25);
+- Property Calculator subgroup meetings take place every other Thursday at 12 pm EDT (the next meeting is on Jun 27);
+- QCFractal User Group meetings take place every Friday at 3.15 pm EDT;
+- Charge model meetings take place at irregular intervals.
+
+Please contact Karmen at info@openforcefield.org or karmen.condic-jurkic@choderalab.org if you are interested to participate in any of the listed meetings.
