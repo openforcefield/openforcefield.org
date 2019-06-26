@@ -1,3 +1,14 @@
+- title: "ChemPer: An Open Source Tool for Automatically Generating SMIRKS Patterns"
+  authors: "Caitlin C. Bannan, David Mobley"
+  summary:  In this work, we present ChemPer -- a new tool for generating SMIRKS patterns based on clustered fragments (i.e. bonds, angles, or torsions) which should be assigned the same force field parameter. We demonstrate the utility of ChemPer by clustering fragments based on a reference force field, and then regenerating those parameters starting with a simple set of alkanes, ethers, and alcohols.
+  img: ChemPer-preprint.png
+  date: 2019-06-26
+  preprint:
+    server: chemRxiv
+    url: https://chemrxiv.org/articles/ChemPer_An_Open_Source_Tool_for_Automatically_Generating_SMIRKS_Patterns/8304578
+    license: "CC BY 4.0"
+    date: 2019-06-20
+  github: https://github.com/MobleyLab/chemper
 - title: "Systematic Optimization of Water Models Using Liquid/Vapor Surface Tension Data"
   authors: "Yudong Qiu, Paul S. Nerenberg, Teresa Head-Gordon, Lee-Ping Wang"
   summary: This work investigates whether experimental surface tension measurements, which are less sensitive to quantum and self-polarization corrections, are able to replace the usual reliance on the heat of vaporization as experimental reference data for fitting force field models of molecular liquids.
