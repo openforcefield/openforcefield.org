@@ -19,10 +19,8 @@ The meeting will be open to Consortium members and collaborators, and parts of t
 
 * **Date:** August 30-31 (Sep 1), 2019
 
-* **Location:** Skaggs School of Pharmacy and Pharmaceutical Sciences,
-UC San Diego, [9500 Gilman Drive, MC 0657, La Jolla, Ca 92093-0657](https://goo.gl/maps/8HC5pCd1hqxGmThJ9)
-
-Rooms 302, 303, 304 in the below-ground Health Sciences Education Center
+* **Location:** [Skaggs School of Pharmacy and Pharmaceutical Sciences,
+UC San Diego](https://goo.gl/maps/8HC5pCd1hqxGmThJ9) \| Rooms 302, 303, 304 in the below-ground Health Sciences Education Center.
 
 * **Organisers:** Mike Gilson (local) `<mgilson@ucsd.edu>`, Karmen Condic-Jurkic `<info@openforcefield.org>`
 
@@ -36,24 +34,21 @@ More detailed schedule coming up soon!
 
 ### Day 1 (Aug 30)
 
-
- Time         | Event  
- -------------|-------
- 8.30 - 10.30	| Progress update
- 10.30 - 11.00 | **_Coffee break_**
- 11.00 - 13.00	| Parameterization perspectives
- 13.00 - 14.00 | **_Lunch_**
- 14.00 - 15.15 | Breakout sessions I
- 15.15 - 15.45 | **_Coffee break_**
- 15.45 - 17.00 | Breakout sessions II
- 18.00 | **_Dinner_**
-
+Time         | Event &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+-------------|:-------
+8.30 - 10.30	| Progress update                                                         
+10.30 - 11.00 | **_Coffee break_**                                                  
+11.00 - 13.00	| Parameterization perspectives                                       
+13.00 - 14.00 | **_Lunch_**                                                              
+14.00 - 15.15 | Breakout sessions I                                                     
+15.15 - 15.45 | **_Coffee break_**                                                       
+15.45 - 17.00 | Breakout sessions II                                                     
 
 ### Day 2 (Aug 31)
 
 Time         | Event  
 -------------|-------
-8.30 - 9.30	| _Advisory Board meeting_ (closed)
+8.30 - 9.30	| Advisory Board meeting_ (closed)
 9.30 - 10.30	| Future parameterization perspective: Plan for Year 2 and beyond
 10.30 - 11.00 | **_Coffee break_**
 11.00 - 11.45	| Energies and Forces from Machine Learning (O. Isayev)
@@ -62,12 +57,12 @@ Time         | Event
 14.00 - 15.15 | Breakout sessions  \| 1:1 sessions for Partners with J. Wagner
 15.15 - 15.45 | **_Coffee break_**
 15.45 - 17.00 | Breakout sessions  \| 1:1 sessions for Partners with J. Wagner
-18.00 | **_Dinner_**
+
 
 
 ### Day 3 (Sep 1)
 
-Internal OpenFF team discussions, includling technical discussions among developers and broad discussions about future developments and roadmaps. Participation optional for Industry Partners.
+Internal OpenFF team discussions, including technical discussions among developers and broad discussions about future developments and roadmaps.
 
 
 ## Accommodation
