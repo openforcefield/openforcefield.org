@@ -23,6 +23,7 @@ UC San Diego, [9500 Gilman Drive, MC 0657, La Jolla, Ca 92093-0657](https://goo.
 
 Rooms 302, 303, 304 in the below-ground Health Sciences Education Center
 * **Organisers:** Mike Gilson (local) `<mgilson@ucsd.edu>`, Karmen Condic-Jurkic `<info@openforcefield.org>`
+* **Registration form:** https://forms.gle/RzPReK4Y9d4YHLKN8 
 * **Last update of this document:** 20:00 PM, Sunday, June 30, 2019
 
 ## Preliminary agenda
