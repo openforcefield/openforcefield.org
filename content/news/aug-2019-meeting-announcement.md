@@ -50,7 +50,7 @@ Time         | Event &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbs
 
 Time         | Event  
 -------------|-------
-8.30 - 9.30	| Advisory Board meeting_ (closed)
+8.30 - 9.30	| _Advisory Board meeting_ (closed)
 9.30 - 10.30	| Future parameterization perspective: Plan for Year 2 and beyond
 10.30 - 11.00 | **_Coffee break_**
 11.00 - 11.45	| Energies and Forces from Machine Learning (O. Isayev)
