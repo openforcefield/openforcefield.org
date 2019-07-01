@@ -13,7 +13,7 @@ author: "Karmen Condic-Jurkic"
 
 We are hosting the Second [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners.
 
-The meeting will be open to Consortium members and collaborators, and parts of the meeting will be recorded for posting online with accompanying slides.
+The meeting will be open to Consortium members and collaborators, and parts of the meeting will be recorded for posting online with accompanying slides. Remote participation will be enabled with Zoom conferencing.
 
 ## Details at a glance
 
@@ -42,7 +42,9 @@ Time         | Event &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbs
 13.00 - 14.00 | **_Lunch_**                                                              
 14.00 - 15.15 | Breakout sessions I                                                     
 15.15 - 15.45 | **_Coffee break_**                                                       
-15.45 - 17.00 | Breakout sessions II                                                     
+15.45 - 17.00 | Breakout sessions II   
+18.00 | **_Workshop dinner_**    
+
 
 ### Day 2 (Aug 31)
 
