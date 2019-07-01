@@ -20,9 +20,7 @@ The meeting will be open to Consortium members and collaborators, and parts of t
 * **Date:** August 30-31 (Sep 1), 2019
 
 * **Location:** Skaggs School of Pharmacy and Pharmaceutical Sciences,
-UC San Diego, [9500 Gilman Drive, MC 0657, La Jolla, Ca 92093-0657](https://goo.gl/maps/8HC5pCd1hqxGmThJ9)
-
-Rooms 302, 303, 304 in the below-ground Health Sciences Education Center
+UC San Diego, [9500 Gilman Drive, MC 0657, La Jolla, Ca 92093-0657](https://goo.gl/maps/8HC5pCd1hqxGmThJ9); Rooms 302, 303, 304 in the below-ground Health Sciences Education Center
 
 * **Organisers:** Mike Gilson (local) `<mgilson@ucsd.edu>`, Karmen Condic-Jurkic `<info@openforcefield.org>`
 
