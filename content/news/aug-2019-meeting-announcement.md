@@ -11,7 +11,7 @@ author: "Karmen Condic-Jurkic"
 
 ![Banner](UCSD-stock-photo.png "Banner")
 
-We are hosting the Second [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners.
+We are hosting the Second [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners. The event will be again hosted at UCSD campus, but please note that the venue has been relocated from Jacobs Medical Center used in January to the Skaggs School of Pharmacy and Pharmaceutical Sciences building.
 
 The meeting will be open to Consortium members and collaborators, and parts of the meeting will be recorded for posting online with accompanying slides. If you are interested to attend, but currently not involved in Open Force Field Initiative, please reach out at `info@openforcefield.org` to check availability, as we might have a few additional seats. Remote participation will be enabled with Zoom conferencing.
 
@@ -26,7 +26,7 @@ UC San Diego](https://goo.gl/maps/8HC5pCd1hqxGmThJ9) \| Rooms 302, 303, 304 in t
 
 * **Registration form** (for Consortium members and collaborators only): https://forms.gle/RzPReK4Y9d4YHLKN8
 
-* **Last update of this document:** 15:30 PM, Wednesday, July 3, 2019
+* **Last update of this document:** 18:00 PM, Wednesday, July 3, 2019
 
 ## Agenda
 
@@ -34,8 +34,8 @@ The proposed agenda might be subjected to minor changes before the event.
 
 ### Day 1 (Aug 30)
 
-Time         | Event | Speaker (TBC)
--------------|-------|----------|
+Time         | Event | Speaker |
+-------------|-------|---------|
 8.15 - 8.30   | Welcome   |  OpenFF PIs
 8.30 - 9.15	| Progress and status for the OpenFF small molecule force field | David Mobley     
 9.15 - 10.00 | OFF Toolkit Showcase: current capabilities | Jeff Wagner  
@@ -53,13 +53,13 @@ Time         | Event | Speaker (TBC)
 15.30 - 16.00 | **_Coffee break_**  
 16.00 - 16.45 | _Breakout session II:_ Force field assessment - protein-ligand free energies  | _Chair:_ John Chodera   
 16.45 - 17.00 | _Breakout session II:_ Parameter definition, dataset selection, optimization strategies  | _Chair:_ Lee-Ping Wang                                         
-18.00 | **_Workshop dinner_**    
+18.30 | **_Workshop dinner_**    
 
 
 ### Day 2 (Aug 31)
 
-Time         | Event | Speaker (TBC)|
--------------|-------|--------------------|
+Time         | Event | Speaker |
+-------------|-------|---------|
 8.30 - 9.30	| _Advisory Board meeting_ (closed) |
 9.30 - 10.15	| Future parameterization perspective: Plan for Year 2 and beyond | John Chodera
 10.15 - 10.45 | **_Coffee break_** |
@@ -82,16 +82,16 @@ Internal OpenFF team discussions, including technical discussions among develope
 * _Dev day:_ Software, technical issues, interfaces and other discussions among developers;
 *  _Broad discussions:_
 
-  - Addressing feedback from industry partners;
-  - Completing Force Field Release-1;
-  - Force Field Release-2 plans;
-  - Roadmaps;
-  - Software development / maintenance;
+  - Addressing feedback from industry partners
+  - Completing Force Field Release-1
+  - Force Field Release-2 plans
+  - Roadmaps
+  - Software development / maintenance
   - Data handling (J. Chodera suggestions):
 
-     + Generating and organizing quantum chemical datasets for QCArchive and producing standardized official QM datasets: Everything from identifying molecule sets, ingesting them, preprocessing them, archiving them, orchestrating QCFractal workflows, tagging the datasets in QCArchive, and making them programmatically available as a full dataset;
-     + A simple way to manage the submission and management of large small molecule QCFractal datasets and their priorities;
-     + Curating physical property datasets and producing standardized official datasets for parameterization and assessment: Everything from identifying ThermoML Archive data for optimization or assessment, host-guest systems, and protein-ligand systems from BindingDB Validation set or D3R Grand Challenges;
+     + Generating and organizing quantum chemical datasets for QCArchive and producing standardized official QM datasets: Everything from identifying molecule sets, ingesting them, preprocessing them, archiving them, orchestrating QCFractal workflows, tagging the datasets in QCArchive, and making them programmatically available as a full dataset
+     + A simple way to manage the submission and management of large small molecule QCFractal datasets and their priorities
+     + Curating physical property datasets and producing standardized official datasets for parameterization and assessment: Everything from identifying ThermoML Archive data for optimization or assessment, host-guest systems, and protein-ligand systems from BindingDB Validation set or D3R Grand Challenges
      + Optimizing parameters based on official releases: How we organize all the code and orchestrate the execution and make this reproducible.
 
 
