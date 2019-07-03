@@ -13,7 +13,7 @@ author: "Karmen Condic-Jurkic"
 
 We are hosting the Second [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners.
 
-The meeting will be open to Consortium members and collaborators, and parts of the meeting will be recorded for posting online with accompanying slides. Remote participation will be enabled with Zoom conferencing.
+The meeting will be open to Consortium members and collaborators, and parts of the meeting will be recorded for posting online with accompanying slides. If you are interested to attend, but currently not involved in Open Force Field Initiative, please reach out at `info@openforcefield.org` to check availability, as we might have a few additional seats. Remote participation will be enabled with Zoom conferencing.
 
 ## Details at a glance
 
@@ -24,47 +24,75 @@ UC San Diego](https://goo.gl/maps/8HC5pCd1hqxGmThJ9) \| Rooms 302, 303, 304 in t
 
 * **Organisers:** Mike Gilson (local) `<mgilson@ucsd.edu>`, Karmen Condic-Jurkic `<info@openforcefield.org>`
 
-* **Registration form:** https://forms.gle/RzPReK4Y9d4YHLKN8
+* **Registration form** (for Consortium members and collaborators only): https://forms.gle/RzPReK4Y9d4YHLKN8
 
 * **Last update of this document:** 20:00 PM, Sunday, June 30, 2019
 
-## Preliminary agenda
+## Agenda
 
-More detailed schedule coming up soon!
+The proposed agenda might be subjected to minor changes before the event.
 
 ### Day 1 (Aug 30)
 
-Time         | Event &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
--------------|:-------
-8.30 - 10.30	| Progress update                                                         
-10.30 - 11.00 | **_Coffee break_**                                                  
-11.00 - 13.00	| Parameterization perspectives                                       
-13.00 - 14.00 | **_Lunch_**                                                              
-14.00 - 15.15 | Breakout sessions I                                                     
-15.15 - 15.45 | **_Coffee break_**                                                       
-15.45 - 17.00 | Breakout sessions II   
+Time         | Event | Speaker (TBC)
+-------------|-------|----------|
+8.15 - 8.30   | Welcome   |  OpenFF PIs
+8.30 - 9.15	| Progress and status for the OpenFF small molecule force field | David Mobley     
+9.15 - 10.00 | OFF Toolkit Showcase: current capabilities | Jeff Wagner  
+10.00 - 10.30 | Discussion of progress and current status | _Chair:_ John Chodera                                               
+10.30 - 11.00 | **_Coffee break_** |                                                 
+11.00 - 11.15	| _Parameterization perspective I:_ Data for parameterization and validation - QCArchive  | Daniel Smith
+11.15 - 11.30	| _Parameterization perspective I:_ Data for parameterization and validation - Physical properties  | Michael Shirts
+11.30 - 12.00 | _Parameterization perspective II:_ Property Calculator | Simon Boothroyd
+12.00 - 12.30 | _Parameterization perspective III:_ Parameterization methodology | Lee-Ping Wang                    
+12.30 - 13.30 | **_Lunch_**  |                                                           
+13.30 - 14.30 | Open discussion of the morning talks: Feedback and outlook for Y2, near-term planning, challenges | _Chair:_ Mike Gilson
+14.30 - 15.15 | _Breakout session I:_ Force field assessment - small molecules physical properties) | _Chair:_ Michael Shirts     
+14.30 - 15.15 | _Breakout session I:_ Chemical perception / addition of new parameters / chemical space coverage  | _Chair:_ David Mobley  
+15.15 - 15.30 | Breakout session reports |                                          
+15.30 - 16.00 | **_Coffee break_**  
+16.00 - 16.45 | _Breakout session II:_ Force field assessment - protein-ligand free energies  | _Chair:_ John Chodera   
+16.45 - 17.00 | _Breakout session II:_ Parameter definition, dataset selection, optimization strategies  | _Chair:_ Lee-Ping Wang                                         
 18.00 | **_Workshop dinner_**    
 
 
 ### Day 2 (Aug 31)
 
-Time         | Event  
--------------|-------
-8.30 - 9.30	| _Advisory Board meeting_ (closed)
-9.30 - 10.30	| Future parameterization perspective: Plan for Year 2 and beyond
-10.30 - 11.00 | **_Coffee break_**
-11.00 - 11.45	| Energies and Forces from Machine Learning (O. Isayev)
-11.45 - 13.00 | _Open discussion:_ Near-future planning -- feedback from Industry Partners and setting priorities for Y2
-13.00 - 14.00 | **_Lunch_**
-14.00 - 15.15 | Breakout sessions  \| 1:1 sessions for Partners with J. Wagner
-15.15 - 15.45 | **_Coffee break_**
-15.45 - 17.00 | Breakout sessions  \| 1:1 sessions for Partners with J. Wagner
+Time         | Event | Speaker (TBC)|
+-------------|-------|--------------------|
+8.30 - 9.30	| _Advisory Board meeting_ (closed) |
+9.30 - 10.15	| Future parameterization perspective: Plan for Year 2 and beyond | John Chodera
+10.15 - 10.45 | **_Coffee break_** |
+10.45 - 11.30	| Energies and Forces from Machine Learning | Olexandr Isayev
+11.30 - 12.30 | _Open discussion:_ Near-future planning -- feedback from Industry Partners and setting priorities for Y2 | _Chair:_ Mike Gilson
+12.30 - 13.30 | Discussion summary and future outlook for Year 2
+13.00 - 14.00 | **_Lunch_** |
+14.00 - 15.15 | _Free discussion:_ Short-term and long-term plans for OpenFF  \| Concurrent 1:1 sessions for Partners with J. Wagner |
+15.15 - 15.45 | **_Coffee break_** |
+15.45 - 17.00 | _Free discussion:_ ML perspectives in OpenFF  \| Concurrent 1:1 sessions for Partners with J. Wagner |
 
 
 
 ### Day 3 (Sep 1)
 
 Internal OpenFF team discussions, including technical discussions among developers and broad discussions about future developments and roadmaps.
+
+**Suggested topics:**
+
+* _Dev day:_ Software, technical issues, interfaces and other discussions among developers;
+*  _Broad discussions:_
+
+  - Addressing feedback from industry partners;
+  - Completing Force Field Release-1;
+  - Force Field Release-2 plans;
+  - Roadmaps;
+  - Software development / maintenance;
+  - Data handling (J. Chodera suggestions):
+
+     + Generating and organizing quantum chemical datasets for QCArchive and producing standardized official QM datasets: Everything from identifying molecule sets, ingesting them, preprocessing them, archiving them, orchestrating QCFractal workflows, tagging the datasets in QCArchive, and making them programmatically available as a full dataset;
+     + A simple way to manage the submission and management of large small molecule QCFractal datasets and their priorities;
+     + Curating physical property datasets and producing standardized official datasets for parameterization and assessment: Everything from identifying ThermoML Archive data for optimization or assessment, host-guest systems, and protein-ligand systems from BindingDB Validation set or D3R Grand Challenges;
+     + Optimizing parameters based on official releases: How we organize all the code and orchestrate the execution and make this reproducible.
 
 
 ## Accommodation
