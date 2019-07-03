@@ -26,7 +26,7 @@ UC San Diego](https://goo.gl/maps/8HC5pCd1hqxGmThJ9) \| Rooms 302, 303, 304 in t
 
 * **Registration form** (for Consortium members and collaborators only): https://forms.gle/RzPReK4Y9d4YHLKN8
 
-* **Last update of this document:** 20:00 PM, Sunday, June 30, 2019
+* **Last update of this document:** 15:30 PM, Wednesday, July 3, 2019
 
 ## Agenda
 
