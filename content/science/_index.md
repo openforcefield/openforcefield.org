@@ -28,8 +28,8 @@ Roadmap Presentation at January 2019 Consortium Workshop [[DOI]](http://doi.org/
 
 # Subgroup meetings
 
-- Torsions subgroup meetings take place every other Tuesday at 2 pm EDT (the next meeting is on Jun 25);
-- Property Calculator subgroup meetings take place every other Thursday at 12 pm EDT (the next meeting is on Jun 27);
+- Torsions subgroup meetings take place every other Tuesday at 2 pm EDT (the next meeting is on July 9);
+- Property Calculator subgroup meetings take place every other Thursday at 12 pm EDT (the next meeting is on July 11);
 - QCFractal User Group meetings take place every Friday at 3.15 pm EDT;
 - Charge model meetings take place at irregular intervals.
 
