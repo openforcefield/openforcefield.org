@@ -4,11 +4,13 @@ title: "Towards New Fixed Charge Models"
 tags: ["fixed charge model", "RESP", "RESP2", "solvation", "mixing parameter", "Lennard-Jones", "SMIRNOFF99Frosst", "properties"]
 categories: ["science"]
 draft: false
-description: "An update from the electrostatic subgroup about fixed charge models based on RESP fitting"
+description: "An update from the electrostatic subgroup on fixed charge models based on RESP fitting"
 weight: 10
 markup: markdown
 author: "Michael Schauperl"
 ---
+
+The Open Force Field Initiative continues to explore new partial charge assignment models for both fast parameterization (to allow billion-compound sets to be rapidly parameterized for docking) and a more accurate "bespoke" parameterization pipeline for torsions and partial charges (intended for use with more accurate but more costly methods, such as free energy calculations)."
 
 **A new version of the Restrained Electrostatic Potential Method (RESP2):** RESP2 aims to improve the electrostatic description via point charges, in comparison to the popular existing RESP (here referred to as “RESP1”) and AM1-BCC methods. [RESP1](https://doi.org/10.1021/j100142a004) is dependent on  gas-phase quantum calculation at the HF/6-31G* level of theory. Due to beneficial error compensation these RESP1 gas-phase charges can be used in solvent simulations. The goal of this project is to improve the accuracy of the electrostatics component of a forcefield, and with that also the overall accuracy. RESP2 mixes higher-level QM (PW6B95/aug-cc-PVDdZ) gas-phase **q**<sup>gas</sup> charges with charges from an implicit solvent calculation **q**<sup>solv</sup>:
 
