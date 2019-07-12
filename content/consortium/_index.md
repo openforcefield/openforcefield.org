@@ -34,11 +34,11 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 - Ian Craig (BASF), Vice Chair
 - Thomas Fox (Boehringer-Ingelheim)
 - Jérôme Hert (Roche)
+- Xinjun Hou (Pfizer)
 - Daniel Kuhn (Merck KGaA), Chair
 - Katharina Meier (Bayer)
 - Arjun Narayanan (Vertex), Secretary
 - Alireza Shabani (Qulab)
-- Xinjun Hou (Pfizer)
 - Doree Sitkoff (Bristol-Myers Squibb)
 - Herman Van Vlijmen (Janssen)
 - Additional members to be disclosed following legal approval
