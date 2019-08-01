@@ -140,3 +140,14 @@
     date: 2015-09-04
     pmcid: PMC4667959
   github: choderalab/LiquidBenchmark
+- title: "Binding thermodynamics of host-guest systems with SMIRNOFF99Frosst 1.0.5 from the Open Force Field Initiative"
+  authors: "David R. Slochower, Niel Henriksen, Lee-Ping Wang, John D. Chodera, David L. Mobley, and Michael K. Gilson"
+  summary: "We evaluate the accuracy of SMIRNOFF99Frosst, using free energy calculations of 43 α and β-cyclodextrin host-guest pairs and compare with matched calculations using two versions of GAFF. These results suggest that SMIRNOFF99Frosst performs competitively with existing small molecule force fields and is a parsimonious starting point for optimization."
+  img: cyclodextrin.png
+  date: 2019-07-26
+  preprint:
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv.9159872.v1
+    license: "CC BY 4.0"
+    date: 2019-07-30
+  github: slochower/smirnoff-host-guest-manuscript
