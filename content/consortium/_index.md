@@ -30,12 +30,12 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 
 
 ### Advisory Board
-- Virginia Burger (XtalPi)
 - Ian Craig (BASF), Vice Chair
 - Thomas Fox (Boehringer-Ingelheim)
 - Jérôme Hert (Roche)
 - Xinjun Hou (Pfizer)
 - Daniel Kuhn (Merck KGaA), Chair
+- Shuai Liu (XtalPi)
 - Katharina Meier (Bayer)
 - Arjun Narayanan (Vertex), Secretary
 - Alireza Shabani (Qulab)
