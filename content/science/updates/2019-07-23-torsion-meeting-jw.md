@@ -1,6 +1,6 @@
 ---
 date: "2019-07-23T00:00:00+00:00"
-title: "Torsion Meeting Summary (Jul 23 and 24, 2019)"
+title: "Torsion Meeting Summary (July 23 and 24, 2019)"
 tags: ["torsion", "fragmenter", "periodicity", "impropers", "QC datasets"]
 categories: ["science"]
 draft: false
