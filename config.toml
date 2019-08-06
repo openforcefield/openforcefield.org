@@ -22,7 +22,7 @@ pygmentsStyle = "colorful"
 [[menu.main]]
     name = "Code"
     weight = -90
-    url = "https://github.com/openforcefield/"
+    url = "/consortium/software"
 #[[menu.main]]
 #    name = "Docs"
 #    weight = -80
