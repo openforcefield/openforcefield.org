@@ -33,4 +33,17 @@ Roadmap Presentation at January 2019 Consortium Workshop [[DOI]](http://doi.org/
 - QCFractal User Group meetings take place every Friday at 3.15 pm EDT;
 - Charge model meetings take place at irregular intervals.
 
-Please contact Karmen at info@openforcefield.org or karmen.condic-jurkic@choderalab.org if you are interested to participate in any of the listed meetings.
+Please contact Karmen Čondić-Jurkić at [info@openforcefield.org](mailto:info@openforcefield.org) or [karmen.condic-jurkic@choderalab.org](mailto:karmen.condic-jurkic@choderalab.org) if you are interested to participate in any of the listed meetings.
+
+# Scientific Advisory Board
+
+The Scientific Advisory Board provides valuable input to help guide the Open Force Field Initiative toward the most relevant engineering and science efforts that will empower members of the biomolecular simulation and force field development communities.
+The Board convenes two virtual meetings per year to advise on various aspects of the overall Initiative and receives invitations to join our two in-person meetings per year.
+
+The current Scientific Advisory Board consists of scientists engaged within the force field development and biomolecular simulation software communities:
+
+* Carlos Simmerling (Stony Brook University)
+* Sereina Riniker (ETH Zurich)
+* Junmei Wang (University of Pittsburgh)
+* Teresa Head-Gordon (University of California, Berkeley)
+* David Case (Rutgers)
