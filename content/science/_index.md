@@ -42,8 +42,8 @@ The Board convenes two virtual meetings per year to advise on various aspects of
 
 The current Scientific Advisory Board consists of scientists engaged within the force field development and biomolecular simulation software communities:
 
-* Carlos Simmerling (Stony Brook University)
-* Sereina Riniker (ETH Zurich)
-* Junmei Wang (University of Pittsburgh)
-* Teresa Head-Gordon (University of California, Berkeley)
-* David Case (Rutgers)
+* [Carlos Simmerling](https://www.stonybrook.edu/commcms/chemistry/faculty/simmerling.carlos.html) (Stony Brook University) [[lab website](http://laufercenter.stonybrook.edu/simmerling/Home)]
+* [Sereina Riniker](TIwNjc3.TGlzdC8xNDkzLC04NTQ1MTI4MDM=.html) (ETH Zurich) [[lab website](https://riniker.ethz.ch/)]
+* [Junmei Wang](https://www.pharmacy.pitt.edu/directory/profile.php?profile=1639) (University of Pittsburgh) [[lab website](https://mulan.pharmacy.pitt.edu/)]
+* [Teresa Head-Gordon](https://chemistry.berkeley.edu/faculty/chem/teresa-head-gordon) (University of California, Berkeley) [[lab website](https://thglab.berkeley.edu/)]
+* [David Case](https://rutchem.rutgers.edu/people/faculty-bio/130-case-david) (Rutgers) [[lab website](http://casegroup.rutgers.edu/)]
