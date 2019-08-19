@@ -1,6 +1,6 @@
 ---
 date: "2019-05-24T00:00:00+00:00"
-title: "Webinar on fragmenting molecules for QC torsion drives by Chaya Stern (Jun 4, 2019)"
+title: "Webinar by Chaya Stern: Fragmenting molecules for QC torsion drives (Jun 4, 2019)"
 tags: ["Chaya Stern", "webinar","torsions", "fragmentation", "QCArchive", "Open Force Field Initiative", "CMILES"]
 categories: ["news"]
 draft: false
