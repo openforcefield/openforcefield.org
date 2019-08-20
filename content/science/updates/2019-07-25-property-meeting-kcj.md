@@ -5,7 +5,7 @@ tags: ["PropertyEstimator", "ForceBalance", "ThermoML", "Lennard-Jones", "heat o
 categories: ["science"]
 draft: false
 description: "Summary from PropertyEstimator subgroup meeting on July 25, 2019"
-slug: "propertyestimator-meeting-2019-06-27"
+slug: "propertyestimator-meeting-2019-07-25"
 weight: 10
 markup: markdown
 author: "Karmen Condic-Jurkic, Owen Madin and Jeff Wagner"
