@@ -17,16 +17,16 @@ The meeting will be open to Consortium members and collaborators, and parts of t
 
 ## Details at a glance
 
-* **Date:** August 30-31 (Sep 1), 2019
+* **Date:** August 30 - Sep 1, 2019
 
 * **Location:** [Skaggs School of Pharmacy and Pharmaceutical Sciences,
 UC San Diego](https://goo.gl/maps/8HC5pCd1hqxGmThJ9) \| Rooms 302, 303, 304 in the below-ground Health Sciences Education Center.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Access details:** The closest parking lot is right across the street from School of Pharmacy. To access the meeting area, take the &nbsp;&nbsp;&nbsp;&nbsp;stairs down to the Health Sciences Education Center (the sign will be on your left side as you go down the stairs). Several &nbsp;&nbsp;&nbsp;&nbsp;[photos of the location](MeetingVenueGuide.pdf) are provided for easier orientation and a red arrow points to the mentioned staircase in the second &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;photo. The floor plan of the venue can be found [here](HSEC-Floorplan.pdf) and the meeting rooms are highlighted in red.
+
 * **Organisers:** Mike Gilson (local) `<mgilson@ucsd.edu>`, Karmen Condic-Jurkic `<info@openforcefield.org>`
 
-* **Registration form** (for Consortium members and collaborators only): https://forms.gle/RzPReK4Y9d4YHLKN8
-
-* **Last update of this document:** 18:00 PM, Wednesday, July 3, 2019
+* **Last update of this document:** 2:30 PM, Wednesday, August 28, 2019
 
 ## Agenda
 
@@ -41,13 +41,13 @@ Time         | Event | Speaker |
 9.15 - 10.00 | OFF Toolkit Showcase: current capabilities | Jeff Wagner  
 10.00 - 10.30 | Discussion of progress and current status | _Chair:_ John Chodera                                               
 10.30 - 11.00 | **_Coffee break_** |                                                 
-11.00 - 11.15	| _Parameterization perspective I:_ Data for parameterization and validation - QCArchive  | Daniel Smith
-11.15 - 11.30	| _Parameterization perspective I:_ Data for parameterization and validation - Physical properties  | Michael Shirts
+11.00 - 11.30	| _Parameterization perspective I:_ Parameterization methodology | Lee-Ping Wang              
 11.30 - 12.00 | _Parameterization perspective II:_ Property Calculator | Simon Boothroyd
-12.00 - 12.30 | _Parameterization perspective III:_ Parameterization methodology | Lee-Ping Wang                    
+12.00 - 12.30 | _Parameterization perspective III:_ Data for parameterization and validation - QCArchive  | Daniel Smith
+11.15 - 11.30	| _Parameterization perspective III:_ Data for parameterization and validation - Physical properties  | Michael Shirts
 12.30 - 13.30 | **_Lunch_**  |                                                           
 13.30 - 14.30 | Open discussion of the morning talks: Feedback and outlook for Y2, near-term planning, challenges | _Chair:_ Mike Gilson
-14.30 - 15.15 | _Breakout session I:_ Force field assessment - small molecules physical properties) | _Chair:_ Michael Shirts     
+14.30 - 15.15 | _Breakout session I:_ Force field assessment - small molecules physical properties | _Chair:_ Michael Shirts     
 14.30 - 15.15 | _Breakout session I:_ Chemical perception / addition of new parameters / chemical space coverage  | _Chair:_ David Mobley  
 15.15 - 15.30 | Breakout session reports |                                          
 15.30 - 16.00 | **_Coffee break_**  
@@ -75,24 +75,16 @@ Time         | Event | Speaker |
 
 ### Day 3 (Sep 1)
 
-Internal OpenFF team discussions, including technical discussions among developers and broad discussions about future developments and roadmaps.
+Internal OpenFF team discussions and planning session.
 
-**Suggested topics:**
+**Topics:**
 
-* _Dev day:_ Software, technical issues, interfaces and other discussions among developers;
-*  _Broad discussions:_
-
-  - Addressing feedback from industry partners
-  - Completing Force Field Release-1
-  - Force Field Release-2 plans
+  - Internal organization and project structure
+  - Completing Force Field Release-1: *Pit stop* checks, benchmarking, dataset management, publications
+  - Force Field Release-2 plans: Main aims and features
   - Roadmaps
   - Software development / maintenance
-  - Data handling (J. Chodera suggestions):
 
-     + Generating and organizing quantum chemical datasets for QCArchive and producing standardized official QM datasets: Everything from identifying molecule sets, ingesting them, preprocessing them, archiving them, orchestrating QCFractal workflows, tagging the datasets in QCArchive, and making them programmatically available as a full dataset
-     + A simple way to manage the submission and management of large small molecule QCFractal datasets and their priorities
-     + Curating physical property datasets and producing standardized official datasets for parameterization and assessment: Everything from identifying ThermoML Archive data for optimization or assessment, host-guest systems, and protein-ligand systems from BindingDB Validation set or D3R Grand Challenges
-     + Optimizing parameters based on official releases: How we organize all the code and orchestrate the execution and make this reproducible.
 
 
 ## Accommodation
