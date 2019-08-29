@@ -36,6 +36,7 @@ The proposed agenda might be subjected to minor changes before the event.
 
 Time         | Event | Speaker |
 -------------|-------|---------|
+7.30 - 8.15 | **_Breakfast_** |
 8.15 - 8.30   | Welcome   |  OpenFF PIs
 8.30 - 9.15	| Progress and status for the OpenFF small molecule force field | David Mobley     
 9.15 - 10.00 | OFF Toolkit Showcase: Current capabilities | Jeff Wagner  
@@ -53,13 +54,14 @@ Time         | Event | Speaker |
 15.30 - 16.00 | **_Coffee break_**  
 16.00 - 16.45 | _Breakout session II:_ Force field assessment - protein-ligand free energies  | _Chair:_ John Chodera   
 16.45 - 17.00 | _Breakout session II:_ Parameter definition, dataset selection, optimization strategies  | _Chair:_ Lee-Ping Wang                                         
-18.30 | **_Workshop dinner_**    
+18.30 | **_Workshop dinner: Rock Bottom Brewery_**   
 
 
 ### Day 2 (Aug 31)
 
 Time         | Event | Speaker |
 -------------|-------|---------|
+7.45 - 8.30 | **_Breakfast_** |
 8.30 - 9.30	| _Advisory Board meeting_ (closed) |
 9.30 - 10.15	| Future parameterization perspective: Plan for Year 2 and beyond | John Chodera
 10.15 - 10.45 | **_Coffee break_** |
@@ -77,14 +79,15 @@ Time         | Event | Speaker |
 
 Internal OpenFF team discussions and planning session.
 
-**Topics:**
-
-  - Internal organization and project structure
-  - Completing Force Field Release-1: *Pit stop* checks, benchmarking, dataset management, publications
-  - Force Field Release-2 plans: Main aims and features
-  - Roadmaps
-  - Software development / maintenance
-
+Time         | Event | Moderator |
+-------------|-------|---------|
+8.30 - 9.00 | **_Breakfast_** |
+9.00 - 10.30 | Internal organization and project structure |  Karmen Condic-Jurkic
+10.30 - 11.00 | **_Coffee break_** |
+11.00 - 13.00 | Roadmap planning and deliverables for Year 2 | Karmen Condic-Jurkic
+13.00 - 14.00 | **_Lunch_** |
+14.00 - 15.00 | Summary
+15.00 - 17.00 | Free discussion and departure
 
 
 ## Accommodation
