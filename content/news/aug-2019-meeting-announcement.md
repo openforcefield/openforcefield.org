@@ -38,7 +38,7 @@ Time         | Event | Speaker |
 -------------|-------|---------|
 8.15 - 8.30   | Welcome   |  OpenFF PIs
 8.30 - 9.15	| Progress and status for the OpenFF small molecule force field | David Mobley     
-9.15 - 10.00 | OFF Toolkit Showcase: current capabilities | Jeff Wagner  
+9.15 - 10.00 | OFF Toolkit Showcase: Current capabilities | Jeff Wagner  
 10.00 - 10.30 | Discussion of progress and current status | _Chair:_ John Chodera                                               
 10.30 - 11.00 | **_Coffee break_** |                                                 
 11.00 - 11.30	| _Parameterization perspective I:_ Parameterization methodology | Lee-Ping Wang              
@@ -47,7 +47,7 @@ Time         | Event | Speaker |
 11.15 - 11.30	| _Parameterization perspective III:_ Data for parameterization and validation - Physical properties  | Michael Shirts
 12.30 - 13.30 | **_Lunch_**  |                                                           
 13.30 - 14.30 | Open discussion of the morning talks: Feedback and outlook for Y2, near-term planning, challenges | _Chair:_ Mike Gilson
-14.30 - 15.15 | _Breakout session I:_ Force field assessment - small molecules physical properties | _Chair:_ Michael Shirts     
+14.30 - 15.15 | _Breakout session I:_ Force field assessment - physical properties of small molecules | _Chair:_ Michael Shirts     
 14.30 - 15.15 | _Breakout session I:_ Chemical perception / addition of new parameters / chemical space coverage  | _Chair:_ David Mobley  
 15.15 - 15.30 | Breakout session reports |                                          
 15.30 - 16.00 | **_Coffee break_**  
@@ -63,9 +63,9 @@ Time         | Event | Speaker |
 8.30 - 9.30	| _Advisory Board meeting_ (closed) |
 9.30 - 10.15	| Future parameterization perspective: Plan for Year 2 and beyond | John Chodera
 10.15 - 10.45 | **_Coffee break_** |
-10.45 - 11.30	| Energies and Forces from Machine Learning | Olexandr Isayev
-11.30 - 12.30 | _Open discussion:_ Near-future planning -- feedback from Industry Partners and setting priorities for Y2 | _Chair:_ Mike Gilson
-12.30 - 13.30 | Discussion summary and future outlook for Year 2
+10.45 - 11.30	| ANI-1 and neural net potentials | Olexandr Isayev
+11.30 - 12.30 | _Open discussion:_ Anticipated next force field development steps | _Chair:_ Mike Gilson
+12.30 - 13.00 | Concluding remarks and future outlook
 13.00 - 14.00 | **_Lunch_** |
 14.00 - 15.15 | _Free discussion:_ Short-term and long-term plans for OpenFF  \| Concurrent 1:1 sessions for Partners with J. Wagner |
 15.15 - 15.45 | **_Coffee break_** |
