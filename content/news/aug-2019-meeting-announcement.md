@@ -54,7 +54,7 @@ Time         | Event | Speaker |
 15.30 - 16.00 | **_Coffee break_**  
 16.00 - 16.45 | _Breakout session II:_ Force field assessment - protein-ligand free energies  | _Chair:_ John Chodera   
 16.45 - 17.00 | _Breakout session II:_ Parameter definition, dataset selection, optimization strategies  | _Chair:_ Lee-Ping Wang                                         
-18.30 | **_Workshop dinner: Rock Bottom Brewery_**   
+18.30 | **_Workshop dinner:_** [**_Rock Bottom Brewery_**](https://goo.gl/maps/F33PYtCxnw4U9oNQ8)   
 
 
 ### Day 2 (Aug 31)
