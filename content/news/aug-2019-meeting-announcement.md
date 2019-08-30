@@ -42,9 +42,9 @@ Time         | Event | Speaker |
 9.15 - 10.00 | [OFF Toolkit Showcase: Current capabilities](https://docs.google.com/presentation/d/102TMr1s5uzdnagcF21W0qbrDs7h2VEKDetQ90i-o-ks/edit?usp=sharing) | Jeff Wagner  
 10.00 - 10.30 | [Discussion of progress and current status](https://docs.google.com/presentation/d/1XcaGppFk6y-7c0W20HuL2KVVcFRWl1OE_LjqTi9Is-4/edit?usp=sharing) | _Chair:_ John Chodera                                               
 10.30 - 11.00 | **_Coffee break_** |                                                 
-11.00 - 11.30	| _Parameterization perspective I:_ Parameterization methodology | Lee-Ping Wang              
-11.30 - 12.00 | _Parameterization perspective II:_ Property Calculator | Simon Boothroyd
-12.00 - 12.30 | _Parameterization perspective III:_ Data for parameterization and validation - QCArchive  | Daniel Smith
+11.00 - 11.30	| [_Parameterization perspective I:_ Parameterization methodology](https://docs.google.com/presentation/d/1SXiURNiRe0Ouv5-eBLSBgXTtxcuGVfSH5xmUWVF4mak/edit?usp=sharing) | Lee-Ping Wang              
+11.30 - 12.00 | [_Parameterization perspective II:_](https://docs.google.com/presentation/d/1o0wCzJ9c1XbVNHxLV8zMUYxjiSMZeE5pphU_rgypQEE/edit?usp=sharing) Property Calculator | Simon Boothroyd
+12.00 - 12.30 | [_Parameterization perspective III:_ Data for parameterization and validation - QCArchive](QCArchive-OpenFF-September-2019.pdf)  | Daniel Smith
 11.15 - 11.30	| _Parameterization perspective III:_ Data for parameterization and validation - Physical properties  | Michael Shirts
 12.30 - 13.30 | **_Lunch_**  |                                                           
 13.30 - 14.30 | Open discussion of the morning talks: Feedback and outlook for Y2, near-term planning, challenges | _Chair:_ Mike Gilson
