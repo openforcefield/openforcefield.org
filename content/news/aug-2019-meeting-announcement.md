@@ -38,9 +38,9 @@ Time         | Event | Speaker |
 -------------|-------|---------|
 7.30 - 8.15 | **_Breakfast_** |
 8.15 - 8.30   | Welcome   |  OpenFF PIs
-8.30 - 9.15	| Progress and status for the OpenFF small molecule force field | David Mobley     
-9.15 - 10.00 | OFF Toolkit Showcase: Current capabilities | Jeff Wagner  
-10.00 - 10.30 | Discussion of progress and current status | _Chair:_ John Chodera                                               
+8.30 - 9.15	| [Progress and status for the OpenFF small molecule force field](https://docs.google.com/presentation/d/1HVOgKS1CiqwqnYMYBl3fag2LL9XicupNDkkw3gTcY3E/edit?usp=sharing) | David Mobley     
+9.15 - 10.00 | [OFF Toolkit Showcase: Current capabilities](https://docs.google.com/presentation/d/102TMr1s5uzdnagcF21W0qbrDs7h2VEKDetQ90i-o-ks/edit?usp=sharing) | Jeff Wagner  
+10.00 - 10.30 | [Discussion of progress and current status](https://docs.google.com/presentation/d/1XcaGppFk6y-7c0W20HuL2KVVcFRWl1OE_LjqTi9Is-4/edit?usp=sharing) | _Chair:_ John Chodera                                               
 10.30 - 11.00 | **_Coffee break_** |                                                 
 11.00 - 11.30	| _Parameterization perspective I:_ Parameterization methodology | Lee-Ping Wang              
 11.30 - 12.00 | _Parameterization perspective II:_ Property Calculator | Simon Boothroyd
