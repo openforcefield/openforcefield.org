@@ -45,7 +45,7 @@ Time         | Event | Speaker |
 11.00 - 11.30	| [_Parameterization perspective I:_ Parameterization methodology](https://docs.google.com/presentation/d/1SXiURNiRe0Ouv5-eBLSBgXTtxcuGVfSH5xmUWVF4mak/edit?usp=sharing) | Lee-Ping Wang              
 11.30 - 12.00 | [_Parameterization perspective II:_](https://docs.google.com/presentation/d/1o0wCzJ9c1XbVNHxLV8zMUYxjiSMZeE5pphU_rgypQEE/edit?usp=sharing) Property Calculator | Simon Boothroyd
 12.00 - 12.15 | [_Parameterization perspective III:_ Data for parameterization and validation - QCArchive](QCArchive-OpenFF-September-2019.pdf)  | Daniel Smith
-12.15 - 12.30	| _Parameterization perspective IV:_ Data for parameterization and validation - Physical properties  | Michael Shirts
+12.15 - 12.30	| [_Parameterization perspective IV:_ Data for parameterization and validation - Physical properties](https://docs.google.com/presentation/d/1_Dk3SBT9j3FxpOPWdc71oIOq2-FCmw8BfgeEaZaM-UQ/edit?usp=sharing) | Michael Shirts
 12.30 - 13.30 | **_Lunch_**  |                                                           
 13.30 - 14.30 | Open discussion of the morning talks: Feedback and outlook for Y2, near-term planning, challenges | _Chair:_ Mike Gilson
 14.30 - 15.15 | _Breakout session I:_ Force field assessment - physical properties of small molecules | _Chair:_ Michael Shirts     
