@@ -34,6 +34,8 @@ The proposed agenda might be subjected to minor changes before the event.
 
 ### Day 1 (Aug 30)
 
+[Discussion notes for Day 1](https://docs.google.com/document/d/1z7hZDklgZHPxiR1JfpktGsM8sa0ZS_CW_1bGqfFU0SI/edit?usp=sharing)
+
 Time         | Event | Speaker |
 -------------|-------|---------|
 7.30 - 8.15 | **_Breakfast_** |
@@ -58,6 +60,8 @@ Time         | Event | Speaker |
 
 
 ### Day 2 (Aug 31)
+
+[Discussion notes for Day 2](https://docs.google.com/document/d/1w_J0vL5BPzIfIl4P8TaN22yMA-AE-1-yrziLinXU4KY/edit?usp=sharing)
 
 Time         | Event | Speaker |
 -------------|-------|---------|
