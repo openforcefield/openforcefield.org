@@ -43,7 +43,7 @@ Time         | Event | Speaker |
 10.00 - 10.30 | [Discussion of progress and current status](https://docs.google.com/presentation/d/1XcaGppFk6y-7c0W20HuL2KVVcFRWl1OE_LjqTi9Is-4/edit?usp=sharing) | _Chair:_ John Chodera                                               
 10.30 - 11.00 | **_Coffee break_** |                                                 
 11.00 - 11.30	| [_Parameterization perspective I:_ Parameterization methodology](https://docs.google.com/presentation/d/1SXiURNiRe0Ouv5-eBLSBgXTtxcuGVfSH5xmUWVF4mak/edit?usp=sharing) | Lee-Ping Wang              
-11.30 - 12.00 | [_Parameterization perspective II:_](https://docs.google.com/presentation/d/1o0wCzJ9c1XbVNHxLV8zMUYxjiSMZeE5pphU_rgypQEE/edit?usp=sharing) Property Calculator | Simon Boothroyd
+11.30 - 12.00 | [_Parameterization perspective II:_ Property Calculator](https://docs.google.com/presentation/d/1o0wCzJ9c1XbVNHxLV8zMUYxjiSMZeE5pphU_rgypQEE/edit?usp=sharing) | Simon Boothroyd
 12.00 - 12.15 | [_Parameterization perspective III:_ Data for parameterization and validation - QCArchive](QCArchive-OpenFF-September-2019.pdf)  | Daniel Smith
 12.15 - 12.30	| [_Parameterization perspective IV:_ Data for parameterization and validation - Physical properties](https://docs.google.com/presentation/d/1_Dk3SBT9j3FxpOPWdc71oIOq2-FCmw8BfgeEaZaM-UQ/edit?usp=sharing) | Michael Shirts
 12.30 - 13.30 | **_Lunch_**  |                                                           
@@ -52,7 +52,7 @@ Time         | Event | Speaker |
 14.30 - 15.15 | _Breakout session I:_ Chemical perception / addition of new parameters / chemical space coverage  | _Chair:_ David Mobley  
 15.15 - 15.30 | Breakout session reports |                                          
 15.30 - 16.00 | **_Coffee break_**  
-16.00 - 16.45 | _Breakout session II:_ Force field assessment - protein-ligand free energies  | _Chair:_ John Chodera   
+16.00 - 16.45 | [_Breakout session II:_ Force field assessment - protein-ligand free energies](https://docs.google.com/presentation/d/1VJup7h8lClRzF2Ei_rOF2Hvjx0aFXqYIVNGvhkxBBQ4/edit?usp=sharing) - [[discussion summary]](https://docs.google.com/presentation/d/1PCom76yRm12BXSRJZgLkGRJwt5FgIsVqlBKyoifxJ_A/edit?usp=sharing)  | _Chair:_ John Chodera   
 16.45 - 17.00 | _Breakout session II:_ Parameter definition, dataset selection, optimization strategies  | _Chair:_ Lee-Ping Wang                                         
 18.30 | **_Workshop dinner:_** [**_Rock Bottom Brewery_**](https://goo.gl/maps/F33PYtCxnw4U9oNQ8)   
 
@@ -63,10 +63,10 @@ Time         | Event | Speaker |
 -------------|-------|---------|
 7.45 - 8.30 | **_Breakfast_** |
 8.30 - 9.30	| _Advisory Board meeting_ (closed) |
-9.30 - 10.15	| Future parameterization perspective: Plan for Year 2 and beyond | John Chodera
+9.30 - 10.15	| [Future parameterization perspective: Plan for Year 2 and beyond](https://docs.google.com/presentation/d/1ya8F6Va2RC3gsX_-t-J7WYZlJu7bdWXGj3Oeq_0OWus/edit?usp=sharing) | John Chodera
 10.15 - 10.45 | **_Coffee break_** |
 10.45 - 11.30	| ANI-1 and neural net potentials | Olexandr Isayev
-11.30 - 12.30 | _Open discussion:_ Anticipated next force field development steps | _Chair:_ Mike Gilson
+11.30 - 12.30 | [_Open discussion:_ Anticipated next force field development steps](https://docs.google.com/presentation/d/1d6o-PUQa7WWAf1WLPyvfJkNoHAlG0yvaT6KLuMH__Ow/edit?usp=sharing) | _Chair:_ Mike Gilson
 12.30 - 13.00 | Concluding remarks and future outlook
 13.00 - 14.00 | **_Lunch_** |
 14.00 - 15.15 | _Free discussion:_ Short-term and long-term plans for OpenFF  \| Concurrent 1:1 sessions for Partners with J. Wagner |
