@@ -65,7 +65,7 @@ Time         | Event | Speaker |
 8.30 - 9.30	| _Advisory Board meeting_ (closed) |
 9.30 - 10.15	| [Future parameterization perspective: Plan for Year 2 and beyond](https://docs.google.com/presentation/d/1ya8F6Va2RC3gsX_-t-J7WYZlJu7bdWXGj3Oeq_0OWus/edit?usp=sharing) | John Chodera
 10.15 - 10.45 | **_Coffee break_** |
-10.45 - 11.30	| ANI-1 and neural net potentials | Olexandr Isayev
+10.45 - 11.30	| [ANI-1 and neural net potentials](Isayev_openFF2019.pdf ) | Olexandr Isayev
 11.30 - 12.30 | [_Open discussion:_ Anticipated next force field development steps](https://docs.google.com/presentation/d/1d6o-PUQa7WWAf1WLPyvfJkNoHAlG0yvaT6KLuMH__Ow/edit?usp=sharing) | _Chair:_ Mike Gilson
 12.30 - 13.00 | Concluding remarks and future outlook
 13.00 - 14.00 | **_Lunch_** |
