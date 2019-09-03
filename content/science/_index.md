@@ -29,6 +29,7 @@ The current Scientific Advisory Board consists of scientists engaged within the 
 * [Teresa Head-Gordon](https://chemistry.berkeley.edu/faculty/chem/teresa-head-gordon) (University of California, Berkeley) [[lab website](https://thglab.berkeley.edu/)]
 * [Julia Rice](https://researcher.watson.ibm.com/researcher/view.php?person=us-jrice) (IBM Research)
 * [Sereina Riniker](https://riniker.ethz.ch/the-group/person-detail.MTIwNjc3.TGlzdC8xNDkzLC04NTQ1MTI4MDM=.html) (ETH Zurich) [[lab website](https://riniker.ethz.ch/)]
+* [Benoît Roux](https://chemistry.uchicago.edu/faculty/beno%C3%AEt-roux) [[lab website](http://thallium.bsd.uchicago.edu/RouxLab/)]
 * [Carlos Simmerling](https://www.stonybrook.edu/commcms/chemistry/faculty/simmerling.carlos.html) (Stony Brook University) [[lab website](http://laufercenter.stonybrook.edu/simmerling/Home)]
 * [Bill Swope](https://researcher.watson.ibm.com/researcher/view.php?person=us-swope) (IBM Research)
 * [Junmei Wang](https://www.pharmacy.pitt.edu/directory/profile.php?profile=1639) (University of Pittsburgh) [[lab website](https://mulan.pharmacy.pitt.edu/)]
