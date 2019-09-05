@@ -1,6 +1,6 @@
 ---
 date: "2019-09-03T00:00:00+00:00"
-title: "Webinar by Chuan Tian: ff19SB - Amino-acid specific protein backbone parameters trained against quantum mechanics energies in solution (Sep 12, 2019)"
+title: "Webinar by Chuan Tian: ff19SB - Amino acid specific protein backbone parameters trained against quantum mechanics energies in solution (Sep 12, 2019)"
 tags: ["Chuan Tian", "webinar","Amber", "force field", "ff19SB", "QM", "solution", "backbone", "parameters"]
 categories: ["news"]
 draft: false
