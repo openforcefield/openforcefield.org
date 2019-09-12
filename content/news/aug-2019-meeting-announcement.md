@@ -40,14 +40,14 @@ Time         | Event | Speaker |
 -------------|-------|---------|
 7.30 - 8.15 | **_Breakfast_** |
 8.15 - 8.30   | [Welcome](https://docs.google.com/presentation/d/1S1sjXe5rSaNzPyAncAsBBHP9-LLPv-D8rgDWWtL1egI/edit?usp=sharing)   |  OpenFF PIs
-8.30 - 9.15	| [Progress and status for the OpenFF small molecule force field](https://docs.google.com/presentation/d/1HVOgKS1CiqwqnYMYBl3fag2LL9XicupNDkkw3gTcY3E/edit?usp=sharing) | David Mobley     
-9.15 - 10.00 | [OFF Toolkit Showcase: Current capabilities](https://docs.google.com/presentation/d/102TMr1s5uzdnagcF21W0qbrDs7h2VEKDetQ90i-o-ks/edit?usp=sharing) | Jeff Wagner  
-10.00 - 10.30 | [Discussion of progress and current status](https://docs.google.com/presentation/d/1XcaGppFk6y-7c0W20HuL2KVVcFRWl1OE_LjqTi9Is-4/edit?usp=sharing) | _Chair:_ John Chodera                                               
+8.30 - 9.15	| [Progress and status for the OpenFF small molecule force field](https://doi.org/10.5281/zenodo.3405489) \| [Video](https://youtu.be/9mBixafP5yo) | David Mobley     
+9.15 - 10.00 | [OFF Toolkit Showcase: Current capabilities](https://doi.org/10.5281/zenodo.3405514) \| [Video](https://youtu.be/Ejx2um9N1ow) | Jeff Wagner  
+10.00 - 10.30 | [Discussion of progress and current status](https://doi.org/10.5281/zenodo.3405520) \| [Video](https://youtu.be/OAlJk3ff0Rk) | _Chair:_ John Chodera                                               
 10.30 - 11.00 | **_Coffee break_** |                                                 
-11.00 - 11.30	| [_Parameterization perspective I:_ Parameterization methodology](https://docs.google.com/presentation/d/1SXiURNiRe0Ouv5-eBLSBgXTtxcuGVfSH5xmUWVF4mak/edit?usp=sharing) | Lee-Ping Wang              
-11.30 - 12.00 | [_Parameterization perspective II:_ Property Calculator](https://docs.google.com/presentation/d/1o0wCzJ9c1XbVNHxLV8zMUYxjiSMZeE5pphU_rgypQEE/edit?usp=sharing) | Simon Boothroyd
-12.00 - 12.15 | [_Parameterization perspective III:_ Data for parameterization and validation - QCArchive](QCArchive-OpenFF-September-2019.pdf)  | Daniel Smith
-12.15 - 12.30	| [_Parameterization perspective IV:_ Data for parameterization and validation - Physical properties](https://docs.google.com/presentation/d/1_Dk3SBT9j3FxpOPWdc71oIOq2-FCmw8BfgeEaZaM-UQ/edit?usp=sharing) | Michael Shirts
+11.00 - 11.30	| [_Parameterization perspective I:_ Parameterization methodology](https://doi.org/10.5281/zenodo.3405539) \| [Video](https://youtu.be/F_CKbbhiaWQ) | Lee-Ping Wang              
+11.30 - 12.00 | [_Parameterization perspective II:_ Property Calculator](https://doi.org/10.5281/zenodo.3405547) \| [Video](https://youtu.be/MBijNBgQJPE)| Simon Boothroyd
+12.00 - 12.15 | [_Parameterization perspective III:_ Data for parameterization and validation - QCArchive](https://doi.org/10.5281/zenodo.3405561) \| [Video](https://youtu.be/UfniLKgy78A)  | Daniel Smith
+12.15 - 12.30	| [_Parameterization perspective IV:_ Data for parameterization and validation - Physical properties](https://doi.org/10.5281/zenodo.3405567) \| [Video](https://youtu.be/IzK9ehmghKo) | Michael Shirts
 12.30 - 13.30 | **_Lunch_**  |                                                           
 13.30 - 14.30 | Open discussion of the morning talks: Feedback and outlook for Y2, near-term planning, challenges | _Chair:_ Mike Gilson
 14.30 - 15.15 | _Breakout session I:_ Force field assessment - physical properties of small molecules | _Chair:_ Michael Shirts     
@@ -67,10 +67,10 @@ Time         | Event | Speaker |
 -------------|-------|---------|
 7.45 - 8.30 | **_Breakfast_** |
 8.30 - 9.30	| _Advisory Board meeting_ (closed) |
-9.30 - 10.15	| [Future parameterization perspective: Plan for Year 2 and beyond](https://docs.google.com/presentation/d/1ya8F6Va2RC3gsX_-t-J7WYZlJu7bdWXGj3Oeq_0OWus/edit?usp=sharing) | John Chodera
+9.30 - 10.15	| [Future parameterization perspective: Plan for Year 2 and beyond](https://doi.org/10.5281/zenodo.3405585) \| [Video](https://youtu.be/Tl-MN2yWA9o) | John Chodera
 10.15 - 10.45 | **_Coffee break_** |
-10.45 - 11.30	| [ANI-1 and neural net potentials](Isayev_openFF2019.pdf ) | Olexandr Isayev
-11.30 - 12.30 | [_Open discussion:_ Anticipated next force field development steps](https://docs.google.com/presentation/d/1d6o-PUQa7WWAf1WLPyvfJkNoHAlG0yvaT6KLuMH__Ow/edit?usp=sharing) | _Chair:_ Mike Gilson
+10.45 - 11.30	| [ANI-1 and neural net potentials](https://doi.org/10.5281/zenodo.3405594) \| [Video](https://youtu.be/QvYL4MaSMCo) | Olexandr Isayev
+11.30 - 12.30 | [_Open discussion:_ Anticipated next force field development steps](https://doi.org/10.5281/zenodo.340559) \| [Video](https://youtu.be/iIROGTmxdeA) | _Chair:_ Mike Gilson
 12.30 - 13.00 | Concluding remarks and future outlook
 13.00 - 14.00 | **_Lunch_** |
 14.00 - 15.15 | _Free discussion:_ Short-term and long-term plans for OpenFF  \| Concurrent 1:1 sessions for Partners with J. Wagner |
