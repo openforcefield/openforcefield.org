@@ -1,5 +1,5 @@
 ---
-date: "2019-10-03T00:00:00+00:00"
+date: "2019-10-04T00:00:00+00:00"
 title: "Webinar by Yuanqing Wang: Graph Nets for partial charge prediction (Oct 14, 2019)"
 tags: ["Yuanqing Wang", "webinar","Graph Nets", "machine learning", "atomic charges", "QM", "MM"]
 categories: ["news"]
