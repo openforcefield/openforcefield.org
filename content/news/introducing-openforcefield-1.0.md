@@ -12,7 +12,9 @@ markup: mmark # mmark is necessary for LaTeX to work properly
 ---
 
 <!-- Parsley CC0 image from https://www.maxpixel.net/Leaf-Plant-Parsley-Common-Aromatic-Parsley-Leaves-3327372 -->
-![alt text](parsley-cc0.jpg "")
+<center>
+<img src="parsley-cc0.jpg" width="50%">
+</center>
 
 We’re delighted to announce the release of "Parsley", the [Open Force Field 1.0 small molecule force field](https://github.com/openforcefield/openforcefields/releases/tag/1.0.0)---the first in a series of iteratively-improved small molecule force fields for biomolecular simulation funded in part by the [Open Force Field Consortium](http://openforcefield.org/consortium).
 This is the first optimized force field to use the [SMIRNOFF force field specification](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) for atom type-free [direct chemical perception](https://dx.doi.org/10.1021/acs.jctc.8b00640), and provides substantially improved valence (bond, angle, and torsion) parameters relative to its predecessor, the AMBER-lineage [SMIRNOFF99Frosst](https://dx.doi.org/10.1021/acs.jctc.8b00640).
@@ -171,7 +173,7 @@ Although we think our choice of QM method is appropriate for gas-phase conformat
 More comprehensive benchmarks are planned to inform future force field generations.
 
 <center>
-![alt text](qm-speed-accuracy-tradeoff.png "")
+<img src="qm-speed-accuracy-tradeoff.png" width="50%">
 </center>
 **Tradeoff between speed and accuracy in selecting quantum chemical basis set.**
 Computational time (for single conformer) versus RMSE to benchmark-quality relative energies for 15 conformations of a representative molecule from [Řezáč et al. 2018](https://doi.org/10.1021/acs.jctc.7b01074) (SMILES `N[C@@H](CC1=CC=CC=C1)C(NCC(NCC(O)=O)=O)=O)`) for several choices of basis set.
