@@ -1,0 +1,20 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<div id="hero" class="wrap">
+  <h1>Recent News </h1>
+    <!-- <p>Our vision, news and ideas, and whatever feels important.<br> -->
+    <a href="https://twitter.com/{{.Site.Params.twitter}}">Follow us on Twitter</a></p>
+</div>
+<ul id="posts">
+
+ {{ range .Paginator.Pages.ByWeight }} {{ if not .Params.hidden }} {{ partial "page-summary" . }} {{ end }} {{ end }}
+  <section>{{ partial "pagination" .}}</section>
+</ul>
+
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}
