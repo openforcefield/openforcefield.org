@@ -96,8 +96,6 @@ We used [ForceBalance](https://doi.org/10.1021/jz500737m) to fit the parameters 
 Before discussing the data used in fitting and the actual fitting process, we briefly introduce ForceBalance.
 [ForceBalance](https://github.com/leeping/forcebalance) is a Python toolkit designed for carrying out force field optimizations in a systematic, reproducible, scalable and flexible way. Here, we employed a development version of ForceBalance based on v1.6.0 (available [here](https://github.com/leeping/forcebalance/tree/5b3a65d1baefe17625c9b05c0db5d27458c5344a)) to fit a SMIRNOFF force field to the optimized geometries, torsional profiles and vibrational frequencies using the objective function as described below.
 
-<div class="message error" data-component="message">We MUST replace the ForceBalance link with a link to the specific release or commit we used so that this work is reproducible.</div>
-
 <a id="regularized-force-field-optimization"></a>
 ### Regularized force field optimization with quasi-Newton iterations
 
