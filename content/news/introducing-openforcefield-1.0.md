@@ -284,7 +284,9 @@ The scanned dihedral angles were selected using different strategies for the two
 
 For the **Roche Set**, we selected 819 dihedral angles that match all following conditions: a) the center bond is not part of a ring; b) no hydrogen atom is involved; c) neither of the two angles involved is close to linear (>= 165 degree); d) the center bond has not been previously scanned. Among all torsions sharing the same center bond, the torsion with the heaviest side group (by number of atoms) is picked.
 
-For the **Coverage Set**, we used the SMIRNOFF force field to label the torsions in each molecule, then the first five dihedral angles that match each torsion term were selected for scanning. (Note: the force field term `t155b` was added after this dataset is created, so no torsion is selected for that term) Multiple initial geometries were generated for each molecule via `fragmenter`, and we provided all generated conformers for each molecule as “initial geometries” at the beginning of the torsion scan, to improve the coverage of conformational space.
+For the **Coverage Set**, we used the SMIRNOFF force field to label the torsions in each molecule, then the first five dihedral angles that match each torsion term were selected for scanning.
+(Note: the force field term `t155b` was added after this dataset was created, so no torsion is selected for that term.)
+Multiple initial geometries were generated for each molecule via `fragmenter`, and we provided all generated conformers for each molecule as “initial geometries” at the beginning of the torsion scan, to improve the coverage of conformational space.
 
 The torsion profile fitting targets are prepared by a) downloading the relevant torsion scan trajectories from the QCArchive server; b) checking molecule topology with toolkit; c) filtering out trajectories that contain any frame with hydrogen bonds, to avoid building strong internal electrostatic interactions into fitted torsional profiles.
 Hydrogen bonds are detected using [Baker Hubbard method](http://mdtraj.org/latest/api/generated/mdtraj.baker_hubbard.html#mdtraj.baker_hubbard) [ Angle(D-H..A) > 120 degrees and Dist(H..A) < 2.5 A ] implemented in [`mdtraj`](http://mdtraj.org) package.
@@ -415,7 +417,8 @@ The full set of plots are available in the [release package](https://github.com/
 <center>
 <img src="torsion-profile-example.png" width="80%">
 </center>
-An example of degraded, or at least not improved, MM vs QM agreement for a torsion profile. The metadata is as in the figure just prior.
+**An example of degraded, or at least not improved, MM vs QM agreement for a torsion profile.**
+The metadata is as in the figure just prior.
 
 <a id="benchmarking-parsley"></a>
 ## Benchmarking Parsley
@@ -430,7 +433,7 @@ The first of these is the `OpenFF Discrepancy Benchmark 1` dataset.
 This contains some 2802 unique molecules (19 712 conformers) resulting from the work of [Ehrman et al.](http://dx.doi.org/10.5281/zenodo.3385278) in the [Mobley lab](https://mobleylab.org/), which energy minimized all of eMolecules in several different force fields and then extracted molecules with geometries which were significantly different across force fields. This particular subset, as described in our [dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/5105bb950183392dea208684b0889f29e311d2ee/2019-07-05%20eMolecules%20force%20field%20discrepancies%201), focuses on fragment-like molecules with geometries which are substantially different in `smirnoff99Frosst` 1.0.8 relative to GAFF, GAFF2, and MMFF94 and 94s. As the full set of eMolecules was still in process, this represents the first 2802 molecules with significant discrepancies identified in this study, with the full set becoming available later.
 
 While this set was rather diverse and, based on inspection, chemically interesting, it also seemed to overrepresent certain chemistry (e.g. Br occurs more than one might expect), so we were concerned that this might not be representative of our target chemistry. Thus, to ensure sets were representative of the chemistry of interest, we generated two additional sets for benchmarking:
-* Xinjun Hou and Brajesh Rai at Pfizer provided 100 challenging small molecule fragments where Pfizer’s QM calculations of torsional profiles differed substantially from OPLS3e, as further discussed [on our dataset repository[(https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-07-Pfizer-discrepancy-optimization-dataset-1). After enumeration of conformers, we ran geometry optimizations and torsional scans, utilizing the geometry optimizations in this work as our `Pfizer Discrepancy Optimization Dataset 1`.
+* Xinjun Hou and Brajesh Rai at Pfizer provided 100 challenging small molecule fragments where Pfizer’s QM calculations of torsional profiles differed substantially from OPLS3e, as further discussed [in our dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-07-Pfizer-discrepancy-optimization-dataset-1). After enumeration of conformers, we ran geometry optimizations and torsional scans, utilizing the geometry optimizations in this work as our `Pfizer Discrepancy Optimization Dataset 1`.
 * The [ZINC15 FDA dataset](http://zinc.docking.org/substances/subsets/fda/) formed the basis of our final set, and we filtered to remove molecules with fewer than 3 or more than 55 heavy atoms, as well as removing metals and only allowing molecules containing the elements H, C, N, O, F, P, S, Cl, Br, I and B. After conformer generation this resulted in 1038 molecules and 6675 conformers, as further discussed on our [dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-08-fda-optimization-dataset-1). This resulted in our `FDA Optimization Dataset 1`.
 
 Additional datasets will likely be warranted in the future, but the set of FDA approved drugs certainly provides a reasonable starting point for chemistry of interest.
@@ -530,7 +533,7 @@ The condensed phase physical property benchmark data set was curated from data m
 <a id="hysical-property-benchmark-construction"></a>
 #### Construction of the physical property benchmark set
 
-The intention was to assess the performance of the newly refit force field against a set of pure densities and enthalpies of vaporization (two historically common fitting targets for force field non-bonded interactions), pure static dielectric constants (which appear to have strong correlations with hydration free energies [ref]) and binary enthalpies of mixing and excess molar volumes (which we believe to have correlations with binding affinities).
+The intention was to assess the performance of the newly refit force field against a set of pure densities and enthalpies of vaporization (two historically common fitting targets for force field non-bonded interactions), pure static dielectric constants (which appear to have strong correlations with hydration free energies) and binary enthalpies of mixing and excess molar volumes (which we believe to have correlations with binding affinities).
 
 We automated the curation of such a data set by performing the following series of steps:
 1. All available pure **density**, **enthalpy of vaporization**, **static dielectric constant**, **binary excess molar volume**, and **enthalpy of mixing data** was extracted from data tar balls made available to us from the [NIST ThermoML Archive](https://www.nist.gov/mml/acmd/trc/thermoml). In those cases where multiple values had been reported at the same experimental conditions, only the data points with the smallest experimental uncertainty were retained.
