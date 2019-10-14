@@ -7,7 +7,7 @@ draft: false
 #hidden: true # if true, will render to the specified slug, but won't be included in News list
 description: 'At the end of our first year, the Open Force Field Consortium releases its first optimized force field: the Open Force Field 1.0 (codename "Parsley") small molecule force field'
 weight: 10
-author: "John Chodera"
+author: "David Mobley, Yudong Qiu, Simon Boothroyd, Lee-Ping Wang, and John Chodera"
 markup: mmark # mmark is necessary for LaTeX to work properly
 ---
 
