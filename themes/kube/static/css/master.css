@@ -801,6 +801,11 @@ body.page-account #hero {
   font-size: 18px;
   line-height: 32px;
   margin-bottom: 40px; }
+/* JDC: Improve news post rendering on mobile devices */
+@media (max-width: 720px) {
+    #post {
+      font-size: 16px;
+      line-height: 20px; } }
 
 #changelog {
   max-width: 820px;

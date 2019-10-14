@@ -4,15 +4,17 @@ title: 'The Open Force Field 1.0 small molecule force field, our first optimized
 tags: ["website", "news", "smirnoff", "optimization"]
 categories: ["news"]
 draft: false
-hidden: true # if true, will render to the specified slug, but won't be included in News list
-description: 'At the end of our first year, the Open Force Field Consortium releases our first optimized force field: the Open Force Field 1.0 (codename "Parsley") small molecule force field'
+#hidden: true # if true, will render to the specified slug, but won't be included in News list
+description: 'At the end of our first year, the Open Force Field Consortium releases its first optimized force field: the Open Force Field 1.0 (codename "Parsley") small molecule force field'
 weight: 10
 author: "John Chodera"
 markup: mmark # mmark is necessary for LaTeX to work properly
 ---
 
 <!-- Parsley CC0 image from https://www.maxpixel.net/Leaf-Plant-Parsley-Common-Aromatic-Parsley-Leaves-3327372 -->
-![alt text](parsley-cc0.jpg "")
+<center>
+<img src="parsley-cc0.jpg" width="50%">
+</center>
 
 We’re delighted to announce the release of "Parsley", the [Open Force Field 1.0 small molecule force field](https://github.com/openforcefield/openforcefields/releases/tag/1.0.0)---the first in a series of iteratively-improved small molecule force fields for biomolecular simulation funded in part by the [Open Force Field Consortium](http://openforcefield.org/consortium).
 This is the first optimized force field to use the [SMIRNOFF force field specification](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) for atom type-free [direct chemical perception](https://dx.doi.org/10.1021/acs.jctc.8b00640), and provides substantially improved valence (bond, angle, and torsion) parameters relative to its predecessor, the AMBER-lineage [SMIRNOFF99Frosst](https://dx.doi.org/10.1021/acs.jctc.8b00640).
@@ -35,7 +37,7 @@ We have released all datasets and open source code for the community to reproduc
 ## Major contributors
 
 Many individuals form the [Open Force Field Initiative](http://openforcefield.org/members) contributed to the construction of data sets, infrastructure, parameterization, and benchmarks for this first force field release.
-While a full list of contributors is forthcoming, the following scientists made substantial and signfiicant contributions to the development of Parsley:
+While a full list of contributors is forthcoming, the following scientists made particularly cruicial contributions to the development of Parsley:
 
 * [Yudong Qiu](https://orcid.org/0000-0003-4345-8356) (UC Davis)
 * [Simon Boothroyd](https://orcid.org/0000-0002-3456-1872) (MSKCC)
@@ -94,8 +96,6 @@ We used [ForceBalance](https://doi.org/10.1021/jz500737m) to fit the parameters 
 Before discussing the data used in fitting and the actual fitting process, we briefly introduce ForceBalance.
 [ForceBalance](https://github.com/leeping/forcebalance) is a Python toolkit designed for carrying out force field optimizations in a systematic, reproducible, scalable and flexible way. Here, we employed a development version of ForceBalance based on v1.6.0 (available [here](https://github.com/leeping/forcebalance/tree/5b3a65d1baefe17625c9b05c0db5d27458c5344a)) to fit a SMIRNOFF force field to the optimized geometries, torsional profiles and vibrational frequencies using the objective function as described below.
 
-<div class="message error" data-component="message">We MUST replace the ForceBalance link with a link to the specific release or commit we used so that this work is reproducible.</div>
-
 <a id="regularized-force-field-optimization"></a>
 ### Regularized force field optimization with quasi-Newton iterations
 
@@ -145,7 +145,7 @@ To penalize deviations from a reference set of parameters---here, the [SMIRNOFF9
 To compute loss function gradients with respect to parameters, we used dimensionless step sizes of 0.01 for improved numerical stability (which differs from the ForceBalance default of 0.001).
 
 Fitting was terminated once two convergence criteria were met:
-1) The dimensioneless parameter step size shunk below 0.01;
+1) The dimensionless parameter step size shunk below 0.01;
 2) The objective function decreased by less than 0.1 during the step
 
 <a id="fitting-parsley-to-quantum-chemical-data"></a>
@@ -165,13 +165,14 @@ Our choice of quantum chemical level of theory and basis set was based on two be
 The molecules in both of these studies included amino acids, small to medium-sized peptides, and macrocycles. Geometries were optimized at the MP2/cc-pVTZ level, and reference energies were computed using explicitly correlated focal point analysis methods considered to be equivalent to complete basis CCSD(T) in accuracy.
 Both studies found that B3LYP-D3(BJ) reproduces the reference energies with RMSEs of <1 kcal/mol when very large basis sets (e.g. [def2-QZVP](https://doi.org/10.1039/B508541A)) were used; empirical dispersion played a major role, as the errors were typically 2-4x larger with uncorrected B3LYP.
 
-Notably, [Řezáč et al. 2018](https://doi.org/10.1021/acs.jctc.7b01074) reported that the double-zeta quality “DZVP” basis set [https://doi.org/10.1139/v92-079] gave nearly the same RMSEs as def2-QZVP, which we were able to reproduce in our own tests. When similar-sized and better-known basis sets such as 6-31G* and def2-SV(P) were used, the RMSEs increased significantly but there were only minor differences in computational cost. Our results are largely consistent with Ref.[https://doi.org/10.1021/acs.jctc.7b01074] even though we did not use the custom empirical dispersion parameters they derived for the DZVP-DFT basis set. A scatter plot of RMSE vs. calculation time for a representative molecule, labeled as FGG114 in Ref.[https://doi.org/10.1021/acs.jctc.7b01074], is show in the figure below; the results confirm that the DZVP-DFT basis set gives the best compromise between accuracy and computational cost.
+Notably, [Řezáč et al. 2018](https://doi.org/10.1021/acs.jctc.7b01074) reported that the double-zeta quality [DZVP basis set](https://doi.org/10.1139/v92-079) gave nearly the same RMSE as def2-QZVP, which we were able to reproduce in our own tests. When similar-sized and better-known basis sets such as 6-31G* and def2-SV(P) were used, the RMSEs increased significantly but there were only minor differences in computational cost.
+Our results are largely consistent with [Řezáč et al. 2018](https://doi.org/10.1021/acs.jctc.7b01074) even though we did not use the custom empirical dispersion parameters they derived for the DZVP-DFT basis set. A scatter plot of RMSE vs. calculation time for a representative molecule, labeled as FGG114 in [Řezáč et al. 2018](https://doi.org/10.1021/acs.jctc.7b01074), is show in the figure below; the results confirm that the DZVP-DFT basis set gives the best compromise between accuracy and computational cost.
 
 Although we think our choice of QM method is appropriate for gas-phase conformational energies, we did not conduct benchmark studies on optimized geometries and vibrational frequencies which were also part of our parameterization dataset.
 More comprehensive benchmarks are planned to inform future force field generations.
 
 <center>
-![alt text](qm-speed-accuracy-tradeoff.png "")
+<img src="qm-speed-accuracy-tradeoff.png" width="50%">
 </center>
 **Tradeoff between speed and accuracy in selecting quantum chemical basis set.**
 Computational time (for single conformer) versus RMSE to benchmark-quality relative energies for 15 conformations of a representative molecule from [Řezáč et al. 2018](https://doi.org/10.1021/acs.jctc.7b01074) (SMILES `N[C@@H](CC1=CC=CC=C1)C(NCC(NCC(O)=O)=O)=O)`) for several choices of basis set.
@@ -228,7 +229,7 @@ The [QCArchive documentation](https://qcarchivetutorials.readthedocs.io/en/lates
 |:--------------------|:------------------------------|:-------------------------------|
 | **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-05-16-Roche-Optimization_Set) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-06-25-smirnoff99Frost-coverage) |
 | **QCArchive `OptimizationDataset` name** | `OpenFF Optimization Set 1` | `SMIRNOFF Coverage Set 1` |
-| Number of optimized geometries | 936 | 831 |
+| **Number of optimized geometries** | 936 | 831 |
 
 Prior to running quantum chemical calculations, the input molecules first undergo a protonation state and conformer expansion using our [`fragmenter` package](https://github.com/openforcefield/fragmenter) version [0.0.2+121.g87b85a4](https://github.com/openforcefield/fragmenter/tree/87b85a406aa9c6ac0cfbaf582ed05c55799161a9).
 After the expansion, each state is identified as a new molecule, so the number of distinct molecules may increase, and each molecule may have one or more conformers.
@@ -255,7 +256,7 @@ The proper torsion angles are not fitted as part of the optimized geometry fitti
 |:--------------------|:------------------------------|:-------------------------------|
 | **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-07-09-OpenFF-Optimization-Set) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-06-25-smirnoff99Frost-coverage) |
 | **QCArchive `OptimizationDataset` name** | `OpenFF Optimization Set 1` | `SMIRNOFF Coverage Set 1` |
-| Number of vibrational datasets | 660 | 235 |
+| **Number of vibrational datasets** | 660 | 235 |
 
 Hessian calculations were submitted to QCArchive for each optimized geometry in both molecule sets.
 
@@ -270,7 +271,7 @@ During the fitting, the MM Hessian is computed by evaluating forces with numeric
 |:--------------------|:------------------------------|:-------------------------------|
 | **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-05-01-OpenFF-Group1-Torsions) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-07-01-smirnoff99Frost-coverage-torsion) |
 | **QCArchive `OptimizationDataset` name** | `OpenFF Group1 Torsions` | `SMIRNOFF Coverage Torsion Set 1` |
-| Number of 1D torsion drives | 669 | 417 |
+| **Number of 1D torsion drives** | 669 | 417 |
 
 The QM torsion profiles were generated by [TorsionDrive](https://github.com/lpwgroup/torsiondrive), which carries out 360 degree dihedral scans with constrained geometry optimizations (with geomeTRIC [https://doi.org/10.1063/1.4952956]), spaced 15 degrees apart.
 The torsion angle was not scanned past structures with energies more than 0.05 Hartrees above the minimum, thus improving the stability of the scans by avoiding bond-breaking and unusual structures caused by constrained optimization.
@@ -283,7 +284,9 @@ The scanned dihedral angles were selected using different strategies for the two
 
 For the **Roche Set**, we selected 819 dihedral angles that match all following conditions: a) the center bond is not part of a ring; b) no hydrogen atom is involved; c) neither of the two angles involved is close to linear (>= 165 degree); d) the center bond has not been previously scanned. Among all torsions sharing the same center bond, the torsion with the heaviest side group (by number of atoms) is picked.
 
-For the **Coverage Set**, we used the SMIRNOFF force field to label the torsions in each molecule, then the first five dihedral angles that match each torsion term were selected for scanning. (Note: the force field term `t155b` was added after this dataset is created, so no torsion is selected for that term) Multiple initial geometries were generated for each molecule via `fragmenter`, and we provided all generated conformers for each molecule as “initial geometries” at the beginning of the torsion scan, to improve the coverage of conformational space.
+For the **Coverage Set**, we used the SMIRNOFF force field to label the torsions in each molecule, then the first five dihedral angles that match each torsion term were selected for scanning.
+(Note: the force field term `t155b` was added after this dataset was created, so no torsion is selected for that term.)
+Multiple initial geometries were generated for each molecule via `fragmenter`, and we provided all generated conformers for each molecule as “initial geometries” at the beginning of the torsion scan, to improve the coverage of conformational space.
 
 The torsion profile fitting targets are prepared by a) downloading the relevant torsion scan trajectories from the QCArchive server; b) checking molecule topology with toolkit; c) filtering out trajectories that contain any frame with hydrogen bonds, to avoid building strong internal electrostatic interactions into fitted torsional profiles.
 Hydrogen bonds are detected using [Baker Hubbard method](http://mdtraj.org/latest/api/generated/mdtraj.baker_hubbard.html#mdtraj.baker_hubbard) [ Angle(D-H..A) > 120 degrees and Dist(H..A) < 2.5 A ] implemented in [`mdtraj`](http://mdtraj.org) package.
@@ -414,7 +417,8 @@ The full set of plots are available in the [release package](https://github.com/
 <center>
 <img src="torsion-profile-example.png" width="80%">
 </center>
-An example of degraded, or at least not improved, MM vs QM agreement for a torsion profile. The metadata is as in the figure just prior.
+**An example of degraded, or at least not improved, MM vs QM agreement for a torsion profile.**
+The metadata is as in the figure just prior.
 
 <a id="benchmarking-parsley"></a>
 ## Benchmarking Parsley
@@ -429,7 +433,7 @@ The first of these is the `OpenFF Discrepancy Benchmark 1` dataset.
 This contains some 2802 unique molecules (19 712 conformers) resulting from the work of [Ehrman et al.](http://dx.doi.org/10.5281/zenodo.3385278) in the [Mobley lab](https://mobleylab.org/), which energy minimized all of eMolecules in several different force fields and then extracted molecules with geometries which were significantly different across force fields. This particular subset, as described in our [dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/5105bb950183392dea208684b0889f29e311d2ee/2019-07-05%20eMolecules%20force%20field%20discrepancies%201), focuses on fragment-like molecules with geometries which are substantially different in `smirnoff99Frosst` 1.0.8 relative to GAFF, GAFF2, and MMFF94 and 94s. As the full set of eMolecules was still in process, this represents the first 2802 molecules with significant discrepancies identified in this study, with the full set becoming available later.
 
 While this set was rather diverse and, based on inspection, chemically interesting, it also seemed to overrepresent certain chemistry (e.g. Br occurs more than one might expect), so we were concerned that this might not be representative of our target chemistry. Thus, to ensure sets were representative of the chemistry of interest, we generated two additional sets for benchmarking:
-* Xinjun Hou and Brajesh Rai at Pfizer provided 100 challenging small molecule fragments where Pfizer’s QM calculations of torsional profiles differed substantially from OPLS3e, as further discussed [on our dataset repository[(https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-07-Pfizer-discrepancy-optimization-dataset-1). After enumeration of conformers, we ran geometry optimizations and torsional scans, utilizing the geometry optimizations in this work as our `Pfizer Discrepancy Optimization Dataset 1`.
+* Xinjun Hou and Brajesh Rai at Pfizer provided 100 challenging small molecule fragments where Pfizer’s QM calculations of torsional profiles differed substantially from OPLS3e, as further discussed [in our dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-07-Pfizer-discrepancy-optimization-dataset-1). After enumeration of conformers, we ran geometry optimizations and torsional scans, utilizing the geometry optimizations in this work as our `Pfizer Discrepancy Optimization Dataset 1`.
 * The [ZINC15 FDA dataset](http://zinc.docking.org/substances/subsets/fda/) formed the basis of our final set, and we filtered to remove molecules with fewer than 3 or more than 55 heavy atoms, as well as removing metals and only allowing molecules containing the elements H, C, N, O, F, P, S, Cl, Br, I and B. After conformer generation this resulted in 1038 molecules and 6675 conformers, as further discussed on our [dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-08-fda-optimization-dataset-1). This resulted in our `FDA Optimization Dataset 1`.
 
 Additional datasets will likely be warranted in the future, but the set of FDA approved drugs certainly provides a reasonable starting point for chemistry of interest.
@@ -448,7 +452,7 @@ Division into these two sets was done based on path-based fingerprint similarity
 |:--------------------|:------------------------------|:-------------------------------|:------------------|
 | **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-07-05%20eMolecules%20force%20field%20discrepancies%201) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-07-Pfizer-discrepancy-optimization-dataset-1) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-08-fda-optimization-dataset-1) |
 | **QCArchive `OptimizationDataset` name** | `OpenFF Discrepancy Benchmark 1` | `Pfizer Discrepancy Optimization Dataset 1` | `FDA Optimization Dataset 1` |
-| Number of optimized geometries | 19479 | 352 | 5410 |
+| **Number of optimized geometries** | 19479 | 352 | 5410 |
 
 
 The final result of this work was that we combined the above three datasets into two new datasets on QCArchive, the `OpenFF Primary Optimization Benchmark 1`, and the `OpenFF Full Optimization Benchmark 1`.
@@ -529,7 +533,7 @@ The condensed phase physical property benchmark data set was curated from data m
 <a id="hysical-property-benchmark-construction"></a>
 #### Construction of the physical property benchmark set
 
-The intention was to assess the performance of the newly refit force field against a set of pure densities and enthalpies of vaporization (two historically common fitting targets for force field non-bonded interactions), pure static dielectric constants (which appear to have strong correlations with hydration free energies [ref]) and binary enthalpies of mixing and excess molar volumes (which we believe to have correlations with binding affinities).
+The intention was to assess the performance of the newly refit force field against a set of pure densities and enthalpies of vaporization (two historically common fitting targets for force field non-bonded interactions), pure static dielectric constants (which appear to have strong correlations with hydration free energies) and binary enthalpies of mixing and excess molar volumes (which we believe to have correlations with binding affinities).
 
 We automated the curation of such a data set by performing the following series of steps:
 1. All available pure **density**, **enthalpy of vaporization**, **static dielectric constant**, **binary excess molar volume**, and **enthalpy of mixing data** was extracted from data tar balls made available to us from the [NIST ThermoML Archive](https://www.nist.gov/mml/acmd/trc/thermoml). In those cases where multiple values had been reported at the same experimental conditions, only the data points with the smallest experimental uncertainty were retained.

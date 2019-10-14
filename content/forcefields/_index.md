@@ -5,11 +5,26 @@ draft = false
 
 +++
 
+<a id="parsley"></a>
+# Open Force Field 1.0 small molecule force field (codename "Parsley")
+
+[![Version](https://img.shields.io/github/release/openforcefield/openforcefields.svg?style=flat)](https://github.com/openforcefield/openforcefields/releases)
+![Status: Experimental](https://img.shields.io/badge/status-benchmarked-green.svg?style=flat)
+[![License: CC-BY 4.0](https://img.shields.io/github/license/openforcefield/smirnoff99Frosst.svg?style=flat)](https://creativecommons.org/licenses/by/4.0/)
+
+The first optimized small molecule force field from the Open Force Field Initiative, a refit of the AMBER-lineage <a href="#smirnoff99Frosst">smirnoff99Frosst</a> to quantum chemical data that uses the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) direct chemical perception specification.
+
+[[Blog post]](http://openforcefield.org/news/introducing-openforcefield-1.0/) |
+[[Fitting]](https://github.com/openforcefield/release-1-fitting) |
+[[Benchmarks]](https://github.com/openforcefield/release-1-benchmarking) |
+[[Parameters]](https://github.com/openforcefield/openforcefields/releases)
+
+<a id="smirnoff99Frosst"></a>
 # smirnoff99Frosst
 
-[![Version](https://img.shields.io/github/release/openforcefield/smirnoff99frosst.svg)](https://github.com/openforcefield/smirnoff99Frosst/releases)
+[![Version](https://img.shields.io/github/release/openforcefield/smirnoff99frosst.svg?style=flat)](https://github.com/openforcefield/smirnoff99Frosst/releases)
 ![Status: Experimental](https://img.shields.io/badge/status-experimental-orange.svg?style=flat)
-[![License: CC-BY 4.0](https://img.shields.io/github/license/openforcefield/smirnoff99Frosst.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC-BY 4.0](https://img.shields.io/github/license/openforcefield/smirnoff99Frosst.svg?style=flat)](https://creativecommons.org/licenses/by/4.0/)
 
 A minimalist AMBER-compatible general small molecule force field with excellent coverage of druglike chemical space,
 using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/0.3.0/smirnoff.html) direct chemical perception specification.
