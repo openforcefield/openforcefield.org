@@ -145,7 +145,7 @@ To penalize deviations from a reference set of parameters---here, the [SMIRNOFF9
 To compute loss function gradients with respect to parameters, we used dimensionless step sizes of 0.01 for improved numerical stability (which differs from the ForceBalance default of 0.001).
 
 Fitting was terminated once two convergence criteria were met:
-1) The dimensionless parameter step size shunk below 0.01;
+1) The dimensionless parameter step size shrunk below 0.01;
 2) The objective function decreased by less than 0.1 during the step
 
 <a id="fitting-parsley-to-quantum-chemical-data"></a>
@@ -318,13 +318,13 @@ All of the above parameters are fitted simultaneously against all QM data.
 <a id="fitting-valence-terms"></a>
 ### Fitting valence terms
 
-The objective function -- weighted sum of squared differences between QM and MM values -- decreased dramatically in the fitting, from 25708 to 4522.
+The objective (or loss) function---the weighted sum of squared differences between QM and MM values---decreased dramatically in the fitting, from 25708 to 4522.
 
 <center>
-<div style="width:50%">
-![alt text](fitting-valence-terms.png "Total loss function at each iteration of parameter fitting.")
-</div>
+<img src="fitting-valence-terms.png" width="50%">
 </center>
+**Total loss function at each iteration of parameter fitting.**
+The y-axis shows the (dimensionless) loss function.
 
 Improvements in optimized bond lengths and angles, as well as torsion profiles are observed for a great amount of reference data.
 
@@ -334,9 +334,7 @@ Full details of fitting can be found at https://github.com/openforcefield/releas
 ### Improvements in optimized geometries
 
 <center>
-<div style="width:100%">
-![alt text](objective-function-contributions.png "")
-</div>
+<img src="objective-function-contributions.png" width="80%">
 </center>
 **Improved objective function of all optimized geometry target contributions.**
 Targets are sorted from left to right based on their final contributions to the objective function (shown in red), so the x-axis denotes the sorted target number. Gray shows the initial contribution of each target to the objective function (that is, the values with the initial forcefield). Everywhere the red line is below the gray, fitting improves performance on that target, and everywhere gray is below red, fitting hurt performance on that target. On the whole, fitting improves performance on the vast majority of geometries, but some are degraded to some extent.
@@ -407,7 +405,7 @@ We also observe an overall decrease of objective function contribution from tors
 As above, the red shows contribution of each target to the final objective function after fitting, and the gray shows the same contribution but for the initial force field. Again, substantial improvement is observed in general, with a degradation of performance in a modest subset of cases.
 
 <center>
-<img src="torsion-profile-example.png" width="80%">
+<img src="torsion-profile-example.png" width="60%">
 </center>
 **An example of improved MM vs QM agreement for a torsion profile.**
 The metadata at the bottom explains which dataset this data is drawn from, and which specific molecule this torsion occurs in, as well as the SMIRKS pattern for the particular torsion being fitted here. The total count of this SMIRKS pattern across the dataset is also shown at the bottom, as well as the parameter ID and the atom indices in the molecule.
@@ -415,7 +413,7 @@ The metadata at the bottom explains which dataset this data is drawn from, and w
 We also found that a few torsion profiles were fitted with worse quality. They may be caused by nonoptimal torsion term definitions or periodicity/phase. These are worth investigating for further improvements of the force field.
 The full set of plots are available in the [release package](https://github.com/lpwgroup/forcebalance-qcarchive/releases/tag/v0.0.9).
 <center>
-<img src="torsion-profile-example.png" width="80%">
+<img src="degraded-torsion-profile.png" width="60%">
 </center>
 **An example of degraded, or at least not improved, MM vs QM agreement for a torsion profile.**
 The metadata is as in the figure just prior.
