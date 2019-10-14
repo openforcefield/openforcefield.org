@@ -37,7 +37,7 @@ We have released all datasets and open source code for the community to reproduc
 ## Major contributors
 
 Many individuals form the [Open Force Field Initiative](http://openforcefield.org/members) contributed to the construction of data sets, infrastructure, parameterization, and benchmarks for this first force field release.
-While a full list of contributors is forthcoming, the following scientists made particularly cruicial contributions to the development of Parsley:
+While a full list of contributors is forthcoming, the following scientists made particularly crucial contributions to the development of Parsley:
 
 * [Yudong Qiu](https://orcid.org/0000-0003-4345-8356) (UC Davis)
 * [Simon Boothroyd](https://orcid.org/0000-0002-3456-1872) (MSKCC)
