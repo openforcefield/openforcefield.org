@@ -145,7 +145,7 @@ To penalize deviations from a reference set of parameters---here, the [SMIRNOFF9
 To compute loss function gradients with respect to parameters, we used dimensionless step sizes of 0.01 for improved numerical stability (which differs from the ForceBalance default of 0.001).
 
 Fitting was terminated once two convergence criteria were met:
-1) The dimensioneless parameter step size shunk below 0.01;
+1) The dimensionless parameter step size shunk below 0.01;
 2) The objective function decreased by less than 0.1 during the step
 
 <a id="fitting-parsley-to-quantum-chemical-data"></a>
