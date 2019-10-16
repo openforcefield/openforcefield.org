@@ -237,7 +237,7 @@ Each conformer provides one optimized geometry used in fitting.
 
 The QCArchive server carries out geometry optimizations using the [geomeTRIC optimization driver](https://github.com/leeping/geomeTRIC) [[Wang and Song 2016](https://doi.org/10.1063/1.4952956)] and the [psi4 quantum chemistry package](http://www.psicode.org/) [[Parrish et al. 2017](https://doi.org/10.1021/acs.jctc.7b00174)] as backends.
 Optimized QM geometries were downloaded from the QCArchive server, then filtered to remove cases where the bonding pattern changes on optimization, as well as issues which pose other problems for the [openforcefield toolkit v0.4.1](https://github.com/openforcefield/openforcefield/releases/tag/0.4.1), e.g. undefined stereochemistry, missing torsion terms, or inability to assign AM1-BCC charges.  
-Details can be found in [this script](https://github.com/openforcefield/release-1-fitting/blob/master/vib_freq_target/make_vib_freq_target.py), and molecules which were removed can be found in `fb-fit/targets/error_mol2s` in the release package.
+Details can be found in [this script](https://github.com/openforcefield/openforcefield-forcebalance/blob/master/vib_freq_target/make_vib_freq_target.py), and molecules which were removed can be found in `fb-fit/targets/error_mol2s` in the release package.
 
 To further improve fits to optimized geometries, a new fitting method we call “internal coordinate fitting” was implemented in ForceBalance.
 The method performs MM geometry optimizations starting from QM optimized structure.
@@ -260,7 +260,7 @@ The proper torsion angles are not fitted as part of the optimized geometry fitti
 
 Hessian calculations were submitted to QCArchive for each optimized geometry in both molecule sets.
 
-The vibrational frequency fitting targets are prepared by: 1) downloading Hessian data for each optimized geometry from QCArchive server; 2) Picking the lowest-energy conformer of each molecule; 3) Applying the same filters as for the optimized geometry targets (bond changes and toolkit errors); and 4) Conducting normal-mode analysis to get harmonic vibrational frequencies for non-translational and non-rotational degrees of freedom. Details can be found in [this script](https://github.com/openforcefield/release-1-fitting/blob/master/vib_freq_target/make_vib_freq_target.py).
+The vibrational frequency fitting targets are prepared by: 1) downloading Hessian data for each optimized geometry from QCArchive server; 2) Picking the lowest-energy conformer of each molecule; 3) Applying the same filters as for the optimized geometry targets (bond changes and toolkit errors); and 4) Conducting normal-mode analysis to get harmonic vibrational frequencies for non-translational and non-rotational degrees of freedom. Details can be found in [this script](https://github.com/openforcefield/openforcefield-forcebalance/blob/master/vib_freq_target/make_vib_freq_target.py).
 
 During the fitting, the MM Hessian is computed by evaluating forces with numerical displacements (0.001 Angstrom). The MM Hessian undergoes the same normal mode analysis as QM, then vibrational frequencies are aligned from lowest to highest. Pairwise squared differences then contribute to the total objective function with a denominator of 200 cm$^{-1}$.
 
@@ -290,7 +290,7 @@ Multiple initial geometries were generated for each molecule via `fragmenter`, a
 
 The torsion profile fitting targets are prepared by a) downloading the relevant torsion scan trajectories from the QCArchive server; b) checking molecule topology with toolkit; c) filtering out trajectories that contain any frame with hydrogen bonds, to avoid building strong internal electrostatic interactions into fitted torsional profiles.
 Hydrogen bonds are detected using [Baker Hubbard method](http://mdtraj.org/latest/api/generated/mdtraj.baker_hubbard.html#mdtraj.baker_hubbard) [ Angle(D-H..A) > 120 degrees and Dist(H..A) < 2.5 A ] implemented in [`mdtraj`](http://mdtraj.org) package.
-Details can be found in [this script](https://github.com/openforcefield/release-1-fitting/blob/master/torsion_target/make_torsion_target_new.py).
+Details can be found in [this script](https://github.com/openforcefield/openforcefield-forcebalance/blob/master/torsion_target/make_torsion_target_new.py).
 
 The geometries used in fitting are constrained local minima in the QM method, but they are not local minima in the MM method.
 This creates a problem because MM simulations will involve some amount of relaxation on the MM surface (e.g. due to differences in the description of bonded interactions or sterics) that varies depending on the torsion angle.
@@ -304,7 +304,7 @@ During the restrained geometry optimization, the four atoms of the torsion being
 <a id="parameters-fitted"></a>
 ### Parameters fit in Parsley
 
-In SMIRNOFF99Frosst and Parsley, valence parameters consist of the following terms (when specific identifiers are given, these refer to the “parameter ID” in the Parsley release and the SMIRNOFF99Frosst force field from which fitting began, available in our [release package](https://github.com/openforcefield/release-1-fitting/releases/tag/v1.0.0-RC2) (in the `fb-fit/forcefield/param_valence.offxml` file):
+In SMIRNOFF99Frosst and Parsley, valence parameters consist of the following terms (when specific identifiers are given, these refer to the “parameter ID” in the Parsley release and the SMIRNOFF99Frosst force field from which fitting began, available in our [release package](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.0.0-RC2) (in the `fb-fit/forcefield/param_valence.offxml` file):
 * **Harmonic bond stretch**: 86 equilibrium bond lengths and 86 force constants.
 * **Harmonic angle bend**: 35 equilibrium angles and 39 force constants (several angles are linear and kept linear during fitting -- specifically, angles a3 (SMIRKS `[*;r3:1]1~;@[*;r3:2]~;@[*;r3:3]1`), a16 (`[*:1]~[#6X2:2]~[*:3]`), a21 (`[*:1]~[#7X2:2]~[*:3]`), a34 (`[*:1]=[#16X2:2]=[*:3]`), and a38 (`[*:1]~[#15:2]~[*:3]`). Parameter IDs can be viewed in the [OFFXML](https://github.com/openforcefield/openforcefields/blob/master/openforcefields/offxml/openff-1.0.0-RC2.offxml).)
 * **Proper torsions**: Each torsion uses one or more barrier heights `k` followed by integers, e.g. `k1` or `kN`, where `N` is an integer that the periodicity of the term that force constant is applied to. Here, terms were: 154 `k1` values, 62 `k2` values, 26 `k3` values, 5 `k4` values, 4 `k5` values, and 3 `k6` values, for a total of 254 parameters. Parameters `t156`, `t157`, `t158` are place holders matching linear bond, thus their `k1` is kept at 0.0 during fitting. Periodicity and phase parameters were not optimized in this release to ensure that we did not overfit in initial efforts where the number of molecules utilizing some parameters remains small.
@@ -328,7 +328,7 @@ The y-axis shows the (dimensionless) loss function.
 
 Improvements in optimized bond lengths and angles, as well as torsion profiles are observed for a great amount of reference data.
 
-Full details of fitting can be found at https://github.com/openforcefield/release-1-fitting/releases/tag/v1.0.0-RC2
+Full details of fitting can be found at https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.0.0-RC2
 
 <a id="improvements-in-geometries"></a>
 ### Improvements in optimized geometries
@@ -535,7 +535,7 @@ The intention was to assess the performance of the newly refit force field again
 
 We automated the curation of such a data set by performing the following series of steps:
 1. All available pure **density**, **enthalpy of vaporization**, **static dielectric constant**, **binary excess molar volume**, and **enthalpy of mixing data** was extracted from data tar balls made available to us from the [NIST ThermoML Archive](https://www.nist.gov/mml/acmd/trc/thermoml). In those cases where multiple values had been reported at the same experimental conditions, only the data points with the smallest experimental uncertainty were retained.
-2. Any data which was measured for molecules appearing in the non-bonded condensed phase training set used to produce the parsley release candidate 1 ([Parsley RC 1](https://github.com/openforcefield/release-1-fitting/releases/tag/v1.0.0-RC1)) force field was removed.
+2. Any data which was measured for molecules appearing in the non-bonded condensed phase training set used to produce the parsley release candidate 1 ([Parsley RC 1](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.0.0-RC1)) force field was removed.
 3. A global set of filters were applied to the data only data which was appropriate for our target conditions and chemistry. In particular, we only retained data which was measured
    1. at biologically relevant and near ambient conditions---specifically at temperatures between 288 K and 318 K, and pressures between 0.95 atm and 1.05 atm.
    2. for substances which did not contain any metals, and were composed of only the elements H, N, C, O, S, F, Cl, Br, I
@@ -564,7 +564,7 @@ The the fully curated set chosen by this approach contains 221 data points for 1
 <a id="physical-property-benchmark-results"></a>
 #### Condensed phase benchmark results
 
-The curated set of condensed-phase properties was computed for five different popular small molecule force fields: [smirnoff99frosst 1.1.0](https://github.com/openforcefield/smirnoff99Frosst/releases/tag/1.1.0), [Parsley RC 1](https://github.com/openforcefield/release-1-fitting/releases/tag/v1.0.0-RC1), [Parsley 1.0.0](https://github.com/openforcefield/openforcefields/releases/tag/1.0.0), [GAFF 1.81](http://ambermd.org/antechamber/gaff.html), and GAFF 2.11 (shipped with the [ambertools19](http://ambermd.org/AmberTools.php) conda package).
+The curated set of condensed-phase properties was computed for five different popular small molecule force fields: [smirnoff99frosst 1.1.0](https://github.com/openforcefield/smirnoff99Frosst/releases/tag/1.1.0), [Parsley RC 1](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.0.0-RC1), [Parsley 1.0.0](https://github.com/openforcefield/openforcefields/releases/tag/1.0.0), [GAFF 1.81](http://ambermd.org/antechamber/gaff.html), and GAFF 2.11 (shipped with the [ambertools19](http://ambermd.org/AmberTools.php) conda package).
 Calculations were performed using our propertyestimator GPU-accelerated distributed property computation framework v0.0.5 [https://github.com/openforcefield/propertyestimator] using scripts made available in the release-1-benchmark repo [https://github.com/openforcefield/release-1-benchmarking].
 
 In general, the new Parsley 1.0.0 force field appears to perform well, showing marginal (although not statistically significant) improvements over the previous smirnoff99frosst 1.1.0 release, and appears to exhibit a comparable level of accuracy as the established GAFF family of force fields.
