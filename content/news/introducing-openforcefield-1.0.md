@@ -475,7 +475,7 @@ The total objective function value for the optimized force field is 1121, compar
 **Bond length RMSE comparison for initial and optimized force fields for the Primary Set.**
 Blue bars show the RMSE for the initial force field; green show decreased RMSEs for the optimized force field, and red show increased RMSEs for the optimized force field. In general, we see significantly more green than red, indicating more bond lengths are improved than are degraded in the final force field. SMIRKS patterns for these parameter IDs can be retrieved from the [offxml](https://github.com/openforcefield/openforcefields/blob/master/openforcefields/offxml/openff-1.0.0-RC2.offxml).
 
-The above plot shows an overall decrease of RMSE in bond lengths when using optimized force field compared to the initial version. Comparable plots for angles and torsions are available in our [benchmark package release](https://github.com/openforcefield/release-1-benchmarking/releases/tag/v0.0.3) in the `.tar.gz` files at the bottom of the [release page](https://github.com/openforcefield/release-1-benchmarking/releases/tag/v0.0.3).
+The above plot shows an overall decrease of RMSE in bond lengths when using optimized force field compared to the initial version. Comparable plots for angles and torsions are available in our [benchmark package release](https://github.com/openforcefield/release-1-benchmarking/releases/tag/v1.0.0) in the `.tar.gz` files at the bottom of the [release page](https://github.com/openforcefield/release-1-benchmarking/releases/tag/v1.0.0).
 
 To investigate the impact of the improvement in the optimized force field on each individual molecule, the weighted root-mean-square deviation (RMSD) between internal coordinates of MM minimized geometry and QM minimized geometry of each molecule was calculated. Comparison of the weighted RMSD values shows 80.5% of geometries in the primary set (1490 out of 1850 geometries) are improved in the optimized force field compared to the initial force field.
 
@@ -521,7 +521,7 @@ The total objective function value for the optimized force field is 20672, compa
 **Bond length RMSE comparison for initial and optimized force fields for Full Set.**
 Blue bars show the RMSE for the initial force field; green show decreased RMSEs for the optimized force field, and red show increased RMSEs for the optimized force field. As on the primary set, performance on the full set seems to be significantly better in most cases. SMIRKS patterns for these parameter IDs can be retrieved from the [offxml](https://github.com/openforcefield/openforcefields/blob/master/openforcefields/offxml/openff-1.0.0-RC2.offxml).
 
-The above plot shows an overall decrease of RMSE in bond lengths when using optimized force field compared to the initial version. Comparable plots for angles and torsions are available in our [release package](https://github.com/openforcefield/release-1-benchmarking/releases/tag/v0.0.3).
+The above plot shows an overall decrease of RMSE in bond lengths when using optimized force field compared to the initial version. Comparable plots for angles and torsions are available in our [release package](https://github.com/openforcefield/release-1-benchmarking/releases/tag/v1.0.0).
 
 <a id="physical-property-benchmarks"></a>
 ### Physical property benchmarks
