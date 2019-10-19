@@ -36,7 +36,7 @@ We firmly believe that research in this space is not a zero-sum game; with the r
 ## Can we use your software in our force field effort?
 
 Yes! Everything is open source under permissive licenses (generally the MIT License). We are also open to suggestions from the community, as well as community input on the codes and research directions. Please contribute to our GitHub issue trackers for projects at http://github.com/openforcefield, or even feel free to contribute code if you find it useful!
-Our [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirnoff.html) force field specification is an excellent way to ensure your force field will be portable between many biomolecular simulation packages, and we intend for our tools for force field parameterization to also be widely useful in addressing exciting questions in force field science.
+Our [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) force field specification is an excellent way to ensure your force field will be portable between many biomolecular simulation packages, and we intend for our tools for force field parameterization to also be widely useful in addressing exciting questions in force field science.
 
 ## Requesting Letters of Collaboration
 
