@@ -87,7 +87,7 @@
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if or (eq .status "Alumnus") (eq .status "Alumna") }}
+  {{ if eq .status "alum" }}
   <div class="row gutters">
     {{ partial "person" . }}
   </div>
