@@ -70,7 +70,7 @@ ORCID: 0000-0003-0542-119X
 twitter: jchodera
 github: jchodera
 ```
-where `role` can be `Researcher`, `Advisor`, `Software Scientist`, or `Primary Investigator`.
+where `role` for active members can be `Researcher`, `Advisor`, `Software Scientist`, `Primary Investigator`, or `alum`.
 
 ### Adding new publications
 

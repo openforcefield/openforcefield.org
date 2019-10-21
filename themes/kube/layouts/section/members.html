@@ -81,6 +81,20 @@
 {{ end }}
 </ul>
 
+<!-- Alumni -->
+
+<h2>Alumni</h2>
+
+<ul>
+{{ range $.Site.Data.members }}
+  {{ if eq .role "alum" }}
+  <div class="row gutters">
+    {{ partial "person" . }}
+  </div>
+  {{ end }}
+{{ end }}
+</ul>
+
 <!-- Researchers -->
 
 </div>
