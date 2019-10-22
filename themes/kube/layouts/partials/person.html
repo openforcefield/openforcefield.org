@@ -2,7 +2,7 @@
   <img src=img/{{ .img }}>
 </div>
 <div class="col col-9">
-  <h4><b>{{ .name }}</b> {{ if ne .status "alum" }} ({{ .role }}) {{ end }}
+  <h4><b>{{ .name }}</b> {{ if ne .role "alum" }} ({{ .role }}) {{ end }}
   {{ with .twitter }} <a href="http://twitter.com/{{ . }}"><img width="20" src="img/twitter.png"></a> {{ end }}
   {{ with .github }} <a href="http://github.com/{{ . }}"><img width="20" src="img/github.png"></a> {{ end }}
   </h4>
