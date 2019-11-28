@@ -173,7 +173,7 @@ If you are applying for the position in New York, please change the subject line
 
 **2. HPC postdoctoral fellow or staff scientist (Brookhaven National Lab)**
 
-The Chodera lab and Brookhave National Lab are hiring a postdoc or staff scientist to work at the intersection of  software development and high-performance computing, spearheading the development of software infrastructure for scalable alchemical free energy calculations and machine learning. This is a 3-year position with an option for extension and it sits at the interface of high-performance computing, machine learning and computational science. Find more details about this position [here](http://www.choderalab.org/jobs).
+The Chodera lab and Brookhaven National Lab are hiring a postdoc or staff scientist to work at the intersection of  software development and high-performance computing, spearheading the development of software infrastructure for scalable alchemical free energy calculations and machine learning. This is a 3-year position with an option for extension and it sits at the interface of high-performance computing, machine learning and computational science. Find more details about this position [here](http://www.choderalab.org/jobs).
 
 **Applications:** Interested candidates should send a cover letter and CV to `postdoc@choderalab.org` with the subject line “BNL Postdoc Position” or “BNL Staff Scientist Position”.
 
