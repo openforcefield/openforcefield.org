@@ -147,9 +147,13 @@ potential sites including the participating investigator laboratories:
 
 ## **Other Available Postdoc Positions**
 
+<a id="chodera-postdocs"></a>
+
 ## [Postdoc positions available in the Chodera lab](http://www.choderalab.org/jobs)
 
 There are several postdoc positions available for joint projects between the [Chodera lab](http://www.choderalab.org/) based [MSKCC](http://mskcc.org/) in New York and the [Volkamer group](https://physiologie-ccm.charite.de/en/research_at_the_institute/team_volkamer/) at the [Charité](https://www.charite.de/en/) in Berlin, and [Shantenu Jha](http://radical.rutgers.edu/people/shantenu-jha) at Brookhaven National Lab / Rutgers University.
+
+<a id="chodera-bayer-postdoc"></a>
 
 **1. Bayer sponsored postdoctoral fellows (New York / Berlin)**
 
@@ -165,12 +169,15 @@ The position is part of a collaboration with Bayer AG, Germany, pending final co
 
 If you are applying for the position in New York, please change the subject line to "Postdoc application: NYC". More information about these positions and how to apply can be found [here](http://www.choderalab.org/jobs).
 
+<a id="chodera-brookhaven-postdoc-staffsci"></a>
+
 **2. HPC postdoctoral fellow or staff scientist (Brookhaven National Lab)**
 
 The Chodera lab and Brookhave National Lab are hiring a postdoc or staff scientist to work at the intersection of  software development and high-performance computing, spearheading the development of software infrastructure for scalable alchemical free energy calculations and machine learning. This is a 3-year position with an option for extension and it sits at the interface of high-performance computing, machine learning and computational science. Find more details about this position [here](http://www.choderalab.org/jobs).
 
 **Applications:** Interested candidates should send a cover letter and CV to `postdoc@choderalab.org` with the subject line “BNL Postdoc Position” or “BNL Staff Scientist Position”.
 
+<a id="mobley-postdoc"></a>
 
 ## [Postdoc position available in the Mobley lab](https://mobleylab.org/2019/11/18/postdoc-position-available-in-the-mobley-lab/)
 
@@ -180,14 +187,19 @@ The ideal candidate will have a strong background in scientific software develop
 
 **Applications:** Please send a cover letter explaining your interest in the position and your relevant background, along with a CV which also contains contact information for at least three references to `dmobley+postdoc@gmail.com`. This position will start as soon as a suitable candidate can be found, but applications should be received before mid-December, 2019.
 
+<a id="shirts-postdocs"></a>
 
 ## [Two postdoc positions available in the Shirts lab](https://www.colorado.edu/lab/shirtsgroup/available-positions)
 
 The [Shirts group](https://www.colorado.edu/lab/shirtsgroup/) has two job openings:
 
+<a id="shirts-postdoc1"></a>
+
 **1. Non-biological heteropolymers:** This postdoctoral position is to develop guidelines, based on fundamental physical principles, by which short non-biological heteropolymers with sequence specificity can fold into secondary structure elements. This research will also help study what governs the relative stability between these allowed secondary structural elements. These initial studies will pave the way for more extensive and realistic modeling of the proposed heteropolymers, working with our experimental collaborators. This research effort is intended to build tools and theories for crafting human-engineered foldameric materials with a much larger range of properties and functions that occur in naturally occurring biological heteropolymers such as proteins.
 
 **Applications:** https://jobs.colorado.edu/jobs/JobDetail/Postdoctoral-Associate/22277
+
+<a id="shirts-postdoc2"></a>
 
 **2. Nanostructured membranes:** This postdoctoral position is to study the structure of nanostructured membranes formed by the self-assembly and polymerization of amphiphilic molecules as well as the mechanical properties of these membranes. These structural studies will be accompanied by study of the transport of small molecules in the nanochannels of these membranes. The mechanistic insights obtained in these studies will be used in collaboration with experimentalists to design and test new membranes that have high, chemically specific rejection of a range of solutes while maintaining high permeability of water.
 
