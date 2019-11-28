@@ -13,7 +13,6 @@ The **Open Force Field Initiative** is seeking talented postdoctoral fellows to 
 These positions are supported by the [Open Force Field Consortium](https://openforcefield.org/consortium/), which is administered by the [Molecular Sciences Software Institute (MolSSI)](http://molssi.org) and funded by an [alliance of pharmaceutical and biotech companies](https://openforcefield.org/news/introducing-the-consortium/) aiming to advance the state of force fields for biomolecular simulation and design through an open collaborative effort.
 Postdocs will work closely with other researchers in the Initiative, multiple academic Initiative PIs, industry Partner scientific collaborators, and software scientists in the at [MolSSI](http://molssi.org) to develop and apply new algorithms and modern open source software infrastructure for building high quality biomolecular force fields.
 We aim to publish frequently and openly---a sample of existing publications can be found [here](http://openforcefield.org/publications).
-
 The [Open Force Field Initiative](http://openforcefield.org) is a multi-investigator collaboration that aims to build new, quantitatively accurate molecular mechanics force fields supported by a modern software infrastructure, built on principles of open source, open data, and open science. More about their scientific goals and plans can be found in the Open Force Field Initiative [Executive Summary](https://openforcefield.org/science/downloads/roadmap/open-forcefield-summary.pdf) or [Roadmap](https://openforcefield.org/science/downloads/roadmap/open-forcefield-plan.pdf).
 
 #### Desired qualifications
@@ -54,6 +53,92 @@ Interested candidates should email an application to `info@openforcefield.org` w
 * a cover letter explaining your motivation, background, and qualifications for the position
 * a detailed Curriculum Vitae (including a list of publications)
 * contact information of two references
+
+---
+<a id="initiative-software-scientist"></a>
+
+## **Open Force Field Initiative Software Scientist**
+
+The **Open Force Field Initiative** is seeking a software scientist to work on the development of modern Python 
+toolkits and new methods for building next-generation molecular mechanics force fields. 
+The effort has been primarily funded by the [Open Force Field Consortium](https://openforcefield.org/consortium/) - an 
+[alliance of pharmaceutical and biotech companies](https://openforcefield.org/news/introducing-the-consortium/) 
+aiming to advance the state of force fields for 
+biomolecular simulation and design through an open collaborative effort. The Software Scientist 
+will work closely with other researchers in the Initiative, multiple academic Initiative PIs, 
+industry Partner scientific collaborators, and software scientists at [MolSSI](http://molssi.org) 
+to develop and apply 
+new algorithms and modern open source software infrastructure for building high quality biomolecular 
+force fields. We aim to publish frequently and openly—a sample of existing publications can be 
+found [here](http://openforcefield.org/publications).
+
+The [Open Force Field Initiative](http://openforcefield.org) is a multi-investigator collaboration 
+that aims to build new, quantitatively accurate molecular mechanics force fields supported by a 
+modern software infrastructure, built on principles of open source, open data, and open science. 
+More about their scientific goals and plans can be found in the Open Force Field Initiative 
+[Executive Summary](https://openforcefield.org/science/downloads/roadmap/open-forcefield-summary.pdf) or 
+[Roadmap](https://openforcefield.org/science/downloads/roadmap/open-forcefield-plan.pdf).
+
+#### Software Scientists at Open Force Field
+
+Software Scientists on our team are high-level research engineers (often with a Ph.D.) with strong science, 
+programming, and communication skills who can simultaneously tackle long-term development efforts and 
+perform ongoing organizational duties. The desired qualifications for this role include significant 
+experience with scientific software development (specifically Python), testing, documentation, and 
+deployment, in addition to the “desired qualifications” for a postdoc. The software scientist is expected 
+to perform duties ranging from working asynchronously and independently to implement major features, to 
+closely collaborating with a team to produce a deliverable by a deadline. The Software Scientist’s effort 
+will be divided approximately 50% to architecture, coding, and science, 25% to devops and user support, 
+and 25% to management and programming guidance. Some specific examples of responsibilities include:
+
+- Publishing [software releases and datasets with DOIs](https://zenodo.org/record/3541134#.Xd1xbb-IbOQ), 
+  with clear documentation that references scholarly works and theory when applicable 
+- Becoming the primary developer/maintainer for a core Python toolkit 
+- Being a technical mentor to grad students and postdocs, performing code reviews, helping with 
+  architecture decisions, and sharing modern software best practices 
+- Working one-on-one with industry partners to install and make workflows using our software 
+- Broadening our engagement with the open-source chemistry community 
+- Leading regular science subproject meetings and writing 
+  [blog posts](https://openforcefield.org/science/updates/propertycalculator-meeting-2019-10-17/) to 
+  summarize progress 
+- Representing Open Force Field at conferences and workshops 
+- Traveling to [project labs](https://openforcefield.org/members/) as needed for focused in-person work 
+- Debugging CI builds, dealing with conda packaging issues, and helping shepherd the eventual migration 
+  of omnia packages to conda-forge 
+
+Writing papers is _not_ a major focus of this position.
+
+The position includes up to 25% travel, and the software scientist will be assigned a PI that they will 
+report to on a regular basis, preferably in-person if geography allows. Our team is distributed over the US 
+and Europe, which means that much of the work can be performed remotely, but also that meetings may fall 
+outside of local working hours (we mostly operate on US East Coast time). The pay is comparable to a good 
+industrial postdoc, we’re open to the idea of a large fraction of remote work, and everything the Software
+Scientist produces will be open source under the MIT or CC-BY license.
+
+##### Appointment duration
+
+The initial appointment will be for one year, with the potential for extension to multiple years to focus 
+on other aspects of force field science and engineering. Position is pending final approval of funding.
+
+##### Applying
+
+Interested candidates should email an application to `info@openforcefield.org` with the subject line 
+“Software Scientist application” that includes:
+
+- a cover letter explaining your motivation, background, and qualifications for the position 
+- a detailed Curriculum Vitae (including a list of publications) 
+- contact information of two references
+
+#### Location
+
+Open Force Field Initiative Software Scientists will generally have flexibility in location, with 
+potential sites including the participating investigator laboratories:
+
+* [Michael K. Gilson](http://gilson.cloud.ucsd.edu/) (UCSD, La Jolla, CA)
+* [John D. Chodera](http://choderalab.org) (MSKCC, New York City, NY)
+* [Lee-Ping Wang](https://chemistry.ucdavis.edu/people/lee-ping-wang) (UCD, Davis, CA)
+* [David L. Mobley](http://mobleylab.org) (UCI, Irvine, CA)
+* [Michael R. Shirts](https://www.colorado.edu/lab/shirtsgroup/) (University of Colorado, Boulder, CO)
 
 ---
 
