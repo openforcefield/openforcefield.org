@@ -48,7 +48,7 @@ The initial appointment will be for one year, with the potential for extension t
 
 #### Applying
 
-Interested candidates should email an application to `info@openforcefield.org` with the subject line “Postdoc application” that includes:
+Interested candidates should email an application to <info@openforcefield.org> with the subject line “Postdoc application” that includes:
 
 * a cover letter explaining your motivation, background, and qualifications for the position
 * a detailed Curriculum Vitae (including a list of publications)
@@ -122,7 +122,7 @@ on other aspects of force field science and engineering. Position is pending fin
 
 ##### Applying
 
-Interested candidates should email an application to `info@openforcefield.org` with the subject line 
+Interested candidates should email an application to <info@openforcefield.org> with the subject line 
 “Software Scientist application” that includes:
 
 - a cover letter explaining your motivation, background, and qualifications for the position 
@@ -159,9 +159,9 @@ There are several postdoc positions available for joint projects between the [Ch
 
 The [Chodera lab](http://www.choderalab.org/) in New York and the [Volkamer group](https://physiologie-ccm.charite.de/en/research_at_the_institute/team_volkamer/) in Berlin are seeking talented postdoctoral fellows to work at the interface of structure-informed machine learning and alchemical free energy calculations as part of an exciting new collaboration between these two labs. This project seeks to develop an integrated framework for utilizing both state-of-the-art machine learning approaches and free energy calculations to exploit structural data, assay data, and scalable computing resources to predict the impact of point mutations on the binding of small molecule kinase inhibitors, with a goal toward expanding the utility of clinical kinase inhibitors.
 
-The position is part of a collaboration with Bayer AG, Germany, pending final confirmation of funding in duration of 2 years. We are seeking candidates to start as soon as possible at our locations in New York and Berlin.
+The positions are part of a collaboration with Bayer AG, Germany, pending final confirmation of funding in duration of 2 years. We are seeking candidates to start as soon as possible at our locations in New York and Berlin.
 
-**Applications:** Interested candidates are invited to send a pre-application to `einstein@choderalab.org` with the subject line “Postdoc application” that includes:
+**Applications:** Interested candidates are invited to send a pre-application to <einstein@choderalab.org> with the subject line “Postdoc application” that includes:
 
 * a cover letter explaining your motivation, background, and qualifications for the position
 * a detailed Curriculum Vitae (including a list of publications)
@@ -175,7 +175,7 @@ If you are applying for the position in New York, please change the subject line
 
 The Chodera lab and Brookhaven National Lab are hiring a postdoc or staff scientist to work at the intersection of  software development and high-performance computing, spearheading the development of software infrastructure for scalable alchemical free energy calculations and machine learning. This is a 3-year position with an option for extension and it sits at the interface of high-performance computing, machine learning and computational science. Find more details about this position [here](http://www.choderalab.org/jobs).
 
-**Applications:** Interested candidates should send a cover letter and CV to `postdoc@choderalab.org` with the subject line “BNL Postdoc Position” or “BNL Staff Scientist Position”.
+**Applications:** Interested candidates should send a cover letter and CV to <postdoc@choderalab.org> with the subject line “BNL Postdoc Position” or “BNL Staff Scientist Position”.
 
 <a id="mobley-postdoc"></a>
 
@@ -185,7 +185,7 @@ Interested in improving predictive modeling of biomolecular interactions? The [M
 
 The ideal candidate will have a strong background in scientific software development, including with Python, experience with molecular dynamics simulations and method development (free energy calculations would be an additional plus!) and significant experience working as part of a team.
 
-**Applications:** Please send a cover letter explaining your interest in the position and your relevant background, along with a CV which also contains contact information for at least three references to `dmobley+postdoc@gmail.com`. This position will start as soon as a suitable candidate can be found, but applications should be received before mid-December, 2019.
+**Applications:** Please send a cover letter explaining your interest in the position and your relevant background, along with a CV which also contains contact information for at least three references to <dmobley+postdoc@gmail.com>. This position will start as soon as a suitable candidate can be found, but applications should be received before mid-December, 2019.
 
 <a id="shirts-postdocs"></a>
 
