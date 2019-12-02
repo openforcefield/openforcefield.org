@@ -106,9 +106,9 @@ and 25% to management and programming guidance. Some specific examples of respon
 - Debugging CI builds, dealing with conda packaging issues, and helping shepherd the eventual migration 
   of omnia packages to conda-forge 
 
-Writing papers is _not_ a major focus of this position.
+The Software Scientist's effort will be acknowledged with coauthorship in publications featuring their work, though *primary authorship of papers or new scientific studies is not a major focus of the position*.
 
-The position includes up to 25% travel, and the software scientist will be assigned a PI that they will 
+The position includes up to 15% travel, and the software scientist will be assigned a PI that they will 
 report to on a regular basis, preferably in-person if geography allows. Our team is distributed over the US 
 and Europe, which means that much of the work can be performed remotely, but also that meetings may fall 
 outside of local working hours (we mostly operate on US East Coast time). The pay is comparable to a good 
