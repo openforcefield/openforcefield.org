@@ -101,7 +101,7 @@ Before discussing the data used in fitting and the actual fitting process, we br
 
 To determine the parameters for Parsley, we aimed to optimize force field parameters $\theta$ to minimize a loss function $L(\theta)$ that quantifies deviation from quantum chemical data while adding a regularization penalty to minimize the deviation from a reference set of parameters, following the standard approach for [parameter fitting with ForceBalance](https://doi.org/10.1021/jz500737m):
 
-$$L_\mathrm{tot}(\theta) = \sum_{i \in \mathrm{targets}} w_i L_i(\theta) + \sum_{p \in \mathrm{parameters}} \frac{1}{2} \frac{|\Delta \theta_p|}{\sigma_p^2}^2$$
+$$L_\mathrm{tot}(\theta) = \sum_{i \in \mathrm{targets}} w_i L_i(\theta) +  w_{reg} \sum_{p \in \mathrm{parameters}} \frac{1}{2} \frac{|\Delta \theta_p|}{\sigma_p^2}^2$$
 
 Here, $w_i$ is the weight of each class of optimization data targets with corresponding loss functions $L_i(\theta)$, which are often least-squares penalized loss:
 
