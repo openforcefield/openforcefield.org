@@ -29,7 +29,7 @@ The [Open Force Field Initiative](http://openforcefield.org) is a multi-investig
 * Experience with cheminformatics or computer-aided drug discovery
 * Knowledge of organic chemistry
 * Experience with high-performance computing clusters and/or cloud computing
-* Experience with [psi4](http://www.psicode.org/)
+* Experience with [Psi4](http://www.psicode.org/) suite
 * Experience with the open-source GPU-accelerated molecular simulation Python library [OpenMM](http://openmm.org)
 * Experience with probabilistic programming languages (e.g. [PyMC](https://github.com/pymc-devs), [TensorFlow Probability](https://www.tensorflow.org/probability/overview), [Pyro](http://pyro.ai/)) and/or machine learning frameworks like [TensorFlow](http://tensorflow.org) or [pytorch](https://pytorch.org/)
 
