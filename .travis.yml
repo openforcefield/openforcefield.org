@@ -5,7 +5,7 @@ go:
 
 
 install:
-    - go get github.com/gohugoio/hugo
+    - go get github.com/gohugoio/hugo@v0.61.0
 
 before_script:
     - rm -rf public 2> /dev/null
