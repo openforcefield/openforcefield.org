@@ -171,15 +171,7 @@ The Chodera lab and Brookhaven National Lab are hiring a postdoc or staff scient
 
 **Applications:** Interested candidates should send a cover letter and CV to <postdoc@choderalab.org> with the subject line “BNL Postdoc Position” or “BNL Staff Scientist Position”.
 
-<a id="mobley-postdoc"></a>
 
-## [Postdoc position available in the Mobley lab](https://mobleylab.org/2019/11/18/postdoc-position-available-in-the-mobley-lab/)
-
-Interested in improving predictive modeling of biomolecular interactions? The [Mobley lab](https://mobleylab.org/) seeks a postdoc who will work on binding free energy methods and applications (likely including our BLUES method for enhanced sampling of ligand binding modes), as well as with the Open Force Field Initiative (OpenFF, openforcefield.org) on testing and improving biomolecular force fields, though this is not an OpenFF position. The candidate may also get involved with the SAMPL series of blind challenges, helping to drive progress in the field by facilitating comparisons of the latest methods on cutting-edge datasets in blind challenges we help design.
-
-The ideal candidate will have a strong background in scientific software development, including with Python, experience with molecular dynamics simulations and method development (free energy calculations would be an additional plus!) and significant experience working as part of a team.
-
-**Applications:** Please send a cover letter explaining your interest in the position and your relevant background, along with a CV which also contains contact information for at least three references to <dmobley+postdoc@gmail.com>. This position will start as soon as a suitable candidate can be found, but applications should be received before mid-December, 2019.
 
 <a id="shirts-postdocs"></a>
 
