@@ -47,7 +47,7 @@ The current Scientific Advisory Board consists of scientists engaged within the 
 
 # Submitted proposals
 
-- Read more about our proposal to extend our approach to complex heterogeneous biomolecular systems in our [NIH Focused Technology Research & Development R01](https://grants.nih.gov/grants/guide/pa-files/PAR-17-045.html) proposal, submitted 5 Mar 2019: [PDF](downloads/proposals/2019-03-05 Open Force Field Initiative R01 science.pdf)
+- Read more about our proposal to extend our approach to complex heterogeneous biomolecular systems in our [NIH Focused Technology Research & Development R01](https://grants.nih.gov/grants/guide/pa-files/PAR-17-045.html) proposal, submitted 5 Mar 2019: [PDF](downloads/proposals/2019-03-05%20Open%20Force%20Field%20Initiative%20R01%20science.pdf)
 <br>
 <br>
 
