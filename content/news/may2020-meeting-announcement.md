@@ -12,12 +12,11 @@ author: "Karmen Condic-Jurkic"
 ![Banner](OpenFF-banner.png "Banner")
 
 
-<br>
 We are excited to announce the Third [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop on May 4-5, 2020! This time we meet in Cambridge, MA and the venue has been generously provided by Pfizer, Inc. This workshop will be held just before the [2020 Workshop on Free Energy Methods in Drug Design](http://www.alchemistry.org/wiki/2020_Workshop_on_Free_Energy_Methods_in_Drug_Design), held on May 6-8, 2020 at the Novartis Institute of Biomedical Research, which is within a walking distance from Pfizer.
 
 The primary purpose of the event is to gather the Consortium members and collaborators, provide the latest updates and discuss future directions. Talks presented at the meeting will be recorded and shared online with accompanying slides. Remote participation will be enabled via videoconferencing. If you are interested to attend, but currently not involved in Open Force Field Initiative, you are welcome to register using the [form]((https://forms.gle/FSJEuwTQa3bbuXnq7)) below. However, please note that the venue has limited capacity and that the Consortium members and early registrants will be given priority. We will do our best to accommodate all interested parties.
 
-<br>
+
 ### Details at a glance
 
 * **Registration form:** https://forms.gle/FSJEuwTQa3bbuXnq7
@@ -32,12 +31,12 @@ The primary purpose of the event is to gather the Consortium members and collabo
 
 * **Last updated:** 2020-02-25
 
-<br>
+
 ### Agenda
 
 Coming up soon.
 
-<br>
+
 ### Accommodation
 
 Please note that we do not have a block of rooms booked in a specific hotel. Several hotels close to the venue for both workshops are listed below. The indicated prices show an approximate rate per night for each hotel for the conference days. Early booking is recommended.
