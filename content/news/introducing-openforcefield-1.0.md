@@ -154,7 +154,6 @@ Fitting was terminated once two convergence criteria were met:
 Parsley focuses on improving valence parameters by optimizing valence terms from [SMIRNOFF99Frosst 1.1.0](https://github.com/openforcefield/smirnoff99Frosst/releases/tag/1.1.0) to minimize discrepancies from high-level quantum chemical calculations.
 Subsequent releases will incorporate refitting of nonbonded parameters based in part on condensed phase property data, but in our Parsley release, we utilize condensed phase property data only to ensure valence refitting has not adversely affected these properties.
 Here, we provide an overview of the quantum chemical data utilized in fitting, then discuss which parameters were fit.
-All driver scripts for generating this parameter set, as well as parameter fitting
 
 <a id="quantum-chemical-dataset-generation"></a>
 ### Quantum chemical dataset generation
