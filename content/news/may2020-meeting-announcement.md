@@ -11,6 +11,9 @@ author: "Karmen Condic-Jurkic"
 
 ![Banner](OpenFF-banner.png "Banner")
 
+### **The in-person meeting in Boston has been cancelled due to COVID-19 outbreak. Please save the dates (May 4-5, 2020) for the remote meeting. More details coming up soon. If you want to join the remote meeting, please fill out the form below.**
+
+<br>
 
 We are excited to announce the Third [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop on May 4-5, 2020! This time we meet in Cambridge, MA and the venue has been generously provided by Pfizer, Inc. This workshop will be held just before the [2020 Workshop on Free Energy Methods in Drug Design](http://www.alchemistry.org/wiki/2020_Workshop_on_Free_Energy_Methods_in_Drug_Design), held on May 6-8, 2020 at the Novartis Institute of Biomedical Research, which is within a walking distance from Pfizer.
 
