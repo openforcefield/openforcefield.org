@@ -171,22 +171,3 @@ The Chodera lab and Brookhaven National Lab are hiring a postdoc or staff scient
 
 **Applications:** Interested candidates should send a cover letter and CV to <postdoc@choderalab.org> with the subject line “BNL Postdoc Position” or “BNL Staff Scientist Position”.
 
-
-
-<a id="shirts-postdocs"></a>
-
-## [Two postdoc positions available in the Shirts lab](https://www.colorado.edu/lab/shirtsgroup/available-positions)
-
-The [Shirts group](https://www.colorado.edu/lab/shirtsgroup/) has two job openings:
-
-<a id="shirts-postdoc1"></a>
-
-**1. Non-biological heteropolymers:** This postdoctoral position is to develop guidelines, based on fundamental physical principles, by which short non-biological heteropolymers with sequence specificity can fold into secondary structure elements. This research will also help study what governs the relative stability between these allowed secondary structural elements. These initial studies will pave the way for more extensive and realistic modeling of the proposed heteropolymers, working with our experimental collaborators. This research effort is intended to build tools and theories for crafting human-engineered foldameric materials with a much larger range of properties and functions that occur in naturally occurring biological heteropolymers such as proteins.
-
-**Applications:** https://jobs.colorado.edu/jobs/JobDetail/Postdoctoral-Associate/22277
-
-<a id="shirts-postdoc2"></a>
-
-**2. Nanostructured membranes:** This postdoctoral position is to study the structure of nanostructured membranes formed by the self-assembly and polymerization of amphiphilic molecules as well as the mechanical properties of these membranes. These structural studies will be accompanied by study of the transport of small molecules in the nanochannels of these membranes. The mechanistic insights obtained in these studies will be used in collaboration with experimentalists to design and test new membranes that have high, chemically specific rejection of a range of solutes while maintaining high permeability of water.
-
-**Applications:** https://jobs.colorado.edu/jobs/JobDetail/Postdoctoral-Associate/22282
