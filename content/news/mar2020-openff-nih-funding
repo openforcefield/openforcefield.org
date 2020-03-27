@@ -1,0 +1,32 @@
+---
+date: "2020-03-27T00:00:00+00:00"
+title: "Open Force Field Initiative receives NIH funding"
+tags: ["website","news","consortium","announcement"]
+categories: ["news"]
+draft: true
+description: "Open Force Field Initiative receives NIH funding"
+weight: 10
+author: "Michael Shirts"
+---
+
+<br>
+
+We are excited to announce that the NIH has funded our Focused Technology Research & Development R01 proposal, 
+enabling the Open Force Field Initiative to extend its work for small molecule force fields to also include biopolymers. 
+This is a collaborative NIH grant shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan 
+Kettering Cancer Center, University of California, Irvine, University of California, San Diego, University of California, Davis), 
+and includes significant collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers).
+The submitted proposal text can be found here:
+https://openforcefield.org/science/downloads/proposals/2019-03-05%20Open%20Force%20Field%20Initiative%20R01%20science.pdf
+We especially thank partners that contributed letters in support of the proposal. 
+
+The NIH funding is synertgistic to existing industrial Open Force Field Consortium funding, which focuses on delivering 
+small molecule force fields with systematic improvements to accuracy and coverage, enabling us to deliver higher accuracy 
+for protein-ligand binding free energies by allowing us to make systematic improvements to biopolymer parameters. 
+
+In addition, this new funding will allow uus to develop a Bayesian inference infrastructure to automate the selection of 
+functional forms and parameter types.
+
+We look forward to working with existing force field developers to support existing general biomolecular force fields, 
+generalizing our open force field toolkit to better support the range of existing force fields, 
+
