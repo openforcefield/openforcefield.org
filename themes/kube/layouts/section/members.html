@@ -67,6 +67,20 @@
 {{ end }}
 </ul>
 
+<!-- Senior Scientists -->
+
+<h2>Senior Scientists</h2>
+
+<ul>
+{{ range $.Site.Data.members }}
+  {{ if eq .role "Senior Scientist" }}
+  <div class="row gutters">
+    {{ partial "person" . }}
+  </div>
+  {{ end }}
+{{ end }}
+</ul>
+
 <!-- Researchers -->
 
 <h2>Researchers</h2>
