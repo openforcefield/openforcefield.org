@@ -13,20 +13,24 @@ author: "Michael Shirts"
 
 We are excited to announce that the NIH has funded our Focused Technology Research & Development R01 proposal, 
 enabling the Open Force Field Initiative to extend its work for small molecule force fields to also include biopolymers. 
-This is a collaborative NIH grant shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan 
+This is a collaborative NIH grant, with $2.5M over four years shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan 
 Kettering Cancer Center, University of California, Irvine, University of California, San Diego, University of California, Davis), 
-and includes significant collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers).
+and includes significant funded collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers).
 The submitted proposal text can be found here:
 https://openforcefield.org/science/downloads/proposals/2019-03-05%20Open%20Force%20Field%20Initiative%20R01%20science.pdf
 We especially thank partners that contributed letters in support of the proposal. 
 
 The NIH funding is synertgistic to existing industrial Open Force Field Consortium funding, which focuses on delivering 
-small molecule force fields with systematic improvements to accuracy and coverage, enabling us to deliver higher accuracy 
-for protein-ligand binding free energies by allowing us to make systematic improvements to biopolymer parameters. 
+small molecule force fields with systematic improvements to accuracy and coverage. Expanding the work of the Open Force Field to biopolymers will
+  - Enabling us to deliver higher accuracy for protein-ligand binding free energies by allowing us to make systematic improvements 
+  - Make it possible to support like noncanonical amino and nucleic acids, covalently bound ligands, and 
+  - properly treat interactions of proteins with organic polymers and solvents. 
+  - In addition, this new funding will allow uus to develop a Bayesian inference 
+infrastructure to automate the selection of functional forms and parameter types that are most appropriate for matching a given set of experimental observables.
 
-In addition, this new funding will allow uus to develop a Bayesian inference infrastructure to automate the selection of 
-functional forms and parameter types.
-
-We look forward to working with existing force field developers to support existing general biomolecular force fields, 
-generalizing our open force field toolkit to better support the range of existing force fields, 
+We look forward to working with existing force field developers as the work progressess. In particular, we plan on:
+  - Adding support for existing general biomolecular force fields to the Open Force Field format, such that they can use some or all of the Open Force Field tools to help in their parameterization work.
+  - Collaborating with other biomolecular force field developers to assemble sets of experimental and quantum mechanical data for future optimizations
+  - Add something here. 
+  
 
