@@ -15,19 +15,19 @@ We are excited to announce that the NIH Institute of General Medical Sciences ha
 This is a collaborative NIH grant, with $2.5M over four years shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan Kettering Cancer Center, University of California, Irvine, University of California, San Diego, and University of California, Davis), and includes significant funded collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers). The submitted proposal text can be found [here](https://openforcefield.org/science/downloads/proposals/2019-03-05%20Open%20Force%20Field%20Initiative%20R01%20science.pdf).
 We especially thank partners that contributed letters in support of the proposal. 
 
-The NIH funding is synertgistic to the existing industrial Open Force Field Consortium funding, which focuses on delivering 
-small molecule force fields with systematic improvements to accuracy and coverage. Expanding the work of the Open Force Field to biopolymers will:
-  - Enable us to deliver higher accuracy for protein-ligand binding free energies by allowing us to make systematic improvements to biomolecules.
-  - Make it possible to support noncanonical amino and nucleic acids as well as covalently bound ligands.
-  - Better model interactions of proteins with organic polymers and solvents. 
-  - Add support for machine-learned potentials.
-  - Develop a Bayesian inference infrastructure to automate the selection of functional forms and parameter types that are most appropriate for matching a given set of experimental observables.
+The NIH funding is synergistic to the existing industrial Open Force Field Consortium funding, which focuses on delivering 
+small molecule force fields with systematic improvements to accuracy and coverage. The new NIH support will enable:
+  - Delivery of higher accuracy for protein-ligand binding free energies biomolecules through systematic construction of biopolymer force fields that will be compatible with OpenFF small molecules.
+  - Support for noncanonical amino and nucleic acids as well as covalently bound ligands.
+  - Better modeling of the interactions of proteins with organic polymers and solvents. 
+  - Support for machine-learned potentials.
+  - Development of a Bayesian inference infrastructure to automate the selection of functional forms and parameter types that are most appropriate for matching a given set of experimental observables.
 
 We look forward to working with existing force field developers during the efforts funded by this grant. In particular, we plan on:
   - Helping to port existing biomolecular force fields to atom-type independent SMIRKS formats.
-  - Adding support for existing general biomolecular force fields to the Open Force Field format, such that other reserachers can use some or all of the Open Force Field tools to help in their parameterization work.
+  - Adding support for existing general biomolecular force fields to the Open Force Field format, so that other reserachers can use some or all of the Open Force Field tools to help in their parameterization work.
   - Collaborating with other biomolecular force field developers to assemble sets of experimental and quantum mechanical data for future force field optimizations.
   - Developing automated benchmarking frameworks for biophysical properties.
  
-Keep posted for further updates on our NIH-funded work!  
+Keep in touch for further updates on our NIH-funded work!  
 
