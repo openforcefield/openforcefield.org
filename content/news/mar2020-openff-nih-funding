@@ -23,7 +23,7 @@ small molecule force fields with systematic improvements to accuracy and coverag
   - Support for machine-learned potentials.
   - Development of a Bayesian inference infrastructure to automate the selection of functional forms and parameter types that are most appropriate for matching a given set of experimental observables.
 
-We look forward to working with the broader force field development community to help build on th amazing biomolecular force field work done by the community so far. We plan on:
+We look forward to working with the broader force field development community to help build on the extraordinary biomolecular force field work done by the community so far. We plan on:
   - Helping to port existing biomolecular force fields to our atom-type independent SMIRNOFF format
   - Adding support for existing general biomolecular force fields to the Open Force Field format, so that other reserachers can use some or all of the Open Force Field tools to help in their parameterization work.
   - Collaborating with other biomolecular force field developers to assemble sets of experimental and quantum mechanical data for future force field optimizations.
