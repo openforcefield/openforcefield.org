@@ -3,7 +3,7 @@ date: "2020-04-06T00:00:00+00:00"
 title: "Open Force Field Initiative receives NIH funding"
 tags: ["NIH","news","consortium","announcement", "funding"]
 categories: ["news"]
-draft: true
+draft: false
 description: "Open Force Field Initiative receives NIH funding"
 weight: 10
 author: "Michael Shirts"
