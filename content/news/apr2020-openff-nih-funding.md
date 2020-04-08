@@ -31,4 +31,4 @@ We look forward to working with the broader force field development community to
   - Collaborating with other biomolecular force field developers to assemble sets of experimental and quantum mechanical data for future force field optimizations.
   - Developing automated benchmarking frameworks for biophysical properties.
 
-Subscribe to our [newsletter](http://eepurl.com/gYuojL) to stay up to date with our work or follow us on [Twitter](https://twitter.com/openforcefield?lang=en) for more interactive communication. [Email](info@openforcefield.org) us if you have any questions or feedback!
+Subscribe to our [newsletter](http://eepurl.com/gYuojL) to stay up to date with our work or follow us on [Twitter](https://twitter.com/openforcefield?lang=en). [Email](info@openforcefield.org) us if you have any questions, suggestions or feedback!
