@@ -12,12 +12,11 @@ layout: faq
 The **Open Force Field Initiative** is seeking talented postdoctoral fellows to work on the development of modern toolkits and new methods for building next-generation molecular mechanics force fields.
 The effort has been primarily funded by the [Open Force Field Consortium](https://openforcefield.org/consortium/) - an [alliance of pharmaceutical and biotech companies](https://openforcefield.org/news/introducing-the-consortium/) aiming to advance the state of force fields for biomolecular simulation and design through an open collaborative effort.
 Postdocs will work closely with other researchers in the Initiative, multiple academic Initiative PIs, industry Partner scientific collaborators, and software scientists in the at [MolSSI](http://molssi.org) to develop and apply new algorithms and modern open source software infrastructure for building high quality biomolecular force fields.
-We aim to publish frequently and openly---a sample of existing publications can be found [here](http://openforcefield.org/publications).
-The [Open Force Field Initiative](http://openforcefield.org) is a multi-investigator collaboration that aims to build new, quantitatively accurate molecular mechanics force fields supported by a modern software infrastructure, built on principles of open source, open data, and open science. More about their scientific goals and plans can be found in the Open Force Field Initiative [Executive Summary](https://openforcefield.org/science/downloads/roadmap/open-forcefield-summary.pdf) or [Roadmap](https://openforcefield.org/science/downloads/roadmap/open-forcefield-plan.pdf).
+We aim to publish frequently and openly and a sample of existing publications can be found [here](http://openforcefield.org/publications).
+The [Open Force Field Initiative](http://openforcefield.org) is a multi-investigator collaboration that aims to build new, quantitatively accurate molecular mechanics force fields supported by a modern software infrastructure, built on principles of open source, open data, and open science. More about their scientific goals and plans can be found in the Open Force Field Initiative [Executive Summary](https://openforcefield.org/science/downloads/roadmap/open-forcefield-summary.pdf).
 
 #### Desired qualifications
 
-* Experience with the theory and practice of atomistic biomolecular simulation using molecular mechanics force fields, or
 * Experience with theory and application of quantum chemistry methods
 * Comfortable with the Python programming language
 * Exposure to [modern open source software development practices](https://github.com/choderalab/software-development) ([GitHub](http://github.org), unit tests, continuous integration)
@@ -27,7 +26,7 @@ The [Open Force Field Initiative](http://openforcefield.org) is a multi-investig
 
 * Experience with force field parameter fitting for small organic molecules
 * Experience with cheminformatics or computer-aided drug discovery
-* Knowledge of organic chemistry
+* Knowledge of physical organic chemistry
 * Experience with high-performance computing clusters and/or cloud computing
 * Experience with [Psi4](http://www.psicode.org/) suite
 * Experience with the open-source GPU-accelerated molecular simulation Python library [OpenMM](http://openmm.org)
@@ -60,86 +59,9 @@ Interested candidates should fill out this [form](https://forms.gle/Jk46ZEbWwXKy
 ---
 <a id="initiative-software-scientist"></a>
 
-## **Open Force Field Initiative Software Scientist**
-
-The **Open Force Field Initiative** is seeking a software scientist to work on the development of modern Python
-toolkits and new methods for building next-generation molecular mechanics force fields.
-The effort has been primarily funded by the [Open Force Field Consortium](https://openforcefield.org/consortium/) - an
-[alliance of pharmaceutical and biotech companies](https://openforcefield.org/news/introducing-the-consortium/)
-aiming to advance the state of force fields for
-biomolecular simulation and design through an open collaborative effort. The Software Scientist
-will work closely with other researchers in the Initiative, multiple academic Initiative PIs,
-industry Partner scientific collaborators, and software scientists at [MolSSI](http://molssi.org)
-to develop and apply
-new algorithms and modern open source software infrastructure for building high quality biomolecular
-force fields. We aim to publish frequently and openly—a sample of existing publications can be
-found [here](http://openforcefield.org/publications).
-
-The [Open Force Field Initiative](http://openforcefield.org) is a multi-investigator collaboration
-that aims to build new, quantitatively accurate molecular mechanics force fields supported by a
-modern software infrastructure, built on principles of open source, open data, and open science.
-More about their scientific goals and plans can be found in the Open Force Field Initiative
-[Executive Summary](https://openforcefield.org/science/downloads/roadmap/open-forcefield-summary.pdf) or
-[Roadmap](https://openforcefield.org/science/downloads/roadmap/open-forcefield-plan.pdf).
-
-#### Position description
-
-Software Scientists on our team are high-level research engineers (often with a Ph.D.) with strong science, programming, and communication skills who can simultaneously tackle long-term development efforts and perform ongoing organizational duties. The desired qualifications for this role include significant experience with scientific software development (specifically Python), testing, documentation, and deployment, in addition to the “desired qualifications” for a postdoc. The software scientist is expected to perform duties ranging from working asynchronously and independently to implement major features, to closely collaborating with a team to produce a deliverable by a deadline. The Software Scientist’s effort will be divided approximately 50% to architecture, coding, and science, 25% to devops and user support, and 25% to management and programming guidance. Some specific examples of responsibilities include:
-
-- Publishing [software releases and datasets with DOIs](https://zenodo.org/record/3541134#.Xd1xbb-IbOQ),
-  with clear documentation that references scholarly works and theory when applicable
-- Becoming the primary developer/maintainer for a core Python toolkit
-- Being a technical mentor to grad students and postdocs, performing code reviews, helping with
-  architecture decisions, and sharing modern software best practices
-- Working one-on-one with industry partners to install and make workflows using our software
-- Broadening our engagement with the open-source chemistry community
-- Leading regular science subproject meetings and writing
-  [blog posts](https://openforcefield.org/science/updates/propertycalculator-meeting-2019-10-17/) to
-  summarize progress
-- Representing Open Force Field at conferences and workshops
-- Traveling to [project labs](https://openforcefield.org/members/) as needed for focused in-person work
-- Debugging CI builds, dealing with conda packaging issues, and helping shepherd the eventual migration
-  of omnia packages to conda-forge
-
-The Software Scientist's effort will be acknowledged with coauthorship in publications featuring their work, though *primary authorship of papers or new scientific studies is not a major focus of the position*.
-
-The position includes up to 15% travel, and the software scientist will be assigned a PI that they will
-report to on a regular basis, preferably in-person if geography allows. Our team is distributed over the US
-and Europe, which means that much of the work can be performed remotely, but also that meetings may fall
-outside of local working hours (we mostly operate on US East Coast time). The pay is comparable to a good
-industrial postdoc, we’re open to the idea of a large fraction of remote work, and everything the Software
-Scientist produces will be open source under the MIT or CC-BY license.
-
-#### Appointment duration
-
-The initial appointment will be for one year, with the potential for extension to multiple years to focus
-on other aspects of force field science and engineering. Position is pending final approval of funding.
-
-#### Applying
-
-Interested candidates should fill out this [form](https://forms.gle/Jk46ZEbWwXKy3ijEA) and upload the following files:
-
-* a cover letter explaining your motivation, background, and qualifications for the position
-* a detailed Curriculum Vitae (including a list of publications)
-
-*Please note that you can only upload files if you have a valid Google account. Alternatively, please email your CV and cover letter to `info@openforcefield.org` with the subject line "Job Application Files" after filling out the form.*
-
-##### Location
-
-Open Force Field Initiative Software Scientists will generally have flexibility in location, with potential sites including the participating investigator laboratories:
-
-* [Michael K. Gilson](http://gilson.cloud.ucsd.edu/) (UCSD, La Jolla, CA)
-* [John D. Chodera](http://choderalab.org) (MSKCC, New York City, NY)
-* [Lee-Ping Wang](https://chemistry.ucdavis.edu/people/lee-ping-wang) (UCD, Davis, CA)
-* [David L. Mobley](http://mobleylab.org) (UCI, Irvine, CA)
-* [Michael R. Shirts](https://www.colorado.edu/lab/shirtsgroup/) (University of Colorado, Boulder, CO)
-
----
 
 
-<a id="postdoc-labs"></a>
-
-## **Other Available Postdoc Positions**
+## **Other Available Positions**
 
 <a id="chodera-postdocs"></a>
 
@@ -171,3 +93,39 @@ The Chodera lab and Brookhaven National Lab are hiring a postdoc or staff scient
 
 **Applications:** Interested candidates should send a cover letter and CV to <postdoc@choderalab.org> with the subject line “BNL Postdoc Position” or “BNL Staff Scientist Position”.
 
+
+<a id="entos"></a>
+
+## Cloud Engineer at Entos
+
+**Company Background**
+
+[Entos](https://www.entos.info/) was founded in 2019 by faculty from Caltech and the University of Bristol and is situated at the interface of quantum chemistry, machine learning, and drug discovery. We seek to bring quantum simulation to real-world problems and disrupt entire industries along the way. Our team is currently small, but mighty and rapidly growing. We are committed to building an inclusive work environment at Entos, where a diverse group of talented people work together to create awesome technologies. If you have the curiosity, passion, and collaborative spirit, join us and let’s change the world together!
+
+**Company Background**
+
+We are looking for a talented and motivated [Cloud Engineer](entos_cloud_engineer.pdf) who is excited about working on cloud computing technologies to build automated high-performance physics- and machine-learning- based simulation solutions. You will work with a tight-knit and interdisciplinary team and have the opportunity to work with a variety of technologies as well as functional areas within the company. Important note: Even if you are missing one or more of the “priority skills,“ please still apply. Our first priority is to identify talented, motivated, and diverse individuals that will continue to grow and learn.
+
+**Responsibilities**
+
+* Design, deploy and monitor infrastructure in public clouds (AWS, Azure, GCP, DigitalOcean)
+* Propose, develop, and support automated solutions for container testing, deployment, orchestration, and computation
+* Interact with our high-performance workflow team to design, develop, and support hybrid physics-based and machine-learning frameworks
+
+**Priority Skills / Requirements**
+
+* BS (or equivalent or higher) in Computer Science, Physical Sciences, Engineering, or related
+* Strong problem-solving, collaboration, communication skills
+* Experience with one or more major cloud providers (AWS, Azure, GCP)
+* Experience with containerization and orchestration software (Kubernetes, etc.)
+* Experience with CI / CD pipelines, and familiarity with at least one CI platform
+* Experience with one or more cloud-based batch systems (SQS, GCP/Azure/AWS Batch)
+
+**Bonus / Preferred Skills**
+
+* Experience with Git, and strong Python programming skills
+* Experience with Conda package manager and distributed workflow tools (Dask, Airflow, Prefect)
+* Experience with Jupyter/Jupyter Hub, Helm, SQL databases, Redis, or other Pub/Sub tools
+* Ability to work in Pasadena, CA (remote work is possible)
+
+To apply, submit a Cover Letter and Resume to Nicholas Miller at `<nick@entos.info>`.
