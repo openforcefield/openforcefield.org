@@ -29,9 +29,9 @@ The meeting is primarily intended for the members of the Open Force Field Consor
 
 #### Details at a glance
 
-* **Recording sessions:** Every day from Apr 27, 2020 (Monday) to May 1, 2020 (Friday) between 8.30-9 am PT.
+* **Recording sessions:** Every day from Apr 27, 2020 (Monday) to May 1, 2020 (Friday) between 8.30-9 am (Pacific Time).
 
-* **Discussion sessions:** May 4-5, 2020 between 8 am - 12 pm PT
+* **Discussion sessions:** May 4-5, 2020 between 8 am - 12 pm (Pacific Time).
 
 * **Organiser:** Karmen Condic-Jurkic `<info@openforcefield.org>`
 
@@ -46,11 +46,13 @@ Discussion program is coming up, stay tuned!
 
 #### Recording sessions
 
+Please note that all times refer to the Pacific Time Zone.
+
 Day 1 (Apr 27, 2020)
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
-8.30 am  | Chaya Stern | **Capturing non-local through-bond effects when fragmenting molecules for QC torsion scans**  <br />  <br /> Wiberg bond orders (WBO) are sensitive to remote substituents and can be used as a surrogate for torsion energy barrier heights. Here we use WBOs to assess the robustness of fragmentation schemes and identify conjugated bond sets. |
+8.30 am  | Chaya Stern | <p>**Capturing non-local through-bond effects when fragmenting molecules for QC torsion scans**  <br />  <br /> Wiberg bond orders (WBO) are sensitive to remote substituents and can be used as a surrogate for torsion energy barrier heights. Here we use WBOs to assess the robustness of fragmentation schemes and identify conjugated bond sets.</p> |
 9.00 am   | Daniel Smith  |  **QC Archive infrastructure updates** <br />  <br /> Highlights on feature improvements, data artifact generation, and data visualization on the QCArchive website.|
 9.30 am	| Jeffrey Wagner |  **Updated on core OpenFF infrastructure** <br />  <br /> New features in the Open Force Field Toolkit, and other developments in core software.
 
