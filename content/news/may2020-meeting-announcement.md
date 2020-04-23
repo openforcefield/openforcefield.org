@@ -22,8 +22,6 @@ The primary purpose of the event is to gather the Consortium members and collabo
 
 ### Details at a glance
 
-* **Registration form:** https://forms.gle/FSJEuwTQa3bbuXnq7
-
 * **Date:** May 4 - 5, 2020
 
 * **Location:** Pfizer, Inc. [1 Portland St, Cambridge, MA 02139](https://goo.gl/maps/vDp7nFjgFRuVA5wu5)
