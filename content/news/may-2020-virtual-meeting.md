@@ -50,18 +50,18 @@ Please note that all times refer to the Pacific Time Zone.
 
 Day 1 (Apr 27, 2020)
 
-Time         | Speaker | Talk |
+Time  &nbsp; &nbsp;   | Speaker | Talk |
 -------------|---------|---------|
-8.30 am  | Chaya Stern | <p>**Capturing non-local through-bond effects when fragmenting molecules for QC torsion scans**  <br />  <br /> Wiberg bond orders (WBO) are sensitive to remote substituents and can be used as a surrogate for torsion energy barrier heights. Here we use WBOs to assess the robustness of fragmentation schemes and identify conjugated bond sets.</p> |
+8.30 am &nbsp; &nbsp; &nbsp; | Chaya Stern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| **Capturing non-local through-bond effects when fragmenting molecules for QC torsion scans**  <br />  <br /> Wiberg bond orders (WBO) are sensitive to remote substituents and can be used as a surrogate for torsion energy barrier heights. Here we use WBOs to assess the robustness of fragmentation schemes and identify conjugated bond sets.</p> |
 9.00 am   | Daniel Smith  |  **QC Archive infrastructure updates** <br />  <br /> Highlights on feature improvements, data artifact generation, and data visualization on the QCArchive website.|
-9.30 am	| Jeffrey Wagner |  **Updated on core OpenFF infrastructure** <br />  <br /> New features in the Open Force Field Toolkit, and other developments in core software.
+9.30 am	| Jeffrey Wagner &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  **Updated on core OpenFF infrastructure** <br />  <br /> New features in the Open Force Field Toolkit, and other developments in core software.
 
 <br />
 Day 2 (Apr 28, 2020)
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
-8.30 am  | David Mobley | **Current Status of OpenFF and our Near-Term Roadmap**  <br />  <br /> I’ll briefly discuss where we are now relative to where we were at the last meeting, and what our near-term horizon looks like for future developments. This will include a brief overview of force field and infrastructure topics of particular interest, with more details to come from other speakers.  |
+8.30 am &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | David Mobley  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| **Current Status of OpenFF and our Near-Term Roadmap**  <br />  <br /> I’ll briefly discuss where we are now relative to where we were at the last meeting, and what our near-term horizon looks like for future developments. This will include a brief overview of force field and infrastructure topics of particular interest, with more details to come from other speakers.  |
 9.00 am   | Victoria Lim |  **Benchmark assessment of molecular geometries and energies from small molecule force fields** <br />  <br /> I will present my results on a comparison of several small molecule force fields in terms of how well they can reproduce geometries and relative conformer energies with respect to QM reference data.|
 9.30 am	| Jessica Maat |  **QM data selection** <br />  <br /> QM data selection for _openff-1.2._ Discussion on how the data set was selected to improve the new force field release.
 
@@ -70,8 +70,8 @@ Day 3 (Apr 29, 2020)
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
-8.30 am  | Hyesu Jang | **Update on Parsley minor releases (_openff-1.1.0, 1.2.0_)**  <br />  <br /> Valence parameter re-fitting was done with (1) parameter definition adjustments and (2) newly designed QM training set and the validation of improved performance was carried out.  |
-9.00 am   | Simon Boothroyd |  **Which physical properties should we be optimizing against?** <br />  <br /> An update on refitting the non-bonded (LJ) parameters of the OpenFF force fields against physical property data. A focus is given to exploring which types of physical properties yield the largest improvement in force field performance.|
+8.30 am &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Hyesu Jang | **Update on Parsley minor releases (_openff-1.1.0, 1.2.0_)**  <br />  <br /> Valence parameter re-fitting was done with (1) parameter definition adjustments and (2) newly designed QM training set and the validation of improved performance was carried out.  |
+9.00 am   | Simon Boothroyd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  **Which physical properties should we be optimizing against?** <br />  <br /> An update on refitting the non-bonded (LJ) parameters of the OpenFF force fields against physical property data. A focus is given to exploring which types of physical properties yield the largest improvement in force field performance.|
 9.30 am	| David Hahn |  **_Parsley_ parameters in protein-ligand binding free energy calculations** <br />  <br /> The calculated binding free energy results between proteins and Parsley-parameterized ligands will be discussed. Alongside, the infrastructure for protein ligand benchmarking is presented.|
 
 <br />
@@ -88,5 +88,5 @@ Day 5 (May 1, 2020)
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
-8.30 am  | Owen Madin | **Future directions in parameterization: enabling Bayesian inference with surrogate modeling**  <br />  <br /> I’ll discuss our interest in using Bayesian inference to make decisions about non-bonded interactions, and our planned usage of surrogate models to achieve this. I’ll use the 2CLJQ system as a case study. |
-9.00 am   | Yuanqing Wang |  **Near-Chemical Accuracy at Molecular Mechanics Speed: Neural Parameterization of Extended Force Field using Graph Nets** <br />  <br /> By using graph neural networks capable of automatically perceiving chemical environment and directly producing parameters for a fast classical potential, we show it is possible to flexibly assign parameters to near-arbitrary biomolecular systems while achieving near-quantum chemical accuracy with molecular mechanics speed. |
+8.30 am  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; | Owen Madin | **Future directions in parameterization: enabling Bayesian inference with surrogate modeling**  <br />  <br /> I’ll discuss our interest in using Bayesian inference to make decisions about non-bonded interactions, and our planned usage of surrogate models to achieve this. I’ll use the 2CLJQ system as a case study. |
+9.00 am   | Yuanqing Wang &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;|  **Near-Chemical Accuracy at Molecular Mechanics Speed: Neural Parameterization of Extended Force Field using Graph Nets** <br />  <br /> By using graph neural networks capable of automatically perceiving chemical environment and directly producing parameters for a fast classical potential, we show it is possible to flexibly assign parameters to near-arbitrary biomolecular systems while achieving near-quantum chemical accuracy with molecular mechanics speed. |

@@ -59,3 +59,8 @@ pygmentsStyle = "colorful"
     name = "Jobs"
     weight = 0
     url = "/jobs/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
