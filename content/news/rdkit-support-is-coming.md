@@ -32,13 +32,13 @@ Initially, we are adding support for the following toolkits:
 * The [RDKit](http://www.rdkit.org), which provides support for molecule reading/writing, conversion to/from SMILES, and SMARTS matching, but does not provide AM1-BCC charge assignment capabilities
 * The [AmberTools](http://ambermd.org/AmberTools.php) for assigning AM1 and AM1-BCC charges via `sqm`
 
-Initially, this means that the RDKit and AmberTools together can provide complete functionality for assignment of [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirnoff.html) parameters for small molecules.
+Initially, this means that the RDKit and AmberTools together can provide complete functionality for assignment of [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/0.2.0/smirnoff.html) parameters for small molecules.
 We will include automatic installation of both of these toolkits as part of the next `conda` release of the openforcefield toolkit.
 
 ### A new draft SMIRNOFF 1.0 specification
 
 While the [SMIRNOFF 0.1 specification](https://doi.org/10.1101/286542) was a significant step forward in automated chemical perception based force fields, it was incomplete and inconsistent in some ways that would hinder its growth.
-This release will include a new backwards-incompatible [draft SMIRNOFF 1.0 specification](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirnoff.html) that will support rapid improvements in force field accuracy over the next year, featuring multiple improvements:
+This release will include a new backwards-incompatible [draft SMIRNOFF 1.0 specification](https://open-forcefield-toolkit.readthedocs.io/en/0.2.0/smirnoff.html) that will support rapid improvements in force field accuracy over the next year, featuring multiple improvements:
 
 * Aromaticity model now defaults to `OEAroModel_MDL`, and aromaticity model names drop OpenEye-specific prefixes
 * Top-level tags are now required to specify units for any unit-bearing quantities to avoid the potential for mistakes from implied units.
@@ -64,11 +64,11 @@ This release will include a new backwards-incompatible [draft SMIRNOFF 1.0 speci
 * Eliminated "Requirements" section, since it specified requirements for the software, rather than described an aspect of the SMIRNOFF specification
 * Fractional bond orders are described in `<Bonds>`, since they currently only apply to this term.
 
-The current draft SMIRNOFF 1.0 specification can be found here: [Draft SMIRNOFF 1.0 specification](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirnoff.html)
+The current draft SMIRNOFF 1.0 specification can be found here: [Draft SMIRNOFF 1.0 specification](https://open-forcefield-toolkit.readthedocs.io/en/0.2.0/smirnoff.html)
 
 ### New openforcefield `Molecule` and `Topology` objects
 
-Specifying the system to parameterize with [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirnoff.html) previously required passing along a set of OpenEye Toolkit [`OEMol`](https://docs.eyesopen.com/toolkits/python/oechemtk/OEChemClasses/OEMol.html) objects.
+Specifying the system to parameterize with [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/0.2.0/smirnoff.html) previously required passing along a set of OpenEye Toolkit [`OEMol`](https://docs.eyesopen.com/toolkits/python/oechemtk/OEChemClasses/OEMol.html) objects.
 To support the migration toward broader support for fully open source toolkits, we have introduced two new classes intended to aid the reading and manipulation of biomolecular systems for parameterization:
 * [`Molecule`](https://open-forcefield-toolkit.readthedocs.io/en/topology/topology.html#molecule): A simple pure Python class for manipulating molecules and interconverting with different toolkits
 * [`Topology`](https://open-forcefield-toolkit.readthedocs.io/en/topology/topology.html#topology): A simple pure Python class for manipulating collections of molecules to simplify application of parameters
@@ -131,5 +131,5 @@ parmed_structure.save('charmm.crd')
 
 ### Improved toolkit documentation and examples
 
-A preview of the updated toolkit documentation can be found [here](https://open-forcefield-toolkit.readthedocs.io/en/topology).
+A preview of the updated toolkit documentation can be found [here](https://open-forcefield-toolkit.readthedocs.io/en/0.2.0).
 Throughout the documentation, numerous examples are provided to make it easy for users to simply copy-and-paste simple solutions to common tasks.

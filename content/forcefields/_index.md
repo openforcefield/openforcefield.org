@@ -34,5 +34,5 @@ using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/0.3.0/smi
 [[GitHub]](https://github.com/openforcefield/smirnoff99Frosst) |
 [[Download]](https://github.com/openforcefield/smirnoff99Frosst/releases)
 
-*This force field achieves [comparable accuracy to GAFF](https://doi.org/10.1101/286542) in physical properties, but with with a decrease in complexity from over 6000 lines of parameters to only ~300 lines using the SMARTS-based [direct chemical perception](https://doi.org/10.1101/286542) possible with [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirnoff.html).
+*This force field achieves [comparable accuracy to GAFF](https://doi.org/10.1101/286542) in physical properties, but with with a decrease in complexity from over 6000 lines of parameters to only ~300 lines using the SMARTS-based [direct chemical perception](https://doi.org/10.1101/286542) possible with [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html).
 This force field is intended to be a starting point for rapid cycles of automated optimization to rapidly improve accuracy for modeling protein - small molecule interactions.*
