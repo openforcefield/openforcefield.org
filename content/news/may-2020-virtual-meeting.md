@@ -40,15 +40,32 @@ The meeting is primarily intended for the members of the Open Force Field Consor
 <br />
 ## Agenda
 
+*Please note that all times refer to the Pacific Time Zone.*
+
 #### Discussion sessions (May 4-5, 2020)
 
-Discussion program is coming up, stay tuned!
+
+**Day 1** (May 4, 2020)
+
+Time      | Discussion |
+----------|------------|
+7.00 am   | **Session I: Current status and performance of Open Force Fields and infrastructure** <br /> - David Mobley: A brief recap from talks and introduction (10-15 min) <br />  - Discussion  |
+8.30 am   | **Break** |
+8.45 am   | **Session II: Roadmaps** <br> - Science <br> - Infrastructure <b /r> - Data|
+10.00 am  | **Wrap-up discussion**
+
+**Day 2** (May 5, 2020)
+
+Time      | Discussion |
+----------|------------|
+7.00 am   | **Session I: Biopolymer force fields** <br /> - Michael Shirts: Aims for the NIH-funded biopolymer force fields (15 min) <br> - David Cerutti: Strategies for ab initio Biomolecular Force Field Development (30 min) <br /> - Discussion (45 min) |
+8.30 am   | **Break** |
+8.45 am   | **Session II: Future directions**  <br> - Bayesian infrastructure <br /> - Machine learning applications |
+10.00 am  | **Wrap-up discussion**
 
 #### Recording sessions
 
-Please note that all times refer to the Pacific Time Zone.
-
-Day 1 (Apr 27, 2020)
+**Day 1** (Apr 27, 2020)
 
 Time  &nbsp; &nbsp;   | Speaker | Talk |
 -------------|---------|---------|
@@ -57,7 +74,7 @@ Time  &nbsp; &nbsp;   | Speaker | Talk |
 9.30 am	| Jeffrey Wagner &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  **Updated on core OpenFF infrastructure** <br />  <br /> New features in the Open Force Field Toolkit, and other developments in core software.
 
 <br />
-Day 2 (Apr 28, 2020)
+**Day 2** (Apr 28, 2020)
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
@@ -66,16 +83,15 @@ Time         | Speaker | Talk |
 9.30 am	| Jessica Maat |  **QM data selection** <br />  <br /> QM data selection for _openff-1.2._ Discussion on how the data set was selected to improve the new force field release.
 
 <br />
-Day 3 (Apr 29, 2020)
+**Day 3** (Apr 29, 2020)
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
-8.30 am &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Hyesu Jang | **Update on Parsley minor releases (_openff-1.1.0, 1.2.0_)**  <br />  <br /> Valence parameter re-fitting was done with (1) parameter definition adjustments and (2) newly designed QM training set and the validation of improved performance was carried out.  |
 9.00 am   | Simon Boothroyd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  **Which physical properties should we be optimizing against?** <br />  <br /> An update on refitting the non-bonded (LJ) parameters of the OpenFF force fields against physical property data. A focus is given to exploring which types of physical properties yield the largest improvement in force field performance.|
 9.30 am	| David Hahn |  **_Parsley_ parameters in protein-ligand binding free energy calculations** <br />  <br /> The calculated binding free energy results between proteins and Parsley-parameterized ligands will be discussed. Alongside, the infrastructure for protein ligand benchmarking is presented.|
 
 <br />
-Day 4 (Apr 30, 2020)
+**Day 4** (Apr 30, 2020)
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
@@ -84,9 +100,10 @@ Time         | Speaker | Talk |
 9.30 am	| Jeffry Setiadi |  **Host-guest binding calculations with OpenFF evaluator** <br />  <br /> Current status of pAPRika integration with OpenFF Evaluator. |
 
 <br />
-Day 5 (May 1, 2020)
+**Day 5** (May 1, 2020)
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
 8.30 am  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; | Owen Madin | **Future directions in parameterization: enabling Bayesian inference with surrogate modeling**  <br />  <br /> I’ll discuss our interest in using Bayesian inference to make decisions about non-bonded interactions, and our planned usage of surrogate models to achieve this. I’ll use the 2CLJQ system as a case study. |
 9.00 am   | Yuanqing Wang &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;|  **Near-Chemical Accuracy at Molecular Mechanics Speed: Neural Parameterization of Extended Force Field using Graph Nets** <br />  <br /> By using graph neural networks capable of automatically perceiving chemical environment and directly producing parameters for a fast classical potential, we show it is possible to flexibly assign parameters to near-arbitrary biomolecular systems while achieving near-quantum chemical accuracy with molecular mechanics speed. |
+9.30 am  |   Hyesu Jang | **Update on Parsley minor releases (_openff-1.1.0, 1.2.0_)**  <br />  <br /> Valence parameter re-fitting was done with (1) parameter definition adjustments and (2) newly designed QM training set and the validation of improved performance was carried out.  |
