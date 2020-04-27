@@ -9,7 +9,7 @@ The **Open Force Field Consortium** is composed of academic investigators from t
 
 **The [Open Force Field Consortium officially launched](https://openforcefield.org/news/introducing-the-consortium/) on Oct 1, 2018,** but there is still room to join or get involved.
 
-**Industry Partners:** Bayer, BASF, Boehringer-Ingelheim, Bristol-Myers Squibb, GlaxoSmithKline, Janssen, Merck KGaA, Pfizer, Qulab, Roche, Vertex Pharmaceuticals, XtalPi
+**Industry Partners:** Bayer, BASF, Boehringer-Ingelheim, Bristol-Myers Squibb, Cresset, GlaxoSmithKline, Janssen, Merck KGaA, OpenEye, Pfizer, Qulab, Roche, Vertex Pharmaceuticals, XtalPi
 
 ## Interested in joining the Consortium as an Industry Partner?
 
@@ -32,6 +32,7 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 
 
 ### Advisory Board
+- Christopher Bayly (OpenEye)
 - Ian Craig (BASF), Vice Chair
 - Thomas Fox (Boehringer-Ingelheim)
 - Jérôme Hert (Roche)
@@ -39,8 +40,8 @@ Consortium members *partner* to advance force fields. Thus, the Consortium is a 
 - Daniel Kuhn (Merck KGaA), Chair
 - Sirish Kaushik Lakkaraju (Bristol-Myers Squibb)
 - Shuai Liu (XtalPi)
+- Mark Mackey (Cresset)
 - Katharina Meier (Bayer)
 - Arjun Narayanan (Vertex), Secretary
-- Alireza Shabani (Qulab)
 - Herman Van Vlijmen (Janssen)
 - Ross Walker (GSK)
