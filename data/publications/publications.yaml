@@ -22,7 +22,7 @@
   github: leeping/forcebalance
 - title: "Escaping atom types using direct chemical perception"
   authors: "David Mobley, Caitlin C. Bannan, Andrea Rizzi, Christopher I. Bayly, John D. Chodera, Victoria T Lim, Nathan M. Lim, Kyle A. Beauchamp, Michael R. Shirts, Michael K. Gilson, and Peter K. Eastman"
-  summary: This paper introduces the SMIRNOFF format in the context of traditional force fields, explains the development and validation of our new small molecule force field smirnoff99Frosst, and highlights some directions the initiative is headed.
+  summary: This paper introduces the SMIRNOFF format in the context of traditional force fields, explains the development and validation of our new small molecule force field smirnoff99Frosst, and highlights some directions the initiative is headed. It was [recommended by A. MacKerell](http://dx.doi.org/10.3410/f.734280524.793552639) in F1000 Prime as a significant technical advance.
   img: smirnoff-v0.1.png
   date: 2018-10-11
   preprint:
