@@ -15,7 +15,9 @@ We are hosting the Third [Open Force Field Consortium](https://openforcefield.or
 
 #### Talks and discussions
 
-The meeting attendees can join the recording sessions, if they wish, or watch the videos later at their own convenience. Each talk will be 15 min long and there will be 15 min for questions and comments. The talks will be uploaded to our [YouTube channel](https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g/featured) on the day when they are recorded. The recording session schedule is provided below and the YouTube links and slides will be shared as soon as the videos have been uploaded. Read in the Zoom policy below how to join the meetings.
+The meeting attendees can join the recording sessions, if they wish, or watch the videos later at their own convenience. Each talk will be 15 min long and there will be 15 min for questions and comments. Read in the Zoom policy below how to join the meetings.
+
+The talks will be uploaded to our [YouTube channel](https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g/featured) on the day when they are recorded. The recording session schedule is provided below and the YouTube links and slides will be shared as soon as the videos have been uploaded. To access presentation slides and better video quality, download provided content from Zenodo.
 
 Discussion session schedule is in preparation and it will be posted soon, but one of the planned discussions will be focused on user experience. To help us understand better your needs and your use cases, please respond to this [survey](https://forms.gle/5AEbFvHH9wVqnigh7).
 
@@ -51,7 +53,7 @@ Time      | Discussion |
 ----------|------------|
 7.00 am   | **Session I: Current status and performance of Open Force Fields and infrastructure** <br /> - David Mobley: A brief recap from talks and introduction (10-15 min) <br />  - Discussion  |
 8.30 am   | **Break** |
-8.45 am   | **Session II: Roadmaps** <br> - Science <br> - Infrastructure <b /r> - Data|
+8.45 am   | **Session II: Roadmaps** <br> - Science <br> - Infrastructure <br /> - Data|
 10.00 am  | **Wrap-up discussion**
 
 **Day 2** (May 5, 2020)
@@ -69,9 +71,9 @@ Time      | Discussion |
 
 Time  &nbsp; &nbsp;   | Speaker | Talk |
 -------------|---------|---------|
-8.30 am &nbsp; &nbsp; &nbsp; | Chaya Stern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| **Capturing non-local through-bond effects when fragmenting molecules for QC torsion scans**  <br />  <br /> Wiberg bond orders (WBO) are sensitive to remote substituents and can be used as a surrogate for torsion energy barrier heights. Here we use WBOs to assess the robustness of fragmentation schemes and identify conjugated bond sets.</p> |
-9.00 am   | Daniel Smith  |  **QC Archive infrastructure updates** <br />  <br /> Highlights on feature improvements, data artifact generation, and data visualization on the QCArchive website.|
-9.30 am	| Jeffrey Wagner &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  **Updated on core OpenFF infrastructure** <br />  <br /> New features in the Open Force Field Toolkit, and other developments in core software.
+8.30 am &nbsp; &nbsp; &nbsp; | Chaya Stern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| **Capturing non-local through-bond effects when fragmenting molecules for QC torsion scans**  <br />  <br /> Wiberg bond orders (WBO) are sensitive to remote substituents and can be used as a surrogate for torsion energy barrier heights. Here we use WBOs to assess the robustness of fragmentation schemes and identify conjugated bond sets. <br> [YouTube](https://youtu.be/aRm6c_C8mV0 ) \| [Zenodo](https://doi.org/10.5281/zenodo.3771980) _(video + slides)_ |
+9.00 am   | Daniel Smith  |  **QC Archive infrastructure updates** <br />  <br /> Highlights on feature improvements, data artifact generation, and data visualization on the QCArchive website. <br> [YouTube](https://youtu.be/MV9je1i3HPA) \| [Zenodo](https://doi.org/10.5281/zenodo.3772044) _(video + slides)_  |
+9.30 am	| Jeffrey Wagner &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  **Updated on core OpenFF infrastructure** <br />  <br /> New features in the Open Force Field Toolkit, and other developments in core software <br> [YouTube](https://youtu.be/NMyb_eWywvQ ) \| [Zenodo](https://doi.org/10.5281/zenodo.3772042) _(video + slides)_ .
 
 <br />
 **Day 2** (Apr 28, 2020)
