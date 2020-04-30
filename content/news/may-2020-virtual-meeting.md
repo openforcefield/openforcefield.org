@@ -82,15 +82,15 @@ Time         | Speaker | Talk |
 -------------|---------|---------|
 8.30 am &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | David Mobley  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| **Current Status of OpenFF and our Near-Term Roadmap**  <br />  <br /> I’ll briefly discuss where we are now relative to where we were at the last meeting, and what our near-term horizon looks like for future developments. This will include a brief overview of force field and infrastructure topics of particular interest, with more details to come from other speakers.  <br> [YouTube](https://youtu.be/IHtbh7LdVIw) \| [Zenodo](https://doi.org/10.5281/zenodo.3774668) _(video + slides)_ |
 9.00 am   | Victoria Lim |  **Benchmark assessment of molecular geometries and energies from small molecule force fields** <br />  <br /> I will present my results on a comparison of several small molecule force fields in terms of how well they can reproduce geometries and relative conformer energies with respect to QM reference data. <br> [YouTube](https://youtu.be/RZcAL-SSmZU) \| [Zenodo](https://doi.org/10.5281/zenodo.3774680) _(video + slides)_ |
-9.30 am	| Jessica Maat |  **Training dataset selection** <br />  <br /> QM data selection for _openff-1.2._ Discussion on how the data set was selected to improve the new force field release. <br> [YouTube](https://youtu.be/HBpzVZI2rkI) |
+9.30 am	| Jessica Maat |  **Training dataset selection** <br />  <br /> QM data selection for _openff-1.2._ Discussion on how the data set was selected to improve the new force field release. <br> [YouTube](https://youtu.be/HBpzVZI2rkI) \| [Zenodo](https://doi.org/10.5281/zenodo.3777278) _(video + slides)_ |
 
 <br />
 **Day 3** (Apr 29, 2020)
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
-9.00 am   | Simon Boothroyd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  **Which physical properties should we be optimizing against?** <br />  <br /> An update on refitting the non-bonded (LJ) parameters of the OpenFF force fields against physical property data. A focus is given to exploring which types of physical properties yield the largest improvement in force field performance. |
-9.30 am	| David Hahn |  **_Parsley_ parameters in protein-ligand binding free energy calculations** <br />  <br /> The calculated binding free energy results between proteins and Parsley-parameterized ligands will be discussed. Alongside, the infrastructure for protein ligand benchmarking is presented.|
+9.00 am   | Simon Boothroyd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  **Which physical properties should we be optimizing against?** <br />  <br /> An update on refitting the non-bonded (LJ) parameters of the OpenFF force fields against physical property data. A focus is given to exploring which types of physical properties yield the largest improvement in force field performance. <br> [YouTube](https://youtu.be/u_5w5qKSbxk) \| [Zenodo](https://doi.org/10.5281/zenodo.3777272) _(video + slides)_ |
+9.30 am	| David Hahn |  **_Parsley_ parameters in protein-ligand binding free energy calculations** <br />  <br /> The calculated binding free energy results between proteins and Parsley-parameterized ligands will be discussed. Alongside, the infrastructure for protein ligand benchmarking is presented. <br> [YouTube](https://youtu.be/yF_ob-1qjjs) \| [Zenodo](https://doi.org/10.5281/zenodo.3777276) _(video + slides)_ |
 
 <br />
 **Day 4** (Apr 30, 2020)
@@ -98,8 +98,7 @@ Time         | Speaker | Talk |
 Time         | Speaker | Talk |
 -------------|---------|---------|
 8.30 am   | Michael Gilson |  **Do we really need so many LJ types?** <br />  <br /> Results of a data-driven investigation. |
-9.00 am  | Josh Fass | **SMIRKS, message-passing, and friends**  <br />  <br /> Comments and exploratory studies on representing chemical environments. |
-9.30 am	| Jeffry Setiadi |  **Host-guest binding calculations with OpenFF evaluator** <br />  <br /> Current status of pAPRika integration with OpenFF Evaluator. |
+9.00 am	| Jeffry Setiadi |  **Host-guest binding calculations with OpenFF evaluator** <br />  <br /> Current status of pAPRika integration with OpenFF Evaluator. |
 
 <br />
 **Day 5** (May 1, 2020)
