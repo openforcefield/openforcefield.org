@@ -97,8 +97,8 @@ Time         | Speaker | Talk |
 
 Time         | Speaker | Talk |
 -------------|---------|---------|
-8.30 am   | Michael Gilson |  **Do we really need so many LJ types?** <br />  <br /> Results of a data-driven investigation. |
-9.00 am	| Jeffry Setiadi |  **Host-guest binding calculations with OpenFF evaluator** <br />  <br /> Current status of pAPRika integration with OpenFF Evaluator. |
+8.30 am   | Michael Gilson |  **How Many Lennard-Jones Atom Types Does a Force Field Need?** <br />  <br /> Results of a data-driven investigation. <br> [YouTube](https://youtu.be/6BzZ63UjDng) \| [Zenodo](https://doi.org/10.5281/zenodo.3779485) _(video + slides)_ |
+9.00 am	| Jeffry Setiadi |  **Host-guest binding calculations with OpenFF evaluator** <br />  <br /> Current status of pAPRika integration with OpenFF Evaluator. <br> [YouTube](https://youtu.be/zIcUz_mN5X8) \| [Zenodo]( https://doi.org/10.5281/zenodo.3779488) _(video + slides)_ |
 
 <br />
 **Day 5** (May 1, 2020)
