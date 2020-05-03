@@ -42,30 +42,88 @@ The meeting is primarily intended for the members of the Open Force Field Consor
 <br />
 ## Agenda
 
+### Talks
+
+The list of talks grouped by theme:
+
+**Introduction**
+
+* **David Mobley:** Current status of OpenFF and our near-term roadmap
+<br> [YouTube](https://youtu.be/IHtbh7LdVIw) \| [Zenodo](https://doi.org/10.5281/zenodo.3774668)
+
+**Infrastructure Update**
+
+* **Daniel Smith:** QC Archive infrastructure updates
+<br> [YouTube](https://youtu.be/MV9je1i3HPA) \| [Zenodo](https://doi.org/10.5281/zenodo.3772044)
+* **Jeffrey Wagner:** Updates on core OpenFF infrastructure
+<br> [YouTube](https://youtu.be/NMyb_eWywvQ ) \| [Zenodo](https://doi.org/10.5281/zenodo.3772042)
+* **Chaya Stern:** Capturing non-local through-bond effects when fragmenting molecules for QC torsion scans
+<br> [YouTube](https://youtu.be/aRm6c_C8mV0 ) \| [Zenodo](https://doi.org/10.5281/zenodo.3771980)
+
+**Force Field Updates**
+
+* **Jessica Maat:** Training dataset selection
+<br> [YouTube](https://youtu.be/aRm6c_C8mV0 ) \| [Zenodo](https://doi.org/10.5281/zenodo.3771980)
+* **Hyesu Jang:** Update on Parsley minor releases (openff-1.1.0, 1.2.0)
+ <br> [YouTube](https://youtu.be/mUilaZiMoF4 ) \| [Zenodo](https://doi.org/10.5281/zenodo.3781313)
+
+**Benchmarking (_Parsley_)**
+
+* **Victoria Lim:**  Benchmark assessment of molecular geometries and energies from small molecule force fields
+<br> [YouTube](https://youtu.be/RZcAL-SSmZU) \| [Zenodo](https://doi.org/10.5281/zenodo.3774680)
+* **David Hahn:** Parsley parameters in protein-ligand binding free energy calculations
+<br> [YouTube](https://youtu.be/yF_ob-1qjjs) \| [Zenodo](https://doi.org/10.5281/zenodo.3777276)
+
+**Next Steps / Ongoing Studies**
+
+* **Simon Boothroyd:** Which physical properties should we be optimizing against?
+<br> [YouTube](https://youtu.be/u_5w5qKSbxk) \| [Zenodo](https://doi.org/10.5281/zenodo.3777272)
+* **Jeffry Setiadi:** Host-guest binding calculations with OpenFF evaluator
+<br> [YouTube](https://youtu.be/zIcUz_mN5X8) \| [Zenodo]( https://doi.org/10.5281/zenodo.3779488)
+* **Michael Gilson:** How Many Lennard-Jones Atom Types Does a Force Field Need?
+<br> [YouTube](https://youtu.be/6BzZ63UjDng) \| [Zenodo](https://doi.org/10.5281/zenodo.3779485)
+
+**Future Directions**
+
+* **Owen Madin:** Future directions in parameterization: enabling Bayesian inference with surrogate modeling
+<br> [YouTube](https://youtu.be/466Rr6GD1Zk) \| [Zenodo](https://doi.org/10.5281/zenodo.3781305)
+* **Yuanqing Wang:** Near-chemical accuracy at molecular mechanics speed: Neural parameterization of extended force field using graph nets
+<br> [YouTube](https://youtu.be/DbCep444xQ8) \| [Zenodo](https://doi.org/10.5281/zenodo.3781303)
+* **Yuanqing Wang:** Graph Nets for partial charge prediction
+<br> _This is a previously given webinar, but relevant for this context._
+<br> [YouTube](https://youtu.be/ndIgAV2Xwfk) \| [Zenodo]( https://doi.org/10.5281/zenodo.3539635)
+
+
+
+<br>
+### Discussion sessions (May 4-5, 2020)
+
 *Please note that all times refer to the Pacific Time Zone.*
-
-#### Discussion sessions (May 4-5, 2020)
-
 
 **Day 1** (May 4, 2020)
 
 Time      | Discussion |
 ----------|------------|
-7.00 am   | **Session I: Current status and performance of Open Force Fields and infrastructure** <br /> - David Mobley: A brief recap from talks and introduction (10-15 min) <br />  - Discussion  |
+7.00 am   | **Session I: Current status and performance of Open Force Fields and infrastructure** <br /> - **David Mobley:** A brief recap from talks and introduction (10-15 min) <br />  - Discussion <br> <br> _**Relevant talks** (by theme): Introduction, Infrastructure, Force field updates, Benchmarking_ |
 8.30 am   | **Break** |
-8.45 am   | **Session II: Roadmaps** <br> - Science <br> - Infrastructure <br /> - Data|
+8.45 am   | **Session II: Roadmaps** <br> - Science <br> - Infrastructure <br /> - Data <br> <br> _**Relevant talks** (by theme): Infrastructure, Force Field Updates, Next Steps_ |
 10.00 am  | **Wrap-up discussion**
 
 **Day 2** (May 5, 2020)
 
 Time      | Discussion |
 ----------|------------|
-7.00 am   | **Session I: Biopolymer force fields** <br /> - Michael Shirts: Aims for the NIH-funded biopolymer force fields (15 min) <br> - David Cerutti: Strategies for ab initio Biomolecular Force Field Development (30 min) <br /> - Discussion (45 min) |
+7.00 am   | **Session I: Biopolymer force fields** <br /> - **Michael Shirts:** Aims for the NIH-funded biopolymer force fields (15 min) <br> - **David Cerutti:** Strategies for ab initio Biomolecular Force Field Development (30 min) <br /> - Discussion (45 min) |
 8.30 am   | **Break** |
-8.45 am   | **Session II: Future directions**  <br> - Bayesian infrastructure <br /> - Machine learning applications |
+8.45 am   | **Session II: Future directions**  <br> - Bayesian infrastructure <br /> - Machine learning applications <br> <br> _**Relevant talks** (by theme): Future Directions_ |
 10.00 am  | **Wrap-up discussion**
 
-#### Recording sessions
+
+<br>
+<br>
+<br>
+### Recording sessions
+*Please note that all times refer to the Pacific Time Zone.*
 
 **Day 1** (Apr 27, 2020)
 
