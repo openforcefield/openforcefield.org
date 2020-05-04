@@ -11,7 +11,7 @@ author: "Karmen Condic-Jurkic"
 
 ![Banner](OpenFF-banner.png)
 
-We are hosting the Third [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop, this time in the online world of Zoom, on May 4-5, 2020. This virtual meeting is replacing the planned in-person gathering in Boston. We decided to slightly experiment with the workshop format by making most of the content available before the meeting for asynchronous consumption. Namely, all talks will be pre-recorded and the meeting time will be focused on discussions around those talks and future planning. The only live presentation will be a keynote on Day 2 by [David Cerutti](https://www.linkedin.com/in/david-cerutti-11321129), who has recently joined the Open Force Field Initiative as a senior scientist and who will lead the NIH-funded efforts in the biopolymer arena. The main aim of this format is to make this virtual meeting more interactive, and hopefully, more productive.  
+We are hosting the Third [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop, this time in the online world of Zoom, on May 4-5, 2020. This virtual meeting is replacing the planned in-person gathering in Boston. We decided to slightly experiment with the workshop format by making most of the content available before the meeting for asynchronous consumption. Namely, all talks will be pre-recorded and the meeting time will be focused on discussions around those talks and future planning. T[David Cerutti](https://www.linkedin.com/in/david-cerutti-11321129), who has recently joined the Open Force Field Initiative as a senior scientist and who will lead the NIH-funded efforts in the biopolymer arena, will give a virtual keynote and a brief summary of his talk before discussion. The main aim of this format is to make this virtual meeting more interactive, and hopefully, more productive.  
 
 #### Talks and discussions
 
@@ -91,8 +91,12 @@ The list of talks grouped by theme:
 <br> [YouTube](https://youtu.be/DbCep444xQ8) \| [Zenodo](https://doi.org/10.5281/zenodo.3781303)
 * **Yuanqing Wang:** Graph Nets for partial charge prediction
 <br> _This is a previously given webinar, but relevant for this context._
-<br> [YouTube](https://youtu.be/ndIgAV2Xwfk) \| [Zenodo]( https://doi.org/10.5281/zenodo.3539635)
+<br> [YouTube](https://youtu.be/ndIgAV2Xwfk) \| [Zenodo](https://doi.org/10.5281/zenodo.3539635)
 
+**Biopolymers / Keynote**
+
+* **David Cerutti:** Strategies for ab initio Biomolecular Force Field Development
+<br> [YouTube](https://youtu.be/JapaP-c4AU0 ) \| [Zenodo](https://doi.org/10.5281/zenodo.3783913)
 
 
 <br>
@@ -113,9 +117,9 @@ Time      | Discussion |
 
 Time      | Discussion |
 ----------|------------|
-7.00 am   | **Session I: Biopolymer force fields** <br /> - **Michael Shirts:** Aims for the NIH-funded biopolymer force fields (15 min) <br> - **David Cerutti:** Strategies for ab initio Biomolecular Force Field Development (30 min) <br /> - Discussion (45 min) |
+7.00 am   | **Session I: Biopolymer force fields** <br /> - **Michael Shirts:** Aims for the NIH-funded biopolymer force fields (15 min) <br> - **David Cerutti:** Strategies for ab initio Biomolecular Force Field Development (15 min) <br> [YouTube](https://youtu.be/JapaP-c4AU0 ) \| [Zenodo](https://doi.org/10.5281/zenodo.3783913) <br /> - Discussion (45 min) |
 8.30 am   | **Break** |
-8.45 am   | **Session II: Future directions**  <br> - Bayesian infrastructure <br /> - Machine learning applications <br> <br> _**Relevant talks** (by theme): Future Directions_ |
+8.45 am   | **Session II: Future directions**  <br> - Bayesian framework <br /> - Machine learning applications <br> <br> _**Relevant talks** (by theme): Future Directions_ |
 10.00 am  | **Wrap-up discussion**
 
 
@@ -123,6 +127,7 @@ Time      | Discussion |
 <br>
 <br>
 ### Recording sessions
+
 *Please note that all times refer to the Pacific Time Zone.*
 
 **Day 1** (Apr 27, 2020)
