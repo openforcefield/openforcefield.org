@@ -106,6 +106,8 @@ The list of talks grouped by theme:
 
 **Day 1** (May 4, 2020)
 
+[Meeting notes - Day 1](https://docs.google.com/document/d/1SAYCtstD26bB94fYK6fWyNetU_rP_c-fAatkSL24sz8/edit?usp=sharing)
+
 Time      | Discussion |
 ----------|------------|
 7.00 am   | **Session I: Current status and performance of Open Force Fields and infrastructure** <br /> - **David Mobley:** A brief recap from talks and introduction (10-15 min) <br />  - Discussion <br> <br> _**Relevant talks** (by theme): Introduction, Infrastructure, Force field updates, Benchmarking_ |
@@ -114,6 +116,8 @@ Time      | Discussion |
 10.00 am  | **Wrap-up discussion**
 
 **Day 2** (May 5, 2020)
+
+[Meeting notes - Day 2](https://docs.google.com/document/d/1r-1D0HYd6MTM0xccCbhvMWMXVWnNOdpz4AgrcXlpfmY/edit?usp=sharing)
 
 Time      | Discussion |
 ----------|------------|
