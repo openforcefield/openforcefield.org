@@ -101,6 +101,9 @@
   published:
     doi: 10.1080/10610278.2018.1562191
     journal: Supramolecular Chemistry
+    volume: 31
+    pages: 251
+    year: 2019
     date: 2019-01-06
 - title: "Approaches for Calculating Solvation Free Energies and Enthalpies Demonstrated with an Update of the FreeSolv Database"
   authors: "Guilherme Duarte Ramos Matos, Daisy Y. Kyu, Hannes H. Loeffler, John D. Chodera, Michael R. Shirts, and David L. Mobley"
@@ -150,4 +153,11 @@
     url: https://doi.org/10.26434/chemrxiv.9159872.v1
     license: "CC BY 4.0"
     date: 2019-07-30
+  published:
+    doi: 10.1021/acs.jctc.9b00748
+    journal: Journal of Chemical Theory and Computation
+    volume: 15
+    pages: 6225
+    year: 2019
+    date: 2019-10-11
   github: slochower/smirnoff-host-guest-manuscript
