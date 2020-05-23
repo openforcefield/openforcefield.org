@@ -25,6 +25,20 @@
 {{ end }}
 </ul>
 
+<!-- Senior Scientists -->
+
+<h2>Co-Investigators</h2>
+
+<ul>
+{{ range $.Site.Data.members }}
+  {{ if eq .role "Co-Investigator" }}
+  <div class="row gutters">
+    {{ partial "person" . }}
+  </div>
+  {{ end }}
+{{ end }}
+</ul>
+
 <!-- Consultants -->
 
 <h2>Advisors</h2>
@@ -67,19 +81,6 @@
 {{ end }}
 </ul>
 
-<!-- Senior Scientists -->
-
-<h2>Senior Scientists</h2>
-
-<ul>
-{{ range $.Site.Data.members }}
-  {{ if eq .role "Senior Scientist" }}
-  <div class="row gutters">
-    {{ partial "person" . }}
-  </div>
-  {{ end }}
-{{ end }}
-</ul>
 
 <!-- Researchers -->
 
