@@ -9,9 +9,11 @@ layout: faq
 
 ## **Open Force Field Initiative Postdoc**
 
-The **Open Force Field Initiative** is seeking talented postdoctoral fellows to work on the development of modern toolkits and new methods for building next-generation molecular mechanics force fields.
-The effort has been primarily funded by the [Open Force Field Consortium](https://openforcefield.org/consortium/) - an [alliance of pharmaceutical and biotech companies](https://openforcefield.org/news/introducing-the-consortium/) aiming to advance the state of force fields for biomolecular simulation and design through an open collaborative effort.
-Postdocs will work closely with other researchers in the Initiative, multiple academic Initiative PIs, industry Partner scientific collaborators, and software scientists in the at [MolSSI](http://molssi.org) to develop and apply new algorithms and modern open source software infrastructure for building high quality biomolecular force fields.
+The **Open Force Field Initiative** is seeking talented postdoctoral fellows to work on the development of modern toolkits and new methods for building next-generation molecular mechanics force fields. This position will focus on generation, curation and management of quantum chemistry datasets, benchmarking studies, and assistance with force field optimization. There is a possibility to expand this role towards substantial contributions to development of QCArchive infrastructure, depending on the candidate's preferences and software skills. [QCArchive](https://qcarchive.molssi.org/) enables computing and storing of quantum chemistry data and it is powered by modular and open source infrastructure. Currently, MolSSI server stores the largest publicly available collection of quantum chemistry data.
+<br>
+<br>
+The effort has been primarily funded by the Open Force Field Consortium and since March 2020, the Initiative has been awarded the NIH grant focused on development of accurate biomolecular force fields [Open Force Field Consortium](https://openforcefield.org/consortium/) is an [alliance of pharmaceutical and biotech companies](https://openforcefield.org/news/introducing-the-consortium/) aiming to advance the state of force fields for biomolecular simulation and design through an open collaborative effort.
+Postdocs will work closely with other researchers in the Initiative, multiple academic Initiative PIs, industry Partner scientific collaborators, and software scientists at [MolSSI](http://molssi.org) to develop and apply new algorithms and modern open source software infrastructure for building high quality biomolecular force fields.
 We aim to publish frequently and openly and a sample of existing publications can be found [here](http://openforcefield.org/publications).
 The [Open Force Field Initiative](http://openforcefield.org) is a multi-investigator collaboration that aims to build new, quantitatively accurate molecular mechanics force fields supported by a modern software infrastructure, built on principles of open source, open data, and open science. More about their scientific goals and plans can be found in the Open Force Field Initiative [Executive Summary](https://openforcefield.org/science/downloads/roadmap/open-forcefield-summary.pdf).
 
@@ -31,17 +33,20 @@ The [Open Force Field Initiative](http://openforcefield.org) is a multi-investig
 * Experience with [Psi4](http://www.psicode.org/) suite
 * Experience with the open-source GPU-accelerated molecular simulation Python library [OpenMM](http://openmm.org)
 * Experience with probabilistic programming languages (e.g. [PyMC](https://github.com/pymc-devs), [TensorFlow Probability](https://www.tensorflow.org/probability/overview), [Pyro](http://pyro.ai/)) and/or machine learning frameworks like [TensorFlow](http://tensorflow.org) or [PyTorch](https://pytorch.org/)
+* Experience with databases and distributed computing
 
 
 #### Location
 
-Open Force Field Initiative postdocs will generally have flexibility in location, with potential sites including the participating investigator laboratories:
+This position will be hosted by the [Mobley lab](http://mobleylab.org) as UC Irvine, CA. However, there is a certain amount of flexibility around location and the Open Force Field postdocs can be hosted at any of the participating investigator sites:
 
 * [Michael K. Gilson](http://gilson.cloud.ucsd.edu/) (UCSD, La Jolla, CA)
 * [John D. Chodera](http://choderalab.org) (MSKCC, New York City, NY)
 * [Lee-Ping Wang](https://chemistry.ucdavis.edu/people/lee-ping-wang) (UCD, Davis, CA)
 * [David L. Mobley](http://mobleylab.org) (UCI, Irvine, CA)
 * [Michael R. Shirts](https://www.colorado.edu/lab/shirtsgroup/) (University of Colorado, Boulder, CO)
+
+Due to the relocation and traveling complications arising from the Covid-19 outbreak, the OpenFF Initiative would consider remote work options for suitable candidates.
 
 #### Appointment duration
 
