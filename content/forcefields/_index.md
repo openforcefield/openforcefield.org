@@ -15,7 +15,7 @@ Previous installations of the "openforcefields" package can be updated by runnin
 conda update -c omnia --no-update-deps openforcefields
 ```
 
-Installation of a particular force field can be verified by loading it into the Open Force Field toolkit:
+Installation of a particular force field can be verified by loading it into the Open Force Field Toolkit:
 ```
 python -c "from openforcefield.typing.engines.smirnoff import ForceField; ff = ForceField('openff-1.0.0.offxml')"
 ```
