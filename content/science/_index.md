@@ -33,6 +33,7 @@ The current Scientific Advisory Board consists of scientists engaged within the 
 * [Carlos Simmerling](https://www.stonybrook.edu/commcms/chemistry/faculty/simmerling.carlos.html) (Stony Brook University) [[lab website](http://laufercenter.stonybrook.edu/simmerling/Home)]
 * [Bill Swope](https://researcher.watson.ibm.com/researcher/view.php?person=us-swope) (IBM Research)
 * [Junmei Wang](https://www.pharmacy.pitt.edu/directory/profile.php?profile=1639) (University of Pittsburgh) [[lab website](https://mulan.pharmacy.pitt.edu/)]
+* [Alex MacKerell](https://faculty.rx.umaryland.edu/amackerell/) (University of Maryland) [[lab website](http://mackerell.umaryland.edu/index.shtml)
 <br>
 <br>
 
