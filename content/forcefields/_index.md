@@ -5,19 +5,63 @@ draft = false
 
 +++
 
-<a id="parsley"></a>
+All force fields listed here are installed with the latest version of the Open Force Field Toolkit. They can also be installed separately, by running:
+```
+conda install -c omnia openforcefields
+```
+
+Previous installations of the "openforcefields" package can be updated by running:
+```
+conda update -c omnia --no-update-deps openforcefields
+```
+
+Installation of a particular force field can be verified by loading it into the Open Force Field toolkit:
+```
+python -c "from openforcefield.typing.engines.smirnoff import ForceField; ff = ForceField('openff-1.0.0.offxml')"
+```
+
+<a id="parsley120"></a>
+# Open Force Field 1.2 Parsley Update
+
+[![Version](https://img.shields.io/badge/release-1.2.0-BLUE.svg)](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.2.0)
+![Status: Experimental](https://img.shields.io/badge/status-benchmarked-green.svg?style=flat)
+[![License: CC-BY 4.0](https://img.shields.io/github/license/openforcefield/openforcefields.svg?style=flat)](https://creativecommons.org/licenses/by/4.0/)
+
+
+This release contains a new, carefully designed quantum chemical dataset used in training valence parameters in the force field and the removal of redundancy in t108 SMIRKS pattern.
+
+
+[[Fitting]](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.2.0) |
+[[Parameters]](https://github.com/openforcefield/openforcefields/tree/1.2.0/openforcefields/offxml)
+
+
+<a id="parsley110"></a>
+# Open Force Field 1.1 Parsley Update
+
+[![Version](https://img.shields.io/badge/release-1.1.0-BLUE.svg)](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.1.0)
+![Status: Experimental](https://img.shields.io/badge/status-benchmarked-green.svg?style=flat)
+[![License: CC-BY 4.0](https://img.shields.io/github/license/openforcefield/openforcefields.svg?style=flat)](https://creativecommons.org/licenses/by/4.0/)
+
+This release contains results of valence parameter re-fitting, with small modifications in the input force field. 
+
+[[Fitting]](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.1.0) |
+[[Parameters]](https://github.com/openforcefield/openforcefields/tree/1.1.0/openforcefields/offxml)
+
+
+
+<a id="parsley100"></a>
 # Open Force Field 1.0 small molecule force field (codename "Parsley")
 
-[![Version](https://img.shields.io/github/release/openforcefield/openforcefields.svg?style=flat)](https://github.com/openforcefield/openforcefields/releases)
+[![Version](https://img.shields.io/badge/release-1.0.0-BLUE.svg)](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.0.0)
 ![Status: Experimental](https://img.shields.io/badge/status-benchmarked-green.svg?style=flat)
-[![License: CC-BY 4.0](https://img.shields.io/github/license/openforcefield/smirnoff99Frosst.svg?style=flat)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC-BY 4.0](https://img.shields.io/github/license/openforcefield/openforcefields.svg?style=flat)](https://creativecommons.org/licenses/by/4.0/)
 
 The first optimized small molecule force field from the Open Force Field Initiative, a refit of the AMBER-lineage <a href="#smirnoff99Frosst">smirnoff99Frosst</a> to quantum chemical data that uses the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) direct chemical perception specification.
 
 [[Blog post]](http://openforcefield.org/news/introducing-openforcefield-1.0/) |
-[[Fitting]](https://github.com/openforcefield/release-1-fitting) |
+[[Fitting]](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.0.0) |
 [[Benchmarks]](https://github.com/openforcefield/release-1-benchmarking) |
-[[Parameters]](https://github.com/openforcefield/openforcefields/releases)
+[[Parameters]](https://github.com/openforcefield/openforcefields/tree/1.0.0/openforcefields/offxml)
 
 <a id="smirnoff99Frosst"></a>
 # smirnoff99Frosst
