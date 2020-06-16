@@ -1,0 +1,100 @@
+  - title: Year 1
+    year: 2019
+    contents: |
+      *Force Fields*
+      Release and validation of the first version of SMIRNOFF force field format and the initial set of parameters (SMIRNOFF99Frosst) based on an informal extension of Amber99 or ffXX type of force fields to small molecules developed at Merck Frosst (parm@Frosst).
+      Release of the first optimized force field (Parsley) based on SMIRNOFF format using ForceBalance, newly generated QM datasets and curated set of physical properties.
+      *Infrastructure*
+      Release of the OpenFF Toolkit:
+      - with OpenEye and RDKit support
+      - GBSA support
+      - parameter coverage tool
+      - SMIRNOFF specification upgrades.
+
+      Development and launch of QCArchive platform led by MolSSI.
+
+      Development of OpenFF Evaluator module for assessment and optimization stages.
+
+      Integration of OpenFF Evaluator with ForceBalance.
+
+      Data Generation of the initial QM datasets. Curation of the initial sets of experimental data (physical properties, protein-ligand binding free energies) for force field optimization and assessment.
+
+      *Deliverables reassigned to Year 2*
+      Refit of selected Lennard-Jones parameters (postponed for Generation 2 force fields, Sage, after a series of feasibility studies have been performed around property data selection and its impact on property estimates).
+
+    items:
+    - title: smirnoff99frosst
+      date: 2019-01-01
+
+    - title: >
+        openff
+        toolkit 0.1.0
+      subtitle: SMIRNOFF 0.1 specification
+      direction: down
+      date: 2019-01-01
+
+    - title: toolkit 0.2.0
+      subtitle: >
+        RDKit support, SMIRNOFF
+        0.2 specification (XML),
+        addition of new classes for
+        handling molecules and
+        topologies, improved API
+        and documentation
+      direction: down
+      align: left
+      date: 2019-07-01
+
+    - title: toolkit 0.3.0
+      subtitle: >
+        Improved API, bugfixes,
+        new functions
+      direction: down
+      valign: down
+      align: left
+      style: "margin-top: -2rem"
+      date: 2019-08-01
+
+    - title: toolkit 0.4.0
+      subtitle: >
+        Performance optimizations
+        and support for SMIRNOFF
+        0.3 specification, addition of
+        new attribute-handling classes,
+        bugfixes
+      direction: down
+      align: right
+      date: 2019-09-01
+
+    - title: toolkit 0.5.0
+      subtitle: >
+        GBSA support, easier
+        access to indexed
+        attributes, parameter
+        coverage example
+        notebook
+      direction: down
+      valign: down
+      date: 2019-11-01
+
+    - title: evaluator
+      subtitle: 0.0.1
+      size: smallest
+      type: open
+      align: right
+      direction: down
+      date: 2019-12-01
+
+  - title: Year 2
+    year: 2020
+    items:
+    - title: openff-1.0.0
+      subtitle: Parsley
+      date: 2020-01-15
+
+  - title: Year 3
+    year: 2021
+    items:
+    - title: openff-1.0.0
+      subtitle: Parsley
+      date: 2021-01-15

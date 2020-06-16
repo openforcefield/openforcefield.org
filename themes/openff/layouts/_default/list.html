@@ -1,0 +1,37 @@
+{{ define "main" }}
+	{{ partial "subheader-menu" (dict "context" . "item" .) }}
+	<main class="list {{ if not .Content }}empty{{ end }}">
+		{{ if or .Title .Content }}
+		<div>
+			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+			{{ with .Content }}<div>{{ . }}</div>{{ end }}
+		</div>
+		{{ end }}
+		{{ range .Paginator.Pages.ByWeight }}
+			<div>
+				<h2 class="left m-b-sm">
+					{{ if .Params.foldopen }}
+						{{ .Title }}
+					{{ else }}
+						<a href="{{ .Permalink }}">{{ .Title }}</a>
+					{{ end }}
+					{{ if .Date }}
+						<h6>Posted on {{ .Date.Format "2 Jan 2006" }}</h6>
+					{{ end }}
+				</h2>
+				{{ if .Description }}
+					<p itemprop="about">{{ .Description | markdownify }}</p>
+				{{ end }}
+				{{ if .Params.foldopen }}
+					<div class="foldopen">
+						<div class="button foldopen-readmore">Read more</div>
+						<div class="button foldopen-readless">Read less</div>
+						<div class="foldopen-content">{{ .Content }}</div>
+					</div>
+				{{ end }}
+				<hr>
+			</div>
+		{{ end }}
+		<section>{{ partial "pagination" . }}</section>
+	</main>
+{{ end }}

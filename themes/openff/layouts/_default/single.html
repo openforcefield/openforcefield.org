@@ -1,0 +1,20 @@
+{{ define "main" }}
+	{{ partial "subheader-menu" (dict "context" . "item" .) }}
+	<main class="single">
+		<article>
+			<h1>{{ .Title }}</h1>
+			<div>
+				{{ .Content }}
+			</div>
+			{{ with .Params.tags }}
+			<div>
+				<ul id="tags">
+					{{ range . }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+		</article>
+	</main>
+{{ end }}

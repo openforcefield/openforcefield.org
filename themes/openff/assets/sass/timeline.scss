@@ -1,0 +1,162 @@
+$timeline_height: 60rem;
+.timeline {
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"] & {
+      background: linear-gradient(180deg, #{color($color, 'gradient-start')} 0%, #{color($color, 'gradient-end')} 100vh);
+    }
+  }
+  width: 100%;
+  position: relative;
+  .timeline-scrollarea {
+    white-space: nowrap;
+    padding: $padding 10*$padding;
+    overflow: auto;
+    position: relative;
+  }
+  h2 {
+    color: #FFF !important;
+    font-size: 1rem !important;
+    margin: 0 !important;
+    font-weight: bold !important;
+  }
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"] & {
+      background-color: color($color, 'primary');
+    }
+  }
+  .timeline-item {
+    white-space: normal;
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .timeline-item-text {
+      position: absolute;
+      transform: translateX(-50%);
+      font-size: 0.6rem;
+      min-width: 15em;
+      text-align: left;
+    }
+    &.timeline-item-align-left {
+      .timeline-item-text {
+        transform: translateX(-80%);
+      }
+    }
+    &.timeline-item-align-right {
+      .timeline-item-text {
+        transform: translateX(-20%);
+      }
+    }
+    .timeline-item-dot {
+      border-radius: 50%;
+      background-color: #FFF;
+      width: 1rem;
+      height: 1rem;
+      transform: translateX(calc(-50% + 1px));
+    }
+    .timeline-item-line {
+      width: 2px;
+      height: 40%;
+      background-color: #FFF;
+    }
+    &.timeline-item-size-smallest {
+      height: 50%;
+      .timeline-item-dot {
+        width: 0.5rem;
+        height: 0.5rem;
+      }
+    }
+  }
+  .timeline-year {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 30vw;
+    padding: $padding;
+    height: $timeline_height;
+    .timeline-year-up {
+      position: relative;
+      height: calc(50% - 1rem);
+      .timeline-item {
+        bottom: 0;
+        justify-content: flex-end;
+        .timeline-item-text {
+          bottom: calc(40% + 3rem);
+        }
+        &.timeline-item-valign-up {
+          .timeline-item-text {
+            bottom: 80%;
+          }
+        }
+      }
+    }
+    .timeline-year-title {
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #FFF;
+      @each $color, $colorObject in $colors {
+        [data-color="#{$color}"] & {
+          color: color($color, 'primary');
+        }
+      }
+    }
+    .timeline-year-down {
+      position: relative;
+      height: calc(50% - 2rem);
+      .timeline-item {
+        top: 0;
+        .timeline-item-text {
+          top: calc(40% + 2rem);
+        }
+        &.timeline-item-size-smallest {
+          .timeline-item-text {
+            top: calc(40% + 1rem);
+          }
+        }
+        &.timeline-item-valign-down {
+          .timeline-item-text {
+            top: 80%;
+          }
+        }
+      }
+    }
+    .timeline-year-column {
+      white-space: normal;
+      padding: $padding;
+      .timeline-year-column-title {
+        padding-top: 10rem;
+        font-weight: bold;
+        border-bottom: solid 2px #FFF;
+        padding-bottom: $padding;
+      }
+      .timeline-year-column-contents {
+        padding-top: $padding;
+        padding-bottom: $padding;
+      }
+    }
+  }
+  .timeline-title {
+    position: absolute;
+    left: 50%;
+    margin-top: 3rem;
+    transform: translateX(-50%);
+    top: $timeline_height;
+  }
+  .timeline-gradient {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    width: 20vw;
+    height: 100%;
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        background: linear-gradient(90deg, #{rgba(color($color, 'primary'), 0)} 0%, #{color($color, 'primary')} 100%);
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.home {
+  color: #FFF;
+  height: 100vh;
+  padding-top: calc(13vh + #{$header-height});
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"] & {
+      background: linear-gradient(180deg, #{color($color, 'gradient-start')} 0%, #{color($color, 'gradient-end')} 100vh);
+    }
+  }
+  h1, h2, h3 {
+    color: #FFF !important;
+  }
+  h1 {
+    white-space: nowrap;
+  }
+  .button {
+    border: solid 2px #FFF;
+  }
+}

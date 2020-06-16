@@ -1,0 +1,44 @@
+$sm: 0.5*$padding;
+$md: $padding;
+$lg: 2*$padding;
+
+$sizes: (
+  sm: $sm,
+  md: $md,
+  lg: $lg
+);
+$types: (
+  m: margin,
+  p: padding,
+);
+$sides: (
+  t: top,
+  l: left,
+  b: bottom,
+  r: right,
+  a: all,
+  x: x,
+  y: y
+);
+@mixin paddingOrMargin($type: 'padding', $side: null, $size: null) {
+  @if ($side == x or $side == all) {
+    #{$type}-left: $size;
+    #{$type}-right: $size;
+  }
+  @if ($side == y or $side == all) {
+    #{$type}-top: $size;
+    #{$type}-bottom: $size;
+  }
+  @if ($side == left or $side == right or $side == top or $side == bottom) {
+    #{$type}-#{$side}: $size;
+  }
+}
+@each $typeTag, $type in $types {
+  @each $sizeTag, $size in $sizes {
+    @each $sideTag, $side in $sides {
+      .#{$typeTag}-#{$sideTag}-#{$sizeTag} {
+        @include paddingOrMargin($type: $type, $side: $side, $size: $size);
+      }
+    }
+  }
+}

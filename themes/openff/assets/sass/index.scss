@@ -1,0 +1,11 @@
+$padding: 1rem;
+$header-height: 2.6rem;
+$subheader-height: 20vh;
+$footer-height: 13rem;
+
+
+$breakpoint-phone: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-hd: 1400px;
+
+@import 'colors', 'generic', 'header', 'main', 'footer', 'home', 'padding', 'list', 'timeline';

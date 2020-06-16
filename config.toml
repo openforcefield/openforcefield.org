@@ -1,66 +1,154 @@
-baseURL = '//openforcefield.org/'
+baseURL = "https://vanleeuwen.studio/openff/"
 languageCode = "en-us"
-title = "Open Force Field Initiative"
-theme = "kube"
-description = "A new approach to modern collaborative biomolecular force field development based on open source software, open science, and high-quality curated open datasets."
-Paginate = 4
-publishDir = "./public"
-pygmentsCodefences = true
-pygmentsStyle = "colorful"
+title = "OpenFF"
+theme = "openff"
 
-[Params]
-  RSSLink = "/index.xml"
-  author = "newpixcom" # add your company name
-  github = "https://github.com/openforcefield" # add your github profile name
-  twitter = "openforcefield" # add your twitter profile
-  email = "john.chodera@choderalab.org"
+[params]
+  header_title = "<b>open</b> force field"
+  header_subtitle = "An open and collaborative approach to better force fields"
+  "cc-by-4.0" = "https://creativecommons.org/licenses/by/4.0/"
+  "cc-by-nc-nd-4.0" = "https://creativecommons.org/licenses/by/4.0/"
+  "arxiv-1.0" = "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html"
 
-[[menu.main]]
-    name = "News"
-    weight = -100
-    url = "/news/"
-[[menu.main]]
-    name = "Code"
-    weight = -90
-    url = "/consortium/software"
-#[[menu.main]]
-#    name = "Docs"
-#    weight = -80
-#    url = "https://open-forcefield-toolkit.readthedocs.io/en/topology/"
-[[menu.main]]
-    name = "Data"
-    weight = -70
-    url = "/datasets/"
-[[menu.main]]
+[menu]
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/mission/"
+    identifier = "about"
+    weight = 1
+
+      [[menu.main]]
+        name = "Mission"
+        url = "/about/mission/"
+        parent = "about"
+        identifier = "mission"
+        weight = 1
+
+      [[menu.main]]
+        name = "Team"
+        url = "/about/team/"
+        parent = "about"
+        identifier = "team"
+        weight = 3
+
+      [[menu.main]]
+        name = "Careers"
+        url = "/about/careers/openff/initiative-postdoc/"
+        parent = "about"
+        identifier = "careers"
+        weight = 10
+
+      [[menu.main]]
+        name = "Branding"
+        url = "/about/branding/"
+        parent = "about"
+        identifier = "branding"
+        weight = 11
+
+      [[menu.main]]
+        name = "Timeline"
+        url = "/about/timeline/"
+        parent = "about"
+        identifier = "timeline"
+        weight = 12
+
+  [[menu.main]]
     name = "Science"
-    weight = -60
-    url = "/science/"
-[[menu.main]]
-    name = "Publications"
-    weight = -50
-    url = "/publications/"
-[[menu.main]]
-    name = "Force fields"
-    weight = -40
-    url = "/forcefields/"
-[[menu.main]]
-    name = "Members"
-    weight = -30
-    url = "/members/"
-[[menu.main]]
-    name = "Consortium"
-    weight = -20
-    url = "/consortium/"
-[[menu.main]]
-    name = "FAQ"
-    weight = -10
-    url = "/faq/"
-[[menu.main]]
-    name = "Jobs"
-    weight = 0
-    url = "/jobs/"
+    url = "science/research"
+    weight = 2
+    identifier = "science"
+    pre = "red"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+      [[menu.main]]
+        name = "Research"
+        url = "/science/research/"
+        parent = "science"
+        identifier = "research"
+        weight = 1
+
+      [[menu.main]]
+        name = "Publications"
+        url = "/science/publications/"
+        parent = "science"
+        identifier = "publications"
+        weight = 2
+
+      [[menu.main]]
+        name = "Collaborative projects"
+        url = "/science/collaborative-projects/"
+        parent = "science"
+        identifier = "collaborative-projects"
+        weight = 3
+
+  [[menu.main]]
+    name = "Software"
+    url = "software"
+    identifier = "software"
+    weight = 4
+
+  [[menu.main]]
+    name = "Data"
+    url = "data"
+    identifier = "data"
+    weight = 5
+
+  [[menu.main]]
+    name = "Force fields"
+    url = "/force-fields/force-fields/"
+    identifier = "force-fields"
+    weight = 6
+
+      [[menu.main]]
+        name = "Force Fields"
+        url = "/force-fields/force-fields/"
+        parent = "force-fields"
+        weight = 1
+
+      [[menu.main]]
+        name = "Versioning"
+        url = "/force-fields/versioning/"
+        parent = "force-fields"
+        identifier = "versioning"
+        weight = 2
+
+  [[menu.main]]
+    name = "Community"
+    url = "community/news/news/"
+    identifier = "community"
+    weight = 7
+
+      [[menu.main]]
+        name = "News"
+        url = "/community/news/news/"
+        parent = "community"
+        identifier = "news"
+        weight = 1
+
+      [[menu.main]]
+        name = "Events"
+        url = "/community/events/event-calendar/"
+        parent = "community"
+        identifier = "events"
+        weight = 2
+
+      [[menu.main]]
+        name = "Collaborate"
+        url = "/community/collaborate"
+        parent = "community"
+        identifier = "collaborate"
+        weight = 3
+
+      [[menu.main]]
+        name = "FAQ"
+        url = "/community/faq/"
+        parent = "community"
+        identifier = "faq"
+        weight = 4
+
+      [[menu.main]]
+        name = "Forum"
+        url = "/community/forum/"
+        parent = "community"
+        identifier = "forum"
+        weight = 5

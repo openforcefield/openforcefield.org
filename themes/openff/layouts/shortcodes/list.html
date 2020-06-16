@@ -1,0 +1,99 @@
+<ul class="list">
+{{ $BaseURL := .Site.BaseURL }}
+{{ $tempData := index .Site.Data ((.Get "src"))}}
+{{ if $tempData.index }}
+  {{ .Scratch.Set "data" $tempData.index }}
+{{ else }}
+  {{ .Scratch.Set "data" $tempData }}
+{{ end }}
+{{ $filter := (.Get "filter") }}
+{{ $preprint := (.Get "preprint") | default "preprint" }}
+{{ $published := (.Get "published") | default "published" }}
+{{ $github := (.Get "github") | default "github" }}
+{{ $settings := split (.Get "settings") "," }}
+{{ $columns := (.Get "columns") }}
+{{ $class := (.Get "class") }}
+{{ $ignore := split (.Get "ignore") "," }}
+{{ $title := (.Get "title") | default "title" }}
+{{ $extra := (.Get "extra") | default "extra" }}
+{{ $foldopen := (.Get "foldopen") }}
+{{ $subtitle := (.Get "subtitle") | default "subtitle" }}
+{{ $intro := (.Get "intro") | default "intro" }}
+{{ range .Scratch.Get "data" }}
+  <li class="item {{ $class }}" data-columns="{{ $columns }}" {{ if $filter}}data-filter="{{ replace (urlize (replace (index . $filter) ", " "mmm")) "mmm" "," }}"{{ end }}>
+    {{ if isset . "img" }}
+      <div class="item-thumb"><img src="img/{{ .img }}" /></div>
+    {{ else if (in $settings "always-image") }}
+      <div class="item-thumb"><img src="{{ $BaseURL }}images/openff.jpg" /></div>
+    {{ end }}
+    <div>
+      <h3>
+        {{ (index . $title) | markdownify }}
+        {{ with .twitter }} <a href="http://twitter.com/{{ . }}">{{ partial "twitter" . }}</a> {{ end }}
+        {{ with .github }} <a href="http://github.com/{{ . }}">{{ partial "github" . }}</a> {{ end }}
+        {{ with .linkedin }} <a href="http://linkedin.com/{{ . }}">{{ partial "linkedin" . }}</a> {{ end }}
+      </h3>
+      {{ if not (in $ignore  (index . $subtitle)) }}
+      <p><strong>{{ (index . $subtitle) | markdownify }}</strong></p>
+      {{ end }}
+      {{ if (index . $preprint) }}
+        {{ $preprintObject := (index . $preprint) }}
+        <p>
+          Preprint ahead of publication:
+          <a href="{{ $preprintObject.url }}" target="_blank">{{ $preprintObject.server}}</a>
+          {{$licence_link := index $.Site.Params ($preprintObject.license | urlize)}}
+          {{ if $licence_link }}
+            <a href="{{ $licence_link }}" target="_blank">{{ $preprintObject.license }}</a>
+          {{ else }}
+            {{ $preprintObject.license }}
+          {{ end }}
+        </p>
+      {{ end }}
+      {{ if (index . $published) }}
+        {{ $publishedObject := (index . $published) }}
+        <p>
+          Published:
+          <b>{{ $publishedObject.journal }}</b>
+          {{ $publishedObject.volume }}:{{ $publishedObject.pages }}, {{ $publishedObject.year }}
+          {{ if $publishedObject.doi }}<a href="https://dx.doi.org/{{$publishedObject.doi}}" target="_blank">[DOI]</a>{{ end }}
+          {{ $licence_link := index $.Site.Params ($publishedObject.license | urlize)}}
+          {{ if $publishedObject.pmcid }}
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ $publishedObject.pmcid }}" target="_blank">{{ $publishedObject.pmcid }}</a>
+          {{ end }}
+          {{ if $licence_link }}
+            <a href="{{ $licence_link }}" target="_blank">{{ $publishedObject.license }}</a>
+          {{ else }}
+            {{ $publishedObject.license }}
+          {{ end }}
+        </p>
+      {{ end }}
+      {{ if (index . $github) }}
+        <p>Code accompanying the publication: <a href="https://github.com/{{ (index . $github) }}" target="_blank">{{(index . $github)}}</a>
+      {{ end }}
+      <p>{{ (index . $intro) | markdownify }}</p>
+      {{ if (index . $extra) | markdownify }}
+        <p>{{ (index . $extra) | markdownify }}</p>
+      {{ end }}
+      <p>
+        {{ .description | markdownify }}
+      </p>
+      <p>
+        {{ with .ORCID }} ORCID: <a href="https://orcid.org/{{ . }}">{{ . }}</a><br> {{ end }}
+        {{ with .webpage }} <a href={{ . }}>Web</a> {{ end }}
+        {{ with .google_scholar }} | <a href="{{ . }}">Google Scholar</a> {{ end }}
+        {{ with .zenodo }} <a href="{{ . }}">Zenodo</a> {{ end }}
+        {{ if and .zenodo .youtube }} | {{ end }}
+        {{ with .youtube }} <a href="{{ . }}">Youtube</a> {{ end }}
+
+      </p>
+      {{ if $foldopen }}
+      <div class="foldopen">
+        <div class="button foldopen-readmore">Read more</div>
+        <div class="button foldopen-readless">Read less</div>
+        <div class="foldopen-content">{{ (index . $foldopen) | markdownify }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </li>
+{{ end }}
+</ul>

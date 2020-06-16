@@ -1,9 +1,11 @@
 name: Trevor Gokey
 role: Researcher
-lab: Mobley lab
-title: Chemistry Graduate Student
+filter-role: Scientific Staff
+lab: Chodera lab
+title: Graduate Student, University of California, Irvine
 institution: University of California, Irvine
-img: trevor-gokey.jpg
+img: joshua-horton.jpg
 description: OpenFF Toolkit development and benchmarking
 ORCID: 0000-0001-7856-1156
 github: trevorgokey
+linkedin: trevor-gokey-a8b06814

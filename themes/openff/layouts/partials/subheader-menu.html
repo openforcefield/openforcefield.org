@@ -1,0 +1,59 @@
+	{{ $currentPage := .context }}
+	{{ $currentURL := .item.Permalink | absURL }}
+	{{ if (eq (substr (printf "%T" .context.Params.subheader) 0 2) "[]") }}
+		<div class="subheader-menu">
+			<div>
+				{{ range $currentPage.Params.subheader }}
+					<div>
+						<b><a data-active="hash" href="{{ if .filter }}#{{ urlize (replace .filter "," "_") }}{{ else }}#{{ end }}">{{ .Title }}</a></b>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+	{{ else if eq (substr .context.Params.subheader 0 1) "h" }}
+
+		<div class="subheader-menu">
+			<div data-subheader="{{.item.Params.subheader}}">
+			</div>
+		</div>
+	{{ else }}
+		{{ $sections := .context.Sections }}
+		{{ if and ($sections) (.context.Params.subheader) }}
+			{{ range $sections }}
+				{{ if .Page.Resources.ByType "page" }}
+					{{ $currentPage.Scratch.Set "subsections" .Page.Resources.ByType "page" }}
+				{{ else }}
+					{{ $currentPage.Scratch.Set "subsections" .Pages }}
+				{{ end }}
+			{{ end }}
+			{{ if or (ne (.context.Params.subheader) "sub") ($currentPage.Scratch.Get "subsections") }}
+				<div class="subheader-menu">
+					<div>
+						{{ range $sections }}
+							{{ if .Page.Resources.ByType "page" }}
+								{{ $currentPage.Scratch.Set "subsections" .Page.Resources.ByType "page" }}
+							{{ else if .Pages }}
+								{{ $currentPage.Scratch.Set "subsections" .Pages }}
+							{{ else }}
+								{{ $currentPage.Scratch.Set "subsections" false }}
+							{{ end }}
+							{{ if and (eq $currentPage.Params.subheader "subsub") ($currentPage.Scratch.Get "subsections") }}
+								<div>
+									<b>{{ .Title }}:</b>
+									{{ range $currentPage.Scratch.Get "subsections" }}
+										<a href="{{ .Permalink | absURL }}" class="{{ if eq ($currentURL) (.Permalink | absURL) }}active{{ end }}">{{ .Title }}</a>
+									{{ end }}
+								</div>
+							{{ else }}
+								<div>
+									<b><a href="{{.Permalink | absURL}}" class="{{ if eq ($currentURL) (.Permalink | absURL) }}active{{ end }}">{{ .Title }}</a></b>
+								</div>
+							{{ end }}
+						{{ end }}
+					</div>
+				</div>
+			{{ end }}
+		{{ else if not $sections }}
+			{{ partial "subheader-menu" (dict "context" .context.Parent "item" .item) }}
+		{{ end }}
+	{{ end }}

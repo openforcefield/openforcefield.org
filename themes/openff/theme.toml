@@ -1,0 +1,9 @@
+name = "OpenFF"
+description = "OpenFF theme"
+tags = ["blog", "plain", "blank", "starter", "development"]
+features = ["blog"]
+min_version = "0.20"
+
+[author]
+  name = "Kresten van Leeuwen"
+  homepage = "https://vanleeuwen.studio"

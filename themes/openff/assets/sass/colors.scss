@@ -1,0 +1,60 @@
+$colors: (
+  "default": (
+    "text": #100928,
+    "highlight": #359ECF,
+    "primary": #0E1334,
+    "secondary": #024F7A,
+    "tertiary": #84A8BD,
+    "gray": #f2f2f2,
+    "gradient-start": #100928,
+    "gradient-end": #024F7A
+  ),
+  "red": (
+    "text": #100928,
+    "highlight": #A30000,
+    "primary": #A30000,
+    "secondary": #990506,
+    "tertiary": #84A8BD,
+    "gray": #f2f2f2,
+    "gradient-start": #7a0000,
+    "gradient-end": #3D414A
+  ),
+  "darkblue": (
+    "text": #100928,
+    "highlight": #015581,
+    "primary": #015581,
+    "secondary": #015581,
+    "tertiary": #80A8BE,
+    "gray": #f2f2f2,
+    "gradient-start": #100928,
+    "gradient-end": #015581
+  ),
+  "lightblue": (
+    "text": #100928,
+    "highlight": #359ECF,
+    "primary": #359ECF,
+    "secondary": #6AB7DB,
+    "tertiary": #6AB7DB,
+    "gray": #f2f2f2,
+    "gradient-start": #359ECF,
+    "gradient-end": #6AB7DB
+  ),
+  "orange": (
+    "text": #100928,
+    "highlight": #F08521,
+    "primary": #F08521,
+    "secondary": #F08521,
+    "tertiary": #F08521,
+    "gray": #f2f2f2,
+    "gradient-start": #F08521,
+    "gradient-end": #F5A254
+  ),
+);
+
+@function color($keys...) {
+  $value: $colors;
+  @each $key in $keys {
+    $value: map-get($value, $key);
+  }
+  @return $value;
+}

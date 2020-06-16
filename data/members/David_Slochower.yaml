@@ -1,7 +1,9 @@
 name: David Slochower
-role: alum
+role: Researcher
+filter-role: Alumni
 lab: Gilson lab
-title: Postdoctoral Fellow
+title: Postdoctoral Fellow, University of California, San Diego
+current-position: Scientist at Vertex Pharmaceuticals
 institution: University of California, San Diego
 img: david-slochower.jpg
 webpage: "http://www.slochower.name"
@@ -10,3 +12,4 @@ description: Benchmarking new force fields using host-guest thermodynamics
 ORCID: 0000-0003-3928-5050
 github: slochower
 twitter: drslochower
+linkedin: david-slochower-231a906a
