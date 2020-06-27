@@ -5,11 +5,7 @@ go:
 
 
 install:
-    - mkdir $HOME/src
-    - cd $HOME/src
-    - git clone https://github.com/gohugoio/hugo.git
-    - cd hugo
-    - go install
+    - go get github.com/gohugoio/hugo
 
 before_script:
     - rm -rf public 2> /dev/null
