@@ -161,3 +161,21 @@
     year: 2019
     date: 2019-10-11
   github: slochower/smirnoff-host-guest-manuscript
+- title: "Driving torsion scans with wavefront propagation"
+  authors: "Yudong Qiu, Daniel G. A. Smith, Chaya D. Stern, Mudong Feng, Hyesu Jang, and Lee-Ping Wang"
+  summary: "In this paper, we propose a systematic and versatile workflow called TorsionDrive to generate energy-minimized structures on a grid of torsion constraints by means of a recursive wavefront propagation algorithm, which resolves the deficiencies of conventional scanning approaches and generates higher quality QM data for force field development. The method is implemented in an open-source software package that is compatible with many QM software packages and energy minimization codes. The paper also describes integration with the MolSSI QCArchive distributed computing ecosystem."
+  img: wave-propagation.jpeg
+  date: 2020-04-02
+  preprint:
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv.12044673.v1
+    license: "CC BY 4.0"
+    date: 2020-04-02
+  published:
+    doi: https://doi.org/10.1063/5.0009232
+    journal: The Journal of Chemical Physics
+    volume: 152
+    pages: 244116
+    year: 2020
+    date: 2020-06-25
+  github: https://github.com/lpwgroup/torsiondrive/
