@@ -5,7 +5,6 @@ go:
 
 
 install:
-    - go mod init .
     - go get github.com/gohugoio/hugo@v0.72.0
 
 before_script:
