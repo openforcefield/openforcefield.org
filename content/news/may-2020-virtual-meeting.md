@@ -110,7 +110,7 @@ The list of talks grouped by theme:
 
 Time      | Discussion |
 ----------|------------|
-7.00 am   | **Session I: Current status and performance of Open Force Fields and infrastructure** <br /> - **David Mobley:** A brief recap from talks and introduction (10-15 min) <br />  - Discussion <br> <br> _**Relevant talks** (by theme): Introduction, Infrastructure, Force field updates, Benchmarking_ |
+7.00 am   | **Session I: Current status and performance of Open Force Fields and infrastructure** <br /> - **David Mobley:** [A brief recap from talks and introduction](https://doi.org/10.5281/zenodo.3929017) <br />  - Discussion <br> <br> _**Relevant talks** (by theme): Introduction, Infrastructure, Force field updates, Benchmarking_ |
 8.30 am   | **Break** |
 8.45 am   | **Session II: Roadmaps** <br> - Science <br> - Infrastructure <br /> - Data <br> <br> _**Relevant talks** (by theme): Infrastructure, Force Field Updates, Next Steps_ |
 10.00 am  | **Wrap-up discussion**
@@ -121,9 +121,9 @@ Time      | Discussion |
 
 Time      | Discussion |
 ----------|------------|
-7.00 am   | **Session I: Biopolymer force fields** <br /> - **Michael Shirts:** Aims for the NIH-funded biopolymer force fields (15 min) <br> - **David Cerutti:** Strategies for ab initio Biomolecular Force Field Development (15 min) <br> [YouTube](https://youtu.be/JapaP-c4AU0 ) \| [Zenodo](https://doi.org/10.5281/zenodo.3783913) <br /> - Discussion (45 min) |
+7.00 am   | **Session I: Biopolymer force fields** <br /> - **Michael Shirts:** [Aims for the NIH-funded biopolymer force fields](https://doi.org/10.5281/zenodo.3929007) <br> - **David Cerutti:** Strategies for ab initio Biomolecular Force Field Development (15 min) <br> [YouTube](https://youtu.be/JapaP-c4AU0 ) \| [Zenodo](https://doi.org/10.5281/zenodo.3783913) <br /> - Discussion (45 min) |
 8.30 am   | **Break** |
-8.45 am   | **Session II: Future directions**  <br> - Bayesian framework <br /> - Machine learning applications <br> <br> _**Relevant talks** (by theme): Future Directions_ |
+8.45 am   | **Session II: Future directions**  <br> - **John Chodera:** [Future directions for the Open Force Field Initiative](https://doi.org/10.5281/zenodo.3929007) <br> <br> _**Relevant talks** (by theme): Future Directions_ |
 10.00 am  | **Wrap-up discussion**
 
 
