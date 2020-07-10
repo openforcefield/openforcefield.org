@@ -69,7 +69,7 @@ Breakout session notes: Use cases [[PDF]](https://openforcefield.org/news/jan-20
 | 6.00 | Group dinner in La Jolla at [Rock Bottom Brewing](https://rockbottom.com/locations/la-jolla/) |
  |
  |
-
+<br/><br/>
 ### Jan 8
 
 _Research topics 45 min talk + 15 min discussion_

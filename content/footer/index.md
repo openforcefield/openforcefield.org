@@ -61,8 +61,8 @@
     url = "/community/events"
     parent = "news"
   [[column3]]
-    title = "Contribute"
-    url = "/community/contribute"
+    title = "Collaborate"
+    url = "/community/collaborate"
     parent = "news"  
   [[column3]]
     title = "FAQ"
@@ -83,6 +83,7 @@
 
 [[right]]
   icon = "twitter"
+  url = "https://twitter.com/openforcefield"
 
 [[right]]
   icon = "github"
@@ -98,11 +99,9 @@
 
 [[right]]
   icon = "youtube"
-  url = "https://github.com/openforcefield"
-  title = "https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g"
+  url = "https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g"
 
 [[right]]
   icon = "mailchimp"
-  url = "https://github.com/openforcefield"
-  title = "http://eepurl.com/gYuojL"
+  url = "http://eepurl.com/gYuojL"
 +++

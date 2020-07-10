@@ -7,6 +7,7 @@ draft: false
 description: "The Third Open Force Field Consortium Workshop in Boston on May 4-5, 2020."
 weight: 10
 author: "Karmen Condic-Jurkic"
+thumb: "3-The-Third-Open-Force-Field-Consortium-Workshop.jpg"
 ---
 
 ![Banner](OpenFF-banner.png "Banner")

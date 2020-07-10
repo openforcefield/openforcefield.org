@@ -8,6 +8,7 @@ description: "Andreas Krämer will talk about automated optimization of the CHAR
 markup: mmark
 weight: 10
 author: "Karmen Condic-Jurkic"
+thumb: "4-Webinar-by-Andreas-Kramer.jpg"
 ---
 
 [Andreas Krämer](https://www.lobos.nih.gov/cbs/groupmembers.shtml) (NIH) will give a talk about development of an automated optimization approach to improve the CHARMM36 lipid force field using pair-specific LJ parameters. Join the seminar via [Zoom](https://meetmsk.zoom.us/j/628310560) in real time on Dec 17 at 2 pm (ET), or watch it later on our [YouTube channel](https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g).

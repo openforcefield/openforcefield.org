@@ -22,76 +22,6 @@ ul.list {
     p {
       margin: 0.5*$padding 0;
     }
-    .item-thumb, .item-icon {
-      display: inline-block;
-      width: $largeThumbSize;
-      height: $largeThumbSize;
-      float: left;
-      overflow: hidden;
-      background-size: cover;
-      position: relative;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      &.item-icon {
-        border: solid 2px #FFF;
-        padding: $padding;
-        font-size: calc(0.8 * #{$smallThumbSize} - 2 * #{$padding});
-        text-align: center;
-        font-weight: 100;
-        line-height: calc(#{$smallThumbSize} - 2 * #{$padding});
-        img {
-          object-fit: contain;
-          filter: grayscale(0);
-        }
-      }
-      &.item-thumb {
-        &:after {
-          content: '';
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          left: 0;
-          top: 0;
-        }
-      }
-    }
-    .item-thumb + div, .item-icon + div {
-      padding: 0 $padding;
-      padding-left: 4 * $padding;
-      display: inline-block;
-      width: calc(100% - #{$largeThumbSize});
-      h3 a {
-        text-decoration: none;
-      }
-      h3 img, h3 svg {
-        height: 1rem;
-        width: 1rem;
-        display: inline;
-        border-radius: 50%;
-        &:not(.invert) {
-          @each $color, $colorObject in $colors {
-            [data-color="#{$color}"] & {
-              background-color: color($color, 'primary') !important;
-            }
-          }
-          g, path {
-            fill: white !important;
-          }
-        }
-        &.invert {
-          g, path {
-            @each $color, $colorObject in $colors {
-              [data-color="#{$color}"] & {
-                fill: color($color, 'primary') !important;
-              }
-            }
-          }
-        }
-      }
-    }
     &[data-columns="2"] {
       width: 50%;
       flex: 50%;
@@ -125,6 +55,83 @@ ul.list {
             }
           }
           mix-blend-mode: hard-light;
+        }
+      }
+    }
+  }
+}
+.item-thumb, .item-icon {
+  display: inline-block;
+  width: $largeThumbSize;
+  height: $largeThumbSize;
+  float: left;
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top;
+  }
+  &.item-thumb-cover {
+    img {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  &.item-icon {
+    border: solid 2px #FFF;
+    padding: $padding;
+    font-size: calc(0.8 * #{$smallThumbSize} - 2 * #{$padding});
+    text-align: center;
+    font-weight: 100;
+    line-height: calc(#{$smallThumbSize} - 2 * #{$padding});
+    img {
+      object-fit: contain;
+      filter: grayscale(0);
+    }
+  }
+  &.item-thumb {
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+  }
+}
+.item-thumb + div, .item-icon + div {
+  padding: 0 $padding;
+  padding-left: 4 * $padding;
+  display: inline-block;
+  width: calc(100% - #{$largeThumbSize});
+  h3 a {
+    text-decoration: none;
+  }
+  h3 img, h3 svg {
+    height: 1rem;
+    width: 1rem;
+    display: inline;
+    border-radius: 50%;
+    &:not(.invert) {
+      @each $color, $colorObject in $colors {
+        [data-color="#{$color}"] & {
+          background-color: color($color, 'primary') !important;
+        }
+      }
+      g, path {
+        fill: white !important;
+      }
+    }
+    &.invert {
+      g, path {
+        @each $color, $colorObject in $colors {
+          [data-color="#{$color}"] & {
+            fill: color($color, 'primary') !important;
+          }
         }
       }
     }

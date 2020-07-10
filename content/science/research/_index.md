@@ -8,9 +8,19 @@ header_list: [
     number: "1"
   },
   {
+    title: "Biopolymers",
+    description: "Extend the SMIRNOFF typing scheme to produce fully consistent comprehensive biomolecular force fields (including biopolymers such as proteins and nucleic acids, lipids, carbohydrates, and other biomolecules).",
+    number: "2"
+  },
+  {
     title: "Parameter assignment",
     description: "Develop data-driven chemical perception models and efficient charge prediction methods to enable automated and accurate parameter assignment.",
     number: "3"
+  },
+  {
+    title: "Benchmarking studies",
+    description: "Build automated and reliable protocols and supporting infrastructure to compute and analyse physical properties, free energies of host-guest and protein-ligand systems, and conformational energy and geometry differences.",
+    number: "4"    
   },
   {
     title: "Datasets",
@@ -18,20 +28,10 @@ header_list: [
     number: "5"
   },
   {
-    title: "Biopolymers",
-    description: "Extend the SMIRNOFF typing scheme to produce fully consistent comprehensive biomolecular force fields (including biopolymers such as proteins and nucleic acids, lipids, carbohydrates, and other biomolecules).",
-    number: "2"
-  },
-  {
-    title: "Benchmarking studies",
-    description: "Build automated and reliable protocols and supporting infrastructure to compute and analyse physical properties, free energies of host-guest and protein-ligand systems, and conformational energy and geometry differences.",
-    number: "4"
-  },
-  {
     title: "Bayesian framework",
     description: "Develop Bayesian-based methods to provide rigorous data-driven motivation for choice of functional forms, SMIRNOFF types and assessment of prediction accuracy.",
     number: "6"
   }
 ]
-header_contents: <h3 class="m-b-md">Learn more about our research plans and activities:</h3><div><a href="#" class="button">Roadmap</a> <a href="#" class="button">Science Blog</a> <a href="#" class="button">Executive Summary</a> <a href="#" class="button">Detailed Project Plan</a></div>
+header_contents: <h3 class="m-b-md">Learn more about our research plans and activities:</h3><div><a href="https://openforcefield.atlassian.net/wiki/spaces/PS/pages/423854401/Open+Force+Field+Scientific+Roadmap+2020?moved=true" class="button">Roadmap</a> <a href="community/news/science-updates/" class="button">Science Blog</a> <a href="https://openforcefield.org/science/downloads/roadmap/open-forcefield-summary.pdf" class="button">Executive Summary</a> <a href="https://openforcefield.org/science/downloads/roadmap/open-forcefield-plan.pdf" class="button">Detailed Project Plan</a></div>
 ---

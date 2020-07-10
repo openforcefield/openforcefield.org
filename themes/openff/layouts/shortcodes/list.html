@@ -1,4 +1,3 @@
-<ul class="list">
 {{ $BaseURL := .Site.BaseURL }}
 {{ $tempData := index .Site.Data ((.Get "src"))}}
 {{ if $tempData.index }}
@@ -10,21 +9,24 @@
 {{ $preprint := (.Get "preprint") | default "preprint" }}
 {{ $published := (.Get "published") | default "published" }}
 {{ $github := (.Get "github") | default "github" }}
+{{ $code := (.Get "code") | default "code" }}
 {{ $settings := split (.Get "settings") "," }}
 {{ $columns := (.Get "columns") }}
 {{ $class := (.Get "class") }}
+{{ $exclude := (.Get "exclude") }}
 {{ $ignore := split (.Get "ignore") "," }}
 {{ $title := (.Get "title") | default "title" }}
 {{ $extra := (.Get "extra") | default "extra" }}
 {{ $foldopen := (.Get "foldopen") }}
 {{ $subtitle := (.Get "subtitle") | default "subtitle" }}
 {{ $intro := (.Get "intro") | default "intro" }}
+<ul class="list" {{ if $exclude }}data-exclude="{{ replace (urlize (replace $exclude ", " "mmm")) "mmm" "," }}"{{ end }}>
 {{ range .Scratch.Get "data" }}
   <li class="item {{ $class }}" data-columns="{{ $columns }}" {{ if $filter}}data-filter="{{ replace (urlize (replace (index . $filter) ", " "mmm")) "mmm" "," }}"{{ end }}>
     {{ if isset . "img" }}
-      <div class="item-thumb"><img src="img/{{ .img }}" /></div>
+      <div class="item-thumb item-thumb-cover"><img src="img/{{ .img }}" /></div>
     {{ else if (in $settings "always-image") }}
-      <div class="item-thumb"><img src="{{ $BaseURL }}images/openff.jpg" /></div>
+      <div class="item-thumb item-thumb-cover"><img src="{{ $BaseURL }}images/openff.jpg" /></div>
     {{ end }}
     <div>
       <h3>
@@ -67,8 +69,8 @@
           {{ end }}
         </p>
       {{ end }}
-      {{ if (index . $github) }}
-        <p>Code accompanying the publication: <a href="https://github.com/{{ (index . $github) }}" target="_blank">{{(index . $github)}}</a>
+      {{ if (index . $code) }}
+        <p>Code accompanying the publication: <a href="https://github.com/{{ (index . $code) }}" target="_blank">{{(index . $code)}}</a>
       {{ end }}
       <p>{{ (index . $intro) | markdownify }}</p>
       {{ if (index . $extra) | markdownify }}
@@ -86,7 +88,7 @@
         {{ with .youtube }} <a href="{{ . }}">Youtube</a> {{ end }}
 
       </p>
-      {{ if $foldopen }}
+      {{ if and $foldopen ((index . $foldopen)) }}
       <div class="foldopen">
         <div class="button foldopen-readmore">Read more</div>
         <div class="button foldopen-readless">Read less</div>

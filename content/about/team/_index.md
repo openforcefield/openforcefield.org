@@ -5,4 +5,4 @@ subheader: [{Title: "All"}, {Title: "Management", filter: "Management"}, {Title:
 ---
 ##### The Open Force Field Initiative consists of academic and industry investigators and partners collaborating to advance biomolecular force field engineering and science via open source software, open science, and open data.
 {{< br >}}
-{{< list src="members" filter="filter-role" title="name" subtitle="role" intro="title" extra="current-position" ignore="Alumni" class="blend" columns="2" >}}
+{{< list src="members" filter="filter-role" title="name" subtitle="role" intro="title" extra="current-position" exclude="Alumni" ignore="Alumni" class="blend" columns="2" >}}

@@ -8,6 +8,7 @@ description: "Pankaj R. Daga will give a talk at UC Irvine on Sep 13 at 11 am (P
 markup: mark
 weight: 10
 author: "Karmen Condic-Jurkic"
+thumb: "9-Webinar-by-Pankaj-R.-Daga.jpg"
 ---
 
 [Pankaj R. Daga](https://scholar.google.com/citations?user=pJjqji8AAAAJ&hl=en) from [Simulation-Plus](https://www.simulations-plus.com/) will visit the [Mobley group](https://mobleylab.org/) at [UC Irvine](https://uci.edu/) and give his CADD GRC talk about all the hazards that can appear in trying to automate mining of chemical and chemistry-related databases. You can join the seminar via [Zoom](https://ucihealth.zoom.us/j/972474979) in real time on Sep 13 at 11 am (PDT), or watch it later on our [YouTube channel](https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g).

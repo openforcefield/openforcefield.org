@@ -87,9 +87,16 @@ footer {
   }
 }
 main.empty + footer {
-   @each $color, $colorObject in $colors {
-     [data-color="#{$color}"] & {
-       background-color: color($color, 'gradient-end');
-     }
-   }
- }
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"] & {
+      background-color: color($color, 'gradient-end');
+    }
+  }
+}
+.color-footer {
+  @each $color, $colorObject in $colors {
+    &[data-color="#{$color}"] footer {
+      background-color: color($color, 'gradient-end');
+    }
+  }
+}

@@ -7,6 +7,7 @@ draft: false
 description: "Open Force Field Initiative receives NIH funding"
 weight: 10
 author: "Michael Shirts"
+thumb: "2-Open-Force-Field-Initiative-receives-NIH-funding.jpg"
 ---
 
 <br>

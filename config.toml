@@ -2,6 +2,11 @@ baseURL = "https://vanleeuwen.studio/openff/"
 languageCode = "en-us"
 title = "OpenFF"
 theme = "openff"
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   header_title = "<b>open</b> force field"
@@ -25,12 +30,19 @@ theme = "openff"
         identifier = "mission"
         weight = 1
 
+        [[menu.main]]
+          name = "Roadmap"
+          url = "/about/roadmap/"
+          parent = "about"
+          identifier = "roadmap"
+          weight = 3
+
       [[menu.main]]
         name = "Team"
         url = "/about/team/"
         parent = "about"
         identifier = "team"
-        weight = 3
+        weight = 5
 
       [[menu.main]]
         name = "Careers"
@@ -45,13 +57,6 @@ theme = "openff"
         parent = "about"
         identifier = "branding"
         weight = 11
-
-      [[menu.main]]
-        name = "Timeline"
-        url = "/about/timeline/"
-        parent = "about"
-        identifier = "timeline"
-        weight = 12
 
   [[menu.main]]
     name = "Science"
@@ -127,7 +132,7 @@ theme = "openff"
 
       [[menu.main]]
         name = "Events"
-        url = "/community/events/event-calendar/"
+        url = "/community/events/webinars/"
         parent = "community"
         identifier = "events"
         weight = 2

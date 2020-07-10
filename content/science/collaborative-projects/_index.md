@@ -1,6 +1,7 @@
 ---
 title: Collaborative projects
 color: red
+class: color-footer
 ---
 
 ## Project 1: Scalable fitting of torsions and valence terms using OptimizationDatasets ##

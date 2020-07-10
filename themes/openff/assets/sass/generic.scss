@@ -22,6 +22,8 @@ html, body {
   width: 100%;
   font-size: 1vw;
   font-family: DefaultFont;
+  position: absolute;
+  top: 0;
   @media (max-width: $breakpoint-phone) {
     font-size: 1.9vw;
   }
@@ -148,7 +150,7 @@ blockquote {
   .foldopen-readless {
     margin: 0;
     margin-bottom: 1rem;
-    margin-top:.6rem;    
+    margin-top:.6rem;
     display: none;
     cursor: pointer;
   }

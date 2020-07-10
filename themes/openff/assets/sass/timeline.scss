@@ -15,7 +15,7 @@ $timeline_height: 60rem;
   }
   h2 {
     color: #FFF !important;
-    font-size: 1rem !important;
+    font-size: 0.7rem !important;
     margin: 0 !important;
     font-weight: bold !important;
   }
@@ -56,6 +56,12 @@ $timeline_height: 60rem;
       height: 1rem;
       transform: translateX(calc(-50% + 1px));
     }
+    &.timeline-item-type-open {
+      .timeline-item-dot {
+        border: solid 3px #FFF;
+        background-color: transparent;
+      }
+    }
     .timeline-item-line {
       width: 2px;
       height: 40%;
@@ -64,8 +70,8 @@ $timeline_height: 60rem;
     &.timeline-item-size-smallest {
       height: 50%;
       .timeline-item-dot {
-        width: 0.5rem;
-        height: 0.5rem;
+        width: 0.7rem;
+        height: 0.7rem;
       }
     }
   }
@@ -83,7 +89,7 @@ $timeline_height: 60rem;
         bottom: 0;
         justify-content: flex-end;
         .timeline-item-text {
-          bottom: calc(40% + 3rem);
+          bottom: calc(40% + 2rem);
         }
         &.timeline-item-valign-up {
           .timeline-item-text {
@@ -127,6 +133,9 @@ $timeline_height: 60rem;
     .timeline-year-column {
       white-space: normal;
       padding: $padding;
+      ul li:before {
+        color: #FFF;
+      }
       .timeline-year-column-title {
         padding-top: 10rem;
         font-weight: bold;

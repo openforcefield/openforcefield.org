@@ -7,6 +7,8 @@ draft: false
 description: "Second Open Force Field Consortium Workshop in San Diego, August 30-31 (Sep 1), 2019."
 weight: 10
 author: "Karmen Condic-Jurkic"
+thumb: "12-Aug-2019-Open-Force-Field-Consortium-Workshop.jpg"
+
 ---
 
 ![Banner](UCSD-stock-photo.png "Banner")

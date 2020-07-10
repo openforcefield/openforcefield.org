@@ -43,9 +43,20 @@ The Initiative has a scientific advisory board in place to assist with strategic
 
 {{< br >}}
 
+## Initiative Advisory Board
+{{< ul >}}
+- [David Case](https://rutchem.rutgers.edu/people/faculty-bio/130-case-david) (Rutgers) [[lab](http://casegroup.rutgers.edu/)]
+- [Alex Mackerell](https://faculty.rx.umaryland.edu/amackerell/) (University of Maryland) [[lab](http://mackerell.umaryland.edu/index.shtml)]
+- [Julia Rice](https://researcher.watson.ibm.com/researcher/view.php?person=us-jrice) (IBM Research)
+- [Sereina Riniker](https://riniker.ethz.ch/the-group/person-detail.MTIwNjc3.TGlzdC8xNDkzLC04NTQ1MTI4MDM=.html) (ETH Zurich) [[lab website](https://riniker.ethz.ch/)]
+- [Benoît Roux](https://chemistry.uchicago.edu/faculty/beno%C3%AEt-roux) [[lab](http://thallium.bsd.uchicago.edu/RouxLab/)]
+- [Carlos Simmerling](https://www.stonybrook.edu/commcms/chemistry/faculty/_faculty-profiles/simmerling-carlos) (Stony Brook University) [[lab](http://laufercenter.stonybrook.edu/simmerling/Home)]
+- [Bill Swope](https://researcher.watson.ibm.com/researcher/view.php?person=us-swope) (IBM Research)
+- [Junmei Wang](https://www.pharmacy.pitt.edu/directory/profile.php?profile=1639) (University of Pittsburgh) [[lab](https://mulan.pharmacy.pitt.edu/)]
+{{< /ul >}}
+{{< br >}}
 {{< center >}}
-{{<button href="/initiativeadvisoryboard" text="Initiative Advisory Board" >}}
-{{<button href="/meetingminutes/" text="Meeting Minutes" >}}
+{{<button href="/consortium/" text="IAB Meeting Minutes" >}}
 {{</ center >}}
 
 {{< br >}}
@@ -58,34 +69,17 @@ The Consortium is not just a funding initiative, but a true collaboration. Namel
 The [Open Force Field Consortium officially launched](/news/introducing-the-consortium/) on Oct 1, 2018, but there is still room to join or get involved. Please contact [info@openforcefield.org](info@openforcefield.org) for more information!
 
 {{< br >}}
-
-{{< center >}}
-{{<button href="/governingboard/" text="Governing Board" >}}
-{{<button href="/consortiumadvisoryboard/" text="Consortium Advisory Board" >}}
-{{<button href="/consortium/" text="CCAB Meeting Minutes" >}}
-{{</ center >}}
-
-{{< br >}}
-
-# Industry Partners
+## Consortium Governing Board
 {{< ul >}}
-- [Bayer](https://www.bayer.com/)
-- [BASF](https://www.basf.com/)
-- [Boehringer-Ingelheim](https://www.boehringer-ingelheim.com/)
-- [Bristol-Myers Squibb](https://www.bms.com/)
-- [Cresset](https://www.cresset-group.com/)
-- [GlaxoSmithKline](https://www.gsk.com/en-gb/)
-- [Janssen](https://www.janssen.com/)
-- [Merck KGaA](https://www.merckgroup.com/en)
-- [OpenEye](https://www.eyesopen.com/)
-- [Pfizer](https://www.pfizer.com/)
-- [Qulabe](https://qulab.com/)
-- [Roche](https://www.roche.com/)
-- [Vertex Pharmaceuticals](https://www.vrtx.com/)
-- [XtalPi](https://www.xtalpi.com/en/)
+- John D. Chodera (MSKCC)
+- Thomas Fox (Boehringer-Ingelheim)
+- Michael K. Gilson (UCSD)
+- Katharina Meier (Bayer)
+- David L. Mobley (UCI)
+- Michael R. Shirts (CU Boulder)
+- Lee-Ping Wang (UC Davis)
 {{< /ul >}}
 {{< br >}}
-# Boards
 
 ## Consortium Advisory Board
 {{< ul >}}
@@ -104,27 +98,27 @@ The [Open Force Field Consortium officially launched](/news/introducing-the-cons
 - [Herman Van Vlijmen](https://www.linkedin.com/in/herman-van-vlijmen-9452461/) (Janssen)
 - [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK){{< /ul >}}
 {{< br >}}
-## Consortium Governing Board
-{{< ul >}}
-- John D. Chodera (MSKCC)
-- Thomas Fox (Boehringer-Ingelheim)
-- Michael K. Gilson (UCSD)
-- Katharina Meier (Bayer)
-- David L. Mobley (UCI)
-- Michael R. Shirts (CU Boulder)
-- Lee-Ping Wang (UC Davis)
-{{< /ul >}}
-{{< br >}}
-## Initiative Advisory Board
-{{< ul >}}
-- [David Case](https://rutchem.rutgers.edu/people/faculty-bio/130-case-david) (Rutgers) [[lab](http://casegroup.rutgers.edu/)]
-- [Alex Mackerell](https://faculty.rx.umaryland.edu/amackerell/) (University of Maryland) [[lab](http://mackerell.umaryland.edu/index.shtml)]
-- [Julia Rice](https://researcher.watson.ibm.com/researcher/view.php?person=us-jrice) (IBM Research)
-- [Sereina Riniker](https://riniker.ethz.ch/the-group/person-detail.MTIwNjc3.TGlzdC8xNDkzLC04NTQ1MTI4MDM=.html) (ETH Zurich) [[lab website](https://riniker.ethz.ch/)]
-- [Benoît Roux](https://chemistry.uchicago.edu/faculty/beno%C3%AEt-roux) [[lab](http://thallium.bsd.uchicago.edu/RouxLab/)]
-- [Carlos Simmerling](https://www.stonybrook.edu/commcms/chemistry/faculty/_faculty-profiles/simmerling-carlos) (Stony Brook University) [[lab](http://laufercenter.stonybrook.edu/simmerling/Home)]
-- [Bill Swope](https://researcher.watson.ibm.com/researcher/view.php?person=us-swope) (IBM Research)
-- [Junmei Wang](https://www.pharmacy.pitt.edu/directory/profile.php?profile=1639) (University of Pittsburgh) [[lab](https://mulan.pharmacy.pitt.edu/)]
-{{< /ul >}}
+{{< center >}}
+{{<button href="/consortium/" text="CAB Meeting Minutes" >}}
+{{</ center >}}
 
+{{< br >}}
+
+# Industry Partners
+{{< ul >}}
+- [Bayer](https://www.bayer.com/)
+- [BASF](https://www.basf.com/)
+- [Boehringer-Ingelheim](https://www.boehringer-ingelheim.com/)
+- [Bristol-Myers Squibb](https://www.bms.com/)
+- [Cresset](https://www.cresset-group.com/)
+- [GlaxoSmithKline](https://www.gsk.com/en-gb/)
+- [Janssen](https://www.janssen.com/)
+- [Merck KGaA](https://www.merckgroup.com/en)
+- [OpenEye](https://www.eyesopen.com/)
+- [Pfizer](https://www.pfizer.com/)
+- [Qulab](https://qulab.com/)
+- [Roche](https://www.roche.com/)
+- [Vertex Pharmaceuticals](https://www.vrtx.com/)
+- [XtalPi](https://www.xtalpi.com/en/)
+{{< /ul >}}
 {{< br >}}

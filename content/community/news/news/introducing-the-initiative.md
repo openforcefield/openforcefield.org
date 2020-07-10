@@ -7,6 +7,8 @@ draft: false
 description: "The Open Force Field Initiative is an open effort to develop better biomolecular force fields focusing on open source, open science, and open data."
 weight: 10
 author: "John Chodera"
+thumb: "20-Introducing-the-Open-Force-Field-Initiative.jpg"
+
 ---
 
 Molecular modeling is widely used in diverse pharmaceutical discovery applications, but its utility and predictive power is limited by the accuracy of the underlying *molecular mechanics force field* used to compute the energetics of biomolecular systems.

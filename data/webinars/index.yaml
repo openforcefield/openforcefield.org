@@ -59,8 +59,9 @@
   youtube: https://youtu.be/hHCUW50cRuA
 
 - title: Fragmenting molecules for QC torsions
+  img: ChayaStern.png
   presenter: Chaya Stern
   link: https://scholar.google.de/citations?user=cPP0ce0AAAAJ&amp;hl=en&amp;oi=ao
   date: 2019-06-05
-  abstract: |
+  summary: |
     Chaya Stern talks about molecular fragmentation prior to computing QM torsion profiles and using Wiberg bond orders as potentially powerful indicators of change in chemical environment of rotatable bonds upon fragmentation.

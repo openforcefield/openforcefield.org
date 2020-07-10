@@ -47,7 +47,7 @@ The proposed agenda might be subjected to minor changes before the event.
 | 16.45 - 17.00 | _Breakout session II:_ Parameter definition, dataset selection, optimization strategies | _Chair:_ Lee-Ping Wang |
 | 18.30 | **\_Workshop dinner:\_\*\* ** _Rock Bottom Brewery_\*\* |
  |
-
+<br/><br/>
 ### Day 2 (Aug 31)
 
 [Discussion notes for Day 2](https://docs.google.com/document/d/1w_J0vL5BPzIfIl4P8TaN22yMA-AE-1-yrziLinXU4KY/edit?usp=sharing)
@@ -74,7 +74,7 @@ The proposed agenda might be subjected to minor changes before the event.
  |
 | 15.45 - 17.00 | _Free discussion:_ ML perspectives in OpenFF | Concurrent 1:1 sessions for Partners with J. Wagner |
  |
-
+<br/><br/>
 ### Day 3 (Sep 1)
 
 Internal OpenFF team discussions and planning session.

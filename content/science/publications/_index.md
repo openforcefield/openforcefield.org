@@ -1,6 +1,7 @@
 ---
 title: Publications
 color: red
+class: color-footer
 ---
 ##### Scientific publications from the Open Force Field Initiative.
 

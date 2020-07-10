@@ -8,6 +8,7 @@ description: "Chaya Stern gives a webinar about her work done on molecular fragm
 markup: mmark
 weight: 10
 author: "Karmen Condic-Jurkic and Chaya Stern"
+thumb: "13-Webinar-by-Chaya-Stern.jpg"
 ---
 
 _**You can watch this webinar on [YouTube](https://youtu.be/afZp538VpMA) and access slides on [Zenodo](http://doi.org/10.5281/zenodo.3238643).**_

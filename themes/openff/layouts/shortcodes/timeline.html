@@ -13,8 +13,8 @@
         {{ range .items }}
           {{ if ne .direction "down" }}
             {{ $day := sub (int (time .date).YearDay) 1 }}
-            <div class="timeline-item timeline-item-align-{{.align}} timeline-item-valign-{{.valign}} timeline-item-size-{{.size}}" style="left: {{ div $day 3.65 }}%;">
-              <div class="timeline-item-text" style="{{ .style }}">
+            <div class="timeline-item timeline-item-align-{{.align}} timeline-item-valign-{{.valign}} timeline-item-size-{{.size}} timeline-item-type-{{.type}}" style="left: {{ div $day 3.65 }}%;">
+              <div class="timeline-item-text" style="{{ .style | safeCSS }}">
                 <h2>{{ .title | markdownify }}</h2>
                 {{ .subtitle | markdownify }}
               </div>
@@ -31,12 +31,12 @@
         {{ range .items }}
           {{ if eq .direction "down" }}
             {{ $day := sub (int (time .date).YearDay) 1 }}
-            <div class="timeline-item timeline-item-align-{{.align}} timeline-item-valign-{{.valign}} timeline-item-size-{{.size}}" style="left: {{ div $day 3.65 }}%;">
+            <div class="timeline-item timeline-item-align-{{.align}} timeline-item-valign-{{.valign}} timeline-item-size-{{.size}} timeline-item-type-{{.type}}" style="left: {{ div $day 3.65 }}%;">
               <div class="timeline-item-line"></div>
               <div class="timeline-item-dot"></div>
-              <div class="timeline-item-text" style="{{ .style }}">
-                <h2>{{ .title }}</h2>
-                {{ .subtitle }}
+              <div class="timeline-item-text" style="{{ .style | safeCSS }}">
+                <h2>{{ .title | markdownify }}</h2>
+                {{ .subtitle | markdownify }}
               </div>
             </div>
           {{ end }}

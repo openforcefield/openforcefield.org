@@ -151,6 +151,9 @@ header {
 .subheader {
   position: relative;
   z-index: 1;
+  &.empty {
+    min-height: calc(100vh - 13vh - 60px + 2rem);
+  }
   @each $color, $colorObject in $colors {
     [data-color="#{$color}"] & {
       background: linear-gradient(180deg, #{color($color, 'gradient-start')} 0%, #{color($color, 'gradient-end')} 100%);

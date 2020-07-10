@@ -8,6 +8,7 @@ description: "Release of major new toolkit version, with open-source cheminforma
 markup: mmark
 weight: 10
 author: "Jeff Wagner"
+thumb: "14-The-0.2.0-Toolkit-release,-now-with-RDKit-support.jpg"
 ---
 
 We're excited to announce the public release of the [Open Force Field toolkit version 0.2.0](https://github.com/openforcefield/openforcefield/releases/tag/0.2.0)! Most notably, this release adds the ability to assign SMIRNOFF parameters and AM1-BCC charges with a completely open-source backend, adding support for [the RDKit](http://rdkit.org) and [AmberTools](http://ambermd.org/AmberTools.php) via a new [ToolkitWrapper](https://open-forcefield-toolkit.readthedocs.io/en/latest/utils.html#toolkit-wrappers) infrastructure that can be extended in the future to support additional cheminformatics toolkits. The [OpenEye Toolkit](https://www.eyesopen.com/toolkit-development) will continue to be supported, as well as used internally our parameter-fitting pipelines in the short term. We're extremely grateful to the [long list of contributors](https://github.com/openforcefield/openforcefield/graphs/contributors) that have made this release possible, especially [Shuzhe Wang from the Riniker group](http://www.riniker.ethz.ch/the-group.html) for piloting much of the RDKit functionality.
@@ -75,18 +76,18 @@ At this early stage in the 0.2 toolkit series, we expect to initially release a 
 
 **Warning!** It is likely that our API will change between now and the 1.0 fully stable release. Please be aware of this if you are developing workflows based on the toolkit, as toolkit behavior may change significantly at that time.
 
-Several features are not yet available in the toolkit, and will be rolled out in the coming months. 
+Several features are not yet available in the toolkit, and will be rolled out in the coming months.
 These include:
- * reading partial charges from SDF files 
+ * reading partial charges from SDF files
  * assignment of library charges   
  * valence parameter interpolation based on fractional bond order
  * SMIRKS-based GBSA parameterization
  * more convenient and robust functions to take parameterized systems from the `openforcefield` toolkit to ParmEd and/or InterMol for export to other simulation packages
 
-We also expect to make several other changes and enhancements on a somewhat longer timescale: 
+We also expect to make several other changes and enhancements on a somewhat longer timescale:
   * SMIRKS-based bond-charge corrections
-  * flexible partial charge calculations beyond AM1-BCC 
+  * flexible partial charge calculations beyond AM1-BCC
   * support for virtual sites
-  * support for parameterizing biopolymers 
+  * support for parameterizing biopolymers
 
 If you'd like to stay up to date on our progress toward these features, you can follow our progress on [toolkit project milestones](https://github.com/openforcefield/openforcefield/milestones) page on GitHub.

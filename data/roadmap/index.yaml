@@ -1,0 +1,306 @@
+  - title: Year 1
+    year: 2019
+    contents: |
+      **Force Fields**
+
+      Release and validation of the first version of SMIRNOFF force field format and the initial set of parameters (SMIRNOFF99Frosst) based on an informal extension of Amber99 or ffXX type of force fields to small molecules developed at Merck Frosst (parm@Frosst).
+      Release of the first optimized force field (Parsley) based on SMIRNOFF format using ForceBalance, newly generated QM datasets and curated set of physical properties.
+
+      **Infrastructure**
+
+      Release of the OpenFF Toolkit:
+      - with OpenEye and RDKit support
+      - GBSA support
+      - parameter coverage tool
+      - SMIRNOFF specification upgrades.
+
+      Development and launch of QCArchive platform led by MolSSI.
+
+      Development of OpenFF Evaluator module for assessment and optimization stages.
+
+      Integration of OpenFF Evaluator with ForceBalance.
+
+      Data Generation of the initial QM datasets. Curation of the initial sets of experimental data (physical properties, protein-ligand binding free energies) for force field optimization and assessment.
+
+      **Deliverables reassigned to Year 2**
+
+      *Refit of selected Lennard-Jones parameters (postponed for Generation 2 force fields, Sage, after a series of feasibility studies have been performed around property data selection and its impact on property estimates).*
+
+    items:
+    - title: smirnoff99frosst
+      date: 2019-01-01
+
+    - title: >
+        openff
+        toolkit 0.1.0
+      subtitle: SMIRNOFF<br/>0.1 specification
+
+      direction: down
+      date: 2019-01-01
+
+    - title: toolkit 0.2.0
+      subtitle: >
+        RDKit support, SMIRNOFF
+        0.2 specification (XML),
+        addition of new classes for
+        handling molecules and
+        topologies, improved API
+        <br/>and documentation
+      direction: down
+      align: left
+      date: 2019-07-01
+
+    - title: toolkit 0.3.0
+      subtitle: >
+        Improved API,<br/>bugfixes,
+        <br/>new functions
+      direction: down
+      valign: down
+      align: right
+      style: "margin-top: -2rem"
+      date: 2019-08-01
+
+    - title: toolkit 0.4.0
+      subtitle: >
+        Performance optimizations
+        and support for SMIRNOFF
+        0.3 specification, addition of
+        new attribute-handling classes,
+        bugfixes
+      direction: down
+      align: right
+      date: 2019-09-01
+
+    - title: toolkit 0.5.0
+      subtitle: >
+        GBSA support, easier
+        access to indexed
+        attributes, parameter
+        coverage example
+        notebook
+      direction: down
+      valign: down
+      align: right
+      style: "margin-top: -2rem"
+      date: 2019-11-01
+
+    - title: |
+        evaluator<br/>
+        0.0.1
+      subtitle:
+      size: smallest
+      type: open
+      align: right
+      direction: down
+      date: 2019-12-01
+      style: "margin-left:0.5rem"
+
+  - title: Year 2
+    year: 2020
+    contents: |
+      **Force Fields**
+
+      Two minor releases of the first generation of Open Force Fields (openff-1.1.0 and openff-1.2.0) with improved performance and refitted with expanded QM datasets, released under codename *Parsley* .
+
+      Release of the second generation force field under codename Sage, which will include WBO torsion interpolation and refit of selected LJ parameters (release planned for Oct/Nov 2020).
+
+      **Infrastructure**
+
+      Release of the OpenFF Toolkit:
+        - LibraryCharge support
+        - fully offline single-file installers
+        - partial charge calculations and charge increments
+        - WBO torsion interpolation
+        - (bio)polymer support
+        - virtual site support
+        - implementation of open-source alternatives for all OpenEye-dependent functionality.
+
+      Large-scale deployment of OpenFF QCFractal workers on Nautilus hypercluster.
+
+      QCSubmit: tools for molecule submission (fragmentation, tautomer enumeration, protonation state enumeration) -- part of the bespoke workflow. Protein-ligand benchmarking protocol and automated benchmarking dashboard (Y2/Y3).
+
+      OpenFF Evaluator parallelization (Y2/Y3) and intergration with pAPRika (host-guest binding free energy workflow).
+
+      Integration of Gimlet - a package for modelling, learning, and inference on molecular topological space for fast and accurate charge prediction.
+
+      Specification and prototyping of OpenFF System Object - a flexible container for storing the data necessary to calculate a molecular system's energy (replacing the currently used OpenMM system), and exporting input files for different MD engines.
+
+      **Data**
+
+      Improved data selection processes for QM data generation for fitting and asesssment of force fields. The number of optimized geometries used in fitting of openff-1.2.0 increased 4-fold compared to first optimized version openff-1.0.0.
+
+      Feasibility studies performed for optimal selection of physical properties to be used in the refit of selected LJ parameters for Sage.
+
+      Preliminary results obtained for the curated set of protein-ligand free energies using Parsley (openff-1.0.0) and compared to other available force fields.
+
+      **Deliverables reassigned to Year 3**
+
+        - *Refitting BCCs to high-quality QM and liquid-phase data (infrastructure under development, electrostatic and LJ refitting are expected in Gen 3 force fields (Rosemary).*
+        - *Inclusion of host-guest thermodynamics in fitting (the infrastructure still under development, change of the lead developer, possibly ready for Gen 3 or Gen 4 force fields).*
+        - *Automated protein-ligand benchmarking (difficulties with workflows and component interoperability -- building free energy infrastructure is not envisaged within this project).*
+    items:
+    - title: openff-1.0.0
+      subtitle: Parsley
+      date: 2020-01-15
+      style: "text-align:center"
+
+    - title: evaluator<br/>0.0.5
+      subtitle:
+      size: smallest
+      type: open
+      align: right
+      direction: down
+      date: 2020-01-15
+
+    - title: toolkit 0.6.0
+      subtitle: >
+        Library charges support, conda-installable packages and single-file installers
+      direction: down
+      align: right
+      date: 2020-02-20
+
+    - title: evaluator<br/>0.0.9
+      subtitle:
+      size: smallest
+      type: open
+      align: right
+      direction: down
+      date: 2020-03-29
+
+    - title: openff-1.1.0
+      subtitle: Parsley Addition of 3 new bond and angle terms, modification of periodicity for N-N rotations, addition of missing impropers with 3 associated torsion
+      date: 2020-04-20
+      style: "margin-left:1rem"
+
+
+    - title: evaluator 0.1.0
+      subtitle: Full redesign of the framework with a<br/>focus on stability<br/>and ease of use (documentation<br/>+ tutorials)
+      size: smallest
+      type: open
+      align: left
+      direction: down
+      date: 2020-08-20
+      style: "text-align: center; margin-left: 2rem"
+
+    - title: openff-1.2.0
+      subtitle: Parsley Expanded QM datasets with greater chemical diversity, <br/> improved phosphate geometries
+      date: 2020-09-05
+      style: "margin-left:1.5rem"
+
+    - title: toolkit 0.7.0
+      subtitle: >
+        Flexible partial charge calculation, charge increments, improved<br/>SDF I/O, WBO torsion interpolation
+      direction: down
+      align: right
+      date: 2020-10-20
+
+    - title: benchmark<br/>dashboard
+      size: smallest
+      type: open
+      align: right
+      direction: down
+      date: 2020-11-20
+      style: margin-left:1rem
+
+    - title: amber ff14SB
+      subtitle: >
+        SMIRNOFF<br/>format
+      date: 2020-12-10
+      align: right
+
+  - title: Year 3
+    year: 2021
+    contents: |
+      **Anticipated progress**
+
+      Bespoke torsion parameterization for custom force field based on proprietary data.
+
+      Improved electrostatics and electrostatic refitting.
+
+      Automated typing inference (for selected cases) and continued improvements to chemical perception to enhance force field performance, potentially allowing fit of full force field from scratch and removing any legacy problems in the force fields.
+
+      Development of a diagnostic tool to determine as to whether/where off-site charges are needed and their subsequent inclusion in force fields, if warranted.
+
+      Consistent biopolymer force field with ability to smoothly handle nonstandard AAs and covalent modifications.
+
+      Improved binding accuracy via consistent biopolymer force fields and consistent water model.
+
+      **Force Fields**
+
+      Release of the second generation force field under codename Sage, which will include WBO torsion interpolation and refit of selected LJ parameters (release planned for Oct/Nov 2020). Sage will include a few minor releases with ongoing improvements to torsional accuracy via Wiberg bond order interpolation scheme.
+
+      Third generation force field (Rosemary) with electrostatics and LJ refitting based on condense phase and other properties. Biopolymer force field parameters might be included in *Rosemary*.
+
+      **Infrastructure**
+
+      Bespoke torsions workflow complete.
+
+      Development of OpenFF System Object.
+
+      Potential automated benchmarking on protein-ligand binding and generally improved diagnostics and benchmarking tools.
+
+      Parallelization of OpenFF Evaluator.
+
+      Biopolymer infrastructure for parameterization of proteins and unnatural amino acids.
+
+      Bayesian infrastructure (force field uncertainty estimates) and ML frameworks.
+
+      **Data**
+
+      Expanded datasets: QM data, condensed phase physical properties, host-guest and protein-ligand binding free energies, potentially inclusion of small molecule crystallographic data.
+
+      **Deliverables likely reassigned to Year 4**
+
+        - *Surrogate thermodynamic models to accelerate force field parameterization*
+        - *Automated type refinement to penalize complexity*
+        - *Selective polarizability*
+    items:
+    - title: openff-2.0.0
+      subtitle: Sage<br/>WBO torsion<br/>interpolation,<br/>LJ refit
+      date: 2021-02-10
+      align: center
+      style: "text-align: center"
+
+    - title: toolkit 0.8.0
+      subtitle: >
+        Virtual site support, improved biopolymer functionalit
+      direction: down
+      align: right
+      date: 2021-01-10
+
+    - title: system object
+      size: smallest
+      type: open
+      align: right
+      direction: down
+      date: 2020-05-20
+
+    - title: openff-2.1.0
+      subtitle: Sage
+      align: center
+      date: 2021-04-10
+      style: "margin-left:3.5rem"
+
+    - title: openff-2.2.0
+      subtitle: Sage
+      align: right
+      date: 2021-06-20
+      style: "margin-left:1rem"
+
+    - title: bespoke<br/>workflow
+      subtitle:
+      direction: down
+      align: right
+      date: 2021-08-10
+
+    - title: toolkit 0.9.0
+      subtitle: Biopolymer<br/>infrastructure
+      direction: down
+      align: right
+      date: 2021-10-10
+      style: "margin-left:1rem"
+
+    - title: openff-3.0.0
+      subtitle: Rosemary Electrostatics (BCC) and LJ refit
+      align: right
+      date: 2021-10-29
