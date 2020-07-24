@@ -1,6 +1,6 @@
 ---
 date: "2020-07-22T00:00:00+00:00"
-title: "Lee-Ping Wang stepping down from the leadership role"
+title: "Lee-Ping Wang stepping down from a leadership role"
 tags: ["website","news"]
 categories: ["news"]
 draft: false
