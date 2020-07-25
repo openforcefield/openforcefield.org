@@ -25,9 +25,9 @@ Assessed force fields:
 * OPLS3e
 * Smirnoff99Frosst
 * Parsley, 3 versions:
-  * [OpenFF-1.0.0](https://zenodo.org/record/3483227)
-  * [OpenFF-1.1.1](https://zenodo.org/record/3695094)
-  * [OpenFF-1.2.0](https://zenodo.org/record/3695094)
+  * [OpenFF-1.0.0](https://doi.org/10.5281/zenodo.3483227)
+  * [OpenFF-1.1.1](https://doi.org/10.5281/zenodo.3695094)
+  * [OpenFF-1.2.0](https://doi.org/10.5281/zenodo.3872244)
 
 <br>
 ### OpenFF is  competitive with other small molecule force fields
