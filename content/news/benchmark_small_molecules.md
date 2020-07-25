@@ -13,7 +13,7 @@ markup: mmark # mmark is necessary for LaTeX to work properly
 
 The [Open Force Field Initiative](https://openforcefield.org/), focusing on open tools and science to improve accuracy of molecular modeling, has now been up and running for approximately 18 months. Recent highlights have included the [release of a series of updates to Parsley](https://github.com/openforcefield/openforcefields/releases), a small molecule force field for biomolecular simulation, which is now at version [OpenFF-1.2.0](https://github.com/openforcefield/openforcefields/releases/tag/1.2.0). Parsley was iteratively optimized to improve agreement with quantum chemical geometries, energetics, and vibrational frequencies.
 
-Here, we provide a preliminary benchmark assessment of several small molecule force fields (FF) compared to quantum mechanical (QM) results regarding gas phase energies and geometries of a set of molecule conformers. 
+Here, we provide a preliminary benchmark assessment of several small molecule force fields (FF) compared to quantum mechanical (QM) results regarding gas phase energies and geometries of a set of molecule conformers.
 
 We have compared the vacuum-minimized energies and geometries of nine small molecule force fields to quantum chemical results (B3LYP-D3BJ/DZVP) available in QCArchive. Our dataset is the [OpenFF Full Optimization Benchmark 1](https://openforcefield.org/news/introducing-openforcefield-1.0/) set,  except of molecules which were used for training OpenFF-1.2.0. The set includes about 23000 conformers of a broad range of molecules. Additional methodology details are available in [our recent preprint](https://chemrxiv.org/articles/preprint/Benchmark_Assessment_of_Molecular_Geometries_and_Energies_from_Small_Molecule_Force_Fields/12551867), which will be updated soon to include this new data.
 
@@ -58,10 +58,10 @@ We compared the conformer geometries between FF and QM conformers by the atom-po
 This data suggests that, at least on this dataset and judged by these metrics, OpenFF 1.2 is modestly superior to MMFF94S and GAFF2 and lags only slightly behind OPLS3e.
 
 <br>
-# OpenFF has progressively improved across versions
+### OpenFF has progressively improved across versions
 The following graphs are showing the $$ddE$$ and RMSD distributions of four OpenFF versions (Smirnoff99Frosst, OpenFF-1.0.0, OpenFF-1.1.1 and OpenFF-1.2.0). They are illustrating how the performance of OpenFF improves with every version.
 
-## Energetic comparisons
+#### Energetic comparisons
 
 <!-- Histograms of ddE of the different OpenFF versions -->
 <center>
@@ -69,7 +69,7 @@ The following graphs are showing the $$ddE$$ and RMSD distributions of four Open
 </center>
 
 
-## Geometric comparisons
+#### Geometric comparisons
 
 <!-- Histograms of RMSD and TFD of the different FF families -->
 <center
@@ -89,14 +89,14 @@ The iterative improvement of Parsley is ongoing work. Future releases will have 
 * Bespoke parameters
 * Refinement and extension of reference data sets
 
-Furthermore additional benchmarking studies will be published targeting liquid phase properties, general host-guest and more specifically protein-ligand interactions. 
+Furthermore additional benchmarking studies will be published targeting liquid phase properties, general host-guest and more specifically protein-ligand interactions.
 
-# Further reading
+### Further reading
 
 Further information about Open Force Field’s parameterization and benchmarking strategies is presented in this [blog post](https://openforcefield.org/news/introducing-openforcefield-1.0/#benchmarking-parsley).
-More details about the present study can be found in this [preprint](https://doi.org/10.26434/chemrxiv.12551867.v1). 
+More details about the present study can be found in this [preprint](https://doi.org/10.26434/chemrxiv.12551867.v1).
 
-# Contributions
+### Contributions
 
 These people have contributed to this benchmark assessment:
 * Victoria Lim (UC Irvine)
@@ -104,4 +104,3 @@ These people have contributed to this benchmark assessment:
 * Gary Tresadern (Janssen R&D)
 * Christopher Bayly (OpenEye Scientific)
 * David Mobley (UC Irvine)
-
