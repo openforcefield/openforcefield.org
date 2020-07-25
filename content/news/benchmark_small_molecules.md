@@ -25,26 +25,26 @@ Assessed force fields:
 * OPLS3e
 * Smirnoff99Frosst
 * Parsley, 3 versions:
-  * OpenFF-1.0.0
-  * OpenFF-1.1.1
-  * OpenFF-1.2.0
+  * [OpenFF-1.0.0](https://zenodo.org/record/3483227)
+  * [OpenFF-1.1.1](https://zenodo.org/record/3695094)
+  * [OpenFF-1.2.0](https://zenodo.org/record/3695094)
 
+<br>
+### OpenFF is  competitive with other small molecule force fields
+#### Energetic comparisons
 
-# OpenFF is  competitive with other small molecule force fields
-## Energetic comparisons
+The energies were compared by calculating the relative energy differences ($$ddE$$) between the force field (FF) and quantum mechanical (QM) energies of a conformer $$i$$, relative to the lowest QM conformer 0:
 
-The energies were compared by calculating the relative energy differences (ddE) between the force field (FF) and quantum mechanical (QM) energies of a conformer i, relative to the lowest QM conformer 0:
+$$ddE_i = dE_{FF,j}-dE_{QM,i}=(E_{FF,i}-E_{FF,0})-(E_{QM,i}-E_{QM,0})$$
 
-$$ \mathrm{dd}E_{i} = \mathrm{d}E$_{\mathrm{FF},i}-\mathrm{d}E_{\mathrm{QM},i}=(E_{\mathrm{FF},i}-E_{\mathrm{FF},0})-(E_{\mathrm{QM},i}-E_{\mathrm{QM},0}) $$
-
-For an ideal FF, the ddE of all conformers would be zero, meaning the FF reproduces correctly the QM relative energies between conformers. The following graph shows the ddE distributions for the set of conformers, as obtained for the four latest force fields of each family (other FF curves left out for clarity):
+For an ideal force field, the $$ddE$$ of all conformers would be zero, meaning the FF reproduces correctly the QM relative energies between conformers. The following graph shows the $$ddE$$ distributions for the set of conformers, as obtained for the four latest force fields of each family (other FF curves left out for clarity):
 
 <!-- Histograms of ddE of the different FF families -->
 <center>
 <img src="fig_ridge_dde_red.png" width="75%">
 </center>
 
-## Geometric comparisons
+#### Geometric comparisons
 
 We compared the conformer geometries between FF and QM conformers by the atom-positional root mean squared deviation (RMSD) and the torsional fingerprint deviation (TFD). The RMSD and TFD distributions are shown below:
 
@@ -57,8 +57,10 @@ We compared the conformer geometries between FF and QM conformers by the atom-po
 
 This data suggests that, at least on this dataset and judged by these metrics, OpenFF 1.2 is modestly superior to MMFF94S and GAFF2 and lags only slightly behind OPLS3e.
 
+<br>
 # OpenFF has progressively improved across versions
-The following graphs are showing the ddE and RMSD distributions of four OpenFF versions (Smirnoff99Frosst, OpenFF-1.0.0, OpenFF-1.1.1 and OpenFF-1.2.0). They are illustrating how the performance of OpenFF improves with every version.
+The following graphs are showing the $$ddE$$ and RMSD distributions of four OpenFF versions (Smirnoff99Frosst, OpenFF-1.0.0, OpenFF-1.1.1 and OpenFF-1.2.0). They are illustrating how the performance of OpenFF improves with every version.
+
 ## Energetic comparisons
 
 <!-- Histograms of ddE of the different OpenFF versions -->
