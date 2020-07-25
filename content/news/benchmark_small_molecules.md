@@ -1,5 +1,5 @@
 ---
-date: "2020-07-22T00:00:00+00:00"
+date: "2020-07-25T00:00:00+00:00"
 title: 'Benchmark: OpenFF performance on small molecule energies and geometries'
 tags: ["website", "news", "smirnoff", "benchmarking"]
 categories: ["news"]
