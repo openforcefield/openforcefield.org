@@ -7,6 +7,9 @@ footer {
   background-color: color('default', 'text');
   color: #FFF;
   height: $footer-height;
+  @media (max-width: $breakpoint-phone) {
+    height: auto !important;
+  }
   img {
     width: 80%;
   }
@@ -44,6 +47,10 @@ footer {
         // margin-left: 5px;
         text-align: center;
         vertical-align: middle;
+        @media (max-width: $breakpoint-phone) {
+          width: 10vw;
+          height: 10vw;
+        }
         &:first-child {
           margin-left: 0;
         }

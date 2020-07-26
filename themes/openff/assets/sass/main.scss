@@ -20,8 +20,10 @@ main {
   z-index: 1;
   position: relative;
   @media (max-width: $breakpoint-phone) {
-    padding-left: $padding;
-    padding-right: $padding;
+    body:not(.full-width) & {
+      padding-left: $padding;
+      padding-right: $padding;
+    }
   }
   @each $color, $colorObject in $colors {
     [data-color="#{$color}"].full-color & {
@@ -115,8 +117,11 @@ main {
     list-style-type: none;
     padding-left: 0;
     li {
+      padding-left: 2em;
       &:before {
         content: "—";
+        position: absolute;
+        margin-left: -2em;
         @each $color, $colorObject in $colors {
           [data-color="#{$color}"] & {
             color: color($color, 'highlight');
@@ -137,6 +142,9 @@ main {
     > ul {
       display: grid;
       grid-template-columns: repeat(auto-fit,minmax(50%, 1fr));
+      @media (max-width: $breakpoint-phone) {
+        display: block;
+      }
     }
   }
   > * {
@@ -164,12 +172,19 @@ main {
   margin-top: 5vh;
   align-items: start;
   justify-content: center;
+  z-index: 1;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+  }
   section {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
     text-align: center;
+    @media (max-width: $breakpoint-phone) {
+      display: block;
+    }
     img {
       height: 3.5rem;
     }
@@ -182,6 +197,11 @@ main {
         width: 8rem;
         float: left;
         margin-left: -9rem;
+        @media (max-width: $breakpoint-phone) {
+          float: none;
+          margin: auto;
+          display: flex;
+        }
       }
     }
   }

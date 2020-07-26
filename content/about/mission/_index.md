@@ -56,7 +56,7 @@ The Initiative has a scientific advisory board in place to assist with strategic
 {{< /ul >}}
 {{< br >}}
 {{< center >}}
-{{<button href="/consortium/" text="IAB Meeting Minutes" >}}
+{{<button href="/openff/minutes/iab" text="IAB Meeting Minutes" >}}
 {{</ center >}}
 
 {{< br >}}
@@ -99,7 +99,7 @@ The [Open Force Field Consortium officially launched](/news/introducing-the-cons
 - [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK){{< /ul >}}
 {{< br >}}
 {{< center >}}
-{{<button href="/consortium/" text="CAB Meeting Minutes" >}}
+{{<button href="/openff/minutes/cab" text="CAB Meeting Minutes" >}}
 {{</ center >}}
 
 {{< br >}}

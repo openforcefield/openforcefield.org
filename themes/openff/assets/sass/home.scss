@@ -6,6 +6,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: $breakpoint-phone) {
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
   @each $color, $colorObject in $colors {
     [data-color="#{$color}"] & {
       background: linear-gradient(180deg, #{color($color, 'gradient-start')} 0%, #{color($color, 'gradient-end')} 100vh);
@@ -23,9 +28,16 @@
   }
   h1 {
     white-space: nowrap;
+    @media (max-width: $breakpoint-phone) {
+      white-space: normal;
+    }
   }
   .button {
     border: solid 2px #FFF;
+    @media (max-width: $breakpoint-phone) {
+      display: block;
+      margin-bottom: 1rem;
+    }
   }
 }
 .m-t-md {

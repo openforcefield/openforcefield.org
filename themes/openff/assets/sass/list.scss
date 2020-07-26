@@ -22,6 +22,10 @@ ul.list {
     p {
       margin: 0.5*$padding 0;
     }
+    @media (max-width: $breakpoint-phone) {
+      width: 100% !important;
+      flex: 100% !important;
+    }
     &[data-columns="2"] {
       width: 50%;
       flex: 50%;
@@ -29,9 +33,11 @@ ul.list {
         width: $smallThumbSize;
         height: $smallThumbSize;
         border-radius: 50%;
+        display: inline-block;
         + div {
           padding-left: $padding;
           width: calc(100% - #{$smallThumbSize});
+          display: inline-block;
         }
       }
     }
@@ -68,6 +74,11 @@ ul.list {
   overflow: hidden;
   background-size: cover;
   position: relative;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+    width: 90vw;
+    height: auto;
+  }
   img {
     width: 100%;
     height: 100%;
@@ -108,6 +119,12 @@ ul.list {
   padding-left: 4 * $padding;
   display: inline-block;
   width: calc(100% - #{$largeThumbSize});
+  min-height: $largeThumbSize;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+    width: 100vw;
+    padding: $padding;
+  }
   h3 a {
     text-decoration: none;
   }

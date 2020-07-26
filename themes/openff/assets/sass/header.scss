@@ -1,3 +1,44 @@
+.menu-button, .menu-back, .menu-home {
+  display: none;
+}
+@media (max-width: $breakpoint-phone) {
+  .menu-button {
+    position: fixed !important;
+    display: block;
+    left: calc(1rem + 3px);
+    top: calc(1rem + 3px);
+    z-index: 11;
+    cursor: pointer;
+    svg {
+      fill: white;
+    }
+  }
+  .menu-home {
+    display: block;
+  }
+  .menu-back {
+    display: block;
+    position: fixed;
+    left: -100vw;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(#FFF, 0.7);
+    z-index: 7;
+    transition: opacity 0.3s 0.3s, left 0s 1s;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .menu-show {
+    .menu-back {
+      transition: opacity 0.3s, left 0s;
+      left: 0;
+      z-index: 7;
+      opacity: 1;
+    }
+    overflow: hidden;
+  }
+}
 header {
   position: fixed;
   top: 0;
@@ -7,6 +48,27 @@ header {
   font-family: MenuFont;
   font-size: 1.14rem;
   padding: 0 2*$padding;
+  @media (max-width: $breakpoint-phone) {
+    width: 90vw;
+    height: 100vh;
+    left: -100vw;
+    transition: left 0.5s;
+    overflow: auto;
+    padding: 0;
+    &:after {
+      display: none;
+    }
+    .menu-show & {
+      left: 0;
+      z-index: 10;
+    }
+    .logo {
+      display: none;
+    }
+    li {
+      display: block !important;
+    }
+  }
   @each $color, $colorObject in $colors {
     [data-color="#{$color}"] & {
       background: linear-gradient(180deg, #{color($color, 'gradient-start')} 0%, #{color($color, 'gradient-end')} 100vh);
@@ -24,16 +86,37 @@ header {
   }
   nav {
     display: inline-block;
+    @media (max-width: $breakpoint-phone) {
+      display: block;
+    }
     ul {
       list-style: none;
       margin: 0;
       padding-left: $padding;
+      @media (max-width: $breakpoint-phone) {
+        padding-left: 0;
+        ul li {
+          padding: 0.5 * $padding;
+          height: auto;
+          font-size: 0.9em;
+          border-top: none;
+          padding-left: 6*$padding !important;
+        }
+        li {
+          border-top: solid 2px white;
+          padding-left: 4*$padding !important;
+        }
+        li:first-child {
+          border-top: none;
+        }
+      }
       li {
         padding: $padding;
         display: inline-block;
         margin-top: 2px;
         height: calc(#{$padding} + #{$header-height});
         transition: background-color 0.5s;
+        vertical-align: top;
         &.active, &:hover {
           @each $color, $colorObject in $colors {
             [data-color="#{$color}"] & {
@@ -47,12 +130,29 @@ header {
               }
             }
           }
+          @media (max-width: $breakpoint-phone) {
+            background-color: transparent !important;
+            a {
+              color: #FFF !important;
+              &:before {
+                content: '> ';
+              }
+            }
+          }
         }
         a {
-          color: #FFF;
+          color: rgba(#FFF, 0.7);
           text-decoration: none;
           position: relative;
           display: inline-block;
+          @media (max-width: $breakpoint-phone) {
+            &.active {
+              color: #FFF;
+              &:before {
+                content: '> ';
+              }
+            }
+          }
         }
       }
     }
@@ -67,17 +167,31 @@ header {
     }
   }
 }
+.submenus-mobile {
+  display: none;
+  @media (max-width: $breakpoint-phone) {
+    .menu-show & {
+      display: block;
+    }
+  }
+}
 .submenus {
   position: fixed;
   top: calc(#{$padding} + #{$header-height});
   width: 100%;
   z-index: 7;
+  @media (max-width: $breakpoint-phone) {
+    display: none;
+  }
   &.active + div {
-    margin-top: calc(#{$padding} + #{$header-height} - 2px);
-    padding-top: calc(#{2*$padding} + #{$header-height});
   }
   + div {
     padding-bottom: 2 * $padding;
+    padding-top: calc(#{2*$padding} + #{$header-height});
+    margin-top: calc(#{$padding} + #{$header-height} - 2px);
+    @media (max-width: $breakpoint-phone) {
+      margin-top: 0;
+    }
   }
   .submenu {
     position: absolute;
@@ -173,6 +287,11 @@ header {
   h3 + h1 {
     padding-top: 0;
   }
+  @media (max-width: $breakpoint-phone) {
+    h3 {
+      text-align: center;
+    }
+  }
   h1 + h3 {
     padding-bottom: 2 * $padding;
   }
@@ -198,6 +317,10 @@ header {
   position: sticky;
   top: calc(#{2*$padding} + #{2*$header-height} - 4px);
   z-index: 6;
+  @media (max-width: $breakpoint-phone) {
+    position: relative;
+    top: 0;
+  }
   > div {
     background-color: rgba(1, 81, 125, 0.5);
     color: #FFF;
@@ -205,6 +328,10 @@ header {
     padding: $padding 2*$padding;
     > div {
       display: inline-block;
+      @media (max-width: $breakpoint-phone) {
+        display: block;
+        padding: 0.5*$padding;
+      }
       padding-right: 1*$padding;
       text-transform: uppercase;
       b {

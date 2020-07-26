@@ -25,7 +25,7 @@ html, body {
   position: absolute;
   top: 0;
   @media (max-width: $breakpoint-phone) {
-    font-size: 1.9vw;
+    font-size: 4vw;
   }
   @media (min-width: $breakpoint-hd) {
     font-size: 16px;
@@ -139,6 +139,13 @@ blockquote {
   .center &, .home & {
     min-width: 15rem;
     margin: 0 0.5 * $padding;
+  }
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+    margin: auto;
+    + .button {
+      margin-top: 5px;
+    }
   }
 }
 .foldopen {

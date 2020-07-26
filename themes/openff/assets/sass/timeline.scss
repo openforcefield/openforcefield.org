@@ -1,4 +1,5 @@
 $timeline_height: 60rem;
+$timeline_height_mobile: 100vh;
 .timeline {
   @each $color, $colorObject in $colors {
     [data-color="#{$color}"] & {
@@ -7,9 +8,15 @@ $timeline_height: 60rem;
   }
   width: 100%;
   position: relative;
+  @media (max-width: $breakpoint-phone) {
+    width: 300vw;
+  }
   .timeline-scrollarea {
     white-space: nowrap;
     padding: $padding 10*$padding;
+    @media (max-width: $breakpoint-phone) {
+      padding: $padding 4*$padding;
+    }
     overflow: auto;
     position: relative;
   }
@@ -22,6 +29,25 @@ $timeline_height: 60rem;
   @each $color, $colorObject in $colors {
     [data-color="#{$color}"] & {
       background-color: color($color, 'primary');
+    }
+  }
+  .timeline-year-up-title, .timeline-year-down-title {
+    position: absolute;
+    top: 0.5 * $timeline_height;
+    @media (max-width: $breakpoint-phone) {
+      top: 0.5 * $timeline_height_mobile;
+    }
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    margin-left: -0.5rem;
+    font-size: 0.7rem;
+  }
+  .timeline-year-down-title {
+    width: 30rem;
+    top: calc(#{$timeline_height} / 2 + 32rem);
+    text-align: right;
+    @media (max-width: $breakpoint-phone) {
+      top: calc(#{$timeline_height_mobile} / 2 + 32rem);
     }
   }
   .timeline-item {
@@ -82,6 +108,10 @@ $timeline_height: 60rem;
     width: 30vw;
     padding: $padding;
     height: $timeline_height;
+    @media (max-width: $breakpoint-phone) {
+      height: $timeline_height_mobile;
+      width: 100vw;
+    }
     .timeline-year-up {
       position: relative;
       height: calc(50% - 1rem);
@@ -154,8 +184,15 @@ $timeline_height: 60rem;
     margin-top: 3rem;
     transform: translateX(-50%);
     top: $timeline_height;
+    @media (max-width: $breakpoint-phone) {
+      left: 50vw;
+      top: $timeline_height_mobile;
+    }
   }
   .timeline-gradient {
+    @media (max-width: $breakpoint-phone) {
+      display: none;
+    }
     position: absolute;
     z-index: 2;
     right: 0;

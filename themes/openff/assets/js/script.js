@@ -28,6 +28,12 @@ $(document).ready(function () {
     var container = $(this).closest('.foldopen');
     container.removeClass('opened opening');
   })
+  $('.menu-button').click(function () {
+    $('body').toggleClass('menu-show');
+  })
+  $('.menu-back').click(function () {
+    $('body').removeClass('menu-show');
+  })
 })
 $(window).on('load', function () {
   resizeFooter()
@@ -61,7 +67,6 @@ function setHash() {
   $('[data-filter]').each(function () {
     var exclude = $(this).closest('[data-exclude]').attr('data-exclude');
     if (exclude) exclude = exclude.split(',');
-    console.log(exclude)
     var filters = $(this).attr('data-filter').split(',');
     var found = !!!hash
     for (var i in filters) {

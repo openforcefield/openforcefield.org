@@ -7,6 +7,12 @@
 {{ end }}
 {{ $base := . }}
 <div class="timeline-scrollarea">
+  <div class="timeline-year-up-title">
+    {{ $base.Get "vertical-top-title" }}
+  </div>
+  <div class="timeline-year-down-title">
+    {{ $base.Get "vertical-bottom-title" }}
+  </div>
 {{ range .Scratch.Get "data" }}
     <div class="timeline-year">
       <div class="timeline-year-up">
