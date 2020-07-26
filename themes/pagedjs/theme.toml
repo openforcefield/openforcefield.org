@@ -1,0 +1,11 @@
+name = "Paged.js Plugin"
+license = "MIT"
+licenselink = "LICENSE"
+description = "Make PDF with hugo in the browser, using paged.js"
+homepage = "https://github.com/holehan/hugo-component-matomo"
+tags = ["Paged.js", "PrintCSS", "documentation", "PDF", "Publishing"]
+min_version = "0.60"
+
+[author]
+  name = "julien taquet"
+  homepage = "who needs a website anyway?"

@@ -35,6 +35,9 @@ footer {
     &.footer-right {
       white-space: nowrap;
       font-weight: bold;
+      @media (max-width: $breakpoint-phone) {
+        padding-top: 1rem;
+      }
       .footer-icon {
         display: inline-block;
         margin-top: $padding;
@@ -79,6 +82,12 @@ footer {
   }
   > * {
     vertical-align: middle;
+    @media (max-width: $breakpoint-phone) {
+      text-align: center;
+      > a:not(.footer-has-child) {
+        padding-top: 1rem;
+      }
+    }
   }
   a {
     display: block;
@@ -89,6 +98,9 @@ footer {
       font-weight: 400;
       + a:not(.footer-has-child) {
         padding-top: 1.3rem;
+        @media (max-width: $breakpoint-phone) {
+          padding-top: 0;
+        }
       }
     }
   }

@@ -1,0 +1,33 @@
+{{ $pagedjsStyle := resources.Get "css/pagedjs/pagedjs.css" | minify  | resources.Fingerprint "md5" }}
+<link rel="stylesheet" href="{{ $pagedjsStyle.Permalink }}" integrity="{{ $pagedjsStyle.Data.Integrity }}">
+
+{{ $print := resources.Get "css/pagedjs/print.css" | minify  | resources.Fingerprint "md5" }}
+<link rel="stylesheet" href="{{ $print.Permalink }}" integrity="{{ $print.Data.Integrity }}">
+
+{{ $interface := resources.Get "css/pagedjs/interface.css" | minify  | resources.Fingerprint "md5" }}
+<link rel="stylesheet" href="{{ $interface.Permalink }}" integrity="{{ $interface.Data.Integrity }}">
+
+<!-- {{/*  set up paged.js polyfill to preview the print version  */}} -->
+
+{{ $pagedjs := resources.Get "js/paged.polyfill.js" | resources.Fingerprint "md5" }}
+<script src="{{ $pagedjs.Permalink }}" type="module" type="application/javascript"></script>
+
+<script>
+    window.PagedConfig = {
+        auto: false
+    };
+
+    window.addEventListener("load", function () {
+        if (document.querySelector('#print')) {
+            document.querySelector('#print').addEventListener("click", preview);
+        }
+    });
+
+
+   async function preview() {
+        await window.PagedPolyfill.preview();
+        window.print();
+
+    }
+
+</script>
