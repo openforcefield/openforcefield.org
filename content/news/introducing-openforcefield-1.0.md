@@ -186,7 +186,7 @@ Two sets of small organic molecules were used to generate the quantum chemical d
 
 **Roche Set (468 small molecules)**
 The **Roche Set** contains 468 small fragment-sized molecules (most with at most a single rotatable bond) provided by Roche, and focuses on small molecule fragments viewed as important and/or containing interesting chemistries.
-A visualization of the full set is available [here](https://github.com/openforcefield/qca-dataset-submission/blob/master/2019-05-01-OpenFF-Group1-Torsions/optimization_inputs.pdf).
+A visualization of the full set is available [here](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-05-01-OpenFF-Group1-Torsions/optimization_inputs.pdf).
 
 <center>
 ![alt text](coverage-set-examples.png "An illustrative subset of example molecules from the Coverage Set")
@@ -194,7 +194,7 @@ A visualization of the full set is available [here](https://github.com/openforce
 
 **Coverage Set (80 molecules)**
 The **Coverage Set** contains 80 molecules, and was selected from a subset of [eMolecules](https://www.emolecules.com/info/plus/download-database) using a greedy algorithm aimed at providing parameter coverage for the maximum number of parameters using the minimum number of molecules.
-A visualization of the full set is available [here](https://github.com/openforcefield/qca-dataset-submission/blob/master/2019-06-25-smirnoff99Frost-coverage/optimization_inputs.pdf).
+A visualization of the full set is available [here](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-06-25-smirnoff99Frost-coverage/optimization_inputs.pdf).
 
 Construction of the original coverage set is described [here](https://github.com/openforcefield/open-forcefield-data/tree/master/Utilize-All-Parameters) and then additional supplemental molecules were added manually [as described here](https://github.com/openforcefield/open-forcefield-data/tree/master/Utilize-All-Parameters/supplement_molecules) to cover remaining gaps.
 This process also resulted in the identification of issues with the hierarchy of SMIRKS patterns in [smirnoff99Frosst](https://github.com/openforcefield/smirnoff99Frosst) (first in version 1.0.9, but then some issues were fixed and incorporated in the 1.1.0 release, so we built on that here), because we found it was impossible to utilize some parameters even on very large molecule sets. To remedy this, we moved parameter `a21` (`[*:1]~[#7X2:2]~[*:3]`) above the more specific `a17` (`[*:1]-[#7X4,#7X3,#7X2-1:2]-[*:3]`) before refitting, and adding `a34a` (`[*:1]=[#16X2:2]=[#8:3]`) and `t155b` (`[*:1]~[#7:2]=[#15:3]~[*:4]`) to cover certain chemistry which we did not originally cover.
@@ -208,7 +208,7 @@ Most un-covered parameters involved relatively unusual chemistry such as (parame
 We were missing coverage of four torsions, including the relatively generic `t58` (probably because more specialized SMIRKS patterns cover all of the common occurrences of this), and the more specialized `t60`, `t131`, and `t103`.
 If these parameters are to be retained, we will likely need to prioritize covering them for subsequent releases.
 
-For the Coverage Set, both [optimization](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-06-25-smirnoff99Frost-coverage) and [torsion drive datasets](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-07-01-smirnoff99Frost-coverage-torsion) were constructed from this set.
+For the Coverage Set, both [optimization](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-06-25-smirnoff99Frost-coverage) and [torsion drive datasets](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-07-01-smirnoff99Frost-coverage-torsion) were constructed from this set.
 
 These sets were utilized in this round of fits not because we considered them most representative of the chemistry of interest, but because they exercised the vast majority of our parameters and the data was ready when it was time for fitting for this release.
 Future force field releases will invest more effort in ensuring training data is broadly representative of the chemical space of interest and has a significant number of occurrences of all parameters.  
@@ -226,7 +226,7 @@ The [QCArchive documentation](https://qcarchivetutorials.readthedocs.io/en/lates
 
 | **input molecules** | **Roche Set** (468 molecules) | **Coverage Set** (80 molecules) |
 |:--------------------|:------------------------------|:-------------------------------|
-| **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-05-16-Roche-Optimization_Set) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-06-25-smirnoff99Frost-coverage) |
+| **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-05-16-Roche-Optimization_Set) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-06-25-smirnoff99Frost-coverage) |
 | **QCArchive `OptimizationDataset` name** | `OpenFF Optimization Set 1` | `SMIRNOFF Coverage Set 1` |
 | **Number of optimized geometries** | 936 | 831 |
 
@@ -253,7 +253,7 @@ The proper torsion angles are not fitted as part of the optimized geometry fitti
 
 | **input molecules** | **Roche Set** (468 molecules) | **Coverage Set** (80 molecules) |
 |:--------------------|:------------------------------|:-------------------------------|
-| **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-07-09-OpenFF-Optimization-Set) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-06-25-smirnoff99Frost-coverage) |
+| **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-07-09-OpenFF-Optimization-Set) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-06-25-smirnoff99Frost-coverage) |
 | **QCArchive `OptimizationDataset` name** | `OpenFF Optimization Set 1` | `SMIRNOFF Coverage Set 1` |
 | **Number of vibrational datasets** | 660 | 235 |
 
@@ -268,7 +268,7 @@ During the fitting, the MM Hessian is computed by evaluating forces with numeric
 
 | **input molecules** | **Roche Set** (468 molecules) | **Coverage Set** (80 molecules) |
 |:--------------------|:------------------------------|:-------------------------------|
-| **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-05-01-OpenFF-Group1-Torsions) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-07-01-smirnoff99Frost-coverage-torsion) |
+| **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-05-01-OpenFF-Group1-Torsions) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-07-01-smirnoff99Frost-coverage-torsion) |
 | **QCArchive `OptimizationDataset` name** | `OpenFF Group1 Torsions` | `SMIRNOFF Coverage Torsion Set 1` |
 | **Number of 1D torsion drives** | 669 | 417 |
 
@@ -430,8 +430,8 @@ The first of these is the `OpenFF Discrepancy Benchmark 1` dataset.
 This contains some 2802 unique molecules (19 712 conformers) resulting from the work of [Ehrman et al.](http://dx.doi.org/10.5281/zenodo.3385278) in the [Mobley lab](https://mobleylab.org/), which energy minimized all of eMolecules in several different force fields and then extracted molecules with geometries which were significantly different across force fields. This particular subset, as described in our [dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/5105bb950183392dea208684b0889f29e311d2ee/2019-07-05%20eMolecules%20force%20field%20discrepancies%201), focuses on fragment-like molecules with geometries which are substantially different in `smirnoff99Frosst` 1.0.8 relative to GAFF, GAFF2, and MMFF94 and 94s. As the full set of eMolecules was still in process, this represents the first 2802 molecules with significant discrepancies identified in this study, with the full set becoming available later.
 
 While this set was rather diverse and, based on inspection, chemically interesting, it also seemed to overrepresent certain chemistry (e.g. Br occurs more than one might expect), so we were concerned that this might not be representative of our target chemistry. Thus, to ensure sets were representative of the chemistry of interest, we generated two additional sets for benchmarking:
-* Xinjun Hou and Brajesh Rai at Pfizer provided 100 challenging small molecule fragments where Pfizer’s QM calculations of torsional profiles differed substantially from OPLS3e, as further discussed [in our dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-07-Pfizer-discrepancy-optimization-dataset-1). After enumeration of conformers, we ran geometry optimizations and torsional scans, utilizing the geometry optimizations in this work as our `Pfizer Discrepancy Optimization Dataset 1`.
-* The [ZINC15 FDA dataset](http://zinc.docking.org/substances/subsets/fda/) formed the basis of our final set, and we filtered to remove molecules with fewer than 3 or more than 55 heavy atoms, as well as removing metals and only allowing molecules containing the elements H, C, N, O, F, P, S, Cl, Br, I and B. After conformer generation this resulted in 1038 molecules and 6675 conformers, as further discussed on our [dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-08-fda-optimization-dataset-1). This resulted in our `FDA Optimization Dataset 1`.
+* Xinjun Hou and Brajesh Rai at Pfizer provided 100 challenging small molecule fragments where Pfizer’s QM calculations of torsional profiles differed substantially from OPLS3e, as further discussed [in our dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-09-07-Pfizer-discrepancy-optimization-dataset-1). After enumeration of conformers, we ran geometry optimizations and torsional scans, utilizing the geometry optimizations in this work as our `Pfizer Discrepancy Optimization Dataset 1`.
+* The [ZINC15 FDA dataset](http://zinc.docking.org/substances/subsets/fda/) formed the basis of our final set, and we filtered to remove molecules with fewer than 3 or more than 55 heavy atoms, as well as removing metals and only allowing molecules containing the elements H, C, N, O, F, P, S, Cl, Br, I and B. After conformer generation this resulted in 1038 molecules and 6675 conformers, as further discussed on our [dataset repository](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-09-08-fda-optimization-dataset-1). This resulted in our `FDA Optimization Dataset 1`.
 
 Additional datasets will likely be warranted in the future, but the set of FDA approved drugs certainly provides a reasonable starting point for chemistry of interest.
 
@@ -447,7 +447,7 @@ Division into these two sets was done based on path-based fingerprint similarity
 
 | **input molecules** | **Discrepancy Set** (2802 molecules) | **Pfizer Set** (100 molecules) | **FDA drugs set** (1038 molecules) |
 |:--------------------|:------------------------------|:-------------------------------|:------------------|
-| **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-07-05%20eMolecules%20force%20field%20discrepancies%201) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-07-Pfizer-discrepancy-optimization-dataset-1) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/master/2019-09-08-fda-optimization-dataset-1) |
+| **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-07-05%20eMolecules%20force%20field%20discrepancies%201) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-09-07-Pfizer-discrepancy-optimization-dataset-1) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-09-08-fda-optimization-dataset-1) |
 | **QCArchive `OptimizationDataset` name** | `OpenFF Discrepancy Benchmark 1` | `Pfizer Discrepancy Optimization Dataset 1` | `FDA Optimization Dataset 1` |
 | **Number of optimized geometries** | 19479 | 352 | 5410 |
 
