@@ -178,7 +178,7 @@
     pages: 244116
     year: 2020
     date: 2020-06-25
-  github: https://github.com/lpwgroup/torsiondrive/
+  github: lpwgroup/torsiondrive/
 - title: "Benchmark Assessment of Molecular Geometries and Energies from Small Molecule Force Fields"
   authors: "Victoria T. Lim and David L. Mobley"
   summary: "In this work, we aim to compare six force fields: GAFF, GAFF2, MMFF94, MMFF94S, SMIRNOFF99Frosst, and the openff-1.0.0 (Parsley) force field by focusing on small molecules (< 50 heavy atoms). On a dataset comprising over 26,000 molecular structures, we analyzed their force field-optimized geometries and conformer energies compared to reference quantum mechanical (QM) data. We show that most of these force fields are comparable in accuracy at reproducing gas-phase QM geometries and energetics, but that GAFF/GAFF2/Parsley do slightly better in reproducing QM energies and that MMFF94/MMFF94S perform slightly better in geometries. Parsley shows considerable improvement over its predecessor SMIRNOFF99Frosst, and we identify particular outlying chemical groups for further force field improvement."
@@ -189,4 +189,4 @@
     url: https://doi.org/10.26434/chemrxiv.12551867.v1
     license: "CC BY 4.0"
     date: 2020-06-24
-  github: https://github.com/MobleyLab/benchmarkff
+  github: MobleyLab/benchmarkff
