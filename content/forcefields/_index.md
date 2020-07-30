@@ -41,7 +41,7 @@ Performance should be particularly improved on phosphonate groups, molecules wit
 | [Initial benchmark](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.2.0) | [SMI](https://github.com/openforcefield/release-1-benchmarking/releases/download/v1.0.0/full_set_unique_molecules.smi) | [PDF](https://github.com/openforcefield/release-1-benchmarking/releases/download/v1.0.0/full_set_unique_molecules.pdf) | [Release tarball](https://github.com/openforcefield/release-1-benchmarking/releases/download/v1.0.0/release-1-QM-benchmark.tar.gz) |
 | [Lim and Mobley benchmark (preliminary)](https://chemrxiv.org/articles/Benchmark_Assessment_of_Molecular_Geometries_and_Energies_from_Small_Molecule_Force_Fields/12551867/1) | [SMI](https://github.com/MobleyLab/benchmarkff/blob/f41753c7392ac1b979797917cdfba3748e99a4fe/molecules/set/full_opt_benchmark1.smi?raw=true)  | [PDF](https://github.com/MobleyLab/benchmarkff/blob/f41753c7392ac1b979797917cdfba3748e99a4fe/molecules/set/full_opt_benchmark1.pdf)   | [SDF](https://github.com/MobleyLab/benchmarkff/blob/f41753c7392ac1b979797917cdfba3748e99a4fe/molecules/set/full_opt_benchmark1.sdf?raw=true) |
 
-* The SMILES and PDF-format records are entirely derived from the structure files and may be updated without notice. If discrepancies are found, the structure files shoud be considered the authoritative reference.  
+* The SMILES and PDF-format records are entirely derived from the structure files and may be updated without notice. If discrepancies are found, the structure files should be considered the authoritative reference.  
 
 
 <a id="parsley110"></a>
