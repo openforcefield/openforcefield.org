@@ -24,16 +24,24 @@ python -c "from openforcefield.typing.engines.smirnoff import ForceField; ff = F
 # Open Force Field 1.2 Parsley Update
 
 [![Version](https://img.shields.io/badge/release-1.2.0-BLUE.svg)](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.2.0)
-![Status: Released](https://img.shields.io/badge/status-released-yellow.svg?style=flat)
+![Status: Benchmarked](https://img.shields.io/badge/status-benchmarked-green.svg?style=flat)
 [![License: CC-BY 4.0](https://img.shields.io/github/license/openforcefield/openforcefields.svg?style=flat)](https://creativecommons.org/licenses/by/4.0/)
 
 
 This release contains a new, carefully designed quantum chemical dataset used in training valence parameters in the force field.
 Performance should be particularly improved on phosphonate groups, molecules with a single bond between a divalent nitrogen and a trivalent nitrogen, and tetrazoles/conjugated N-N bonds
 
-
-[[Fitting]](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.2.0) |
 [[Parameters]](https://github.com/openforcefield/openforcefields/tree/1.2.0/openforcefields/offxml)
+
+
+
+| Dataset | SMILES* | PDF* | Structures |
+|---------|--------|-----|------------|
+| [Fitting](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.2.0) | [SMI](https://github.com/openforcefield/openforcefield-forcebalance/releases/download/v1.2.0/training_unique_molecules.smi) | [PDF](https://github.com/openforcefield/openforcefield-forcebalance/releases/download/v1.2.0/training_unique_molecules.pdf) | [Release tarball](https://github.com/openforcefield/openforcefield-forcebalance/releases/download/v1.2.0/release_1.2.0.tar.gz) |
+| [Initial benchmark](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.2.0) | [SMI](https://github.com/openforcefield/release-1-benchmarking/releases/download/v1.0.0/full_set_unique_molecules.smi) | [PDF](https://github.com/openforcefield/release-1-benchmarking/releases/download/v1.0.0/full_set_unique_molecules.pdf) | [Release tarball](https://github.com/openforcefield/release-1-benchmarking/releases/download/v1.0.0/release-1-QM-benchmark.tar.gz) |
+| [Lim and Mobley benchmark (preliminary)](https://chemrxiv.org/articles/Benchmark_Assessment_of_Molecular_Geometries_and_Energies_from_Small_Molecule_Force_Fields/12551867/1) | [SMI](https://github.com/MobleyLab/benchmarkff/blob/f41753c7392ac1b979797917cdfba3748e99a4fe/molecules/set/full_opt_benchmark1.smi?raw=true)  | [PDF](https://github.com/MobleyLab/benchmarkff/blob/f41753c7392ac1b979797917cdfba3748e99a4fe/molecules/set/full_opt_benchmark1.pdf)   | [SDF](https://github.com/MobleyLab/benchmarkff/blob/f41753c7392ac1b979797917cdfba3748e99a4fe/molecules/set/full_opt_benchmark1.sdf?raw=true) |
+
+* The SMILES and PDF-format records are entirely derived from the structure links. If discrepancies are found, the structure files shoud be considered the authoritative reference.  
 
 
 <a id="parsley110"></a>
