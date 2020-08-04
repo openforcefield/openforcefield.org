@@ -36,17 +36,28 @@ We have released all datasets and open source code for the community to reproduc
 
 ## Major contributors
 
-Many individuals form the [Open Force Field Initiative](http://openforcefield.org/members) contributed to the construction of data sets, infrastructure, parameterization, and benchmarks for this first force field release.
-While a full list of contributors is forthcoming, the following scientists made particularly crucial contributions to the development of Parsley:
+Many individuals form the [Open Force Field Initiative](http://openforcefield.org/members) contributed to the construction of data sets, infrastructure, parameterization, and benchmarks for this first force field release. We would like to thank to our entire team for their hard work, our industry partners for their support and helpful feedback, and many others who have joined numerous scientific discussions which  preceded this release.
+
+The following scientists made particularly crucial contributions to the development of Parsley:
 
 * [Yudong Qiu](https://orcid.org/0000-0003-4345-8356) (UC Davis)
+* [Daniel G. A. Smith](https://orcid.org/0000-0001-8626-0900) (MolSSI)
 * [Simon Boothroyd](https://orcid.org/0000-0002-3456-1872) (MSKCC)
-* [Jeff Wagner](https://orcid.org/0000-0001-6448-0873) (UCI)
-* [Andrea Rizzi](https://orcid.org/0000-0001-7693-2013) (MSKCC)
-* [Daniel Smith](https://orcid.org/0000-0001-8626-0900) ([MolSSI](http://molssi.org))
-* [Chaya Stern](https://orcid.org/0000-0001-6200-3993) (MSKCC)
+* [Jeffrey Wagner](https://orcid.org/0000-0001-6448-0873) (UC Irvine)
+* [Caitlin C. Bannan](https://orcid.org/0000-0003-2777-1174) (UC Irvine)
+* [Trevor Gokey](https://orcid.org/0000-0001-7856-1156) (UC Irvine)
 * [Hyesu Jang](https://orcid.org/0000-0002-1697-2918) (UC Davis)
+* [Victoria T. Lim](https://orcid.org/0000-0003-4030-9312) (UC Irvine)
+* [Chaya Stern](https://orcid.org/0000-0001-6200-3993) (MSKCC)
+* [Xavier Lucas](https://orcid.org/0000-0003-0887-3976) (F. Hoffmann-La Roche AG)
+* Bryon Tjanaka (UC Irvine)
+* [Michael R. Shirts](https://orcid.org/0000-0003-3249-1097) (CU Boulder)
+* [Michael K. Gilson](https://orcid.org/0000-0002-3375-1738) (UC San Diego)
+* [John D. Chodera](https://orcid.org/0000-0003-0542-119X) (MSKCC)
+* [Christopher I. Bayly](https://orcid.org/0000-0001-9145-6457) (OpenEye Scientific Inc.)
+* [David L. Mobley](https://orcid.org/0000-0002-1083-5533) (UC Irvine)
 * [Lee-Ping Wang](https://orcid.org/0000-0003-3072-9946) (UC Davis)
+
 
 ## Table of Contents
 
@@ -84,10 +95,10 @@ This specific force field also has a DOI on Zenodo, which can be used when citin
 <a id="citing-parsley"></a>
 ## Citing Parsley
 
-We recommend that this force field be referred to as the “Open Force Field (OpenFF) Parsley Force Field (v1.0.0)” on first reference, and “Parsley” thereafter. Bug fix/patch releases in the OpenFF 1.0 series will also be referred to as Parsley, with more major versions receiving updated codenames.
+We recommend that this force field be referred to as the “Open Force Field v.1.0.0 – Parsley” on first reference, and OpenFF 1.0.0 or “Parsley” thereafter. Bug fix/patch releases in the OpenFF 1.0 series will also be referred to as Parsley, while major versions will receive updated codenames.
 
-To cite Parsley, please cite the DOI for the force field version you use (available in the `openforcefields` repository). Our [latest DOI is available](https://zenodo.org/badge/latestdoi/206618274
-). Please also cite our preprint/paper once available.
+To cite Parsley, please cite the DOI for the force field version you use (available in the `openforcefields` [repository](https://github.com/openforcefield/openforcefields/releases)). Our latest force field release DOI is available [here](https://zenodo.org/badge/latestdoi/206618274). The full reference should include a force field DOI and a publication record. The latter refers to our preprint/paper once available, but in the meantime, please use [Zenodo DOI assigned to this blog post](https://doi.org/10.5281/zenodo.3963295) as a source of additional information. You can export citation reference by clicking on a preferred format in the bottom right page corner of the relevant Zenodo record (force field + blog post). We will update this post once a preprint and peer-reviewed publications become available.
+
 
 <a id="fitting-force-fields-with-forcebalance"></a>
 ## Fitting force fields with ForceBalance
