@@ -49,6 +49,7 @@ The following scientists made particularly crucial contributions to the developm
 * [Hyesu Jang](https://orcid.org/0000-0002-1697-2918) (UC Davis)
 * [Victoria T. Lim](https://orcid.org/0000-0003-4030-9312) (UC Irvine)
 * [Chaya Stern](https://orcid.org/0000-0001-6200-3993) (MSKCC)
+* [Andrea Rizzi](https://orcid.org/0000-0001-7693-2013) (MSKCC)
 * [Xavier Lucas](https://orcid.org/0000-0003-0887-3976) (F. Hoffmann-La Roche AG)
 * Bryon Tjanaka (UC Irvine)
 * [Michael R. Shirts](https://orcid.org/0000-0003-3249-1097) (CU Boulder)
