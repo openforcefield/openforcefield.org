@@ -35,7 +35,7 @@ Assessed force fields:
 
 The energies were compared by calculating the relative energy differences ($$ddE$$) between the force field (FF) and quantum mechanical (QM) energies of a conformer $$i$$, relative to the lowest QM conformer 0:
 
-$$ddE_i = dE_{FF,j}-dE_{QM,i}=(E_{FF,i}-E_{FF,0})-(E_{QM,i}-E_{QM,0})$$
+$$ddE_i = dE_{FF,i}-dE_{QM,i}=(E_{FF,i}-E_{FF,0})-(E_{QM,i}-E_{QM,0})$$
 
 For an ideal force field, the $$ddE$$ of all conformers would be zero, meaning the FF reproduces correctly the QM relative energies between conformers. The following graph shows the $$ddE$$ distributions for the set of conformers, as obtained for the four latest force fields of each family (other FF curves left out for clarity):
 
