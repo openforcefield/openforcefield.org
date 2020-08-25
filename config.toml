@@ -1,4 +1,4 @@
-baseURL = "https://vanleeuwen.studio/openff/"
+baseURL = "https://openforcefield.org/"
 languageCode = "en-us"
 title = "OpenFF"
 theme = "openff"
