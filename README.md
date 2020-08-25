@@ -1,5 +1,5 @@
 # Open Force Field Initiative website source
- 
+
 This website is hosted by [GitHub Pages](https://pages.github.com/) at http://openforcefield.org . The website content is in the `gh-pages` branch of this repo.
 
 ## Making changes
