@@ -3,14 +3,14 @@ language: go
 go:
     - 1.14.x
 
-#addons:
-# snaps:
-#  - name: hugo
-#    channel: extended/stable
+addons:
+ snaps:
+  - name: hugo
+    channel: extended/stable
 
-install:
-    - export GO111MODULE=on
-    - go get github.com/gohugoio/hugo-extended@v0.74.3
+#install:
+#    - export GO111MODULE=on
+#    - go get github.com/gohugoio/hugo_extended@v0.74.3
    
 before_script:
     - rm -rf public 2> /dev/null
