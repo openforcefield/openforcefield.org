@@ -3,9 +3,11 @@ language: go
 go:
     - 1.14.x
 
-install:
-    - export GO111MODULE=on
-    - go get github.com/gohugoio/hugo
+addons:
+ snaps:
+  - name: hugo
+    channel: extended/stable
+   
 
 before_script:
     - rm -rf public 2> /dev/null
