@@ -1,0 +1,218 @@
+/* main {
+  min-height: calc(100vh - #{$footer-height});
+}
+.submenus.active ~ main {
+  min-height: calc(100vh - #{$footer-height} - 3.4rem);
+}
+.subheader ~ main {
+  min-height: calc(100vh - #{$footer-height} - #{$subheader-height});
+}
+.submenus.active ~ .subheader ~ main {
+  min-height: calc(100vh - #{$footer-height} - 3.4rem - #{$subheader-height});
+}
+.subheader ~ .subheader-menu ~ main {
+  min-height: calc(100vh - #{$footer-height} - #{$subheader-height} - 3.2rem);
+}
+.submenus.active ~ .subheader ~ .subheader-menu ~ main {
+  min-height: calc(100vh - #{$footer-height} - 3.4rem - #{$subheader-height} - 3.2rem);
+} */
+main {
+  z-index: 1;
+  position: relative;
+  @media (max-width: $breakpoint-phone) {
+    body:not(.full-width) & {
+      padding-left: $padding;
+      padding-right: $padding;
+    }
+  }
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"].full-color & {
+      background-color: color($color, 'primary');
+    }
+  }
+  &.single, &.list {
+    background-color: #FFF;
+  }
+  hr {
+    border: none;
+    height: 2px;
+    margin:30px 0;
+    width: 100%;
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        background-color: color($color, 'gray');
+      }
+    }
+  }
+  h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2*$padding 0;
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        color: color($color, 'primary');
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  h2 {
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        color: color($color, 'primary');
+      }
+    }
+    font-size: 1.4rem;
+    margin: $padding auto;
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        color: color($color, 'primary');
+      }
+    }
+    [data-color="red"] & {
+
+      margin-bottom: 2 * $padding;
+    }
+  }
+  h2 a {
+        text-decoration: none;
+  }
+  h3 {
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        color: color($color, 'primary');
+      }
+    }
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  h4 {
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        color: color($color, 'secondary');
+      }
+    }
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600
+  }
+  h5 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  h6 {
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        color: color($color, 'highlight');
+      }
+    }
+    font-size: 1rem;
+    margin: $padding auto;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      padding-left: 2em;
+      &:before {
+        content: "—";
+        position: absolute;
+        margin-left: -2em;
+        @each $color, $colorObject in $colors {
+          [data-color="#{$color}"] & {
+            color: color($color, 'highlight');
+          }
+        }
+        padding-right: 0.5*$padding;
+      }
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+  .two-columns {
+    img {
+      width: 50%;
+      display: inline-block;
+    }
+    > ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(50%, 1fr));
+      @media (max-width: $breakpoint-phone) {
+        display: block;
+      }
+    }
+  }
+  > * {
+    max-width: 60rem;
+    margin: auto;
+    .full-width & {
+      max-width: 100%;
+    }
+  }
+  > ul {
+    max-width: 80rem;
+  }
+  .full-color & {
+    color: #FFF;
+    h1 {
+      color: #FFF;
+    }
+  }
+}
+.sections {
+  display: flex;
+  max-width: 70rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 5vh;
+  align-items: start;
+  justify-content: center;
+  z-index: 1;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    @media (max-width: $breakpoint-phone) {
+      display: block;
+    }
+    img {
+      height: 3.5rem;
+    }
+  }
+}
+.small-images {
+  main {
+    h2, h1 {
+      + p > img {
+        width: 8rem;
+        float: left;
+        margin-left: -9rem;
+        @media (max-width: $breakpoint-phone) {
+          float: none;
+          margin: auto;
+          display: flex;
+        }
+      }
+    }
+  }
+}
+.table-with-time {
+  tr > td:first-child {
+    white-space: nowrap;
+  }
+}
+table {
+  tr > td:first-child:last-child {
+    column-span: all;
+  }
+}

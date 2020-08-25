@@ -1,0 +1,45 @@
+.home {
+  color: #FFF;
+  height: 100vh;
+  padding-top: calc(13vh + #{$header-height});
+  padding-bottom: calc(13vh + #{$header-height});
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: $breakpoint-phone) {
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"] & {
+      background: linear-gradient(180deg, #{color($color, 'gradient-start')} 0%, #{color($color, 'gradient-end')} 100vh);
+    }
+  }
+  &:after {
+    content: '';
+    background-image: url(../img/pattern.svg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  h1, h2, h3 {
+    color: #FFF !important;
+  }
+  h1 {
+    white-space: nowrap;
+    @media (max-width: $breakpoint-phone) {
+      white-space: normal;
+    }
+  }
+  .button {
+    border: solid 2px #FFF;
+    @media (max-width: $breakpoint-phone) {
+      display: block;
+      margin-bottom: 1rem;
+    }
+  }
+}
+.m-t-md {
+  margin-top:-1rem !important;
+}

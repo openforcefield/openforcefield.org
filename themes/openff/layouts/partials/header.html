@@ -1,0 +1,98 @@
+{{ $currentPage := . }}
+{{ $url := replace .Permalink .Site.BaseURL "/" }}
+{{ $path := string (delimit (first 2 (split $url "/")) "/") }}
+{{ $currentSection := .Site.GetPage $path }}
+<div class="menu-button">{{ partial "icon-menu" }}</div>
+<header>
+	<a href="{{ .Site.BaseURL }}" class="logo"><img src="{{ "img/icon.svg" | relURL }}" /></a>
+	{{ with .Site.Menus.main }}
+		<nav>
+			<ul>
+				<li>
+					<a href="{{ $currentPage.Site.BaseURL }}" class="menu-home">Home</a>
+				</li>
+				{{ range . }}
+					{{ $menupath := string (delimit (first 2 (split (replace (.URL | absURL) $currentPage.Site.BaseURL "/") "/")) "/") }}
+					{{ if or (eq $menupath $path) ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) ($currentSection.IsMenuCurrent "main" .) ($currentSection.HasMenuCurrent "main" .) }}
+						{{ $currentPage.Scratch.Set "pageHasSubmenu" .Identifier }}
+					{{ end }}
+					<li class="{{ if eq ($currentPage.Scratch.Get "pageHasSubmenu") .Identifier }}active{{ end }}"><a data-menu="{{ .Identifier }}" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+					{{ if .HasChildren  }}
+						<div class="submenus-mobile">
+							<div class="submenu {{ if eq ($currentPage.Scratch.Get "pageHasSubmenu") .Identifier }}active{{ end }}" data-submenu="{{ .Identifier }}">
+								<nav>
+									<ul>
+										{{ range .Children.ByWeight }}
+											<li><a href="{{ .URL | absURL }}{{ if .Post }}{{ .Post }}{{ end }}" class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) ($currentSection.HasMenuCurrent "main" .) ($currentSection.IsMenuCurrent "main" .) (eq ($currentPage.Permalink | absURL) (.URL | absURL)) }}active{{ end }}">{{ .Name }}</a></li>
+										{{ end }}
+									</ul>
+								</nav>
+							</div>
+						</div>
+					{{ end }}
+				{{ end }}
+			</ul>
+		</nav>
+	{{ end }}
+	<div class="search-button" style="display: none">
+		<img src="{{ "img/search.svg" | relURL }}" />
+	</div>
+</header>
+<div class="menu-back"></div>
+<div class="submenus {{ if .Scratch.Get "pageHasSubmenu" }}active{{ end }}">
+	{{ range .Site.Menus.main }}
+		{{ if .HasChildren  }}
+			<div class="submenu {{ if eq ($currentPage.Scratch.Get "pageHasSubmenu") .Identifier }}active{{ end }}" data-submenu="{{ .Identifier }}">
+				<nav>
+					<ul>
+						{{ range .Children.ByWeight }}
+							<li><a href="{{ .URL | absURL }}{{ if .Post }}{{ .Post }}{{ end }}" class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) ($currentSection.HasMenuCurrent "main" .) ($currentSection.IsMenuCurrent "main" .) (eq ($currentPage.Permalink | absURL) (.URL | absURL)) }}active{{ end }}">{{ .Name }}</a></li>
+						{{ end }}
+					</ul>
+				</nav>
+			</div>
+		{{ end }}
+	{{ end }}
+</div>
+{{ if and (not $currentPage.Params.omit_header_text) (not .IsHome) }}
+	<div class="subheader">
+		<h1>{{ $currentPage.Params.header_title | default .Site.Params.header_title | safeHTML }}</h1>
+		<h3>{{ $currentPage.Params.header_subtitle | default .Site.Params.header_subtitle }}</h3>
+		{{ if $currentPage.Params.header_intro }}
+			{{ .Scratch.Set "headerIntro" $currentPage.Params.header_intro }}
+		{{ else if $currentPage.Parent.Params.header_intro }}
+			{{ .Scratch.Set "headerIntro" $currentPage.Parent.Params.header_intro }}
+		{{ end }}
+		{{ if .Scratch.Get "headerIntro" }}<h1>{{ .Scratch.Get "headerIntro" }}</h1>{{ end }}
+
+		{{ if $currentPage.Params.header_list }}
+			{{ .Scratch.Set "headerList" $currentPage.Params.header_list }}
+			{{ $currentPage.Scratch.Set "imagePath" "./" }}
+		{{ else if $currentPage.Parent.Params.header_list }}
+			{{ $currentPage.Scratch.Set "imagePath" "../" }}
+			{{ .Scratch.Set "headerList" $currentPage.Parent.Params.header_list }}
+		{{ end }}
+		{{ if .Scratch.Get "headerList" }}
+		<ul class="list">
+			{{ range .Scratch.Get "headerList" }}
+				<li class="item" data-columns="2">
+			    <div class="item-icon">
+						{{ if .icon }}<img src="{{ $currentPage.Scratch.Get "imagePath" }}img/{{ .icon }}" />{{ end }}
+						{{ if .number }}{{ .number }}{{ end }}
+					</div>
+			    <div>
+			      <h3>{{ .title }}</h3>
+						<p>{{ .description}}</p>
+					</div>
+				</li>
+			{{ end }}
+		</ul>
+		{{ end }}
+		{{ if $currentPage.Params.header_contents }}
+			{{ .Scratch.Set "headerContents" $currentPage.Params.header_contents }}
+		{{ else if $currentPage.Parent.Params.header_contents }}
+			{{ .Scratch.Set "headerContents" $currentPage.Parent.Params.header_contents }}
+		{{ end }}
+		{{ if .Scratch.Get "headerContents" }}<p>{{ .Scratch.Get "headerContents"| safeHTML }}</p>{{ end }}
+	</div>
+{{ end }}

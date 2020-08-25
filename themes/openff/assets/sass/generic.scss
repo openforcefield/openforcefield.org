@@ -1,0 +1,188 @@
+@font-face {
+  font-family: DefaultFont;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: DefaultFont;
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: DefaultFont;
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: MenuFont;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+html, body {
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+  font-size: 1vw;
+  font-family: DefaultFont;
+  position: absolute;
+  top: 0;
+  @media (max-width: $breakpoint-phone) {
+    font-size: 4vw;
+  }
+  @media (min-width: $breakpoint-hd) {
+    font-size: 16px;
+  }
+  @each $color, $colorObject in $colors {
+    &[data-color="#{$color}"] {
+      color: color($color, 'text');
+    }
+  }
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  line-height: 1.43;
+}
+body {
+  main {
+    position: relative;
+    z-index: 2;
+  }
+}
+body, .subheader, header {
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+  &:after {
+    content: '';
+    background-image: url(../img/pattern.svg);
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    left: 5%;
+    height: 100vh;
+    background-position: center bottom;
+    background-size: contain;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 300;
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1rem;
+}
+h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+p {
+}
+a {
+  color: inherit;
+}
+blockquote {
+  margin: $padding 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  line-height: 1.67;
+  > * {
+    line-height: 1.67;
+  }
+}
+.text-white {
+  color: #FFF;
+}
+.center {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.button {
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"] & {
+      border: solid 2px color($color, 'primary');
+      color: color($color, 'primary');
+    }
+  }
+  .header &, .home & {
+    color: #FFF;
+    border-color: #FFF;
+  }
+  display: inline-block;
+  border-radius: 5px;
+  opacity: 0.8;
+  transition: all 0.2s;
+  padding: 0.6*$padding .9*$padding;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    opacity: 1;
+  }
+  margin: 0;
+  margin-right: 0.5*$padding;
+  .center &, .home & {
+    min-width: 15rem;
+    margin: 0 0.5 * $padding;
+  }
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+    margin: auto;
+    + .button {
+      margin-top: 5px;
+    }
+  }
+}
+.foldopen {
+  .foldopen-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+  .foldopen-readless {
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-top:.6rem;
+    display: none;
+    cursor: pointer;
+  }
+  .foldopen-readmore {
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-top:.6rem;
+    display: inline-block;
+    cursor: pointer;
+  }
+  &.opening {
+    .foldopen-content {
+      max-height: 100vh;
+      overflow: visible;
+    }
+    .foldopen-readless {
+      display: inline-block;
+    }
+    .foldopen-readmore {
+      display: none;
+    }
+    &.opened {
+      .foldopen-content {
+        max-height: unset;
+      }
+    }
+  }
+}

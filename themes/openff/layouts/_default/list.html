@@ -1,0 +1,61 @@
+{{ define "main" }}
+	{{ partial "subheader-menu" (dict "context" . "item" .) }}
+	<main class="list {{ if and (not .Content) (eq (len .Paginator.Pages) 0) }}empty{{ end }}">
+		{{ $page := . }}
+		{{ if or .Title .Content }}
+		<div>
+			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+			{{ with .Content }}<div>{{ . }}</div>{{ end }}
+		</div>
+		{{ end }}
+		{{ range .Paginator.Pages.ByWeight }}
+			<div>
+				{{ if .Params.thumb }}
+				<div class="item-thumb">
+					{{ .Scratch.Set "thumb" (.Resources.GetMatch (.Params.thumb)) }}
+					{{ if not (.Scratch.Get "thumb") }}
+						{{ .Scratch.Set "thumb" ($page.Resources.GetMatch (.Params.thumb)) }}
+					{{ end }}
+					{{ $thumb := .Scratch.Get "thumb" }}
+					{{ if $thumb }}
+						<img src="{{ $thumb.RelPermalink }}">
+					{{ end }}
+				</div>
+				{{ end }}
+				<div>
+					<h2 class="left m-b-sm">
+						{{ if .Params.foldopen }}
+							{{ .Title }}
+						{{ else }}
+							<a href="{{ .Permalink }}">{{ .Title }}</a>
+						{{ end }}
+						{{ if or .Date .Params.Author }}
+							<h6>
+						{{ end }}
+						{{ if .Date }}
+							Posted on {{ .Date.Format "2 Jan 2006" }}
+						{{ end }}
+						{{ if .Params.Author }}
+							by {{ .Params.Author }}
+						{{ end }}
+						{{ if or .Date .Params.Author }}
+							</h6>
+						{{ end }}
+					</h2>
+					{{ if .Description }}
+						<p itemprop="about">{{ .Description | markdownify }}</p>
+					{{ end }}
+					{{ if .Params.foldopen }}
+						<div class="foldopen">
+							<div class="button foldopen-readmore">Read more</div>
+							<div class="button foldopen-readless">Read less</div>
+							<div class="foldopen-content">{{ .Content }}</div>
+						</div>
+					{{ end }}
+				</div>
+				<hr>
+			</div>
+		{{ end }}
+		<section>{{ partial "pagination" . }}</section>
+	</main>
+{{ end }}

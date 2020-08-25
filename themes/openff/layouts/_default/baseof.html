@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}favicon/android-chrome-192x192">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}favicon/favicon-32x32.png">
+  <link rel="icon" type="image/ico" href="{{ .Site.BaseURL }}favicon/favicon.ico">
+	<link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest">
+	<title>{{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	{{ $style := resources.Get "sass/index.scss" | toCSS | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
+	{{ with .OutputFormats.Get "RSS" -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+	{{- end }}
+	{{ $jquery := resources.Get "js/jquery.min.js" }}
+	<script type="text/javascript" src="{{ $jquery.Permalink }}"></script>
+	{{ $script := resources.Get "js/script.js" | resources.Minify }}
+	<script type="text/javascript" src="{{ $script.Permalink }}"></script>
+</head>
+<body class="{{ .Params.class }}" data-color="{{ .Params.color | default "default" }}">
+	{{ partial "header" . }}
+	{{ block "main" . }}{{ end }}
+	{{ partial "footer" . }}
+</body>
+</html>

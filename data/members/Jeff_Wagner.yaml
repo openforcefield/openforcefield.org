@@ -1,11 +1,12 @@
 name: Jeff Wagner
-role: Software Scientist
+role: Senior Software Scientist
+filter-role: Management, Software Scientists
 lab: Mobley lab
-title: Postdoctoral Researcher/Software Scientist
+title: University of California, Irvine
 institution: University of California, Irvine
 img: jeff-wagner.jpg
-webpage: https://www.linkedin.com/in/jeffrey-r-wagner/
-description: OpenFF Software Scientist
+description: OpenFF software development, lead developer of OpenFF Toolkit, best practices
 google_scholar: https://scholar.google.com/citations?user=9NUU5bYAAAAJ&hl=en
 ORCID: 0000-0001-6448-0873
 github: j-wags
+linkedin: jeffrey-r-wagner

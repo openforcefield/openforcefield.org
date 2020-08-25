@@ -1,0 +1,56 @@
+<footer>
+	{{ $footer := .Site.GetPage "footer" }}
+	<div class="footer-left">
+		{{ range $footer.Params.left }}
+			{{ if .img }}
+				<div><img src="{{ .img | relURL }}" /></div>
+			{{ else }}
+				<div>{{ .title }}</div>
+			{{ end }}
+		{{ end }}
+	</div>
+	<div class="footer-column1">
+		{{ range $footer.Params.column1 }}
+			{{ if .url }}
+				<a href="{{ .url }}" class="{{ if .parent }}footer-has-child{{ end }}">{{ .title }}</a>
+			{{ else }}
+				<div>{{ .title }}</div>
+			{{ end }}
+		{{ end }}
+	</div>
+	<div class="footer-column2">
+		{{ range $footer.Params.column2 }}
+			{{ if .url }}
+				<a href="{{ .url }}" class="{{ if .parent }}footer-has-child{{ end }}">{{ .title }}</a>
+			{{ else }}
+				<div>{{ .title }}</div>
+			{{ end }}
+		{{ end }}
+	</div>
+	<div class="footer-column3">
+		{{ range $footer.Params.column3 }}
+			{{ if .url }}
+				<a href="{{ .url }}" class="{{ if .parent }}footer-has-child{{ end }}">{{ .title }}</a>
+			{{ else }}
+				<div>{{ .title }}</div>
+			{{ end }}
+		{{ end }}
+	</div>
+	<div class="footer-right">
+		{{ range $footer.Params.right }}
+			{{ if .icon }}
+				{{ $path := .icon | printf "icon-%s" }}
+				{{ if .url }}
+					<a href="{{ .url }}">
+				{{ end }}
+				<div class="footer-icon">{{ partial $path . }}</div>
+				{{ if .url }}
+					</a>
+				{{ end }}
+			{{ else }}
+				<div>{{ .title }}</div>
+			{{ end }}
+		{{ end }}
+		<div><br />Designed and developed by<br />van Leeuwen & van Leeuwen</div>
+	</div>
+</footer>

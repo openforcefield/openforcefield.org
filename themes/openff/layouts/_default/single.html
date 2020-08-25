@@ -1,0 +1,31 @@
+{{ define "main" }}
+	{{ partial "subheader-menu" (dict "context" . "item" .) }}
+	<main class="single">
+		<article>
+			<h1>{{ .Title }}</h1>
+			{{ if or .Date .Params.Author }}
+				<h6>
+			{{ end }}
+			{{ if .Date }}
+				Posted on {{ .Date.Format "2 Jan 2006" }}
+			{{ end }}
+			{{ if .Params.Author }}
+				by {{ .Params.Author }}
+			{{ end }}
+			{{ if or .Date .Params.Author }}
+				</h6>
+			{{ end }}
+			<div>
+				{{ .Content }}
+			</div>
+			{{ with .Params.tags }}
+			<div>
+				<div id="tags" class="p-y-lg">
+					Tags:
+					{{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ "/tags/" | relLangURL }}{{ $t | urlize }}">{{ $t }}</a>{{ end }}
+				</div>
+			</div>
+			{{ end }}
+		</article>
+	</main>
+{{ end }}

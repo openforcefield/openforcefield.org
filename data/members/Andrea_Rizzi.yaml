@@ -1,9 +1,12 @@
 name: Andrea Rizzi
-role: alum
+role: Researcher
+filter-role: Alumni
 lab: Chodera lab
-title: Computational Biology and Medicine Graduate Student
+title: Graduate Student, Sloan Kettering Institute
+current_position: Postdoctoral Fellow in Parrinello lab
 institution: Sloan Kettering Institute
 img: andrea-rizzi.jpg
+google_scholar: https://scholar.google.com/citations?user=EIF9n3EAAAAJ&hl=en
 webpage: "http://choderalab.org/members#andrea-rizzi"
 description: Software architecture, free energy calculations, and high-performance molecular simulation
 ORCID: 0000-0001-7693-2013

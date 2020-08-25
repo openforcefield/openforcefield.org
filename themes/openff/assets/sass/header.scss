@@ -1,0 +1,364 @@
+.menu-button, .menu-back, .menu-home {
+  display: none;
+}
+@media (max-width: $breakpoint-phone) {
+  .menu-button {
+    position: fixed !important;
+    display: block;
+    left: calc(1rem + 3px);
+    top: calc(1rem + 3px);
+    z-index: 11;
+    cursor: pointer;
+    svg {
+      fill: white;
+    }
+  }
+  .menu-home {
+    display: block;
+  }
+  .menu-back {
+    display: block;
+    position: fixed;
+    left: -100vw;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(#FFF, 0.7);
+    z-index: 7;
+    transition: opacity 0.3s 0.3s, left 0s 1s;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .menu-show {
+    .menu-back {
+      transition: opacity 0.3s, left 0s;
+      left: 0;
+      z-index: 7;
+      opacity: 1;
+    }
+    overflow: hidden;
+  }
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 6;
+  color: #FFF;
+  font-family: MenuFont;
+  font-size: 1.14rem;
+  padding: 0 2*$padding;
+  @media (max-width: $breakpoint-phone) {
+    width: 90vw;
+    height: 100vh;
+    left: -100vw;
+    transition: left 0.5s;
+    overflow: auto;
+    padding: 0;
+    &:after {
+      display: none;
+    }
+    .menu-show & {
+      left: 0;
+      z-index: 10;
+    }
+    .logo {
+      display: none;
+    }
+    li {
+      display: block !important;
+    }
+  }
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"] & {
+      background: linear-gradient(180deg, #{color($color, 'gradient-start')} 0%, #{color($color, 'gradient-end')} 100vh);
+    }
+  }
+  > * {
+    vertical-align: middle;
+  }
+  > a {
+    display: inline-block;
+    img {
+      height: $header-height;
+      display: block;
+    }
+  }
+  nav {
+    display: inline-block;
+    @media (max-width: $breakpoint-phone) {
+      display: block;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding-left: $padding;
+      @media (max-width: $breakpoint-phone) {
+        padding-left: 0;
+        ul li {
+          padding: 0.5 * $padding;
+          height: auto;
+          font-size: 0.9em;
+          border-top: none;
+          padding-left: 6*$padding !important;
+        }
+        li {
+          border-top: solid 2px white;
+          padding-left: 4*$padding !important;
+        }
+        li:first-child {
+          border-top: none;
+        }
+      }
+      li {
+        padding: $padding;
+        display: inline-block;
+        margin-top: 2px;
+        height: calc(#{$padding} + #{$header-height});
+        transition: background-color 0.5s;
+        vertical-align: top;
+        &.active, &:hover {
+          @each $color, $colorObject in $colors {
+            [data-color="#{$color}"] & {
+              background-color: color($color, 'gray');
+            }
+          }
+          a {
+            @each $color, $colorObject in $colors {
+              [data-color="#{$color}"] & {
+                color: color($color, 'primary');
+              }
+            }
+          }
+          @media (max-width: $breakpoint-phone) {
+            background-color: transparent !important;
+            a {
+              color: #FFF !important;
+              &:before {
+                content: '> ';
+              }
+            }
+          }
+        }
+        a {
+          color: rgba(#FFF, 0.7);
+          text-decoration: none;
+          position: relative;
+          display: inline-block;
+          @media (max-width: $breakpoint-phone) {
+            &.active {
+              color: #FFF;
+              &:before {
+                content: '> ';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .search-button {
+    display: inline-block;
+    position: absolute;
+    right: $padding;
+    top: $padding;
+    img {
+      height: 1.5rem;
+    }
+  }
+}
+.submenus-mobile {
+  display: none;
+  @media (max-width: $breakpoint-phone) {
+    .menu-show & {
+      display: block;
+    }
+  }
+}
+.submenus {
+  position: fixed;
+  top: calc(#{$padding} + #{$header-height});
+  width: 100%;
+  z-index: 7;
+  @media (max-width: $breakpoint-phone) {
+    display: none;
+  }
+  &.active + div {
+  }
+  + div {
+    padding-bottom: 2 * $padding;
+    padding-top: calc(#{2*$padding} + #{$header-height});
+    margin-top: calc(#{$padding} + #{$header-height} - 2px);
+    @media (max-width: $breakpoint-phone) {
+      margin-top: 0;
+    }
+  }
+  .submenu {
+    position: absolute;
+    top: 0;
+    &.active {
+      position: relative;
+    }
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        background-color: color($color, 'gray');
+      }
+    }
+    width: 100%;
+    padding: 0;
+    z-index: 4;
+    transition: max-height 0.5s;
+    max-height: 0;
+    overflow: hidden;
+    &.active, &.hover {
+      max-height: 4rem;
+    }
+    &.hover {
+      ~ .active {
+        max-height: 0;
+      }
+    }
+    nav {
+      display: block;
+      padding: 0 $padding;
+      ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+        li {
+          padding: $padding $padding;
+          display: inline-block;
+          a {
+            @each $color, $colorObject in $colors {
+              [data-color="#{$color}"] & {
+                color: color($color, 'primary');
+              }
+            }
+            text-decoration: none;
+            position: relative;
+            display: inline-block;
+            &:after {
+              content: '';
+              position: absolute;
+              bottom: -2px;
+              left: 0;
+              width: 0;
+              height: 2px;
+              transition: all 0.5s;
+              @each $color, $colorObject in $colors {
+                [data-color="#{$color}"] & {
+                  background-color: color($color, 'primary');
+                }
+              }
+              opacity: 0;
+            }
+            &:hover:after, &.active:after {
+              width: 100%;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.subheader {
+  position: relative;
+  z-index: 1;
+  &.empty {
+    min-height: calc(100vh - 13vh - 60px + 2rem);
+  }
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"] & {
+      background: linear-gradient(180deg, #{color($color, 'gradient-start')} 0%, #{color($color, 'gradient-end')} 100%);
+    }
+  }
+  width: 100%;
+  color: #FFF;
+  padding: $padding;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1, h2 {
+    text-align: center;
+    padding: 0.5*$padding;
+  }
+  h3 + h1 {
+    padding-top: 0;
+  }
+  @media (max-width: $breakpoint-phone) {
+    h3 {
+      text-align: center;
+    }
+  }
+  h1 + h3 {
+    padding-bottom: 2 * $padding;
+  }
+  ul {
+    max-width: 70rem;
+    li {
+      padding-right: 2 * $padding;
+    }
+  }
+  .button {
+    border: none !important;
+    background-color: #FFF;
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        color: color($color, 'secondary');
+      }
+    }
+  }
+}
+.subheader-menu {
+  width: 100%;
+  background-color: #FFF;
+  position: sticky;
+  top: calc(#{2*$padding} + #{2*$header-height} - 4px);
+  z-index: 6;
+  @media (max-width: $breakpoint-phone) {
+    position: relative;
+    top: 0;
+  }
+  > div {
+    background-color: rgba(1, 81, 125, 0.5);
+    color: #FFF;
+    font-size: 0.9rem;
+    padding: $padding 2*$padding;
+    > div {
+      display: inline-block;
+      @media (max-width: $breakpoint-phone) {
+        display: block;
+        padding: 0.5*$padding;
+      }
+      padding-right: 1*$padding;
+      text-transform: uppercase;
+      b {
+        font-weight: 800;
+        padding-right: $padding;
+      }
+      a {
+        text-decoration: none;
+        display: inline-block;
+        margin-right: $padding;
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+          width: 0;
+          height: 2px;
+          transition: all 0.5s;
+          background-color: #FFF;
+          opacity: 0;
+        }
+        &:hover:after, &.active:after {
+          width: 100%;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

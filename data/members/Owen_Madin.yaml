@@ -1,10 +1,13 @@
 name: Owen Madin
 role: Researcher
+filter-role: Scientific Staff
 lab: Shirts Group
-title: Graduate Student
+title: Graduate Student, University of Colorado, Boulder
 institution: University of Colorado, Boulder
 img: owen-madin.jpg
 webpage: "https://www.colorado.edu/lab/shirtsgroup/owen-madin"
 description: Bayesian model and parameter sampling with reversible jump Monte Carlo and surrogate models
 ORCID: 0000-0002-6736-3442
+google_scholar: https://scholar.google.com/citations?user=tL0z4hsAAAAJ&hl=en&oi=ao
 github: ocmadin
+linkedin: josh-horton-685a02105

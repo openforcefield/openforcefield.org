@@ -1,0 +1,66 @@
+<div class="timeline">
+{{ $tempData := index .Site.Data ((.Get "src"))}}
+{{ if $tempData.index }}
+  {{ .Scratch.Set "data" $tempData.index }}
+{{ else }}
+  {{ .Scratch.Set "data" $tempData }}
+{{ end }}
+{{ $base := . }}
+<div class="timeline-scrollarea">
+  <div class="timeline-year-up-title">
+    {{ $base.Get "vertical-top-title" }}
+  </div>
+  <div class="timeline-year-down-title">
+    {{ $base.Get "vertical-bottom-title" }}
+  </div>
+{{ range .Scratch.Get "data" }}
+    <div class="timeline-year">
+      <div class="timeline-year-up">
+        {{ range .items }}
+          {{ if ne .direction "down" }}
+            {{ $day := sub (int (time .date).YearDay) 1 }}
+            <div class="timeline-item timeline-item-align-{{.align}} timeline-item-valign-{{.valign}} timeline-item-size-{{.size}} timeline-item-type-{{.type}}" style="left: {{ div $day 3.65 }}%;">
+              <div class="timeline-item-text" style="{{ .style | safeCSS }}">
+                <h2>{{ .title | markdownify }}</h2>
+                {{ .subtitle | markdownify }}
+              </div>
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-line"></div>
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="timeline-year-title">
+        {{ .year }}
+      </div>
+      <div class="timeline-year-down">
+        {{ range .items }}
+          {{ if eq .direction "down" }}
+            {{ $day := sub (int (time .date).YearDay) 1 }}
+            <div class="timeline-item timeline-item-align-{{.align}} timeline-item-valign-{{.valign}} timeline-item-size-{{.size}} timeline-item-type-{{.type}}" style="left: {{ div $day 3.65 }}%;">
+              <div class="timeline-item-line"></div>
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-text" style="{{ .style | safeCSS }}">
+                <h2>{{ .title | markdownify }}</h2>
+                {{ .subtitle | markdownify }}
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="timeline-year-column">
+        <div class="timeline-year-column-title">
+          {{.title}}
+        </div>
+        <div class="timeline-year-column-contents">
+          {{ .contents | markdownify }}
+        </div>
+      </div>
+    </div>
+  {{ end }}
+    <h1 class="timeline-title">
+      {{.Get "title" }}
+    </h1>
+  </div>
+  <div class="timeline-gradient"></div>
+</div>

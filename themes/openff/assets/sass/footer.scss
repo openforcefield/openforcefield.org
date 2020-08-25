@@ -1,0 +1,121 @@
+footer {
+  position: relative;
+  z-index: 3;
+  font-family: DefaultFont;
+  font-size: 0.9rem;
+  padding: 2*$padding 3*$padding;
+  background-color: color('default', 'text');
+  color: #FFF;
+  height: $footer-height;
+  @media (max-width: $breakpoint-phone) {
+    height: auto !important;
+  }
+  img {
+    width: 80%;
+  }
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 19%;
+    + div {
+      padding-left: 3*$padding;
+    }
+    @media (max-width: $breakpoint-phone) {
+      width: 100%;
+      display: block;
+      padding-left: 0 !important;
+    }
+    &.footer-right {
+      white-space: nowrap;
+      font-weight: bold;
+      @media (max-width: $breakpoint-phone) {
+        padding-top: 1rem;
+      }
+      .footer-icon {
+        display: inline-block;
+        margin-top: $padding;
+        border: solid 1px #FFF;
+        padding: 4px;
+        width: 2vw;
+        height: 2vw;
+        border-radius: 50%;
+        overflow: hidden;
+        // margin-left: 5px;
+        text-align: center;
+        vertical-align: middle;
+        @media (max-width: $breakpoint-phone) {
+          width: 10vw;
+          height: 10vw;
+        }
+        &:first-child {
+          margin-left: 0;
+        }
+        img, svg {
+          width: 90%;
+          height: 90%;
+          margin: auto;
+          display: block;
+        }
+      }
+      a {
+        display: inline-block;
+        &:hover {
+          .footer-icon {
+            background-color: #FFF;
+            path {
+              fill: color('default', 'text');
+            }
+          }
+        }
+      }
+    }
+  }
+  p {
+    margin: 0;
+  }
+  > * {
+    vertical-align: middle;
+    @media (max-width: $breakpoint-phone) {
+      text-align: center;
+      > a:not(.footer-has-child) {
+        padding-top: 1rem;
+      }
+    }
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    &.footer-has-child {
+      padding-left: $padding;
+      font-weight: 400;
+      + a:not(.footer-has-child) {
+        padding-top: 1.3rem;
+        @media (max-width: $breakpoint-phone) {
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}
+main.empty + footer {
+  @each $color, $colorObject in $colors {
+    [data-color="#{$color}"] & {
+      background-color: color($color, 'gradient-end');
+    }
+  }
+}
+.color-footer {
+  @each $color, $colorObject in $colors {
+    &[data-color="#{$color}"] footer {
+      background-color: color($color, 'gradient-end');
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+	<main class="home">
+		<img src="{{ .Params.featured_image }}" class="center" />
+		<h1 class="center m-t-lg">{{ .Description }}</h1>
+		<div class="sections m-t-md">
+			{{ range .Params.sections }}
+			<section class="p-a-lg">
+				<img src="{{ .image }}" class="center" />
+				<h3 class="p-t-md">{{ .title }}</h3>
+				<p class="p-t-md">{{ .description }}</p>
+			</section>
+			{{ end }}
+		</div>
+		<div class="sections m-t-md">
+			{{ .Content }}
+		</div>
+	</main>
+{{ end }}

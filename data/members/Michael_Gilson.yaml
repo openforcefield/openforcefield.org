@@ -1,7 +1,8 @@
 name: Michael K. Gilson
 role: Primary Investigator
+filter-role: Management
 lab: Gilson lab
-title: Professor and Chair in Computer-Aided Drug Design
+title: Professor and Chair in Computer-Aided Drug Design, University of California, San Diego
 department: Skaggs School of Pharmacy and Pharmaceutical Sciences
 institution: University of California, San Diego
 img: michael-gilson.jpg
@@ -13,3 +14,4 @@ email: mgilson@ucsd.edu
 cv_url: "http://gilson.cloud.ucsd.edu/members/gilson"
 twitter: michaelkgilson
 github: mkgilson
+linkedin: mkgilson
