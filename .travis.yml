@@ -5,7 +5,7 @@ go:
 
 install:
     - export GO111MODULE=on
-    - go get github.com/gohugoio/hugo@v0.72.0
+    - go get github.com/gohugoio/hugo_extended
 
 before_script:
     - rm -rf public 2> /dev/null
