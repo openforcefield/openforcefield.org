@@ -2,35 +2,38 @@
 color: darkblue
 title: Frequently Asked Question
 ---
+## What is the difference between the Initiative and the Consortium?
 
+The Open Force Field Initiative includes everyone supported by and/or working with the initiative; thus, we use the term "Initiative" to refer to the whole project and everyone involved, including commercial partners and scientific plans. The "Consortium" is the group of people and entities involved in the formal project/funding initiative.   
+{{< br >}}{{< br >}}
 
 ## How can I join the Open Force Field Consortium as an Industry Partner?
 
-See the [Open Force Field Consortium](../consortium/) page for more information on how to join.
+Please contact info@openforcefield.org for more information. Find out more about the Open Force Field Consortium and our current members [here](/about/mission/#open-force-field-consortium).
 {{< br >}}{{< br >}}
 ## How can I join the Open Force Field Consortium as an Academic Investigator?
 
-Get in touch with one of the [current Open Force Field Investigators](../members/) if you're interested in joining as an investigator.
+Email us at `info@openforcefield.org` or reach out to one of our current [Primary Investigators](/about/team/#management) if you're interested in joining as an investigator.
 {{< br >}}{{< br >}}
 ## How can I stay up to date with Open Force Field Initiative activites and developments?
 
-You can sign up for our mailing list [here](http://eepurl.com/dHzukb).
+You can sign up for our mailing list [here](http://eepurl.com/gYuojL), or follow us on [Twitter](https://twitter.com/openforcefield) and [LinkedIn](https://www.linkedin.com/company/openforcefield/).
 {{< br >}}{{< br >}}
 ## What is the scope of your current funding?  
 
-The Open Force Field Consortium is an industry-funded effort to develop small molecule force fields, and we are seeking other sources of funding (federal, philanthropic) to broaden this effort in collaboration with other scientists.
+The Open Force Field Consortium is an industry-funded effort to develop small molecule force fields, and we have received a [collaborative NIH grant](/community/news/news/openff-nih-funding/) to support a systematic construction of more accurate biopolymer force fields that will be compatible with OpenFF small molecules. We are continuously seeking different sources of funding (federal, philanthropic, industry) to broaden this effort in collaboration with other scientists.
 {{< br >}}{{< br >}}
 ## Do you have plans to broaden your effort to include protein and biopolymer force fields?
 
-We would like to partner with the biopolymer force field community to build a family of fully consistent general biopolymer and small molecule force fields, with the goal of fully consistent handling of biopolymers and small molecules, including natural (proteins, RNA, DNA) and unnatural (e.g. peptoids) biopolymers, as well as posttranslational modifications and nonnatural amino acids. Handling of unusual nonnatural amino acids or bases can be a major headache with current force fields, but our approach will allow a single simple force field to consistently treat biopolymers and small molecules. This expanded effort is not within the current scope of Consortium funding, and would benefit from bringing in partners with significant expertise in biopolymer force field development.
-To this end, we have [applied for federal funding](http://openforcefield.org/news/seeking-nih-funding) allow us to broaden the scope of the Initiative beyond the Consortium-funded focus on small molecules to cover complex biomolecular systems.
-We aim for our effort to be synergistic with, not competitive with, existing force field efforts, and are always excited to support other efforts to seek funding for exciting new force field science---see **Requesting Letters of Collaboration** below if you would like us to demonstrate our support in your application for funding.
+As mentioned above, we have successfully [applied for federal funding](/community/news/news/seeking-nih-funding/) to allow us to broaden the scope of the Initiative beyond the Consortium-funded focus on small molecules and cover complex biomolecular systems. We would like to partner with the biopolymer force field community to build a family of fully consistent general biopolymer and small molecule force fields, with the goal of fully consistent handling of biopolymers and small molecules, including natural (proteins, RNA, DNA) and unnatural (e.g. peptoids) biopolymers, as well as posttranslational modifications and nonnatural amino acids. Handling of unusual nonnatural amino acids or bases can be a major headache with current force fields, but our approach will allow a single simple force field to consistently treat biopolymers and small molecules. This expanded effort is not within the current scope of Consortium funding, and would benefit from bringing in partners with significant expertise in biopolymer force field development.
+
+We aim for our effort to be synergistic with, not competitive with, existing force field efforts, and we are seeking advice from the experts in the field who are a part of our [OpenFF Initiative Advisory Board](/about/mission/#open-force-field-initiative) and others. We are always excited to support other efforts to seek funding for exciting new force field science---see **Requesting Letters of Collaboration** below if you would like us to demonstrate our support in your application for funding.
 {{< br >}}{{< br >}}
 ## Will your effort compete with other force field projects?
 
 Our initiative focuses on building software, infrastructure, and force fields to benefit the entire molecular simulation community by broadly enabling force field science. Our view is that this field requires the participation of a wide variety of talented researchers.  Collaborations like ours are needed in order to update aging force field software infrastructure, a much larger task than a single group could accomplish. We hope to partner with other force field projects to ensure the infrastructure we are building will be broadly useful to all major force field development efforts.
 
-We firmly believe that research in this space is not a zero-sum game; with the rising interest in physical methods to help guide pharmaceutical discovery, there is a need for new and better force fields and infrastructure, and this need can drive the availability of additional funds.  Moreover, our current efforts focus on small molecule force field development, and we are not currently engaged directly in biomolecular (i.e. protein, lipid, carbohydrate) force field development.
+We firmly believe that research in this space is not a zero-sum game; with the rising interest in physical methods to help guide pharmaceutical discovery, there is a need for new and better force fields and infrastructure, and this need can drive the availability of additional funds.  
 {{< br >}}{{< br >}}
 ## Can we use your software in our force field effort?
 
@@ -39,13 +42,11 @@ Our [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/topology/smirno
 {{< br >}}{{< br >}}
 ## Requesting Letters of Collaboration
 
-We aim for our effort to be synergistic with, not competitive with, existing force field efforts, and are always excited to support other efforts to seek funding for exciting new force field science and technology.
-We can articulate how our effort synergizes with yours through a Letter of Support that can be included with your funding application to agencies such as the NIH or NSF.
-To request a letter of support, please email [one of the Primary Investigators](https://openforcefield.org/members/) with the subject like "Requesting a Letter of Support from the Open Force Field Initiative" and include some information about your project.
+We will gladly support other efforts to seek funding for exciting new force field science and technology. We can articulate how our effort synergizes with yours through a Letter of Support that can be included with your funding application to agencies such as the NIH or NSF. To request a letter of support, please email us at `info@openforcefield.org` or [one of the Primary Investigators](/about/team/#management) with the subject like "Requesting a Letter of Support from the Open Force Field Initiative" and include some information about your project.
 {{< br >}}{{< br >}}
 ## How can we collaborate with you?
 
-Collaborations can be science-focused or software-focused; if you are willing to commit to open science and open source software, you’re welcome to get involved with one of our science sub-groups focusing on specific parts of the project, and/or involved with code development. Both kinds of collaborations could also involve jointly exploring funding opportunities from federal or philanthropic agencies. Please reach out to the PIs or Lead Software Scientist Jeff Wagner by email to discuss potential involvement.
+Collaborations can be science-focused or software-focused; if you are willing to commit to open science and open source software, you’re welcome to get involved with one of our science sub-groups focusing on specific parts of the project, and/or involved with code development. Both kinds of collaborations could also involve jointly exploring funding opportunities from federal or philanthropic agencies. Please reach out to info@openforcefield.org to discuss potential involvement.
 {{< br >}}{{< br >}}
 ## How can I use the research products of the Open Force Field Consortium (papers, data, software)?
 
@@ -61,9 +62,5 @@ The reference implementation of the [SMIRNOFF](https://open-forcefield-toolkit.r
 {{< br >}}{{< br >}}
 ## Where can I find more information about your development timeline?
 
-See our [science page](../science/) for the latest scientific roadmap.
-{{< br >}}{{< br >}}
-## What is the difference between the Initiative and the Consortium?
-
-The Open Force Field Initiative includes everyone supported by and/or working with the initiative; thus, we use the term "Initiative" to refer to the whole project and everyone involved, including commercial partners and scientific plans. The "Consortium" is the group of people and entities involved in the formal project/funding initiative.   
+See our [roadmap](/about/roadmap) for an overview of the most important past and future milestones. You can find more details about the current and future plans on our [scientific](https://openforcefield.atlassian.net/wiki/spaces/PS/pages/423854401/Open+Force+Field+Scientific+Roadmap+2020?moved=true) and [infrastructure](https://openforcefield.atlassian.net/wiki/spaces/PS/pages/423854352/Open+Force+Field+Infrastructure+Roadmap+2020) roadmaps.
 {{< br >}}{{< br >}}

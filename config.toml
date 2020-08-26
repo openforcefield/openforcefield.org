@@ -46,7 +46,7 @@ theme = "openff"
 
       [[menu.main]]
         name = "Careers"
-        url = "/about/careers/openff/initiative-postdoc/"
+        url = "/about/careers/openff/"
         parent = "about"
         identifier = "careers"
         weight = 10

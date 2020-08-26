@@ -7,7 +7,7 @@ draft: false
 description: "Open Force Field Consortium Workshop in San Diego, January 7-8, 2019."
 weight: 10
 author: "John D. Chodera"
-thumb: "16-Jan-2019-Open-Force-Field-Consortium-Workshop.jpg"
+thumb: "1st-openff-workshop.png"
 
 ---
 
