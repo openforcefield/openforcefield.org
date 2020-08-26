@@ -7,6 +7,7 @@ draft: false
 description: "Lee-Ping Wang has decided to step down from his role as an OpenFF primary investigator and to continue his involvement as a co-investigator."
 weight: 10
 author: "Karmen Condic-Jurkic"
+thumb: lee-ping-wang.jpg
 ---
 
 From August 1, the Open Force Field Initiative will undergo a change in the leadership team, as [Lee-Ping Wang](https://chemistry.ucdavis.edu/people/lee-ping-wang) has decided to step down from his role as an OpenFF primary investigator. This not a farewell, but a change of roles and Dr. Wang will remain actively involved in OpenFF research efforts as a co-investigator. The Open Force Field Initiative owes a great deal of its success to the work done by Dr. Wang and his lab members. His [ForceBalance](https://github.com/leeping/forcebalance) software package sits at the heart of the OpenFF force field optimization infrastructure, and [torsiondrive](https://github.com/lpwgroup/torsiondrive), developed by Yudong Qiu, is used to generate QM torsion profiles datasets used in force field parameterization. But, his software contributions are only a small fraction of the time, effort and experience Dr. Wang has invested to build the Open Force Field Initiative and make this collaborative project so productive and successful. Dr. Wang is now seeking a way to free up more time to explore some new and exciting research directions, which is the main motivation behind his decision to step down from the leadership role.

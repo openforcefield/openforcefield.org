@@ -1,7 +1,7 @@
 ---
 date: "2020-07-25T00:00:00+00:00"
 title: 'Benchmark: OpenFF performance on small molecule energies and geometries'
-tags: ["website", "news", "smirnoff", "benchmarking"]
+tags: ["website", "news", "smirnoff", "openff", "benchmarking"]
 categories: ["news"]
 draft: false
 #hidden: true # if true, will render to the specified slug, but won't be included in News list
@@ -9,6 +9,7 @@ description: 'Force Field benchmark on small molecule energies and geometries.'
 weight: 10
 author: "David Hahn"
 markup: mmark # mmark is necessary for LaTeX to work properly
+thumb: benchmark-small-molecules.png
 ---
 
 The [Open Force Field Initiative](https://openforcefield.org/), focusing on open tools and science to improve accuracy of molecular modeling, has now been up and running for approximately 18 months. Recent highlights have included the [release of a series of updates to Parsley](https://github.com/openforcefield/openforcefields/releases), a small molecule force field for biomolecular simulation, which is now at version [OpenFF-1.2.0](https://github.com/openforcefield/openforcefields/releases/tag/1.2.0). Parsley was iteratively optimized to improve agreement with quantum chemical geometries, energetics, and vibrational frequencies.
@@ -93,7 +94,7 @@ Furthermore additional benchmarking studies will be published targeting liquid p
 
 ### Further reading
 
-Further information about Open Force Field’s parameterization and benchmarking strategies is presented in this [blog post](https://openforcefield.org/news/introducing-openforcefield-1.0/#benchmarking-parsley).
+Further information about Open Force Field’s parameterization and benchmarking strategies is presented in this [blog post](https://openforcefield.org/community/news/news/introducing-openforcefield-1.0/#benchmarking-parsley).
 More details about the present study can be found in this [preprint](https://doi.org/10.26434/chemrxiv.12551867.v1).
 
 ### Contributions
