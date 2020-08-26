@@ -33,7 +33,7 @@
         {{ (index . $title) | markdownify }}
         {{ with .twitter }} <a href="http://twitter.com/{{ . }}">{{ partial "twitter" . }}</a> {{ end }}
         {{ with .github }} <a href="http://github.com/{{ . }}">{{ partial "github" . }}</a> {{ end }}
-        {{ with .linkedin }} <a href="http://linkedin.com/{{ . }}">{{ partial "linkedin" . }}</a> {{ end }}
+        {{ with .linkedin }} <a href="http://linkedin.com/in/{{ . }}">{{ partial "linkedin" . }}</a> {{ end }}
       </h3>
       {{ if not (in $ignore  (index . $subtitle)) }}
       <p><strong>{{ (index . $subtitle) | markdownify }}</strong></p>
