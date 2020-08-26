@@ -39,7 +39,7 @@ subheader: "h1"
 # Open Force Field Initiative
 The **Open Force Field Initiative** is a network of academic and industry researchers working together to advance science and infrastructure required for building the next generation of small molecule and biomolecular force fields. The shared goal of these researchers is to develop automated and systematic data-driven techniques to parameterize and assess new generations of more accurate force fields. Software and data are released under open licensing agreements to enable rapid application, validation, extension and any kind of modification by our users and contributors. In addition, the Initiative aims to build and support a strong community of users and contributors from industry and academia, while exploring different pathways to sustainability.
 
-The Initiative has a scientific advisory board in place to assist with strategic planning, comprising prominent academic experts in the area of force field development and molecular modelling. The Initative Advisory Board (IAB) provides valuable input to help guide the Open Force Field Initiative toward the most relevant engineering and science efforts that will empower members of the biomolecular simulation and force field development communities. The Board convenes two virtual meetings per year to advise on various aspects of the overall Initiative and receives invitations to join our two in-person meetings per year.
+The Initiative has a scientific advisory board in place to assist with strategic planning, comprising prominent academic experts in the area of force field development and molecular modelling. The Initative Advisory Board (IAB) provides valuable input to help guide the Open Force Field Initiative toward the most relevant engineering and science efforts that will empower members of the biomolecular simulation and force field development communities. The Board convenes two virtual meetings per year to advise on various aspects of the overall Initiative and receives invitations to join our in-person meetings per year.
 
 {{< br >}}
 
@@ -56,17 +56,17 @@ The Initiative has a scientific advisory board in place to assist with strategic
 {{< /ul >}}
 {{< br >}}
 {{< center >}}
-{{<button href="/openff/minutes/iab" text="IAB Meeting Minutes" >}}
+{{<button href="/minutes/iab" text="IAB Meeting Minutes" >}}
 {{</ center >}}
 
 {{< br >}}
 
 # Open Force Field Consortium
-The [Open Force Field Consortium](/consortium) is a pre-competitive, industry-funded effort to build more accurate (small molecule) force fields and to improve predictive power of computational drug discovery techniques.
+The **Open Force Field Consortium** is a pre-competitive, industry-funded effort to build more accurate (small molecule) force fields and to improve predictive power of computational drug discovery techniques.
 
 The Consortium is not just a funding initiative, but a true collaboration. Namely, Consortium members *partner* to advance force fields. Industry partners often have tremendous expertise in the strengths and weaknesses of force fields, especially in real-world applications, and the Initiative can greatly benefit from their experience. We have an extensive Consortium Advisory Board (CAB) including members from all Partners that contribute above a threshold level of support. This board provides input on scientific directions and project plans, and elects industry representatives to the Governing Board. Our seven-member Governing Board includes two elected representatives from supporting Partners and five Principal Investigators. The Governing Board makes strategic operational decisions and oversees expenditures. Both boards are involved in regular calls and meetings with the Principal Investigators as part of the Initiative.
 
-The [Open Force Field Consortium officially launched](/news/introducing-the-consortium/) on Oct 1, 2018, but there is still room to join or get involved. Please contact [info@openforcefield.org](info@openforcefield.org) for more information!
+The [Open Force Field Consortium officially launched](/community/news/news/introducing-the-consortium/) on Oct 1, 2018, but there is still room to join or get involved. Please contact [info@openforcefield.org](info@openforcefield.org) for more information!
 
 {{< br >}}
 ## Consortium Governing Board
@@ -77,7 +77,6 @@ The [Open Force Field Consortium officially launched](/news/introducing-the-cons
 - Katharina Meier (Bayer)
 - David L. Mobley (UCI)
 - Michael R. Shirts (CU Boulder)
-- Lee-Ping Wang (UC Davis)
 {{< /ul >}}
 {{< br >}}
 
@@ -94,12 +93,12 @@ The [Open Force Field Consortium officially launched](/news/introducing-the-cons
 - [Mark Mackey](https://www.linkedin.com/in/mark-mackey-6b4b8a23/) (Cresset)
 - [Katharina Meier](https://www.linkedin.com/in/katharina-meier-24744887/) (Bayer)
 - [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex), Secretary
-- [Alireza Shabani](https://www.linkedin.com/in/alireza-shabani-12545718/)(Qulab)
+- [Alireza Shabani](https://www.linkedin.com/in/alireza-shabani-12545718/) (Qulab)
 - [Herman Van Vlijmen](https://www.linkedin.com/in/herman-van-vlijmen-9452461/) (Janssen)
 - [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK){{< /ul >}}
 {{< br >}}
 {{< center >}}
-{{<button href="/openff/minutes/cab" text="CAB Meeting Minutes" >}}
+{{<button href="/minutes/cab" text="CAB Meeting Minutes" >}}
 {{</ center >}}
 
 {{< br >}}

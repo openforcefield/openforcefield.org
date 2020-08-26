@@ -1,4 +1,4 @@
 ---
-title: IAB Minutes
+title: Open Force Field Initiative Advisory Board Minutes
 color: darkblue
 ---
