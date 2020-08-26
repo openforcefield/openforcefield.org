@@ -9,7 +9,7 @@ title: Collaborate
 
 We often need help with some spin-off research projects that are important to us, but we don’t have capacity to perform ourselves at a given time. The list of spin-off projects of interest to us is given below. The Open Force Field Initiative investigators are also interested to provide support for grant applications submitted by our potential collaborators that might help fund the whole work or portions of it. If you would like to collaborate on any of the suggested topics or if you have your own collaboration ideas, please contact <info@openforcefield.org> and let us know that you are interested!
 
-Check the list of the available [Collaborative projects](https://vanleeuwen.studio/openff/science/collaborative-projects/)!
+Check the list of the available [Collaborative projects](/science/collaborative-projects/)!
 {{< br >}}{{< br >}}
 
 
