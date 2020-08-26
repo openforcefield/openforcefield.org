@@ -33,5 +33,5 @@ header_list: [
     number: "6"
   }
 ]
-header_contents: <h3 class="m-b-md">Learn more about our research plans and activities:</h3><div><a href="https://openforcefield.atlassian.net/wiki/spaces/PS/pages/423854401/Open+Force+Field+Scientific+Roadmap+2020?moved=true" class="button">Roadmap</a> <a href="community/news/science-updates/" class="button">Science Blog</a> <a href="https://openforcefield.org/science/downloads/roadmap/open-forcefield-summary.pdf" class="button">Executive Summary</a> <a href="https://openforcefield.org/science/downloads/roadmap/open-forcefield-plan.pdf" class="button">Detailed Project Plan</a></div>
+header_contents: <h3 class="m-b-md">Learn more about our research plans and activities:</h3><div><a href="https://openforcefield.atlassian.net/wiki/spaces/PS/pages/423854401/Open+Force+Field+Scientific+Roadmap+2020?moved=true" class="button">Roadmap</a> <a href="/community/news/science-updates/" class="button">Science Blog</a> <a href="openff-summary2020.pdf" class="button">Executive Summary</a> <a href="openff-plan.pdf" class="button">Detailed Project Plan</a></div>
 ---

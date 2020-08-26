@@ -1,4 +1,61 @@
-
+- title: "Improving Small Molecule Force Fields by Identifying and Characterizing Small Molecules with Inconsistent Parameters"
+  authors: "Jordan Ehrman, Victoria T. Lim, Caitlin C. Bannan, Nam Thi, Daisy Kyu, and David Mobley"
+  summary: "We present a pipeline for comparing the geometries of small molecule conformers optimized with different force fields. We aimed to identify molecules or chemistries that are particularly informative for future force field development because they display inconsistencies between force fields. We applied our pipeline to a subset of the eMolecules database, and highlighted molecules that appear to be parameterized inconsistently across different force fields. We then identified over-represented functional groups in these molecule sets. The molecules and moieties identified by this pipeline may be particularly helpful for future force field parameterization."
+  img: ehrman2020.png
+  date: 2020-08-26
+  preprint:
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv.12846602.v1
+    license: "CC BY 4.0"
+    date: 2020-08-23
+  code: mobleylab/off-ffcompare
+- title: "Benchmark Assessment of Molecular Geometries and Energies from Small Molecule Force Fields"
+  authors: "Victoria T. Lim and David L. Mobley"
+  summary: "In this work, we aim to compare six force fields: GAFF, GAFF2, MMFF94, MMFF94S, SMIRNOFF99Frosst, and the openff-1.0.0 (Parsley) force field by focusing on small molecules (< 50 heavy atoms). On a dataset comprising over 26,000 molecular structures, we analyzed their force field-optimized geometries and conformer energies compared to reference quantum mechanical (QM) data. We show that most of these force fields are comparable in accuracy at reproducing gas-phase QM geometries and energetics, but that GAFF/GAFF2/Parsley do slightly better in reproducing QM energies and that MMFF94/MMFF94S perform slightly better in geometries. Parsley version OpenFF-1.0.0 shows considerable improvement over its predecessor SMIRNOFF99Frosst, while OpenFF-1.2.0 performs even better with accuracy comparable to other available general force fields. We identify particular outlying chemical groups for further force field improvement."
+  img: lim2020.png
+  date: 2020-07-02
+  preprint:
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv.12551867.v2
+    license: "CC BY 4.0"
+    date: 2020-06-24
+  code: mobleylab/benchmarkff
+- title: "Driving torsion scans with wavefront propagation"
+  authors: "Yudong Qiu, Daniel G. A. Smith, Chaya D. Stern, Mudong Feng, Hyesu Jang, and Lee-Ping Wang"
+  summary: "In this paper, we propose a systematic and versatile workflow called TorsionDrive to generate energy-minimized structures on a grid of torsion constraints by means of a recursive wavefront propagation algorithm, which resolves the deficiencies of conventional scanning approaches and generates higher quality QM data for force field development. The method is implemented in an open-source software package that is compatible with many QM software packages and energy minimization codes. The paper also describes integration with the MolSSI QCArchive distributed computing ecosystem."
+  img: qiu2020.jpeg
+  date: 2020-04-02
+  preprint:
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv.12044673.v1
+    license: "CC BY 4.0"
+    date: 2020-04-02
+  published:
+    doi: https://doi.org/10.1063/5.0009232
+    journal: The Journal of Chemical Physics
+    volume: 152
+    pages: 244116
+    year: 2020
+    date: 2020-06-25
+  code: lpwgroup/torsiondrive/
+- title: "Binding thermodynamics of host-guest systems with SMIRNOFF99Frosst 1.0.5 from the Open Force Field Initiative"
+  authors: "David R. Slochower, Niel Henriksen, Lee-Ping Wang, John D. Chodera, David L. Mobley, and Michael K. Gilson"
+  summary: "We evaluate the accuracy of SMIRNOFF99Frosst, using free energy calculations of 43 α and β-cyclodextrin host-guest pairs and compare with matched calculations using two versions of GAFF. These results suggest that SMIRNOFF99Frosst performs competitively with existing small molecule force fields and is a parsimonious starting point for optimization."
+  img: cyclodextrin.png
+  date: 2019-07-31
+  preprint:
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv.9159872.v1
+    license: "CC BY 4.0"
+    date: 2019-07-30
+  published:
+    doi: 10.1021/acs.jctc.9b00748
+    journal: Journal of Chemical Theory and Computation
+    volume: 15
+    pages: 6225
+    year: 2019
+    date: 2019-10-11
+  code: slochower/smirnoff-host-guest-manuscript
 - title: "ChemPer: An Open Source Tool for Automatically Generating SMIRKS Patterns"
   authors: "Caitlin C. Bannan, David Mobley"
   summary:  In this work, we present ChemPer -- a new tool for generating SMIRKS patterns based on clustered fragments (i.e. bonds, angles, or torsions) which should be assigned the same force field parameter. We demonstrate the utility of ChemPer by clustering fragments based on a reference force field, and then regenerating those parameters starting with a simple set of alkanes, ethers, and alcohols.
@@ -20,7 +77,62 @@
     url: https://chemrxiv.org/articles/Systematic_Optimization_of_Water_Models_Using_Liquid_Vapor_Surface_Tension_Data/8016293/1
     license: "CC BY 4.0"
     date: 2019-04-23
+  published:
+    doi: 10.1021/acs.jpcb.9b05455
+    journal: The Journal of Physical Chemistry B
+    date: 2019-07-17
+    volume: 123
+    pages: 7061
+    year: 2019
   code: leeping/forcebalance
+- title: "Uncertainty quantification confirms unreliable extrapolation toward high pressures for united-atom Mie $\\lambda$-6 force field"
+  authors: "Richard A. Messerly, Michael R. Shirts, and Andrei F. Kazakov"
+  summary: We demonstrate how Bayesian approaches can be used to estimate the reliability of predictions made with molecular mechanics force fields.
+  img: mie-potential.png
+  date: 2018-09-21
+  published:
+    doi: 10.1063/1.5039504
+    journal: The Journal of Chemical Physics
+    volume: 149
+    pages: 114109
+    year: 2018
+    date: 2018-09-21
+- title: "Toward learned chemical perception of force field typing rules"
+  authors: "Camila Zanette, Caitlin C. Bannan, Christopher I. Bayly, Josh Fass, Michael K. Gilson, Michael R. Shirts, John Chodera, and David L. Mobley"
+  summary: Here, we introduce a proof of principle for automatically sampling chemical perception compared to traditional atom typed force fields and our SMIRNOFF format.
+  img: smarty.jpg
+  date: 2018-08-06
+  preprint:
+    server: chemRxiv
+    url: https://chemrxiv.org/articles/Toward_Learned_Chemical_Perception_of_Force_Field_Typing_Rules/6230627
+    license: "CC BY 4.0"
+    date: 2018-08-06
+  published:
+    doi: 10.1021/acs.jctc.8b00821
+    journal: Journal of Chemical Theory and Computation
+    date: 2018-12-04
+    volume: 15
+    pages: 402
+    year: 2019
+    nihmsid: 1012523
+  code: openforcefield/smarty
+- title: "Facile Synthesis of a Diverse Library of Mono-3-substituted β-Cyclodextrin Analogues"
+  authors: "Kathryn Kellett, Brendan M. Duggan and Michael K. Gilson"
+  summary: We show the facile synthesis of a library of diverse mono-3-substituted β-cyclodextrin analogues, that have the potential to be used to collect host-guest binding data to test and improve simulation force fields.
+  img: gilson_cd_2.jpg
+  date: 2019-07-26
+  preprint:
+    server: chemRxiv
+    url: https://chemrxiv.org/articles/Facile_Synthesis_of_a_Diverse_Library_of_Mono-3-substituted_-Cyclodextrin_Analogues/6453302
+    license: "CC BY 4.0"
+    date: 2018-07-26
+  published:
+    doi: 10.1080/10610278.2018.1562191
+    journal: Supramolecular Chemistry
+    volume: 31
+    pages: 251
+    year: 2019
+    date: 2019-01-06
 - title: "Escaping atom types using direct chemical perception"
   authors: "David Mobley, Caitlin C. Bannan, Andrea Rizzi, Christopher I. Bayly, John D. Chodera, Victoria T Lim, Nathan M. Lim, Kyle A. Beauchamp, Michael R. Shirts, Michael K. Gilson, and Peter K. Eastman"
   summary: This paper introduces the SMIRNOFF format in the context of traditional force fields, explains the development and validation of our new small molecule force field smirnoff99Frosst, and highlights some directions the initiative is headed.
@@ -39,43 +151,11 @@
     pages: 6076
     year: 2018
     pmcid: PMC6245550
-- title: "Toward learned chemical perception of force field typing rules"
-  authors: "Camila Zanette, Caitlin C. Bannan, Christopher I. Bayly, Josh Fass, Michael K. Gilson, Michael R. Shirts, John Chodera, and David L. Mobley"
-  summary: Here, we introduce a proof of principle for automatically sampling chemical perception compared to traditional atom typed force fields and our SMIRNOFF format.
-  img: smarty.jpg
-  date: 2018-12-04
-  preprint:
-    server: chemRxiv
-    url: https://chemrxiv.org/articles/Toward_Learned_Chemical_Perception_of_Force_Field_Typing_Rules/6230627
-    license: "CC BY 4.0"
-    date: 2018-08-06
-  published:
-    doi: 10.1021/acs.jctc.8b00821
-    journal: Journal of Chemical Theory and Computation
-    date: 2018-12-04
-    volume: 15
-    pages: 402
-    year: 2019
-    nihmsid: 1012523
-  code: openforcefield/smarty
-- title: "Uncertainty quantification confirms unreliable extrapolation toward high pressures for united-atom Mie $\\lambda$-6 force field"
-  authors: "Richard A. Messerly, Michael R. Shirts, and Andrei F. Kazakov"
-  summary: We demonstrate how Bayesian approaches can be used to estimate the reliability of predictions made with molecular mechanics force fields.
-  img: mie-potential.png
-  date: 2018-09-21
-  published:
-    doi: 10.1063/1.5039504
-    journal: The Journal of Chemical Physics
-    volume: 149
-    pages: 114109
-    year: 2018
-    license: "Public Domain"
-    date: 2018-09-21
 - title: "Toward Expanded Diversity of Host–Guest Interactions via Synthesis and Characterization of Cyclodextrin Derivatives"
   authors: "Kathryn Kellett, S. A. Kantonen, Brendan M. Duggan and Michael K. Gilson"
   summary: This paper shows the synthesis of a mono-3-functionalized cyclodextrin and how cyclodextrin derivatives can effect the binding of guest molecules using 1D/2D NMR and ITC experiments.
   img: gilson_cd_1.jpg
-  date: 2018-06-04
+  date: 2018-01-11
   preprint:
     server: chemRxiv
     url: https://chemrxiv.org/articles/Toward_Expanded_Diversity_of_Host-Guest_Interactions_via_Synthesis_and_Characterization_of_Cyclodextrin_Derivatives/5782224/1
@@ -88,21 +168,6 @@
     year: 2018
     volume: 47
     pages: 1597
-    #license: "Public Domain"
-- title: "Facile Synthesis of a Diverse Library of Mono-3-substituted β-Cyclodextrin Analogues"
-  authors: "Kathryn Kellett, Brendan M. Duggan and Michael K. Gilson"
-  summary: We show the facile synthesis of a library of diverse mono-3-substituted β-cyclodextrin analogues, that have the potential to be used to collect host-guest binding data to test and improve simulation force fields.
-  img: gilson_cd_2.jpg
-  date: 2019-01-06
-  preprint:
-    server: chemRxiv
-    url: https://chemrxiv.org/articles/Facile_Synthesis_of_a_Diverse_Library_of_Mono-3-substituted_-Cyclodextrin_Analogues/6453302
-    license: "CC BY 4.0"
-    date: 2018-07-26
-  published:
-    doi: 10.1080/10610278.2018.1562191
-    journal: Supramolecular Chemistry
-    date: 2019-01-06
 - title: "Approaches for Calculating Solvation Free Energies and Enthalpies Demonstrated with an Update of the FreeSolv Database"
   authors: "Guilherme Duarte Ramos Matos, Daisy Y. Kyu, Hannes H. Loeffler, John D. Chodera, Michael R. Shirts, and David L. Mobley"
   summary: "We review alchemical methods for computing solvation free energies and present an update (version 0.5) to the FreeSolv database of experimental and calculated hydration free energies of neutral compounds."
@@ -141,14 +206,3 @@
     date: 2015-09-04
     pmcid: PMC4667959
   code: choderalab/LiquidBenchmark
-- title: "Binding thermodynamics of host-guest systems with SMIRNOFF99Frosst 1.0.5 from the Open Force Field Initiative"
-  authors: "David R. Slochower, Niel Henriksen, Lee-Ping Wang, John D. Chodera, David L. Mobley, and Michael K. Gilson"
-  summary: "We evaluate the accuracy of SMIRNOFF99Frosst, using free energy calculations of 43 α and β-cyclodextrin host-guest pairs and compare with matched calculations using two versions of GAFF. These results suggest that SMIRNOFF99Frosst performs competitively with existing small molecule force fields and is a parsimonious starting point for optimization."
-  img: cyclodextrin.png
-  date: 2019-07-26
-  preprint:
-    server: chemRxiv
-    url: https://doi.org/10.26434/chemrxiv.9159872.v1
-    license: "CC BY 4.0"
-    date: 2019-07-30
-  code: slochower/smirnoff-host-guest-manuscript
