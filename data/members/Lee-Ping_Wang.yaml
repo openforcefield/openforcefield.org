@@ -1,13 +1,12 @@
 name: Lee-Ping Wang
-role: Primary Investigator
+role: Co-Investigator
 filter-role: Scientific Staff
 lab: Wang lab
 title: Assistant Professor
-department: Chemistry
 institution: University of California, Davis
 img: lee-ping-wang.jpg
 webpage: "http://www.lpwchem.org/"
-description: Torsion fitting, electrostatics, automated force field parameterization
+description: _ForceBalance development, automated force field parameterization, torsion drive, QM data_
 google_scholar: "https://scholar.google.de/citations?user=J4w_4eEAAAAJ"
 ORCID: 0000-0003-3072-9946
 email: leeping@ucdavis.edu

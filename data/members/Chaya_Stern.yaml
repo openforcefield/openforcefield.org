@@ -4,12 +4,12 @@ filter-role: Alumni
 lab: Chodera lab
 title: Graduate Student, Sloan Kettering Institute
 current-position: Computational Chemist at DeepCure
-institution: Sloan Kettering Institute
+#institution: Sloan Kettering Institute
 img: chaya-stern.jpg
 webpage: "http://choderalab.org/members#chaya-stern"
-description: Automated Bayesian fitting of torsions and quantum-chemical torsion workflows
+description: _Automated Bayesian fitting of torsions and quantum-chemical torsion workflows_
+google_scholar: https://scholar.google.com/citations?user=cPP0ce0AAAAJ&hl=en&oi=ao
 ORCID: 0000-0001-6200-3993
 twitter: SternChaya
 github: ChayaSt
 linkedin: chaya-stern
-google-scholar: https://scholar.google.com/citations?user=cPP0ce0AAAAJ&hl=en&oi=ao

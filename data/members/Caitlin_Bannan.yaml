@@ -3,11 +3,11 @@ role: Researcher
 filter-role: Alumni
 lab: Mobley lab
 title: Graduate Student and MolSSI Fellow, University of California, Irvine
-current_position: Application Scientist at OpenEye
+current-position: Application Scientist at OpenEye
 institution: University of California, Irvine
 img: caitlin-bannan.jpg
 webpage: "https://www.eyesopen.com/staff"
-description: Automated chemical perception, smirnoff99Frosst force field
+description: _Automated chemical perception, smirnoff99Frosst force field_
 google_scholar: https://scholar.google.com/citations?user=mjDnLz8AAAAJ&hl=en
 ORCID: 0000-0003-2777-1174
 twitter: Caitlin_Bannan

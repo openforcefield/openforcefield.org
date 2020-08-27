@@ -1,13 +1,13 @@
 name: Simon Boothroyd
 role: Researcher
 filter-role: Scientific Staff
-lab: Chodera lab
-title: XtalPi/Open Force Field Consortium Distinguished Postdoctoral Scholar
-institution: Memorial Sloan Kettering Cancer Center
+lab: Shirts lab
+title: XtalPi/OpenFF Postdoctoral Scholar, University of Colorado, Boulder
+institution: University of Colorado, Boulder
 img: simon-boothroyd.jpg
 webpage: "https://www.researchgate.net/profile/Simon_Boothroyd"
 google_scholar: "https://scholar.google.co.uk/citations?user=a_qDLKgAAAAJ"
-description: Automated benchmarking and parameterization by physical property and free energy calculations
+description: _Automated benchmarking and parameterization of force fields against experimental physical properties, data selection, OpenFF Evaluator_
 ORCID: 0000-0002-3456-1872
 github: SimonBoothroyd
 linkedin: simon-boothroyd-596a141a7
