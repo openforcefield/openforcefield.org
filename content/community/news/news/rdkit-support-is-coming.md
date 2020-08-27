@@ -8,7 +8,7 @@ description: "A rundown of coming changes and improvements in the openforcefield
 markup: mmark
 weight: 10
 author: "John Chodera"
-thumb: "19-Support-for-open-source-cheminformatics-toolkits.jpg"
+thumb: "openff-toolkit-logo.jpg"
 ---
 
 We've been hard at work with a large-scale infrastructure overhaul of our main [openforcefield toolkit](http://github.com/openforcefield/openforcefield) following the [Open Force Field Toolkit 0.1.0 prerelease](https://github.com/openforcefield/openforcefield/releases/tag/0.1.0), which provided an initial reference implementation of the [SMIRNOFF 0.1 specification](https://doi.org/10.1101/286542) for direct chemical perception.

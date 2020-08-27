@@ -8,7 +8,7 @@ description: "Chuan Tian presents his work on the latest version of Amber force 
 markup: mark
 weight: 10
 author: "Karmen Condic-Jurkic"
-thumb: "8-Webinar-by-Chuan-Tian.jpg"
+thumb: "webinar-tian-sep2019.jpg"
 ---
 
 [Chuan Tian](https://scholar.google.com/citations?user=-yDSEsMAAAAJ&hl=en) from the [Simmerling lab](https://laufercenter.stonybrook.edu/simmerling/Home) will visit the [Chodera lab](https://meetmsk.zoom.us/j/720521096) at MSKCC and give a talk about the latest Amber force field - [ff19SB](https://chemrxiv.org/articles/ff19SB_Amino-Acid_Specific_Protein_Backbone_Parameters_Trained_Against_Quantum_Mechanics_Energy_Surfaces_in_Solution/8279681/1). Join the seminar via [Zoom](https://meetmsk.zoom.us/j/720521096) in real time on Sep 12 at 1 pm (EDT), or watch it later on our [YouTube channel](https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g).

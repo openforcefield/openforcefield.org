@@ -8,7 +8,7 @@ description: "Major OFF Toolkit milestone, adding support for implicit solvation
 markup: mmark
 weight: 10
 author: "Jeff Wagner"
-thumb: "11-The-Open-Force-Field-Toolkit-0.5.0-adding-GBSA-support.jpg"
+thumb: "openff-toolkit-logo.jpg"
 ---
 
 

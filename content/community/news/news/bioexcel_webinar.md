@@ -7,7 +7,7 @@ draft: false
 description: "MolSSI fellow Caitlin Bannan gives a BioExcel webinar this Oct. 10 on her work with the Initiative"
 weight: 10
 author: "David L. Mobley"
-thumb: "17-Webinar-on-the-SMIRNOFF-format-and-learned-chemical-perception.jpg"
+thumb: "bioexcel-webinar.jpg"
 ---
 
 Check out a webinar on the Initiative this Oct. 10 from BioExcel! MolSSI fellow Caitlin Bannan will talk about the Initiative's overall goals and her work on learned chemical perception. Register through [BioExcel](https://bioexcel.eu/open-force-field-initiative-the-smirnoff-format-and-learned-chemical-perception/), or if you can't make it, video should be available afterwards.
