@@ -9,16 +9,16 @@
   title = "About"
   url = "/about"
   [[column1]]
-    title = "Organization"
-    url = "/about/organization"
+    title = "Mission"
+    url = "/about/mission"
+    parent = "about"
+  [[column1]]
+    title = "Roadmap"
+    url = "/about/roadmap"
     parent = "about"
   [[column1]]
     title = "Team"
     url = "/about/team"
-    parent = "about"
-  [[column1]]
-    title = "Boards"
-    url = "/about/boards"
     parent = "about"
   [[column1]]
     title = "Careers"
