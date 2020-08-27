@@ -8,7 +8,7 @@ description: "Release of major new toolkit version, with open-source cheminforma
 markup: mmark
 weight: 10
 author: "Jeff Wagner"
-thumb: "14-The-0.2.0-Toolkit-release,-now-with-RDKit-support.jpg"
+thumb: "rdkit-logo.jpg"
 ---
 
 We're excited to announce the public release of the [Open Force Field toolkit version 0.2.0](https://github.com/openforcefield/openforcefield/releases/tag/0.2.0)! Most notably, this release adds the ability to assign SMIRNOFF parameters and AM1-BCC charges with a completely open-source backend, adding support for [the RDKit](http://rdkit.org) and [AmberTools](http://ambermd.org/AmberTools.php) via a new [ToolkitWrapper](https://open-forcefield-toolkit.readthedocs.io/en/latest/utils.html#toolkit-wrappers) infrastructure that can be extended in the future to support additional cheminformatics toolkits. The [OpenEye Toolkit](https://www.eyesopen.com/toolkit-development) will continue to be supported, as well as used internally our parameter-fitting pipelines in the short term. We're extremely grateful to the [long list of contributors](https://github.com/openforcefield/openforcefield/graphs/contributors) that have made this release possible, especially [Shuzhe Wang from the Riniker group](http://www.riniker.ethz.ch/the-group.html) for piloting much of the RDKit functionality.

@@ -2,10 +2,10 @@ name: Christopher I. Bayly
 role: Advisor
 filter-role: External Collaborators
 title: Head of Molecular Dynamics, OpenEye Scientific
-institution: OpenEye Scientific
+#institution: OpenEye Scientific
 img: christopher-bayly.jpg
 webpage: "https://www.eyesopen.com/staff"
-description: Charge models, atom typing, physical organic chemistry wizardry
+description: _Charge models, atom typing, physical organic chemistry wizardry_
 google_scholar: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=christopher+bayly&btnG=
 linkedin: christopher-bayly-b1341021/
 ORCID: 0000-0001-9145-6457

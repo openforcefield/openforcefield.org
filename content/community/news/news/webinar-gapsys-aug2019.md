@@ -8,7 +8,7 @@ description: "Vytautas Gapsys will give a talk at UC Irvine on Aug 21 at 11 am (
 markup: mmark
 weight: 10
 author: "Karmen Condic-Jurkic"
-thumb: "10-Webinar-by-Vytautas-Gapsys.jpg"
+thumb: "webinar-gapsys-aug2019.png"
 ---
 
 

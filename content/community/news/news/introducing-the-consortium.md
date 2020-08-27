@@ -7,7 +7,7 @@ draft: false
 description: "The Open Force Field Consortium is a new academic-industry collaboration to fund the Open Force Field Initiative."
 weight: 10
 author: "Lee-Ping Wang"
-thumb: "18-Announcing-the-Open-Force-Field-Consortium.jpg"
+thumb: "openff-consortium-logo.jpg"
 ---
 
 We’re excited to announce the launch of the Open Force Field

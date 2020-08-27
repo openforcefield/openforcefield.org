@@ -7,7 +7,7 @@ draft: false
 description: "The Open Force Field Initiative is an open effort to develop better biomolecular force fields focusing on open source, open science, and open data."
 weight: 10
 author: "John Chodera"
-thumb: "20-Introducing-the-Open-Force-Field-Initiative.jpg"
+thumb: "openff-initiative-logo.jpg"
 
 ---
 

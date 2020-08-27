@@ -9,7 +9,7 @@ description: 'At the end of our first year, the Open Force Field Consortium rele
 weight: 10
 author: "David Mobley, Yudong Qiu, Simon Boothroyd, Lee-Ping Wang, and John Chodera"
 markup: mmark # mmark is necessary for LaTeX to work properly
-thumb: "5-The-Open-Force-Field-1.0-small-molecule-force-field,-our-first-optimized-force-field-(codename-_Parsley_).jpg"
+thumb: "parsley-psf-cc0.png"
 ---
 
 <!-- Parsley CC0 image from https://www.maxpixel.net/Leaf-Plant-Parsley-Common-Aromatic-Parsley-Leaves-3327372 -->
@@ -112,45 +112,45 @@ Before discussing the data used in fitting and the actual fitting process, we br
 <a id="regularized-force-field-optimization"></a>
 ### Regularized force field optimization with quasi-Newton iterations
 
-To determine the parameters for Parsley, we aimed to optimize force field parameters $\theta$ to minimize a loss function $L(\theta)$ that quantifies deviation from quantum chemical data while adding a regularization penalty to minimize the deviation from a reference set of parameters, following the standard approach for [parameter fitting with ForceBalance](https://doi.org/10.1021/jz500737m):
+To determine the parameters for Parsley, we aimed to optimize force field parameters $$\theta$$ to minimize a loss function $$L(\theta)$$ that quantifies deviation from quantum chemical data while adding a regularization penalty to minimize the deviation from a reference set of parameters, following the standard approach for [parameter fitting with ForceBalance](https://doi.org/10.1021/jz500737m):
 
 $$L_\mathrm{tot}(\theta) = \sum_{i \in \mathrm{targets}} w_i L_i(\theta) +  w_{reg} \sum_{p \in \mathrm{parameters}} \frac{1}{2} \frac{|\Delta \theta_p|}{\sigma_p^2}^2$$
 
-Here, $w_i$ is the weight of each class of optimization data targets with corresponding loss functions $L_i(\theta)$, which are often least-squares penalized loss:
+Here, $$w_i$$ is the weight of each class of optimization data targets with corresponding loss functions $$L_i(\theta)$$, which are often least-squares penalized loss:
 
 $$L_i(\theta) = \sum_{j \in \mathrm{data}} \frac{1}{2} \left( A_j^\mathrm{obs} - A_j^\mathrm{calc}(\theta) \right)^2$$
 
-where $A_j^\mathrm{obs}$ is an observed quantum chemical or physical property target to fit, and $A_j^\mathrm{calc}(\theta)$ is the calculated value.
+where $$A_j^\mathrm{obs}$$ is an observed quantum chemical or physical property target to fit, and $$A_j^\mathrm{calc}(\theta)$$ is the calculated value.
 
-$w_{reg}$ is the regularization penalty weight, and $\Delta \theta$ quantifies the deviation from a reference set of parameters (here, the initial parameter set).
+$$w_{reg}$$ is the regularization penalty weight, and $$\Delta \theta$$ quantifies the deviation from a reference set of parameters (here, the initial parameter set).
 
 To efficiently optimize the parameters in as few iterations as possible, ForceBalance uses a quasi-Newton iteration to take near-optimal steps in parameter space:
 
-$$ \theta^{(n+1)} = \theta^{(n)} + \left[ \mathbf{H}(\theta) + \lambda \mathbf{I} \right]^{-1}$$
+$$\theta^{(n+1)} = \theta^{(n)} + \left[ \mathbf{H}(\theta) + \lambda \mathbf{I} \right]^{-1}$$
 
-To approximate the Hessian $\mathbf{H}(\theta)$, ForceBalance computes an approximate to the the matrix of second derivatives of each least-squares component in a manner that neglects parameter couplings:
+To approximate the Hessian $$\mathbf{H}(\theta)$$, ForceBalance computes an approximate to the the matrix of second derivatives of each least-squares component in a manner that neglects parameter couplings:
 
 $$H_{i, pq}(\theta) = \frac{\partial^2}{\partial \theta_p \partial \theta_q} L_i(\theta) = \sum_{j \in \mathrm{data}}\frac{\partial A_j}{\partial \theta_p} \frac{\partial A_j}{\partial \theta_q} + \frac{\partial^2 A_j}{\partial \theta_p \partial \theta_q} \approx \sum_{j \in \mathrm{data}}\frac{\partial A_j}{\partial \theta_p} \frac{\partial A_j}{\partial \theta_q}$$
 
-The $\lambda$ parameter is used to restrict the optimization step to lie within a trust radius (which is adjusted on-the-fly based on step quality).
-In the fitting of bonded parameters (stage 1 and 3), we performed line-search minimization on $\lambda$ to determine the next step, for improved convergence behavior.
+The $$\lambda$$ parameter is used to restrict the optimization step to lie within a trust radius (which is adjusted on-the-fly based on step quality).
+In the fitting of bonded parameters (stage 1 and 3), we performed line-search minimization on $$\lambda$$ to determine the next step, for improved convergence behavior.
 
 <a id="parameter-regularization"></a>
 ### Parameter regularization
 
 Regularization is important to ensure that parameter adjustments are made conservatively to avoid introducing large problematic parameter changes that may only provide marginal improvements in the optimization target, especially when smaller datasets are used in parameterization.
 Internally, [ForceBalance](https://doi.org/10.1021/jz500737m) converts parameters into a dimensionless "mathematical" representation using user-specified scaling factors, and works with these dimensionless parameters internally.
-To penalize deviations from a reference set of parameters---here, the [SMIRNOFF99Frosst 1.1.0](https://github.com/openforcefield/smirnoff99Frosst/releases/tag/1.1.0) parameters---we used the following regularization scales $\sigma_p$:
+To penalize deviations from a reference set of parameters---here, the [SMIRNOFF99Frosst 1.1.0](https://github.com/openforcefield/smirnoff99Frosst/releases/tag/1.1.0) parameters---we used the following regularization scales $$\sigma_p$$:
 
-| **parameter** | **regularization scale $\sigma_p$** |
+| **parameter** | **regularization scale $$\sigma_p$$** |
 | :---------|:--------------------------------|
-| bond force constant $K_r$ | 100 kcal/mol/A^2 |
-| bond equilibrium length $r_0$ | 0.1 A |
-| angle force constant $K_\theta$ | 100 kcal/mol/radian^2 |
-| angle equilibrium angle $\theta_0$ | 20 degrees |
-| proper torsion barrier height $K$ | 1 kcal/mol |
-| vdW well depth $\epsilon$ | 0.1 kcal/mol |
-| vdW minimimum $r_\mathrm{min-half}$ | 1 A |
+| bond force constant $$K_r$$ | 100 kcal/mol/A^2 |
+| bond equilibrium length $$r_0$$ | 0.1 A |
+| angle force constant $$K_\theta$$ | 100 kcal/mol/radian^2 |
+| angle equilibrium angle $$\theta_0$$ | 20 degrees |
+| proper torsion barrier height $$K$$ &ensp; | 1 kcal/mol |
+| vdW well depth $$\epsilon$$ | 0.1 kcal/mol |
+| vdW minimimum $$r_\mathrm{min-half}$$ | 1 A |
 
 <a id="fitting-and-convergence"></a>
 ### Fitting and convergence
@@ -237,10 +237,10 @@ The [QCArchive documentation](https://qcarchivetutorials.readthedocs.io/en/lates
 <a id="optimization-datasets"></a>
 #### Optimized quantum chemical geometries (`OptimizationDataset`)
 
-| **input molecules** | **Roche Set** (468 molecules) | **Coverage Set** (80 molecules) |
+| **Input molecules** | **Roche Set** (468 molecules) | **Coverage Set** (80 molecules) |
 |:--------------------|:------------------------------|:-------------------------------|
 | **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-05-16-Roche-Optimization_Set) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-06-25-smirnoff99Frost-coverage) |
-| **QCArchive `OptimizationDataset` name** | `OpenFF Optimization Set 1` | `SMIRNOFF Coverage Set 1` |
+| **QCArchive `OptimizationDataset` name** &ensp; | `OpenFF Optimization Set 1` &ensp; | `SMIRNOFF Coverage Set 1` |
 | **Number of optimized geometries** | 936 | 831 |
 
 Prior to running quantum chemical calculations, the input molecules first undergo a protonation state and conformer expansion using our [`fragmenter` package](https://github.com/openforcefield/fragmenter) version [0.0.2+121.g87b85a4](https://github.com/openforcefield/fragmenter/tree/87b85a406aa9c6ac0cfbaf582ed05c55799161a9).
@@ -254,7 +254,7 @@ Details can be found in [this script](https://github.com/openforcefield/openforc
 To further improve fits to optimized geometries, a new fitting method we call “internal coordinate fitting” was implemented in ForceBalance.
 The method performs MM geometry optimizations starting from QM optimized structure.
 It then converts the Cartesian coordinates to a redundant list of bond lengths, bond angles, and torsion angles (i.e. “primitive internal coordinates”) with geomeTRIC, and computes the difference between MM and QM values.
-Three types of internal coordinates contribute square summed differences to the objective function with following parameter penalty $\sigma_p$ scales:
+Three types of internal coordinates contribute square summed differences to the objective function with following parameter penalty $$\sigma_p$$ scales:
 * Bond lengths: 0.05 Angstroms
 * Angles: 8 degrees
 * Improper torsions: 20 degrees
@@ -264,25 +264,25 @@ The proper torsion angles are not fitted as part of the optimized geometry fitti
 <a id="vibrational-datasets"></a>
 #### Vibrational frequency datasets
 
-| **input molecules** | **Roche Set** (468 molecules) | **Coverage Set** (80 molecules) |
+| **Input molecules** | **Roche Set** (468 molecules) | **Coverage Set** (80 molecules) |
 |:--------------------|:------------------------------|:-------------------------------|
 | **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-07-09-OpenFF-Optimization-Set) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-06-25-smirnoff99Frost-coverage) |
-| **QCArchive `OptimizationDataset` name** | `OpenFF Optimization Set 1` | `SMIRNOFF Coverage Set 1` |
+| **QCArchive `OptimizationDataset` name** &ensp; | `OpenFF Optimization Set 1` &ensp; | `SMIRNOFF Coverage Set 1` |
 | **Number of vibrational datasets** | 660 | 235 |
 
 Hessian calculations were submitted to QCArchive for each optimized geometry in both molecule sets.
 
 The vibrational frequency fitting targets are prepared by: 1) downloading Hessian data for each optimized geometry from QCArchive server; 2) Picking the lowest-energy conformer of each molecule; 3) Applying the same filters as for the optimized geometry targets (bond changes and toolkit errors); and 4) Conducting normal-mode analysis to get harmonic vibrational frequencies for non-translational and non-rotational degrees of freedom. Details can be found in [this script](https://github.com/openforcefield/openforcefield-forcebalance/blob/master/vib_freq_target/make_vib_freq_target.py).
 
-During the fitting, the MM Hessian is computed by evaluating forces with numerical displacements (0.001 Angstrom). The MM Hessian undergoes the same normal mode analysis as QM, then vibrational frequencies are aligned from lowest to highest. Pairwise squared differences then contribute to the total objective function with a denominator of 200 cm$^{-1}$.
+During the fitting, the MM Hessian is computed by evaluating forces with numerical displacements (0.001 Angstrom). The MM Hessian undergoes the same normal mode analysis as QM, then vibrational frequencies are aligned from lowest to highest. Pairwise squared differences then contribute to the total objective function with a denominator of 200 cm$$^{-1}$$.
 
 <a id="torsiondrive-datasets"></a>
 #### Torsion drive datasets (`TorsionDriveDataset`)
 
-| **input molecules** | **Roche Set** (468 molecules) | **Coverage Set** (80 molecules) |
+| **Input molecules** | **Roche Set** (468 molecules) &ensp;| **Coverage Set** (80 molecules) |
 |:--------------------|:------------------------------|:-------------------------------|
 | **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-05-01-OpenFF-Group1-Torsions) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-07-01-smirnoff99Frost-coverage-torsion) |
-| **QCArchive `OptimizationDataset` name** | `OpenFF Group1 Torsions` | `SMIRNOFF Coverage Torsion Set 1` |
+| **QCArchive `OptimizationDataset` name** &ensp; | `OpenFF Group1 Torsions` &ensp;| `SMIRNOFF Coverage Torsion Set 1` |
 | **Number of 1D torsion drives** | 669 | 417 |
 
 The QM torsion profiles were generated by [TorsionDrive](https://github.com/lpwgroup/torsiondrive), which carries out 360 degree dihedral scans with constrained geometry optimizations (with geomeTRIC [https://doi.org/10.1063/1.4952956]), spaced 15 degrees apart.
@@ -308,7 +308,7 @@ The geometries used in fitting are constrained local minima in the QM method, bu
 This creates a problem because MM simulations will involve some amount of relaxation on the MM surface (e.g. due to differences in the description of bonded interactions or sterics) that varies depending on the torsion angle.
 This could worsen the level of agreement between MM and QM probability distributions, which is what we are truly interested in (but cannot compute due to cost reasons).
 To compensate for this problem, the fitting of the torsion profiles involves an MM restrained optimization, followed by computing the squared difference in relative energies between the QM and MM torsion profiles.
-During the restrained geometry optimization, the four atoms of the torsion being scanned is kept at the QM coordinates, and the coordinates of every other atom are optimized with a harmonic restraining force of 1 kcal/mol/A$^2$ centered at the original location.
+During the restrained geometry optimization, the four atoms of the torsion being scanned is kept at the QM coordinates, and the coordinates of every other atom are optimized with a harmonic restraining force of 1 kcal/mol/A$$^2$$ centered at the original location.
 
 <a id="fitting-results"></a>
 ## Optimizing parameters for Parsley
@@ -458,7 +458,7 @@ As we discuss further below, the difference in performance between these two set
 
 Division into these two sets was done based on path-based fingerprint similarity comparisons between all molecules (building out a full similarity/distance matrix) utilizing the OpenEye toolkits, followed by clustering with DBSCAN, with a minimum Tanimoto similarity of 0.5 for molecules in the same cluster. Only molecules which were in clusters with at least one training set molecule were considered for inclusion in the primary benchmark set, provided they also utilized no parameters occurring in fewer than three molecules in the training set. Code for this process is available [in a notebook in our release benchmarking repository](https://github.com/openforcefield/release-1-benchmarking/blob/master/QM_molecule_selection/divide_sets.ipynb)
 
-| **input molecules** | **Discrepancy Set** (2802 molecules) | **Pfizer Set** (100 molecules) | **FDA drugs set** (1038 molecules) |
+| **Input molecules** | **Discrepancy Set** (2802 molecules) | **Pfizer Set** (100 molecules) | **FDA drugs set** (1038 molecules) |
 |:--------------------|:------------------------------|:-------------------------------|:------------------|
 | **Dataset construction** | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-07-05%20eMolecules%20force%20field%20discrepancies%201) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-09-07-Pfizer-discrepancy-optimization-dataset-1) | [GitHub repo](https://github.com/openforcefield/qca-dataset-submission/tree/aae895e03a402910ac389e6b5dcb5686c1e9fceb/2019-09-08-fda-optimization-dataset-1) |
 | **QCArchive `OptimizationDataset` name** | `OpenFF Discrepancy Benchmark 1` | `Pfizer Discrepancy Optimization Dataset 1` | `FDA Optimization Dataset 1` |
@@ -491,7 +491,7 @@ The above plot shows an overall decrease of RMSE in bond lengths when using opti
 
 To investigate the impact of the improvement in the optimized force field on each individual molecule, the weighted root-mean-square deviation (RMSD) between internal coordinates of MM minimized geometry and QM minimized geometry of each molecule was calculated. Comparison of the weighted RMSD values shows 80.5% of geometries in the primary set (1490 out of 1850 geometries) are improved in the optimized force field compared to the initial force field.
 
-| **index** | **SMILES** | **molecule ID** | RMSD |
+| **Index** | **SMILES** | **Molecule ID** &ensp; | RMSD |
 |-----------|:-----------|-----------------|------|
 | 0 | `c1ccc(cc1)CO` | 4029232 | 0.50 |
 | 1 | `c1cc(c(cc1C(=O)CBr)Cl)F` | 2427669 | 1.44 |
@@ -586,14 +586,14 @@ In general, the new Parsley 1.0.0 force field appears to perform well, showing m
 <img src="physprop-benchmark-dielectric.png" align="top" width="100%">
 </center>
 **Results of pure property benchmarks.**
-95% confidence intervals reported for $R^2$ and RMSE where calculated using bootstrapping with replacement over 1000 iterations.
+95% confidence intervals reported for $$R^2$$ and RMSE where calculated using bootstrapping with replacement over 1000 iterations.
 
 <center>
 <img src="physprop-benchmark-hvap.png" align="top" width="100%">
 <img src="physprop-benchmark-hmix.png" align="top" width="100%">
 </center>
 **Results of binary mixture property benchmarks.**
-95% confidence intervals reported for $R^2$ and RMSE where calculated using bootstrapping with replacement over 1000 iterations.
+95% confidence intervals reported for $$R^2$$ and RMSE where calculated using bootstrapping with replacement over 1000 iterations.
 
 <a id="future-plans"></a>
 ## Plans for additional benchmarks

@@ -8,7 +8,7 @@ description: "Falk Hoffmann will give a webinar on Sep 20 at 11 am (EDT) about h
 markup: mark
 weight: 10
 author: "Karmen Condic-Jurkic"
-thumb: "7-Webinar-by-Falk-Hoffmann.jpg"
+thumb: "webinar-hoffman-sep2019.png"
 ---
 
 [Falk Hoffmann](https://orcid.org/0000-0003-0426-4954) from [Lars Schaefer's group](https://www.molecular-simulation.org/) at Ruhr University Bochum, will present his work on improving torsional barriers associated with methyl group rotations in amino acid side-chains in AMBER and CHARMM force fields by using NMR relaxation rates. This study is available as a [preprint](https://chemrxiv.org/articles/Predicting_NMR_Relaxation_of_Proteins_from_Molecular_Dynamics_Simulations_with_Accurate_Methyl_Rotation_Barriers/8982338) on ChemrXiv. Join this seminar via [Zoom](https://meetmsk.zoom.us/j/512255223) in real time on Sep 20 at 11 am (EDT), or watch it later on our [YouTube channel](https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g).

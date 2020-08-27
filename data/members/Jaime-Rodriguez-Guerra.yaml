@@ -1,11 +1,12 @@
 name: Jaime Rodríguez-Guerra
 role: Software Scientist
 filter-role: External Collaborators
+lab: Volkamer lab
 title: Postdoctoral fellow, Charité Universitätsmedizin Berlin
 institution: Charité Universitätsmedizin Berlin
 img: Jaime-Guerra.jpg
 webpage: "https://physiologie-ccm.charite.de/en/metas/person_detail/person/address_detail/rodriguez_guerra/"
-description: OpenFF software development, conda-forge, machine learning, best practices.
+description: _OpenFF software development, conda-forge, machine learning, best practices_
 google_scholar: https://scholar.google.com/citations?user=imKyayEAAAAJ&hl=en&oi=ao
 linkedin: jaimergp
 twitter: jaime_rgp

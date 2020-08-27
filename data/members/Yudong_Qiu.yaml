@@ -3,9 +3,9 @@ role: Researcher
 filter-role: Alumni
 lab: Wang lab
 title: Postdoctoral Fellow, University of California, Davis
-current-position: Software engineer at LinkedIn
+current-position: "Current position: Software engineer at LinkedIn"
 institution: University of California, Davis
 img: yudong-qiu.jpg
-description: ForceBalance code development, torsion driving, quantum chemistry and interfacing with QCArchive
+description: _ForceBalance code development, torsion drive, quantum chemistry, force field fitting_
 ORCID: 0000-0003-4345-8356
 github: yudongqiu

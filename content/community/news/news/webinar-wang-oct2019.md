@@ -8,7 +8,7 @@ description: "Yuanqing Wang (MSKCC) will talk about his ongoing work on applying
 markup: mmark
 weight: 10
 author: "Karmen Condic-Jurkic"
-thumb: "6-Webinar-by-Yuanqing-Wang.jpg"
+thumb: "webinar-wang-oct2019.png"
 ---
 
 [Yuanqing Wang](https://orcid.org/0000-0003-4403-2015)(MSKCC) will give a talk about using Graph Nets for fast prediction of atomic partial charges. The preprint is available on [here](https://arxiv.org/abs/1909.07903). Join the seminar via [Zoom](https://meetmsk.zoom.us/j/5050124273) in real time on Oct 14 at 1 pm (EDT), or watch it later on our [YouTube channel](https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g).

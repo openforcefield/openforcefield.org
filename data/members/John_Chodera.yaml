@@ -2,11 +2,11 @@ name: John D. Chodera
 role: Primary Investigator
 filter-role: Management
 lab: Chodera lab
-title: Associate Member
+title: Associate Member, Sloan Kettering Institute
 institution: Sloan Kettering Institute
 img: john-chodera.jpg
 webpage: "http://choderalab.org"
-description: Automated Bayesian force field fitting and prediction of systematic error
+description: _Automated Bayesian force field fitting, prediction of systematic error, software architecture_
 google_scholar: http://goo.gl/qO0JW
 ORCID: 0000-0003-0542-119X
 twitter: jchodera
