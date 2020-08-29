@@ -40,7 +40,7 @@ The SMILES and PDF-format records are entirely derived from the structure files 
 
 
 {{<button href="https://github.com/openforcefield/openforcefields/releases/tag/1.1.1" text="GitHub" >}}
-{{<button href="https://zenodo.org/record/3751818" text="DOI" >}}
+{{<button href="https://zenodo.org/record/3872244" text="DOI" >}}
 {{< br >}}{{< br >}}
 ### openff-1.0.1 ###
 
