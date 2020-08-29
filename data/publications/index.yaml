@@ -1,3 +1,14 @@
+- title: "Capturing non-local through-bond effects when fragmenting molecules for quantum chemical torsion scans"
+  authors: "Chaya D. Stern, Christopher I. Bayly, Daniel G. A. Smith, Josh Fass, Lee-Ping Wang, David L. Mobley, and John D. Chodera"
+  summary: "We show how the Wiberg Bond Order (WBO) can be used to construct small molecule fragmentation schemes that will avoid disrupting the chemical environment around torsions. The resulting fragmentation scheme powers the QCSubmit tool used to fragment and inject small molecule datasets into the QCFractal computation pipeline for deposition into the QCArchive quantum chemistry archive the Open Force Field Initiative uses for constructing force fields, as well as powering bespoke torsion refitting for individual molecules."
+  img: fragmenter.png
+  date: 2020-08-28
+  preprint:
+    server: bioRxiv
+    url: https://doi.org/10.1101/2020.08.27.270934
+    license: "CC BY 4.0"
+    date: 2020-08-28
+  code: openforcefield/fragmenter
 - title: "Improving Small Molecule Force Fields by Identifying and Characterizing Small Molecules with Inconsistent Parameters"
   authors: "Jordan Ehrman, Victoria T. Lim, Caitlin C. Bannan, Nam Thi, Daisy Kyu, and David Mobley"
   summary: "We present a pipeline for comparing the geometries of small molecule conformers optimized with different force fields. We aimed to identify molecules or chemistries that are particularly informative for future force field development because they display inconsistencies between force fields. We applied our pipeline to a subset of the eMolecules database, and highlighted molecules that appear to be parameterized inconsistently across different force fields. We then identified over-represented functional groups in these molecule sets. The molecules and moieties identified by this pipeline may be particularly helpful for future force field parameterization."
