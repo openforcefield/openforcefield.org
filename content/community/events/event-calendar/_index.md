@@ -1,6 +1,6 @@
 ---
 color: darkblue
-title: Event calender
+title: Event calendar
 weight: 3
 ---
 

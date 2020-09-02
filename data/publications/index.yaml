@@ -20,6 +20,17 @@
     license: "CC BY 4.0"
     date: 2020-08-23
   code: mobleylab/off-ffcompare
+- title: "Towards chemical accuracy for alchemical free energy calculations with hybrid physics-based machine learning/molecular mechanics potentials"
+  authors: "Dominic Rufa, Hannah Bruce Macdonald, Josh Fass, Marcus Wieder, Patrick Grinaway, Adrian Roitberg, Olexandr Isayev and John Chodera"
+  summary: "This study combines a new generation of hybrid ML/MM potentials and a nonequilibrium perturbation approach to predict protein-ligand binding affinities. With this approach, a standard, GPU-accelerated MM alchemical free energy calculation can be corrected in a simple post-processing step to efficiently recover ML/MM free energies, while delivering a significant accuracy improvement with small additional computational effort. The authors show that it is possible to significantly reduce the error in absolute binding free energies with this new hybrid ML/MM approach ANI2xx/AMBER14SB/TIP3P on Tyk2 benchmarking system. The same set of FE calculations performed with OpenFF-1.0.0 instead of ANI2xx to model ligands achieves RMSE statistically indistinguishable from the [Schrodinger JACS result](https://pubs.acs.org/doi/10.1021/ja512751q) for the tested system, which implies that we should expect even better results with the latest Parsley update (OpenFF-1.2.0)."
+  img: rufa2020.png
+  date: 2020-07-30
+  preprint:
+    server: bioRxiv
+    url: https://www.biorxiv.org/content/10.1101/2020.07.29.227959v1
+    license: "CC BY 4.0"
+    date: 2020-07-30
+  code: choderalab/perses
 - title: "Benchmark Assessment of Molecular Geometries and Energies from Small Molecule Force Fields"
   authors: "Victoria T. Lim and David L. Mobley"
   summary: "In this work, we aim to compare six force fields: GAFF, GAFF2, MMFF94, MMFF94S, SMIRNOFF99Frosst, and the openff-1.0.0 (Parsley) force field by focusing on small molecules (< 50 heavy atoms). On a dataset comprising over 26,000 molecular structures, we analyzed their force field-optimized geometries and conformer energies compared to reference quantum mechanical (QM) data. We show that most of these force fields are comparable in accuracy at reproducing gas-phase QM geometries and energetics, but that GAFF/GAFF2/Parsley do slightly better in reproducing QM energies and that MMFF94/MMFF94S perform slightly better in geometries. Parsley version OpenFF-1.0.0 shows considerable improvement over its predecessor SMIRNOFF99Frosst, while OpenFF-1.2.0 performs even better with accuracy comparable to other available general force fields. We identify particular outlying chemical groups for further force field improvement."

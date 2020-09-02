@@ -12,7 +12,7 @@ The Open Force Field Initiative uses [QCArchive infrastructure](http://qcarchive
 {{< br >}}{{< br >}}
 ## Physical properties
 
-We are using [NIST ThermoML](https://www.nist.gov/mml/acmd/trc/thermoml) archive to access condensed phase physical properties of various compounds included in our force field optimization and benchmarking. Simon Boothroyd has developed a [tool](https://github.com/openforcefield/nistdataselection) for automated selection and curation of these datasets.
+We are using [NIST ThermoML](https://www.nist.gov/mml/acmd/trc/thermoml) archive to access condensed phase physical properties of various compounds included in our force field optimization and benchmarking. The utilities for automated selection and curation of these datasets are available as a part of [OpenFF Evaluator](https://github.com/openforcefield/openff-evaluator), developed by Simon Boothroyd. 
 
 An older version of selected physical properties datasets can be found [here](https://github.com/openforcefield/open-forcefield-data).
 {{< br >}}{{< br >}}
@@ -22,5 +22,5 @@ Our protein-ligand benchmarking dataset, curated by David Hahn, for calculating 
 {{< br >}}{{< br >}}
 ## MiniDrugBank
 
-[This repository](https://github.com/openforcefield/MiniDrugBank) tracks the creation and evolution of the MiniDrugBank Molecule set, filtered from[DrugBank Release Version 5.0.1](https://www.drugbank.ca/releases/5-0-1).
+[This repository](https://github.com/openforcefield/MiniDrugBank) tracks the creation and evolution of the MiniDrugBank Molecule set, filtered from [DrugBank Release Version 5.0.1](https://www.drugbank.ca/releases/5-0-1).
 {{< br >}}{{< br >}}

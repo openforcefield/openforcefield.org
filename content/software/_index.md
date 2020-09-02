@@ -34,7 +34,7 @@ Lead Developer: Lee-Ping Wang
 
 ## OpenFF Toolkit
 
-The OpenFF Toolkit, built by the[Open Force Field Initiative](http://openforcefield.org/), is a Python toolkit for the development and application of modern molecular mechanics force fields based on direct chemical perception and rigorous statistical parameterization methods.
+The OpenFF Toolkit, built by the [Open Force Field Initiative](http://openforcefield.org/), is a Python toolkit for the development and application of modern molecular mechanics force fields based on direct chemical perception and rigorous statistical parameterization methods.
 
 The toolkit currently covers two main areas we have committed to stably maintain throughout their lifetimes:
 
@@ -107,7 +107,7 @@ Lead Developer: Joshua Horton
 
 ## ChemPer
 
-This repository contains a variety of tools that will be useful in automating the process of chemical perception for the SMIRNOFF format. ChemPer can be used to automatically generate SMIRKS patterns to match clustered molecular fragments. The algorithms implemented here were inspired by[SMARTY and SMIRKY](https://github.com/openforcefield/smarty) which were proven to be too inefficient for practical use in force field parameterization. This is work in progress, developed in the Mobley lab.
+This repository contains a variety of tools that will be useful in automating the process of chemical perception for the SMIRNOFF format. ChemPer can be used to automatically generate SMIRKS patterns to match clustered molecular fragments. The algorithms implemented here were inspired by [SMARTY and SMIRKY](https://github.com/openforcefield/smarty) which were proven to be too inefficient for practical use in force field parameterization. This is work in progress, developed in the Mobley lab.
 
 Lead Developer: Caitlin Bannan (alumna)
 
@@ -206,7 +206,7 @@ OpenEye Scientific Software Inc. is a privately held company headquartered in Sa
 {{< br >}}{{< br >}}
 ### OpenMM
 
-OpenMM is a high performance toolkit for molecular simulation, which can be used as a library, or as an application. It includes extensive language bindings for Python, C, C++, and even Fortran. The code is open source and actively maintained on Github, licensed under MIT and LGPL. Part of the[Omnia](http://www.omnia.md/) suite of tools for predictive biomolecular simulation.
+OpenMM is a high performance toolkit for molecular simulation, which can be used as a library, or as an application. It includes extensive language bindings for Python, C, C++, and even Fortran. The code is open source and actively maintained on Github, licensed under MIT and LGPL. Part of the [Omnia](http://www.omnia.md/) suite of tools for predictive biomolecular simulation.
 
 [OpenMM](http://openmm.org/)
 {{< br >}}{{< br >}}
