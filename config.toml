@@ -119,13 +119,13 @@ theme = "openff"
 
   [[menu.main]]
     name = "Community"
-    url = "community/news/news/"
+    url = "/community/news/general/"
     identifier = "community"
     weight = 7
 
       [[menu.main]]
         name = "News"
-        url = "/community/news/news/"
+        url = "/community/news/general/"
         parent = "community"
         identifier = "news"
         weight = 1
