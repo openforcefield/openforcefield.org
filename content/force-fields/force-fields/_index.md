@@ -14,7 +14,7 @@ The files available for [download](https://github.com/openforcefield/openforcefi
 ![Parsley](img/parsley.jpg)
 ### openff-1.y.z ###
 
-_Parsley_ (OpenFF-1.y.z) is the codename for the first generation of optimized small molecule force fields from the Open Force Field Initiative. Parsley force fields represent a refit of the AMBER-lineage _smirnoff99Frosst_ to large sets of quantum chemical data, and assign parameters using direct chemical perception, using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) specification. Read more about the most important aspects of fitting and benchmarking procedures for Parsley in the [blog post](/community/news/news/introducing-openforcefield-1.0/). See more information about naming and semantic versioning [here](/force-fields/versioning/).
+_Parsley_ (OpenFF-1.y.z) is the codename for the first generation of optimized small molecule force fields from the Open Force Field Initiative. Parsley force fields represent a refit of the AMBER-lineage _smirnoff99Frosst_ to large sets of quantum chemical data, and assign parameters using direct chemical perception, using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) specification. Read more about the most important aspects of fitting and benchmarking procedures for Parsley in the [blog post](/community/news/general/introducing-openforcefield-1.0/). See more information about naming and semantic versioning [here](/force-fields/versioning/).
 
 All currently available versions are listed below. Each force field is currently available in two forms - with and without bond constraints to hydrogen. The default version of each force field is suitable for typical molecular dynamics simulations with constrained bonds to hydrogen. The unconstrained version of each force field should be used when single-point energies are a major concern (e.g. geometry optimizations) and when comparing the force field to QM data.
 {{< br >}}{{< br >}}
@@ -108,7 +108,7 @@ Read more details about the modified parameters in the [release notes](https://g
 
 #### Release date: October 12, 2019
 
-The first official small molecule force field release from the Open Force Field Initiative. Fitting and benchmarking details are described [here](/community/news/news/introducing-openforcefield-1.0/).
+The first official small molecule force field release from the Open Force Field Initiative. Fitting and benchmarking details are described [here](/community/news/general/introducing-openforcefield-1.0/).
 
 {{<button href="https://github.com/openforcefield/openforcefields/releases/tag/1.1.0" text="GitHub" >}}
 {{<button href="https://zenodo.org/record/3483227" text="DOI" >}}

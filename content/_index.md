@@ -20,6 +20,6 @@ title = "Open data"
 description="Curated quantum chemical and experimental datasets used to parameterize and benchmark Open Force Fields."
 
 +++
-{{< button href="/community/news/news" text="News" >}}
+{{< button href="/community/news/general" text="News" >}}
 {{< button href="https://github.com/openforcefield/openforcefield/tree/master/examples#examples-using-smirnoff-with-the-toolkit" text="Tutorials" >}}
 {{< button href="/about/roadmap/" text="Roadmap" >}}
