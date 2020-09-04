@@ -13,7 +13,7 @@ thumb: "openff-nih-funding.png"
 <br>
 
 We are excited to announce that the NIH Institute of General Medical Sciences has funded our Focused Technology Research & Development R01 proposal, enabling the Open Force Field Initiative to partner with the biopolymer force field community and extend our infrastructure and force fields to also cover biopolymers.
-This is a collaborative NIH grant, with $380K direct costs/year for four years shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan Kettering Cancer Center, University of California, Irvine, University of California, San Diego, and University of California, Davis), and includes significant funded collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers). The submitted proposal text can be found [here](/community/news/news/seeking-nih-funding/2019-03-05-OpenFF-R01-proposal.pdf).
+This is a collaborative NIH grant, with $380K direct costs/year for four years shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan Kettering Cancer Center, University of California, Irvine, University of California, San Diego, and University of California, Davis), and includes significant funded collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers). The submitted proposal text can be found [here](/community/news/general/seeking-nih-funding/2019-03-05-OpenFF-R01-proposal.pdf).
 We especially thank our partners who contributed letters in support of the proposal.
 
 The NIH funding is synergistic to the existing industrial Open Force Field Consortium funding, which focuses on delivering

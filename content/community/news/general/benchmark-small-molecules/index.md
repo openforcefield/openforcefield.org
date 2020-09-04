@@ -16,7 +16,7 @@ The [Open Force Field Initiative](https://openforcefield.org/), focusing on open
 
 Here, we provide a preliminary benchmark assessment of several small molecule force fields (FF) compared to quantum mechanical (QM) results regarding gas phase energies and geometries of a set of molecule conformers.
 
-We have compared the vacuum-minimized energies and geometries of nine small molecule force fields to quantum chemical results (B3LYP-D3BJ/DZVP) available in QCArchive. Our dataset is the [OpenFF Full Optimization Benchmark 1](https://openforcefield.org/news/introducing-openforcefield-1.0/) set,  except of molecules which were used for training OpenFF-1.2.0. The set includes about 23000 conformers of a broad range of molecules. Additional methodology details are available in [our recent preprint](https://chemrxiv.org/articles/preprint/Benchmark_Assessment_of_Molecular_Geometries_and_Energies_from_Small_Molecule_Force_Fields/12551867), which will be updated soon to include this new data.
+We have compared the vacuum-minimized energies and geometries of nine small molecule force fields to quantum chemical results (B3LYP-D3BJ/DZVP) available in QCArchive. Our dataset is the [OpenFF Full Optimization Benchmark 1](https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/) set,  except of molecules which were used for training OpenFF-1.2.0. The set includes about 23000 conformers of a broad range of molecules. Additional methodology details are available in [our recent preprint](https://chemrxiv.org/articles/preprint/Benchmark_Assessment_of_Molecular_Geometries_and_Energies_from_Small_Molecule_Force_Fields/12551867), which will be updated soon to include this new data.
 
 Assessed force fields:
 * GAFF1
@@ -94,7 +94,7 @@ Furthermore additional benchmarking studies will be published targeting liquid p
 
 ### Further reading
 
-Further information about Open Force Field’s parameterization and benchmarking strategies is presented in this [blog post](https://openforcefield.org/community/news/news/introducing-openforcefield-1.0/#benchmarking-parsley).
+Further information about Open Force Field’s parameterization and benchmarking strategies is presented in this [blog post](https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/#benchmarking-parsley).
 More details about the present study can be found in this [preprint](https://doi.org/10.26434/chemrxiv.12551867.v1).
 
 ### Contributions
