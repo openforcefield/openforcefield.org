@@ -18,6 +18,15 @@ _Parsley_ (OpenFF-1.y.z) is the codename for the first generation of optimized s
 
 All currently available versions are listed below. Each force field is currently available in two forms - with and without bond constraints to hydrogen. The default version of each force field is suitable for typical molecular dynamics simulations with constrained bonds to hydrogen. The unconstrained version of each force field should be used when single-point energies are a major concern (e.g. geometry optimizations) and when comparing the force field to QM data.
 {{< br >}}{{< br >}}
+### openff-1.2.1 ###
+
+#### Release date: September 9, 2020
+
+This bugfix release manually changes two bond force constants (`b24` and `b27`) to resolve an issue seen in propyne substituents when using hydrogen mass repartitioning with a 4fs timestep. Full details are available at https://github.com/openforcefield/openforcefields/issues/19 and in the `reproduce_propyne_hmr.ipynb` notebook in the release assets on GitHub.
+
+{{<button href="https://github.com/openforcefield/openforcefields/releases/tag/1.2.1" text="GitHub" >}}
+{{<button href="https://zenodo.org/record/4021623" text="DOI" >}}
+{{< br >}}{{< br >}}
 ### openff-1.2.0 ###
 
 #### Release date: June 1, 2020
