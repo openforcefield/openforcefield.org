@@ -3,4 +3,4 @@ title: OpenFF positions
 weight: 1
 ---
 
-The Open Force Field Initiative currently has no available positions, but please reach out to `info@openforcefield.org` if you are interested in collaboration or potential openings in the future.
+Please see the available positions listed below. For more information, please reach out to `info@openforcefield.org`.
