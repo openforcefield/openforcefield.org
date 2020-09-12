@@ -19,13 +19,13 @@ theme = "openff"
 
   [[menu.main]]
     name = "About"
-    url = "/about/mission/"
+    url = "/about/organization/"
     identifier = "about"
     weight = 1
 
       [[menu.main]]
-        name = "Mission"
-        url = "/about/mission/"
+        name = "Organization"
+        url = "/about/organization/"
         parent = "about"
         identifier = "mission"
         weight = 1

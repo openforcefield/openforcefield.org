@@ -9,7 +9,7 @@ The Open Force Field Initiative includes everyone supported by and/or working wi
 
 ## How can I join the Open Force Field Consortium as an Industry Partner?
 
-Please contact info@openforcefield.org for more information. Find out more about the Open Force Field Consortium and our current members [here](/about/mission/#open-force-field-consortium).
+Please contact info@openforcefield.org for more information. Find out more about the Open Force Field Consortium and our current members [here](/about/organization/#open-force-field-consortium).
 {{< br >}}{{< br >}}
 ## How can I join the Open Force Field Consortium as an Academic Investigator?
 
@@ -27,7 +27,7 @@ The Open Force Field Consortium is an industry-funded effort to develop small mo
 
 As mentioned above, we have successfully [applied for federal funding](/community/news/general/seeking-nih-funding/) to allow us to broaden the scope of the Initiative beyond the Consortium-funded focus on small molecules and cover complex biomolecular systems. We would like to partner with the biopolymer force field community to build a family of fully consistent general biopolymer and small molecule force fields, with the goal of fully consistent handling of biopolymers and small molecules, including natural (proteins, RNA, DNA) and unnatural (e.g. peptoids) biopolymers, as well as posttranslational modifications and nonnatural amino acids. Handling of unusual nonnatural amino acids or bases can be a major headache with current force fields, but our approach will allow a single simple force field to consistently treat biopolymers and small molecules. This expanded effort is not within the current scope of Consortium funding, and would benefit from bringing in partners with significant expertise in biopolymer force field development.
 
-We aim for our effort to be synergistic with, not competitive with, existing force field efforts, and we are seeking advice from the experts in the field who are a part of our [OpenFF Initiative Advisory Board](/about/mission/#open-force-field-initiative) and others. We are always excited to support other efforts to seek funding for exciting new force field science---see **Requesting Letters of Collaboration** below if you would like us to demonstrate our support in your application for funding.
+We aim for our effort to be synergistic with, not competitive with, existing force field efforts, and we are seeking advice from the experts in the field who are a part of our [OpenFF Initiative Advisory Board](/about/organization/#open-force-field-initiative) and others. We are always excited to support other efforts to seek funding for exciting new force field science---see **Requesting Letters of Collaboration** below if you would like us to demonstrate our support in your application for funding.
 {{< br >}}{{< br >}}
 ## Will your effort compete with other force field projects?
 

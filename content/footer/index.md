@@ -9,8 +9,8 @@
   title = "About"
   url = "/about"
   [[column1]]
-    title = "Mission"
-    url = "/about/mission"
+    title = "Organization"
+    url = "/about/organization"
     parent = "about"
   [[column1]]
     title = "Roadmap"
