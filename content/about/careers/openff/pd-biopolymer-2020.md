@@ -5,7 +5,7 @@ title: "Postdoctoral position: Biopolymer force fields"
 
 The [Open Force Field Consortium](https://openforcefield.org/about/organization/#open-force-field-consortium) is seeking a postdoctoral fellow to work on the development of biopolymer (protein and potentially nucleic acid) force fields and supporting infrastructure for biopolymer parameterization and benchmarking.
 
-Please fill out this [**form**](https://forms.gle/hypPwzdYBnTRirG97) if you are interested in this position.
+ If you are interested in this position, please fill out this [**APPLICATION FORM**](https://forms.gle/hypPwzdYBnTRirG97).
 
 #### Position description
 
