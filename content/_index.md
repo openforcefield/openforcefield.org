@@ -12,7 +12,7 @@ description="Software permissively licensed under the MIT License and developed 
 [[sections]]
 image = "images/icons/open-science.svg"
 title = "Open science"
-description="Scientific reports as blog posts, webinars  and preprints"
+description="Scientific reports as blog posts, webinars and preprints"
 
 [[sections]]
 image = "images/icons/open-data.svg"
