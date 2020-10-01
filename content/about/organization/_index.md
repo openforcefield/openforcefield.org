@@ -46,10 +46,11 @@ The Initiative has a scientific advisory board in place to assist with strategic
 ## Initiative Advisory Board
 {{< ul >}}
 - [David Case](https://rutchem.rutgers.edu/people/faculty-bio/130-case-david) (Rutgers) [[lab](http://casegroup.rutgers.edu/)]
+- [Lillian T. Chong](https://www.chem.pitt.edu/person/lillian-chong) (University of Pittsburgh) [[lab](https://ltchong.github.io/)]
 - [Alex Mackerell](https://faculty.rx.umaryland.edu/amackerell/) (University of Maryland) [[lab](http://mackerell.umaryland.edu/index.shtml)]
 - [Julia Rice](https://researcher.watson.ibm.com/researcher/view.php?person=us-jrice) (IBM Research)
-- [Sereina Riniker](https://riniker.ethz.ch/the-group/person-detail.MTIwNjc3.TGlzdC8xNDkzLC04NTQ1MTI4MDM=.html) (ETH Zurich) [[lab website](https://riniker.ethz.ch/)]
-- [Benoît Roux](https://chemistry.uchicago.edu/faculty/beno%C3%AEt-roux) [[lab](http://thallium.bsd.uchicago.edu/RouxLab/)]
+- [Sereina Riniker](https://riniker.ethz.ch/the-group/person-detail.MTIwNjc3.TGlzdC8xNDkzLC04NTQ1MTI4MDM=.html) (ETH Zurich) [[lab](https://riniker.ethz.ch/)]
+- [Benoît Roux](https://chemistry.uchicago.edu/faculty/beno%C3%AEt-roux) (University of Chicago) [[lab](http://thallium.bsd.uchicago.edu/RouxLab/)]
 - [Carlos Simmerling](https://www.stonybrook.edu/commcms/chemistry/faculty/_faculty-profiles/simmerling-carlos) (Stony Brook University) [[lab](http://laufercenter.stonybrook.edu/simmerling/Home)]
 - [Bill Swope](https://researcher.watson.ibm.com/researcher/view.php?person=us-swope) (IBM Research)
 - [Junmei Wang](https://www.pharmacy.pitt.edu/directory/profile.php?profile=1639) (University of Pittsburgh) [[lab](https://mulan.pharmacy.pitt.edu/)]
