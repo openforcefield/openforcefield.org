@@ -122,7 +122,7 @@ ul.list {
   min-height: $largeThumbSize;
   @media (max-width: $breakpoint-phone) {
     display: block;
-    width: 100vw;
+    width: 100%;
     padding: $padding;
   }
   h3 a {

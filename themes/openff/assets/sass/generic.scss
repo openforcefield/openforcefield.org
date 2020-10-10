@@ -24,8 +24,8 @@ html, body {
   font-family: DefaultFont;
   position: absolute;
   top: 0;
-  @media (max-width: $breakpoint-phone) {
-    font-size: 4vw;
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 1.5vw;
   }
   @media (min-width: $breakpoint-hd) {
     font-size: 16px;
