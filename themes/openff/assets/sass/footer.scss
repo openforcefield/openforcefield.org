@@ -3,9 +3,6 @@ footer {
   z-index: 3;
   font-family: DefaultFont;
   font-size: 0.9rem;
-  @media (max-width: $breakpoint-tablet) {
-    font-size: 0.9vw;
-  }
   padding: 2*$padding 3*$padding;
   background-color: color('default', 'text');
   color: #FFF;
