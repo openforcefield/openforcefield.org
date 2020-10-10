@@ -98,11 +98,9 @@ main {
     font-weight: 600
   }
   h5 {
-    font-size: 0.8rem;
-    text-transform: uppercase;
+    font-size: 1rem;
     text-align: justify;
     font-weight: 400;
-    letter-spacing: 1px;
   }
   h6 {
     @each $color, $colorObject in $colors {
@@ -133,6 +131,15 @@ main {
   }
   img {
     max-width: 100%;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    @each $color, $colorObject in $colors {
+      [data-color="#{$color}"] & {
+        color: color($color, 'highlight');
+      }
+    }
   }
   .two-columns {
     img {
