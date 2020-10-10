@@ -1,4 +1,4 @@
-- title: "End-to-end differentiable molecular mechanΣics force field construction"
+- title: "End-to-end differentiable molecular mechanics force field construction"
   authors: "Yuanqing Wang, Josh Fass, and John D. Chodera"
   summary: "Molecular mechanics force fields have been a workhorse for computational chemistry and drug discovery. Here, we propose a new approach to force field parameterization in which graph convolutional networks are used to perceive chemical environments and assign molecular mechanics (MM) force field parameters. The entire process of chemical perception and parameter assignment is differentiable end-to-end with respect to model parameters, allowing new force fields to be easily constructed from MM or QM force fields, extended, and applied to arbitrary biomolecules."
   img: espaloma.jpg
@@ -118,7 +118,7 @@
     pages: 7061
     year: 2019
   code: leeping/forcebalance
-- title: "Uncertainty quantification confirms unreliable extrapolation toward high pressures for united-atom Mie $\\lambda$-6 force field"
+- title: "Uncertainty quantification confirms unreliable extrapolation toward high pressures for united-atom Mie λ-6 force field"
   authors: "Richard A. Messerly, Michael R. Shirts, and Andrei F. Kazakov"
   summary: We demonstrate how Bayesian approaches can be used to estimate the reliability of predictions made with molecular mechanics force fields.
   img: mie-potential.png

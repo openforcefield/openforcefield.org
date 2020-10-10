@@ -10,12 +10,12 @@ header_list: [
   },
   {
     title: "Data management",
-    description: "Generate, curate, and share datasets necessary for producing and benchmarkinghigh-accuracy biomolecular force fields",
+    description: "Generate, curate, and share datasets necessary for producing and benchmarking high-accuracy biomolecular force fields",
     icon: "data.svg"
   },
   {
     title: "Force Fields",
-    description: "Periodically release new comprehensive force fields and systematically improve their accuracy through scientific innovation and use of large datasets ",
+    description: "Periodically release new comprehensive force fields and systematically improve their accuracy through scientific innovation and use of large datasets",
     icon: "lab.svg"
   },
   {
@@ -25,7 +25,7 @@ header_list: [
   },
   {
     title: "Continuous assessment",
-    description: "Build standard datasets and protocols for fast validation of methods and models used to compute molecular properties ",
+    description: "Build standard datasets and protocols for fast validation of methods and models used to compute molecular properties",
     icon: "assessment.svg"
   },
   {
@@ -84,17 +84,13 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 ## Consortium Advisory Board
 {{< ul >}}
 - [Cristopher Bayly](https://www.linkedin.com/in/christopher-bayly-b1341021/) (OpenEye)
-- [Ian Craig](https://de.linkedin.com/in/ianrcraig) (BASF), Vice Chair
 - [Thomas Fox](https://www.linkedin.com/in/thomas-fox-11b44b54/) (Boehringer-Ingelheim)
 - [Jérôme Hert](https://www.linkedin.com/in/jeromehert/) (Roche)
-- [Xinjun Hou](https://www.linkedin.com/in/xjhou/) (Pfizer)
 - [Daniel Kuhn](https://www.linkedin.com/in/daniel-kuhn-23207a5/) (Merck KGaA), Chair
 - [Sirish Kaushik Lakkaraju](https://www.linkedin.com/in/sirish-kaushik-lakkaraju-8906657/) (Bristol-Myers Squibb)
-- [Shuai Liu](https://www.linkedin.com/in/shuai-liu-408ab645/) (XtalPi)
 - [Mark Mackey](https://www.linkedin.com/in/mark-mackey-6b4b8a23/) (Cresset)
 - [Katharina Meier](https://www.linkedin.com/in/katharina-meier-24744887/) (Bayer)
 - [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex), Secretary
-- [Alireza Shabani](https://www.linkedin.com/in/alireza-shabani-12545718/) (Qulab)
 - [Herman Van Vlijmen](https://www.linkedin.com/in/herman-van-vlijmen-9452461/) (Janssen)
 - [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK){{< /ul >}}
 {{< br >}}
@@ -107,7 +103,6 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 # Industry Partners
 {{< ul >}}
 - [Bayer](https://www.bayer.com/)
-- [BASF](https://www.basf.com/)
 - [Boehringer-Ingelheim](https://www.boehringer-ingelheim.com/)
 - [Bristol-Myers Squibb](https://www.bms.com/)
 - [Cresset](https://www.cresset-group.com/)
@@ -115,10 +110,7 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 - [Janssen](https://www.janssen.com/)
 - [Merck KGaA](https://www.merckgroup.com/en)
 - [OpenEye](https://www.eyesopen.com/)
-- [Pfizer](https://www.pfizer.com/)
-- [Qulab](https://qulab.com/)
 - [Roche](https://www.roche.com/)
 - [Vertex Pharmaceuticals](https://www.vrtx.com/)
-- [XtalPi](https://www.xtalpi.com/en/)
 {{< /ul >}}
 {{< br >}}
