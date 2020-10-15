@@ -13,7 +13,7 @@ thumb: "2nd-openff-workshop.png"
 
 ![Banner](UCSD-stock-photo.png "Banner")
 
-We are hosting the Second [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners. The event will be again hosted at UCSD campus, but please note that the venue has been relocated from Jacobs Medical Center used in January to the Skaggs School of Pharmacy and Pharmaceutical Sciences building.
+We are hosting the Second [Open Force Field Consortium](https://openforcefield.org/about/organization/#open-force-field-consortium) Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners. The event will be again hosted at UCSD campus, but please note that the venue has been relocated from Jacobs Medical Center used in January to the Skaggs School of Pharmacy and Pharmaceutical Sciences building.
 
 The meeting will be open to Consortium members and collaborators, and parts of the meeting will be recorded for posting online with accompanying slides. If you are interested to attend, but currently not involved in Open Force Field Initiative, please reach out at `info@openforcefield.org` to check availability, as we might have a few additional seats. Remote participation will be enabled with Zoom conferencing.
 

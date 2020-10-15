@@ -13,7 +13,7 @@ thumb: "1st-openff-workshop.png"
 
 ![Group photo](group-photo.jpg "Group photo")
 
-We hosted the first [Open Force Field Consortium](https://openforcefield.org/consortium/) Workshop in La Jolla, CA on January 7-8, 2019.
+We hosted the first [Open Force Field Consortium](https://openforcefield.org/about/organization/#open-force-field-consortium) Workshop in La Jolla, CA on January 7-8, 2019.
 The meeting was open to Consortium members and collaborators, and parts of the meeting were recorded for posting online.
 In addition, slides discussing current Consortium research and future plans are given below.
 

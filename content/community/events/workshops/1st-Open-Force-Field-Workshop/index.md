@@ -19,7 +19,7 @@ _Research topics: 45 min talk + 15 min discussion_
 
 | **Time** | **Event** | **Speaker** | **Slack channel** |
 | --- | --- | --- | --- |
-| 7.45 - 8.00 | Introduction [[PDF]](https://openforcefield.org/news/jan-2019-meeting-agenda/00-introduction.pdf) [[Video]](https://www.youtube.com/watch?v=X8KkGypDZZM&amp;index=2&amp;t=0s&amp;list=PLYW6oF6nr8NuEMjEyGXlyPQh7ETonpOIN) | Gilson |
+| 7.45 - 8.00 | Introduction [[PDF]](https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/00-introduction.pdf) [[Video]](https://www.youtube.com/watch?v=X8KkGypDZZM&amp;index=2&amp;t=0s&amp;list=PLYW6oF6nr8NuEMjEyGXlyPQh7ETonpOIN) | Gilson |
  |
 | --- | --- | --- | --- |
 | 8.00 - 8.30 | Roadmap overview [[DOI]](http://doi.org/10.13140/RG.2.2.27587.86562) [[Video]](https://www.youtube.com/watch?v=z5Cqz9KpA1M&amp;list=PLYW6oF6nr8NuEMjEyGXlyPQh7ETonpOIN&amp;index=2) | Shirts | #project-planning |
@@ -55,11 +55,11 @@ _Proposed Breakout Session 2_ : useful physical property data, parameter fitting
  |
  |
 
-Breakout session notes: Benchmarking Accuracy [[PDF]](https://openforcefield.org/news/jan-2019-meeting-agenda/breakout-benchmarking.pdf) |
+Breakout session notes: Benchmarking Accuracy [[PDF]](https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/breakout-benchmarking.pdf) |
 
-Breakout session notes: Property calculation framework [[PDF]](https://openforcefield.org/news/jan-2019-meeting-agenda/breakout-property-calculator.pdf) |
+Breakout session notes: Property calculation framework [[PDF]](https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/breakout-property-calculator.pdf) |
 
-Breakout session notes: Use cases [[PDF]](https://openforcefield.org/news/jan-2019-meeting-agenda/breakout-use-cases.pdf) |
+Breakout session notes: Use cases [[PDF]](https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/breakout-use-cases.pdf) |
 
 
 | **Time** | **Event** | **Speaker** | **Slack channel** |
@@ -102,4 +102,4 @@ _Proposed Breakout Sessions:_ electrostatics, software preview / toolkit hands-o
  |
  |
 
-Breakout session notes: neural network potentials [[PDF]](https://openforcefield.org/news/jan-2019-meeting-agenda/breakout-neural-networks.pdf) |
+Breakout session notes: neural network potentials [[PDF]](https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/breakout-neural-networks.pdf) |
