@@ -17,7 +17,7 @@ The Open Force Field Initiative continues to explore new partial charge assignme
 <center>**q**<sup>FF</sup> = δ **q**<sup>gas</sup> + (1-δ) **q**<sup>solv</sup></center>
 
 
-The level of theory was determined by an initial study comparing the accuracy and costs of various QM levels (see [talk](http://doi.org/10.5281/zenodo.3243679) at the [OFFC workshop in January](https://openforcefield.org/news/jan-2019-meeting-agenda/)). The actual mixing ratio is determined by a mixing parameter δ, which can be adjusted to match experimental properties.
+The level of theory was determined by an initial study comparing the accuracy and costs of various QM levels (see [talk](http://doi.org/10.5281/zenodo.3243679) at the [OFFC workshop in January](https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/)). The actual mixing ratio is determined by a mixing parameter δ, which can be adjusted to match experimental properties.
 
 **New charges with SMIRNOFF99Frosst parameters:** The RESP2 charge model was mixed with smirnoff99Frosst parameters for bonded and Lennard Jones terms. It was tested to reproduce experimentally measured densities, heats of vaporizations, hydration free energies and dielectric constants of 30 molecules. We found that, to increase the quality of the predicted densities and heats of vaporization, more gas-phase-like (for RESP2) or generally smaller absolute charges are necessary. On the other hand, for hydration free energies and dielectric constants, more solvent-like charges (or in general higher absolute charges) are necessary to find better agreement with experiment. Overall, the change of charges does not lead to a significant improvement of the predicted properties.
 
