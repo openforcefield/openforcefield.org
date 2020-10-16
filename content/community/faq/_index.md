@@ -1,6 +1,6 @@
 ---
 color: darkblue
-title: Frequently Asked Question
+title: Frequently Asked Questions
 ---
 ## What is the difference between the Initiative and the Consortium?
 
