@@ -86,6 +86,7 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 - [Cristopher Bayly](https://www.linkedin.com/in/christopher-bayly-b1341021/) (OpenEye)
 - [Thomas Fox](https://www.linkedin.com/in/thomas-fox-11b44b54/) (Boehringer-Ingelheim)
 - [Jérôme Hert](https://www.linkedin.com/in/jeromehert/) (Roche)
+- [Xinjun Hou](https://www.linkedin.com/in/xjhou) (Pfizer)
 - [Daniel Kuhn](https://www.linkedin.com/in/daniel-kuhn-23207a5/) (Merck KGaA), Chair
 - [Sirish Kaushik Lakkaraju](https://www.linkedin.com/in/sirish-kaushik-lakkaraju-8906657/) (Bristol-Myers Squibb)
 - [Mark Mackey](https://www.linkedin.com/in/mark-mackey-6b4b8a23/) (Cresset)
@@ -110,7 +111,8 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 - [Janssen](https://www.janssen.com/)
 - [Merck KGaA](https://www.merckgroup.com/en)
 - [OpenEye](https://www.eyesopen.com/)
-- [Roche](https://www.roche.com/)
+- [Pfizer](https://www.pfizer.com/)
+- [F. Hoffman-La Roche AG](https://www.roche.com/)
 - [Vertex Pharmaceuticals](https://www.vrtx.com/)
 {{< /ul >}}
 {{< br >}}
