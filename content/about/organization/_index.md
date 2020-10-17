@@ -93,7 +93,8 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 - [Katharina Meier](https://www.linkedin.com/in/katharina-meier-24744887/) (Bayer)
 - [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex), Secretary
 - [Herman Van Vlijmen](https://www.linkedin.com/in/herman-van-vlijmen-9452461/) (Janssen)
-- [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK){{< /ul >}}
+- [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK)
+- and others... {{< /ul >}}
 {{< br >}}
 {{< center >}}
 {{<button href="/minutes/cab" text="CAB Meeting Minutes" >}}
