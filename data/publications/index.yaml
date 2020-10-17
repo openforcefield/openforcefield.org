@@ -1,3 +1,14 @@
+- title: "Development and Benchmarking of Open Force Field v1.0.0, the Parsley Small Molecule Force Field"
+  authors: "Yudong Qiu, Daniel Smith, Simon Boothroyd, Hyesu Jang, Jeffrey Wagner, Caitlin C. Bannan, Trevor Gokey, Victoria T. Lim, Chaya Stern, Andrea Rizzi, Xavier Lucas, Bryon Tjanaka, Michael R. Shirts, Michael Gilson, John Chodera, Christopher I. Bayly, David Mobley, Lee-Ping Wang"
+  summary: "We describe the structure and optimization of the Open Force Field 1.0.0 small molecule force field, code-named Parsley. Parsley uses the SMIRKS-native Open Force Field (SMIRNOFF) parameter assignment formalism in which parameter types are assigned directly by chemical perception, in contrast to traditional atom type-based approaches. This method provides a natural means to incorporate increasingly diverse chemistry without needlessly increasing force field complexity. In this work, we present essentially a full optimization of the valence parameters in the force field. The optimization was carried out with the ForceBalance tool and was informed by reference quantum chemical data that include torsion potential energy profiles, optimized gas-phase structures, and vibrational frequencies. These data were computed and are maintained with QCArchive, an open-source and freely available distributed computing and database software ecosystem. Tests of the resulting force field against compounds and data types outside the training set show improvements in optimized geometries and conformational energetics and demonstrate that Parsley's accuracy for liquid properties is similar to that of other general force fields."
+  img: Peileppe_parsley.svg
+  date: 2020-10-14
+  preprint:
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv.13082561.v1
+    license: "CC BY 4.0"
+    date: 2020-10-14
+  code: openforcefield
 - title: "End-to-end differentiable molecular mechanics force field construction"
   authors: "Yuanqing Wang, Josh Fass, and John D. Chodera"
   summary: "Molecular mechanics force fields have been a workhorse for computational chemistry and drug discovery. Here, we propose a new approach to force field parameterization in which graph convolutional networks are used to perceive chemical environments and assign molecular mechanics (MM) force field parameters. The entire process of chemical perception and parameter assignment is differentiable end-to-end with respect to model parameters, allowing new force fields to be easily constructed from MM or QM force fields, extended, and applied to arbitrary biomolecules."
