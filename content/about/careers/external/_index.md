@@ -7,7 +7,7 @@ We might sometimes advertise for additional job opportunities in the associated 
 
 #### Janssen
 
-A postdoctoral position based in Janssen computational chemistry groups at our Beerse, Belgium site OR at our site in Toledo, Spain. The position is part of the Open Force Field Consortium, funded by an alliance of pharmaceutical and biotech companies aiming to advance the state of force fields for biomolecular simulation and design through an open collaborative effort. The position will be for one year. Due to the on-going COVID-19 situation the position will likely involve working from home for the duration of the project. Find more details and apply [here](https://jobs.jnj.com/jobs/2005873012W?lang=en-us&previousLocale=en-US).
+A postdoctoral position based in Janssen computational chemistry groups at their site in Beerse, Belgium OR in Toledo, Spain. The position is part of the Open Force Field Consortium, funded by an alliance of pharmaceutical and biotech companies aiming to advance the state of force fields for biomolecular simulation and design through an open collaborative effort. The position will be for one year. Due to the on-going COVID-19 situation the position will likely involve working from home for the duration of the project. Find more details and apply [here](https://jobs.jnj.com/jobs/2005873012W?lang=en-us&previousLocale=en-US).
 
 #### Entos
 

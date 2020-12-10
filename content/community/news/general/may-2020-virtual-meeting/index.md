@@ -213,16 +213,18 @@ Please note that all times refer to the Pacific Time Zone.
     <td><b>Updated on core OpenFF infrastructure </b> <br />  New features in the Open Force Field Toolkit, and other developments in core software. <br /> <a href="https://youtu.be/NMyb_eWywvQ">YouTube</a> | <a href="https://doi.org/10.5281/zenodo.3772042">Zenodo</a> (video + slides)</td>
   </tr>
 </table>
+
 </body>
 </html>
+<br>
 
-{{< br >}}
 
 ### **Day 2** (Apr 28, 2020)
 
 </style>
 </head>
 <body>
+
 <table>
   <tr>
     <th style="text-align:left">Time</th>
@@ -248,8 +250,7 @@ Please note that all times refer to the Pacific Time Zone.
 
 </body>
 </html>
-
-{{< br >}}
+<br>
 
 ### **Day 3** (Apr 29, 2020)
 
