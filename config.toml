@@ -99,7 +99,7 @@ theme = "openff"
     weight = 5
 
   [[menu.main]]
-    name = "Force fields"
+    name = "Force Fields"
     url = "/force-fields/force-fields/"
     identifier = "force-fields"
     weight = 6
