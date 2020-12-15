@@ -12,11 +12,21 @@ The files available for [download](https://github.com/openforcefield/openforcefi
 {{< br >}}
 ## Parsley ##
 ![Parsley](img/parsley.jpg)
-### openff-1.y.z ###
+### Versioning: openff-1.y.z ###
 
 _Parsley_ (OpenFF-1.y.z) is the codename for the first generation of optimized small molecule force fields from the Open Force Field Initiative. Parsley force fields represent a refit of the AMBER-lineage _smirnoff99Frosst_ to large sets of quantum chemical data, and assign parameters using direct chemical perception, using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) specification. Read more about the most important aspects of fitting and benchmarking procedures for Parsley in the [blog post](/community/news/general/introducing-openforcefield-1.0/). See more information about naming and semantic versioning [here](/force-fields/versioning/).
 
 All currently available versions are listed below. Each force field is currently available in two forms - with and without bond constraints to hydrogen. The default version of each force field is suitable for typical molecular dynamics simulations with constrained bonds to hydrogen. The unconstrained version of each force field should be used when single-point energies are a major concern (e.g. geometry optimizations) and when comparing the force field to QM data.
+{{< br >}}{{< br >}}
+### openff-1.3.0 ###
+
+#### Release date: October 22, 2020
+
+This minor release contains a fix of amide-related issues; (1) a poor performance of v1.2 in reproducing amide torsional energy profiles and (2) absence of appropriate torsion parameters for dialkyl amides.
+Full details are available at in the [GitHub release notes](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.3.0).
+
+{{<button href="https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.3.0" text="GitHub" >}}
+{{<button href="https://zenodo.org/record/4118484" text="DOI" >}}
 {{< br >}}{{< br >}}
 ### openff-1.2.1 ###
 
