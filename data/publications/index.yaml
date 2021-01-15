@@ -100,6 +100,17 @@
     year: 2019
     date: 2019-10-11
   code: slochower/smirnoff-host-guest-manuscript
+- title: "Graph Nets for Partial Charge Prediction"
+  authors: "Yuanqing Wang and Josh Fass and Chaya D. Stern and John Chodera"
+  summary: Graph convolutional and message-passing networks can be a powerful tool for predicting physical properties of small molecules when coupled to a simple physical model that encodes the relevant invariances. Here, we show the ability of graph nets to predict partial atomic charges for use in molecular dynamics simulations and physical docking.
+  img: gimlet.jpg
+  date: 2019-09-17
+  preprint:
+    server: arXiv
+    url: http://arxiv.org/abs/1506.00262
+    license: arXiv-1.0
+    date: 2019-09-17
+  code: choderalab/gimlet
 - title: "ChemPer: An Open Source Tool for Automatically Generating SMIRKS Patterns"
   authors: "Caitlin C. Bannan, David Mobley"
   summary:  In this work, we present ChemPer -- a new tool for generating SMIRKS patterns based on clustered fragments (i.e. bonds, angles, or torsions) which should be assigned the same force field parameter. We demonstrate the utility of ChemPer by clustering fragments based on a reference force field, and then regenerating those parameters starting with a simple set of alkanes, ethers, and alcohols.
