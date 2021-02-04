@@ -235,7 +235,7 @@ The Open Force Field Initiative uses QCArchive infrastructure to compute, store 
 
 ### RDKit
 
-RDKit is an ppen source toolkit for cheminformatics, or more precisely, a collection of cheminformatics and machine-learning software written in C++ and Python.
+RDKit is an open source toolkit for cheminformatics, or more precisely, a collection of cheminformatics and machine-learning software written in C++ and Python.
 
 [RDKit](http://rdkit.org/)
 {{< br >}}{{< br >}}
