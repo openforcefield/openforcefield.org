@@ -93,7 +93,7 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 - [Katharina Meier](https://www.linkedin.com/in/katharina-meier-24744887/) (Bayer)
 - [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex), Secretary
 - [Noureldin Saleh](https://www.linkedin.com/in/noureldin-saleh-2397b684/) (AbbVie)
-- [Michal Vieth](https://www.linkedin.com/in/michal-vieth-9637b560)
+- [Michal Vieth](https://www.linkedin.com/in/michal-vieth-9637b560) (Eli Lilly)
 - [Herman Van Vlijmen](https://www.linkedin.com/in/herman-van-vlijmen-9452461/) (Janssen)
 - [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK)
 - and others... {{< /ul >}}
