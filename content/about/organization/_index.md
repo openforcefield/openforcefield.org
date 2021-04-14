@@ -92,6 +92,8 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 - [Mark Mackey](https://www.linkedin.com/in/mark-mackey-6b4b8a23/) (Cresset)
 - [Katharina Meier](https://www.linkedin.com/in/katharina-meier-24744887/) (Bayer)
 - [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex), Secretary
+- [Noureldin Saleh](https://www.linkedin.com/in/noureldin-saleh-2397b684/) (AbbVie)
+- [Michal Vieth](https://www.linkedin.com/in/michal-vieth-9637b560) (Eli Lilly)
 - [Herman Van Vlijmen](https://www.linkedin.com/in/herman-van-vlijmen-9452461/) (Janssen)
 - [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK)
 - and others... {{< /ul >}}
@@ -99,15 +101,16 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 {{< center >}}
 {{<button href="/minutes/cab" text="CAB Meeting Minutes" >}}
 {{</ center >}}
-
 {{< br >}}
 
 # Industry Partners
 {{< ul >}}
+- [AbbVie](https://www.abbvie.com/)
 - [Bayer](https://www.bayer.com/)
 - [Boehringer-Ingelheim](https://www.boehringer-ingelheim.com/)
 - [Bristol-Myers Squibb](https://www.bms.com/)
 - [Cresset](https://www.cresset-group.com/)
+- [Eli Lilly](https://www.lilly.com/)
 - [F. Hoffman-La Roche AG](https://www.roche.com/)
 - [GlaxoSmithKline](https://www.gsk.com/en-gb/)
 - [Janssen](https://www.janssen.com/)
@@ -115,5 +118,6 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 - [OpenEye](https://www.eyesopen.com/)
 - [Pfizer](https://www.pfizer.com/)
 - [Vertex Pharmaceuticals](https://www.vrtx.com/)
+- and others...
 {{< /ul >}}
 {{< br >}}
