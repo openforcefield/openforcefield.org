@@ -85,7 +85,6 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 {{< ul >}}
 - [Cristopher Bayly](https://www.linkedin.com/in/christopher-bayly-b1341021/) (OpenEye)
 - [Thomas Fox](https://www.linkedin.com/in/thomas-fox-11b44b54/) (Boehringer-Ingelheim)
-- [Xinjun Hou](https://www.linkedin.com/in/xjhou) (Pfizer)
 - [Charles Hutchins](https://www.linkedin.com/in/charles-hutchins-7b589b11/) (AbbVie)
 - [Daniel Kuhn](https://www.linkedin.com/in/daniel-kuhn-23207a5/) (Merck KGaA), Chair
 - [Sirish Kaushik Lakkaraju](https://www.linkedin.com/in/sirish-kaushik-lakkaraju-8906657/) (Bristol-Myers Squibb)
@@ -93,6 +92,7 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 - [Mark Mackey](https://www.linkedin.com/in/mark-mackey-6b4b8a23/) (Cresset)
 - [Katharina Meier](https://www.linkedin.com/in/katharina-meier-24744887/) (Bayer)
 - [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex), Secretary
+- [Frank Pickard](https://www.linkedin.com/in/frank-pickard/) (Pfizer)
 - [Michal Vieth](https://www.linkedin.com/in/michal-vieth-9637b560) (Eli Lilly)
 - [Herman Van Vlijmen](https://www.linkedin.com/in/herman-van-vlijmen-9452461/) (Janssen)
 - [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK)
