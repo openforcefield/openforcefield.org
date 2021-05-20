@@ -94,7 +94,7 @@ In the worst cases, test failures caused by distant code changes reveal design f
 
 
 There are still many places where our testing can be expanded, but over the last year, the development of the test suite has helped me sleep much better at night.
-Our current code coverage is 88%, which means that 88% of our lines of source code are executed by at least one test.
+The current code coverage of the OpenFF Toolkit 88%, which means that 88% of our lines of source code are executed by at least one test.
 And more importantly, our tests have become more sophisticated.
 Frequently we can discover and accommodate changes from new RDKit releases within hours. 
 
@@ -225,4 +225,3 @@ Last time I checked, testing and specification weren’t the shortest path betwe
 As the toolkit’s behavior stabilizes I would like to start cutting down on the number and complexity of our dependencies, to the degree that we really can.)
 
 For those interested in more information about the day-to-day of how OpenFF operates, we’ve opened up our [Infrastructure space on Confluence](https://openforcefield.atlassian.net/wiki/spaces/IN/overview). It’s a bit messy, and one team member described it as “a DDOS of information”, but please feel free to take a look!
-
