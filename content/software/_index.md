@@ -6,7 +6,14 @@ title: Software
 ##### The following software repositories are developed and/or used by the Open Force Field Initiative for force field parameterization and benchmarking. Check the infrastructure roadmap for the upcoming functionalities and features.
 
 {{< center >}}
-{{<button href="https://openforcefield.atlassian.net/wiki/spaces/PS/pages/423854352/Open+Force+Field+Infrastructure+Roadmap+2020" text="Infrastructure Roadmap" >}}
+{{<button href="https://openforcefield.atlassian.net/wiki/spaces/IN/pages/202834351/Infrastructure+Roadmap+2020" text="Infrastructure Roadmap" >}}
+{{</ center >}}
+{{< br >}}
+
+The OpenFF development process, decision making and meeting notes are recorded on Confluence in the publicly available [Infrastructure Space](https://openforcefield.atlassian.net/wiki/spaces/IN/overview). Please note that this space is "under construction" and those who dare visit, come armored with patience and curiosity! We are planning to make information in this space more accessible soon.
+
+{{< center >}}
+{{<button href="https://openforcefield.atlassian.net/wiki/spaces/IN/overview" text="Infrastructure Confluence" >}}
 {{</ center >}}
 {{< br >}}
 
@@ -185,58 +192,53 @@ Lead Developer: Hyesu Jang
 
 ##### The Open Force Field Initiative also relies heavily on existing molecular modeling software packages and the most important ones are listed below in alphabetical order:
 {{< br >}}
-### AmberTools
+### [AmberTools](http://ambermd.org/AmberTools.php)
 
 AmberTools consists of several independently developed packages that work well by themselves, and with Amber MD engine. The suite can also be used to carry out complete molecular dynamics simulations, with either explicit water or generalized Born solvent models.
 
-[Ambertools](http://ambermd.org/AmberTools.php)
-{{< br >}}{{< br >}}
 
-### GROMACS
+{{< br >}}
+
+### [GROMACS](http://www.gromacs.org/)
 
 GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles. It is primarily designed for biochemical molecules like proteins, lipids and nucleic acids that have a lot of complicated bonded interactions, but since GROMACS is extremely fast at calculating the nonbonded interactions (that usually dominate simulations) many groups are also using it for research on non-biological systems, e.g. polymers.
 
-[Gromacs](http://www.gromacs.org/)
-{{< br >}}{{< br >}}
+{{< br >}}
 
-### OpenEye
+### [OpenEye](https://www.eyesopen.com/)
 
 OpenEye Scientific Software Inc. is a privately held company headquartered in Santa Fe, NM, founded in 1997 to develop large-scale molecular modeling applications and toolkits aimed primarily towards drug discovery and design. The software is designed for scientific rigor, as well as speed, scalability and platform independence. OpenEye provides a number of [licensing options for the academic community](https://www.eyesopen.com/academic-licensing), including Free Public Domain Research License for pure non-commercial research.
 
-[OpenEye](https://www.eyesopen.com/)
-{{< br >}}{{< br >}}
-### OpenMM
+{{< br >}}
+
+### [OpenMM]((http://openmm.org/))
 
 OpenMM is a high performance toolkit for molecular simulation, which can be used as a library, or as an application. It includes extensive language bindings for Python, C, C++, and even Fortran. The code is open source and actively maintained on Github, licensed under MIT and LGPL. Part of the [Omnia](http://www.omnia.md/) suite of tools for predictive biomolecular simulation.
 
-[OpenMM](http://openmm.org/)
-{{< br >}}{{< br >}}
-### ParmEd
+{{< br >}}
+
+### [ParmEd](https://parmed.github.io/ParmEd/html/index.html)
 
 ParmEd is a general tool for aiding in investigations of biomolecular systems using popular molecular simulation packages, like Amber, CHARMM, and OpenMM written in Python. It can be used for a variety of modeling purposes, like manipulating system topologies (i.e., the _atoms_, _bonds_, and other bonded terms like valence angles) and translating between file formats (e.g. PDB, mmCIF/PDBx, Amber _prmtop_, and CHARMM _psf_) and even other APIs (e.g. PyRosetta). What sets ParmEd apart from tools like OpenBabel is that it stores and tracks force field parameters so that the resulting files can be used to carry out molecular mechanics simulations with tools like Amber, OpenMM, NAMD, and CHARMM.
 
-[ParmEd](https://parmed.github.io/ParmEd/html/index.html)
-{{< br >}}{{< br >}}
+{{< br >}}
 
-### PSI4
+### [PSI4]((http://www.psicode.org/))
 
 PSI4 is an open-source suite of ab initio quantum chemistry programs designed for efficient, high-accuracy simulations of a variety of molecular properties. It is very easy to use and has an optional Python interface.
 
-[Psi4](http://www.psicode.org/)
-{{< br >}}{{< br >}}
+{{< br >}}
 
-### QCArchive
+### [QCArchive](https://qcarchive.molssi.org/)
 
 The Quantum Chemistry Archive aims to provide an open, community-wide quantum chemistry database to both facilitate and capture hundreds of millions of hours of computing time to enable large-scale force field construction, physical property prediction, new methodology assessment, and machine learning from data that would otherwise end up siloed or inaccessible. The QCArchive offers FAIR access to millions of computational molecular science results in a highly structured and performant manner. These include curated interaction energy, thermochemical, and conformational datasets from the literature; data from partner groups; and data donated to or computed by MolSSI. You are also welcome to submit your own data.
 
 The Open Force Field Initiative uses QCArchive infrastructure to compute, store and access quantum chemistry data.
 
-[QCArchive](https://qcarchive.molssi.org/)
-{{< br >}}{{< br >}}
+{{< br >}}
 
-### RDKit
+### [RDKit]((http://rdkit.org/))
 
 RDKit is an open source toolkit for cheminformatics, or more precisely, a collection of cheminformatics and machine-learning software written in C++ and Python.
 
-[RDKit](http://rdkit.org/)
-{{< br >}}{{< br >}}
+{{< br >}}
