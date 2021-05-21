@@ -93,10 +93,10 @@ Of course, there is some maintenance burden associated with the tests -- If we c
 In the worst cases, test failures caused by distant code changes reveal design flaws or undocumented assumptions in our models. 
 
 
-There are still many places where our testing can be expanded, but over the last year, the development of the test suite has helped me sleep much better at night.
-Our current code coverage is 88%, which means that 88% of our lines of source code are executed by at least one test.
+There are still many places where our [testing[(https://github.com/openforcefield/openff-toolkit/tree/master/openff/toolkit/tests) can be expanded, but over the last year, the development of the test suite has helped me sleep much better at night.
+Our current [code coverage](https://app.codecov.io/gh/openforcefield/openff-toolkit) is 88%, which means that 88% of our lines of source code are executed by at least one test.
 And more importantly, our tests have become more sophisticated.
-Frequently we can discover and accommodate changes from new RDKit releases within hours. 
+Frequently we can discover and accommodate behavior changes from new RDKit releases within hours.
 
 
 ## Design principles, or “When reviews aren’t easy”
@@ -181,7 +181,7 @@ Of course, this is a nonrigorous statement: Someone could use a fuzzer to create
 But outside of thought experiments, it’s a practical definition.
 
 
-To paraphrase a meeting a few weeks ago, between Jason Swails (the developer of ParmEd) and Matt Thompson (who’s developing a new System object for OpenFF)
+To paraphrase a meeting a few weeks ago, between Jason Swails (the developer of [ParmEd](https://parmed.github.io/ParmEd/html/index.html)) and Matt Thompson (who’s developing a new System object for OpenFF)
 
 | MT: “How could we tell if my System object could be a replacement for ParmEd?” 
  
@@ -211,7 +211,7 @@ Based on our experience so far, it begins when a project starts using one of the
 
 There’s also a more immediate reason for us to respect and promote specifications.
 OpenFF follows a [dependency-heavy development model](https://github.com/conda-forge/openff-toolkit-feedstock/blob/master/recipe/meta.yaml).
-Anyone who has installed our conda package knows that we stand on top of a “jenga tower” of dependencies.
+Anyone who has installed our conda package knows that we stand on the shoulders of giants in our field (though with ~100 conda pacakges pulled in, it can feel more like a ["jenga tower" of dependencies](https://xkcd.com/2347/)).
 When we outsource our internals to [AmberTools](https://ambermd.org/Installation.php), [RDKit](https://www.rdkit.org/), and [OpenEye](https://docs.eyesopen.com/toolkits/python/oechemtk/index.html), we are relying on those packages to provide reasonably stable on-disk representations and APIs.
 If we hope to establish a culture among our neighbors where we want that stability from upstream, it is by extension our responsibility to be good neighbors to everyone downstream.
 In the PR review priorities above, you’ll notice that “don’t be reverse-incompatible” is second only to “don’t violate a spec”.
@@ -221,8 +221,20 @@ Advocating for specifications is an uphill battle in any organization.
 We are very fortunate to have our leadership, especially John Chodera, advocating for practices like specification in our work.
 Last time I checked, testing and specification weren’t the shortest path between personnel-time and funding, but they do greatly improve the odds that our work will have the long-term impact that we want it to.
 
+
 (And as an aside, rebuilding this jenga tower of dependencies after it’s fallen over several times has also made me genuinely appreciate the “if you’ve got a C compiler, then you can run the program” development model of existing comp chem packages.
 As the toolkit’s behavior stabilizes I would like to start cutting down on the number and complexity of our dependencies, to the degree that we really can.)
 
-For those interested in more information about the day-to-day of how OpenFF operates, we’ve opened up our [Infrastructure space on Confluence](https://openforcefield.atlassian.net/wiki/spaces/IN/overview). It’s a bit messy, and one team member described it as “a DDOS of information”, but please feel free to take a look!
+
+## In closing
+
+
+Folks like Daniel Smith and Lori Burns are experienced enough in this field to make these sweeping statements about architecture and open source that sound like strong opinions but are actually profound facts.
+Daniel, Lori, and many others have been great mentors to me in this role.
+You would enjoy their thoughts more than whatever it is I wrote, but their employers never made them "write as much as you want, about anything you want, by May 15."
+So until they do, you can enjoy my discount, second-hand wisdom about open source comp chem.
+Thanks to all of our users for their contributions, patience, bug reports, and additional patience. 
+
+
+For those interested in more information about the day-to-day of how OpenFF operates, we’ve opened up our [Infrastructure space on Confluence](https://openforcefield.atlassian.net/wiki/spaces/IN/overview). It’s a bit messy, and one team member described it as “a DDOS of information”, but it may be interesting to follow the meeting notes and see what's happening!
 
