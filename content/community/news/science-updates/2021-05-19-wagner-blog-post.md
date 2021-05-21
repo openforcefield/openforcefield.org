@@ -37,22 +37,25 @@ The vast majority of trainees in computational sciences (myself included) earned
 
 
 Also, the complexity of our specific domain adds to the cost of code reviews.
-In theory, PR reviews are supposed to yield quick, useful feedback like
+In theory, PR reviews are supposed to yield quick, useful feedback like:
 
-| Nice work! Be sure to lowercase the user input before you evaluate whether it matches a known value :)
+&emsp; _Nice work! Be sure to lowercase the user input before you evaluate whether it matches a known value :)_
 
 or
 
-| here’s a safer parsing method that can handle Windows newline characters. Have a great day!
+&emsp; _Here’s a safer parsing method that can handle Windows newline characters. Have a great day!_
 
 
-Instead, there’s something mystical and confusing about the domain of chemistry that morphs these comments into
+Instead, there’s something mystical and confusing about the domain of chemistry that morphs these comments into:
 
-| Very cool! But you can’t just parse the first character of a PDB atom type to get the element because then you can’t tell the difference between S and Se in (seleno)methionine. Sorry about that, could you redo your last three weeks of work and add a test for MSE? :-/
+&emsp; _Very cool! But you can’t just parse the first character of a PDB atom type to get the element because then you can’t_  
+&emsp; _tell the difference between S and Se in (seleno)methionine. Sorry about that, could you redo your last three weeks_  
+&emsp; _of work and add a test for MSE? :-/_
 
-or a slurry of jargon, memes, and insults that reads like
+or a slurry of jargon, memes, and insults that reads like:
 
-| (blocking) meaningfully compare two connection tables without an aromaticity model you cannot. 9-substituted fluorenes you must kekulize until your understand, padawan, otherwise fall for the lies of the stereocenter you shall
+&emsp; _(blocking) meaningfully compare two connection tables without an aromaticity model you cannot. 9-substituted_   
+&emsp; _fluorenes you must kekulize until your understand, padawan, otherwise fall for the lies of the stereocenter you shall_
 
 
 We even had a weird experimental phase where, inspired by the use of “DangerBot” in other repos to [randomly assign each PR a reviewer from the organization](https://about.gitlab.com/blog/2019/10/23/reviewer-roulette-one-year-on/), [we tried our hand at it](https://github.com/openforcefield/dangerbot/blob/master/Dangerfile).
@@ -184,9 +187,9 @@ But outside of thought experiments, it’s a practical definition.
 
 To paraphrase a meeting a few weeks ago, between Jason Swails (the developer of [ParmEd](https://parmed.github.io/ParmEd/html/index.html)) and Matt Thompson (who’s developing a new System object for OpenFF)
 
-| MT: “How could we tell if my System object could be a replacement for ParmEd?”
+&emsp; MT: _“How could we tell if my System object could be a replacement for ParmEd?”_
 
-| JS: “I’m not sure, but you’re probably there if you can pass all the ParmEd test cases”
+&emsp; JS: _“I’m not sure, but you’re probably there if you can pass all the ParmEd test cases”_
 
 
 With this in mind, I’m starting to think about how we could publish a “reference” dataset, containing a bunch of input OFFXML and SDF files, and the expected parameters or energies that should come out for each of them.
