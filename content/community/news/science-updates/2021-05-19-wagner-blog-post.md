@@ -237,4 +237,3 @@ Thanks to all of our users for their contributions, patience, bug reports, and a
 
 
 For those interested in more information about the day-to-day of how OpenFF operates, we’ve opened up our [Infrastructure space on Confluence](https://openforcefield.atlassian.net/wiki/spaces/IN/overview). It’s a bit messy, and one team member described it as “a DDOS of information”, but it may be interesting to follow the meeting notes and see what's happening!
-
