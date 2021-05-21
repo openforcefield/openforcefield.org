@@ -97,7 +97,7 @@ Of course, there is some maintenance burden associated with the tests -- If we c
 In the worst cases, test failures caused by distant code changes reveal design flaws or undocumented assumptions in our models.
 
 
-There are still many places where our [testing[(https://github.com/openforcefield/openff-toolkit/tree/master/openff/toolkit/tests) can be expanded, but over the last year, the development of the test suite has helped me sleep much better at night.
+There are still many places where our [testing](https://github.com/openforcefield/openff-toolkit/tree/master/openff/toolkit/tests) can be expanded, but over the last year, the development of the test suite has helped me sleep much better at night.
 Our current [code coverage](https://app.codecov.io/gh/openforcefield/openff-toolkit) is 88%, which means that 88% of our lines of source code are executed by at least one test.
 And more importantly, our tests have become more sophisticated.
 Frequently we can discover and accommodate behavior changes from new RDKit releases within hours.
