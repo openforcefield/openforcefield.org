@@ -24,7 +24,7 @@ All currently available versions are listed below. Each force field is currently
 
 The new force field files in this release are identical to the openff-1.3.0 release, except that two angle parameters have been reverted to their original values from smirnoff99Frosst 1.1.0. 
 
-Full details are available in the [GitHub release notes](https://github.com/openforcefield/openff-forcefields/releases/tag/1.3.1-alpha.1) for 
+Full details are available in the [GitHub release notes](https://github.com/openforcefield/openff-forcefields/releases/tag/1.3.1-alpha.1)
 
 {{<button href="https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.3.1" text="GitHub" >}}
 {{<button href="https://zenodo.org/record/5009058" text="DOI" >}}
