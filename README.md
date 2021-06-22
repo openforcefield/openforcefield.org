@@ -1,5 +1,5 @@
 # openforcefield.org website source
-
+ 
 OpenFF website is built on [Hugo](https://gohugo.io/) and hosted on [GitHub Pages](https://pages.github.com/).
 Detailed content structure documentation is available in `content/manual/_index.md`.
 
