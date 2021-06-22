@@ -18,25 +18,12 @@ _Parsley_ (OpenFF-1.y.z) is the codename for the first generation of optimized s
 
 All currently available versions are listed below. Each force field is currently available in two forms - with and without bond constraints to hydrogen. The default version of each force field is suitable for typical molecular dynamics simulations with constrained bonds to hydrogen. The unconstrained version of each force field should be used when single-point energies are a major concern (e.g. geometry optimizations) and when comparing the force field to QM data.
 {{< br >}}{{< br >}}
-### openff-1.3.1 ###
-
-#### Release date: June 21, 2021
-
-The new force field files in this release are identical to the openff-1.3.0 release, except that two angle parameters have been reverted to their original values from smirnoff99Frosst 1.1.0. 
-
-Full details are available in the [GitHub release notes](https://github.com/openforcefield/openff-forcefields/releases/tag/1.3.1-alpha.1) for 
-
-{{<button href="https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.3.1" text="GitHub" >}}
-{{<button href="https://zenodo.org/record/5009058" text="DOI" >}}
-{{< br >}}{{< br >}}
-
-
 ### openff-1.3.0 ###
 
 #### Release date: October 22, 2020
 
 This minor release contains a fix of amide-related issues; (1) a poor performance of v1.2 in reproducing amide torsional energy profiles and (2) absence of appropriate torsion parameters for dialkyl amides.
-Full details are available in the [GitHub release notes](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.3.0).
+Full details are available at in the [GitHub release notes](https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.3.0).
 
 {{<button href="https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.3.0" text="GitHub" >}}
 {{<button href="https://zenodo.org/record/4118484" text="DOI" >}}
