@@ -2,7 +2,7 @@
 
 OpenFF website is built on [Hugo](https://gohugo.io/) and hosted on [GitHub Pages](https://pages.github.com/).
 Detailed content structure documentation is available in `content/manual/_index.md`.
-
+ 
 ## Making changes
 
 1. Create a local copy of the OpenFF website repo: `git clone https://github.com/openforcefield/openforcefield.org`. Make sure you are on the default `v2` branch (`git checkout v2`) before you  `git pull`.   
