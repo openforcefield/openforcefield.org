@@ -22,7 +22,7 @@ All currently available versions are listed below. Each force field is currently
 
 #### Release date: June 21, 2021
 
-The new force field files in this release are identical to the openff-1.3.0 release, except that two angle parameters have been reverted to their original values from smirnoff99Frosst 1.1.0. 
+This release is a bugfix for openff-1.3.0 that corrects an issue with the tetrahedral geometry of certain sulphonamides (especially primary sulphonamides).
 
 Full details are available in the [GitHub release notes](https://github.com/openforcefield/openff-forcefields/releases/tag/1.3.1-alpha.1)
 
