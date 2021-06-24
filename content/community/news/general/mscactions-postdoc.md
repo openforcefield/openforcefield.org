@@ -1,6 +1,6 @@
 ---
 date: "2021-06-23T00:00:00+00:00"
-title: "Open Force Field Initiative supports Marie Curie Global Fellowship applicants"
+title: "Joint support for Marie Curie Global Fellowship applicants"
 tags: ["postdoctoral fellowship","Marie Curie Actions","general","announcement", "Cole group"]
 categories: ["news"]
 draft: false
