@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RDKit on OpenFF</title>
+    <link>https://openforcefield.org/tags/rdkit/</link>
+    <description>Recent content in RDKit on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/rdkit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (May 28, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</guid>
+      <description>QCFractal: D. Smith announced that version 0.7 is out and update is recommended. Currently, QCPortal doesn’t check the QCFractal versions, so some unexpected errors may occur if users do not upgrade from 0.6. The QCArchive team is also planning to migrate the database from MongoDB to PostgreSQL during this week for some long-term benefits, including speed, smaller size and data integrity. More details about this migration should come in a blog post.</description>
+    </item>
+    
+    <item>
+      <title>Support for open source cheminformatics toolkits is coming!</title>
+      <link>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</guid>
+      <description>We&#39;ve been hard at work with a large-scale infrastructure overhaul of our main openforcefield toolkit following the Open Force Field Toolkit 0.1.0 prerelease, which provided an initial reference implementation of the SMIRNOFF 0.1 specification for direct chemical perception. Many thanks to all the users who provided helpful feedback in how we could improve overall usability!
+While we expect the updated toolkit to be released very soon, we wanted to provide a summary of the coming changes to give you an idea of what we&#39;ve been up to:</description>
+    </item>
+    
+  </channel>
+</rss>

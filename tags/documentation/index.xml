@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>documentation on OpenFF</title>
+    <link>https://openforcefield.org/tags/documentation/</link>
+    <description>Recent content in documentation on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Calculator Meeting Summary (May 02, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</guid>
+      <description>Benchmarking protein-ligand free energy: A set of suitable protein-ligand structures that will be used for the initial force field fitting/benchmarking during Year 1 (likely in September) needs to be selected. J. Chodera suggested the D3R Grand Challenge set as a starting point, but it needs to be filtered to remove any structures that might make benchmarking more complicated. For example, the structures with binding sites containing metals or histidines, titratable ligands that might change protonation states upon binding, buried sites, protein dimers, etc.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Apr 18, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-04-18/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-04-18/</guid>
+      <description>The majority of this meeting focused on how to store and present the “best practices” for property calculation. A few actionable conclusions came from this meeting:
+ We might call them “selected practices” instead of “best practices”; 8 For the foreseeable future, these documents will live in the openforcefield/propertyestimator repo, alongside the actual code. Each property will have a page with both links to the technical (API) details and theoretical discussion; The Shirts lab will work on example code for reweighting host-guest calculations; S.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</guid>
+      <description>TorsionDrive: Y. Qiu started working on TorsionDrive and was unable to replicate D. Smith&amp;rsquo;s previously reported issue with 120 degree scan intervals. D. Smith confirmed that he was also unable to replicate and he suspects it might have been a version issue.
+QCFractal: Stable version of QCFractal is out and should be installed through pip or conda - always conda install qcportal -c conda-forge. QCPortal might throw an error if an older version of QCFractal is used.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Dec 13, 2018)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-12-13/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-12-13/</guid>
+      <description>A number of decisions will have to be made about the PropertyCalculator framework and it has been decided to create two best practice documents for the purpose of property estimation within the OpenFF effort:
+ The best practice document for calculating properties in general (from a theoretical standpoint); A specific document which contains best practices for computing properties using OFF tools and force fields, i.e. a specific implementation of the practices described in the document 1.</description>
+    </item>
+    
+  </channel>
+</rss>

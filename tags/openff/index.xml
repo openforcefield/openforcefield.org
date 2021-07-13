@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openff on OpenFF</title>
+    <link>https://openforcefield.org/tags/openff/</link>
+    <description>Recent content in openff on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/openff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing two new releases!</title>
+      <link>https://openforcefield.org/community/news/general/new-releases-oct2020/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/new-releases-oct2020/</guid>
+      <description>We&amp;rsquo;re pleased to announce TWO releases are now available!
+Force fields OpenFF-1.3.0, a minor update to Parsley that improves performance on amide geometries. Detailed release notes are available here.
+OpenFF Toolkit The Open Force Field Toolkit version 0.8.0. This release adds our largest feature yet, SMARTS-based creation of VirtualSites (also known as off-center charges), as well as functionality to handle bond parameter interpolation based on partial bond orders. Detailed release notes are available at here.</description>
+    </item>
+    
+    <item>
+      <title>Benchmark: OpenFF performance on small molecule energies and geometries</title>
+      <link>https://openforcefield.org/community/news/general/benchmark-small-molecules/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/benchmark-small-molecules/</guid>
+      <description>The Open Force Field Initiative, focusing on open tools and science to improve accuracy of molecular modeling, has now been up and running for approximately 18 months. Recent highlights have included the release of a series of updates to Parsley, a small molecule force field for biomolecular simulation, which is now at version OpenFF-1.2.0. Parsley was iteratively optimized to improve agreement with quantum chemical geometries, energetics, and vibrational frequencies.
+Here, we provide a preliminary benchmark assessment of several small molecule force fields (FF) compared to quantum mechanical (QM) results regarding gas phase energies and geometries of a set of molecule conformers.</description>
+    </item>
+    
+  </channel>
+</rss>

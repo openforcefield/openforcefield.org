@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GBSA on OpenFF</title>
+    <link>https://openforcefield.org/tags/gbsa/</link>
+    <description>Recent content in GBSA on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/gbsa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Open Force Field Toolkit 0.5.0, adding GBSA support</title>
+      <link>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</guid>
+      <description>This release adds support for the GBSA tag in the SMIRNOFF specification. Currently, the HCT, OBC1, and OBC2 models (corresponding to AMBER keywords igb=1, 2, and 5, respectively) are supported, with the OBC2 implementation being the most flexible. Unfortunately, systems produced using these keywords are not yet transferable to other simulation packages via ParmEd, so users are restricted to using OpenMM to simulate systems with GBSA.
+OFFXML files containing GBSA parameter definitions are available, and can be loaded in addition to existing parameter sets, for example, with the command:</description>
+    </item>
+    
+  </channel>
+</rss>

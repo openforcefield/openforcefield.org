@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ThermoML on OpenFF</title>
+    <link>https://openforcefield.org/tags/thermoml/</link>
+    <description>Recent content in ThermoML on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/thermoml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Estimator Meeting Summary (Aug 08, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</guid>
+      <description>Datasets: Still waiting for NIST approval for data release from ThermoML. DIPPR was contacted to explain the terms of use for their data in more details. DIPPR contains pure component data on industrially important chemical compounds.
+PropertyEstimator: PropertyEstimator (PE) and ForceBalance (FB) seem to be working well based on the preliminary tests run by S. Boothroyd, and the infrastructure is ready for the initial LJ fitting. There are some differences in the gradients calculated by PE and FB.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</guid>
+      <description>Today the PropertyEstimator group discussed our progress, moving forward towards our fitting process with ThermoML data and ForceBalance. Decisions about fitting techniques and data have been made, and we are moving on to testing and production.
+Database readiness
+S. Boothroyd has algorithmically selected a basic set from the ThermoML archive with coverage of our selected Lennard Jones parameters. For basic fitting, we are moving forward with this dataset; if time allows we will also include a hand-curated ThermoML dataset provided by Lee-Ping Wang.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-05-23-madin/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-05-23-madin/</guid>
+      <description>Today on the #propertycalculator call, we discussed working with NIST and their ThermoML property database to obtain a suitable dataset for parameterizing and benchmarking small molecules.
+ The Open Force Field Initiative is working with NIST in order to make a subset of ThermoML (and associated NIST uncertainties, which are essential for planned Bayesian analysis) publically available. We defined preliminary SQL queries for the chemistries, conditions, and properties that OpenFF is interested in.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Mar 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-03-21/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-03-21/</guid>
+      <description>Datasets: S. Boothroyd reported that NIST uncertainty values disappeared after a reformat of the stored data. He has also raised an issue with target uncertainties in the simulations because ThermoML has very low uncertainties and simulations might have to be significantly extended to reach an order of magnitude smaller values. There are several potential ways to address this problem, including running simulations to an absolute uncertainty and analyzing existing entries in ThermoML to understand the range of uncertainties.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Oct 11, 2018)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-10-11/</link>
+      <pubDate>Thu, 11 Oct 2018 01:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-10-11/</guid>
+      <description>Surrogate models/RJMC: O. Madin and R. Messerly presented reversible-jump Monte Carlo (RJMC) performance study focused on L-J parameter space and compared it with numerical integration of probability regions in an analytical surrogate model. These preliminary results show that the two methods are in qualitative agreement, but quantitative discrepancies are suspected to arise due to grid spacing in numerical integration or scaling maps. The main goal of this exercise was to validate RJMC sampling coverage.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>heat of vaporization on OpenFF</title>
+    <link>https://openforcefield.org/tags/heat-of-vaporization/</link>
+    <description>Recent content in heat of vaporization on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/heat-of-vaporization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Estimator Meeting Summary (Aug 08, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</guid>
+      <description>Datasets: Still waiting for NIST approval for data release from ThermoML. DIPPR was contacted to explain the terms of use for their data in more details. DIPPR contains pure component data on industrially important chemical compounds.
+PropertyEstimator: PropertyEstimator (PE) and ForceBalance (FB) seem to be working well based on the preliminary tests run by S. Boothroyd, and the infrastructure is ready for the initial LJ fitting. There are some differences in the gradients calculated by PE and FB.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</guid>
+      <description>Today the PropertyEstimator group discussed our progress, moving forward towards our fitting process with ThermoML data and ForceBalance. Decisions about fitting techniques and data have been made, and we are moving on to testing and production.
+Database readiness
+S. Boothroyd has algorithmically selected a basic set from the ThermoML archive with coverage of our selected Lennard Jones parameters. For basic fitting, we are moving forward with this dataset; if time allows we will also include a hand-curated ThermoML dataset provided by Lee-Ping Wang.</description>
+    </item>
+    
+  </channel>
+</rss>

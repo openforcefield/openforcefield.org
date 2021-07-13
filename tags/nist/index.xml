@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NIST on OpenFF</title>
+    <link>https://openforcefield.org/tags/nist/</link>
+    <description>Recent content in NIST on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/nist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 11, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</guid>
+      <description>Dataset sources
+NIST update: Data that was collected and curated in an automated process by NIST could be released as an open dataset, but not the manually curated uncertainties, which is the step that follows automated curation. Additional problem may arise from the fact that data from before 10 years ago simply isn’t present in ThermoML. Until the situation is clear from the legal perspective, it has been decided to move forward using the data from an older release of ThermoML which contained author-assigned uncertainties.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jun 27, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</guid>
+      <description>Property selection: Discussion about which properties and the exact amount of data to be requested from NIST continues. One of the challenges is to find the right balance between the current and future parameterization needs, which includes making decisions about specific properties to be used for the first optimization sprint and specific chemistry that will be covered in this sprint (and maybe in the next one). For the latter, finding a set of molecules (SMILES) that exercise all SMIRNOFF parameters is desirable and J.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-05-23-madin/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-05-23-madin/</guid>
+      <description>Today on the #propertycalculator call, we discussed working with NIST and their ThermoML property database to obtain a suitable dataset for parameterizing and benchmarking small molecules.
+ The Open Force Field Initiative is working with NIST in order to make a subset of ThermoML (and associated NIST uncertainties, which are essential for planned Bayesian analysis) publically available. We defined preliminary SQL queries for the chemistries, conditions, and properties that OpenFF is interested in.</description>
+    </item>
+    
+  </channel>
+</rss>

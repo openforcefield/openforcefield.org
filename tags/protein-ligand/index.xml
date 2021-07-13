@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>protein-ligand on OpenFF</title>
+    <link>https://openforcefield.org/tags/protein-ligand/</link>
+    <description>Recent content in protein-ligand on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/protein-ligand/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Calculator Meeting Summary (October 17, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-10-17/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-10-17/</guid>
+      <description>This meeting was the first dedicated Property Estimator call after several weeks of focus on producing and benchmarking release-1 (Parsley / openff-1.0.0.offxml). It focused on deciding future directions toward publication, infrastructure development, and lining up for the next FF release.
+ Once Simon Boothroyd begins work in Colorado, Simon and Owen will present a proposed Property Estimator paper outline to the consortium. This will involve choosing which of several existing questions to address, including:  The extent to which our current functional form introduces errors in polyhalogenated compounds, due to an inability to model sigma holes.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Vytautas Gapsys: Benchmarking binding free energy calculations for protein-ligand systems (Aug 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</guid>
+      <description>Vytautas Gapsys (de Groot lab) will be hosted by the Mobley lab at UC Irvine, where he will present his work on calculations of relative ligand-protein affinities using Gromacs+pmx approach. His talk will also cover a free energy scan based on the non-equilibrium protocol covering ~500 ligand modifications across 13 protein-ligand systems, and provide a comparison of the obtained results to FEP+ calculations. The talk will be followed by a few slides to start discussion about absolute free energies and equilibrium vs.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (May 02, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</guid>
+      <description>Benchmarking protein-ligand free energy: A set of suitable protein-ligand structures that will be used for the initial force field fitting/benchmarking during Year 1 (likely in September) needs to be selected. J. Chodera suggested the D3R Grand Challenge set as a starting point, but it needs to be filtered to remove any structures that might make benchmarking more complicated. For example, the structures with binding sites containing metals or histidines, titratable ligands that might change protonation states upon binding, buried sites, protein dimers, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

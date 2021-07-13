@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>charges on OpenFF</title>
+    <link>https://openforcefield.org/tags/charges/</link>
+    <description>Recent content in charges on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/charges/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (Mar 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</guid>
+      <description>QCArchive: C. Stern is working on a more automated workflow for submitting molecules to QCArchive and getting them run with appropriate defaults. Using OpenEye tools and CMILES could be a problem for running things on QCArchive due to licensing. A lot of work has been done on QCArchive and a press release about how QCArchive interfaces with Open Force Field is coming up soon.
+Charges: A charge model API spec is under construction, which should support simple alternatives to AM1 and convert BCC atom types to SMIRKS, among other things.</description>
+    </item>
+    
+  </channel>
+</rss>

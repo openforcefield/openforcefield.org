@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Initiative Advisory Board on OpenFF</title>
+    <link>https://openforcefield.org/tags/initiative-advisory-board/</link>
+    <description>Recent content in Initiative Advisory Board on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/initiative-advisory-board/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>May 11, 2020 Open Force Field Initiative Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/iab/2020-05-11-minutes/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/iab/2020-05-11-minutes/</guid>
+      <description>The first meeting of the OpenFF Initiative Advisory Board took place on May 11, 2020. The meeting notes are summarized below:
+Data collection and benchmarking  As we push into biopolymer FFs, what data should we be using to fit force fields?  We are in the process of porting AMBER ff14sb into SMIRNOFF format. We have a plan for making an “AMBER-like” protein force field using the current small molecule bond/angle/vdw, with an AMBER protein charge model, then fitting torsions.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>molecular graphs on OpenFF</title>
+    <link>https://openforcefield.org/tags/molecular-graphs/</link>
+    <description>Recent content in molecular graphs on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/molecular-graphs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (Apr 30, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</guid>
+      <description>QCFractal: This meeting focused on technical details of how our initial dataset for parameter fitting will be generated. As we prepare for our first major use of the QCFractal distributed computing system, we need to make decisions on the basis set and method that will be used for our geometry optimizations and energy evaluations, as well as several smaller technical issues.
+Since the previous meeting, UCI’s and MSKCC’s HPC resources had been configured and were capable of contributing processing power to QCFracal&amp;rsquo;s OpenFF resource group.</description>
+    </item>
+    
+  </channel>
+</rss>

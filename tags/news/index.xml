@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>news on OpenFF</title>
+    <link>https://openforcefield.org/tags/news/</link>
+    <description>Recent content in news on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenFF team - welcomes and farewells</title>
+      <link>https://openforcefield.org/community/news/general/new-members-june2021/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/new-members-june2021/</guid>
+      <description>The OpenFF team went through some changes in the first half of 2021 &amp;ndash; we are excited to welcome six new members to our team and to see some of our old teammates move on to exciting new roles.
+We are very pleased to welcome the following new members:
+ Josh Mitchell joined in February to help us improve our documentation and tutorials; Lily Wang joined in March as a Fulbright Fellow in the Mobley group and works on polymer force field infrastructure; Lorenzo D&amp;rsquo;Amore joined in March as a dedicated OpenFF postdoc with Janssen to continue David Hahn&amp;rsquo;s work on protein-ligand benchmarking; Iván Pulido-Sanchez joined in April as a software scientist to assist with biopolymer infrastructure for 3 months; Andrew Dalke joined in May as an independent consultant to assist with cheminformatics topics.</description>
+    </item>
+    
+    <item>
+      <title>Announcing two new releases!</title>
+      <link>https://openforcefield.org/community/news/general/new-releases-oct2020/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/new-releases-oct2020/</guid>
+      <description>We&amp;rsquo;re pleased to announce TWO releases are now available!
+Force fields OpenFF-1.3.0, a minor update to Parsley that improves performance on amide geometries. Detailed release notes are available here.
+OpenFF Toolkit The Open Force Field Toolkit version 0.8.0. This release adds our largest feature yet, SMARTS-based creation of VirtualSites (also known as off-center charges), as well as functionality to handle bond parameter interpolation based on partial bond orders. Detailed release notes are available at here.</description>
+    </item>
+    
+    <item>
+      <title>Welcome, Pavan!</title>
+      <link>https://openforcefield.org/community/news/general/welcome-pavan/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/welcome-pavan/</guid>
+      <description>The Open Force Field Initiative is excited to welcome the newest member of our team - Pavan Kumar Behara. Pavan received his PhD from the University of Buffalo, where he worked on developing and applying electronic structure methods. He will work on quantum chemistry datasets and pipelines, force field fitting and troubleshooting, and he is located in the Mobley lab at the University of California, Irvine. We wish Pavan a warm welcome and smooth sailing on the OpenFF seas!</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Newsletter August 2020</title>
+      <link>https://openforcefield.org/community/news/general/newsletter-aug2020/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/newsletter-aug2020/</guid>
+      <description>The past few months have been very productive in the Open Force Field Initiative! To make it easier to keep everyone up to date, we are introducing quarterly newsletters listing our key activities. This newsletter will be shared every three months on our website, mailing list and social media, starting this August. We will also continue our regular updates when we have new toolkit and Open Force Fields releases, or when other important events take place.</description>
+    </item>
+    
+    <item>
+      <title>Benchmark: OpenFF performance on small molecule energies and geometries</title>
+      <link>https://openforcefield.org/community/news/general/benchmark-small-molecules/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/benchmark-small-molecules/</guid>
+      <description>The Open Force Field Initiative, focusing on open tools and science to improve accuracy of molecular modeling, has now been up and running for approximately 18 months. Recent highlights have included the release of a series of updates to Parsley, a small molecule force field for biomolecular simulation, which is now at version OpenFF-1.2.0. Parsley was iteratively optimized to improve agreement with quantum chemical geometries, energetics, and vibrational frequencies.
+Here, we provide a preliminary benchmark assessment of several small molecule force fields (FF) compared to quantum mechanical (QM) results regarding gas phase energies and geometries of a set of molecule conformers.</description>
+    </item>
+    
+    <item>
+      <title>Lee-Ping Wang stepping down from a leadership role</title>
+      <link>https://openforcefield.org/community/news/general/lpw-stepdown/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/lpw-stepdown/</guid>
+      <description>From August 1, the Open Force Field Initiative will undergo a change in the leadership team, as Lee-Ping Wang has decided to step down from his role as an OpenFF primary investigator. This not a farewell, but a change of roles and Dr. Wang will remain actively involved in OpenFF research efforts as a co-investigator. The Open Force Field Initiative owes a great deal of its success to the work done by Dr.</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Consortium Virtual Meeting</title>
+      <link>https://openforcefield.org/community/news/general/may-2020-virtual-meeting/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/may-2020-virtual-meeting/</guid>
+      <description>We are hosting the Third Open Force Field Consortium Workshop, this time in the online world of Zoom, on May 4-5, 2020. This virtual meeting is replacing the planned in-person gathering in Boston. We decided to slightly experiment with the workshop format by making most of the content available before the meeting for asynchronous consumption. Namely, all talks will be pre-recorded and the meeting time will be focused on discussions around those talks and future planning.</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Initiative receives NIH funding</title>
+      <link>https://openforcefield.org/community/news/general/openff-nih-funding/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openff-nih-funding/</guid>
+      <description>We are excited to announce that the NIH Institute of General Medical Sciences has funded our Focused Technology Research &amp;amp; Development R01 proposal, enabling the Open Force Field Initiative to partner with the biopolymer force field community and extend our infrastructure and force fields to also cover biopolymers. This is a collaborative NIH grant, with $380K direct costs/year for four years shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan Kettering Cancer Center, University of California, Irvine, University of California, San Diego, and University of California, Davis), and includes significant funded collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers).</description>
+    </item>
+    
+    <item>
+      <title>The Third Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/may2020-meeting-announcement/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/may2020-meeting-announcement/</guid>
+      <description>The in-person meeting in Boston has been cancelled due to COVID-19 outbreak. Please save the dates (May 4-5, 2020) for the remote meeting. More details coming up soon. If you want to join the remote meeting, please fill out the form below. We are excited to announce the Third Open Force Field Consortium Workshop on May 4-5, 2020! This time we meet in Cambridge, MA and the venue has been generously provided by Pfizer, Inc.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Andreas Krämer: Automated Optimization Approaches for the CHARMM Lipid Force Field (Dec 17, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</guid>
+      <description>Andreas Krämer (NIH) will give a talk about development of an automated optimization approach to improve the CHARMM36 lipid force field using pair-specific LJ parameters. Join the seminar via Zoom in real time on Dec 17 at 2 pm (ET), or watch it later on our YouTube channel.
+ Abstract: The CHARMM36 (C36) lipid force field is well-validated for many properties of monolayers and bilayers and has been cited in over 2000 studies of membrane simulations.</description>
+    </item>
+    
+    <item>
+      <title>The Open Force Field 1.0 small molecule force field, our first optimized force field (codename &#34;Parsley&#34;)</title>
+      <link>https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/</guid>
+      <description>We’re delighted to announce the release of &amp;quot;Parsley&amp;quot;, the Open Force Field 1.0 small molecule force field---the first in a series of iteratively-improved small molecule force fields for biomolecular simulation funded in part by the Open Force Field Consortium. This is the first optimized force field to use the SMIRNOFF force field specification for atom type-free direct chemical perception, and provides substantially improved valence (bond, angle, and torsion) parameters relative to its predecessor, the AMBER-lineage SMIRNOFF99Frosst.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Yuanqing Wang: Graph Nets for partial charge prediction (Oct 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</guid>
+      <description>Yuanqing Wang(MSKCC) will give a talk about using Graph Nets for fast prediction of atomic partial charges. The preprint is available on here. Join the seminar via Zoom in real time on Oct 14 at 1 pm (EDT), or watch it later on our YouTube channel.
+ Abstract: Here we show that Graph Nets — a set of update and aggregate functions that operate on molecular topologies and propagate information thereon — are capable of predicting properties of atoms and molecules which would otherwise require expensive Quantum Mechanics (QM) calculations.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Falk Hoffmann: Using NMR relaxation data to improve the dynamics of methyl groups in AMBER and CHARMM force fields (Sep 20, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</guid>
+      <description>Falk Hoffmann from Lars Schaefer&amp;rsquo;s group at Ruhr University Bochum, will present his work on improving torsional barriers associated with methyl group rotations in amino acid side-chains in AMBER and CHARMM force fields by using NMR relaxation rates. This study is available as a preprint on ChemrXiv. Join this seminar via Zoom in real time on Sep 20 at 11 am (EDT), or watch it later on our YouTube channel.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chuan Tian: ff19SB - Amino acid specific protein backbone parameters trained against quantum mechanics energies in solution (Sep 12, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</guid>
+      <description>Chuan Tian from the Simmerling lab will visit the Chodera lab at MSKCC and give a talk about the latest Amber force field - ff19SB. Join the seminar via Zoom in real time on Sep 12 at 1 pm (EDT), or watch it later on our YouTube channel.
+**Abstract:** Molecular dynamics (MD) simulations have become increasingly popular in studying the motions and functions of biomolecules. The accuracy of the simulation, however, is highly determined by the classical force field (FF), a set of functions with adjustable parameters to compute the potential energy from atomic positions.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Pankaj R. Daga: Data Curation - The Forgotten Practice in The Era of AI (Sep 13, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-daga-sep2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-daga-sep2019/</guid>
+      <description>Pankaj R. Daga from Simulation-Plus will visit the Mobley group at UC Irvine and give his CADD GRC talk about all the hazards that can appear in trying to automate mining of chemical and chemistry-related databases. You can join the seminar via Zoom in real time on Sep 13 at 11 am (PDT), or watch it later on our YouTube channel.
+**Abstract:** Availability of large databases of chemical structures along with experimental data provides a great opportunity to build predictive and robust QSAR/QSPR models for application in various fields.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Vytautas Gapsys: Benchmarking binding free energy calculations for protein-ligand systems (Aug 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</guid>
+      <description>Vytautas Gapsys (de Groot lab) will be hosted by the Mobley lab at UC Irvine, where he will present his work on calculations of relative ligand-protein affinities using Gromacs+pmx approach. His talk will also cover a free energy scan based on the non-equilibrium protocol covering ~500 ligand modifications across 13 protein-ligand systems, and provide a comparison of the obtained results to FEP+ calculations. The talk will be followed by a few slides to start discussion about absolute free energies and equilibrium vs.</description>
+    </item>
+    
+    <item>
+      <title>The Open Force Field Toolkit 0.5.0, adding GBSA support</title>
+      <link>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</guid>
+      <description>This release adds support for the GBSA tag in the SMIRNOFF specification. Currently, the HCT, OBC1, and OBC2 models (corresponding to AMBER keywords igb=1, 2, and 5, respectively) are supported, with the OBC2 implementation being the most flexible. Unfortunately, systems produced using these keywords are not yet transferable to other simulation packages via ParmEd, so users are restricted to using OpenMM to simulate systems with GBSA.
+OFFXML files containing GBSA parameter definitions are available, and can be loaded in addition to existing parameter sets, for example, with the command:</description>
+    </item>
+    
+    <item>
+      <title>Aug 2019 Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/aug-2019-meeting-announcement/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/aug-2019-meeting-announcement/</guid>
+      <description>We are hosting the Second Open Force Field Consortium Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners. The event will be again hosted at UCSD campus, but please note that the venue has been relocated from Jacobs Medical Center used in January to the Skaggs School of Pharmacy and Pharmaceutical Sciences building.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chaya Stern: Fragmenting molecules for QC torsion drives (Jun 4, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-stern-may2019/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-stern-may2019/</guid>
+      <description>You can watch this webinar on YouTube and access slides on Zenodo.
+Chaya Stern (Chodera lab) will give a webinar on Jun 4 at 11 am (EDT) under title “Fragmenting molecules for QC torsion drives”, based on her talk presented at the ACS Orlando conference (Mar 31 - Apr 4, 2019). Join the webinar in real time via Zoom link (https://meetmsk.zoom.us/j/987691623) or for those who can’t make it, Chaya’s talk will be recorded and shared on the website.</description>
+    </item>
+    
+    <item>
+      <title>The 0.2.0 Toolkit release, now with RDKit support!</title>
+      <link>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.2-release/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.2-release/</guid>
+      <description>We&#39;re excited to announce the public release of the Open Force Field toolkit version 0.2.0! Most notably, this release adds the ability to assign SMIRNOFF parameters and AM1-BCC charges with a completely open-source backend, adding support for the RDKit and AmberTools via a new ToolkitWrapper infrastructure that can be extended in the future to support additional cheminformatics toolkits. The OpenEye Toolkit will continue to be supported, as well as used internally our parameter-fitting pipelines in the short term.</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Initiative applies for NIH funding</title>
+      <link>https://openforcefield.org/community/news/general/seeking-nih-funding/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/seeking-nih-funding/</guid>
+      <description>The ultimate goal of the Open Force Field Initiative is to produce modern, high-quality tools for building better force fields, and to apply these tools to produce consistently more accurate generations of biomolecular force fields that are incredibly easy to use in a variety of molecular simulation packages.
+Anyone who has tried simulating complex, heterogeneous systems involving small molecules, proteins, lipids, nucleic acids, carbohydrates, post-translational modifications, cofactors, and covalent ligands (or any subset of these!</description>
+    </item>
+    
+    <item>
+      <title>Jan 2019 Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/</guid>
+      <description>We hosted the first Open Force Field Consortium Workshop in La Jolla, CA on January 7-8, 2019. The meeting was open to Consortium members and collaborators, and parts of the meeting were recorded for posting online. In addition, slides discussing current Consortium research and future plans are given below.
+Details at a glance  Date: January 7-8, 2018 Location: Jacobs Medical Center, UC San Diego, La Jolla, CA, Rooms 2 and 3 Local contact: Mike Gilson &amp;lt;mgilson@ucsd.</description>
+    </item>
+    
+    <item>
+      <title>Webinar on the SMIRNOFF format and learned chemical perception Oct. 10</title>
+      <link>https://openforcefield.org/community/news/general/bioexcel_webinar/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/bioexcel_webinar/</guid>
+      <description>Check out a webinar on the Initiative this Oct. 10 from BioExcel! MolSSI fellow Caitlin Bannan will talk about the Initiative&amp;rsquo;s overall goals and her work on learned chemical perception. Register through BioExcel, or if you can&amp;rsquo;t make it, video should be available afterwards.
+Bannan&amp;rsquo;s Abstract: The Open Force Field Initiative is developing a machinery to automatically parameterize molecular mechanics force fields. An important part of this process will be automating chemical perception — the way force field parameters are assigned to a molecule based on chemical environment.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the Open Force Field Consortium</title>
+      <link>https://openforcefield.org/community/news/general/introducing-the-consortium/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/introducing-the-consortium/</guid>
+      <description>We’re excited to announce the launch of the Open Force Field Consortium, an academic-industry collaboration designed to improve small molecule force fields used to guide pharmaceutical drug discovery. The Open Force Field Initiative is what we are calling our overall research effort, whereas the Open Force Field Consortium refers specifically to the academic-industry collaboration.
+Modeling tools based on force fields assist development of therapies for diseases such as cancer and neurodegenerative disease throughout academia and industry.</description>
+    </item>
+    
+    <item>
+      <title>Support for open source cheminformatics toolkits is coming!</title>
+      <link>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</guid>
+      <description>We&#39;ve been hard at work with a large-scale infrastructure overhaul of our main openforcefield toolkit following the Open Force Field Toolkit 0.1.0 prerelease, which provided an initial reference implementation of the SMIRNOFF 0.1 specification for direct chemical perception. Many thanks to all the users who provided helpful feedback in how we could improve overall usability!
+While we expect the updated toolkit to be released very soon, we wanted to provide a summary of the coming changes to give you an idea of what we&#39;ve been up to:</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Open Force Field Initiative</title>
+      <link>https://openforcefield.org/community/news/general/introducing-the-initiative/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/introducing-the-initiative/</guid>
+      <description>Molecular modeling is widely used in diverse pharmaceutical discovery applications, but its utility and predictive power is limited by the accuracy of the underlying molecular mechanics force field used to compute the energetics of biomolecular systems. The Open Force Field Initiative is an open effort to build iteratively more accurate force fields to improve predictive design, along with the necessary infrastructure to make these force fields easier to build and use, and to provide a modern platform for powering force field science.</description>
+    </item>
+    
+  </channel>
+</rss>

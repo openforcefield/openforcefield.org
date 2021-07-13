@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>infrastructure on OpenFF</title>
+    <link>https://openforcefield.org/tags/infrastructure/</link>
+    <description>Recent content in infrastructure on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infrastructure Lessons-learned (May 19, 2021)</title>
+      <link>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</guid>
+      <description>It’s been more than a year since our last blog post, far longer than we could reasonably blame on lockdowns. This post will be an update after a year of software development and operational lessons-learned. In some ways this post may be interesting for an actual software person to read, since getting myself to this point required so many years of biology, chemistry, physics, and CS, that I never formally learned software engineering or project management, yet those have gradually become my primary roles in the organization.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</guid>
+      <description>TorsionDrive: Y. Qiu updated TorsionDrive with visualization and more documentation. He is planning to add functionality to TorsionDrive to store gradients, which are currently computed, but not recorded. D. Smith suggested having a schema defined for TorsionDrive jobs for future use, to facilitate using it in larger project infrastructure.
+Torsion/Valence Fitting: There was discussion of when fitting with ForceBalance might start. L.-P. Wang estimated that, provided with our first round of finished QC calculations, ForceBalance might take about a day to run before providing an optimized set of parameters.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</guid>
+      <description>TorsionDrive: Y. Qiu started working on TorsionDrive and was unable to replicate D. Smith&amp;rsquo;s previously reported issue with 120 degree scan intervals. D. Smith confirmed that he was also unable to replicate and he suspects it might have been a version issue.
+QCFractal: Stable version of QCFractal is out and should be installed through pip or conda - always conda install qcportal -c conda-forge. QCPortal might throw an error if an older version of QCFractal is used.</description>
+    </item>
+    
+  </channel>
+</rss>

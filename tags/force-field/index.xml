@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>force field on OpenFF</title>
+    <link>https://openforcefield.org/tags/force-field/</link>
+    <description>Recent content in force field on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/force-field/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infrastructure Lessons-learned (May 19, 2021)</title>
+      <link>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</guid>
+      <description>It’s been more than a year since our last blog post, far longer than we could reasonably blame on lockdowns. This post will be an update after a year of software development and operational lessons-learned. In some ways this post may be interesting for an actual software person to read, since getting myself to this point required so many years of biology, chemistry, physics, and CS, that I never formally learned software engineering or project management, yet those have gradually become my primary roles in the organization.</description>
+    </item>
+    
+    <item>
+      <title>Announcing two new releases!</title>
+      <link>https://openforcefield.org/community/news/general/new-releases-oct2020/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/new-releases-oct2020/</guid>
+      <description>We&amp;rsquo;re pleased to announce TWO releases are now available!
+Force fields OpenFF-1.3.0, a minor update to Parsley that improves performance on amide geometries. Detailed release notes are available here.
+OpenFF Toolkit The Open Force Field Toolkit version 0.8.0. This release adds our largest feature yet, SMARTS-based creation of VirtualSites (also known as off-center charges), as well as functionality to handle bond parameter interpolation based on partial bond orders. Detailed release notes are available at here.</description>
+    </item>
+    
+    <item>
+      <title>Version 1.1.0 &#34;Parsley&#34; Update (March 03, 2020)</title>
+      <link>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</guid>
+      <description>Description We are pleased to announce the release of our first &amp;ldquo;Parsley&amp;rdquo; update. Version 1.1.0 &amp;ldquo;Parsley&amp;rdquo; is a minor release that includes some adjustments in force field: (1) Addition of three new bond and angle terms, a22a, b14a and b36a; (2) Modification of periodicity for N-N rotations; (3) Addition of missing improper torsions (i2a, i3a, i3b, i5a) with the associated torsions (t51a,t51b, t51c); and (4) Removal of redundant periodicity in t19.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Andreas Krämer: Automated Optimization Approaches for the CHARMM Lipid Force Field (Dec 17, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</guid>
+      <description>Andreas Krämer (NIH) will give a talk about development of an automated optimization approach to improve the CHARMM36 lipid force field using pair-specific LJ parameters. Join the seminar via Zoom in real time on Dec 17 at 2 pm (ET), or watch it later on our YouTube channel.
+ Abstract: The CHARMM36 (C36) lipid force field is well-validated for many properties of monolayers and bilayers and has been cited in over 2000 studies of membrane simulations.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Falk Hoffmann: Using NMR relaxation data to improve the dynamics of methyl groups in AMBER and CHARMM force fields (Sep 20, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</guid>
+      <description>Falk Hoffmann from Lars Schaefer&amp;rsquo;s group at Ruhr University Bochum, will present his work on improving torsional barriers associated with methyl group rotations in amino acid side-chains in AMBER and CHARMM force fields by using NMR relaxation rates. This study is available as a preprint on ChemrXiv. Join this seminar via Zoom in real time on Sep 20 at 11 am (EDT), or watch it later on our YouTube channel.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chuan Tian: ff19SB - Amino acid specific protein backbone parameters trained against quantum mechanics energies in solution (Sep 12, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</guid>
+      <description>Chuan Tian from the Simmerling lab will visit the Chodera lab at MSKCC and give a talk about the latest Amber force field - ff19SB. Join the seminar via Zoom in real time on Sep 12 at 1 pm (EDT), or watch it later on our YouTube channel.
+**Abstract:** Molecular dynamics (MD) simulations have become increasingly popular in studying the motions and functions of biomolecules. The accuracy of the simulation, however, is highly determined by the classical force field (FF), a set of functions with adjustable parameters to compute the potential energy from atomic positions.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Aug 15, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</guid>
+      <description>Chemical coverage C. Bayly suggested broadly dividing parameters into two categories: 1) chemistry being covered in the first optimization run; 2) everything else. The latter category should also include information about all molecules that were cleaned out from databases used in the first optimization sprint, which was focused on improvement of a selected (sub)set of parameters. This information (data) can be used in the later stages of the force field optimization when chemical coverage will be expanded.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Jul 16, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</guid>
+      <description>Types We will use the same typing tree as smirnoff99Frosst (with some minor adjustments to specific bugs or other problems), but optimize the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters.
+Parameterization We will aim to refit (a subset of) torsions, valence terms, and Lennard-Jones parameters, depending on what is ready in time. In practice, we have decoupled efforts to fit all three that should be straightforward to couple together in our final optimization stage.</description>
+    </item>
+    
+  </channel>
+</rss>

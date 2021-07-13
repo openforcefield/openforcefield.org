@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on OpenFF</title>
+    <link>https://openforcefield.org/tags/software/</link>
+    <description>Recent content in software on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Open Force Field Toolkit 0.5.0, adding GBSA support</title>
+      <link>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</guid>
+      <description>This release adds support for the GBSA tag in the SMIRNOFF specification. Currently, the HCT, OBC1, and OBC2 models (corresponding to AMBER keywords igb=1, 2, and 5, respectively) are supported, with the OBC2 implementation being the most flexible. Unfortunately, systems produced using these keywords are not yet transferable to other simulation packages via ParmEd, so users are restricted to using OpenMM to simulate systems with GBSA.
+OFFXML files containing GBSA parameter definitions are available, and can be loaded in addition to existing parameter sets, for example, with the command:</description>
+    </item>
+    
+    <item>
+      <title>The 0.2.0 Toolkit release, now with RDKit support!</title>
+      <link>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.2-release/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.2-release/</guid>
+      <description>We&#39;re excited to announce the public release of the Open Force Field toolkit version 0.2.0! Most notably, this release adds the ability to assign SMIRNOFF parameters and AM1-BCC charges with a completely open-source backend, adding support for the RDKit and AmberTools via a new ToolkitWrapper infrastructure that can be extended in the future to support additional cheminformatics toolkits. The OpenEye Toolkit will continue to be supported, as well as used internally our parameter-fitting pipelines in the short term.</description>
+    </item>
+    
+    <item>
+      <title>Support for open source cheminformatics toolkits is coming!</title>
+      <link>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</guid>
+      <description>We&#39;ve been hard at work with a large-scale infrastructure overhaul of our main openforcefield toolkit following the Open Force Field Toolkit 0.1.0 prerelease, which provided an initial reference implementation of the SMIRNOFF 0.1 specification for direct chemical perception. Many thanks to all the users who provided helpful feedback in how we could improve overall usability!
+While we expect the updated toolkit to be released very soon, we wanted to provide a summary of the coming changes to give you an idea of what we&#39;ve been up to:</description>
+    </item>
+    
+  </channel>
+</rss>

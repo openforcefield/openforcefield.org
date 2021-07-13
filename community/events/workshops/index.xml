@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshops on OpenFF</title>
+    <link>https://openforcefield.org/community/events/workshops/</link>
+    <description>Recent content in Workshops on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://openforcefield.org/community/events/workshops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3rd Open Force Field Workshop</title>
+      <link>https://openforcefield.org/community/events/workshops/3rd-open-force-field-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/events/workshops/3rd-open-force-field-workshop/</guid>
+      <description>May 4-5, 2020 | Virtual meeting We hosted the Third Open Force Field Consortium Workshop on May 4-5, 2020 as a virtual meeting. This virtual meeting replaced the planned in-person gathering in Boston. All talks were pre-recorded and the meeting time was focused on discussions and future planning. David Cerutti, who has joined the Open Force Field Initiative as a senior scientist to assist with development of biopolymer force fields funded by the NIH grant, gave a virtual keynote and a brief summary of his talk before discussion.</description>
+    </item>
+    
+    <item>
+      <title>2nd Open Force Field Workshop</title>
+      <link>https://openforcefield.org/community/events/workshops/2nd-open-force-field-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/events/workshops/2nd-open-force-field-workshop/</guid>
+      <description>Aug 30-31, 2019 | La Jolla, California The meeting was open to Consortium members and collaborators, and parts of the meeting were recorded for posting online with accompanying slides. Watch the videos from this workshop on YouTube and access presentation slides on Zenodo.
+Please see the full program below:
+Agenda The proposed agenda might be subjected to minor changes before the event.
+Day 1 (Aug 30) Discussion notes for Day 1</description>
+    </item>
+    
+    <item>
+      <title>1st Open Force Field Workshop</title>
+      <link>https://openforcefield.org/community/events/workshops/1st-open-force-field-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/events/workshops/1st-open-force-field-workshop/</guid>
+      <description>Jan 7-8, 2019 | La Jolla, California Please see the full program below:
+Agenda Comments and questions for discussion during the workshop are invited in the Slack channels indicated after each topic; e.g, #project-planning for &amp;quot;Roadmap overview&amp;quot;. Jan 7 Research topics: 45 min talk + 15 min discussion
+   Time Event Speaker Slack channel     7.45 - 8.00 Introduction [PDF] [Video] Gilson          &amp;mdash; &amp;mdash; &amp;mdash; &amp;mdash;   8.</description>
+    </item>
+    
+  </channel>
+</rss>

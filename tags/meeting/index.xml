@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meeting on OpenFF</title>
+    <link>https://openforcefield.org/tags/meeting/</link>
+    <description>Recent content in meeting on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/meeting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Force Field Consortium Virtual Meeting</title>
+      <link>https://openforcefield.org/community/news/general/may-2020-virtual-meeting/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/may-2020-virtual-meeting/</guid>
+      <description>We are hosting the Third Open Force Field Consortium Workshop, this time in the online world of Zoom, on May 4-5, 2020. This virtual meeting is replacing the planned in-person gathering in Boston. We decided to slightly experiment with the workshop format by making most of the content available before the meeting for asynchronous consumption. Namely, all talks will be pre-recorded and the meeting time will be focused on discussions around those talks and future planning.</description>
+    </item>
+    
+    <item>
+      <title>The Third Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/may2020-meeting-announcement/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/may2020-meeting-announcement/</guid>
+      <description>The in-person meeting in Boston has been cancelled due to COVID-19 outbreak. Please save the dates (May 4-5, 2020) for the remote meeting. More details coming up soon. If you want to join the remote meeting, please fill out the form below. We are excited to announce the Third Open Force Field Consortium Workshop on May 4-5, 2020! This time we meet in Cambridge, MA and the venue has been generously provided by Pfizer, Inc.</description>
+    </item>
+    
+    <item>
+      <title>Aug 2019 Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/aug-2019-meeting-announcement/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/aug-2019-meeting-announcement/</guid>
+      <description>We are hosting the Second Open Force Field Consortium Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners. The event will be again hosted at UCSD campus, but please note that the venue has been relocated from Jacobs Medical Center used in January to the Skaggs School of Pharmacy and Pharmaceutical Sciences building.</description>
+    </item>
+    
+    <item>
+      <title>Jan 2019 Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/</guid>
+      <description>We hosted the first Open Force Field Consortium Workshop in La Jolla, CA on January 7-8, 2019. The meeting was open to Consortium members and collaborators, and parts of the meeting were recorded for posting online. In addition, slides discussing current Consortium research and future plans are given below.
+Details at a glance  Date: January 7-8, 2018 Location: Jacobs Medical Center, UC San Diego, La Jolla, CA, Rooms 2 and 3 Local contact: Mike Gilson &amp;lt;mgilson@ucsd.</description>
+    </item>
+    
+  </channel>
+</rss>

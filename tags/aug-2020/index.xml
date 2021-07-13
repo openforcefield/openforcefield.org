@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aug 2020 on OpenFF</title>
+    <link>https://openforcefield.org/tags/aug-2020/</link>
+    <description>Recent content in Aug 2020 on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/aug-2020/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Force Field Newsletter August 2020</title>
+      <link>https://openforcefield.org/community/news/general/newsletter-aug2020/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/newsletter-aug2020/</guid>
+      <description>The past few months have been very productive in the Open Force Field Initiative! To make it easier to keep everyone up to date, we are introducing quarterly newsletters listing our key activities. This newsletter will be shared every three months on our website, mailing list and social media, starting this August. We will also continue our regular updates when we have new toolkit and Open Force Fields releases, or when other important events take place.</description>
+    </item>
+    
+  </channel>
+</rss>

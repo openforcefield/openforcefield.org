@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lee-Ping Wang on OpenFF</title>
+    <link>https://openforcefield.org/tags/lee-ping-wang/</link>
+    <description>Recent content in Lee-Ping Wang on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/lee-ping-wang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lee-Ping Wang stepping down from a leadership role</title>
+      <link>https://openforcefield.org/community/news/general/lpw-stepdown/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/lpw-stepdown/</guid>
+      <description>From August 1, the Open Force Field Initiative will undergo a change in the leadership team, as Lee-Ping Wang has decided to step down from his role as an OpenFF primary investigator. This not a farewell, but a change of roles and Dr. Wang will remain actively involved in OpenFF research efforts as a co-investigator. The Open Force Field Initiative owes a great deal of its success to the work done by Dr.</description>
+    </item>
+    
+  </channel>
+</rss>

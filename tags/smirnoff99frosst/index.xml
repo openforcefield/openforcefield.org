@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMIRNOFF99Frosst on OpenFF</title>
+    <link>https://openforcefield.org/tags/smirnoff99frosst/</link>
+    <description>Recent content in SMIRNOFF99Frosst on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/smirnoff99frosst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards New Fixed Charge Models</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-07-05-charge-model-update/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-07-05-charge-model-update/</guid>
+      <description>The Open Force Field Initiative continues to explore new partial charge assignment models for both fast parameterization (to allow billion-compound sets to be rapidly parameterized for docking) and a more accurate &amp;ldquo;bespoke&amp;rdquo; parameterization pipeline for torsions and partial charges (intended for use with more accurate but more costly methods, such as free energy calculations).&amp;quot;
+A new version of the Restrained Electrostatic Potential Method (RESP2): RESP2 aims to improve the electrostatic description via point charges, in comparison to the popular existing RESP (here referred to as “RESP1”) and AM1-BCC methods.</description>
+    </item>
+    
+  </channel>
+</rss>

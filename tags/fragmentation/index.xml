@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fragmentation on OpenFF</title>
+    <link>https://openforcefield.org/tags/fragmentation/</link>
+    <description>Recent content in fragmentation on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/fragmentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Chaya Stern: Fragmenting molecules for QC torsion drives (Jun 4, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-stern-may2019/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-stern-may2019/</guid>
+      <description>You can watch this webinar on YouTube and access slides on Zenodo.
+Chaya Stern (Chodera lab) will give a webinar on Jun 4 at 11 am (EDT) under title “Fragmenting molecules for QC torsion drives”, based on her talk presented at the ACS Orlando conference (Mar 31 - Apr 4, 2019). Join the webinar in real time via Zoom link (https://meetmsk.zoom.us/j/987691623) or for those who can’t make it, Chaya’s talk will be recorded and shared on the website.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</guid>
+      <description>TorsionDrive: Y. Qiu updated TorsionDrive with visualization and more documentation. He is planning to add functionality to TorsionDrive to store gradients, which are currently computed, but not recorded. D. Smith suggested having a schema defined for TorsionDrive jobs for future use, to facilitate using it in larger project infrastructure.
+Torsion/Valence Fitting: There was discussion of when fitting with ForceBalance might start. L.-P. Wang estimated that, provided with our first round of finished QC calculations, ForceBalance might take about a day to run before providing an optimized set of parameters.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Feb 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</guid>
+      <description>Atom Order: There can be multiple ways to tag SMILES involving self-symmetry and C. Stern raised the question of how to ensure the same geometry always gets assigned the same atom ordering. D. Smith said that a string comparison is currently possible, where string is contained in a QCEngine job description. J. Chodera thinks that having identical geometries with different atom ordering is highly improbable and should not be a major concern.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Feb 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-05/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-05/</guid>
+      <description>Conformer Generation: C. Stern found that a better way of atom mapping is necessary to keep track of the original map after fragmentation, because sometimes indexed SMILES get re-indexed after fragmentation, which results with the loss of the original map. Occasionally, certain groups that should remain whole end up fragmented.
+Torsions / QM Methods: D. Smith suggested that ANI-1 could be a good, fast solution to evaluate energy. It has been decided, though, that for now ANI-1 and semiempirical methods won’t be used for computing torsion scans.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Jan 22, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</guid>
+      <description>QCArchive/QCFractal: A stable version of QCArchive is coming on Feb 11 and open beta version around Mar 15. The main focus of development are object models instead of using JSON throughout the Python-based ecosystem, and distributed computing testing. It’s possible that QCArchive will move to Parsl for workflow management. Addition of compute resources to QC Archive cloud is expected soon, after some debugging in collaboration with C. Stern and Y. Qiu.</description>
+    </item>
+    
+  </channel>
+</rss>

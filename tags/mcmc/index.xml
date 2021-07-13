@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MCMC on OpenFF</title>
+    <link>https://openforcefield.org/tags/mcmc/</link>
+    <description>Recent content in MCMC on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/mcmc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Calculator Meeting Summary (Nov 29, 2018)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-11-29/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-11-29/</guid>
+      <description>Property Calculator: This call focused on the Property Calculator Framework and outlining some basic design concepts and use cases. The shortest term application is benchmarking for force field parameters. Certain design aspects need further discussion, but the initial rough kernel for setting up simulations at chosen properties/parameters should contain simplistic building blocks: smiles → smirnoff parameters → energy minimization → simulation. MBAR/surrogate model levels are yet to be defined, including model specification options.</description>
+    </item>
+    
+  </channel>
+</rss>

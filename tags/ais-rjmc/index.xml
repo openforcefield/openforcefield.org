@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AIS-RJMC on OpenFF</title>
+    <link>https://openforcefield.org/tags/ais-rjmc/</link>
+    <description>Recent content in AIS-RJMC on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Oct 2018 01:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/ais-rjmc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Calculator Meeting Summary (Oct 11, 2018)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-10-11/</link>
+      <pubDate>Thu, 11 Oct 2018 01:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-10-11/</guid>
+      <description>Surrogate models/RJMC: O. Madin and R. Messerly presented reversible-jump Monte Carlo (RJMC) performance study focused on L-J parameter space and compared it with numerical integration of probability regions in an analytical surrogate model. These preliminary results show that the two methods are in qualitative agreement, but quantitative discrepancies are suspected to arise due to grid spacing in numerical integration or scaling maps. The main goal of this exercise was to validate RJMC sampling coverage.</description>
+    </item>
+    
+  </channel>
+</rss>

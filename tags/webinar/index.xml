@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webinar on OpenFF</title>
+    <link>https://openforcefield.org/tags/webinar/</link>
+    <description>Recent content in webinar on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/webinar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Andreas Krämer: Automated Optimization Approaches for the CHARMM Lipid Force Field (Dec 17, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</guid>
+      <description>Andreas Krämer (NIH) will give a talk about development of an automated optimization approach to improve the CHARMM36 lipid force field using pair-specific LJ parameters. Join the seminar via Zoom in real time on Dec 17 at 2 pm (ET), or watch it later on our YouTube channel.
+ Abstract: The CHARMM36 (C36) lipid force field is well-validated for many properties of monolayers and bilayers and has been cited in over 2000 studies of membrane simulations.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Yuanqing Wang: Graph Nets for partial charge prediction (Oct 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</guid>
+      <description>Yuanqing Wang(MSKCC) will give a talk about using Graph Nets for fast prediction of atomic partial charges. The preprint is available on here. Join the seminar via Zoom in real time on Oct 14 at 1 pm (EDT), or watch it later on our YouTube channel.
+ Abstract: Here we show that Graph Nets — a set of update and aggregate functions that operate on molecular topologies and propagate information thereon — are capable of predicting properties of atoms and molecules which would otherwise require expensive Quantum Mechanics (QM) calculations.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chuan Tian: ff19SB - Amino acid specific protein backbone parameters trained against quantum mechanics energies in solution (Sep 12, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</guid>
+      <description>Chuan Tian from the Simmerling lab will visit the Chodera lab at MSKCC and give a talk about the latest Amber force field - ff19SB. Join the seminar via Zoom in real time on Sep 12 at 1 pm (EDT), or watch it later on our YouTube channel.
+**Abstract:** Molecular dynamics (MD) simulations have become increasingly popular in studying the motions and functions of biomolecules. The accuracy of the simulation, however, is highly determined by the classical force field (FF), a set of functions with adjustable parameters to compute the potential energy from atomic positions.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Pankaj R. Daga: Data Curation - The Forgotten Practice in The Era of AI (Sep 13, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-daga-sep2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-daga-sep2019/</guid>
+      <description>Pankaj R. Daga from Simulation-Plus will visit the Mobley group at UC Irvine and give his CADD GRC talk about all the hazards that can appear in trying to automate mining of chemical and chemistry-related databases. You can join the seminar via Zoom in real time on Sep 13 at 11 am (PDT), or watch it later on our YouTube channel.
+**Abstract:** Availability of large databases of chemical structures along with experimental data provides a great opportunity to build predictive and robust QSAR/QSPR models for application in various fields.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Vytautas Gapsys: Benchmarking binding free energy calculations for protein-ligand systems (Aug 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</guid>
+      <description>Vytautas Gapsys (de Groot lab) will be hosted by the Mobley lab at UC Irvine, where he will present his work on calculations of relative ligand-protein affinities using Gromacs+pmx approach. His talk will also cover a free energy scan based on the non-equilibrium protocol covering ~500 ligand modifications across 13 protein-ligand systems, and provide a comparison of the obtained results to FEP+ calculations. The talk will be followed by a few slides to start discussion about absolute free energies and equilibrium vs.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chaya Stern: Fragmenting molecules for QC torsion drives (Jun 4, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-stern-may2019/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-stern-may2019/</guid>
+      <description>You can watch this webinar on YouTube and access slides on Zenodo.
+Chaya Stern (Chodera lab) will give a webinar on Jun 4 at 11 am (EDT) under title “Fragmenting molecules for QC torsion drives”, based on her talk presented at the ACS Orlando conference (Mar 31 - Apr 4, 2019). Join the webinar in real time via Zoom link (https://meetmsk.zoom.us/j/987691623) or for those who can’t make it, Chaya’s talk will be recorded and shared on the website.</description>
+    </item>
+    
+  </channel>
+</rss>

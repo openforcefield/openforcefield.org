@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chemical coverage on OpenFF</title>
+    <link>https://openforcefield.org/tags/chemical-coverage/</link>
+    <description>Recent content in chemical coverage on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/chemical-coverage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release-1 update (Aug 15, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</guid>
+      <description>Chemical coverage C. Bayly suggested broadly dividing parameters into two categories: 1) chemistry being covered in the first optimization run; 2) everything else. The latter category should also include information about all molecules that were cleaned out from databases used in the first optimization sprint, which was focused on improvement of a selected (sub)set of parameters. This information (data) can be used in the later stages of the force field optimization when chemical coverage will be expanded.</description>
+    </item>
+    
+  </channel>
+</rss>

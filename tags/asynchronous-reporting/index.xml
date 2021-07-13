@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>asynchronous reporting on OpenFF</title>
+    <link>https://openforcefield.org/tags/asynchronous-reporting/</link>
+    <description>Recent content in asynchronous reporting on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/asynchronous-reporting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Calculator Meeting Summary (Jan 24, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-24/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-24/</guid>
+      <description>API: This meeting focused on API design aspects of PropertyCalculator, including how to tackle situations in which multiple properties with different convergence rates are computed from the same simulation. These properties could be reported asynchronously, as they are being computed, or they could only be returned upon successful completion of all property calculations. It has been decided to build the API with a possibility to allow asynchronous reporting in the future, although this feature is not expected to be implemented in the near-term future.</description>
+    </item>
+    
+  </channel>
+</rss>

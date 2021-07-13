@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QCArchive on OpenFF</title>
+    <link>https://openforcefield.org/tags/qcarchive/</link>
+    <description>Recent content in QCArchive on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/qcarchive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (May 28, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</guid>
+      <description>QCFractal: D. Smith announced that version 0.7 is out and update is recommended. Currently, QCPortal doesn’t check the QCFractal versions, so some unexpected errors may occur if users do not upgrade from 0.6. The QCArchive team is also planning to migrate the database from MongoDB to PostgreSQL during this week for some long-term benefits, including speed, smaller size and data integrity. More details about this migration should come in a blog post.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chaya Stern: Fragmenting molecules for QC torsion drives (Jun 4, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-stern-may2019/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-stern-may2019/</guid>
+      <description>You can watch this webinar on YouTube and access slides on Zenodo.
+Chaya Stern (Chodera lab) will give a webinar on Jun 4 at 11 am (EDT) under title “Fragmenting molecules for QC torsion drives”, based on her talk presented at the ACS Orlando conference (Mar 31 - Apr 4, 2019). Join the webinar in real time via Zoom link (https://meetmsk.zoom.us/j/987691623) or for those who can’t make it, Chaya’s talk will be recorded and shared on the website.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Datasets and Benchmarking Update</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-05-16-condicj/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-05-16-condicj/</guid>
+      <description>Dataset A set of 486 small and chemically diverse molecules, provided by Roche, was chosen for the initial scanning of torsions to generate relevant QM datasets for subsequent force field parameterization. This step is also meant to serve as an infrastructure test for each component of the torsion pipeline and to perform a benchmarking study for the most appropriate level of theory to be used in the future calculations of torsion profiles.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</guid>
+      <description>QCArchive: C. Stern is working on a more automated workflow for submitting molecules to QCArchive and getting them run with appropriate defaults. Using OpenEye tools and CMILES could be a problem for running things on QCArchive due to licensing. A lot of work has been done on QCArchive and a press release about how QCArchive interfaces with Open Force Field is coming up soon.
+Charges: A charge model API spec is under construction, which should support simple alternatives to AM1 and convert BCC atom types to SMIRKS, among other things.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</guid>
+      <description>TorsionDrive: Y. Qiu started working on TorsionDrive and was unable to replicate D. Smith&amp;rsquo;s previously reported issue with 120 degree scan intervals. D. Smith confirmed that he was also unable to replicate and he suspects it might have been a version issue.
+QCFractal: Stable version of QCFractal is out and should be installed through pip or conda - always conda install qcportal -c conda-forge. QCPortal might throw an error if an older version of QCFractal is used.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Jan 22, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</guid>
+      <description>QCArchive/QCFractal: A stable version of QCArchive is coming on Feb 11 and open beta version around Mar 15. The main focus of development are object models instead of using JSON throughout the Python-based ecosystem, and distributed computing testing. It’s possible that QCArchive will move to Parsl for workflow management. Addition of compute resources to QC Archive cloud is expected soon, after some debugging in collaboration with C. Stern and Y. Qiu.</description>
+    </item>
+    
+  </channel>
+</rss>

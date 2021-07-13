@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QCFractal on OpenFF</title>
+    <link>https://openforcefield.org/tags/qcfractal/</link>
+    <description>Recent content in QCFractal on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/qcfractal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (Jun 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-06-25/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-06-25/</guid>
+      <description>QC datasets: A new “coverage dataset” has been built in the Mobley lab, which contains 71 molecules and covers relatively large parameter space (only 17 smirnoff99@Frosst parameters missing). This dataset is to be included in the QC data production pipeline, from SMILES to optimization. The single atoms and ions present in the coverage dataset for which bonded terms cannot be computed will be excluded from the pipeline. The best way to construct this pipeline for generating QC data based on this molecular set was discussed during this meeting.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 28, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</guid>
+      <description>QCFractal: D. Smith announced that version 0.7 is out and update is recommended. Currently, QCPortal doesn’t check the QCFractal versions, so some unexpected errors may occur if users do not upgrade from 0.6. The QCArchive team is also planning to migrate the database from MongoDB to PostgreSQL during this week for some long-term benefits, including speed, smaller size and data integrity. More details about this migration should come in a blog post.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Apr 30, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</guid>
+      <description>QCFractal: This meeting focused on technical details of how our initial dataset for parameter fitting will be generated. As we prepare for our first major use of the QCFractal distributed computing system, we need to make decisions on the basis set and method that will be used for our geometry optimizations and energy evaluations, as well as several smaller technical issues.
+Since the previous meeting, UCI’s and MSKCC’s HPC resources had been configured and were capable of contributing processing power to QCFracal&amp;rsquo;s OpenFF resource group.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</guid>
+      <description>TorsionDrive: Y. Qiu started working on TorsionDrive and was unable to replicate D. Smith&amp;rsquo;s previously reported issue with 120 degree scan intervals. D. Smith confirmed that he was also unable to replicate and he suspects it might have been a version issue.
+QCFractal: Stable version of QCFractal is out and should be installed through pip or conda - always conda install qcportal -c conda-forge. QCPortal might throw an error if an older version of QCFractal is used.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Feb 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</guid>
+      <description>Atom Order: There can be multiple ways to tag SMILES involving self-symmetry and C. Stern raised the question of how to ensure the same geometry always gets assigned the same atom ordering. D. Smith said that a string comparison is currently possible, where string is contained in a QCEngine job description. J. Chodera thinks that having identical geometries with different atom ordering is highly improbable and should not be a major concern.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Feb 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-05/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-05/</guid>
+      <description>Conformer Generation: C. Stern found that a better way of atom mapping is necessary to keep track of the original map after fragmentation, because sometimes indexed SMILES get re-indexed after fragmentation, which results with the loss of the original map. Occasionally, certain groups that should remain whole end up fragmented.
+Torsions / QM Methods: D. Smith suggested that ANI-1 could be a good, fast solution to evaluate energy. It has been decided, though, that for now ANI-1 and semiempirical methods won’t be used for computing torsion scans.</description>
+    </item>
+    
+  </channel>
+</rss>

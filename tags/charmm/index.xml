@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CHARMM on OpenFF</title>
+    <link>https://openforcefield.org/tags/charmm/</link>
+    <description>Recent content in CHARMM on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/charmm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Andreas Krämer: Automated Optimization Approaches for the CHARMM Lipid Force Field (Dec 17, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</guid>
+      <description>Andreas Krämer (NIH) will give a talk about development of an automated optimization approach to improve the CHARMM36 lipid force field using pair-specific LJ parameters. Join the seminar via Zoom in real time on Dec 17 at 2 pm (ET), or watch it later on our YouTube channel.
+ Abstract: The CHARMM36 (C36) lipid force field is well-validated for many properties of monolayers and bilayers and has been cited in over 2000 studies of membrane simulations.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Falk Hoffmann: Using NMR relaxation data to improve the dynamics of methyl groups in AMBER and CHARMM force fields (Sep 20, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</guid>
+      <description>Falk Hoffmann from Lars Schaefer&amp;rsquo;s group at Ruhr University Bochum, will present his work on improving torsional barriers associated with methyl group rotations in amino acid side-chains in AMBER and CHARMM force fields by using NMR relaxation rates. This study is available as a preprint on ChemrXiv. Join this seminar via Zoom in real time on Sep 20 at 11 am (EDT), or watch it later on our YouTube channel.</description>
+    </item>
+    
+  </channel>
+</rss>

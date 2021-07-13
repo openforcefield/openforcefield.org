@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QM on OpenFF</title>
+    <link>https://openforcefield.org/tags/qm/</link>
+    <description>Recent content in QM on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/qm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Yuanqing Wang: Graph Nets for partial charge prediction (Oct 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</guid>
+      <description>Yuanqing Wang(MSKCC) will give a talk about using Graph Nets for fast prediction of atomic partial charges. The preprint is available on here. Join the seminar via Zoom in real time on Oct 14 at 1 pm (EDT), or watch it later on our YouTube channel.
+ Abstract: Here we show that Graph Nets — a set of update and aggregate functions that operate on molecular topologies and propagate information thereon — are capable of predicting properties of atoms and molecules which would otherwise require expensive Quantum Mechanics (QM) calculations.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chuan Tian: ff19SB - Amino acid specific protein backbone parameters trained against quantum mechanics energies in solution (Sep 12, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</guid>
+      <description>Chuan Tian from the Simmerling lab will visit the Chodera lab at MSKCC and give a talk about the latest Amber force field - ff19SB. Join the seminar via Zoom in real time on Sep 12 at 1 pm (EDT), or watch it later on our YouTube channel.
+**Abstract:** Molecular dynamics (MD) simulations have become increasingly popular in studying the motions and functions of biomolecules. The accuracy of the simulation, however, is highly determined by the classical force field (FF), a set of functions with adjustable parameters to compute the potential energy from atomic positions.</description>
+    </item>
+    
+  </channel>
+</rss>

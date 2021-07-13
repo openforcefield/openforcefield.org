@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chemical perception on OpenFF</title>
+    <link>https://openforcefield.org/tags/chemical-perception/</link>
+    <description>Recent content in chemical perception on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/chemical-perception/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar on the SMIRNOFF format and learned chemical perception Oct. 10</title>
+      <link>https://openforcefield.org/community/news/general/bioexcel_webinar/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/bioexcel_webinar/</guid>
+      <description>Check out a webinar on the Initiative this Oct. 10 from BioExcel! MolSSI fellow Caitlin Bannan will talk about the Initiative&amp;rsquo;s overall goals and her work on learned chemical perception. Register through BioExcel, or if you can&amp;rsquo;t make it, video should be available afterwards.
+Bannan&amp;rsquo;s Abstract: The Open Force Field Initiative is developing a machinery to automatically parameterize molecular mechanics force fields. An important part of this process will be automating chemical perception — the way force field parameters are assigned to a molecule based on chemical environment.</description>
+    </item>
+    
+  </channel>
+</rss>

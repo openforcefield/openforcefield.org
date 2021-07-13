@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data formatting on OpenFF</title>
+    <link>https://openforcefield.org/tags/data-formatting/</link>
+    <description>Recent content in data formatting on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/data-formatting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Calculator Meeting Summary (Mar 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-03-21/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-03-21/</guid>
+      <description>Datasets: S. Boothroyd reported that NIST uncertainty values disappeared after a reformat of the stored data. He has also raised an issue with target uncertainties in the simulations because ThermoML has very low uncertainties and simulations might have to be significantly extended to reach an order of magnitude smaller values. There are several potential ways to address this problem, including running simulations to an absolute uncertainty and analyzing existing entries in ThermoML to understand the range of uncertainties.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenFF Consortium on OpenFF</title>
+    <link>https://openforcefield.org/tags/openff-consortium/</link>
+    <description>Recent content in OpenFF Consortium on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/openff-consortium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4th Open Force Field Workshop (2021)</title>
+      <link>https://openforcefield.org/community/news/general/4th-openff-workshop-2021/</link>
+      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/4th-openff-workshop-2021/</guid>
+      <description>Our 4th annual workshop took place on June 11, 2021 in virtual space. This was a short and not widely advertised event to provide an update to our pharma partners and collaborators about the progress made in the past year. The latest advances in OpenFF infrastructure and force field research were presented by Jeffrey Wagner, Simon Boothroyd and David Mobley. In summary, there is a lot going on, but check out the presentation video and slides on Zenodo or Youtube for more details.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>optimization sprint on OpenFF</title>
+    <link>https://openforcefield.org/tags/optimization-sprint/</link>
+    <description>Recent content in optimization sprint on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/optimization-sprint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version 1.1.0 &#34;Parsley&#34; Update (March 03, 2020)</title>
+      <link>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</guid>
+      <description>Description We are pleased to announce the release of our first &amp;ldquo;Parsley&amp;rdquo; update. Version 1.1.0 &amp;ldquo;Parsley&amp;rdquo; is a minor release that includes some adjustments in force field: (1) Addition of three new bond and angle terms, a22a, b14a and b36a; (2) Modification of periodicity for N-N rotations; (3) Addition of missing improper torsions (i2a, i3a, i3b, i5a) with the associated torsions (t51a,t51b, t51c); and (4) Removal of redundant periodicity in t19.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Aug 15, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</guid>
+      <description>Chemical coverage C. Bayly suggested broadly dividing parameters into two categories: 1) chemistry being covered in the first optimization run; 2) everything else. The latter category should also include information about all molecules that were cleaned out from databases used in the first optimization sprint, which was focused on improvement of a selected (sub)set of parameters. This information (data) can be used in the later stages of the force field optimization when chemical coverage will be expanded.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Jul 16, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</guid>
+      <description>Types We will use the same typing tree as smirnoff99Frosst (with some minor adjustments to specific bugs or other problems), but optimize the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters.
+Parameterization We will aim to refit (a subset of) torsions, valence terms, and Lennard-Jones parameters, depending on what is ready in time. In practice, we have decoupled efforts to fit all three that should be straightforward to couple together in our final optimization stage.</description>
+    </item>
+    
+  </channel>
+</rss>

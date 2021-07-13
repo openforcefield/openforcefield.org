@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QC datasets on OpenFF</title>
+    <link>https://openforcefield.org/tags/qc-datasets/</link>
+    <description>Recent content in QC datasets on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/qc-datasets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (August 6, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-08-06/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-08-06/</guid>
+      <description>Release-1:: In this meeting, L.-P.Wang and Y. Qiu reported on the results of a newly-implemented workflow which performs a MM minimization of torsion-driven structures before parameter optimization. Y. Qiu showed some results of the fitting with this change. It was generally agreed that this additional step improved the quality of the fitting, and was helpful in almost all cases. It was suggested that L.-P. Wang and Y. Qiu prepare a blog post of this information, but in the interest of time, this was deprioritized until after release-1.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (July 23 and 24, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-23/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-23/</guid>
+      <description>This summary describes both the regularly scheduled Torsions meeting on July 23 as well as a followup meeting that was deemed necessary on July 24
+Datasets: Y. Qiu reported on the current status of QM data generation and parameter fitting. Currently, the two major datasets are the “Roche” set, and the “coverage” set. QM calculations on these sets have been scheduled to generate optimized geometries, torsion energy profiles, and hessians for each molecule.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Jul 9, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-09/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-09/</guid>
+      <description>Fragmenter: C. Stern is working making fragmenter more interoperable and more suitable for an automated pipeline. Some of the features include using Omega to identify rotatable bonds and Wiberg bond order computations.
+QC datasets: The &amp;ldquo;Roche set&amp;rdquo; (468 molecules) is almost done in terms of generating QC data for initial round of fitting with ForceBalance. The currently calculated data includes ~820 1-D torsion scans and geometry optimizations, and the next step is computing hessians.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Jun 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-06-25/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-06-25/</guid>
+      <description>QC datasets: A new “coverage dataset” has been built in the Mobley lab, which contains 71 molecules and covers relatively large parameter space (only 17 smirnoff99@Frosst parameters missing). This dataset is to be included in the QC data production pipeline, from SMILES to optimization. The single atoms and ions present in the coverage dataset for which bonded terms cannot be computed will be excluded from the pipeline. The best way to construct this pipeline for generating QC data based on this molecular set was discussed during this meeting.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</guid>
+      <description>TorsionDrive: Y. Qiu updated TorsionDrive with visualization and more documentation. He is planning to add functionality to TorsionDrive to store gradients, which are currently computed, but not recorded. D. Smith suggested having a schema defined for TorsionDrive jobs for future use, to facilitate using it in larger project infrastructure.
+Torsion/Valence Fitting: There was discussion of when fitting with ForceBalance might start. L.-P. Wang estimated that, provided with our first round of finished QC calculations, ForceBalance might take about a day to run before providing an optimized set of parameters.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Apr 30, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</guid>
+      <description>QCFractal: This meeting focused on technical details of how our initial dataset for parameter fitting will be generated. As we prepare for our first major use of the QCFractal distributed computing system, we need to make decisions on the basis set and method that will be used for our geometry optimizations and energy evaluations, as well as several smaller technical issues.
+Since the previous meeting, UCI’s and MSKCC’s HPC resources had been configured and were capable of contributing processing power to QCFracal&amp;rsquo;s OpenFF resource group.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Apr 16, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-16/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-16/</guid>
+      <description>This meeting generally focused on planning for the first round of parameter optimization.
+OFF Toolkit: J. Wagner presented the initial release of the Open Force Field Toolkit, which includes specific Force Field modification tools that could be used by the Lee-Ping Wang lab / ForceBalance to more robustly handle OFFXML files and workflow integration.
+Torsion Workflow: J. Chodera led a short discussion on the overall shape of the final workflow, and what the interface would be to push molecules through it.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</guid>
+      <description>QCArchive: C. Stern is working on a more automated workflow for submitting molecules to QCArchive and getting them run with appropriate defaults. Using OpenEye tools and CMILES could be a problem for running things on QCArchive due to licensing. A lot of work has been done on QCArchive and a press release about how QCArchive interfaces with Open Force Field is coming up soon.
+Charges: A charge model API spec is under construction, which should support simple alternatives to AM1 and convert BCC atom types to SMIRKS, among other things.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Jan 22, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</guid>
+      <description>QCArchive/QCFractal: A stable version of QCArchive is coming on Feb 11 and open beta version around Mar 15. The main focus of development are object models instead of using JSON throughout the Python-based ecosystem, and distributed computing testing. It’s possible that QCArchive will move to Parsl for workflow management. Addition of compute resources to QC Archive cloud is expected soon, after some debugging in collaboration with C. Stern and Y. Qiu.</description>
+    </item>
+    
+  </channel>
+</rss>

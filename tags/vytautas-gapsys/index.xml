@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vytautas Gapsys on OpenFF</title>
+    <link>https://openforcefield.org/tags/vytautas-gapsys/</link>
+    <description>Recent content in Vytautas Gapsys on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/vytautas-gapsys/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Vytautas Gapsys: Benchmarking binding free energy calculations for protein-ligand systems (Aug 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</guid>
+      <description>Vytautas Gapsys (de Groot lab) will be hosted by the Mobley lab at UC Irvine, where he will present his work on calculations of relative ligand-protein affinities using Gromacs+pmx approach. His talk will also cover a free energy scan based on the non-equilibrium protocol covering ~500 ligand modifications across 13 protein-ligand systems, and provide a comparison of the obtained results to FEP+ calculations. The talk will be followed by a few slides to start discussion about absolute free energies and equilibrium vs.</description>
+    </item>
+    
+  </channel>
+</rss>

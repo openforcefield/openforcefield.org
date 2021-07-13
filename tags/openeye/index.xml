@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenEye on OpenFF</title>
+    <link>https://openforcefield.org/tags/openeye/</link>
+    <description>Recent content in OpenEye on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/openeye/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Support for open source cheminformatics toolkits is coming!</title>
+      <link>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</guid>
+      <description>We&#39;ve been hard at work with a large-scale infrastructure overhaul of our main openforcefield toolkit following the Open Force Field Toolkit 0.1.0 prerelease, which provided an initial reference implementation of the SMIRNOFF 0.1 specification for direct chemical perception. Many thanks to all the users who provided helpful feedback in how we could improve overall usability!
+While we expect the updated toolkit to be released very soon, we wanted to provide a summary of the coming changes to give you an idea of what we&#39;ve been up to:</description>
+    </item>
+    
+  </channel>
+</rss>

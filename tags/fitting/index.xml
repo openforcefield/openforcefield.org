@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fitting on OpenFF</title>
+    <link>https://openforcefield.org/tags/fitting/</link>
+    <description>Recent content in fitting on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/fitting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version 1.1.0 &#34;Parsley&#34; Update (March 03, 2020)</title>
+      <link>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</guid>
+      <description>Description We are pleased to announce the release of our first &amp;ldquo;Parsley&amp;rdquo; update. Version 1.1.0 &amp;ldquo;Parsley&amp;rdquo; is a minor release that includes some adjustments in force field: (1) Addition of three new bond and angle terms, a22a, b14a and b36a; (2) Modification of periodicity for N-N rotations; (3) Addition of missing improper torsions (i2a, i3a, i3b, i5a) with the associated torsions (t51a,t51b, t51c); and (4) Removal of redundant periodicity in t19.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Aug 15, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</guid>
+      <description>Chemical coverage C. Bayly suggested broadly dividing parameters into two categories: 1) chemistry being covered in the first optimization run; 2) everything else. The latter category should also include information about all molecules that were cleaned out from databases used in the first optimization sprint, which was focused on improvement of a selected (sub)set of parameters. This information (data) can be used in the later stages of the force field optimization when chemical coverage will be expanded.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Aug 08, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</guid>
+      <description>Datasets: Still waiting for NIST approval for data release from ThermoML. DIPPR was contacted to explain the terms of use for their data in more details. DIPPR contains pure component data on industrially important chemical compounds.
+PropertyEstimator: PropertyEstimator (PE) and ForceBalance (FB) seem to be working well based on the preliminary tests run by S. Boothroyd, and the infrastructure is ready for the initial LJ fitting. There are some differences in the gradients calculated by PE and FB.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (August 6, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-08-06/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-08-06/</guid>
+      <description>Release-1:: In this meeting, L.-P.Wang and Y. Qiu reported on the results of a newly-implemented workflow which performs a MM minimization of torsion-driven structures before parameter optimization. Y. Qiu showed some results of the fitting with this change. It was generally agreed that this additional step improved the quality of the fitting, and was helpful in almost all cases. It was suggested that L.-P. Wang and Y. Qiu prepare a blog post of this information, but in the interest of time, this was deprioritized until after release-1.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</guid>
+      <description>Today the PropertyEstimator group discussed our progress, moving forward towards our fitting process with ThermoML data and ForceBalance. Decisions about fitting techniques and data have been made, and we are moving on to testing and production.
+Database readiness
+S. Boothroyd has algorithmically selected a basic set from the ThermoML archive with coverage of our selected Lennard Jones parameters. For basic fitting, we are moving forward with this dataset; if time allows we will also include a hand-curated ThermoML dataset provided by Lee-Ping Wang.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Jul 16, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</guid>
+      <description>Types We will use the same typing tree as smirnoff99Frosst (with some minor adjustments to specific bugs or other problems), but optimize the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters.
+Parameterization We will aim to refit (a subset of) torsions, valence terms, and Lennard-Jones parameters, depending on what is ready in time. In practice, we have decoupled efforts to fit all three that should be straightforward to couple together in our final optimization stage.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 11, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</guid>
+      <description>Dataset sources
+NIST update: Data that was collected and curated in an automated process by NIST could be released as an open dataset, but not the manually curated uncertainties, which is the step that follows automated curation. Additional problem may arise from the fact that data from before 10 years ago simply isn’t present in ThermoML. Until the situation is clear from the legal perspective, it has been decided to move forward using the data from an older release of ThermoML which contained author-assigned uncertainties.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jun 27, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</guid>
+      <description>Property selection: Discussion about which properties and the exact amount of data to be requested from NIST continues. One of the challenges is to find the right balance between the current and future parameterization needs, which includes making decisions about specific properties to be used for the first optimization sprint and specific chemistry that will be covered in this sprint (and maybe in the next one). For the latter, finding a set of molecules (SMILES) that exercise all SMIRNOFF parameters is desirable and J.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</guid>
+      <description>TorsionDrive: Y. Qiu updated TorsionDrive with visualization and more documentation. He is planning to add functionality to TorsionDrive to store gradients, which are currently computed, but not recorded. D. Smith suggested having a schema defined for TorsionDrive jobs for future use, to facilitate using it in larger project infrastructure.
+Torsion/Valence Fitting: There was discussion of when fitting with ForceBalance might start. L.-P. Wang estimated that, provided with our first round of finished QC calculations, ForceBalance might take about a day to run before providing an optimized set of parameters.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Apr 30, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</guid>
+      <description>QCFractal: This meeting focused on technical details of how our initial dataset for parameter fitting will be generated. As we prepare for our first major use of the QCFractal distributed computing system, we need to make decisions on the basis set and method that will be used for our geometry optimizations and energy evaluations, as well as several smaller technical issues.
+Since the previous meeting, UCI’s and MSKCC’s HPC resources had been configured and were capable of contributing processing power to QCFracal&amp;rsquo;s OpenFF resource group.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Feb 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</guid>
+      <description>Atom Order: There can be multiple ways to tag SMILES involving self-symmetry and C. Stern raised the question of how to ensure the same geometry always gets assigned the same atom ordering. D. Smith said that a string comparison is currently possible, where string is contained in a QCEngine job description. J. Chodera thinks that having identical geometries with different atom ordering is highly improbable and should not be a major concern.</description>
+    </item>
+    
+  </channel>
+</rss>

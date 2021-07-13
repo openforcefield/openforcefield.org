@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>host-guest on OpenFF</title>
+    <link>https://openforcefield.org/tags/host-guest/</link>
+    <description>Recent content in host-guest on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/host-guest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Calculator Meeting Summary (May 02, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</guid>
+      <description>Benchmarking protein-ligand free energy: A set of suitable protein-ligand structures that will be used for the initial force field fitting/benchmarking during Year 1 (likely in September) needs to be selected. J. Chodera suggested the D3R Grand Challenge set as a starting point, but it needs to be filtered to remove any structures that might make benchmarking more complicated. For example, the structures with binding sites containing metals or histidines, titratable ligands that might change protonation states upon binding, buried sites, protein dimers, etc.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Apr 18, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-04-18/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-04-18/</guid>
+      <description>The majority of this meeting focused on how to store and present the “best practices” for property calculation. A few actionable conclusions came from this meeting:
+ We might call them “selected practices” instead of “best practices”; 8 For the foreseeable future, these documents will live in the openforcefield/propertyestimator repo, alongside the actual code. Each property will have a page with both links to the technical (API) details and theoretical discussion; The Shirts lab will work on example code for reweighting host-guest calculations; S.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Feb 07, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-02-07/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-02-07/</guid>
+      <description>Host-guest calculator: The main topic of discussion was the API design for host-guest calculations. There is a number of decisions that have to be made with respect to input/output requirements, handling different rates of convergence between different systems, how to define and reach targeted uncertainties etc. The current plan envisages the following solutions:
+ PropertyCalculator would run a simulation in a loop and pause at given intervals to check for convergence and return value, associated uncertainties and location of data files, which is necessary for reweighting, but it will be implemented later on; Initial analysis implementation will involve independent simulations instead of an ensemble analysis to meet a target uncertainty (per-window uncertainty); Returning gradients will be an optional argument, probably in the second generation of fitting with reweighting; As a job input, the estimator should receive a ForceField object and a description of the measured chemical mixture and conditions that it will estimate.</description>
+    </item>
+    
+  </channel>
+</rss>

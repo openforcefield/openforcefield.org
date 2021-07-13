@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reweighting on OpenFF</title>
+    <link>https://openforcefield.org/tags/reweighting/</link>
+    <description>Recent content in reweighting on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/reweighting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Calculator Meeting Summary (Apr 18, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-04-18/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-04-18/</guid>
+      <description>The majority of this meeting focused on how to store and present the “best practices” for property calculation. A few actionable conclusions came from this meeting:
+ We might call them “selected practices” instead of “best practices”; 8 For the foreseeable future, these documents will live in the openforcefield/propertyestimator repo, alongside the actual code. Each property will have a page with both links to the technical (API) details and theoretical discussion; The Shirts lab will work on example code for reweighting host-guest calculations; S.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Mar 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-03-21/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-03-21/</guid>
+      <description>Datasets: S. Boothroyd reported that NIST uncertainty values disappeared after a reformat of the stored data. He has also raised an issue with target uncertainties in the simulations because ThermoML has very low uncertainties and simulations might have to be significantly extended to reach an order of magnitude smaller values. There are several potential ways to address this problem, including running simulations to an absolute uncertainty and analyzing existing entries in ThermoML to understand the range of uncertainties.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Feb 07, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-02-07/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-02-07/</guid>
+      <description>Host-guest calculator: The main topic of discussion was the API design for host-guest calculations. There is a number of decisions that have to be made with respect to input/output requirements, handling different rates of convergence between different systems, how to define and reach targeted uncertainties etc. The current plan envisages the following solutions:
+ PropertyCalculator would run a simulation in a loop and pause at given intervals to check for convergence and return value, associated uncertainties and location of data files, which is necessary for reweighting, but it will be implemented later on; Initial analysis implementation will involve independent simulations instead of an ensemble analysis to meet a target uncertainty (per-window uncertainty); Returning gradients will be an optional argument, probably in the second generation of fitting with reweighting; As a job input, the estimator should receive a ForceField object and a description of the measured chemical mixture and conditions that it will estimate.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Jan 31, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-31/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-31/</guid>
+      <description>Property selection: L.-P. Wang suggested using surface tension for parameter fitting, which isn’t a traditional property used in force field parameterization. A discussion ensued about the merits of using surface tension as one of the target properties, and whether precedents in literature exists. L.-P. Wang described some previous work looking at the simulations of a slab of liquid showing moderate agreement with experiment, and highlighted that, according to the study, the results are relatively consistent as long as the film has no holes.</description>
+    </item>
+    
+  </channel>
+</rss>

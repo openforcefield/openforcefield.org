@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>funding on OpenFF</title>
+    <link>https://openforcefield.org/tags/funding/</link>
+    <description>Recent content in funding on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/funding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Force Field Initiative receives NIH funding</title>
+      <link>https://openforcefield.org/community/news/general/openff-nih-funding/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openff-nih-funding/</guid>
+      <description>We are excited to announce that the NIH Institute of General Medical Sciences has funded our Focused Technology Research &amp;amp; Development R01 proposal, enabling the Open Force Field Initiative to partner with the biopolymer force field community and extend our infrastructure and force fields to also cover biopolymers. This is a collaborative NIH grant, with $380K direct costs/year for four years shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan Kettering Cancer Center, University of California, Irvine, University of California, San Diego, and University of California, Davis), and includes significant funded collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers).</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Initiative applies for NIH funding</title>
+      <link>https://openforcefield.org/community/news/general/seeking-nih-funding/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/seeking-nih-funding/</guid>
+      <description>The ultimate goal of the Open Force Field Initiative is to produce modern, high-quality tools for building better force fields, and to apply these tools to produce consistently more accurate generations of biomolecular force fields that are incredibly easy to use in a variety of molecular simulation packages.
+Anyone who has tried simulating complex, heterogeneous systems involving small molecules, proteins, lipids, nucleic acids, carbohydrates, post-translational modifications, cofactors, and covalent ligands (or any subset of these!</description>
+    </item>
+    
+  </channel>
+</rss>

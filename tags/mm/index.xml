@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MM on OpenFF</title>
+    <link>https://openforcefield.org/tags/mm/</link>
+    <description>Recent content in MM on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/mm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Yuanqing Wang: Graph Nets for partial charge prediction (Oct 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</guid>
+      <description>Yuanqing Wang(MSKCC) will give a talk about using Graph Nets for fast prediction of atomic partial charges. The preprint is available on here. Join the seminar via Zoom in real time on Oct 14 at 1 pm (EDT), or watch it later on our YouTube channel.
+ Abstract: Here we show that Graph Nets — a set of update and aggregate functions that operate on molecular topologies and propagate information thereon — are capable of predicting properties of atoms and molecules which would otherwise require expensive Quantum Mechanics (QM) calculations.</description>
+    </item>
+    
+  </channel>
+</rss>

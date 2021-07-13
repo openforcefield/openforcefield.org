@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quantum chemistry on OpenFF</title>
+    <link>https://openforcefield.org/tags/quantum-chemistry/</link>
+    <description>Recent content in quantum chemistry on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/quantum-chemistry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome, Pavan!</title>
+      <link>https://openforcefield.org/community/news/general/welcome-pavan/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/welcome-pavan/</guid>
+      <description>The Open Force Field Initiative is excited to welcome the newest member of our team - Pavan Kumar Behara. Pavan received his PhD from the University of Buffalo, where he worked on developing and applying electronic structure methods. He will work on quantum chemistry datasets and pipelines, force field fitting and troubleshooting, and he is located in the Mobley lab at the University of California, Irvine. We wish Pavan a warm welcome and smooth sailing on the OpenFF seas!</description>
+    </item>
+    
+  </channel>
+</rss>

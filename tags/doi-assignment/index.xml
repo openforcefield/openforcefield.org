@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DOI assignment on OpenFF</title>
+    <link>https://openforcefield.org/tags/doi-assignment/</link>
+    <description>Recent content in DOI assignment on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/doi-assignment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (Jan 22, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</guid>
+      <description>QCArchive/QCFractal: A stable version of QCArchive is coming on Feb 11 and open beta version around Mar 15. The main focus of development are object models instead of using JSON throughout the Python-based ecosystem, and distributed computing testing. It’s possible that QCArchive will move to Parsl for workflow management. Addition of compute resources to QC Archive cloud is expected soon, after some debugging in collaboration with C. Stern and Y. Qiu.</description>
+    </item>
+    
+  </channel>
+</rss>

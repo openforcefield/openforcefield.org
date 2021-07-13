@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMBER on OpenFF</title>
+    <link>https://openforcefield.org/tags/amber/</link>
+    <description>Recent content in AMBER on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/amber/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Falk Hoffmann: Using NMR relaxation data to improve the dynamics of methyl groups in AMBER and CHARMM force fields (Sep 20, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</guid>
+      <description>Falk Hoffmann from Lars Schaefer&amp;rsquo;s group at Ruhr University Bochum, will present his work on improving torsional barriers associated with methyl group rotations in amino acid side-chains in AMBER and CHARMM force fields by using NMR relaxation rates. This study is available as a preprint on ChemrXiv. Join this seminar via Zoom in real time on Sep 20 at 11 am (EDT), or watch it later on our YouTube channel.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chuan Tian: ff19SB - Amino acid specific protein backbone parameters trained against quantum mechanics energies in solution (Sep 12, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</guid>
+      <description>Chuan Tian from the Simmerling lab will visit the Chodera lab at MSKCC and give a talk about the latest Amber force field - ff19SB. Join the seminar via Zoom in real time on Sep 12 at 1 pm (EDT), or watch it later on our YouTube channel.
+**Abstract:** Molecular dynamics (MD) simulations have become increasingly popular in studying the motions and functions of biomolecules. The accuracy of the simulation, however, is highly determined by the classical force field (FF), a set of functions with adjustable parameters to compute the potential energy from atomic positions.</description>
+    </item>
+    
+  </channel>
+</rss>

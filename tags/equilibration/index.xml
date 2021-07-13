@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>equilibration on OpenFF</title>
+    <link>https://openforcefield.org/tags/equilibration/</link>
+    <description>Recent content in equilibration on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/equilibration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Calculator Meeting Summary (Jan 31, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-31/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-31/</guid>
+      <description>Property selection: L.-P. Wang suggested using surface tension for parameter fitting, which isn’t a traditional property used in force field parameterization. A discussion ensued about the merits of using surface tension as one of the target properties, and whether precedents in literature exists. L.-P. Wang described some previous work looking at the simulations of a slab of liquid showing moderate agreement with experiment, and highlighted that, according to the study, the results are relatively consistent as long as the film has no holes.</description>
+    </item>
+    
+  </channel>
+</rss>

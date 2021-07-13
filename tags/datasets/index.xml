@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datasets on OpenFF</title>
+    <link>https://openforcefield.org/tags/datasets/</link>
+    <description>Recent content in datasets on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/datasets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version 1.1.0 &#34;Parsley&#34; Update (March 03, 2020)</title>
+      <link>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</guid>
+      <description>Description We are pleased to announce the release of our first &amp;ldquo;Parsley&amp;rdquo; update. Version 1.1.0 &amp;ldquo;Parsley&amp;rdquo; is a minor release that includes some adjustments in force field: (1) Addition of three new bond and angle terms, a22a, b14a and b36a; (2) Modification of periodicity for N-N rotations; (3) Addition of missing improper torsions (i2a, i3a, i3b, i5a) with the associated torsions (t51a,t51b, t51c); and (4) Removal of redundant periodicity in t19.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (October 17, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-10-17/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-10-17/</guid>
+      <description>This meeting was the first dedicated Property Estimator call after several weeks of focus on producing and benchmarking release-1 (Parsley / openff-1.0.0.offxml). It focused on deciding future directions toward publication, infrastructure development, and lining up for the next FF release.
+ Once Simon Boothroyd begins work in Colorado, Simon and Owen will present a proposed Property Estimator paper outline to the consortium. This will involve choosing which of several existing questions to address, including:  The extent to which our current functional form introduces errors in polyhalogenated compounds, due to an inability to model sigma holes.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Aug 15, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</guid>
+      <description>Chemical coverage C. Bayly suggested broadly dividing parameters into two categories: 1) chemistry being covered in the first optimization run; 2) everything else. The latter category should also include information about all molecules that were cleaned out from databases used in the first optimization sprint, which was focused on improvement of a selected (sub)set of parameters. This information (data) can be used in the later stages of the force field optimization when chemical coverage will be expanded.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Jul 16, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</guid>
+      <description>Types We will use the same typing tree as smirnoff99Frosst (with some minor adjustments to specific bugs or other problems), but optimize the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters.
+Parameterization We will aim to refit (a subset of) torsions, valence terms, and Lennard-Jones parameters, depending on what is ready in time. In practice, we have decoupled efforts to fit all three that should be straightforward to couple together in our final optimization stage.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 11, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</guid>
+      <description>Dataset sources
+NIST update: Data that was collected and curated in an automated process by NIST could be released as an open dataset, but not the manually curated uncertainties, which is the step that follows automated curation. Additional problem may arise from the fact that data from before 10 years ago simply isn’t present in ThermoML. Until the situation is clear from the legal perspective, it has been decided to move forward using the data from an older release of ThermoML which contained author-assigned uncertainties.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-05-23-madin/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-05-23-madin/</guid>
+      <description>Today on the #propertycalculator call, we discussed working with NIST and their ThermoML property database to obtain a suitable dataset for parameterizing and benchmarking small molecules.
+ The Open Force Field Initiative is working with NIST in order to make a subset of ThermoML (and associated NIST uncertainties, which are essential for planned Bayesian analysis) publically available. We defined preliminary SQL queries for the chemistries, conditions, and properties that OpenFF is interested in.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Datasets and Benchmarking Update</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-05-16-condicj/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-05-16-condicj/</guid>
+      <description>Dataset A set of 486 small and chemically diverse molecules, provided by Roche, was chosen for the initial scanning of torsions to generate relevant QM datasets for subsequent force field parameterization. This step is also meant to serve as an infrastructure test for each component of the torsion pipeline and to perform a benchmarking study for the most appropriate level of theory to be used in the future calculations of torsion profiles.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (May 02, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</guid>
+      <description>Benchmarking protein-ligand free energy: A set of suitable protein-ligand structures that will be used for the initial force field fitting/benchmarking during Year 1 (likely in September) needs to be selected. J. Chodera suggested the D3R Grand Challenge set as a starting point, but it needs to be filtered to remove any structures that might make benchmarking more complicated. For example, the structures with binding sites containing metals or histidines, titratable ligands that might change protonation states upon binding, buried sites, protein dimers, etc.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Jan 24, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-24/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-24/</guid>
+      <description>API: This meeting focused on API design aspects of PropertyCalculator, including how to tackle situations in which multiple properties with different convergence rates are computed from the same simulation. These properties could be reported asynchronously, as they are being computed, or they could only be returned upon successful completion of all property calculations. It has been decided to build the API with a possibility to allow asynchronous reporting in the future, although this feature is not expected to be implemented in the near-term future.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Oct 11, 2018)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-10-11/</link>
+      <pubDate>Thu, 11 Oct 2018 01:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-10-11/</guid>
+      <description>Surrogate models/RJMC: O. Madin and R. Messerly presented reversible-jump Monte Carlo (RJMC) performance study focused on L-J parameter space and compared it with numerical integration of probability regions in an analytical surrogate model. These preliminary results show that the two methods are in qualitative agreement, but quantitative discrepancies are suspected to arise due to grid spacing in numerical integration or scaling maps. The main goal of this exercise was to validate RJMC sampling coverage.</description>
+    </item>
+    
+  </channel>
+</rss>

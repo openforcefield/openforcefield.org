@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>members on OpenFF</title>
+    <link>https://openforcefield.org/tags/members/</link>
+    <description>Recent content in members on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/members/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenFF team - welcomes and farewells</title>
+      <link>https://openforcefield.org/community/news/general/new-members-june2021/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/new-members-june2021/</guid>
+      <description>The OpenFF team went through some changes in the first half of 2021 &amp;ndash; we are excited to welcome six new members to our team and to see some of our old teammates move on to exciting new roles.
+We are very pleased to welcome the following new members:
+ Josh Mitchell joined in February to help us improve our documentation and tutorials; Lily Wang joined in March as a Fulbright Fellow in the Mobley group and works on polymer force field infrastructure; Lorenzo D&amp;rsquo;Amore joined in March as a dedicated OpenFF postdoc with Janssen to continue David Hahn&amp;rsquo;s work on protein-ligand benchmarking; Iván Pulido-Sanchez joined in April as a software scientist to assist with biopolymer infrastructure for 3 months; Andrew Dalke joined in May as an independent consultant to assist with cheminformatics topics.</description>
+    </item>
+    
+  </channel>
+</rss>

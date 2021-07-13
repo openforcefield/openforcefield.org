@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Force Field Initiative on OpenFF</title>
+    <link>https://openforcefield.org/tags/open-force-field-initiative/</link>
+    <description>Recent content in Open Force Field Initiative on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/open-force-field-initiative/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Force Field Newsletter August 2020</title>
+      <link>https://openforcefield.org/community/news/general/newsletter-aug2020/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/newsletter-aug2020/</guid>
+      <description>The past few months have been very productive in the Open Force Field Initiative! To make it easier to keep everyone up to date, we are introducing quarterly newsletters listing our key activities. This newsletter will be shared every three months on our website, mailing list and social media, starting this August. We will also continue our regular updates when we have new toolkit and Open Force Fields releases, or when other important events take place.</description>
+    </item>
+    
+    <item>
+      <title>May 11, 2020 Open Force Field Initiative Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/iab/2020-05-11-minutes/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/iab/2020-05-11-minutes/</guid>
+      <description>The first meeting of the OpenFF Initiative Advisory Board took place on May 11, 2020. The meeting notes are summarized below:
+Data collection and benchmarking  As we push into biopolymer FFs, what data should we be using to fit force fields?  We are in the process of porting AMBER ff14sb into SMIRNOFF format. We have a plan for making an “AMBER-like” protein force field using the current small molecule bond/angle/vdw, with an AMBER protein charge model, then fitting torsions.</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Initiative applies for NIH funding</title>
+      <link>https://openforcefield.org/community/news/general/seeking-nih-funding/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/seeking-nih-funding/</guid>
+      <description>The ultimate goal of the Open Force Field Initiative is to produce modern, high-quality tools for building better force fields, and to apply these tools to produce consistently more accurate generations of biomolecular force fields that are incredibly easy to use in a variety of molecular simulation packages.
+Anyone who has tried simulating complex, heterogeneous systems involving small molecules, proteins, lipids, nucleic acids, carbohydrates, post-translational modifications, cofactors, and covalent ligands (or any subset of these!</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Open Force Field Initiative</title>
+      <link>https://openforcefield.org/community/news/general/introducing-the-initiative/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/introducing-the-initiative/</guid>
+      <description>Molecular modeling is widely used in diverse pharmaceutical discovery applications, but its utility and predictive power is limited by the accuracy of the underlying molecular mechanics force field used to compute the energetics of biomolecular systems. The Open Force Field Initiative is an open effort to build iteratively more accurate force fields to improve predictive design, along with the necessary infrastructure to make these force fields easier to build and use, and to provide a modern platform for powering force field science.</description>
+    </item>
+    
+  </channel>
+</rss>

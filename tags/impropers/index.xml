@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>impropers on OpenFF</title>
+    <link>https://openforcefield.org/tags/impropers/</link>
+    <description>Recent content in impropers on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/impropers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (July 23 and 24, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-23/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-23/</guid>
+      <description>This summary describes both the regularly scheduled Torsions meeting on July 23 as well as a followup meeting that was deemed necessary on July 24
+Datasets: Y. Qiu reported on the current status of QM data generation and parameter fitting. Currently, the two major datasets are the “Roche” set, and the “coverage” set. QM calculations on these sets have been scheduled to generate optimized geometries, torsion energy profiles, and hessians for each molecule.</description>
+    </item>
+    
+  </channel>
+</rss>

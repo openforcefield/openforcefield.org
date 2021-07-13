@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>smirnoff on OpenFF</title>
+    <link>https://openforcefield.org/tags/smirnoff/</link>
+    <description>Recent content in smirnoff on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/smirnoff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benchmark: OpenFF performance on small molecule energies and geometries</title>
+      <link>https://openforcefield.org/community/news/general/benchmark-small-molecules/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/benchmark-small-molecules/</guid>
+      <description>The Open Force Field Initiative, focusing on open tools and science to improve accuracy of molecular modeling, has now been up and running for approximately 18 months. Recent highlights have included the release of a series of updates to Parsley, a small molecule force field for biomolecular simulation, which is now at version OpenFF-1.2.0. Parsley was iteratively optimized to improve agreement with quantum chemical geometries, energetics, and vibrational frequencies.
+Here, we provide a preliminary benchmark assessment of several small molecule force fields (FF) compared to quantum mechanical (QM) results regarding gas phase energies and geometries of a set of molecule conformers.</description>
+    </item>
+    
+    <item>
+      <title>The Open Force Field 1.0 small molecule force field, our first optimized force field (codename &#34;Parsley&#34;)</title>
+      <link>https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/</guid>
+      <description>We’re delighted to announce the release of &amp;quot;Parsley&amp;quot;, the Open Force Field 1.0 small molecule force field---the first in a series of iteratively-improved small molecule force fields for biomolecular simulation funded in part by the Open Force Field Consortium. This is the first optimized force field to use the SMIRNOFF force field specification for atom type-free direct chemical perception, and provides substantially improved valence (bond, angle, and torsion) parameters relative to its predecessor, the AMBER-lineage SMIRNOFF99Frosst.</description>
+    </item>
+    
+    <item>
+      <title>The Open Force Field Toolkit 0.5.0, adding GBSA support</title>
+      <link>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</guid>
+      <description>This release adds support for the GBSA tag in the SMIRNOFF specification. Currently, the HCT, OBC1, and OBC2 models (corresponding to AMBER keywords igb=1, 2, and 5, respectively) are supported, with the OBC2 implementation being the most flexible. Unfortunately, systems produced using these keywords are not yet transferable to other simulation packages via ParmEd, so users are restricted to using OpenMM to simulate systems with GBSA.
+OFFXML files containing GBSA parameter definitions are available, and can be loaded in addition to existing parameter sets, for example, with the command:</description>
+    </item>
+    
+    <item>
+      <title>The 0.2.0 Toolkit release, now with RDKit support!</title>
+      <link>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.2-release/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.2-release/</guid>
+      <description>We&#39;re excited to announce the public release of the Open Force Field toolkit version 0.2.0! Most notably, this release adds the ability to assign SMIRNOFF parameters and AM1-BCC charges with a completely open-source backend, adding support for the RDKit and AmberTools via a new ToolkitWrapper infrastructure that can be extended in the future to support additional cheminformatics toolkits. The OpenEye Toolkit will continue to be supported, as well as used internally our parameter-fitting pipelines in the short term.</description>
+    </item>
+    
+    <item>
+      <title>Webinar on the SMIRNOFF format and learned chemical perception Oct. 10</title>
+      <link>https://openforcefield.org/community/news/general/bioexcel_webinar/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/bioexcel_webinar/</guid>
+      <description>Check out a webinar on the Initiative this Oct. 10 from BioExcel! MolSSI fellow Caitlin Bannan will talk about the Initiative&amp;rsquo;s overall goals and her work on learned chemical perception. Register through BioExcel, or if you can&amp;rsquo;t make it, video should be available afterwards.
+Bannan&amp;rsquo;s Abstract: The Open Force Field Initiative is developing a machinery to automatically parameterize molecular mechanics force fields. An important part of this process will be automating chemical perception — the way force field parameters are assigned to a molecule based on chemical environment.</description>
+    </item>
+    
+  </channel>
+</rss>

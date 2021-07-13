@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>specification on OpenFF</title>
+    <link>https://openforcefield.org/tags/specification/</link>
+    <description>Recent content in specification on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/specification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infrastructure Lessons-learned (May 19, 2021)</title>
+      <link>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</guid>
+      <description>It’s been more than a year since our last blog post, far longer than we could reasonably blame on lockdowns. This post will be an update after a year of software development and operational lessons-learned. In some ways this post may be interesting for an actual software person to read, since getting myself to this point required so many years of biology, chemistry, physics, and CS, that I never formally learned software engineering or project management, yet those have gradually become my primary roles in the organization.</description>
+    </item>
+    
+  </channel>
+</rss>

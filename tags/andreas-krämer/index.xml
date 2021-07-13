@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andreas Krämer on OpenFF</title>
+    <link>https://openforcefield.org/tags/andreas-kr%C3%A4mer/</link>
+    <description>Recent content in Andreas Krämer on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/andreas-kr%C3%A4mer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Andreas Krämer: Automated Optimization Approaches for the CHARMM Lipid Force Field (Dec 17, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</guid>
+      <description>Andreas Krämer (NIH) will give a talk about development of an automated optimization approach to improve the CHARMM36 lipid force field using pair-specific LJ parameters. Join the seminar via Zoom in real time on Dec 17 at 2 pm (ET), or watch it later on our YouTube channel.
+ Abstract: The CHARMM36 (C36) lipid force field is well-validated for many properties of monolayers and bilayers and has been cited in over 2000 studies of membrane simulations.</description>
+    </item>
+    
+  </channel>
+</rss>

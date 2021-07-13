@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Force Field Consortium on OpenFF</title>
+    <link>https://openforcefield.org/tags/open-force-field-consortium/</link>
+    <description>Recent content in Open Force Field Consortium on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/open-force-field-consortium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sep 17, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-09-17-minutes/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-09-17-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on September 17, 2020. The minutes are summarized as follows:
+Funding and personnel updates  K. Condic-Jurkic provided an update about funding targets for Year 3 of the OpenFF Consortium. D. Mobley announced a successful application for the NIH supplement grant for improved code interoperability, led by M. Shirts. Feedback was requested about the key interoperable features desired by the pharma partners. At the moment, building an interoperable system object is in the focus of this grant.</description>
+    </item>
+    
+    <item>
+      <title>Aug 19, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-08-19-minutes/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-08-19-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on August 19, 2020. The minutes are summarized as follows:
+Amber FF port  J. Wagner and D. Cerutti gave an overview of the progress made on porting Amber protein force fields to SMIRNOFF format. Parameter deduplication will likely reduce file size by 2-4x. ETA 2-4 months.  Funding proposal  The OpenFF Consortium partners will consider increasing their annual contributions with a specific goal of expediting development of biopolymer force fields and underlying infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>Jul 17, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-07-15-minutes/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-07-15-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on July 15, 2020. The minutes are summarized as follows:
+Benchmarking update  D. Mobley provided an update on conformer benchmarking of OpenFF-1.2.0 compared to GAFF2, MMFF94S and OPLS3e, based on V. Lim’s study and in collaboration with Janssen (D. Hahn, G. Tresadern). This study was performed on a chemically diverse dataset with pre-optimized torsions &amp;ndash; proprietary data or bespoke torsions were not included in the study.</description>
+    </item>
+    
+    <item>
+      <title>Jun 17, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-06-17-minutes/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-06-17-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on June 17, 2020. The minutes are summarized as follows:
+Change in OpenFF leadership  Lee-Ping Wang announced that he will step down from the leadership role in OpenFF on July 15, 2020. This decision is primarily driven by a desire to spend more time on research and exploration of new scientific decision and to reduce his involvement in the management duties of the Initiative.</description>
+    </item>
+    
+    <item>
+      <title>May 20, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-05-20-minutes/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-05-20-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on May 20, 2020. The minutes are summarized as follows:
+Infrastructure update  J. Wagner gave an infrastructure update based on his talk presented during the recent virtual Third Open Force Field Workshop on May 4-5, 2020. Suggestions for QCArchive to incorporate some quality control information about molecular geometries and potential connectivity changes.  At the moment, OpenFF is trying to generate SMILES before and after calculations.</description>
+    </item>
+    
+    <item>
+      <title>Apr 15, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-04-15-minutes/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-04-15-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on April 15, 2020. The minutes are summarized as follows:
+Brief Update  D. Mobley provided a brief progress update since the last meeting. S. Boothroyd is working on a feasibility study for optimal combinations of physical properties for fitting nonbonded parameters. openff-1.2.0 release will contain an improved QM training set with a more systematic approach to molecule selection, while Sage will include the LJ refit based on the feasibility study.</description>
+    </item>
+    
+    <item>
+      <title>Mar 19, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-03-18-minutes/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-03-18-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on March 18, 2020. The minutes are summarized as follows:
+The meeting has been cancelled due to workplace disruptions caused by the COVID19 outbreak. The in-person meeting has been postponed for November 9-10, while the meeting in May will be virtual. Katharina Meier and Thomas Fox have been confirmed as the industry representatives on the Governing Board for the next 6 months. The election period and voting protocol will be discussed during the next meeting.</description>
+    </item>
+    
+    <item>
+      <title>Feb 19, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-02-19-minutes/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-02-19-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on February 19, 2020. The minutes are summarized as follows:
+Next force field release plans  I. Craig (BASF) reported some issues with nitrogen parameters in tetrazoles, and H. Jang has updated a couple of parameters in the recently released minor release - openff-1.1. D. Mobley presented some benchmarking results from V. Lim’s study of conformer energies and geometries. For geometry comparison, RMSD and torsion fingerprinting deviation (TFD) were used as similarity measures.</description>
+    </item>
+    
+    <item>
+      <title>Jan 15, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-01-15-minutes/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-01-15-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on January 15, 2020. The minutes are summarized as follows:
+Protein-ligand benchmarking  D. Hahn gave an update on his progress with protein-ligand benchmarking of Parsley &amp;ndash; he is currently working on developing a repository for storing and presenting data used for protein-ligand benchmarking studies, which stores only primary data reported in cited publications (derived data, for example dG, is converted on the fly from IC50, Kd, etc).</description>
+    </item>
+    
+    <item>
+      <title>Nov 19, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-11-19-minuted/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-11-19-minuted/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on November 19, 2019. The minutes are summarized as follows:
+Personnel update  Y. Qiu and D. Slochower have left their positions at UC Davis and UC San Diego, respectively S. Boothroyd moved from the Chodera lab at MKSCC, New York to the Shirts lab at CU Boulder, Colorado OpenFF is hiring more personnel, primarily software scientists  OFF toolkit update  Version 0.</description>
+    </item>
+    
+    <item>
+      <title>Oct 16, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-10-16-minutes/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-10-16-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board had an in-person meeting during the Consortium workshop in San Diego (Aug 30-31, 2091), discussing research questions of interest and potential future directions for the Open Force Field Initiative. This and other discussions held during the meeting made a basis for the roadmap for Year 2. This was the joint August/September meeting.
+The minutes from the meeting held on Oct 16, 2019 are summarized as follows:</description>
+    </item>
+    
+    <item>
+      <title>Jul 17, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-07-17-minutes/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-07-17-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on July 17, 2019. The minutes are summarized below.
+The Advisory Board format was slightly changed on this occasion - the report about the latest development was sent before the meeting to leave more time for questions and discussions. We will test this new format during the next few meetings. Feedback and comments are welcome!
+OpenFF toolkit  Release of the OpenFF Toolkit 0.</description>
+    </item>
+    
+    <item>
+      <title>Jun 13, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-06-13-minutes/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-06-13-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 13 June, 2019. The minutes are summarized as follows:
+The first optimized force field   The aim is to have the first force field released by Sept 1 and evaluations performed by Oct 1. Specific discussion about it takes place in #release-1 channel on Slack.
+  Types: The same typing tree as smirnoff99Frosst will be used, but the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters will be optimized;</description>
+    </item>
+    
+    <item>
+      <title>May 15, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-05-15-minutes/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-05-15-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 15 May, 2019. The minutes are summarized as follows:
+Roadmap  J. Chodera gave an overview of the roadmap for the remaining time of Year 1 and the accomplishments made so far.  Torsions update  The selected set of molecules for initial torsion scanning contains 486 small and chemically diverse molecules provided by Roche (less than 30 heavy atoms)- “Roche set”- more fragments will be added to this set in the future.</description>
+    </item>
+    
+    <item>
+      <title>April 17, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-04-17-minutes/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-04-17-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 17 April 2019. The minutes are summarized as follows:
+ K. Condic-Jurkic to take over future agenda planning with input from D. Kuhn, I. Craig, A. Narayanan Release update by Jeff Wagner:  0.2.1 bugfix release on the 12th after initial 0.2.0 release on 8th  Version numbers indicate API is still in flux, there may be function call changes, etc. in later versions, e.</description>
+    </item>
+    
+    <item>
+      <title>March 20, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-03-20-minutes/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-03-20-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 20 March, 2019. The minutes are summarized as follows:
+Status Updates  OFFI NIH proposal submitted and available publicly Hiring update:  Karmen Condic-Jurkic starts April 1 as half-time scientific coordinator/project manager Interviews ongoing for bespoke torsion fitting and potentially electrostatics role    Open Force Field Toolkit update  Alpha release slated for April 2 Will contain RDKit backend support in abstracted cheminformatics structure (allowing future support for alternative cheminformatics packages to be easily added)  Supposed to give same results regardless of RDKit or OpenEye (tested with ~2k molecules from eMolecules to have same energies, forces, and force terms) Differences in aromaticity models could result in some differences in corner cases We are adding a “paranoid mode” so we can detect differences between toolkits that arise when building force fields   SDF with standardized tags will be the supported method for importing molecules with custom charges  OpenEye and RDKit on-board with standardized tags for charges   There may have been minor changes to XML forcefield format since the January preview release  Changes are summarized here   OFFI hope is to have weekly/biweekly bugfix or feature releases and conda package updates Partners and users are directed to use the Github issue tracker to report issues or problems  Technical questions  How is Desmond currently used by Partners?</description>
+    </item>
+    
+    <item>
+      <title>February 20, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-02-20-minutes/</link>
+      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-02-20-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 20 February, 2019. The minutes are summarized as follows:
+ Next release of toolkit currently being tested and finished Workflow documentation  Next item on to-do list Call for additional desired workflows to be posted in #documentation channel   Industry compound additions to parameterization sets  Starting small – current focus is finding parameters in need of optimization by looking for discrepancies between current forcefields when minimizing structures  Industry partners should identify particularly high priority chemical space for initial parameterization Compounds/fragments to be sent via Slack or GitHub   BI has SureChembl dump and scripts that may be able to be shared.</description>
+    </item>
+    
+    <item>
+      <title>January 23, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-01-23-minutes/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-01-23-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 23 Jan 2019. The minutes are summarized as follows:
+RDKit Integration  Key infrastructure seems to be working Currently implementing testing to make sure energies/parameters are same between RDKit and OpenEye toolkit backends Documentation being worked on Limited to SDF file format initially RDKit support being added initially for OpenFF toolkit, not for other packages being used internally for parameter development Bespoke torsion parameterization tool will be able to use RDKit or other wholly open-source backend  Workflows  Workflow documentation / example requests should be posted to #documentation Slack channel Some suggested workflows from agenda and discussion:  Parameterization of protein-ligand system using SMIRNOFF Conformer energy evaluation Minimization of multiple ligands from SDF file (is this with protein, without, both?</description>
+    </item>
+    
+    <item>
+      <title>January 7-8, 2019 Consortium Workshop</title>
+      <link>https://openforcefield.org/minutes/cab/2019-01-07-minutes/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-01-07-minutes/</guid>
+      <description>Minutes: Attending: All PIs and software scientists; most industry partners, postdocs, and students (including via Zoom); academic and industry community members
+Visit the agenda page for more details of the workshop.</description>
+    </item>
+    
+    <item>
+      <title>October 29, 2018 Joint Governing/Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2018-10-29-minutes/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2018-10-29-minutes/</guid>
+      <description>Minutes Attending: All PIs, both governing board members, and most advisory board members, via Zoom.
+Short-term roadmap/minimum viable product: In general folks are supportive of current effort plans. However, there was consensus we need a tool for bespoke parameterization of molecules, especially internal molecules which might not be able to be disclosed to the larger effort, as part of our minimum viable product.
+Funding/financials:  Currently we have eight partners on board (with openforcefield.</description>
+    </item>
+    
+    <item>
+      <title>October 11, 2018 Governing Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2018-10-11-minutes/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2018-10-11-minutes/</guid>
+      <description>Agenda:  October meeting draft agenda and start time January meeting location Maat hiring Slack Funding processing update/onboarding update Involvement with science meetings (subprojects) and project planning Discuss blog posts? Yes, just get sub-groups to do brief updates after meetings; better for keeping people up to date.  Minutes: Attending: All PIs except Shirts, and both industry members, Thomas Fox and Katharina Meier
+Shared the detailed budget outline Google Doc and went over the personnel who would be involved and their distribution across different locations, fellowship amounts, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

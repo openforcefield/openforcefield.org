@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Force Field Initiative on OpenFF</title>
+    <link>https://openforcefield.org/</link>
+    <description>Recent content in Open Force Field Initiative on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3rd Open Force Field Workshop</title>
+      <link>https://openforcefield.org/community/events/workshops/3rd-open-force-field-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/events/workshops/3rd-open-force-field-workshop/</guid>
+      <description>May 4-5, 2020 | Virtual meeting We hosted the Third Open Force Field Consortium Workshop on May 4-5, 2020 as a virtual meeting. This virtual meeting replaced the planned in-person gathering in Boston. All talks were pre-recorded and the meeting time was focused on discussions and future planning. David Cerutti, who has joined the Open Force Field Initiative as a senior scientist to assist with development of biopolymer force fields funded by the NIH grant, gave a virtual keynote and a brief summary of his talk before discussion.</description>
+    </item>
+    
+    <item>
+      <title>2nd Open Force Field Workshop</title>
+      <link>https://openforcefield.org/community/events/workshops/2nd-open-force-field-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/events/workshops/2nd-open-force-field-workshop/</guid>
+      <description>Aug 30-31, 2019 | La Jolla, California The meeting was open to Consortium members and collaborators, and parts of the meeting were recorded for posting online with accompanying slides. Watch the videos from this workshop on YouTube and access presentation slides on Zenodo.
+Please see the full program below:
+Agenda The proposed agenda might be subjected to minor changes before the event.
+Day 1 (Aug 30) Discussion notes for Day 1</description>
+    </item>
+    
+    <item>
+      <title>1st Open Force Field Workshop</title>
+      <link>https://openforcefield.org/community/events/workshops/1st-open-force-field-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/events/workshops/1st-open-force-field-workshop/</guid>
+      <description>Jan 7-8, 2019 | La Jolla, California Please see the full program below:
+Agenda Comments and questions for discussion during the workshop are invited in the Slack channels indicated after each topic; e.g, #project-planning for &amp;quot;Roadmap overview&amp;quot;. Jan 7 Research topics: 45 min talk + 15 min discussion
+   Time Event Speaker Slack channel     7.45 - 8.00 Introduction [PDF] [Video] Gilson          &amp;mdash; &amp;mdash; &amp;mdash; &amp;mdash;   8.</description>
+    </item>
+    
+    <item>
+      <title>OpenFF team - welcomes and farewells</title>
+      <link>https://openforcefield.org/community/news/general/new-members-june2021/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/new-members-june2021/</guid>
+      <description>The OpenFF team went through some changes in the first half of 2021 &amp;ndash; we are excited to welcome six new members to our team and to see some of our old teammates move on to exciting new roles.
+We are very pleased to welcome the following new members:
+ Josh Mitchell joined in February to help us improve our documentation and tutorials; Lily Wang joined in March as a Fulbright Fellow in the Mobley group and works on polymer force field infrastructure; Lorenzo D&amp;rsquo;Amore joined in March as a dedicated OpenFF postdoc with Janssen to continue David Hahn&amp;rsquo;s work on protein-ligand benchmarking; Iván Pulido-Sanchez joined in April as a software scientist to assist with biopolymer infrastructure for 3 months; Andrew Dalke joined in May as an independent consultant to assist with cheminformatics topics.</description>
+    </item>
+    
+    <item>
+      <title>Joint support for Marie Curie Global Fellowship applicants</title>
+      <link>https://openforcefield.org/community/news/general/mscactions-postdoc/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/mscactions-postdoc/</guid>
+      <description>The Cole group, based at the University of Newcastle (UK), is looking to support applicants to the Marie Curie Global Postdoctoral Fellowship scheme in collaboration with the Open Force Field Initiative. The call has just been announced on June 22 and the applications are closing on Oct 12, 2021. Because the applications are quite intense for the hosting institution, the number of applicants supported will be limited. If you are interested, please send your CV and a brief research proposal to Daniel Cole at daniel.</description>
+    </item>
+    
+    <item>
+      <title>4th Open Force Field Workshop (2021)</title>
+      <link>https://openforcefield.org/community/news/general/4th-openff-workshop-2021/</link>
+      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/4th-openff-workshop-2021/</guid>
+      <description>Our 4th annual workshop took place on June 11, 2021 in virtual space. This was a short and not widely advertised event to provide an update to our pharma partners and collaborators about the progress made in the past year. The latest advances in OpenFF infrastructure and force field research were presented by Jeffrey Wagner, Simon Boothroyd and David Mobley. In summary, there is a lot going on, but check out the presentation video and slides on Zenodo or Youtube for more details.</description>
+    </item>
+    
+    <item>
+      <title>Infrastructure Lessons-learned (May 19, 2021)</title>
+      <link>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</guid>
+      <description>It’s been more than a year since our last blog post, far longer than we could reasonably blame on lockdowns. This post will be an update after a year of software development and operational lessons-learned. In some ways this post may be interesting for an actual software person to read, since getting myself to this point required so many years of biology, chemistry, physics, and CS, that I never formally learned software engineering or project management, yet those have gradually become my primary roles in the organization.</description>
+    </item>
+    
+    <item>
+      <title>Announcing two new releases!</title>
+      <link>https://openforcefield.org/community/news/general/new-releases-oct2020/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/new-releases-oct2020/</guid>
+      <description>We&amp;rsquo;re pleased to announce TWO releases are now available!
+Force fields OpenFF-1.3.0, a minor update to Parsley that improves performance on amide geometries. Detailed release notes are available here.
+OpenFF Toolkit The Open Force Field Toolkit version 0.8.0. This release adds our largest feature yet, SMARTS-based creation of VirtualSites (also known as off-center charges), as well as functionality to handle bond parameter interpolation based on partial bond orders. Detailed release notes are available at here.</description>
+    </item>
+    
+    <item>
+      <title>Welcome, Pavan!</title>
+      <link>https://openforcefield.org/community/news/general/welcome-pavan/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/welcome-pavan/</guid>
+      <description>The Open Force Field Initiative is excited to welcome the newest member of our team - Pavan Kumar Behara. Pavan received his PhD from the University of Buffalo, where he worked on developing and applying electronic structure methods. He will work on quantum chemistry datasets and pipelines, force field fitting and troubleshooting, and he is located in the Mobley lab at the University of California, Irvine. We wish Pavan a warm welcome and smooth sailing on the OpenFF seas!</description>
+    </item>
+    
+    <item>
+      <title>Sep 17, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-09-17-minutes/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-09-17-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on September 17, 2020. The minutes are summarized as follows:
+Funding and personnel updates  K. Condic-Jurkic provided an update about funding targets for Year 3 of the OpenFF Consortium. D. Mobley announced a successful application for the NIH supplement grant for improved code interoperability, led by M. Shirts. Feedback was requested about the key interoperable features desired by the pharma partners. At the moment, building an interoperable system object is in the focus of this grant.</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Newsletter August 2020</title>
+      <link>https://openforcefield.org/community/news/general/newsletter-aug2020/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/newsletter-aug2020/</guid>
+      <description>The past few months have been very productive in the Open Force Field Initiative! To make it easier to keep everyone up to date, we are introducing quarterly newsletters listing our key activities. This newsletter will be shared every three months on our website, mailing list and social media, starting this August. We will also continue our regular updates when we have new toolkit and Open Force Fields releases, or when other important events take place.</description>
+    </item>
+    
+    <item>
+      <title>Aug 19, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-08-19-minutes/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-08-19-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on August 19, 2020. The minutes are summarized as follows:
+Amber FF port  J. Wagner and D. Cerutti gave an overview of the progress made on porting Amber protein force fields to SMIRNOFF format. Parameter deduplication will likely reduce file size by 2-4x. ETA 2-4 months.  Funding proposal  The OpenFF Consortium partners will consider increasing their annual contributions with a specific goal of expediting development of biopolymer force fields and underlying infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>Benchmark: OpenFF performance on small molecule energies and geometries</title>
+      <link>https://openforcefield.org/community/news/general/benchmark-small-molecules/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/benchmark-small-molecules/</guid>
+      <description>The Open Force Field Initiative, focusing on open tools and science to improve accuracy of molecular modeling, has now been up and running for approximately 18 months. Recent highlights have included the release of a series of updates to Parsley, a small molecule force field for biomolecular simulation, which is now at version OpenFF-1.2.0. Parsley was iteratively optimized to improve agreement with quantum chemical geometries, energetics, and vibrational frequencies.
+Here, we provide a preliminary benchmark assessment of several small molecule force fields (FF) compared to quantum mechanical (QM) results regarding gas phase energies and geometries of a set of molecule conformers.</description>
+    </item>
+    
+    <item>
+      <title>Lee-Ping Wang stepping down from a leadership role</title>
+      <link>https://openforcefield.org/community/news/general/lpw-stepdown/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/lpw-stepdown/</guid>
+      <description>From August 1, the Open Force Field Initiative will undergo a change in the leadership team, as Lee-Ping Wang has decided to step down from his role as an OpenFF primary investigator. This not a farewell, but a change of roles and Dr. Wang will remain actively involved in OpenFF research efforts as a co-investigator. The Open Force Field Initiative owes a great deal of its success to the work done by Dr.</description>
+    </item>
+    
+    <item>
+      <title>Jul 17, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-07-15-minutes/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-07-15-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on July 15, 2020. The minutes are summarized as follows:
+Benchmarking update  D. Mobley provided an update on conformer benchmarking of OpenFF-1.2.0 compared to GAFF2, MMFF94S and OPLS3e, based on V. Lim’s study and in collaboration with Janssen (D. Hahn, G. Tresadern). This study was performed on a chemically diverse dataset with pre-optimized torsions &amp;ndash; proprietary data or bespoke torsions were not included in the study.</description>
+    </item>
+    
+    <item>
+      <title>Jun 17, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-06-17-minutes/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-06-17-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on June 17, 2020. The minutes are summarized as follows:
+Change in OpenFF leadership  Lee-Ping Wang announced that he will step down from the leadership role in OpenFF on July 15, 2020. This decision is primarily driven by a desire to spend more time on research and exploration of new scientific decision and to reduce his involvement in the management duties of the Initiative.</description>
+    </item>
+    
+    <item>
+      <title>May 20, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-05-20-minutes/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-05-20-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on May 20, 2020. The minutes are summarized as follows:
+Infrastructure update  J. Wagner gave an infrastructure update based on his talk presented during the recent virtual Third Open Force Field Workshop on May 4-5, 2020. Suggestions for QCArchive to incorporate some quality control information about molecular geometries and potential connectivity changes.  At the moment, OpenFF is trying to generate SMILES before and after calculations.</description>
+    </item>
+    
+    <item>
+      <title>May 11, 2020 Open Force Field Initiative Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/iab/2020-05-11-minutes/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/iab/2020-05-11-minutes/</guid>
+      <description>The first meeting of the OpenFF Initiative Advisory Board took place on May 11, 2020. The meeting notes are summarized below:
+Data collection and benchmarking  As we push into biopolymer FFs, what data should we be using to fit force fields?  We are in the process of porting AMBER ff14sb into SMIRNOFF format. We have a plan for making an “AMBER-like” protein force field using the current small molecule bond/angle/vdw, with an AMBER protein charge model, then fitting torsions.</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Consortium Virtual Meeting</title>
+      <link>https://openforcefield.org/community/news/general/may-2020-virtual-meeting/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/may-2020-virtual-meeting/</guid>
+      <description>We are hosting the Third Open Force Field Consortium Workshop, this time in the online world of Zoom, on May 4-5, 2020. This virtual meeting is replacing the planned in-person gathering in Boston. We decided to slightly experiment with the workshop format by making most of the content available before the meeting for asynchronous consumption. Namely, all talks will be pre-recorded and the meeting time will be focused on discussions around those talks and future planning.</description>
+    </item>
+    
+    <item>
+      <title>Apr 15, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-04-15-minutes/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-04-15-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on April 15, 2020. The minutes are summarized as follows:
+Brief Update  D. Mobley provided a brief progress update since the last meeting. S. Boothroyd is working on a feasibility study for optimal combinations of physical properties for fitting nonbonded parameters. openff-1.2.0 release will contain an improved QM training set with a more systematic approach to molecule selection, while Sage will include the LJ refit based on the feasibility study.</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Initiative receives NIH funding</title>
+      <link>https://openforcefield.org/community/news/general/openff-nih-funding/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openff-nih-funding/</guid>
+      <description>We are excited to announce that the NIH Institute of General Medical Sciences has funded our Focused Technology Research &amp;amp; Development R01 proposal, enabling the Open Force Field Initiative to partner with the biopolymer force field community and extend our infrastructure and force fields to also cover biopolymers. This is a collaborative NIH grant, with $380K direct costs/year for four years shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan Kettering Cancer Center, University of California, Irvine, University of California, San Diego, and University of California, Davis), and includes significant funded collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers).</description>
+    </item>
+    
+    <item>
+      <title>Mar 19, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-03-18-minutes/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-03-18-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on March 18, 2020. The minutes are summarized as follows:
+The meeting has been cancelled due to workplace disruptions caused by the COVID19 outbreak. The in-person meeting has been postponed for November 9-10, while the meeting in May will be virtual. Katharina Meier and Thomas Fox have been confirmed as the industry representatives on the Governing Board for the next 6 months. The election period and voting protocol will be discussed during the next meeting.</description>
+    </item>
+    
+    <item>
+      <title>Version 1.1.0 &#34;Parsley&#34; Update (March 03, 2020)</title>
+      <link>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/v1.1.0-parsley-update-2020-03-03/</guid>
+      <description>Description We are pleased to announce the release of our first &amp;ldquo;Parsley&amp;rdquo; update. Version 1.1.0 &amp;ldquo;Parsley&amp;rdquo; is a minor release that includes some adjustments in force field: (1) Addition of three new bond and angle terms, a22a, b14a and b36a; (2) Modification of periodicity for N-N rotations; (3) Addition of missing improper torsions (i2a, i3a, i3b, i5a) with the associated torsions (t51a,t51b, t51c); and (4) Removal of redundant periodicity in t19.</description>
+    </item>
+    
+    <item>
+      <title>The Third Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/may2020-meeting-announcement/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/may2020-meeting-announcement/</guid>
+      <description>The in-person meeting in Boston has been cancelled due to COVID-19 outbreak. Please save the dates (May 4-5, 2020) for the remote meeting. More details coming up soon. If you want to join the remote meeting, please fill out the form below. We are excited to announce the Third Open Force Field Consortium Workshop on May 4-5, 2020! This time we meet in Cambridge, MA and the venue has been generously provided by Pfizer, Inc.</description>
+    </item>
+    
+    <item>
+      <title>Feb 19, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-02-19-minutes/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-02-19-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on February 19, 2020. The minutes are summarized as follows:
+Next force field release plans  I. Craig (BASF) reported some issues with nitrogen parameters in tetrazoles, and H. Jang has updated a couple of parameters in the recently released minor release - openff-1.1. D. Mobley presented some benchmarking results from V. Lim’s study of conformer energies and geometries. For geometry comparison, RMSD and torsion fingerprinting deviation (TFD) were used as similarity measures.</description>
+    </item>
+    
+    <item>
+      <title>Jan 15, 2020 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2020-01-15-minutes/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2020-01-15-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on January 15, 2020. The minutes are summarized as follows:
+Protein-ligand benchmarking  D. Hahn gave an update on his progress with protein-ligand benchmarking of Parsley &amp;ndash; he is currently working on developing a repository for storing and presenting data used for protein-ligand benchmarking studies, which stores only primary data reported in cited publications (derived data, for example dG, is converted on the fly from IC50, Kd, etc).</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Andreas Krämer: Automated Optimization Approaches for the CHARMM Lipid Force Field (Dec 17, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-kraemer-dec2019/</guid>
+      <description>Andreas Krämer (NIH) will give a talk about development of an automated optimization approach to improve the CHARMM36 lipid force field using pair-specific LJ parameters. Join the seminar via Zoom in real time on Dec 17 at 2 pm (ET), or watch it later on our YouTube channel.
+ Abstract: The CHARMM36 (C36) lipid force field is well-validated for many properties of monolayers and bilayers and has been cited in over 2000 studies of membrane simulations.</description>
+    </item>
+    
+    <item>
+      <title>Nov 19, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-11-19-minuted/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-11-19-minuted/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on November 19, 2019. The minutes are summarized as follows:
+Personnel update  Y. Qiu and D. Slochower have left their positions at UC Davis and UC San Diego, respectively S. Boothroyd moved from the Chodera lab at MKSCC, New York to the Shirts lab at CU Boulder, Colorado OpenFF is hiring more personnel, primarily software scientists  OFF toolkit update  Version 0.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (October 17, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-10-17/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-10-17/</guid>
+      <description>This meeting was the first dedicated Property Estimator call after several weeks of focus on producing and benchmarking release-1 (Parsley / openff-1.0.0.offxml). It focused on deciding future directions toward publication, infrastructure development, and lining up for the next FF release.
+ Once Simon Boothroyd begins work in Colorado, Simon and Owen will present a proposed Property Estimator paper outline to the consortium. This will involve choosing which of several existing questions to address, including:  The extent to which our current functional form introduces errors in polyhalogenated compounds, due to an inability to model sigma holes.</description>
+    </item>
+    
+    <item>
+      <title>Oct 16, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-10-16-minutes/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-10-16-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board had an in-person meeting during the Consortium workshop in San Diego (Aug 30-31, 2091), discussing research questions of interest and potential future directions for the Open Force Field Initiative. This and other discussions held during the meeting made a basis for the roadmap for Year 2. This was the joint August/September meeting.
+The minutes from the meeting held on Oct 16, 2019 are summarized as follows:</description>
+    </item>
+    
+    <item>
+      <title>The Open Force Field 1.0 small molecule force field, our first optimized force field (codename &#34;Parsley&#34;)</title>
+      <link>https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/</guid>
+      <description>We’re delighted to announce the release of &amp;quot;Parsley&amp;quot;, the Open Force Field 1.0 small molecule force field---the first in a series of iteratively-improved small molecule force fields for biomolecular simulation funded in part by the Open Force Field Consortium. This is the first optimized force field to use the SMIRNOFF force field specification for atom type-free direct chemical perception, and provides substantially improved valence (bond, angle, and torsion) parameters relative to its predecessor, the AMBER-lineage SMIRNOFF99Frosst.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Yuanqing Wang: Graph Nets for partial charge prediction (Oct 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-wang-oct2019/</guid>
+      <description>Yuanqing Wang(MSKCC) will give a talk about using Graph Nets for fast prediction of atomic partial charges. The preprint is available on here. Join the seminar via Zoom in real time on Oct 14 at 1 pm (EDT), or watch it later on our YouTube channel.
+ Abstract: Here we show that Graph Nets — a set of update and aggregate functions that operate on molecular topologies and propagate information thereon — are capable of predicting properties of atoms and molecules which would otherwise require expensive Quantum Mechanics (QM) calculations.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Falk Hoffmann: Using NMR relaxation data to improve the dynamics of methyl groups in AMBER and CHARMM force fields (Sep 20, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-hoffman-sep2019/</guid>
+      <description>Falk Hoffmann from Lars Schaefer&amp;rsquo;s group at Ruhr University Bochum, will present his work on improving torsional barriers associated with methyl group rotations in amino acid side-chains in AMBER and CHARMM force fields by using NMR relaxation rates. This study is available as a preprint on ChemrXiv. Join this seminar via Zoom in real time on Sep 20 at 11 am (EDT), or watch it later on our YouTube channel.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chuan Tian: ff19SB - Amino acid specific protein backbone parameters trained against quantum mechanics energies in solution (Sep 12, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</guid>
+      <description>Chuan Tian from the Simmerling lab will visit the Chodera lab at MSKCC and give a talk about the latest Amber force field - ff19SB. Join the seminar via Zoom in real time on Sep 12 at 1 pm (EDT), or watch it later on our YouTube channel.
+**Abstract:** Molecular dynamics (MD) simulations have become increasingly popular in studying the motions and functions of biomolecules. The accuracy of the simulation, however, is highly determined by the classical force field (FF), a set of functions with adjustable parameters to compute the potential energy from atomic positions.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Aug 15, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</guid>
+      <description>Chemical coverage C. Bayly suggested broadly dividing parameters into two categories: 1) chemistry being covered in the first optimization run; 2) everything else. The latter category should also include information about all molecules that were cleaned out from databases used in the first optimization sprint, which was focused on improvement of a selected (sub)set of parameters. This information (data) can be used in the later stages of the force field optimization when chemical coverage will be expanded.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Pankaj R. Daga: Data Curation - The Forgotten Practice in The Era of AI (Sep 13, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-daga-sep2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-daga-sep2019/</guid>
+      <description>Pankaj R. Daga from Simulation-Plus will visit the Mobley group at UC Irvine and give his CADD GRC talk about all the hazards that can appear in trying to automate mining of chemical and chemistry-related databases. You can join the seminar via Zoom in real time on Sep 13 at 11 am (PDT), or watch it later on our YouTube channel.
+**Abstract:** Availability of large databases of chemical structures along with experimental data provides a great opportunity to build predictive and robust QSAR/QSPR models for application in various fields.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Vytautas Gapsys: Benchmarking binding free energy calculations for protein-ligand systems (Aug 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-gapsys-aug2019/</guid>
+      <description>Vytautas Gapsys (de Groot lab) will be hosted by the Mobley lab at UC Irvine, where he will present his work on calculations of relative ligand-protein affinities using Gromacs+pmx approach. His talk will also cover a free energy scan based on the non-equilibrium protocol covering ~500 ligand modifications across 13 protein-ligand systems, and provide a comparison of the obtained results to FEP+ calculations. The talk will be followed by a few slides to start discussion about absolute free energies and equilibrium vs.</description>
+    </item>
+    
+    <item>
+      <title>The Open Force Field Toolkit 0.5.0, adding GBSA support</title>
+      <link>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.5-release/</guid>
+      <description>This release adds support for the GBSA tag in the SMIRNOFF specification. Currently, the HCT, OBC1, and OBC2 models (corresponding to AMBER keywords igb=1, 2, and 5, respectively) are supported, with the OBC2 implementation being the most flexible. Unfortunately, systems produced using these keywords are not yet transferable to other simulation packages via ParmEd, so users are restricted to using OpenMM to simulate systems with GBSA.
+OFFXML files containing GBSA parameter definitions are available, and can be loaded in addition to existing parameter sets, for example, with the command:</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Aug 08, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</guid>
+      <description>Datasets: Still waiting for NIST approval for data release from ThermoML. DIPPR was contacted to explain the terms of use for their data in more details. DIPPR contains pure component data on industrially important chemical compounds.
+PropertyEstimator: PropertyEstimator (PE) and ForceBalance (FB) seem to be working well based on the preliminary tests run by S. Boothroyd, and the infrastructure is ready for the initial LJ fitting. There are some differences in the gradients calculated by PE and FB.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (August 6, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-08-06/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-08-06/</guid>
+      <description>Release-1:: In this meeting, L.-P.Wang and Y. Qiu reported on the results of a newly-implemented workflow which performs a MM minimization of torsion-driven structures before parameter optimization. Y. Qiu showed some results of the fitting with this change. It was generally agreed that this additional step improved the quality of the fitting, and was helpful in almost all cases. It was suggested that L.-P. Wang and Y. Qiu prepare a blog post of this information, but in the interest of time, this was deprioritized until after release-1.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</guid>
+      <description>Today the PropertyEstimator group discussed our progress, moving forward towards our fitting process with ThermoML data and ForceBalance. Decisions about fitting techniques and data have been made, and we are moving on to testing and production.
+Database readiness
+S. Boothroyd has algorithmically selected a basic set from the ThermoML archive with coverage of our selected Lennard Jones parameters. For basic fitting, we are moving forward with this dataset; if time allows we will also include a hand-curated ThermoML dataset provided by Lee-Ping Wang.</description>
+    </item>
+    
+    <item>
+      <title>Jul 17, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-07-17-minutes/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-07-17-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on July 17, 2019. The minutes are summarized below.
+The Advisory Board format was slightly changed on this occasion - the report about the latest development was sent before the meeting to leave more time for questions and discussions. We will test this new format during the next few meetings. Feedback and comments are welcome!
+OpenFF toolkit  Release of the OpenFF Toolkit 0.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (July 23 and 24, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-23/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-23/</guid>
+      <description>This summary describes both the regularly scheduled Torsions meeting on July 23 as well as a followup meeting that was deemed necessary on July 24
+Datasets: Y. Qiu reported on the current status of QM data generation and parameter fitting. Currently, the two major datasets are the “Roche” set, and the “coverage” set. QM calculations on these sets have been scheduled to generate optimized geometries, torsion energy profiles, and hessians for each molecule.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Jul 16, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</guid>
+      <description>Types We will use the same typing tree as smirnoff99Frosst (with some minor adjustments to specific bugs or other problems), but optimize the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters.
+Parameterization We will aim to refit (a subset of) torsions, valence terms, and Lennard-Jones parameters, depending on what is ready in time. In practice, we have decoupled efforts to fit all three that should be straightforward to couple together in our final optimization stage.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 11, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</guid>
+      <description>Dataset sources
+NIST update: Data that was collected and curated in an automated process by NIST could be released as an open dataset, but not the manually curated uncertainties, which is the step that follows automated curation. Additional problem may arise from the fact that data from before 10 years ago simply isn’t present in ThermoML. Until the situation is clear from the legal perspective, it has been decided to move forward using the data from an older release of ThermoML which contained author-assigned uncertainties.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Jul 9, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-09/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-09/</guid>
+      <description>Fragmenter: C. Stern is working making fragmenter more interoperable and more suitable for an automated pipeline. Some of the features include using Omega to identify rotatable bonds and Wiberg bond order computations.
+QC datasets: The &amp;ldquo;Roche set&amp;rdquo; (468 molecules) is almost done in terms of generating QC data for initial round of fitting with ForceBalance. The currently calculated data includes ~820 1-D torsion scans and geometry optimizations, and the next step is computing hessians.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jun 27, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</guid>
+      <description>Property selection: Discussion about which properties and the exact amount of data to be requested from NIST continues. One of the challenges is to find the right balance between the current and future parameterization needs, which includes making decisions about specific properties to be used for the first optimization sprint and specific chemistry that will be covered in this sprint (and maybe in the next one). For the latter, finding a set of molecules (SMILES) that exercise all SMIRNOFF parameters is desirable and J.</description>
+    </item>
+    
+    <item>
+      <title>Towards New Fixed Charge Models</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-07-05-charge-model-update/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-07-05-charge-model-update/</guid>
+      <description>The Open Force Field Initiative continues to explore new partial charge assignment models for both fast parameterization (to allow billion-compound sets to be rapidly parameterized for docking) and a more accurate &amp;ldquo;bespoke&amp;rdquo; parameterization pipeline for torsions and partial charges (intended for use with more accurate but more costly methods, such as free energy calculations).&amp;quot;
+A new version of the Restrained Electrostatic Potential Method (RESP2): RESP2 aims to improve the electrostatic description via point charges, in comparison to the popular existing RESP (here referred to as “RESP1”) and AM1-BCC methods.</description>
+    </item>
+    
+    <item>
+      <title>Aug 2019 Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/aug-2019-meeting-announcement/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/aug-2019-meeting-announcement/</guid>
+      <description>We are hosting the Second Open Force Field Consortium Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners. The event will be again hosted at UCSD campus, but please note that the venue has been relocated from Jacobs Medical Center used in January to the Skaggs School of Pharmacy and Pharmaceutical Sciences building.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Jun 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-06-25/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-06-25/</guid>
+      <description>QC datasets: A new “coverage dataset” has been built in the Mobley lab, which contains 71 molecules and covers relatively large parameter space (only 17 smirnoff99@Frosst parameters missing). This dataset is to be included in the QC data production pipeline, from SMILES to optimization. The single atoms and ions present in the coverage dataset for which bonded terms cannot be computed will be excluded from the pipeline. The best way to construct this pipeline for generating QC data based on this molecular set was discussed during this meeting.</description>
+    </item>
+    
+    <item>
+      <title>Jun 13, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-06-13-minutes/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-06-13-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 13 June, 2019. The minutes are summarized as follows:
+The first optimized force field   The aim is to have the first force field released by Sept 1 and evaluations performed by Oct 1. Specific discussion about it takes place in #release-1 channel on Slack.
+  Types: The same typing tree as smirnoff99Frosst will be used, but the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters will be optimized;</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 28, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</guid>
+      <description>QCFractal: D. Smith announced that version 0.7 is out and update is recommended. Currently, QCPortal doesn’t check the QCFractal versions, so some unexpected errors may occur if users do not upgrade from 0.6. The QCArchive team is also planning to migrate the database from MongoDB to PostgreSQL during this week for some long-term benefits, including speed, smaller size and data integrity. More details about this migration should come in a blog post.</description>
+    </item>
+    
+    <item>
+      <title>Webinar by Chaya Stern: Fragmenting molecules for QC torsion drives (Jun 4, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-stern-may2019/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-stern-may2019/</guid>
+      <description>You can watch this webinar on YouTube and access slides on Zenodo.
+Chaya Stern (Chodera lab) will give a webinar on Jun 4 at 11 am (EDT) under title “Fragmenting molecules for QC torsion drives”, based on her talk presented at the ACS Orlando conference (Mar 31 - Apr 4, 2019). Join the webinar in real time via Zoom link (https://meetmsk.zoom.us/j/987691623) or for those who can’t make it, Chaya’s talk will be recorded and shared on the website.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-05-23-madin/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-05-23-madin/</guid>
+      <description>Today on the #propertycalculator call, we discussed working with NIST and their ThermoML property database to obtain a suitable dataset for parameterizing and benchmarking small molecules.
+ The Open Force Field Initiative is working with NIST in order to make a subset of ThermoML (and associated NIST uncertainties, which are essential for planned Bayesian analysis) publically available. We defined preliminary SQL queries for the chemistries, conditions, and properties that OpenFF is interested in.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Datasets and Benchmarking Update</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-05-16-condicj/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-05-16-condicj/</guid>
+      <description>Dataset A set of 486 small and chemically diverse molecules, provided by Roche, was chosen for the initial scanning of torsions to generate relevant QM datasets for subsequent force field parameterization. This step is also meant to serve as an infrastructure test for each component of the torsion pipeline and to perform a benchmarking study for the most appropriate level of theory to be used in the future calculations of torsion profiles.</description>
+    </item>
+    
+    <item>
+      <title>May 15, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-05-15-minutes/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-05-15-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 15 May, 2019. The minutes are summarized as follows:
+Roadmap  J. Chodera gave an overview of the roadmap for the remaining time of Year 1 and the accomplishments made so far.  Torsions update  The selected set of molecules for initial torsion scanning contains 486 small and chemically diverse molecules provided by Roche (less than 30 heavy atoms)- “Roche set”- more fragments will be added to this set in the future.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</guid>
+      <description>TorsionDrive: Y. Qiu updated TorsionDrive with visualization and more documentation. He is planning to add functionality to TorsionDrive to store gradients, which are currently computed, but not recorded. D. Smith suggested having a schema defined for TorsionDrive jobs for future use, to facilitate using it in larger project infrastructure.
+Torsion/Valence Fitting: There was discussion of when fitting with ForceBalance might start. L.-P. Wang estimated that, provided with our first round of finished QC calculations, ForceBalance might take about a day to run before providing an optimized set of parameters.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (May 02, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-05-02/</guid>
+      <description>Benchmarking protein-ligand free energy: A set of suitable protein-ligand structures that will be used for the initial force field fitting/benchmarking during Year 1 (likely in September) needs to be selected. J. Chodera suggested the D3R Grand Challenge set as a starting point, but it needs to be filtered to remove any structures that might make benchmarking more complicated. For example, the structures with binding sites containing metals or histidines, titratable ligands that might change protonation states upon binding, buried sites, protein dimers, etc.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Apr 30, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-30/</guid>
+      <description>QCFractal: This meeting focused on technical details of how our initial dataset for parameter fitting will be generated. As we prepare for our first major use of the QCFractal distributed computing system, we need to make decisions on the basis set and method that will be used for our geometry optimizations and energy evaluations, as well as several smaller technical issues.
+Since the previous meeting, UCI’s and MSKCC’s HPC resources had been configured and were capable of contributing processing power to QCFracal&amp;rsquo;s OpenFF resource group.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Apr 18, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-04-18/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-04-18/</guid>
+      <description>The majority of this meeting focused on how to store and present the “best practices” for property calculation. A few actionable conclusions came from this meeting:
+ We might call them “selected practices” instead of “best practices”; 8 For the foreseeable future, these documents will live in the openforcefield/propertyestimator repo, alongside the actual code. Each property will have a page with both links to the technical (API) details and theoretical discussion; The Shirts lab will work on example code for reweighting host-guest calculations; S.</description>
+    </item>
+    
+    <item>
+      <title>April 17, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-04-17-minutes/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-04-17-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 17 April 2019. The minutes are summarized as follows:
+ K. Condic-Jurkic to take over future agenda planning with input from D. Kuhn, I. Craig, A. Narayanan Release update by Jeff Wagner:  0.2.1 bugfix release on the 12th after initial 0.2.0 release on 8th  Version numbers indicate API is still in flux, there may be function call changes, etc. in later versions, e.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Apr 16, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-16/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-16/</guid>
+      <description>This meeting generally focused on planning for the first round of parameter optimization.
+OFF Toolkit: J. Wagner presented the initial release of the Open Force Field Toolkit, which includes specific Force Field modification tools that could be used by the Lee-Ping Wang lab / ForceBalance to more robustly handle OFFXML files and workflow integration.
+Torsion Workflow: J. Chodera led a short discussion on the overall shape of the final workflow, and what the interface would be to push molecules through it.</description>
+    </item>
+    
+    <item>
+      <title>The 0.2.0 Toolkit release, now with RDKit support!</title>
+      <link>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.2-release/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openforcefield-toolkit-0.2-release/</guid>
+      <description>We&#39;re excited to announce the public release of the Open Force Field toolkit version 0.2.0! Most notably, this release adds the ability to assign SMIRNOFF parameters and AM1-BCC charges with a completely open-source backend, adding support for the RDKit and AmberTools via a new ToolkitWrapper infrastructure that can be extended in the future to support additional cheminformatics toolkits. The OpenEye Toolkit will continue to be supported, as well as used internally our parameter-fitting pipelines in the short term.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Apr 2, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-02/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-02/</guid>
+      <description>Low meeting attendance due to ACS Orlando meeting. There was an attempt to change the meeting schedule, but no suitable alternative time was found.
+GeomeTRIC: Y. Qiu will be putting out an update to the geomeTRIC conda-forge package.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Mar 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-03-21/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-03-21/</guid>
+      <description>Datasets: S. Boothroyd reported that NIST uncertainty values disappeared after a reformat of the stored data. He has also raised an issue with target uncertainties in the simulations because ThermoML has very low uncertainties and simulations might have to be significantly extended to reach an order of magnitude smaller values. There are several potential ways to address this problem, including running simulations to an absolute uncertainty and analyzing existing entries in ThermoML to understand the range of uncertainties.</description>
+    </item>
+    
+    <item>
+      <title>March 20, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-03-20-minutes/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-03-20-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 20 March, 2019. The minutes are summarized as follows:
+Status Updates  OFFI NIH proposal submitted and available publicly Hiring update:  Karmen Condic-Jurkic starts April 1 as half-time scientific coordinator/project manager Interviews ongoing for bespoke torsion fitting and potentially electrostatics role    Open Force Field Toolkit update  Alpha release slated for April 2 Will contain RDKit backend support in abstracted cheminformatics structure (allowing future support for alternative cheminformatics packages to be easily added)  Supposed to give same results regardless of RDKit or OpenEye (tested with ~2k molecules from eMolecules to have same energies, forces, and force terms) Differences in aromaticity models could result in some differences in corner cases We are adding a “paranoid mode” so we can detect differences between toolkits that arise when building force fields   SDF with standardized tags will be the supported method for importing molecules with custom charges  OpenEye and RDKit on-board with standardized tags for charges   There may have been minor changes to XML forcefield format since the January preview release  Changes are summarized here   OFFI hope is to have weekly/biweekly bugfix or feature releases and conda package updates Partners and users are directed to use the Github issue tracker to report issues or problems  Technical questions  How is Desmond currently used by Partners?</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</guid>
+      <description>QCArchive: C. Stern is working on a more automated workflow for submitting molecules to QCArchive and getting them run with appropriate defaults. Using OpenEye tools and CMILES could be a problem for running things on QCArchive due to licensing. A lot of work has been done on QCArchive and a press release about how QCArchive interfaces with Open Force Field is coming up soon.
+Charges: A charge model API spec is under construction, which should support simple alternatives to AM1 and convert BCC atom types to SMIRKS, among other things.</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Initiative applies for NIH funding</title>
+      <link>https://openforcefield.org/community/news/general/seeking-nih-funding/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/seeking-nih-funding/</guid>
+      <description>The ultimate goal of the Open Force Field Initiative is to produce modern, high-quality tools for building better force fields, and to apply these tools to produce consistently more accurate generations of biomolecular force fields that are incredibly easy to use in a variety of molecular simulation packages.
+Anyone who has tried simulating complex, heterogeneous systems involving small molecules, proteins, lipids, nucleic acids, carbohydrates, post-translational modifications, cofactors, and covalent ligands (or any subset of these!</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</guid>
+      <description>TorsionDrive: Y. Qiu started working on TorsionDrive and was unable to replicate D. Smith&amp;rsquo;s previously reported issue with 120 degree scan intervals. D. Smith confirmed that he was also unable to replicate and he suspects it might have been a version issue.
+QCFractal: Stable version of QCFractal is out and should be installed through pip or conda - always conda install qcportal -c conda-forge. QCPortal might throw an error if an older version of QCFractal is used.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Feb 21, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-02-21/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-02-21/</guid>
+      <description>This call focused on RJMC preliminary results for surrogate models (O. Madin, R. Messerly) and implicit solvation (J. Fass).</description>
+    </item>
+    
+    <item>
+      <title>February 20, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-02-20-minutes/</link>
+      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-02-20-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 20 February, 2019. The minutes are summarized as follows:
+ Next release of toolkit currently being tested and finished Workflow documentation  Next item on to-do list Call for additional desired workflows to be posted in #documentation channel   Industry compound additions to parameterization sets  Starting small – current focus is finding parameters in need of optimization by looking for discrepancies between current forcefields when minimizing structures  Industry partners should identify particularly high priority chemical space for initial parameterization Compounds/fragments to be sent via Slack or GitHub   BI has SureChembl dump and scripts that may be able to be shared.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Feb 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</guid>
+      <description>Atom Order: There can be multiple ways to tag SMILES involving self-symmetry and C. Stern raised the question of how to ensure the same geometry always gets assigned the same atom ordering. D. Smith said that a string comparison is currently possible, where string is contained in a QCEngine job description. J. Chodera thinks that having identical geometries with different atom ordering is highly improbable and should not be a major concern.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Feb 07, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-02-07/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-02-07/</guid>
+      <description>Host-guest calculator: The main topic of discussion was the API design for host-guest calculations. There is a number of decisions that have to be made with respect to input/output requirements, handling different rates of convergence between different systems, how to define and reach targeted uncertainties etc. The current plan envisages the following solutions:
+ PropertyCalculator would run a simulation in a loop and pause at given intervals to check for convergence and return value, associated uncertainties and location of data files, which is necessary for reweighting, but it will be implemented later on; Initial analysis implementation will involve independent simulations instead of an ensemble analysis to meet a target uncertainty (per-window uncertainty); Returning gradients will be an optional argument, probably in the second generation of fitting with reweighting; As a job input, the estimator should receive a ForceField object and a description of the measured chemical mixture and conditions that it will estimate.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Feb 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-05/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-05/</guid>
+      <description>Conformer Generation: C. Stern found that a better way of atom mapping is necessary to keep track of the original map after fragmentation, because sometimes indexed SMILES get re-indexed after fragmentation, which results with the loss of the original map. Occasionally, certain groups that should remain whole end up fragmented.
+Torsions / QM Methods: D. Smith suggested that ANI-1 could be a good, fast solution to evaluate energy. It has been decided, though, that for now ANI-1 and semiempirical methods won’t be used for computing torsion scans.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Jan 31, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-31/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-31/</guid>
+      <description>Property selection: L.-P. Wang suggested using surface tension for parameter fitting, which isn’t a traditional property used in force field parameterization. A discussion ensued about the merits of using surface tension as one of the target properties, and whether precedents in literature exists. L.-P. Wang described some previous work looking at the simulations of a slab of liquid showing moderate agreement with experiment, and highlighted that, according to the study, the results are relatively consistent as long as the film has no holes.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Jan 24, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-24/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2019-01-24/</guid>
+      <description>API: This meeting focused on API design aspects of PropertyCalculator, including how to tackle situations in which multiple properties with different convergence rates are computed from the same simulation. These properties could be reported asynchronously, as they are being computed, or they could only be returned upon successful completion of all property calculations. It has been decided to build the API with a possibility to allow asynchronous reporting in the future, although this feature is not expected to be implemented in the near-term future.</description>
+    </item>
+    
+    <item>
+      <title>January 23, 2019 Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2019-01-23-minutes/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-01-23-minutes/</guid>
+      <description>The Open Force Field Consortium Advisory Board met on 23 Jan 2019. The minutes are summarized as follows:
+RDKit Integration  Key infrastructure seems to be working Currently implementing testing to make sure energies/parameters are same between RDKit and OpenEye toolkit backends Documentation being worked on Limited to SDF file format initially RDKit support being added initially for OpenFF toolkit, not for other packages being used internally for parameter development Bespoke torsion parameterization tool will be able to use RDKit or other wholly open-source backend  Workflows  Workflow documentation / example requests should be posted to #documentation Slack channel Some suggested workflows from agenda and discussion:  Parameterization of protein-ligand system using SMIRNOFF Conformer energy evaluation Minimization of multiple ligands from SDF file (is this with protein, without, both?</description>
+    </item>
+    
+    <item>
+      <title>Infrastructure Update</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-01-22-infrastructure/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-01-22-infrastructure/</guid>
+      <description>Participants Caitlin Bannan (Mobley group), Simon Boothroyd (Chodera group), John Chodera (MSKCC), Hyesu Jang (Wang group), Victoria Lim (Mobley group), Jessica Maat (Mobley group), Owen Madin (Shirts group), David Mobley (UC Irvine), Levi Naden (MolSSI), Jessica Nash (MolSSI), Yudong Qiu (Wang group), Andrea Rizzi (Chodera group), Michael Schauperl (Gilson group), David Slochower (Gilson group), Daniel Smith (MolSSI), Chaya Stern (Chodera group), Jeff Wagner (OpenFF), Lee-Ping Wang (UC Davis)
+Glossary MolSSI Cookiecutter: The MolSSI project cookiecutter for compuational and molecular sciences projects.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Jan 22, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-01-22/</guid>
+      <description>QCArchive/QCFractal: A stable version of QCArchive is coming on Feb 11 and open beta version around Mar 15. The main focus of development are object models instead of using JSON throughout the Python-based ecosystem, and distributed computing testing. It’s possible that QCArchive will move to Parsl for workflow management. Addition of compute resources to QC Archive cloud is expected soon, after some debugging in collaboration with C. Stern and Y. Qiu.</description>
+    </item>
+    
+    <item>
+      <title>January 7-8, 2019 Consortium Workshop</title>
+      <link>https://openforcefield.org/minutes/cab/2019-01-07-minutes/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-01-07-minutes/</guid>
+      <description>Minutes: Attending: All PIs and software scientists; most industry partners, postdocs, and students (including via Zoom); academic and industry community members
+Visit the agenda page for more details of the workshop.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Dec 13, 2018)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-12-13/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-12-13/</guid>
+      <description>A number of decisions will have to be made about the PropertyCalculator framework and it has been decided to create two best practice documents for the purpose of property estimation within the OpenFF effort:
+ The best practice document for calculating properties in general (from a theoretical standpoint); A specific document which contains best practices for computing properties using OFF tools and force fields, i.e. a specific implementation of the practices described in the document 1.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Nov 29, 2018)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-11-29/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-11-29/</guid>
+      <description>Property Calculator: This call focused on the Property Calculator Framework and outlining some basic design concepts and use cases. The shortest term application is benchmarking for force field parameters. Certain design aspects need further discussion, but the initial rough kernel for setting up simulations at chosen properties/parameters should contain simplistic building blocks: smiles → smirnoff parameters → energy minimization → simulation. MBAR/surrogate model levels are yet to be defined, including model specification options.</description>
+    </item>
+    
+    <item>
+      <title>October 29, 2018 Joint Governing/Advisory Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2018-10-29-minutes/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2018-10-29-minutes/</guid>
+      <description>Minutes Attending: All PIs, both governing board members, and most advisory board members, via Zoom.
+Short-term roadmap/minimum viable product: In general folks are supportive of current effort plans. However, there was consensus we need a tool for bespoke parameterization of molecules, especially internal molecules which might not be able to be disclosed to the larger effort, as part of our minimum viable product.
+Funding/financials:  Currently we have eight partners on board (with openforcefield.</description>
+    </item>
+    
+    <item>
+      <title>Torsion subgroup update</title>
+      <link>https://openforcefield.org/community/news/science-updates/2018-10-16-torsions/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2018-10-16-torsions/</guid>
+      <description>Participants John Chodera (MSKCC), Jessica Maat (Mobley group), David Mobley (UC Irvine), Levi Naden (MolSSI), Jessica Nash (MolSSI), Yudong Qiu (Wang group), Daniel Smith (MolSSI), Chaya Stern (Chodera group), Jeff Wagner (OpenFF), Lee-Ping Wang (UC Davis)
+Glossary geomeTRIC: Geometry optimization software package, Wang lab
+fragmenter: Fragment molecules for QM torsion scans, Chodera lab. Provides input to torsiondrive and QCFractal.
+torsiondrive: Manages geometry optimization calculations for torsion scan, Wang lab. Uses geomeTRIC to carry out optimizations.</description>
+    </item>
+    
+    <item>
+      <title>Property Calculator Meeting Summary (Oct 11, 2018)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-10-11/</link>
+      <pubDate>Thu, 11 Oct 2018 01:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertycalculator-meeting-2018-10-11/</guid>
+      <description>Surrogate models/RJMC: O. Madin and R. Messerly presented reversible-jump Monte Carlo (RJMC) performance study focused on L-J parameter space and compared it with numerical integration of probability regions in an analytical surrogate model. These preliminary results show that the two methods are in qualitative agreement, but quantitative discrepancies are suspected to arise due to grid spacing in numerical integration or scaling maps. The main goal of this exercise was to validate RJMC sampling coverage.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Open Force Field Science Updates</title>
+      <link>https://openforcefield.org/community/news/science-updates/2018-10-11-chodera/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2018-10-11-chodera/</guid>
+      <description>We&amp;rsquo;re excited to introduce Open Force Field Science Updates, a lightweight science blog series in which researchers working with the Open Force Field Initiative will post about their research and engineering directions and scientific progress on various aspects of the Initiative. To start with, researchers will post roughly once every two weeks around the time of subgroup project meetings, with posts tagged by the subgroup activity. These posts will often include figures, like these from our ThermoML Archive benchmark paper:</description>
+    </item>
+    
+    <item>
+      <title>October 11, 2018 Governing Board Meeting</title>
+      <link>https://openforcefield.org/minutes/cab/2018-10-11-minutes/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2018-10-11-minutes/</guid>
+      <description>Agenda:  October meeting draft agenda and start time January meeting location Maat hiring Slack Funding processing update/onboarding update Involvement with science meetings (subprojects) and project planning Discuss blog posts? Yes, just get sub-groups to do brief updates after meetings; better for keeping people up to date.  Minutes: Attending: All PIs except Shirts, and both industry members, Thomas Fox and Katharina Meier
+Shared the detailed budget outline Google Doc and went over the personnel who would be involved and their distribution across different locations, fellowship amounts, etc.</description>
+    </item>
+    
+    <item>
+      <title>Jan 2019 Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/jan-2019-meeting-agenda/</guid>
+      <description>We hosted the first Open Force Field Consortium Workshop in La Jolla, CA on January 7-8, 2019. The meeting was open to Consortium members and collaborators, and parts of the meeting were recorded for posting online. In addition, slides discussing current Consortium research and future plans are given below.
+Details at a glance  Date: January 7-8, 2018 Location: Jacobs Medical Center, UC San Diego, La Jolla, CA, Rooms 2 and 3 Local contact: Mike Gilson &amp;lt;mgilson@ucsd.</description>
+    </item>
+    
+    <item>
+      <title>Webinar on the SMIRNOFF format and learned chemical perception Oct. 10</title>
+      <link>https://openforcefield.org/community/news/general/bioexcel_webinar/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/bioexcel_webinar/</guid>
+      <description>Check out a webinar on the Initiative this Oct. 10 from BioExcel! MolSSI fellow Caitlin Bannan will talk about the Initiative&amp;rsquo;s overall goals and her work on learned chemical perception. Register through BioExcel, or if you can&amp;rsquo;t make it, video should be available afterwards.
+Bannan&amp;rsquo;s Abstract: The Open Force Field Initiative is developing a machinery to automatically parameterize molecular mechanics force fields. An important part of this process will be automating chemical perception — the way force field parameters are assigned to a molecule based on chemical environment.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the Open Force Field Consortium</title>
+      <link>https://openforcefield.org/community/news/general/introducing-the-consortium/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/introducing-the-consortium/</guid>
+      <description>We’re excited to announce the launch of the Open Force Field Consortium, an academic-industry collaboration designed to improve small molecule force fields used to guide pharmaceutical drug discovery. The Open Force Field Initiative is what we are calling our overall research effort, whereas the Open Force Field Consortium refers specifically to the academic-industry collaboration.
+Modeling tools based on force fields assist development of therapies for diseases such as cancer and neurodegenerative disease throughout academia and industry.</description>
+    </item>
+    
+    <item>
+      <title>Support for open source cheminformatics toolkits is coming!</title>
+      <link>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/rdkit-support-is-coming/</guid>
+      <description>We&#39;ve been hard at work with a large-scale infrastructure overhaul of our main openforcefield toolkit following the Open Force Field Toolkit 0.1.0 prerelease, which provided an initial reference implementation of the SMIRNOFF 0.1 specification for direct chemical perception. Many thanks to all the users who provided helpful feedback in how we could improve overall usability!
+While we expect the updated toolkit to be released very soon, we wanted to provide a summary of the coming changes to give you an idea of what we&#39;ve been up to:</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Open Force Field Initiative</title>
+      <link>https://openforcefield.org/community/news/general/introducing-the-initiative/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/introducing-the-initiative/</guid>
+      <description>Molecular modeling is widely used in diverse pharmaceutical discovery applications, but its utility and predictive power is limited by the accuracy of the underlying molecular mechanics force field used to compute the energetics of biomolecular systems. The Open Force Field Initiative is an open effort to build iteratively more accurate force fields to improve predictive design, along with the necessary infrastructure to make these force fields easier to build and use, and to provide a modern platform for powering force field science.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://openforcefield.org/about/careers/external/none/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/about/careers/external/none/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://openforcefield.org/footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/footer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

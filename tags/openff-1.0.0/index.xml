@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenFF-1.0.0 on OpenFF</title>
+    <link>https://openforcefield.org/tags/openff-1.0.0/</link>
+    <description>Recent content in OpenFF-1.0.0 on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/openff-1.0.0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Open Force Field 1.0 small molecule force field, our first optimized force field (codename &#34;Parsley&#34;)</title>
+      <link>https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/introducing-openforcefield-1.0/</guid>
+      <description>We’re delighted to announce the release of &amp;quot;Parsley&amp;quot;, the Open Force Field 1.0 small molecule force field---the first in a series of iteratively-improved small molecule force fields for biomolecular simulation funded in part by the Open Force Field Consortium. This is the first optimized force field to use the SMIRNOFF force field specification for atom type-free direct chemical perception, and provides substantially improved valence (bond, angle, and torsion) parameters relative to its predecessor, the AMBER-lineage SMIRNOFF99Frosst.</description>
+    </item>
+    
+  </channel>
+</rss>
