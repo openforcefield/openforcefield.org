@@ -19,7 +19,7 @@ We are very pleased to welcome the following new members:
  * [Lorenzo D'Amore](http://linkedin.com/in/ldamore) joined in March as a dedicated OpenFF postdoc with Janssen to continue David Hahn's work on protein-ligand benchmarking;
  * [Iván Pulido-Sanchez](http://github.com/ijpulidos) joined in April as a software scientist to assist with biopolymer infrastructure for 3 months;
  * [Andrew Dalke](https://www.linkedin.com/in/dalke) joined in May as an independent consultant to assist with cheminformatics topics.
- * [Chapin Cavender](https://www.linkedin.com/in/chapin-cavender) joined in May as a postodoctoral fellow in the Gilson lab to work on biopolymer force fields.
+ * [Chapin Cavender](https://www.linkedin.com/in/chapin-cavender) joined in June as a postodoctoral fellow in the Gilson lab to work on biopolymer force fields.
 
 We are also incredibly grateful to:
 
