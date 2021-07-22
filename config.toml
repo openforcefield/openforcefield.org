@@ -2,6 +2,9 @@ baseURL = "https://openforcefield.org/"
 languageCode = "en-us"
 title = "OpenFF"
 theme = "openff"
+
+enableEmoji = true
+
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]

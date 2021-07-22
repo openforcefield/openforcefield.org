@@ -1,0 +1,35 @@
+name: openff-build-a-ff
+
+channels:
+  - conda-forge
+  - psi4/label/dev
+  - defaults
+
+dependencies:
+
+  - python
+  - pip
+
+  # Common dependencies / utilities
+  - openff-toolkit
+  - openff-qcsubmit
+  - rdkit
+  - tqdm
+  - jupyter
+
+  # Local QC data generation
+  - qcfractal >=0.15.6
+  - torsiondrive
+  - geometric
+  - psi4
+  - basis_set_exchange
+
+  # Remote QC data retrieval
+  - qcportal
+
+  # Force field optimizer
+  - forcebalance
+  - chemper
+
+  - pip:
+      - git+git://github.com/openforcefield/bespoke-fit.git@master
