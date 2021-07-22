@@ -12,8 +12,6 @@ thumb: "2021-07-01-boothroyd-blog-post.png"
 author: "Simon Boothroyd"
 ---
 
-# Do you want to train a force field?
-
 Within Open Force Field (as the name might suggest) a lot of time and effort is spent exploring exactly how should
 force fields be trained - what data should be fit to? how should that data influence the optimization e.g. L1, L2? what
 classical functional forms should be used for the force field interactions? or should everything just be machine learned
