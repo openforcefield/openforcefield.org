@@ -49,14 +49,14 @@ It will be structured into several parts:
 ### Following along
 
 If you would like to follow along with the steps that I will be showing here I recommend first creating a new [conda
-environment](data/do-you-want-to-train-a-force-field.yml) with all of the neccessary dependencies:
+environment](https://gist.github.com/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-environment-yml) with all of the neccessary dependencies:
 
 ```python
 !conda env create --name build-a-force-field --file do-you-want-to-train-a-force-field.yml
 !conda activate build-a-force-field
 ```
 
-A completed Jupyter notebook [can be found here](data/do-you-want-to-train-a-force-field.ipynb). 
+A completed Jupyter notebook [can be found on MyBinder](https://mybinder.org/v2/gist/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-how-to-build-a-force-field-ipynb/HEAD?filepath=how-to-build-a-force-field.ipynb). 
 
 ## Generating a QC torsion drive training set
 
