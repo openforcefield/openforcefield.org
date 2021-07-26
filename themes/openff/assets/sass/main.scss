@@ -129,6 +129,28 @@ main {
       }
     }
   }
+  article {
+    h2 {
+      padding-top: 1rem;
+      padding-bottom: 0.5rem;
+    }
+    h3, h4 {
+      padding-top: 0.6rem;
+      padding-bottom: 0.3rem;
+    }
+    p {
+      line-height: 2.0;
+    }
+
+    ul li p {
+      transform: translateY(-0.1em);
+      line-height: 1.7;
+    }
+
+    blockquote {
+      text-align: center;
+    }
+  }
   img {
     max-width: 100%;
   }
