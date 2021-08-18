@@ -9,14 +9,34 @@ class: small-images
 
 The files available for [download](https://github.com/openforcefield/openforcefields/releases) are in SMIRKS Native Open Force Field (SMIRNOFF) format. Details about this new format are documented in our recent [publication](https://www.doi.org/10.1021/acs.jctc.8b00640) (or [preprint](https://doi.org/10.1101/286542)), and the most recent specification can be found in the [Open Force Field Toolkit documentation](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html). You can parameterize small molecules with SMIRNOFF using the ForceField class in the [Open Force Field toolkit](https://github.com/openforcefield/openforcefield) for simulations with [OpenMM](http://openmm.org/). The resulting system can also be converted to several other simulation formats using [ParmEd](http://parmed.github.io/ParmEd/html/index.html). Usage examples can be found in our [GitHub repository](https://github.com/openforcefield/openforcefield/tree/master/examples).
 
+All currently available versions are listed below. Each force field is currently available in two forms - with and without bond constraints to hydrogen. The default version of each force field is suitable for typical molecular dynamics simulations with constrained bonds to hydrogen. The unconstrained version of each force field should be used when single-point energies are a major concern (e.g. geometry optimizations) and when comparing the force field to QM data.
+
+{{< br >}}
+## Sage ##
+![Sage](img/sage.jpg)
+### Versioning: openff-2.y.z ###
+
+_Sage_ (OpenFF-2.y.z) is the codename for the second generation of optimized small molecule force fields from the Open Force Field Initiative. Sage contains a refit of the Lennard-Jones parameters from the AMBER-lineage _smirnoff99Frosst_ to physical property datasets, in addition to a refit of valence parameters from Parsley 1.3.0.
+
+{{< br >}}{{< br >}}
+### openff-2.0.0 ###
+
+#### Release date: August 16, 2021
+
+This is the first release of the Sage line of force fields. Full details of the Sage fitting are available in the releases section of the [openff-sage GitHub repository](https://github.com/openforcefield/openff-sage/releases/)
+
+{{<button href="https://github.com/openforcefield/openff-forcefields/releases/tag/2.0.0" text="GitHub" >}}
+{{<button href="https://zenodo.org/record/5214478" text="DOI" >}}
+{{< br >}}{{< br >}}
+
+
 {{< br >}}
 ## Parsley ##
 ![Parsley](img/parsley.jpg)
 ### Versioning: openff-1.y.z ###
 
-_Parsley_ (OpenFF-1.y.z) is the codename for the first generation of optimized small molecule force fields from the Open Force Field Initiative. Parsley force fields represent a refit of the AMBER-lineage _smirnoff99Frosst_ to large sets of quantum chemical data, and assign parameters using direct chemical perception, using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) specification. Read more about the most important aspects of fitting and benchmarking procedures for Parsley in the [blog post](/community/news/general/introducing-openforcefield-1.0/). See more information about naming and semantic versioning [here](/force-fields/versioning/).
+_Parsley_ (OpenFF-1.y.z) is the codename for the first generation of optimized small molecule force fields from the Open Force Field Initiative. Parsley force fields represent a refit of the valence terms (bonds, angles, and torsions) from the AMBER-lineage _smirnoff99Frosst_ to large sets of quantum chemical data, and assign parameters using direct chemical perception, using the [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/latest/smirnoff.html) specification. Read more about the most important aspects of fitting and benchmarking procedures for Parsley in the [blog post](/community/news/general/introducing-openforcefield-1.0/). See more information about naming and semantic versioning [here](/force-fields/versioning/).
 
-All currently available versions are listed below. Each force field is currently available in two forms - with and without bond constraints to hydrogen. The default version of each force field is suitable for typical molecular dynamics simulations with constrained bonds to hydrogen. The unconstrained version of each force field should be used when single-point energies are a major concern (e.g. geometry optimizations) and when comparing the force field to QM data.
 {{< br >}}{{< br >}}
 ### openff-1.3.1 ###
 
@@ -26,7 +46,7 @@ This release is a bugfix for openff-1.3.0 that corrects an issue with the tetrah
 
 Full details are available in the [GitHub release notes](https://github.com/openforcefield/openff-forcefields/releases/tag/1.3.1-alpha.1)
 
-{{<button href="https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.3.1" text="GitHub" >}}
+{{<button href="https://github.com/openforcefield/openff-forcefields/releases/tag/1.3.1" text="GitHub" >}}
 {{<button href="https://zenodo.org/record/5009058" text="DOI" >}}
 {{< br >}}{{< br >}}
 
