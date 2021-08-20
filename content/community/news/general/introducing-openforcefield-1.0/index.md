@@ -9,7 +9,7 @@ description: 'At the end of our first year, the Open Force Field Consortium rele
 weight: 10
 author: "David Mobley, Yudong Qiu, Simon Boothroyd, Lee-Ping Wang, and John Chodera"
 markup: mmark # mmark is necessary for LaTeX to work properly
-thumb: "Peileppe_parsley.svg"
+thumb: "noun_parsley.svg"
 ---
 
 <!-- Parsley CC0 image from https://www.maxpixel.net/Leaf-Plant-Parsley-Common-Aromatic-Parsley-Leaves-3327372 -->
