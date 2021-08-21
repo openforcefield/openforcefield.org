@@ -1,7 +1,7 @@
 ---
 title: Versioning
 ---
-[Semantic versioning](https://semver.org/) of force fields follows MAJOR(x).MINOR(y).PATCH scheme and new versions will be released as openff-x.y.z:
+[Semantic versioning](https://semver.org/) of force fields follows MAJOR(x).MINOR(y).PATCH scheme and new versions will be released as OpenFF x.y.z:
 
 **x** : functional form change and/or major scientific update
 
