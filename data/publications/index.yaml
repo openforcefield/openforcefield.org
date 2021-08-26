@@ -2,13 +2,23 @@
   authors: "Simon Boothroyd, Lee-Ping Wang, David Mobley, John Chodera, and Michael Shirts"
   summary: "Parameterization and assessment of force fields against high-quality, condensed phase physical property data is an integral aspect of force field development. Here we present an entirely automated, highly scalable framework for evaluating physical properties and their gradients in terms of force field parameters. It is written as a modular and extensible Python framework, which employs an intelligent multiscale estimation approach that allows for the automated estimation of properties from simulation and cached simulation data, and a pluggable API for estimation of new properties. In this study we demonstrate the utility of the framework by benchmarking the OpenFF 1.0.0 small molecule force field, GAFF 1.8 and GAFF 2.1 force fields against a test set of binary density and enthalpy of mixing measurements curated using the frameworks utilities. Further, we demonstrate the framework's utility as part of force field optimization by using it alongside ForceBalance, a framework for systematic force field optimization, to retrain a set of non-bonded van der Waals parameters against a training set of density and enthalpy of vaporization measurements."
   img: evaluator-preprint.png
-  date: 2020-10-14
+  date: 2021-08-21
   preprint:
     server: chemRxiv
     url: https://doi.org/10.33774/chemrxiv-2021-jz3zq
     license: "CC BY 4.0"
     date: 2021-08-06
   code: openforcefield/openff-evaluator
+- title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks"
+  authors: "David F. Hahn, Christopher I. Bayly, Hannah E. Bruce Macdonald, John D. Chodera, Antonia S. J. S. Mey, David L. Mobley, Laura Perez Benito, Christina E.M. Schindler, Gary Tresadern, Gregory L. Warren"
+  summary: "As new methods, force fields, and implementations are developed, assessing the expected accuracy of free energy calculations on real-world systems (benchmarking) becomes critical to provide users with an assessment of the accuracy expected when these methods are applied within their domain of applicability, and developers with a way to assess the expected impact of new methodologies. Here, we present guidelines for (1) curating experimental data to develop meaningful benchmark sets, (2) preparing benchmark inputs according to best practices to facilitate widespread adoption, and (3) analysis of the resulting predictions to enable statistically meaningful comparisons among methods and force fields."
+  img: BFE-best-practices.png
+  date: 2021-05-21
+  preprint:
+    server: arXiv
+    url: https://arxiv.org/abs/2105.06222
+    date: 2021-05-13
+  code: openforcefield/FE-Benchmarks-Best-Practices
 - title: "Development and Benchmarking of Open Force Field v1.0.0, the Parsley Small Molecule Force Field"
   authors: "Yudong Qiu, Daniel Smith, Simon Boothroyd, Hyesu Jang, Jeffrey Wagner, Caitlin C. Bannan, Trevor Gokey, Victoria T. Lim, Chaya Stern, Andrea Rizzi, Xavier Lucas, Bryon Tjanaka, Michael R. Shirts, Michael Gilson, John Chodera, Christopher I. Bayly, David Mobley, Lee-Ping Wang"
   summary: "We describe the structure and optimization of the Open Force Field 1.0.0 small molecule force field, code-named Parsley. Parsley uses the SMIRKS-native Open Force Field (SMIRNOFF) parameter assignment formalism in which parameter types are assigned directly by chemical perception, in contrast to traditional atom type-based approaches. This method provides a natural means to incorporate increasingly diverse chemistry without needlessly increasing force field complexity. In this work, we present essentially a full optimization of the valence parameters in the force field. The optimization was carried out with the ForceBalance tool and was informed by reference quantum chemical data that include torsion potential energy profiles, optimized gas-phase structures, and vibrational frequencies. These data were computed and are maintained with QCArchive, an open-source and freely available distributed computing and database software ecosystem. Tests of the resulting force field against compounds and data types outside the training set show improvements in optimized geometries and conformational energetics and demonstrate that Parsley's accuracy for liquid properties is similar to that of other general force fields."
