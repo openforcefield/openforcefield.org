@@ -24,7 +24,7 @@ Sage (OpenFF 2.y.z) is the codename for the second generation of the small molec
 
 OpenFF 2.0.0 was created using a multi-stage optimization starting from the [OpenFF 1.3.0](https://github.com/openforcefield/openff-forcefields/releases/tag/1.3.0) force field:
 
-* A select set of the vdW parameters were trained against a set of experimental binary mass density and enthalpy of mixing measurements sourced from the NIST ThermoML archive.
+* A select set of the vdW parameters were trained against a set of experimental mass density and enthalpy of mixing measurements sourced from the NIST ThermoML archive.
 * A select set of the bond length, bond force constant, equilibrium angle, angle force constant and torsion barrier height parameters were trained against a set of QC computed optimized geometries and torsion profiles, whereby the output force field of the first step  was used as the starting point.
 
 Find more details in the [release notes](https://github.com/openforcefield/openff-sage/releases/tag/2.0.0-rc.1), including how to re-run optimization and datasets used in training stored in [openff-sage](https://github.com/openforcefield/openff-sage) repo.
