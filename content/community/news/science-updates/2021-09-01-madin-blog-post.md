@@ -1,6 +1,6 @@
 ---
 date: "2021-09-03T00:00:00+00:00"
-title: 'Surrogate-enabled Bayesian sampling of force field parameters (September 03, 2021)'
+title: 'Surrogate-enabled Bayesian sampling of force field parameters'
 tags: ["force field", "infrastructure"]
 categories: ["science"]
 draft: true 
