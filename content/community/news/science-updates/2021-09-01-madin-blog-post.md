@@ -1,6 +1,6 @@
 ---
 date: "2021-09-03T00:00:00+00:00"
-title: 'Surrogate-enabled sampling Bayesian sampling of force field parameters (September 01, 2021)'
+title: 'Surrogate-enabled Bayesian sampling of force field parameters (September 01, 2021)'
 tags: ["force field", "infrastructure"]
 categories: ["science"]
 draft: true
@@ -316,13 +316,13 @@ likelihood.eval()
 Now, our model is ready to go! To get a sense for the quality of our surrogates, I've plotted the surrogate values over
 the range 75-125% of the original parameter values:
 
-![Surrogate Values](2021-09-01-madin-blog-post-values.png "GP Surrogate surface")
+![Surrogate Values](bayesian-surrogate-modeling-2021-09-03/2021-09-01-madin-blog-post-values.png "GP Surrogate surface")
 
 As we can see, the model we've built is a relatively smooth surface of the parameters of interest. To get an idea of the
 quality of the surrogate models, we can plot the surrogate model, with the points used for training superimposed over
 the uncertainty surface:
 
-![Surrogate Uncertainties](2021-09-01-madin-blog-post-uncertainties.png "GP Surrogate surface")
+![Surrogate Uncertainties](bayesian-surrogate-modeling-2021-09-03/2021-09-01-madin-blog-post-uncertainties.png "GP Surrogate surface")
 
 We see that in the region we sampled, the uncertainty of the model is quite low, and this is a high-quality surrogate.
 We also note that the quality of the model degrades as we move away from the sampled regions, particularly
@@ -342,7 +342,7 @@ Our posterior distribution is composed of a prior and likelihood function:
 - Likelihood: Gaussian distribution for each simulated data point (only one in this case), centered at the experimental
   value, and with variance equal to the sum of the surrogate and experimental variances.
 
-![Posterior distribution](2021-09-01-madin-blog-post-posterior.png "Posterior Distribution")
+![Posterior distribution](bayesian-surrogate-modeling-2021-09-03/2021-09-01-madin-blog-post-posterior.png "Posterior Distribution")
 
 In this equation, the vector of parameter is represented by theta, densities are represented by rho, and N(x,mu,sigma^2)
 represented a normal PDF with mean **mu** and variance **sigma^2**.
@@ -414,7 +414,7 @@ Number of divergences: 159
 
 Plotting the traces, we can visualize the parameter posterior distributions:
 
-![Posterior distribution plot](2021-09-01-madin-blog-post-trace.png "Trace of the Posterior Distribution")
+![Posterior distribution plot](bayesian-surrogate-modeling-2021-09-03/2021-09-01-madin-blog-post-trace.png "Trace of the Posterior Distribution")
 
 This gives us insight into the best values of these parameters for this data set (a single point in this case), and
 gives us an idea of the parameter landscape.
