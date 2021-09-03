@@ -1,9 +1,9 @@
 ---
 date: "2021-09-03T00:00:00+00:00"
-title: 'Surrogate-enabled Bayesian sampling of force field parameters (September 01, 2021)'
+title: 'Surrogate-enabled Bayesian sampling of force field parameters (September 03, 2021)'
 tags: ["force field", "infrastructure"]
 categories: ["science"]
-draft: true
+draft: true 
 description: 'Building and sampling surrogate models of physical properties in the OpenFF workflow' 
 slug: 'bayesian-surrogate-modeling-2021-09-03' 
 weight: 10 
@@ -12,15 +12,15 @@ thumb: "2021-09-01-madin-blog-post-trace.png"
 author: "Owen Madin"
 ---
 In the Open Force Field Initiative, we are always looking for novel ways to advance force field parameterization.
-Working on the parameterization of Lennard-Jones models, one of my areas of interest is using Bayesian inference to
+Working on the parameterization of Lennard-Jones models, one strategy I am exploring is using Bayesian inference to
 explore parameter landscapes with respect to physical parameters. This is a lot to parse in one sentence, so let's break
 it down!
 
 ## Lennard-Jones parameterization relies on physical properties
 
 Since the earliest days of force field science, LJ parameters have been fitted against physical property datasets (
-typically liquid densities and heats of vaporization). This is an important step of parameterization because it
-introduces macroscopic constraints that complement microscopic QM constraints.
+typically liquid densities and heats of vaporization). This is an important step of parameterization because it fits the
+critical LJ parameters and introduces macroscopic constraints that complement microscopic QM constraints.
 
 The disadvantage of using physical property measurements in parameterization is that they are generally slow to
 evaluate, because computing a physical property with a force field requires you to run an equilibrium simulation with
@@ -54,18 +54,21 @@ principle is the same here!
 
 In the rest of this post, we'll demonstrate:
 
-1. Using the [OpenFF evaluator](https://openff-evaluator.readthedocs.io/en/stable/), automatically simulating and collating physical property measurements from simulation at
-   a variety of parameter sets.
-2. Using [GPytorch](https://gpytorch.ai/), building a surrogate model based off the outputs and uncertainties of these simulated measurements.
-3. Using the [Pyro](https://pyro.ai/) probabilistic programming language to model a Bayesian posterior distribution, and then sampling from
-   this distribution using the NUTS MCMC sampler to get the parameter landscape.
+1. Using the [OpenFF evaluator](https://openff-evaluator.readthedocs.io/en/stable/), automatically simulating and
+   collating physical property measurements from simulation at a variety of parameter sets.
+2. Using [GPytorch](https://gpytorch.ai/), building a surrogate model based off the outputs and uncertainties of these
+   simulated measurements.
+3. Using the [Pyro](https://pyro.ai/) probabilistic programming language to model a Bayesian posterior distribution, and
+   then sampling from this distribution using the NUTS MCMC sampler to get the parameter landscape.
 
 For the purpose of this demonstration, we'll focus on a simple example (easy to visualize!): building a surrogate model
 for the density of a 50/50 mixture of pentane and hexane  (at STP), as a function of the epsilon and rmin_half of the
 tetravalent carbon parameter `[#6X4:1]`.
 
 {{< note >}} The Open Force Field infrastructure is currently rapidly evolving and so parts of this blog post may become
-out of date as time progresses. This blog post also omits some of the implementation details for brevity, the code this is adapted from (still under heavy development) is available [here](https://github.com/ocmadin/LJ_surrogates) {{< /note >}}
+out of date as time progresses. This blog post also omits some of the implementation details for brevity, the code this
+is adapted from (still under heavy development) is available [here](https://github.com/ocmadin/LJ_surrogates) {{<
+/note >}}
 
 ### Simulating the density with respect to parameters
 
@@ -133,7 +136,8 @@ corresponds to each of the parameter sets to that server. First we define a func
 server:
 
 {{< note >}} The following code is an example and OpenFF evaluator setup will vary based on the computational resources
-available. Check [here](https://openff-evaluator.readthedocs.io/en/stable/tutorials/tutorial02.html) for a documented example {{< /note >}}
+available. Check [here](https://openff-evaluator.readthedocs.io/en/stable/tutorials/tutorial02.html) for a documented
+example {{< /note >}}
 
 ```python
 from openff.evaluator.properties import Density, EnthalpyOfMixing
@@ -316,13 +320,13 @@ likelihood.eval()
 Now, our model is ready to go! To get a sense for the quality of our surrogates, I've plotted the surrogate values over
 the range 75-125% of the original parameter values:
 
-![Surrogate Values](bayesian-surrogate-modeling-2021-09-03/2021-09-01-madin-blog-post-values.png "GP Surrogate surface")
+![Surrogate Values](2021-09-01-madin-blog-post-values.png "GP Surrogate surface")
 
 As we can see, the model we've built is a relatively smooth surface of the parameters of interest. To get an idea of the
 quality of the surrogate models, we can plot the surrogate model, with the points used for training superimposed over
 the uncertainty surface:
 
-![Surrogate Uncertainties](bayesian-surrogate-modeling-2021-09-03/2021-09-01-madin-blog-post-uncertainties.png "GP Surrogate surface")
+![Surrogate Uncertainties](2021-09-01-madin-blog-post-uncertainties.png "GP Surrogate surface")
 
 We see that in the region we sampled, the uncertainty of the model is quite low, and this is a high-quality surrogate.
 We also note that the quality of the model degrades as we move away from the sampled regions, particularly
@@ -342,7 +346,7 @@ Our posterior distribution is composed of a prior and likelihood function:
 - Likelihood: Gaussian distribution for each simulated data point (only one in this case), centered at the experimental
   value, and with variance equal to the sum of the surrogate and experimental variances.
 
-![Posterior distribution](bayesian-surrogate-modeling-2021-09-03/2021-09-01-madin-blog-post-posterior.png "Posterior Distribution")
+![Posterior distribution](2021-09-01-madin-blog-post-posterior.png "Posterior Distribution")
 
 In this equation, the vector of parameter is represented by theta, densities are represented by rho, and N(x,mu,sigma^2)
 represented a normal PDF with mean **mu** and variance **sigma^2**.
@@ -414,7 +418,7 @@ Number of divergences: 159
 
 Plotting the traces, we can visualize the parameter posterior distributions:
 
-![Posterior distribution plot](bayesian-surrogate-modeling-2021-09-03/2021-09-01-madin-blog-post-trace.png "Trace of the Posterior Distribution")
+![Posterior distribution plot](2021-09-01-madin-blog-post-trace.png "Trace of the Posterior Distribution")
 
 This gives us insight into the best values of these parameters for this data set (a single point in this case), and
 gives us an idea of the parameter landscape.
