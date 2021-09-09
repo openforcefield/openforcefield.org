@@ -4,8 +4,7 @@ title: 'Surrogate-enabled Bayesian sampling of force field parameters'
 tags: ["force field", "infrastructure"]
 categories: ["science"]
 draft: true 
-description: 'Building and sampling surrogate models of physical properties in the OpenFF workflow' 
-slug: 'bayesian-surrogate-modeling-2021-09-03' 
+description: 'Building and sampling surrogate models of physical properties in the OpenFF workflow'
 weight: 10 
 markup: markdown 
 thumb: "2021-09-01-madin-blog-post-trace.png"
@@ -13,7 +12,7 @@ author: "Owen Madin"
 ---
 In the Open Force Field Initiative, we are always looking for novel ways to advance force field parameterization.
 Working on the parameterization of Lennard-Jones models, one strategy I am exploring is using Bayesian inference to
-explore parameter landscapes with respect to physical parameters. This is a lot to parse in one sentence, so let's break
+explore parameter landscapes with respect to physical properties. This is a lot to parse in one sentence, so let's break
 it down!
 
 ## Lennard-Jones parameterization relies on physical properties
@@ -29,13 +28,12 @@ to computational constraints.
 
 ## Bayesian posterior sampling is a promising method of exploring parameter space
 
-Bayesian inference is a paradigm for evaluating parameter sets that naturally incorporates *prior* information and a *
-likelihood* derived from experimental data into a *posterior* distribution, which can be used as a metric for fitness.
+Bayesian inference is a paradigm for evaluating parameter sets that naturally incorporates *prior* information and a *likelihood* derived from experimental data into a *posterior* distribution, which can be used as a metric for fitness.
 Bayesian inference is of interest to us because of a) the way that it parsimoniously incorporates previous model
 knowledge, and b) because understanding the whole parameter distribution can find parameter sets that escape local
 minima.
 
-The catch, however, is that evaluating a Bayesian parameter distribution generally requires Monte Carlo simulation, and
+The catch, however, is that evaluating a Bayesian posterior distribution generally requires Monte Carlo simulation, and
 is even more computationally expensive then most optimization schemes. So if we want to do Bayesian exploration of a
 parameter probability distribution, we need a way to speed things up significantly. For us, this means we need a much
 faster way of taking LJ parameter inputs (sigma/rmin_half, epsilon) and getting physical property outputs (densities,
@@ -46,8 +44,8 @@ enthalpies) very quickly.
 Fortunately, the physical properties we are interested in are relatively smooth functions of the LJ parameters in our
 regions of interest, and can be approximated with simpler *surrogate models* with limited losses of fidelity. For our
 surrogate models, we can use Gaussian Processes, which are simple surrogates that excel at making predictions (with
-uncertainty) from a limited number of observations. The technique originated in geostatistics, where it was desirable to
-understand mineral content over a wide area of space, but it was only feasible to take a limited number of samples. The
+uncertainty) from a limited number of observations. The technique originated in geostatistics, where it is desirable to
+understand mineral content over a wide area of space, but only feasible to take a limited number of samples. The
 principle is the same here!
 
 ## Putting it together
@@ -70,7 +68,7 @@ out of date as time progresses. This blog post also omits some of the implementa
 is adapted from (still under heavy development) is available [here](https://github.com/ocmadin/LJ_surrogates) {{<
 /note >}}
 
-### Simulating the density with respect to parameters
+## Simulating the density with respect to parameters
 
 To start, we focus on the line from the OpenFF 1.3.0 `.offxml` that contains the `[#6X4:1]` (tetravalent carbon) LJ
 parameters:
@@ -256,12 +254,11 @@ Density values:
 4                                           0.536805   
 ```
 
-### Building the surrogate models
+## Building the surrogate models
 
 With our data ready, we can build a GP surrogate model using the GPytorch package. To formulate our surrogate model, we
 use the squared exponential covariance kernel, and the simple constant mean function. For our likelihood function, we
-choose a Gaussian likelihood. This implementation is heavily based
-on [this example](https://docs.gpytorch.ai/en/stable/examples/01_Exact_GPs/Simple_GP_Regression.html) from the GPytorch
+choose a Gaussian likelihood. This implementation is taken from [this example](https://docs.gpytorch.ai/en/stable/examples/01_Exact_GPs/Simple_GP_Regression.html) from the GPytorch
 documentation.
 
 ```python
@@ -333,7 +330,7 @@ We also note that the quality of the model degrades as we move away from the sam
 as `rmin_half` is varied. This surrogate should be sufficient to explore the parameter landscape in the region of
 interest (90-110% of the original parameter values).
 
-### Bayesian sampling of the surrogate model
+## Bayesian sampling of the surrogate model
 
 To build our Bayesian posterior model based on the surrogate, we utilize the Pyro probabilistic programming language to
 represent our Bayesian model, and subsequently do MCMC sampling over the parameter space.
@@ -418,7 +415,7 @@ Number of divergences: 159
 
 Plotting the traces, we can visualize the parameter posterior distributions:
 
-![Posterior distribution plot](2021-09-01-madin-blog-post-trace.png "Trace of the Posterior Distribution")
+![Posterior distribution plot](../2021-09-01-madin-blog-post-trace.png "Trace of the Posterior Distribution")
 
 This gives us insight into the best values of these parameters for this data set (a single point in this case), and
 gives us an idea of the parameter landscape.
