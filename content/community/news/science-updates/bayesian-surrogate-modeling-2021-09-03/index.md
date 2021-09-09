@@ -3,10 +3,10 @@ date: "2021-09-03T00:00:00+00:00"
 title: 'Surrogate-enabled Bayesian sampling of force field parameters'
 tags: ["force field", "infrastructure"]
 categories: ["science"]
-draft: true 
+draft: false
 description: 'Building and sampling surrogate models of physical properties in the OpenFF workflow'
-weight: 10 
-markup: markdown 
+weight: 10
+markup: markdown
 thumb: "2021-09-01-madin-blog-post-trace.png"
 author: "Owen Madin"
 ---
