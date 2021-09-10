@@ -14,7 +14,7 @@ thumb: "noun_parsley.svg"
 
 <!-- Parsley CC0 image from https://www.maxpixel.net/Leaf-Plant-Parsley-Common-Aromatic-Parsley-Leaves-3327372 -->
 <center>
-<img src="parsley-cc0.jpg" width="40%">
+<img src="noun_parsley.svg" width="40%">
 </center>
 
 We’re delighted to announce the release of "Parsley", the [Open Force Field 1.0 small molecule force field](https://github.com/openforcefield/openforcefields/releases/tag/1.0.0)---the first in a series of iteratively-improved small molecule force fields for biomolecular simulation funded in part by the [Open Force Field Consortium](http://openforcefield.org/consortium).

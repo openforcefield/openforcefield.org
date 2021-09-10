@@ -4,7 +4,7 @@ title: "OpenFF 2.0.0 force field release (Sage)"
 tags: ["force fields","release","general","sage", ""]
 categories: ["news"]
 draft: false
-description: "The Cole group and the Open Force Field Initiative support applicants to the Marie Cure Global Postdoctoral Fellowships"
+description: "The OpenFF team is proud to announce our first nonbonded-refit force field."
 weight: 10
 author: "Karmen Condic-Jurkic"
 thumb: "noun_sage.svg"
