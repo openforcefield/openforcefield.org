@@ -51,7 +51,7 @@ The toolkit currently covers two main areas we have committed to stably maintain
 Lead Developer: Jeffrey Wagner
 
 {{<button href="https://github.com/openforcefield/openforcefield" text="GitHub" >}}
-{{<button href="https://open-forcefield-toolkit.readthedocs.io/" text="Documentation" >}}
+{{<button href="https://open-forcefield-toolkit.readthedocs.io/en/latest/" text="Documentation" >}}
 {{<button href="https://open-forcefield-toolkit.readthedocs.io/en/latest/installation.html" text="Installation" >}}
 {{< br >}}{{< br >}}
 ## OpenFF Evaluator
