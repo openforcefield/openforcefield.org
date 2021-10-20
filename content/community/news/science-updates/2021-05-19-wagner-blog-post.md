@@ -1,6 +1,6 @@
 ---
 date: "2021-05-19T00:00:00+00:00"
-title: 'Infrastructure Lessons-learned (May 19, 2021)'
+title: 'Infrastructure Lessons-learned'
 tags: ["force field", "infrastructure", "specification", "testing"]
 categories: ["science"]
 draft: false
