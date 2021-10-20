@@ -1,9 +1,9 @@
 ---
 date: "2021-10-20T00:00:00+00:00"
-title: 'How to train your force field! (October 20, 2021)'
-tags: ["force field", "infrastructure"]
+title: 'How to train your force field 2: Bespoke fit'
+tags: ["force field", "infrastructure", "bespoke fit"]
 categories: ["science"]
-draft: true
+draft: false
 description: 'Generating bespoke torsion parameters on the fly.'
 slug: 'bespokefit-update-2021-10-20'
 weight: 10
@@ -11,16 +11,16 @@ markup: markdown
 thumb: "parameter-change.png"
 author: "Joshua Horton"
 ---
- 
-General transferable force fields, such as [Parsley](https://pubs.acs.org/doi/full/10.1021/acs.jctc.1c00571) or [Sage](https://openforcefield.org/force-fields/force-fields/), 
-allow us to rapidly parameterize small molecules covering vast amounts of chemical space for use in molecular dynamics simulations. However, with every force field comes the inherent assumption that 
-parameters fit to a set of representative molecules in a training set are transferable to any new molecules with similar chemistry. 
+
+General transferable force fields, such as [Parsley](https://pubs.acs.org/doi/full/10.1021/acs.jctc.1c00571) or [Sage](https://openforcefield.org/force-fields/force-fields/),
+allow us to rapidly parameterize small molecules covering vast amounts of chemical space for use in molecular dynamics simulations. However, with every force field comes the inherent assumption that
+parameters fit to a set of representative molecules in a training set are transferable to any new molecules with similar chemistry.
 Despite potential accuracy problems caused by poor transferability or discrete atom types the use 
-of force fields in fields like drug discovery has been a massive success. Within the Open Force Field, we 
-use a unique method based on [SMARTS](https://www.daylight.com/dayhtml/doc/theory/theory.smarts.html) patterns to link 
-the force field parameters to chemical substructures, avoiding the use of atom types altogether, resulting in a more 
-[compact and manageable force field](https://doi.org/10.1021/acs.jctc.8b00640). While we have seen the number of unique 
-torsion parameters grow between versions of the force field to improve parameter performance the number of parameters 
+of force fields in fields like drug discovery has been a massive success. Within the Open Force Field, we
+use a unique method based on [SMARTS](https://www.daylight.com/dayhtml/doc/theory/theory.smarts.html) patterns to link
+the force field parameters to chemical substructures, avoiding the use of atom types altogether, resulting in a more
+[compact and manageable force field](https://doi.org/10.1021/acs.jctc.8b00640). While we have seen the number of unique
+torsion parameters grow between versions of the force field to improve parameter performance the number of parameters
 has remained very low when compared to other state-of-the-art force fields like OPLS3.
 
 
@@ -38,12 +38,12 @@ This explosion in torsion parameters allows for high accuracy over a large area 
 very specific to certain chemistry. However, due to improved computer power and the reduced computational cost of generating
 high accuracy reference data via the use of machine learned potentials such as [ANI](https://pubs.rsc.org/en/content/articlelanding/2017/SC/C6SC05720A),
 a better solution may be to generate bespoke parameters on the fly. Enter :tada:[BespokeFit](https://github.com/openforcefield/bespoke-fit) :tada:
-, BespokeFit is a python package which allows users to easily generate bespoke force field parameters for 
-their molecules under study which compliment the base OpenFF force field. Here we can think of BespokeFit as our general fitting 
-scheme which can be applied to new molecules to generate bespoke parameters on the fly for new unseen chemistry. 
+, BespokeFit is a python package which allows users to easily generate bespoke force field parameters for
+their molecules under study which compliment the base OpenFF force field. Here we can think of BespokeFit as our general fitting
+scheme which can be applied to new molecules to generate bespoke parameters on the fly for new unseen chemistry.
 
 You may have seen [previously](https://openforcefield.org/community/news/science-updates/ff-training-example-2021-07-01/)
-how BespokeFit, QCSubmit and QCFractal can be combined to fit general force fields and this time we are going to show 
+how BespokeFit, QCSubmit and QCFractal can be combined to fit general force fields and this time we are going to show
 its other side and walk through an application to a simple molecule.
 
 This will have the following structure:
@@ -54,14 +54,14 @@ This will have the following structure:
 
 ## Building the general workflow
 
-BespokeFit aims to provide a reproducible parameter optimization workflow for SMIRNOFF based force fields. 
-As such normal BespokeFit execution starts with a general fitting workflow. This captures every process in the 
-workflow along with any adjustable settings such as how the reference data should be generated. The default workflow 
+BespokeFit aims to provide a reproducible parameter optimization workflow for SMIRNOFF based force fields.
+As such normal BespokeFit execution starts with a general fitting workflow. This captures every process in the
+workflow along with any adjustable settings such as how the reference data should be generated. The default workflow
 is designed to optimize bespoke torsion parameters at the same level of theory as that used in the mainline openff force fields.
-Here however, we will be starting with a blank workflow and building it up as we go. 
+Here however, we will be starting with a blank workflow and building it up as we go.
 
-First, we start with our optimization engine, which is an easy choice as we currently only support the fantastic 
-[ForceBalance](https://github.com/leeping/forcebalance) package (watch this space - optimizers are coming!). 
+First, we start with our optimization engine, which is an easy choice as we currently only support the fantastic
+[ForceBalance](https://github.com/leeping/forcebalance) package (watch this space - optimizers are coming!).
 Let's start by creating the ForceBalance optimization schema.
 
 ```python
@@ -91,10 +91,10 @@ fb.dict()
      'extras': {}}
 
 
-As you can tell there are many options here and in some cases, it might not be clear what a valid input is. For example, 
-what other penalty types could we use?  :sparkles:[Pydantic](https://github.com/samuelcolvin/pydantic):sparkles: to the rescue,  pydantic 
+As you can tell there are many options here and in some cases, it might not be clear what a valid input is. For example,
+what other penalty types could we use?  :sparkles:[Pydantic](https://github.com/samuelcolvin/pydantic):sparkles: to the rescue,  pydantic
 allows us to "_define how data should be in pure, canonical python_" and has run time validation to ensure our data is always correct.
-What's more we even get a `schema` method for each model for free which fully describes the model with a short description for each field 
+What's more we even get a `schema` method for each model for free which fully describes the model with a short description for each field
 and information on the acceptable inputs, it basically comes with its own documentation:book:. As such pydantic is used
 extensively throughout BespokeFit to try and catch possible input errors ahead of run time, there is nothing worse than queuing up
 a calculation for it to be instantly returned with an error on line one:man_facepalming:. Now the schema is
@@ -110,7 +110,7 @@ fb.schema()
                 'Priors and target definitions are stored separately as part '
                 'of an\n'
                 '``OptimizationSchema``.',
-    'properties': {'adaptive_damping': 
+    'properties': {'adaptive_damping':
     ...
     'penalty_type': {'default': 'L2',
                      'description': 'The penalty type.',
@@ -135,26 +135,26 @@ Nice, we get an informative error message before even running the workflow!
 fb.penalty_type = "L1"
 ```
 
-Now we can set it to L1 and start to build up our workflow and see what other pieces we might need. 
+Now we can set it to L1 and start to build up our workflow and see what other pieces we might need.
 
 {{< note >}}
-By default the workflow model comes ready to fit bespoke torsion parameters using Open Force Field best practices and 
-default settings. Meaning only users who want absolute control over every setting (or developers showing of their work :grin:) 
-would need to do this manual set up . 
+By default the workflow model comes ready to fit bespoke torsion parameters using Open Force Field best practices and
+default settings. Meaning only users who want absolute control over every setting (or developers showing of their work :grin:)
+would need to do this manual set up .
 {{< /note >}}
 
 
 Lets start by creating our `BespokeWorkflowFactory` which acts as a fitting template for future optimizations
-and add our `ForceBalanceSchema` optimizer settings. We can also remove all other defaults as we will go through them in 
+and add our `ForceBalanceSchema` optimizer settings. We can also remove all other defaults as we will go through them in
 the next sections.
 ```python
 from openff.bespokefit.workflows import BespokeWorkflowFactory
 
 workflow = BespokeWorkflowFactory(
-    fragmentation_engine=None, 
-    optimizer=fb, 
-    parameter_hyperparameters=[], 
-    target_templates=[], 
+    fragmentation_engine=None,
+    optimizer=fb,
+    parameter_hyperparameters=[],
+    target_templates=[],
     default_qc_specs=[]
 )
 workflow.dict()
@@ -162,8 +162,8 @@ workflow.dict()
 
 ### Stage 1 Fragmentation
 
-BespokeFit makes extensive use of the fantastic [openff-fragmenter](https://github.com/openforcefield/openff-fragmenter) 
-package where possible to reduce the cost of QM torsion drives as they can quickly become very expensive for large 
+BespokeFit makes extensive use of the fantastic [openff-fragmenter](https://github.com/openforcefield/openff-fragmenter)
+package where possible to reduce the cost of QM torsion drives as they can quickly become very expensive for large
 drug-like molecules. Here we will add the WBO based fragmentation scheme to the pipeline with default settings. You can find
 out more about how fragmenter works in a pre-print [here](https://www.biorxiv.org/content/10.1101/2020.08.27.270934v1).
 
@@ -175,8 +175,8 @@ fragmenter = WBOFragmenter()
 workflow.fragmentation_engine = fragmenter
 ```
 
-By default, fragmenter will not fragment terminal rotatable bonds (such as methyl groups) as these are assumed to be 
-trivial and well described by our chosen force field. However, to keep things simple in our example we will be working with 
+By default, fragmenter will not fragment terminal rotatable bonds (such as methyl groups) as these are assumed to be
+trivial and well described by our chosen force field. However, to keep things simple in our example we will be working with
 `BrCO` and so we need to change this behaviour. Luckily BespokeFit/fragmenter allow us to overwrite this behaviour
 by defining a SMARTS pattern (chemical substructure) which will be used to select the rotatable bonds.
 
@@ -184,7 +184,7 @@ by defining a SMARTS pattern (chemical substructure) which will be used to selec
 workflow.target_torsion_smirks = ["[*]~[!$(*#*)&!D1:1]-,=;!@[!$(*#*)&!D1:2]~[*]"]
 ```
 
-Here we have taken the default SMARTS pattern `[!#1]~[!$(*#*)&!D1:1]-,=;!@[!$(*#*)&!D1:2]~[!#1]` used to find torsions 
+Here we have taken the default SMARTS pattern `[!#1]~[!$(*#*)&!D1:1]-,=;!@[!$(*#*)&!D1:2]~[!#1]` used to find torsions
 and allowed the connecting atoms to the central bond to be hydrogens. This will ensure our simple molecule is processed
 by the workflow, as without this change the workflow would reject the molecule as with no `rotatable` bonds there would be
 no work to do :man_shrugging:.
@@ -197,11 +197,11 @@ and that's where the target templates come in. These `target schemas` have two m
 - Describe the contribution to the total error function in the parameter optimization
 - Generate specific reference data tasks that need to be computed in order to train with the target
 
-In this case we will be using the `TorsionProfileTargetSchema` which requires a torsiondrive as input data. That is 
+In this case we will be using the `TorsionProfileTargetSchema` which requires a torsiondrive as input data. That is
 a series of constrained geometry optimizations around the targeted rotatable bond, usually ranging from -180 -> 180 degrees
-in 15 degree increments. There is slightly more to a torsiondrive than that and you can read more about how it works in the 
-[paper](https://doi.org/10.1063/5.0009232), but for now the main point is that we should get back a series of geometries 
-and energies to fit to. The actual torsion profile target then contributes the average RMSE between the QM and MM 
+in 15 degree increments. There is slightly more to a torsiondrive than that and you can read more about how it works in the
+[paper](https://doi.org/10.1063/5.0009232), but for now the main point is that we should get back a series of geometries
+and energies to fit to. The actual torsion profile target then contributes the average RMSE between the QM and MM
 energies at each geometry to the objective function and has a small number of settings exposed which we can see here.
 
 ```python
@@ -221,7 +221,7 @@ target.dict()
      'weight': 1.0}
 
 
-You will also note that we passed the target in a list as the optimizer can use multiple targets to construct the objective 
+You will also note that we passed the target in a list as the optimizer can use multiple targets to construct the objective
 function, you can check out [Simons blog](https://openforcefield.org/community/news/science-updates/ff-training-example-2021-07-01/)
 to see this in action.
 
@@ -229,33 +229,33 @@ to see this in action.
 All target templates passed to the optimizer will be exercised at the same time as multi-stage fits are not yet supported.
 {{< /warning >}}
 
-We now need to tell BespokeFit what program, method and basis should be used to actually compute the reference tasks. As 
-we use the game changing [QCEngine](https://github.com/MolSSI/QCEngine) to power these calculations we have a wide range 
-of possibilities with one standard interface. BespokeFit defines the target specification using the `QCSpec` class from 
-QCSubmit which has built in validation to again catch any errors early in the process. Choosing a new QC task 
+We now need to tell BespokeFit what program, method and basis should be used to actually compute the reference tasks. As
+we use the game changing [QCEngine](https://github.com/MolSSI/QCEngine) to power these calculations we have a wide range
+of possibilities with one standard interface. BespokeFit defines the target specification using the `QCSpec` class from
+QCSubmit which has built in validation to again catch any errors early in the process. Choosing a new QC task
 specification for all tasks in the BespokeFit workflow is then as simple as:
 ```python
 from openff.qcsubmit.common_structures import QCSpec
 
 xtb_spec = QCSpec(
-    method="gfn2xtb", 
-    basis=None, 
-    program="xtb", 
-    spec_name="xtb", 
+    method="gfn2xtb",
+    basis=None,
+    program="xtb",
+    spec_name="xtb",
     spec_description="gfn2xtb"
 )
 
 workflow.default_qc_specs = [xtb_spec]
 ```
 
-To keep things moving quickly we have chosen to use a semi-empirical QC method, but by default BespokeFit will use the 
+To keep things moving quickly we have chosen to use a semi-empirical QC method, but by default BespokeFit will use the
 same level of theory as that used to fit the main line force fields.
 
 
 ### Stage 3 Parameter Optimization
 
-Finally, we have the parameter optimization stage and as we have already set up our optimizer using `ForceBalance` the last step 
-is to define some parameter hyperparameters. These tell BespokeFit which parameters we would like to fit and allows us to 
+Finally, we have the parameter optimization stage and as we have already set up our optimizer using `ForceBalance` the last step
+is to define some parameter hyperparameters. These tell BespokeFit which parameters we would like to fit and allows us to
 define a prior to the parameter.
 ```python
 from openff.bespokefit.schema.smirnoff import  ProperTorsionHyperparameters
@@ -264,7 +264,7 @@ prior = ProperTorsionHyperparameters()
 workflow.parameter_hyperparameters = [prior]
 ```
 
-BespokeFit now knows we intend to optimize the torsion parameters to the target and with these final two settings we 
+BespokeFit now knows we intend to optimize the torsion parameters to the target and with these final two settings we
 can generate SMARTS patterns specific to the molecules that pass through the workflow and to fully expand
 the torsion parameters to use all available k values.
 ```python
@@ -272,8 +272,8 @@ workflow.generate_bespoke_terms = True
 workflow.expand_torsion_terms = True
 ```
 
-All that is left to do now is to save the workflow to file for later use, this is now our general workflow template which 
-we can apply to all molecules that pass into the BespokeFit pipeline. The serialized workflow is also a fantastic provenance 
+All that is left to do now is to save the workflow to file for later use, this is now our general workflow template which
+we can apply to all molecules that pass into the BespokeFit pipeline. The serialized workflow is also a fantastic provenance
 store, making it easy to tell exactly what settings were used to compute the parameters in a project.
 
 ```python
@@ -285,9 +285,9 @@ workflow.export_factory("workflow.yaml")
 
 ## Building the Molecule Specific Schema
 
-Now we can use our general fitting schema to build a molecule specific optimization schema. 
-This schema fully defines the optimization protocol that should be applied to the molecule including information 
-about the reference data generation tasks which BespokeFit will automatically perform locally for us. In this 
+Now we can use our general fitting schema to build a molecule specific optimization schema.
+This schema fully defines the optimization protocol that should be applied to the molecule including information
+about the reference data generation tasks which BespokeFit will automatically perform locally for us. In this
 example we will be using `BrCO`, so lets create the molecule using the `openff-toolkit`, save it to file for later and
 create a `BespokeOptimizationSchema` for it using our workflow:
 
@@ -303,22 +303,22 @@ schema = workflow.optimization_schema_from_molecule(molecule=target_molecule)
 ```
 
 If we now inspect the schema we find two main changes, i) the input molecule has been inserted, ii) some bespoke SMARTS patterns
-have been created for the rotatable torsion identified in the molecule. These patterns and the initial force field values 
+have been created for the rotatable torsion identified in the molecule. These patterns and the initial force field values
 can be easily viewed via:
 
 ```python
 schema.initial_parameter_values
 ```
 
-    {ProperTorsionSMIRKS(type='ProperTorsions', 
-    smirks='[#35H0X1x0!r+0A:1]-;!@[#6H2X4x0!r+0A:2](-;!@[#1H0X1x0!r+0A])(-;!@[#1H0X1x0!r+0A])-;!@[#8H1X2x0!r+0A:3]-;!@[#1H0X1x0!r+0A:4]', 
+    {ProperTorsionSMIRKS(type='ProperTorsions',
+    smirks='[#35H0X1x0!r+0A:1]-;!@[#6H2X4x0!r+0A:2](-;!@[#1H0X1x0!r+0A])(-;!@[#1H0X1x0!r+0A])-;!@[#8H1X2x0!r+0A:3]-;!@[#1H0X1x0!r+0A:4]',
     attributes={'k1', 'k2', 'k3', 'k4'}): {
     'k1': Quantity(value=0, unit=kilocalorie/mole),
     'k2': Quantity(value=0, unit=kilocalorie/mole),
     'k3': Quantity(value=0.6985935181583, unit=kilocalorie/mole),
     'k4': Quantity(value=0, unit=kilocalorie/mole)},
-    ProperTorsionSMIRKS(type='ProperTorsions', 
-    smirks='[#1H0X1x0!r+0A:1]-;!@[#6H2X4x0!r+0A:2](-;!@[#1H0X1x0!r+0A])(-;!@[#35H0X1x0!r+0A])-;!@[#8H1X2x0!r+0A:3]-;!@[#1H0X1x0!r+0A:4]', 
+    ProperTorsionSMIRKS(type='ProperTorsions',
+    smirks='[#1H0X1x0!r+0A:1]-;!@[#6H2X4x0!r+0A:2](-;!@[#1H0X1x0!r+0A])(-;!@[#35H0X1x0!r+0A])-;!@[#8H1X2x0!r+0A:3]-;!@[#1H0X1x0!r+0A:4]',
     attributes={'k1', 'k2', 'k3', 'k4'}): {
     'k1': Quantity(value=0, unit=kilocalorie/mole),
     'k2': Quantity(value=0, unit=kilocalorie/mole),
@@ -326,9 +326,9 @@ schema.initial_parameter_values
     'k4': Quantity(value=0, unit=kilocalorie/mole)}}
 
 
-You may also notice that as requested BespokeFit has expanded the k terms for each torsion parameter with each new term 
-set to zero by default. The non-zero values are then taken from the base force field to form our initial parameter values. 
-We can also use the `openff-toolkit` to query the molecule and identify the atoms matching these new patterns and 
+You may also notice that as requested BespokeFit has expanded the k terms for each torsion parameter with each new term
+set to zero by default. The non-zero values are then taken from the base force field to form our initial parameter values.
+We can also use the `openff-toolkit` to query the molecule and identify the atoms matching these new patterns and
 understand how the parameters will be applied to the molecule by visualizing the substructures.
 
 ```python
@@ -350,15 +350,15 @@ Draw.MolsToGridImage(rd_mols, highlightAtomLists=atoms)
 
 ![bespoke-smirks](bespoke_smirks.png "BrCO bespoke torsion smirks")
 
-We can see that BespokeFit has generated two bespoke SMARTS patterns, as determined by the 
+We can see that BespokeFit has generated two bespoke SMARTS patterns, as determined by the
 symmetry of the atoms around the central bond, covering all three torsion terms.
 
 ## Setting up the BespokeExecutor
 
 In the last blog post we made use of the invaluable QCFractal infrastructure to compute our target data. Since then however,
 we have been hard at work to offer a local execution pathway as an alternative reference generation method.
-Here we still use QCEngine to execute the tasks, but spin up simple [Celery](https://docs.celeryproject.org/en/latest/index.html) 
-workers to perform the jobs. In fact the BespokeFit executor has been totally reworked to allow for a more flexible and scalable 
+Here we still use QCEngine to execute the tasks, but spin up simple [Celery](https://docs.celeryproject.org/en/latest/index.html)
+workers to perform the jobs. In fact the BespokeFit executor has been totally reworked to allow for a more flexible and scalable
 fitting solution. Each of the major stages: fragmentation, reference generation and optimization are carried out
 by dedicated workers which can be on the same local machine or distributed over multiple. Here we will be spinning up
 the `BespokeExecutor` and three workers, one for each of the stages, in a single line! We will then submit our optimization
@@ -369,8 +369,8 @@ from openff.bespokefit.executor import BespokeExecutor, wait_until_complete
 
 # launch the executor
 with BespokeExecutor(
-        n_fragmenter_workers=1, 
-        n_qc_compute_workers=1, 
+        n_fragmenter_workers=1,
+        n_qc_compute_workers=1,
         n_optimizer_workers=1) as executor:
     # grab the task id and wait for the task to finish
     task = executor.submit(input_schema=schema)
@@ -382,8 +382,8 @@ with BespokeExecutor(
     [✓] optimization successful
 
 
-As our optimization task works through each stage you should see them complete with a tick and once all tasks are complete 
-the executor will shut down for us and clean up the workers as well! We can then check the result object to make sure 
+As our optimization task works through each stage you should see them complete with a tick and once all tasks are complete
+the executor will shut down for us and clean up the workers as well! We can then check the result object to make sure
 each stage did finish with no errors.
 ```python
 for stage in result.stages:
@@ -397,10 +397,10 @@ for stage in result.stages:
 ## Inspecting the Optimized Parameters
 
 Once the torsion optimization is complete a result schema is returned. The schema contains the final optimized
-parameters that can be used with the `openff-toolkit` in workflows to parameterize molecules and set up systems in 
+parameters that can be used with the `openff-toolkit` in workflows to parameterize molecules and set up systems in
 OpenMM to run dynamics. The result schema also contains all provenance information which can help with reproducibility.
 
-Now to convince ourselves that the optimization was successful and has lead to an improvement in the parameters - lets load 
+Now to convince ourselves that the optimization was successful and has lead to an improvement in the parameters - lets load
 the final output from ForceBalance.
 
 ```python
@@ -413,7 +413,7 @@ IFrame(opt_id, width=900, height=600)
 ![brco-result](brco_result.png "BrCO optimization results.")
 
 BespokeFit has been successful as there is a clear improvement in the PES around this torsion with respect to the reference data.
-We can also plot how the parameters have changed during optimization as the result schema stores the initial and 
+We can also plot how the parameters have changed during optimization as the result schema stores the initial and
 final torsion parameters.
 
 ```python
@@ -426,14 +426,14 @@ plt.rc('font', size=16)
 
 ax = plt.figure(figsize=(5,8))
 #add start points
-ax = sns.stripplot(data=df, 
-                   x='before', 
-                   y='parameter', 
-                   orient='h', 
-                   order=df['parameter'], 
-                   size=10, 
+ax = sns.stripplot(data=df,
+                   x='before',
+                   y='parameter',
+                   orient='h',
+                   order=df['parameter'],
+                   size=10,
                    color='black')
-ax.grid(axis='y', color='0.9') 
+ax.grid(axis='y', color='0.9')
 #add arrows to plot only if the parameter changed by more than 1e-3 kcal/mol
 for i in range(len(df.index)):
     term = df.iloc[i]
@@ -473,10 +473,9 @@ To recap in this blog post we have:
 - Automatically generated bespoke SMARTS patterns for the molecule
 - Optimized the torsion parameters using ForceBalance
 
-Hopefully this demonstration has shown just how easy it is to set up a BespokeFit general fitting pipeline with a custom 
+Hopefully this demonstration has shown just how easy it is to set up a BespokeFit general fitting pipeline with a custom
 configuration and train bespoke parameters to reference data generated on the fly from just a few imports.  Better yet
 this whole process can now be routinely applied to new molecules from the CLI using our serialized workflow.
 ```
-openff-bespoke executor run --input BrCO.sdf --spec-file workflow.json 
+openff-bespoke executor run --input BrCO.sdf --spec-file workflow.json
 ```
-
