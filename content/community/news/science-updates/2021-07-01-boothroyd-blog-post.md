@@ -1,6 +1,6 @@
 ---
 date: "2021-07-01T00:00:00+00:00"
-title: 'Do you want to train a force field? (July 01, 2021)'
+title: 'How to train your force field'
 tags: ["force field", "infrastructure"]
 categories: ["science"]
 draft: false
@@ -56,7 +56,7 @@ environment](https://gist.github.com/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a7
 !conda activate build-a-force-field
 ```
 
-A completed Jupyter notebook [can be found on MyBinder](https://mybinder.org/v2/gist/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-how-to-build-a-force-field-ipynb/HEAD?filepath=how-to-build-a-force-field.ipynb). 
+A completed Jupyter notebook [can be found on MyBinder](https://mybinder.org/v2/gist/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-how-to-build-a-force-field-ipynb/HEAD?filepath=how-to-build-a-force-field.ipynb).
 
 ## Generating a QC torsion drive training set
 
@@ -360,11 +360,11 @@ itself.
 In particular, we need to:
 
 * load the starting force field that we will be training
-  
+
 * specify **which** parameters within the force field should be trained
-  
+
 * specify the hyper-parameters that control **how** the parameters will be trained
-  
+
 * define the 'targets' that we are training the parameters against
 
 All of this is made easy by the [OpenFF Bespoke](https://github.com/openforcefield/bespoke-fit) package. The OpenFF
@@ -409,7 +409,7 @@ print([smirks for smirks in coverage["ProperTorsions"]])
     ANGLES
     '[*:1]~[#6X4:2]-[*:3]', '[#1:1]-[#6X4:2]-[#1:3]'
     PROPER TORSIONS
-    '[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]', '[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]', 
+    '[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]', '[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]',
     '[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]'
 
 
@@ -602,7 +602,7 @@ for handler_name in ["Bonds", "Angles", "ProperTorsions"]:
     print("\n")
 ```
     BONDS
-    
+
     [#6X4:1]-[#6X4:2]
         INITIAL: length: 1.521 A  k: 517.219 kcal/(A**2 mol)
         FINAL:   length: 1.526 A  k: 517.246 kcal/(A**2 mol)
@@ -611,7 +611,7 @@ for handler_name in ["Bonds", "Angles", "ProperTorsions"]:
         FINAL:   length: 1.096 A  k: 754.054 kcal/(A**2 mol)
 
     ANGLES
-    
+
     [*:1]~[#6X4:2]-[*:3]
         INITIAL: angle: 113.657 deg  k: 99.234 kcal/(mol rad**2)
         FINAL:   angle: 114.532 deg  k: 58.458 kcal/(mol rad**2)
@@ -620,7 +620,7 @@ for handler_name in ["Bonds", "Angles", "ProperTorsions"]:
         FINAL:   angle: 111.392 deg  k: 60.785 kcal/(mol rad**2)
 
     PROPER TORSIONS
-    
+
     [#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
         INITIAL: k1:  0.116 kcal/mol
         FINAL:   k1:  0.094 kcal/mol
@@ -630,8 +630,8 @@ for handler_name in ["Bonds", "Angles", "ProperTorsions"]:
     [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
         INITIAL: k1:  0.201 kcal/mol
         FINAL:   k1: -0.013 kcal/mol
-    
-    
+
+
 
 
 ## Conclusions
