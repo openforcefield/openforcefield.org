@@ -52,6 +52,18 @@ This will have the following structure:
 - Setup and run the BespokeExecutor
 - Inspecting the fitted parameters
 
+## (Optional) Installation instructions
+
+If you'd like to follow along with this example, download [this conda environment yaml](bespokefit-blog-post.yml), then run:
+
+```
+conda env create -y -f bespokefit-blog-post.yml
+conda activate 2021-bespokefit-blog-post
+```
+
+Note that the bespoke fitting package is pre-production, so this environment is heavily pinned and major changes may occur
+before a stable release. 
+
 ## Building the general workflow
 
 BespokeFit aims to provide a reproducible parameter optimization workflow for SMIRNOFF based force fields.
@@ -366,6 +378,10 @@ task via the RESTful API and let BespokeFit take care of the rest.
 
 ```python
 from openff.bespokefit.executor import BespokeExecutor, wait_until_complete
+import os
+
+# set keep files to true so we can view the results
+os.environ["BEFLOW_KEEP_FILES"] = "True"
 
 # launch the executor
 with BespokeExecutor(
@@ -415,6 +431,24 @@ IFrame(opt_id, width=900, height=600)
 BespokeFit has been successful as there is a clear improvement in the PES around this torsion with respect to the reference data.
 We can also plot how the parameters have changed during optimization as the result schema stores the initial and
 final torsion parameters.
+
+```python
+import pandas as pd
+from simtk import unit
+
+parameter_data = []
+for i, (parameter, initial_values) in enumerate(result.results.input_schema.initial_parameter_values.items()):
+    for final_parameter, final_values in result.results.refit_parameter_values.items():
+        if parameter.smirks == final_parameter.smirks:
+            for term in range(1, 5):
+                k_before = initial_values[f"k{term}"].value_in_unit(unit.kilocalorie_per_mole)
+                k_after = final_values[f"k{term}"].value_in_unit(unit.kilocalorie_per_mole)
+                parameter_data.append([f"smirks_{i}_k{term}", k_before, k_after, k_after - k_before])
+
+# make a pandas dataframe
+df = pd.DataFrame(parameter_data, columns=["parameter", "before", "after", "change"])
+```
+
 
 ```python
 import matplotlib.pyplot as plt
@@ -477,5 +511,6 @@ Hopefully this demonstration has shown just how easy it is to set up a BespokeFi
 configuration and train bespoke parameters to reference data generated on the fly from just a few imports.  Better yet
 this whole process can now be routinely applied to new molecules from the CLI using our serialized workflow.
 ```
+# export BEFLOW_KEEP_FILES=True # Uncomment this to skip cleanup of intermediate files
 openff-bespoke executor run --input BrCO.sdf --spec-file workflow.json
 ```
