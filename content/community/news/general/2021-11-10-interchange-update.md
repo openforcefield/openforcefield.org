@@ -117,15 +117,15 @@ provided by the toolkit: its
 and
 [`ForceField`](https://open-forcefield-toolkit.readthedocs.io/en/latest/api/generated/openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.html#openff.toolkit.typing.engines.smirnoff.forcefield.ForceField)
 classes. This post will not go into detail about the different ways that input data can be prepared - there are [many
- ways](https://open-forcefield-toolkit.readthedocs.io/en/latest/users/molecule_cookbook.html) to get chemical input data into this object model! The chemical topology will simply be a caffiene molecule and the latest mainline force field release from the Open Force Field Initiative: version 2.0.0 "Sage"
+ ways](https://open-forcefield-toolkit.readthedocs.io/en/latest/users/molecule_cookbook.html) to get chemical input data into this object model! The chemical topology will simply be a caffeine molecule and the latest mainline force field release from the Open Force Field Initiative: version 2.0.0 "Sage"
 
 ```python
 from openff.toolkit.topology import Molecule, Topology
 from openff.toolkit.typing.engines.smirnoff import ForceField
 
-caffiene = Molecule.from_smiles("CN1C=NC2=C1C(=O)N(C(=O)N2C)C")
-caffiene.generate_conformers(n_conformers=1)
-topology = caffiene.to_topology()
+caffeine = Molecule.from_smiles("CN1C=NC2=C1C(=O)N(C(=O)N2C)C")
+caffeine.generate_conformers(n_conformers=1)
+topology = caffeine.to_topology()
 
 sage = ForceField("openff_unconstrained-2.0.0.offxml")
 ```
@@ -140,7 +140,7 @@ Now that everything is prepared, we simply construct an ``Interchnage`` object w
 ```python
 from openff.interchange.components.interchange import Interchange
 
-out = Interchange.from_smirnoff(force_field=sage, topoplogy=topology)
+out = Interchange.from_smirnoff(force_field=sage, topology=topology)
 out
 ```
     Interchange with 24 atoms, non-periodic topology
@@ -150,9 +150,12 @@ earlier and assign box vectors to something more than twice the cutoff that Sage
 
 ```python
 out.box = [4, 4, 4]
-out.positions = caffiene.conformers[0]
-print(out.box)
+out.positions = caffeine.conformers[0]
+out.box
 ```
+    array([[4., 0., 0.],
+       [0., 4., 0.],
+       [0., 0., 4.]]) <Unit('nanometer')>
 
 (This step may be more streamlined in the future, possibly with changes directly in the toolkit!)
 
