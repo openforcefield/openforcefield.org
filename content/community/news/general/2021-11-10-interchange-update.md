@@ -43,7 +43,7 @@ functionality is accessible using only free and open-source tools.
 To emphasize a detail above, the key objective of the Interchange project at present is to make it
 easier to get OpenFF force fields in use in non-OpenMM workflows. The scope of this task is large,
 but it is finite; the
-[SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/users/smirnoff.html)
+[SMIRNOFF](https://openforcefield.github.io/standards/standards/smirnoff/)
 specification used by OpenFF force fields provides clarity to many questions of information
 content in force fields, which is key for developing an interface to it. The [OpenFF
 Toolkit](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/topology.html) also already provides
@@ -55,7 +55,8 @@ provides a starting point. Expanding this work outside of the OpenFF stack is di
 An `Interchange` object stores all the information known about a system; this includes its
 chemistry, how that chemistry is represented by a force field, and how the system is organised in 3D
 space. An `Interchange` object has four components, each of which is also an attribute of the core
-Python class
+Python class: a **chemical topology**, **handlers** storing the physical interactions, **positions**
+of all particles, and **box vectors**, if the system is periodic.
 
 The `topology` attribute stores chemical information in a graph-like structure, without specific information
 about forces from the force field. Currently, this attribute is literally a
@@ -376,7 +377,7 @@ basis, support for other _exports_ is not highly-prioritized at the moment. If s
 engines would enable the use of OpenFF force fields in your workflows, we'd be happy to hear from
 you! (See "Feedback" at the end of this post).
 
-The [SMIRNOFF](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/users/smirnoff.html)
+The [SMIRNOFF](https://openforcefield.github.io/standards/standards/smirnoff/)
 specification is not fully supported but we aim to fully support it in the future. Virtual sites and
 bond order-based parameter interpolation are supported on an experimental basis but the GBSA section
 is not currently prioritized due to relatively little scientific interest at the moment.
