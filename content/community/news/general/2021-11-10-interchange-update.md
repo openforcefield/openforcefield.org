@@ -14,20 +14,20 @@ author: "Matt Thompson"
 
 
 Thus far, the only simulation engine natively supported by [export from the OpenFF software
-stack](https://open-forcefield-toolkit.readthedocs.io/en/latest/api/generated/openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.html#openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.create_openmm_system)
+stack](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/api/generated/openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.html#openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.create_openmm_system)
 has been OpenMM. OpenMM offers great performance on GPUs and excellent flexibility via its API, but
 many scientists wish to use tools that are only compatible with other molecular simulation engines, like AMBER and GROMACS. There are tools that
 can convert OpenMM objects to file formats understood by these other engines, but these steps can have
 rough edges and add complexity to users' workflows. For this reason, OpenFF has started the Interchange project. The objective of the Interchange project is to
 provide a first-class support for these operations with the OpenFF software stack. This enabled by
 a Python package of the same name that is described below and in its
-[documentation](https://openff-interchange.readthedocs.io/en/latest/index.html#).
+[documentation](https://openff-interchange.readthedocs.io/en/v0.1.3/index.html#).
 
 This post aims to provide a high-level overview of the aims of the Interchange project, its current status,
 present capabilities, and some future directions.
 
 {{< note >}}
-Like much of of OpenFF infrastructure, Interchange is rapidly evolving and details within this blog post are likely to be out of date in the future.
+Like much of of OpenFF infrastructure, Interchange is rapidly evolving and details within this blog post are likely to be out of date in the future. Links in this post point to documentation versions that may be outdated.
 {{< /note >}}
 
 Code in this post should run if copy-pasted into a Jupyter notebook or Python interpreter. This is
@@ -59,7 +59,7 @@ Python class
 
 The `topology` attribute stores chemical information in a graph-like structure, without specific information
 about forces from the force field. Currently, this attribute is literally a
-[`Topology`](https://open-forcefield-toolkit.readthedocs.io/en/latest/api/generated/openff.toolkit.topology.Topology.html#openff.toolkit.topology.Topology)
+[`Topology`](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/api/generated/openff.toolkit.topology.Topology.html#openff.toolkit.topology.Topology)
 object from the OpenFF Toolkit. The OpenFF Toolkit Topology object includes necessary information for molecular
 mechanics representations (masses, elements, and basic bond information) but also richer chemical
 information used by cheminformatics toolkits and some portions of the SMIRNOFF specification (bond
@@ -80,7 +80,7 @@ the topology.
 
 Box vectors are as a unit-tagged `3x3` matrix, following
 conventional periodic box vectors and the implementation in
-[OpenMM](http://docs.openmm.org/latest/userguide/theory/05_other_features.html#periodic-boundary-conditions).
+[OpenMM](http://docs.openmm.org/7.6.0/userguide/theory/05_other_features.html#periodic-boundary-conditions).
 
 Positions and box vectors are stored internally as nanometers using a custom
 [Pint](https://github.com/hgrecco/pint/) registry. Attempts are made to automatically convert from
@@ -99,13 +99,13 @@ It's worth briefly mentioning some things that are **not** within the scope of w
 * Other parameters specific to free energy methods (or other schemes such as non-equilibrium dynamics) are not currently in scope, but this may change in the future.
 
 For more on the information content of the ``Interchange`` object, see a [corresponding
-section](https://openff-interchange.readthedocs.io/en/latest/using/design.html) in the documentation.
+section](https://openff-interchange.readthedocs.io/en/v0.1.3/using/design.html) in the documentation.
 
 
 ## Preparing data for parametrization
 
 The high-level entry point for using Interchange with the OpenFF stack is
-[Interchange.from_smirnoff](https://openff-interchange.readthedocs.io/en/latest/_autosummary/openff.interchange.components.interchange.Interchange.html#openff.interchange.components.interchange.Interchange.from_smirnoff).
+[Interchange.from_smirnoff](https://openff-interchange.readthedocs.io/en/v0.1.3/_autosummary/openff.interchange.components.interchange.Interchange.html#openff.interchange.components.interchange.Interchange.from_smirnoff).
 The two required arguments are the key inputs for the construction of any molecular mechanics
 system: a chemical topology and a force field, with information about how the latter should be
 "applied." This post focuses on use with the OpenFF stack, but one could imagine replacements for
@@ -113,11 +113,11 @@ reach that are not part of OpenFF software.
 
 Within the OpenFF stack, the two object models are
 provided by the toolkit: its
-[`Topology`](https://open-forcefield-toolkit.readthedocs.io/en/latest/api/generated/openff.toolkit.topology.Topology.html#openff.toolkit.topology.Topology)
+[`Topology`](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/api/generated/openff.toolkit.topology.Topology.html#openff.toolkit.topology.Topology)
 and
-[`ForceField`](https://open-forcefield-toolkit.readthedocs.io/en/latest/api/generated/openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.html#openff.toolkit.typing.engines.smirnoff.forcefield.ForceField)
+[`ForceField`](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/api/generated/openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.html#openff.toolkit.typing.engines.smirnoff.forcefield.ForceField)
 classes. This post will not go into detail about the different ways that input data can be prepared - there are [many
- ways](https://open-forcefield-toolkit.readthedocs.io/en/latest/users/molecule_cookbook.html) to get chemical input data into this object model! The chemical topology will simply be a caffeine molecule and the latest mainline force field release from the Open Force Field Initiative: version 2.0.0 "Sage"
+ ways](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/users/molecule_cookbook.html) to get chemical input data into this object model! The chemical topology will simply be a caffeine molecule and the latest mainline force field release from the Open Force Field Initiative: version 2.0.0 "Sage"
 
 ```python
 from openff.toolkit.topology import Molecule, Topology
@@ -130,7 +130,7 @@ topology = caffeine.to_topology()
 sage = ForceField("openff_unconstrained-2.0.0.offxml")
 ```
 
-To belabor the point about where exactly in a workflow we are focused, one can load in another [available force field](https://open-forcefield-toolkit.readthedocs.io/en/latest/api/generated/openff.toolkit.typing.engines.smirnoff.forcefield.get_available_force_fields.html#openff.toolkit.typing.engines.smirnoff.forcefield.get_available_force_fields) or generate a prepare a topology with an arbitrary number of different molecules.
+To belabor the point about where exactly in a workflow we are focused, one can load in another [available force field](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/api/generated/openff.toolkit.typing.engines.smirnoff.forcefield.get_available_force_fields.html#openff.toolkit.typing.engines.smirnoff.forcefield.get_available_force_fields) or generate a prepare a topology with an arbitrary number of different molecules.
 
 
 ## Using Interchange
@@ -140,8 +140,8 @@ Now that everything is prepared, we simply construct an ``Interchnage`` object w
 ```python
 from openff.interchange.components.interchange import Interchange
 
-out = Interchange.from_smirnoff(force_field=sage, topology=topology)
-out
+interchange = Interchange.from_smirnoff(force_field=sage, topology=topology)
+interchange
 ```
     Interchange with 24 atoms, non-periodic topology
 
@@ -149,9 +149,9 @@ This object is currently missing positions and box information. Let's use the co
 earlier and assign box vectors to something more than twice the cutoff that Sage uses (0.9 nanometers).
 
 ```python
-out.box = [4, 4, 4]
-out.positions = caffeine.conformers[0]
-out.box
+interchange.box = [4, 4, 4]
+interchange.positions = caffeine.conformers[0]
+interchange.box
 ```
     array([[4., 0., 0.],
        [0., 4., 0.],
@@ -165,10 +165,10 @@ different force fields. But for this example, we're (partially) done! The ``Inte
 fully constructed and we can export its contents to objects understood by simulations engines.
 
 As a brief aside,
-[migrating](https://openff-interchange.readthedocs.io/en/latest/using/migrating.html#migrating-from-the-openff-toolkit)
+[migrating](https://openff-interchange.readthedocs.io/en/v0.1.3/using/migrating.html#migrating-from-the-openff-toolkit)
 existing code from using the OpenFF Toolkit's OpenMM interface to using Interchange directly is
 straightforward. Wherever
-[`ForceField.create_openmm_system](https://open-forcefield-toolkit.readthedocs.io/en/latest/api/generated/openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.html#openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.create_openmm_system)
+[`ForceField.create_openmm_system](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/api/generated/openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.html#openff.toolkit.typing.engines.smirnoff.forcefield.ForceField.create_openmm_system)
 is was used, simply replace it with `Interchange.from_smirnoff` like so:
 
 ```python
@@ -176,7 +176,7 @@ is was used, simply replace it with `Interchange.from_smirnoff` like so:
 openmm_system = forcefield.create_openmm_system(topology)
 
 # New code generating an Interchange object
-out = Interchange.from_smirnoff(forcefield, topology)
+interchange = Interchange.from_smirnoff(forcefield, topology)
 ```
 
 The functions have different names and outputs, but their inputs are identical!
@@ -192,18 +192,18 @@ methods and distances, in particular).
 
 ```python
 # GROMACS
-out.to_gro("out.gro")
-out.to_top("out.top")
+interchange.to_gro("out.gro")
+interchange.to_top("out.top")
 
 # Amber
-out.to_inpcrd("out.inpcrd")
-out.to_prmtop("out.prmtop")
+interchange.to_inpcrd("out.inpcrd")
+interchange.to_prmtop("out.prmtop")
 
 # LAMMPS
-out.to_lammps("out.lmp")
+interchange.to_lammps("out.lmp")
 
 # OpenMM (`openmm.System`)
-openmm_system = out.to_openmm()
+openmm_system = interchange.to_openmm()
 
 # The OpenFF Toolkit provides direct exports to `openmm.app.Topology`!
 openmm_topology = topology.to_openmm()
@@ -214,7 +214,7 @@ module; accessing them as methods on the core object is meant to make it easier 
 operation.
 
 For more on the export layer, see a [corresponding
-section](https://openff-interchange.readthedocs.io/en/latest/using/output.html) in the documentation.
+section](https://openff-interchange.readthedocs.io/en/v0.1.3/using/output.html) in the documentation.
 
 
 ## Validating exports
@@ -239,7 +239,7 @@ from openff.interchange.drivers.lammps import get_lammps_energies
 ```
 
 ```python
-print(get_gromacs_energies(out))
+print(get_gromacs_energies(interchange))
 ```
     Energies:
 
@@ -253,7 +253,7 @@ print(get_gromacs_energies(out))
 (Note that all of these outputs will have a `None` for their nonbonded energy, since the underlying engines have separated this out into `vdW` and `Electrostatics` components already)
 
 ```python
-print(get_amber_energies(out))
+print(get_amber_energies(interchange))
 ```
     Energies:
 
@@ -265,7 +265,7 @@ print(get_amber_energies(out))
     Electrostatics:		-707.0098095999999 kJ / mol
 
 ```python
-print(get_openmm_energies(out))
+print(get_openmm_energies(interchange))
 ```
     Energies:
 
@@ -277,7 +277,7 @@ print(get_openmm_energies(out))
     Electrostatics:		-707.037225348007 kJ / mol
 
 ```python3
-print(get_lammps_energies(out))
+print(get_lammps_energies(interchange))
 ```
     Energies:
 
@@ -385,7 +385,7 @@ Lastly, support for _importing_ from other object models is planned in general t
 topic of active development at this moment. As a proof of concept that this is possible - that
 ``Interchange`` is not wholly specific to SMIRNOFF force fields and the OpenFF stack - we worked
 with the [MoSDeF](https://mosdef.org) team at Vanderbilt University to add
-[``Interchange.from_foyer``](https://openff-interchange.readthedocs.io/en/latest/_autosummary/openff.interchange.components.interchange.Interchange.html#openff.interchange.components.interchange.Interchange.from_foyer), which, as the name implies, creates an ``Interchange`` object from a
+[``Interchange.from_foyer``](https://openff-interchange.readthedocs.io/en/v0.1.3/_autosummary/openff.interchange.components.interchange.Interchange.html#openff.interchange.components.interchange.Interchange.from_foyer), which, as the name implies, creates an ``Interchange`` object from a
 [Foyer](foyer.mosdef.org) force field and a minimal chemical graph. Note that the structure of
 the function is similar (force field plus chemical topology) but with different object swapped in!
 We hope that this can work be extended to support some amount of _importing_ from existing force
@@ -405,13 +405,13 @@ Interchange can be installed via `conda` (or `mamba`) on `conda-forge`:
 $ conda install openff-interchange -c conda-forge
 ```
 
-See [here](https://openff-interchange.readthedocs.io/en/latest/installation.html) for more details.
+See [here](https://openff-interchange.readthedocs.io/en/v0.1.3/installation.html) for more details.
 
 
 ## Further reading
 
 For more details, please consult the [full
-documentation](https://openff-interchange.readthedocs.io/en/latest/index.html#).
+documentation](https://openff-interchange.readthedocs.io/en/v0.1.3/index.html#).
 
 Examples using Interchange are available via
 [binder](https://mybinder.org/v2/gh/openforcefield/openff-system/master?filepath=%2Fexamples%2F),
