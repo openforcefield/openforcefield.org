@@ -1,0 +1,16 @@
+name: 2021-interchange-update
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - pip
+  - openff-toolkit=0.10.1
+  - openff-forcefields=2.0.0
+  - openff-interchange=0.1.3
+  - openff-units=0.1.3
+  - openff-utilities=0.1.1
+  - rdkit=2021.09
+  - lammps=2021.09
+  - gromacs=2021
+  - openmm=7.6

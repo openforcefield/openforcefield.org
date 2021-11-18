@@ -33,12 +33,13 @@ post are likely to be out of date in the future. Links in this post point to doc
 that may be outdated.
 {{< /note >}}
 
-Code in this post should run if copy-pasted into a Jupyter notebook or Python interpreter. This is
-being written in November 2021 and code snippets intended to be used with Interchange v0.1.3. The
-API is not yet stable; the names, import paths, and structure of key components will likely be
-updated in the future in accordance with user feedback. If you'd like to follow along, see
-installation instructions at the bottom of the page; ``Interchange`` is distributed under the MIT
-license and all functionality is accessible using only free and open-source tools.
+Code in this will run if copy-pasted into a Jupyter notebook or Python interpreter. This is being
+written in November 2021 and code snippets intended to be used with Interchange v0.1.3.  The API is
+not yet stable; the names, import paths, and structure of key components will likely be updated in
+the future in accordance with user feedback. If you'd like to follow along, see installation
+instructions at the bottom of the page or use [this](../interchange-update-2021-11-10.yaml) file to
+create the same environment used while writing this post. ``Interchange`` is distributed under the
+MIT license and all functionality is accessible using only free and open-source tools.
 
 
 ## Contents of an Interchange object
@@ -190,10 +191,10 @@ is was used, simply replace it with `Interchange.from_smirnoff` like so:
 
 ```python
 # Existing code generating an OpenMM System
-openmm_system = forcefield.create_openmm_system(topology)
+openmm_system = sage.create_openmm_system(topology)
 
 # New code generating an Interchange object
-interchange = Interchange.from_smirnoff(forcefield, topology)
+interchange_ = Interchange.from_smirnoff(sage, topology)
 ```
 
 The functions have different names and outputs, but their inputs are identical!
