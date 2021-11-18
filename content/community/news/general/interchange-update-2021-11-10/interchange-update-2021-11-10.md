@@ -8,7 +8,7 @@ description: 'Interchange: Enabling the broader use of OpenFF force fields'
 slug: 'interchange-update-2021-11-10'
 weight: 10
 markup: markdown
-thumb: "foo.png"
+thumb: "usgs-interchange.png"
 author: "Matt Thompson"
 ---
 
