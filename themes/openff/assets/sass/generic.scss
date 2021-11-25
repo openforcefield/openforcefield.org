@@ -24,7 +24,6 @@ html, body {
   font-family: DefaultFont;
   position: absolute;
   top: 0;
-  scroll-padding-top: 150px;
   @media (max-width: $breakpoint-phone) {
     font-size: 4vw;
   }
