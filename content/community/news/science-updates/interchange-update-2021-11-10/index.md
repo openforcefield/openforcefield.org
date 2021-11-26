@@ -1,8 +1,8 @@
 ---
 date: "2021-11-10T00:00:00+00:00"
 title: 'Interchange project update'
-tags: ["infrastructure", "interoperability"]
-categories: ["general"]
+tags: ["infrastructure", "interoperability", "interchange"]
+categories: ["science"]
 draft: false
 description: 'Interchange: Enabling the broader use of OpenFF force fields'
 slug: 'interchange-update-2021-11-10'
@@ -129,8 +129,7 @@ classes. This post will not go into detail about the different ways that input d
 there are [many
 ways](https://open-forcefield-toolkit.readthedocs.io/en/0.10.1/users/molecule_cookbook.html) to get
 chemical input data into this object model! The chemical topology will simply be a caffeine molecule
-and the latest mainline force field release from the Open Force Field Initiative: version 2.0.0
-"Sage"
+and OpenFF 2.0.0, the latest mainline force field release from the Open Force Field Initiative.
 
 ```python
 from openff.toolkit.topology import Molecule, Topology
