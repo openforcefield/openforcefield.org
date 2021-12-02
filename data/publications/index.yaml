@@ -1,3 +1,14 @@
+- title: "Improving force field accuracy by training against condensed phase mixture properties"
+  authors: "Simon Boothroyd, Owen C. Madin, David L. Mobley, Lee-Ping Wang, John D. Chodera and Michael R. Shirts"
+  summary: "Developing a sufficiently accurate classical force field representation of molecules is key to realizing the full potential of molecular simulation as a route to gaining fundamental insight into a broad spectrum of chemical and biological phenomena. This is only possible, however, if the many complex interactions between molecules of different species in the system are accurately captured by the model. Historically, the intermolecular van der Waals (vdW) interactions have primarily been trained against densities and enthalpies of vaporization of pure (single-component) systems, with occasional usage of hydration free energies. In this study, we demonstrate how including physical property data of binary mixtures can better inform these parameters, encoding more information about the underlying physics of the system in complex chemical mixtures. To demonstrate this, we re-train a select number of the Lennard-Jones parameters describing the vdW interactions of the OpenFF 1.0.0 (Parsley) fixed charge force field against training sets composed of densities and enthalpies of mixing for binary liquid mixtures as well as densities and enthalpies of vaporization of pure liquid systems, and assess the performance of each of these combinations. We show that retraining against the mixture data almost universally improves the force field's ability to reproduce both pure and mixture properties, reducing some systematic errors that exist when training vdW interactions against properties of pure systems only."
+  img: mixture-refit.png
+  date: 2021-11-16
+  preprint:
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv-2021-gsgr4
+    license: "CC BY 4.0"
+    date: 2021-11-16
+  code: SimonBoothroyd/binary-mixture-publication
 - title: "The Open Force Field Evaluator: An automated, efficient, and scalable framework for the estimation of physical properties from molecular simulation"
   authors: "Simon Boothroyd, Lee-Ping Wang, David Mobley, John Chodera, and Michael Shirts"
   summary: "Parameterization and assessment of force fields against high-quality, condensed phase physical property data is an integral aspect of force field development. Here we present an entirely automated, highly scalable framework for evaluating physical properties and their gradients in terms of force field parameters. It is written as a modular and extensible Python framework, which employs an intelligent multiscale estimation approach that allows for the automated estimation of properties from simulation and cached simulation data, and a pluggable API for estimation of new properties. In this study we demonstrate the utility of the framework by benchmarking the OpenFF 1.0.0 small molecule force field, GAFF 1.8 and GAFF 2.1 force fields against a test set of binary density and enthalpy of mixing measurements curated using the frameworks utilities. Further, we demonstrate the framework's utility as part of force field optimization by using it alongside ForceBalance, a framework for systematic force field optimization, to retrain a set of non-bonded van der Waals parameters against a training set of density and enthalpy of vaporization measurements."
@@ -9,6 +20,17 @@
     license: "CC BY 4.0"
     date: 2021-08-06
   code: openforcefield/openff-evaluator
+- title: "Bayesian inference-driven model parameterization and model selection for 2CLJQ fluid models"
+  authors: "Owen C. Madin, Simon Boothroyd, Richard A. Messerly, John D. Chodera, Josh Fass, and Michael R. Shirts"
+  summary: "A high level of physical detail in a molecular model improves its ability to perform high accuracy simulations, but can also significantly affect its complexity and computational cost. In some situations, it is worthwhile to add additional complexity to a model to capture properties of interest; in others, additional complexity is unnecessary and can make simulations computationally infeasible. In this work we demonstrate the use of Bayes factors for molecular model selection, using Monte Carlo sampling techniques to evaluate the evidence for different levels of complexity in the two-centered Lennard-Jones + quadrupole (2CLJQ) fluid model. Examining three levels of nested model complexity, we demonstrate that the use of variable quadrupole and bond length parameters in this model framework is justified only sometimes. We also explore the effect of the Bayesian prior distribution on the Bayes factors, as well as ways to propose meaningful prior distributions. This Bayesian Markov Chain Monte Carlo (MCMC) process is enabled by the use of analytical surrogate models that accurately approximate the physical properties of interest. This work paves the way for further atomistic model selection work via Bayesian inference and surrogate modeling"
+  img: 2cljq-bayes.png
+  date: 2021-05-13
+  preprint:
+    server: arXiv
+    url: https://arxiv.org/abs/2105.07863
+    date: 2021-05-13
+    license: "CC BY 4.0"
+  code: SimonBoothroyd/bayesiantesting
 - title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks"
   authors: "David F. Hahn, Christopher I. Bayly, Hannah E. Bruce Macdonald, John D. Chodera, Antonia S. J. S. Mey, David L. Mobley, Laura Perez Benito, Christina E.M. Schindler, Gary Tresadern, Gregory L. Warren"
   summary: "As new methods, force fields, and implementations are developed, assessing the expected accuracy of free energy calculations on real-world systems (benchmarking) becomes critical to provide users with an assessment of the accuracy expected when these methods are applied within their domain of applicability, and developers with a way to assess the expected impact of new methodologies. Here, we present guidelines for (1) curating experimental data to develop meaningful benchmark sets, (2) preparing benchmark inputs according to best practices to facilitate widespread adoption, and (3) analysis of the resulting predictions to enable statistically meaningful comparisons among methods and force fields."
