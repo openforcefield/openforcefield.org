@@ -156,7 +156,7 @@ enableEmoji = true
 
       [[menu.main]]
         name = "Forum"
-        url = "/community/forum/"
+        url = "https://discourse.openforcefield.org/"
         parent = "community"
         identifier = "forum"
         weight = 5
