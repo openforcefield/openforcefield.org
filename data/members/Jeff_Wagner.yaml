@@ -1,11 +1,11 @@
 name: Jeff Wagner
-role: Senior Software Scientist
+role: Tech Lead
 filter-role: Management, Software Scientists
-lab: Mobley lab
-title: University of California, Irvine
+lab:
+title:
 institution: University of California, Irvine
 img: jeff-wagner.jpg
-description: _OpenFF software development, lead developer of OpenFF Toolkit, software support_
+description: _OpenFF software development and architecture, lead developer of OpenFF Toolkit, software support_
 google_scholar: https://scholar.google.com/citations?user=9NUU5bYAAAAJ&hl=en
 ORCID: 0000-0001-6448-0873
 github: j-wags
