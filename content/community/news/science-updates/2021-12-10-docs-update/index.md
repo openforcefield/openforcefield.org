@@ -1,11 +1,11 @@
 ---
-date: "2022-01-17T00:00:00+00:00"
+date: "2022-01-19T00:00:00+00:00"
 title: "We can have nice things"
 tags: ["documentation", "infrastructure"]
 categories: ["science"]
-draft: true
+draft: false
 description: "OpenFF's documentation ecosystem."
-slug: 'docs-update-2022-1-17'
+slug: 'docs-update-2022-1-19'
 weight: 10
 markup: markdown
 thumb: "thumb.svg"
@@ -130,9 +130,10 @@ way to specify whether a module or package should be documented or private
 without requiring devs to rename it. I also want to move forward in automating
 the API reference for the Toolkit, which may involve rethinking how we approach
 organising that API. Finally, I'd love to be able to write docstrings in
-Markdown; Autodoc's output is currently hard-coded as rST, and extending this is
-a [big enough project] that it hasn't been attempted yet. I'm hoping to spend a
-few cycles investigating this issue more deeply.
+Markdown; Autodoc's output is currently hard-coded as rST, and extending this
+is a [big enough project] that it hasn't been attempted yet, though some
+[initial experiments] are taking place in the MyST project. I'm hoping to spend
+a few cycles investigating this issue more deeply.
 
 [Interchange]: https://openff-interchange.readthedocs.io/en/latest/_autosummary/openff.interchange.html
 [BespokeFit]: https://openff-bespokefit.readthedocs.io/en/latest/_autosummary/openff.bespokefit.html
@@ -142,6 +143,7 @@ few cycles investigating this issue more deeply.
 [autodoc_pydantic]: https://github.com/mansenfranzen/autodoc_pydantic
 [custom templates]: https://github.com/openforcefield/openff-interchange/tree/master/docs/_templates/autosummary
 [big enough project]: https://github.com/sphinx-doc/sphinx/issues/8018
+[initial experiments]: https://github.com/executablebooks/MyST-Parser/issues/228
 
 ## Testing documentation
 
@@ -170,7 +172,7 @@ But some documentation can actually be tested. The classic example of this is
 code examples. If the docs include example code, it seems clear that the
 examples should be tested in CI. Python provides [`doctest`] for exactly this
 purpose, and [pytest supports it]. Unfortunately, doctest is designed to mimic
-an interactive Python session. Every line of code must be prepended by a
+an interactive Python session. Every line of code must be prepended with a
 prompt, all output must be included, test sessions operate on the level of
 files rather than text blocks, and the author has very little control over the
 presentation. To get the benefit of tested code examples, every code block must
