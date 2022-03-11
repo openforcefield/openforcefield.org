@@ -84,18 +84,19 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 ## Consortium Advisory Board
 {{< ul >}}
 - [Cristopher Bayly](https://www.linkedin.com/in/christopher-bayly-b1341021/) (OpenEye)
+- [Pilar Buteler](https://www.linkedin.com/in/pilar-buteler) (Eli Lilly)
 - [Thomas Fox](https://www.linkedin.com/in/thomas-fox-11b44b54/) (Boehringer-Ingelheim)
 - [Charles Hutchins](https://www.linkedin.com/in/charles-hutchins-7b589b11/) (AbbVie)
+- [Dan McKay](https://ca.linkedin.com/in/dan-mckay-75539315) (Ventus Therapeutics)
 - [Sirish Kaushik Lakkaraju](https://www.linkedin.com/in/sirish-kaushik-lakkaraju-8906657/) (Bristol-Myers Squibb)
 - [Xavier Lucas](https://www.linkedin.com/in/xlucas/) (Roche)
 - [Mark Mackey](https://www.linkedin.com/in/mark-mackey-6b4b8a23/) (Cresset)
 - [Katharina Meier](https://www.linkedin.com/in/katharina-meier-24744887/) (Bayer)
 - [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex), Secretary
 - [Frank Pickard](https://www.linkedin.com/in/frank-pickard/) (Pfizer)
+- [David Rooklin](https://www.linkedin.com/in/david-rooklin-7485194a) (Redesign Science)
 - [Christina Schindler](https://www.linkedin.com/in/christina-schindler-049628114/) (Merck KGaA)
-- [Michal Vieth](https://www.linkedin.com/in/michal-vieth-9637b560) (Eli Lilly)
 - [Herman Van Vlijmen](https://www.linkedin.com/in/herman-van-vlijmen-9452461/) (Janssen)
-- [Ross Walker](https://www.linkedin.com/in/ross-walker-11483b1/) (GSK)
 - and others... {{< /ul >}}
 {{< br >}}
 {{< center >}}
@@ -112,11 +113,12 @@ The [Open Force Field Consortium officially launched](/community/news/news/intro
 - [Cresset](https://www.cresset-group.com/)
 - [Eli Lilly](https://www.lilly.com/)
 - [F. Hoffman-La Roche AG](https://www.roche.com/)
-- [GlaxoSmithKline](https://www.gsk.com/en-gb/)
 - [Janssen](https://www.janssen.com/)
 - [Merck KGaA](https://www.merckgroup.com/en)
 - [OpenEye](https://www.eyesopen.com/)
 - [Pfizer](https://www.pfizer.com/)
+- [Redesign Science](http://www.redesignscience.com/)
+- [Ventus Therapeutics](https://www.ventustx.com/)
 - [Vertex Pharmaceuticals](https://www.vrtx.com/)
 - and others...
 {{< /ul >}}
