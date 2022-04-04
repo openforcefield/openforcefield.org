@@ -18,7 +18,7 @@ When using Open Force Field parameters or software in your research, please cite
 
 * OpenFF BespokeFit ([Zenodo DOI](https://zenodo.org/record/5172174#.YkdU1JPMLMI))
 
-* OpenFF Evaluator ([Boothroyd et al. preprint](https://zenodo.org/record/5695016#.YkdTX5PMLMI) + [Specific version DOI](https://zenodo.org/record/5695016#.YkdTX5PMLMI))
+* OpenFF Evaluator ([Boothroyd et al. preprint](https://chemrxiv.org/engage/chemrxiv/article-details/610ad0ed45805d722f80e4de) + [Specific version DOI](https://zenodo.org/record/5695016#.YkdTX5PMLMI))
 
 ### Research
 
