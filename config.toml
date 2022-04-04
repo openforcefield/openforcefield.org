@@ -89,6 +89,13 @@ enableEmoji = true
         identifier = "collaborative-projects"
         weight = 3
 
+      [[menu.main]]
+        name = "How to cite"
+        url = "/science/how-to-cite/"
+        parent = "science"
+        identifier = "how-to-cite"
+        weight = 4
+
   [[menu.main]]
     name = "Software"
     url = "software"
