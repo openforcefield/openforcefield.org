@@ -93,7 +93,7 @@ enableEmoji = true
         name = "How to cite"
         url = "/science/how-to-cite/"
         parent = "science"
-        identifier = "hot-to-cite"
+        identifier = "how-to-cite"
         weight = 4
 
   [[menu.main]]

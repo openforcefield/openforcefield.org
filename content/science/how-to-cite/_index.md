@@ -8,17 +8,17 @@ When using Open Force Field parameters or software in your research, please cite
 
 ### Force fields
 
-* Parsley ([Qiu et al., 2021](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00571) + [Zenodo DOIs](https://github.com/openforcefield/openff-forcefields#open-force-fields))
+* Parsley ([Qiu et al., 2021](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00571) + [Specific version DOI](https://github.com/openforcefield/openff-forcefields#open-force-fields))
 
-* Sage ([Qiu et al., 2021](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00571) + [Zenodo DOIs](https://github.com/openforcefield/openff-forcefields#open-force-fields))
+* Sage ([Qiu et al., 2021](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00571) + [Specific version DOI](https://github.com/openforcefield/openff-forcefields#open-force-fields))
  
 ### Software
 
-* Toolkit ([Mobley et al., 2018](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00640) + [latest version](https://zenodo.org/record/6310995#.YkdRtpPMLMI))
+* OpenFF Toolkit ([Mobley et al., 2018](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00640) + [Specific version DOI](https://zenodo.org/record/6310995#.YkdRtpPMLMI))
 
-* BespokeFit ([Zenodo DOI](https://zenodo.org/record/5172174#.YkdU1JPMLMI))
+* OpenFF BespokeFit ([Zenodo DOI](https://zenodo.org/record/5172174#.YkdU1JPMLMI))
 
-* Evaluator ([Boothroyd et al. preprint](https://zenodo.org/record/5695016#.YkdTX5PMLMI) + [Zenodo DOI](https://zenodo.org/record/5695016#.YkdTX5PMLMI))
+* OpenFF Evaluator ([Boothroyd et al. preprint](https://zenodo.org/record/5695016#.YkdTX5PMLMI) + [Specific version DOI](https://zenodo.org/record/5695016#.YkdTX5PMLMI))
 
 ### Research
 
