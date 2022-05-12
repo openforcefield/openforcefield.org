@@ -53,7 +53,7 @@ with QM is not expected.
 | Sage (OpenFF-2.0.0) |        0.652        |      1.096      |
 | Bespoke Sage        |        0.614        |      0.419      |
 
-The figure below emphasises the accuracy improvments in the torsional PES when using a Bespokefit optimised force field 
+The figure below emphasizes the accuracy improvements in the torsional potential energy surface when using a Bespokefit optimized force field 
 compared to the base state-of-the-art general force field.
 ![bespoke-td-example](bespoke-td1.svg "Bespoke torsion drive example")
 
