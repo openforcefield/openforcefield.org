@@ -18,7 +18,7 @@ We are very pleased to officially announce the release of :tada:[OpenFF-Bespokef
 - **Scalability**: In order to be effective we need to fit parameters at scale and so the schema execution workflow has been reworked from the ground up to offer a scalable server, worker implementation allowing users to configure resources to individual stages of the workflow.
 - **Speed**: To decrease fitting times when possible Bespokefit now uses an internal caching mechanism that enables the results from each stage to be saved and reused, including bespoke parameters.
 - **Usability**: The CLI has been expanded to make the fitting experience as convenient as possible with sensible defaults which provide a consistent derivation protocol with that of the base force field. Optional flags also allow users to augment the fitting procedure, however, without needing to touch a line of code.
-- **Documentation**: To help users get set up quickly and learn more about how Bespokefit works under the hood we now have an extensive set of documentation thanks to [Josh Mitchell](https://docs.openforcefield.org/projects/bespokefit/en/latest/).
+- **Documentation**: To help users get set up quickly and learn more about how Bespokefit works under the hood we now have an extensive set of [documentation](https://docs.openforcefield.org/projects/bespokefit/en/latest/) thanks to Josh Mitchell.
 
 # Validation
 
@@ -40,7 +40,7 @@ under the dataset name ``OpenFF-benchmark-ligand-fragments-v2.0``. We then downl
 Bespokefit fitting server which allows us to search the dataset for fragment-specific torsion drives, a feature which is not 
 currently available in QCFractal. All the fragments were then processed using the default fitting procedure, resulting in 
 bespoke parameters consistent with the base choice of force field which in this case was 
-[Sage](https://openforcefield.org/force-fields/force-fields/) (OpenFF-2.0.0.offxml). 
+[Sage](https://openforcefield.org/force-fields/force-fields/) (`openff-2.0.0.offxml`). 
 Once the unique torsion parameters had been derived we then assessed their accuracy by analysing how well the final force fields
 are able to recover the QM geometries (Max RMSD between QM and MM optimized geometries) and energies (RMSE between QM and MM potential energy surfaces). The results are shown in the table below for both Sage, and Sage modified with 
 Bespokefit derived torsions. As expected, the bespoke parameterization shows a clear improvement in the potential energy surface across the 
@@ -61,8 +61,8 @@ compared to the base state-of-the-art general force field.
 The ultimate goal of our bespoke parameterization is to improve force field accuracy for typical applications in drug discovery, such as 
 binding free energy calculations.
 Here we have chosen to compute relative binding free energies for the congeneric series of inhibitors 
-of the TYK2 protein parameterized with Parsley version 1.3.0 (OpenFF-1.3.0.offxml), supplemented by bespoke torsion parameters. 
-The following figures show the results of the relative binding free energy calculations with both the base OpenFF-1.3 FF (left)
+of the TYK2 protein parameterized with Parsley version 1.3.0 (`openff-1.3.0.offxml`), supplemented by bespoke torsion parameters. 
+The following figures show the results of the relative binding free energy calculations with both the base OpenFF-1.3.0 FF (left)
 and the Bespokefit augmented counterpart (right). As can be seen from the ∆G plots the base OpenFF-1.3.0 FF provides competitive 
 performance on this dataset with the desired sub 1 kcal/mol performance. The Bespokefit version further
 improves each of the measured statistics, without introducing any large errors. This indicates that our choice of fragmentation scheme
