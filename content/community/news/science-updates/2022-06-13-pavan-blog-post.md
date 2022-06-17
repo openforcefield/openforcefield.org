@@ -94,7 +94,7 @@ Figure 1: David Dotson's illustration of a dataset's lifecycle
 Dataset retrieval is again facilitated by [openff-qcsubmit](https://docs.openforcefield.org/projects/qcsubmit/en/latest/examples/retrieving-results.html) and there are a lot of post-processing functions that help filter out the necessary molecule sets.
 Single point calculations are still a little bit difficult to download; faster and evolving infrastructure changes aim to smooth it further. 
 
-A working example of creating a torsiondrive dataset of biaryls with different substituents is shown in the notebooks for anyone interested. Setting up a manager and worker on a slurm based cluster is also given in the notebooks.
+A working example of creating a torsiondrive dataset of biaryls with different substituents is shown in the [notebooks](https://github.com/pavankum/blogpost) for anyone interested. Setting up a manager and worker on a slurm based cluster is also given in the notebooks.
 
 ## Evolving infrastructure
 As we use our existing infrastructure, we are always looking for ways to improve and evolve it.
