@@ -8,6 +8,13 @@
     url: https://doi.org/10.26434/chemrxiv-2021-gsgr4-v2
     license: "CC BY 4.0"
     date: 2021-11-16
+  published:
+    doi: https://doi.org/10.1021/acs.jcim.1c00829
+    journal: Journal of Chemical Theory and Computation
+    volume: 18:6
+    pages: 3577–3592
+    year: 2022
+    date: 2022-05-09
   code: SimonBoothroyd/binary-mixture-publication
 - title: "The Open Force Field Evaluator: An automated, efficient, and scalable framework for the estimation of physical properties from molecular simulation"
   authors: "Simon Boothroyd, Lee-Ping Wang, David Mobley, John Chodera, and Michael Shirts"
@@ -16,9 +23,16 @@
   date: 2021-08-21
   preprint:
     server: chemRxiv
-    url: https://doi.org/10.33774/chemrxiv-2021-jz3zq
+    url: https://doi.org/10.26434/chemrxiv-2021-gsgr4-v3
     license: "CC BY 4.0"
     date: 2021-08-06
+  published:
+    doi: https://doi.org/10.1021/acs.jctc.1c01111
+    journal: Journal of Chemical Theory and Computation
+    volume: 18:6
+    pages: 3566–3576
+    year: 2022
+    date: 2022-05-04
   code: openforcefield/openff-evaluator
 - title: "Bayesian inference-driven model parameterization and model selection for 2CLJQ fluid models"
   authors: "Owen C. Madin, Simon Boothroyd, Richard A. Messerly, John D. Chodera, Josh Fass, and Michael R. Shirts"
@@ -30,6 +44,13 @@
     url: https://arxiv.org/abs/2105.07863
     date: 2021-05-13
     license: "CC BY 4.0"
+  published:
+    doi: https://doi.org/10.1021/acs.jcim.1c00829
+    journal: Journal of Chemical Information and Modeling
+    volume: 62:4
+    pages: 874-889
+    year: 2022
+    date: 2022-02-07
   code: SimonBoothroyd/bayesiantesting
 - title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks"
   authors: "David F. Hahn, Christopher I. Bayly, Hannah E. Bruce Macdonald, John D. Chodera, Antonia S. J. S. Mey, David L. Mobley, Laura Perez Benito, Christina E.M. Schindler, Gary Tresadern, Gregory L. Warren"
