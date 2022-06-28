@@ -33,8 +33,20 @@
   title = "Science"
   url = "/science"
   [[column2]]
+    title = "Research"
+    url = "/science/research"
+    parent = "science"
+  [[column2]]
     title = "Publications"
     url = "/science/publications"
+    parent = "science"
+  [[column2]]
+    title = "Collaborative projects"
+    url = "/science/collaborative-projects/"
+    parent = "science"
+  [[column2]]
+    title = "How to Cite"
+    url = "/science//how-to-cite/"
     parent = "science"
 
 [[column2]]
@@ -45,9 +57,17 @@
   title = "Data"
   url = "/data"
 
-[[column2]]
+[[column3]]
   title = "Force Fields"
-  url = "/forcefields"
+  url = "/force-fields"
+  [[column3]]
+    title = "Force Fields"
+    url = "/force-fields/force-fields"
+    parent = "force-fields"
+  [[column3]]
+    title = "Versioning"
+    url = "/force-fields/versioning"
+    parent = "force-fields"
 
 [[column3]]
   title = "Community"
