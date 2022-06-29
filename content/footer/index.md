@@ -49,11 +49,11 @@
     url = "/science//how-to-cite/"
     parent = "science"
 
-[[column2]]
+[[column3]]
   title = "Software"
   url = "/software"
 
-[[column2]]
+[[column3]]
   title = "Data"
   url = "/data"
 
@@ -69,26 +69,26 @@
     url = "/force-fields/versioning"
     parent = "force-fields"
 
-[[column3]]
+[[column4]]
   title = "Community"
   url = "/community"
-  [[column3]]
+  [[column4]]
     title = "News"
     url = "/community/news"
     parent = "news"
-  [[column3]]
+  [[column4]]
     title = "Events"
     url = "/community/events"
     parent = "news"
-  [[column3]]
+  [[column4]]
     title = "Collaborate"
     url = "/community/collaborate"
     parent = "news"  
-  [[column3]]
+  [[column4]]
     title = "FAQ"
     url = "/community/faq"
     parent = "news"  
-  [[column3]]
+  [[column4]]
     title = "Forum"
     url = "/community/forum"
     parent = "news"

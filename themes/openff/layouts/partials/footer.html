@@ -36,6 +36,15 @@
 			{{ end }}
 		{{ end }}
 	</div>
+	<div class="footer-column4">
+		{{ range $footer.Params.column4 }}
+			{{ if .url }}
+				<a href="{{ .url }}" class="{{ if .parent }}footer-has-child{{ end }}">{{ .title }}</a>
+			{{ else }}
+				<div>{{ .title }}</div>
+			{{ end }}
+		{{ end }}
+	</div>
 	<div class="footer-right">
 		{{ range $footer.Params.right }}
 			{{ if .icon }}
