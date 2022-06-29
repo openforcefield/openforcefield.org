@@ -23,7 +23,7 @@ footer {
   > div {
     display: inline-block;
     vertical-align: top;
-    width: 19%;
+    width: 15%;
     + div {
       padding-left: 3*$padding;
     }
@@ -35,6 +35,7 @@ footer {
     &.footer-right {
       white-space: nowrap;
       font-weight: bold;
+      width: fit-content;
       @media (max-width: $breakpoint-phone) {
         padding-top: 1rem;
       }

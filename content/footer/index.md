@@ -33,42 +33,62 @@
   title = "Science"
   url = "/science"
   [[column2]]
+    title = "Research"
+    url = "/science/research"
+    parent = "science"
+  [[column2]]
     title = "Publications"
     url = "/science/publications"
     parent = "science"
+  [[column2]]
+    title = "Collaborative projects"
+    url = "/science/collaborative-projects/"
+    parent = "science"
+  [[column2]]
+    title = "How to Cite"
+    url = "/science//how-to-cite/"
+    parent = "science"
 
-[[column2]]
+[[column3]]
   title = "Software"
   url = "/software"
 
-[[column2]]
+[[column3]]
   title = "Data"
   url = "/data"
 
-[[column2]]
-  title = "Force Fields"
-  url = "/forcefields"
-
 [[column3]]
+  title = "Force Fields"
+  url = "/force-fields"
+  [[column3]]
+    title = "Force Fields"
+    url = "/force-fields/force-fields"
+    parent = "force-fields"
+  [[column3]]
+    title = "Versioning"
+    url = "/force-fields/versioning"
+    parent = "force-fields"
+
+[[column4]]
   title = "Community"
   url = "/community"
-  [[column3]]
+  [[column4]]
     title = "News"
     url = "/community/news"
     parent = "news"
-  [[column3]]
+  [[column4]]
     title = "Events"
     url = "/community/events"
     parent = "news"
-  [[column3]]
+  [[column4]]
     title = "Collaborate"
     url = "/community/collaborate"
     parent = "news"  
-  [[column3]]
+  [[column4]]
     title = "FAQ"
     url = "/community/faq"
     parent = "news"  
-  [[column3]]
+  [[column4]]
     title = "Forum"
     url = "/community/forum"
     parent = "news"
