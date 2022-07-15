@@ -7,7 +7,7 @@ draft: false
 description: "The Fifth Open Force Field Workshop (virtual) held on June 28, 2022"
 weight: 10
 author: "Diego Nolasco"
-thumb: "5th-openff-workshop-2.png"
+thumb: "5th-openff-workshop.png"
 ---
 
 <br>
