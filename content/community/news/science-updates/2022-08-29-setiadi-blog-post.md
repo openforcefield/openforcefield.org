@@ -172,9 +172,10 @@ We see that reducing the oxygen GB radius significantly improves the binding fre
 <b>Final Remarks</b>
 
 In this blog, I have shown an example of optimizing GB radii to fit host-guest binding data. The results here show some promise, but a larger training set is needed for production. There are also several things to consider:
-Which parameters should be optimized (i.e. how sensitive are different GB parameters to binding affinity)?
-How transferable are the optimized FF parameters to other host-guest complexes?
-What happens to other physical properties when we only fit the FF parameters to HG binding?
-How well do host-guest fitted FF parameters perform in protein-ligand systems?
+* Which parameters should be optimized (i.e. how sensitive are different GB parameters to binding affinity)?
+* How transferable are the optimized FF parameters to other host-guest complexes?
+* What happens to other physical properties when we only fit the FF parameters to HG binding?
+* How well do host-guest fitted FF parameters perform in protein-ligand systems?
+
 Although the example here optimizes GB radii, you can apply the same procedure to other FF parameters like Lennard-Jones. As our infrastructure evolves and the continual improvement of hardware, we can hope to be able to perform large-scale FF fitting to several physical properties, including HG binding to obtain an accurate FF for protein-ligand complexes.
 
