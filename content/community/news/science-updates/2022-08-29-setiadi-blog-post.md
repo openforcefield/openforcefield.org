@@ -5,7 +5,7 @@ tags: ["force field", "host-guest binding"]
 categories: ["science"]
 draft: false
 description: 'Tuning GBSA parameters to host-guest binding data using Open Force Field'
-slug: 'gbsa_parameters-openff-2022-08-29'
+slug: 'fitting_gbsa_parameters-openff-2022-08-29'
 weight: 10
 markup: markdown
 thumb: "setiadi-2022.png"
