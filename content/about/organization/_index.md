@@ -67,7 +67,7 @@ The **Open Force Field Consortium** is a pre-competitive, industry-funded effort
 
 The Consortium is not just a funding initiative, but a true collaboration. Namely, Consortium members *partner* to advance force fields. Industry partners often have tremendous expertise in the strengths and weaknesses of force fields, especially in real-world applications, and the Initiative can greatly benefit from their experience. We have an extensive Consortium Advisory Board (CAB) including members from all Partners that contribute above a threshold level of support. This board provides input on scientific directions and project plans, and elects industry representatives to the Governing Board. Our seven-member Governing Board includes two elected representatives from supporting Partners and five Principal Investigators. The Governing Board makes strategic operational decisions and oversees expenditures. Both boards are involved in regular calls and meetings with the Principal Investigators as part of the Initiative.
 
-The [Open Force Field Consortium officially launched](/community/news/news/introducing-the-consortium/) on Oct 1, 2018, but there is still room to join or get involved. Please contact [info@openforcefield.org](info@openforcefield.org) for more information!
+The [Open Force Field Consortium officially launched]({{< relref "introducing-the-consortium.md" >}}) on Oct 1, 2018, but there is still room to join or get involved. Please contact [info@openforcefield.org](info@openforcefield.org) for more information!
 
 {{< br >}}
 ## Consortium Governing Board
