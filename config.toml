@@ -167,3 +167,9 @@ enableEmoji = true
         parent = "community"
         identifier = "forum"
         weight = 5
+
+  [[menu.main]]
+      name = "How to join"
+      url = "how-to-join"
+      identifier = "how-to-join"
+      weight = 8
