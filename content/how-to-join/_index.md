@@ -8,6 +8,8 @@ title: Join us!
 2. You can email us at <a href="mailto:info@openforcefield.org">info@openforcefield.org</a> to schedule a short virtual meeting in which we will introduce the big picture of the Open Force Field Initiative. At this meeting we can go through the different membership levels and additional ways to contribute.
 3. Our team can make a formal presentation about the Open Force Field Initiative to you or your team. In this presentation we can go through the current status of projects and our plans in detail. Just email us at <a href="mailto:info@openforcefield.org">info@openforcefield.org</a>.
 
-If you would like to spread the word about the Open Force Field Initiative, click on our "one page" below, download this and share it freely.
+If you would like to spread the word about the Open Force Field Initiative, please use the materials provided below:
 
-{{< img src="img/OpenFF_one_page.pdf" class="full-image" style="width: 100%" alt="OpenFF one page" href="img/OpenFF_one_page.pdf">}}
+* [One page writeup on the project](https://github.com/openforcefield/openforcefield.org/raw/v2/OpenFF_one_page.pdf)
+
+* [Brief slide deck on the project](https://github.com/openforcefield/openforcefield.org/raw/v2/OpenFFIntro.pdf)
