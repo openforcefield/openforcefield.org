@@ -10,6 +10,6 @@ title: Join us!
 
 If you would like to spread the word about the Open Force Field Initiative, please use the materials provided below:
 
-* [One page writeup on the project](https://github.com/openforcefield/openforcefield.org/raw/v2/OpenFF_one_page.pdf)
+* [One page writeup on the project](https://zenodo.org/record/7430421#.Y5e3mS8w3VN)
 
-* [Brief slide deck on the project](https://github.com/openforcefield/openforcefield.org/raw/v2/OpenFFIntro.pdf)
+* [Brief slide deck on the project](https://zenodo.org/record/7430414#.Y5e3sy8w3VN)
