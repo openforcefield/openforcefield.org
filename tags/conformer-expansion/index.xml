@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conformer expansion on OpenFF</title>
+    <link>https://openforcefield.org/tags/conformer-expansion/</link>
+    <description>Recent content in conformer expansion on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/conformer-expansion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (Jun 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-06-25/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-06-25/</guid>
+      <description>QC datasets: A new “coverage dataset” has been built in the Mobley lab, which contains 71 molecules and covers relatively large parameter space (only 17 smirnoff99@Frosst parameters missing). This dataset is to be included in the QC data production pipeline, from SMILES to optimization. The single atoms and ions present in the coverage dataset for which bonded terms cannot be computed will be excluded from the pipeline. The best way to construct this pipeline for generating QC data based on this molecular set was discussed during this meeting.</description>
+    </item>
+    
+  </channel>
+</rss>

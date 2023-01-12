@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bespoke fit on OpenFF</title>
+    <link>https://openforcefield.org/tags/bespoke-fit/</link>
+    <description>Recent content in bespoke fit on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/bespoke-fit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to train your force field 2: Bespoke fit</title>
+      <link>https://openforcefield.org/community/news/science-updates/bespokefit-update-2021-10-20/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/bespokefit-update-2021-10-20/</guid>
+      <description>General transferable force fields, such as Parsley or Sage, allow us to rapidly parameterize small molecules covering vast amounts of chemical space for use in molecular dynamics simulations. However, with every force field comes the inherent assumption that parameters fit to a set of representative molecules in a training set are transferable to any new molecules with similar chemistry. Despite potential accuracy problems caused by poor transferability or discrete atom types the use of force fields in fields like drug discovery has been a massive success.</description>
+    </item>
+    
+    <item>
+      <title>4th Open Force Field Workshop Series (2021)</title>
+      <link>https://openforcefield.org/community/news/general/openff-followup-workshops-2021/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openff-followup-workshops-2021/</guid>
+      <description>Our 4th annual workshop took place on June 11, 2021 in virtual space. Based on the feedback from the participants in this keynote event, we organized two follow-up workshops in September providing a more detailed overview of the benchmarking practices and results, and bespoke fitting infrastructure.
+1. Benchmarking (Sep 1, 2021) The first follow-up workshop provided an overview of the methods used for the Season 1 of benchmarking and analysis of results from the private and public sets, and summarized progress on protein-ligand benchmarking.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data curation on OpenFF</title>
+    <link>https://openforcefield.org/tags/data-curation/</link>
+    <description>Recent content in data curation on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/data-curation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Pankaj R. Daga: Data Curation - The Forgotten Practice in The Era of AI (Sep 13, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-daga-sep2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-daga-sep2019/</guid>
+      <description>Pankaj R. Daga from Simulation-Plus will visit the Mobley group at UC Irvine and give his CADD GRC talk about all the hazards that can appear in trying to automate mining of chemical and chemistry-related databases. You can join the seminar via Zoom in real time on Sep 13 at 11 am (PDT), or watch it later on our YouTube channel.
+**Abstract:** Availability of large databases of chemical structures along with experimental data provides a great opportunity to build predictive and robust QSAR/QSPR models for application in various fields.</description>
+    </item>
+    
+  </channel>
+</rss>

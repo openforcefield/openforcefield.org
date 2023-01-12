@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>infrastructure on OpenFF</title>
+    <link>https://openforcefield.org/tags/infrastructure/</link>
+    <description>Recent content in infrastructure on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BespokeFit release</title>
+      <link>https://openforcefield.org/community/news/science-updates/bespokefit-update-2022-05-12/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/bespokefit-update-2022-05-12/</guid>
+      <description>We are very pleased to officially announce the release of 🎉openff-bespokefit🎉 for public use. The OpenFF BespokeFit framework aims to offer a completely automated workflow for creating bespoke, highly accurate, torsion parameters in the OpenFF SMIRNOFF format. Following our very early alpha preview late last year we have been hard at work to improve the experience that users can expect with BespokeFit, concentrating on a few key aspects:
+Reliability: BespokeFit should be able to reliably derive bespoke parameters for a wide range of drug-like molecules and so we have reworked our reference data generation to work with the fantastic QCEngine to offer a reliable and reproducible fitting experience.</description>
+    </item>
+    
+    <item>
+      <title>We can have nice things</title>
+      <link>https://openforcefield.org/community/news/science-updates/docs-update-2022-1-19/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/docs-update-2022-1-19/</guid>
+      <description>I think in scientific computing we can be so focused on the problems we&amp;rsquo;re solving that we&amp;rsquo;re slow to pick up new tooling that merely makes our lives easier. It&amp;rsquo;s like we imagine that, since we&amp;rsquo;re scientists, we have to make do with what we&amp;rsquo;ve got because we don&amp;rsquo;t have time to get anything better. But we can have nice things too; in this day and age, we are fortunate to have an enormous amount of high-quality tooling that means that many errors are caught before they make it to a release: GitHub Actions, conda-forge, PyTest, Black, Mamba, MyPy.</description>
+    </item>
+    
+    <item>
+      <title>Interchange project update</title>
+      <link>https://openforcefield.org/community/news/science-updates/interchange-update-2021-11-10/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/interchange-update-2021-11-10/</guid>
+      <description>Thus far, the only simulation engine natively supported by export from the OpenFF software stack has been OpenMM. OpenMM offers great performance on GPUs and excellent flexibility via its API, but many scientists wish to use tools that are only compatible with other molecular simulation engines, like AMBER and GROMACS. There are tools that can convert OpenMM objects to file formats understood by these other engines, but these steps can have rough edges and add complexity to users&amp;rsquo; workflows.</description>
+    </item>
+    
+    <item>
+      <title>How to train your force field 2: Bespoke fit</title>
+      <link>https://openforcefield.org/community/news/science-updates/bespokefit-update-2021-10-20/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/bespokefit-update-2021-10-20/</guid>
+      <description>General transferable force fields, such as Parsley or Sage, allow us to rapidly parameterize small molecules covering vast amounts of chemical space for use in molecular dynamics simulations. However, with every force field comes the inherent assumption that parameters fit to a set of representative molecules in a training set are transferable to any new molecules with similar chemistry. Despite potential accuracy problems caused by poor transferability or discrete atom types the use of force fields in fields like drug discovery has been a massive success.</description>
+    </item>
+    
+    <item>
+      <title>Surrogate-enabled Bayesian sampling of force field parameters</title>
+      <link>https://openforcefield.org/community/news/science-updates/bayesian-surrogate-modeling-2021-09-03/</link>
+      <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/bayesian-surrogate-modeling-2021-09-03/</guid>
+      <description>In the Open Force Field Initiative, we are always looking for novel ways to advance force field parameterization. Working on the parameterization of Lennard-Jones models, one strategy I am exploring is using Bayesian inference to explore parameter landscapes with respect to physical properties. This is a lot to parse in one sentence, so let&amp;rsquo;s break it down!
+Lennard-Jones parameterization relies on physical properties Since the earliest days of force field science, LJ parameters have been fitted against physical property datasets ( typically liquid densities and heats of vaporization).</description>
+    </item>
+    
+    <item>
+      <title>How to train your force field</title>
+      <link>https://openforcefield.org/community/news/science-updates/ff-training-example-2021-07-01/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/ff-training-example-2021-07-01/</guid>
+      <description>Within Open Force Field (as the name might suggest) a lot of time and effort is spent exploring exactly how should force fields be trained - what data should be fit to? how should that data influence the optimization e.g. L1, L2? what classical functional forms should be used for the force field interactions? or should everything just be machine learned a la ANI and friends.
+A big part of this process is automation.</description>
+    </item>
+    
+    <item>
+      <title>Infrastructure Lessons-learned</title>
+      <link>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/infrastructure-update-2021-05-19/</guid>
+      <description>It’s been more than a year since our last blog post, far longer than we could reasonably blame on lockdowns. This post will be an update after a year of software development and operational lessons-learned. In some ways this post may be interesting for an actual software person to read, since getting myself to this point required so many years of biology, chemistry, physics, and CS, that I never formally learned software engineering or project management, yet those have gradually become my primary roles in the organization.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</guid>
+      <description>TorsionDrive: Y. Qiu updated TorsionDrive with visualization and more documentation. He is planning to add functionality to TorsionDrive to store gradients, which are currently computed, but not recorded. D. Smith suggested having a schema defined for TorsionDrive jobs for future use, to facilitate using it in larger project infrastructure.
+Torsion/Valence Fitting: There was discussion of when fitting with ForceBalance might start. L.-P. Wang estimated that, provided with our first round of finished QC calculations, ForceBalance might take about a day to run before providing an optimized set of parameters.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-05/</guid>
+      <description>TorsionDrive: Y. Qiu started working on TorsionDrive and was unable to replicate D. Smith&amp;rsquo;s previously reported issue with 120 degree scan intervals. D. Smith confirmed that he was also unable to replicate and he suspects it might have been a version issue.
+QCFractal: Stable version of QCFractal is out and should be installed through pip or conda - always conda install qcportal -c conda-forge. QCPortal might throw an error if an older version of QCFractal is used.</description>
+    </item>
+    
+  </channel>
+</rss>

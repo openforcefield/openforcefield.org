@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open science on OpenFF</title>
+    <link>https://openforcefield.org/tags/open-science/</link>
+    <description>Recent content in open science on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/open-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Science</title>
+      <link>https://openforcefield.org/community/news/science-updates/open-science-2022-12-19/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/open-science-2022-12-19/</guid>
+      <description>Science plays a crucial role in shaping our future and increasing knowledge is key to this progress. This is why initiatives like the Open Force Field, which aim to turn cutting-edge scientific research into valuable technology, need ongoing support. By providing long-term support to these initiatives, we can ensure that they can continue to develop and deliver comprehensive solutions that are accessible to all. It is important to recognize that the success of initiatives like the Open Force Field relies on ongoing interest and support.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chaya Stern on OpenFF</title>
+    <link>https://openforcefield.org/tags/chaya-stern/</link>
+    <description>Recent content in Chaya Stern on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/chaya-stern/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Chaya Stern: Fragmenting molecules for QC torsion drives (Jun 4, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-stern-may2019/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-stern-may2019/</guid>
+      <description>You can watch this webinar on YouTube and access slides on Zenodo.
+Chaya Stern (Chodera lab) will give a webinar on Jun 4 at 11 am (EDT) under title “Fragmenting molecules for QC torsion drives”, based on her talk presented at the ACS Orlando conference (Mar 31 - Apr 4, 2019). Join the webinar in real time via Zoom link (https://meetmsk.zoom.us/j/987691623) or for those who can’t make it, Chaya’s talk will be recorded and shared on the website.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OFF Toolkit on OpenFF</title>
+    <link>https://openforcefield.org/tags/off-toolkit/</link>
+    <description>Recent content in OFF Toolkit on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/off-toolkit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (May 28, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-28/</guid>
+      <description>QCFractal: D. Smith announced that version 0.7 is out and update is recommended. Currently, QCPortal doesn’t check the QCFractal versions, so some unexpected errors may occur if users do not upgrade from 0.6. The QCArchive team is also planning to migrate the database from MongoDB to PostgreSQL during this week for some long-term benefits, including speed, smaller size and data integrity. More details about this migration should come in a blog post.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Apr 16, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-16/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-16/</guid>
+      <description>This meeting generally focused on planning for the first round of parameter optimization.
+OFF Toolkit: J. Wagner presented the initial release of the Open Force Field Toolkit, which includes specific Force Field modification tools that could be used by the Lee-Ping Wang lab / ForceBalance to more robustly handle OFFXML files and workflow integration.
+Torsion Workflow: J. Chodera led a short discussion on the overall shape of the final workflow, and what the interface would be to push molecules through it.</description>
+    </item>
+    
+  </channel>
+</rss>

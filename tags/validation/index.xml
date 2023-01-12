@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>validation on OpenFF</title>
+    <link>https://openforcefield.org/tags/validation/</link>
+    <description>Recent content in validation on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/validation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</guid>
+      <description>Today the PropertyEstimator group discussed our progress, moving forward towards our fitting process with ThermoML data and ForceBalance. Decisions about fitting techniques and data have been made, and we are moving on to testing and production.
+Database readiness
+S. Boothroyd has algorithmically selected a basic set from the ThermoML archive with coverage of our selected Lennard Jones parameters. For basic fitting, we are moving forward with this dataset; if time allows we will also include a hand-curated ThermoML dataset provided by Lee-Ping Wang.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jun 27, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</guid>
+      <description>Property selection: Discussion about which properties and the exact amount of data to be requested from NIST continues. One of the challenges is to find the right balance between the current and future parameterization needs, which includes making decisions about specific properties to be used for the first optimization sprint and specific chemistry that will be covered in this sprint (and maybe in the next one). For the latter, finding a set of molecules (SMILES) that exercise all SMIRNOFF parameters is desirable and J.</description>
+    </item>
+    
+  </channel>
+</rss>

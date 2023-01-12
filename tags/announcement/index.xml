@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>announcement on OpenFF</title>
+    <link>https://openforcefield.org/tags/announcement/</link>
+    <description>Recent content in announcement on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Joint support for Marie Curie Global Fellowship applicants</title>
+      <link>https://openforcefield.org/community/news/general/mscactions-postdoc/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/mscactions-postdoc/</guid>
+      <description>The Cole group, based at the University of Newcastle (UK), is looking to support applicants to the Marie Curie Global Postdoctoral Fellowship scheme in collaboration with the Open Force Field Initiative. The call has just been announced on June 22 and the applications are closing on Oct 12, 2021. Because the applications are quite intense for the hosting institution, the number of applicants supported will be limited. If you are interested, please send your CV and a brief research proposal to Daniel Cole at daniel.</description>
+    </item>
+    
+    <item>
+      <title>Announcing two new releases!</title>
+      <link>https://openforcefield.org/community/news/general/new-releases-oct2020/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/new-releases-oct2020/</guid>
+      <description>We&amp;rsquo;re pleased to announce TWO releases are now available!
+Force fields OpenFF-1.3.0, a minor update to Parsley that improves performance on amide geometries. Detailed release notes are available here.
+OpenFF Toolkit The Open Force Field Toolkit version 0.8.0. This release adds our largest feature yet, SMARTS-based creation of VirtualSites (also known as off-center charges), as well as functionality to handle bond parameter interpolation based on partial bond orders. Detailed release notes are available at here.</description>
+    </item>
+    
+    <item>
+      <title>Open Force Field Initiative receives NIH funding</title>
+      <link>https://openforcefield.org/community/news/general/openff-nih-funding/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openff-nih-funding/</guid>
+      <description>We are excited to announce that the NIH Institute of General Medical Sciences has funded our Focused Technology Research &amp;amp; Development R01 proposal, enabling the Open Force Field Initiative to partner with the biopolymer force field community and extend our infrastructure and force fields to also cover biopolymers. This is a collaborative NIH grant, with $380K direct costs/year for four years shared over the five main academic sites (University of Colorado Boulder, Memorial Sloan Kettering Cancer Center, University of California, Irvine, University of California, San Diego, and University of California, Davis), and includes significant funded collaborations with the MolSSI QCArchive and the AMBER community (via David Cerutti at Rutgers).</description>
+    </item>
+    
+    <item>
+      <title>The Third Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/may2020-meeting-announcement/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/may2020-meeting-announcement/</guid>
+      <description>The in-person meeting in Boston has been cancelled due to COVID-19 outbreak. Please save the dates (May 4-5, 2020) for the remote meeting. More details coming up soon. If you want to join the remote meeting, please fill out the form below. We are excited to announce the Third Open Force Field Consortium Workshop on May 4-5, 2020! This time we meet in Cambridge, MA and the venue has been generously provided by Pfizer, Inc.</description>
+    </item>
+    
+    <item>
+      <title>Aug 2019 Open Force Field Consortium Workshop</title>
+      <link>https://openforcefield.org/community/news/general/aug-2019-meeting-announcement/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/aug-2019-meeting-announcement/</guid>
+      <description>We are hosting the Second Open Force Field Consortium Workshop in La Jolla, CA on August 30-31, 2019. The first two days of the workshop will focus on the progress update and future planning of OpenFF efforts in Year 2. The third day (Sep 1) is reserved for OpenFF team discussions, but open to interested Industry Partners. The event will be again hosted at UCSD campus, but please note that the venue has been relocated from Jacobs Medical Center used in January to the Skaggs School of Pharmacy and Pharmaceutical Sciences building.</description>
+    </item>
+    
+  </channel>
+</rss>

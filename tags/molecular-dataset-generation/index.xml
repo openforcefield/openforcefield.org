@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>molecular dataset generation on OpenFF</title>
+    <link>https://openforcefield.org/tags/molecular-dataset-generation/</link>
+    <description>Recent content in molecular dataset generation on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/molecular-dataset-generation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Source, Enterprise-level Data Pipeline</title>
+      <link>https://openforcefield.org/community/news/science-updates/dataset_generation-openff-2022-06-13/</link>
+      <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/dataset_generation-openff-2022-06-13/</guid>
+      <description>In this blogpost I would like to introduce you to our molecular dataset generation workflow. At Open Force Field, we generate a lot of Quantum Mechanics (QM) data as well as Molecular Mechanics (MM) data, predominantly for drug-like small molecules. A few data oriented tasks include:
+training the valence parameters in the force field benchmarking the force field building bespoke parameters based on fragment torsions building machine learning models to predict charges building machine learned potentials and many more analyses to answer scientific questions related to virtual sites, polarizability, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

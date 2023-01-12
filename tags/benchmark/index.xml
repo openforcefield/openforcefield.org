@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>benchmark on OpenFF</title>
+    <link>https://openforcefield.org/tags/benchmark/</link>
+    <description>Recent content in benchmark on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benchmark: Collaborative assessment of molecular geometries and energies from the OpenFF</title>
+      <link>https://openforcefield.org/community/news/science-updates/benchmarking-openff-2022-04-15/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/benchmarking-openff-2022-04-15/</guid>
+      <description>The Open Force Field (OpenFF) Initiative focuses to build, optimize and assess a general force field (FF) using an automated and reproducible procedure, with all software, data, and workflows made freely available. Recently, the second generation of small molecule force field “Sage” (OpenFF 2.y.z) was released, featuring a retrained Lennard-Jones parameters in addition to continued improvements to the valence parameters. In this report, academic and industrial partners of the OpenFF Initiative worked together to assess the performance of recent OpenFF releases and other small molecule FFs against reference quantum mechanical (QM) calculations at the B3LYP-D3BJ/DZVP level of theory.</description>
+    </item>
+    
+  </channel>
+</rss>

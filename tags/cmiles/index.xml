@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CMILES on OpenFF</title>
+    <link>https://openforcefield.org/tags/cmiles/</link>
+    <description>Recent content in CMILES on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/cmiles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Chaya Stern: Fragmenting molecules for QC torsion drives (Jun 4, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-stern-may2019/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-stern-may2019/</guid>
+      <description>You can watch this webinar on YouTube and access slides on Zenodo.
+Chaya Stern (Chodera lab) will give a webinar on Jun 4 at 11 am (EDT) under title “Fragmenting molecules for QC torsion drives”, based on her talk presented at the ACS Orlando conference (Mar 31 - Apr 4, 2019). Join the webinar in real time via Zoom link (https://meetmsk.zoom.us/j/987691623) or for those who can’t make it, Chaya’s talk will be recorded and shared on the website.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</guid>
+      <description>TorsionDrive: Y. Qiu updated TorsionDrive with visualization and more documentation. He is planning to add functionality to TorsionDrive to store gradients, which are currently computed, but not recorded. D. Smith suggested having a schema defined for TorsionDrive jobs for future use, to facilitate using it in larger project infrastructure.
+Torsion/Valence Fitting: There was discussion of when fitting with ForceBalance might start. L.-P. Wang estimated that, provided with our first round of finished QC calculations, ForceBalance might take about a day to run before providing an optimized set of parameters.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Mar 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-03-19/</guid>
+      <description>QCArchive: C. Stern is working on a more automated workflow for submitting molecules to QCArchive and getting them run with appropriate defaults. Using OpenEye tools and CMILES could be a problem for running things on QCArchive due to licensing. A lot of work has been done on QCArchive and a press release about how QCArchive interfaces with Open Force Field is coming up soon.
+Charges: A charge model API spec is under construction, which should support simple alternatives to AM1 and convert BCC atom types to SMIRKS, among other things.</description>
+    </item>
+    
+  </channel>
+</rss>

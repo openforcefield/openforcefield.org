@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>postdoctoral fellowship on OpenFF</title>
+    <link>https://openforcefield.org/tags/postdoctoral-fellowship/</link>
+    <description>Recent content in postdoctoral fellowship on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/postdoctoral-fellowship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Joint support for Marie Curie Global Fellowship applicants</title>
+      <link>https://openforcefield.org/community/news/general/mscactions-postdoc/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/mscactions-postdoc/</guid>
+      <description>The Cole group, based at the University of Newcastle (UK), is looking to support applicants to the Marie Curie Global Postdoctoral Fellowship scheme in collaboration with the Open Force Field Initiative. The call has just been announced on June 22 and the applications are closing on Oct 12, 2021. Because the applications are quite intense for the hosting institution, the number of applicants supported will be limited. If you are interested, please send your CV and a brief research proposal to Daniel Cole at daniel.</description>
+    </item>
+    
+  </channel>
+</rss>

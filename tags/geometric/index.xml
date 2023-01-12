@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geomeTRIC on OpenFF</title>
+    <link>https://openforcefield.org/tags/geometric/</link>
+    <description>Recent content in geomeTRIC on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/geometric/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (Apr 2, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-02/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-04-02/</guid>
+      <description>Low meeting attendance due to ACS Orlando meeting. There was an attempt to change the meeting schedule, but no suitable alternative time was found.
+GeomeTRIC: Y. Qiu will be putting out an update to the geomeTRIC conda-forge package.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (Feb 19, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-19/</guid>
+      <description>Atom Order: There can be multiple ways to tag SMILES involving self-symmetry and C. Stern raised the question of how to ensure the same geometry always gets assigned the same atom ordering. D. Smith said that a string comparison is currently possible, where string is contained in a QCEngine job description. J. Chodera thinks that having identical geometries with different atom ordering is highly improbable and should not be a major concern.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PropertyEstimator on OpenFF</title>
+    <link>https://openforcefield.org/tags/propertyestimator/</link>
+    <description>Recent content in PropertyEstimator on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/propertyestimator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release-1 update (Aug 15, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/release-1-update-2019-08-20/</guid>
+      <description>Chemical coverage C. Bayly suggested broadly dividing parameters into two categories: 1) chemistry being covered in the first optimization run; 2) everything else. The latter category should also include information about all molecules that were cleaned out from databases used in the first optimization sprint, which was focused on improvement of a selected (sub)set of parameters. This information (data) can be used in the later stages of the force field optimization when chemical coverage will be expanded.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Aug 08, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-08-08/</guid>
+      <description>Datasets: Still waiting for NIST approval for data release from ThermoML. DIPPR was contacted to explain the terms of use for their data in more details. DIPPR contains pure component data on industrially important chemical compounds.
+PropertyEstimator: PropertyEstimator (PE) and ForceBalance (FB) seem to be working well based on the preliminary tests run by S. Boothroyd, and the infrastructure is ready for the initial LJ fitting. There are some differences in the gradients calculated by PE and FB.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 25, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-25/</guid>
+      <description>Today the PropertyEstimator group discussed our progress, moving forward towards our fitting process with ThermoML data and ForceBalance. Decisions about fitting techniques and data have been made, and we are moving on to testing and production.
+Database readiness
+S. Boothroyd has algorithmically selected a basic set from the ThermoML archive with coverage of our selected Lennard Jones parameters. For basic fitting, we are moving forward with this dataset; if time allows we will also include a hand-curated ThermoML dataset provided by Lee-Ping Wang.</description>
+    </item>
+    
+    <item>
+      <title>Release-1 update (Jul 16, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/2019-07-16-release-1/</guid>
+      <description>Types We will use the same typing tree as smirnoff99Frosst (with some minor adjustments to specific bugs or other problems), but optimize the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters.
+Parameterization We will aim to refit (a subset of) torsions, valence terms, and Lennard-Jones parameters, depending on what is ready in time. In practice, we have decoupled efforts to fit all three that should be straightforward to couple together in our final optimization stage.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jul 11, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-07-11/</guid>
+      <description>Dataset sources
+NIST update: Data that was collected and curated in an automated process by NIST could be released as an open dataset, but not the manually curated uncertainties, which is the step that follows automated curation. Additional problem may arise from the fact that data from before 10 years ago simply isn’t present in ThermoML. Until the situation is clear from the legal perspective, it has been decided to move forward using the data from an older release of ThermoML which contained author-assigned uncertainties.</description>
+    </item>
+    
+    <item>
+      <title>Property Estimator Meeting Summary (Jun 27, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/propertyestimator-meeting-2019-06-27/</guid>
+      <description>Property selection: Discussion about which properties and the exact amount of data to be requested from NIST continues. One of the challenges is to find the right balance between the current and future parameterization needs, which includes making decisions about specific properties to be used for the first optimization sprint and specific chemistry that will be covered in this sprint (and maybe in the next one). For the latter, finding a set of molecules (SMILES) that exercise all SMIRNOFF parameters is desirable and J.</description>
+    </item>
+    
+  </channel>
+</rss>

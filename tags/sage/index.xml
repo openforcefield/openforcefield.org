@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sage on OpenFF</title>
+    <link>https://openforcefield.org/tags/sage/</link>
+    <description>Recent content in sage on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/sage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenFF 2.0.0 force field release (Sage)</title>
+      <link>https://openforcefield.org/community/news/general/sage2.0.0-release/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/sage2.0.0-release/</guid>
+      <description>We&amp;rsquo;re pleased to announce that OpenFF 2.0.0, the first release of the Sage line of force fields, is now available to download! It contains our first set of retrained Lennard-Jones parameters in addition to continued improvements to the valence parameters. The easiest way to access the latest force field files is to install the latest version of the openff-forcefields package:
+conda install --yes -c conda-forge &amp;quot;openff-forcefields &amp;gt;=2.0.0&amp;quot;
+and load the force field via the toolkit:</description>
+    </item>
+    
+  </channel>
+</rss>

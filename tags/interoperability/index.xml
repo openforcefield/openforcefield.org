@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>interoperability on OpenFF</title>
+    <link>https://openforcefield.org/tags/interoperability/</link>
+    <description>Recent content in interoperability on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/interoperability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interchange project update</title>
+      <link>https://openforcefield.org/community/news/science-updates/interchange-update-2021-11-10/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/interchange-update-2021-11-10/</guid>
+      <description>Thus far, the only simulation engine natively supported by export from the OpenFF software stack has been OpenMM. OpenMM offers great performance on GPUs and excellent flexibility via its API, but many scientists wish to use tools that are only compatible with other molecular simulation engines, like AMBER and GROMACS. There are tools that can convert OpenMM objects to file formats understood by these other engines, but these steps can have rough edges and add complexity to users&amp;rsquo; workflows.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>backbone on OpenFF</title>
+    <link>https://openforcefield.org/tags/backbone/</link>
+    <description>Recent content in backbone on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/backbone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinar by Chuan Tian: ff19SB - Amino acid specific protein backbone parameters trained against quantum mechanics energies in solution (Sep 12, 2019)</title>
+      <link>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/webinar-tian-sep2019/</guid>
+      <description>Chuan Tian from the Simmerling lab will visit the Chodera lab at MSKCC and give a talk about the latest Amber force field - ff19SB. Join the seminar via Zoom in real time on Sep 12 at 1 pm (EDT), or watch it later on our YouTube channel.
+**Abstract:** Molecular dynamics (MD) simulations have become increasingly popular in studying the motions and functions of biomolecules. The accuracy of the simulation, however, is highly determined by the classical force field (FF), a set of functions with adjustable parameters to compute the potential energy from atomic positions.</description>
+    </item>
+    
+  </channel>
+</rss>

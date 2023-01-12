@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QM methods on OpenFF</title>
+    <link>https://openforcefield.org/tags/qm-methods/</link>
+    <description>Recent content in QM methods on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/qm-methods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (Feb 5, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-05/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-02-05/</guid>
+      <description>Conformer Generation: C. Stern found that a better way of atom mapping is necessary to keep track of the original map after fragmentation, because sometimes indexed SMILES get re-indexed after fragmentation, which results with the loss of the original map. Occasionally, certain groups that should remain whole end up fragmented.
+Torsions / QM Methods: D. Smith suggested that ANI-1 could be a good, fast solution to evaluate energy. It has been decided, though, that for now ANI-1 and semiempirical methods won’t be used for computing torsion scans.</description>
+    </item>
+    
+  </channel>
+</rss>

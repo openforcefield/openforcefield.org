@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WBO on OpenFF</title>
+    <link>https://openforcefield.org/tags/wbo/</link>
+    <description>Recent content in WBO on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/wbo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (Jul 9, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-09/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-09/</guid>
+      <description>Fragmenter: C. Stern is working making fragmenter more interoperable and more suitable for an automated pipeline. Some of the features include using Omega to identify rotatable bonds and Wiberg bond order computations.
+QC datasets: The &amp;ldquo;Roche set&amp;rdquo; (468 molecules) is almost done in terms of generating QC data for initial round of fitting with ForceBalance. The currently calculated data includes ~820 1-D torsion scans and geometry optimizations, and the next step is computing hessians.</description>
+    </item>
+    
+    <item>
+      <title>Torsion Meeting Summary (May 14, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-05-14/</guid>
+      <description>TorsionDrive: Y. Qiu updated TorsionDrive with visualization and more documentation. He is planning to add functionality to TorsionDrive to store gradients, which are currently computed, but not recorded. D. Smith suggested having a schema defined for TorsionDrive jobs for future use, to facilitate using it in larger project infrastructure.
+Torsion/Valence Fitting: There was discussion of when fitting with ForceBalance might start. L.-P. Wang estimated that, provided with our first round of finished QC calculations, ForceBalance might take about a day to run before providing an optimized set of parameters.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>program on OpenFF</title>
+    <link>https://openforcefield.org/tags/program/</link>
+    <description>Recent content in program on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/program/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Force Field Consortium Virtual Meeting</title>
+      <link>https://openforcefield.org/community/news/general/may-2020-virtual-meeting/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/may-2020-virtual-meeting/</guid>
+      <description>We are hosting the Third Open Force Field Consortium Workshop, this time in the online world of Zoom, on May 4-5, 2020. This virtual meeting is replacing the planned in-person gathering in Boston. We decided to slightly experiment with the workshop format by making most of the content available before the meeting for asynchronous consumption. Namely, all talks will be pre-recorded and the meeting time will be focused on discussions around those talks and future planning.</description>
+    </item>
+    
+  </channel>
+</rss>

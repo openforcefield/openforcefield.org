@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>host-guest binding on OpenFF</title>
+    <link>https://openforcefield.org/tags/host-guest-binding/</link>
+    <description>Recent content in host-guest binding on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/host-guest-binding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Training force field parameters to Host-Guest binding</title>
+      <link>https://openforcefield.org/community/news/science-updates/fitting_gbsa_parameters-openff-2022-08-29/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/fitting_gbsa_parameters-openff-2022-08-29/</guid>
+      <description>Would you like to train your force field to fit binding data? Most force fields are tuned to reproduce liquid state properties. Setting up simulations to perform the binding calculations and optimizing specific force field parameters may be laborious work. However, the Open Force Field infrastructure provides the tools to achieve this in an automated way. In this blog post, I will show an example of tuning GBSA parameters to host-guest binding data using Open Force Field.</description>
+    </item>
+    
+  </channel>
+</rss>

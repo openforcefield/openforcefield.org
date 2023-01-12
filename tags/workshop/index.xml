@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workshop on OpenFF</title>
+    <link>https://openforcefield.org/tags/workshop/</link>
+    <description>Recent content in workshop on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5th Open Force Field Workshop (2022)</title>
+      <link>https://openforcefield.org/community/news/general/5th-openff-workshop-2022/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/5th-openff-workshop-2022/</guid>
+      <description>On June 28, 2022 we had our 5th annual meeting. The event is designed to provide an accurate overview of the progress of all projects under the OpenFF umbrella. This year we had lines from David Mobley, Jeff Wagner, Lily Wang and Diego Nolasco. If you want to know more about everything that happened in the last year, watch the workshop on Youtube and access the slides on Zenodo. Please use Zenodo DOI if you want to cite any material presented in this talk.</description>
+    </item>
+    
+    <item>
+      <title>4th Open Force Field Workshop Series (2021)</title>
+      <link>https://openforcefield.org/community/news/general/openff-followup-workshops-2021/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/openff-followup-workshops-2021/</guid>
+      <description>Our 4th annual workshop took place on June 11, 2021 in virtual space. Based on the feedback from the participants in this keynote event, we organized two follow-up workshops in September providing a more detailed overview of the benchmarking practices and results, and bespoke fitting infrastructure.
+1. Benchmarking (Sep 1, 2021) The first follow-up workshop provided an overview of the methods used for the Season 1 of benchmarking and analysis of results from the private and public sets, and summarized progress on protein-ligand benchmarking.</description>
+    </item>
+    
+    <item>
+      <title>4th Open Force Field Workshop (2021)</title>
+      <link>https://openforcefield.org/community/news/general/4th-openff-workshop-2021/</link>
+      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/general/4th-openff-workshop-2021/</guid>
+      <description>Our 4th annual workshop took place on June 11, 2021 in virtual space. This was a short and not widely advertised event to provide an update to our pharma partners and collaborators about the progress made in the past year. The latest advances in OpenFF infrastructure and force field research were presented by Jeffrey Wagner, Simon Boothroyd and David Mobley. In summary, there is a lot going on, but check out the presentation video and slides on Zenodo or Youtube for more details.</description>
+    </item>
+    
+    <item>
+      <title>January 7-8, 2019 Consortium Workshop</title>
+      <link>https://openforcefield.org/minutes/cab/2019-01-07-minutes/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/minutes/cab/2019-01-07-minutes/</guid>
+      <description>Minutes: Attending: All PIs and software scientists; most industry partners, postdocs, and students (including via Zoom); academic and industry community members
+Visit the agenda page for more details of the workshop.</description>
+    </item>
+    
+  </channel>
+</rss>

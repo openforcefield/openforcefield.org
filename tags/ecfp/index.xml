@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ECFP on OpenFF</title>
+    <link>https://openforcefield.org/tags/ecfp/</link>
+    <description>Recent content in ECFP on OpenFF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://openforcefield.org/tags/ecfp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torsion Meeting Summary (Jul 9, 2019)</title>
+      <link>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-09/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://openforcefield.org/community/news/science-updates/torsion-meeting-2019-07-09/</guid>
+      <description>Fragmenter: C. Stern is working making fragmenter more interoperable and more suitable for an automated pipeline. Some of the features include using Omega to identify rotatable bonds and Wiberg bond order computations.
+QC datasets: The &amp;ldquo;Roche set&amp;rdquo; (468 molecules) is almost done in terms of generating QC data for initial round of fitting with ForceBalance. The currently calculated data includes ~820 1-D torsion scans and geometry optimizations, and the next step is computing hessians.</description>
+    </item>
+    
+  </channel>
+</rss>
