@@ -1,5 +1,5 @@
 - title: Development and Benchmarking of Open Force Field 2.0.0 — the Sage Small Molecule Force Field
-  authors: "Simon Boothroyd, Pavan Kumar Behara, Owen Madin, David Hahn, Hyesu Jang, Vytautas Gapsys, Jeffrey Wagner, Joshua Horton, David Dotson, Matthew Thompson, Jessica Maat, Trevor Gokey, Lee-Ping Wang, Daniel Cole, Michael Gilson, John Chodera, Christopher Bayly, Michael Shirts, David Mobley"
+  authors: "Simon Boothroyd, Pavan Kumar Behara, Owen C. Madin, David F. Hahn, Hyesu Jang, Vytautas Gapsys, Jeffrey R. Wagner, Joshua T. Horton, David L. Dotson, Matthew W. Thompson, Jessica Maat, Trevor Gokey, Lee-Ping Wang, Daniel J. Cole, Michael K. Gilson, John D. Chodera, Christopher I. Bayly, Michael R. Shirts, David L. Mobley"
   summary: We introduce the Open Force Field (OpenFF)~2.0.0 small molecule force field for drug-like molecules, code-named Sage, which builds upon our previous iteration, Parsley. OpenFF force fields are based on direct chemical perception, which generalizes easily to highly diverse sets of chemistries based on substructure queries. Like the previous OpenFF iterations, the Sage generation of OpenFF force fields was validated in protein-ligand simulations to be compatible with AMBER biopolymer force fields. In this paper we detail the methodology used to develop this force field, as well as the innovations and improvements introduced since the release of Parsley 1.0.0. One particularly significant feature of Sage is a set of improved Lennard-Jones (LJ) parameters retrained against condensed phase mixture data, the first refit of LJ parameters in the OpenFF small molecule force field line. Sage also includes valence parameters refit to a larger database of quantum chemical calculations than previous versions, as well as improvements in how this fitting is performed. Force field benchmarks show improvements in general metrics of performance against quantum chemistry reference data such as root mean square deviations (RMSD) of optimized conformer geometries, torsion fingerprint deviations (TFD), and improved relative conformer energetics (ΔΔ𝐸). We present a variety of benchmarks for these metrics against our previous force fields as well as in some cases other small molecule biomolecular force fields. Sage also demonstrates improved performance in estimating physical properties, including comparison against experimental data from various thermodynamic databases for small molecule properties such as Δ𝐻_𝑚𝑖𝑥, ρ(𝑥), Δ𝐺_𝑠𝑜𝑙𝑣 and Δ𝐺_𝑡𝑟𝑎𝑛𝑠. Additionally, we benchmarked against protein-ligand binding free energies (Δ𝐺_𝑏𝑖𝑛𝑑), where Sage yields results statistically similar to previous force fields. All the data is made publicly available along with complete details on how to reproduce the training results at https://github.com/openforcefield/openff-sage.
   img: noun_sage_1576600.png
   date: 2022-11-21
@@ -19,6 +19,13 @@
     url: https://doi.org/10.26434/chemrxiv-2022-hq0vq
     license: "CC BY 4.0"
     date: 2022-11-04
+  published:
+    doi: https://doi.org/10.1021/acs.jcim.2c01185
+    journal: Journal of Chemical Information and Modeling
+    volume: 62:23
+    pages: 6094–6104
+    year: 2022
+    date: 2022-11-26
   code: openforcefield/qca-dataset-submission/tree/master/submissions/2021-07-28-OpenFF-Industry-Benchmark-Season-1-MM-v1.1
 - title: "Open Force Field BespokeFit: Automating Bespoke Torsion Parametrization At Scale"
   authors: "Joshua T. Horton, Simon Boothroyd, Jeffery Wagner, Joshua A. Mitchell, Trevor Gokey, David L. Dotson, Pavan Kumar Behara, Venkata Krishnan Ramaswamy, Mark Mackey, John D. Chodera, Jamshed Anwar, David L. Mobley and Daniel J. Cole"
@@ -30,6 +37,13 @@
     url: https://doi.org/10.26434/chemrxiv-2022-6h628
     license: "CC BY 4.0"
     date: 2022-09-09
+  published:
+    doi: https://doi.org/10.1021/acs.jcim.2c01153
+    journal: Journal of Chemical Information and Modeling
+    volume: 62:22
+    pages: 5622–5633
+    year: 2022
+    date: 2022-11-09
   code: openforcefield/openff-bespokefit
 - title: "Improving force field accuracy by training against condensed phase mixture properties"
   authors: "Simon Boothroyd, Owen C. Madin, David L. Mobley, Lee-Ping Wang, John D. Chodera and Michael R. Shirts"
@@ -85,7 +99,7 @@
     year: 2022
     date: 2022-02-07
   code: SimonBoothroyd/bayesiantesting
-- title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks"
+- title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks [Article v1.0]"
   authors: "David F. Hahn, Christopher I. Bayly, Hannah E. Bruce Macdonald, John D. Chodera, Antonia S. J. S. Mey, David L. Mobley, Laura Perez Benito, Christina E.M. Schindler, Gary Tresadern, Gregory L. Warren"
   summary: "As new methods, force fields, and implementations are developed, assessing the expected accuracy of free energy calculations on real-world systems (benchmarking) becomes critical to provide users with an assessment of the accuracy expected when these methods are applied within their domain of applicability, and developers with a way to assess the expected impact of new methodologies. Here, we present guidelines for (1) curating experimental data to develop meaningful benchmark sets, (2) preparing benchmark inputs according to best practices to facilitate widespread adoption, and (3) analysis of the resulting predictions to enable statistically meaningful comparisons among methods and force fields."
   img: BFE-best-practices.png
@@ -94,6 +108,13 @@
     server: arXiv
     url: https://arxiv.org/abs/2105.06222
     date: 2021-05-13
+  published:
+    doi: https://doi.org/10.33011/livecoms.4.1.1497
+    journal: Living Journal of Computational Molecular Science
+    volume: 4:1
+    pages: 1497
+    year: 2022
+    date: 2022-08-30
   code: openforcefield/FE-Benchmarks-Best-Practices
 - title: "Development and Benchmarking of Open Force Field v1.0.0, the Parsley Small Molecule Force Field"
   authors: "Yudong Qiu, Daniel Smith, Simon Boothroyd, Hyesu Jang, Jeffrey Wagner, Caitlin C. Bannan, Trevor Gokey, Victoria T. Lim, Chaya Stern, Andrea Rizzi, Xavier Lucas, Bryon Tjanaka, Michael R. Shirts, Michael Gilson, John Chodera, Christopher I. Bayly, David Mobley, Lee-Ping Wang"
@@ -113,8 +134,8 @@
     year: 2021
     date: 2021-09-22
   code: openforcefield/openforcefield-forcebalance/tree/v1.0.0-RC2
-- title: "End-to-end differentiable molecular mechanics force field construction"
-  authors: "Yuanqing Wang, Josh Fass, and John D. Chodera"
+- title: "End-to-end differentiable construction of molecular mechanics force field"
+  authors: "Yuanqing Wang, Josh Fass, Benjamin Kaminow, John E. Herr, Dominic Rufa, Ivy Zhang,  Iván Pulido, Mike Henry, Hannah E. Bruce Macdonald, Kenichiro Takaba and John D. Chodera"
   summary: "Molecular mechanics force fields have been a workhorse for computational chemistry and drug discovery. Here, we propose a new approach to force field parameterization in which graph convolutional networks are used to perceive chemical environments and assign molecular mechanics (MM) force field parameters. The entire process of chemical perception and parameter assignment is differentiable end-to-end with respect to model parameters, allowing new force fields to be easily constructed from MM or QM force fields, extended, and applied to arbitrary biomolecules."
   img: espaloma.jpg
   date: 2020-10-02
@@ -123,6 +144,13 @@
     url: https://arxiv.org/abs/2010.01196
     license: "CC BY 4.0"
     date: 2020-10-02
+  published:
+    doi: https://doi.org/10.1039/D2SC02739A
+    journal: Chemical Science
+    volume: 13
+    pages: 12016-12033
+    year: 2022
+    date: 2022-09-08
   code: choderalab/espaloma
 - title: "Capturing non-local through-bond effects when fragmenting molecules for quantum chemical torsion scans"
   authors: "Chaya D. Stern, Christopher I. Bayly, Daniel G. A. Smith, Josh Fass, Lee-Ping Wang, David L. Mobley, and John D. Chodera"
