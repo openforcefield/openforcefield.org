@@ -1,11 +1,10 @@
 name: Yuanqing Wang
-role: Researcher
-filter-role: External Collaborators
-lab: Chodera lab
-title: Graduate Student, Sloan Kettering Institute
-institution: Sloan Kettering Institute
+role: Co-Investigator
+filter-role: Scientific Staff
+title: Independent Fellow
+institution: NYU
 img: Yuanqing-Wang.jpg
-webpage: "http://www.choderalab.org/members"
+webpage: "https://yangyq.net"
 description: _Neural networks for fast charge assignment and force field parameterization_
 linkedin: yuanqing-wang
 twitter: YuanqingWang
