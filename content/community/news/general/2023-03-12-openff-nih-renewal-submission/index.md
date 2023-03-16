@@ -27,4 +27,4 @@ To this end, we’re thrilled to share the [NIH Focused Technology R&D research 
 We look forward to hearing feedback from the community about how we can continue to provide the best open technology to enable the rapid construction, assessment, and deployment of high-quality force fields for biomolecular simulation and design.
 
 
-[[Download the NIH FTR&D proposal (PDF)]](openff-NIH-renewal-proposal-2023-03-05.pdf")
+[Download the NIH FTR&D proposal (PDF)](openff-NIH-renewal-proposal-2023-03-05.pdf)
