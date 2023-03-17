@@ -23,7 +23,7 @@ This support has been essential in enabling us to better serve the molecular sim
 * Generating [15 open access publications and preprints](https://openforcefield.org/science/publications/) describing the innovations behind the Open Force Field Initiative
 
 As an open science effort, we aim to be maximally transparent with the community we serve about both our activities and our future roadmap. We’re excited to share all of the exciting science we’ve done—especially new prototype technologies that we are eager to put into production that will significantly improve the generalizability, domain of applicability, and robustness of predictions for the community, and what we'd love to do in the next few years.
-To this end, we’re thrilled to share the [NIH Focused Technology R&D research proposal](openff-NIH-renewal-proposal-2023-03-05.pdf") we have just submitted to extend our grant by another four years. 
+To this end, we’re thrilled to share the [NIH Focused Technology R&D research proposal](openff-NIH-renewal-proposal-2023-03-05.pdf) we have just submitted to extend our grant by another four years. 
 We look forward to hearing feedback from the community about how we can continue to provide the best open technology to enable the rapid construction, assessment, and deployment of high-quality force fields for biomolecular simulation and design.
 
 
