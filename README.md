@@ -10,7 +10,7 @@ Detailed content structure documentation is available in `content/manual/_index.
 3. Make changes and preview the site locally in your browser (see below) to make sure that your page display as intended.
 4. Commit the changes (`git commit .`) and push the repository to your branch (`git push origin <mybranch>`).
 5. Open a PR and request review.
-6. When ready, merge your PR. Deploying is handled by a Travis build service. Commits/PRs into master will trigger a new build, which can be monitored [here](https://travis-ci.org/openforcefield/openforcefield.org). Once built, travis will push the content to the `gh-pages` branch of `openforcefield.org`, which the website is now served from.
+6. When ready, merge your PR into the `v2` branch. Deployment is automatically handled by a [GitHub Action](https://github.com/openforcefield/openforcefield.org/actions) named `github pages` followed by the automated GitHub deployment to `gh-pages` branch of `openforcefield.org`, which the website is served from.
 
 See more detailed instructions for creating or updating content below.
 
