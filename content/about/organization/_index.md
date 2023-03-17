@@ -72,7 +72,7 @@ The [Open Force Field Consortium officially launched]({{< relref "introducing-th
 {{< br >}}
 ## Consortium Governing Board
 {{< ul >}}
-- John D. Chodera (MSKCC)
+- John Chodera (MSKCC)
 - Taylor Quinn (AstraZeneca)
 - Michael K. Gilson (UCSD)
 - Katharina Meier (Bayer)
