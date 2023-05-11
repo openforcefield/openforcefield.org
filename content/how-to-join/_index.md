@@ -12,4 +12,7 @@ If you would like to spread the word about the Open Force Field Initiative, plea
 
 * [One page writeup on the project](https://zenodo.org/record/7430421#.Y5e3mS8w3VN)
 
+* [Single-slide overview of what we do](https://docs.google.com/presentation/d/1Sl_XWkIrDsFl6RbEh7UDAyuEFyepqXct3JsCZ2n2ObE/edit?usp=sharing)
+
 * [Brief slide deck on the project](https://zenodo.org/record/7430414#.Y5e3sy8w3VN)
+
