@@ -18,6 +18,33 @@ If you experience any issues with the new force field, please be sure to email s
 Sage (OpenFF 2.y.z) is the codename for the second generation of the small molecule force fields released by the Open Force Field Initiative. This line of force field release contains our first set of retrained Lennard-Jones parameters in addition to continued improvements to the valence parameters. All scripts, inputs and the results generated as part of the training the Sage line of OpenFF force fields can be found in [openff-sage](https://github.com/openforcefield/openff-sage) Github repository.
 
 {{< br >}}{{< br >}}
+### openff 2.1.0 ###
+
+#### Release date: May 2, 2023
+
+Updates to openff-2.0.0 which include improved chemical perception for sulfonamides and phosphates, extended training set coverage which now contains training data from Gen2 as well as Gen1 datasets, and improved fitting procedures with the use of a physically intuitive starting point from modified seminario and including dihedral deviations in optimized geometry targets, and optimizing impropers as well. Contributions for this release include changes from Pavan Behara, Trevor Gokey, Chapin Cavender, Josh Horton, and valuable feedback from David Mobley, Hyesu Jang, Lily Wang, Christopher Bayly, Daniel Cole, and the OpenFF team.
+
+Changes can be broadly classified as:
+
+   * Chemical typing related
+       * sulfonamides
+       * phosphates
+       * bridgehead nitrogens
+       * bridgehead carbons
+       * groups with delocalized charges
+   * Fitting procedure related
+       * use of physically intuitive bonds and angles from modified-seminario as a starting point
+       * data-driven values for improper torsions
+       * including dihedral deviations from optimized geometries to better resolve torsion parameters
+       * broader coverage of parameters with extended training targets
+
+
+Find more details in the [release notes](https://github.com/openforcefield/openff-sage/releases/tag/2023.05.1), including how to re-run optimization and datasets used in training stored in [sage-2.1.0](https://github.com/openforcefield/sage-2.1.0) repo.
+
+
+{{<button href="https://github.com/openforcefield/openff-forcefields/releases/tag/2023.05.1" text="GitHub" >}}
+{{<button href="https://zenodo.org/record/7889050" text="DOI" >}}
+{{< br >}}{{< br >}}
 ### openff 2.0.0 ###
 
 #### Release date: August 18, 2021
@@ -33,6 +60,7 @@ Instructions for running each optimization can be found in the individual optimi
 
 {{<button href="https://github.com/openforcefield/openff-forcefields/releases/tag/2.0.0" text="GitHub" >}}
 {{<button href="https://zenodo.org/record/5214478" text="DOI" >}}
+
 
 {{< br >}}
 ## Parsley ##
