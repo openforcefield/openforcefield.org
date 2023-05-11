@@ -95,6 +95,7 @@ The [Open Force Field Consortium officially launched]({{< relref "introducing-th
 - [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex), Secretary
 - [Taylor Quinn](https://www.linkedin.com/in/taylor-quinn-37528789/) (AstraZeneca)
 - [David Rooklin](https://www.linkedin.com/in/david-rooklin-7485194a) (Redesign Science)
+- [Huan Rui](https://www.linkedin.com/in/huan-rui-29867aa/) (Amgen)
 - and others... {{< /ul >}}
 {{< br >}}
 {{< center >}}
