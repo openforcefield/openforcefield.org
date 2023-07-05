@@ -21,6 +21,6 @@ description="Curated quantum chemical and experimental datasets used to paramete
 
 +++
 {{< button href="/community/news/general" text="News" >}}
-{{< button href="https://github.com/openforcefield/openforcefield/tree/master/examples#examples-using-smirnoff-with-the-toolkit" text="Tutorials" >}}
+{{< button href="https://docs.openforcefield.org/examples" text="Tutorials" >}}
 {{< button href="https://docs.openforcefield.org/" text="Documentation" >}}
 {{< button href="/about/roadmap/" text="Roadmap" >}}
