@@ -19,7 +19,7 @@ classical functional forms should be used for the force field interactions? or s
 
 A big part of this process is automation. No one wants to manually trawl through millions of molecules by hand when
 building a train / test set, or painstakingly set up and store thousands of quantum chemical calculations to train
-against. Ideally, training a force field should be at the level of 'these are the kinds of chemistry's I'm interested
+against. Ideally, training a force field should be at the level of 'these are the kinds of chemistries I'm interested
 in, this is the type of data I want to train against, let me vary these hyperparameters, and let me hit a big green GO
 button!'.
 
@@ -48,8 +48,8 @@ It will be structured into several parts:
 
 ### Following along
 
-If you would like to follow along with the steps that I will be showing here I recommend first creating a new [conda
-environment](https://gist.github.com/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-environment-yml) with all of the neccessary dependencies:
+If you would like to follow along with the steps that I will be showing here, I recommend first creating a new [conda
+environment](https://gist.github.com/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-environment-yml) with all of the necessary dependencies:
 
 ```python
 !conda env create --name build-a-force-field --file do-you-want-to-train-a-force-field.yml
@@ -78,7 +78,7 @@ and QCSubmit provides
 > automated tools for submitting molecules to QCFractal and retrieving the results
 
 Simply put, QCSubmit allows us to curate large datasets of molecules that QCFractal can then perform QC calculations on
-in a way that scales across hundreds of compute resources without human intervention - i.e. no more manually runing
+in a way that scales across hundreds of compute resources without human intervention - i.e. no more manually running
 Psi4 or Gaussian :tada:!
 
 ### Preparing the training set
@@ -92,8 +92,8 @@ relevant chemical spaces are covered, it does not yet provide packaged tools to 
 
 Instead, for this blog post we will be training a force field for (wait for it) some linear alkanes :tada::tada::tada:!
 Ok it may not be the most exciting set, but I mainly want to show the process by which we can train a force field
-without needing a whole supercomputers worth of resources. This process itself can (and routinely does) handle datasets
-of thousands of unique molecules with diverse chemistry's.
+without needing a whole supercomputer worth of resources. This process itself can (and routinely does) handle datasets
+of thousands of unique molecules with diverse chemistries.
 
 Let's define these molecules now:
 
@@ -275,7 +275,7 @@ data from a running QCFractal instance. This functionality is provided by severa
 https://openff-qcsubmit.readthedocs.io/en/latest/examples/retrieving-results.html) - one for each type of QC data that
 can be retrieved.
 
-To pull down optimization data we will (surprise, surprise) using the optimization result collection:
+To pull down optimization data we will (surprise, surprise) use the optimization result collection:
 
 
 ```python
@@ -512,8 +512,9 @@ targets = [
 ]
 ```
 
-Each of these targets can take a multitude of options which I won't go into detail here, but will be described in much
-more detail in the soon to be published OpenFF Bespoke documentation.
+Each of these targets can take a multitude of options that I won't cover in
+detail here, but are described fully in the [OpenFF Bespoke
+documentation](https://docs.openforcefield.org/projects/bespokefit/en/stable/ref/api/openff.bespokefit/schema/openff.bespokefit.schema.targets.html#module-openff.bespokefit.schema.targets).
 
 ## Training the force field
 
