@@ -65,8 +65,8 @@ against. While the Open Force Field consortium routinely works with both QC and 
 data](https://openff-evaluator.readthedocs.io/en/latest/datasets/curation.html) when building its force fields,
 I will 'only' be talking about training to QC data here to keep things short and sweet!
 
-The two main players in Open Force Fields QC data generation are the MolSSI QC ecosystem ([QCFractal](
-http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/) in particular) and the [OpenFF QCSubmit](
+The two main players in Open Force Field's QC data generation are the MolSSI QC ecosystem ([QCFractal](
+https://docs.qcarchive.molssi.org/projects/QCFractal/en/latest/) in particular) and the [OpenFF QCSubmit](
 https://openff-qcsubmit.readthedocs.io/en/latest/) package.
 
 So what do these two packages do? Well, to quote their documentation, QCFractal is
@@ -201,7 +201,7 @@ local_fractal_instance = FractalSnowflakeHandler(ncores=16)
 local_fractal_client = FractalClient(local_fractal_instance)
 ```
 
-*see the [main QCFractal documentation](http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/setup_quickstart.html)
+*see the [main QCFractal documentation](http://docs.qcarchive.molssi.org/projects/QCFractal/en/latest/setup_quickstart.html)
 for more information about setting up local instances to compute and store your non-public data*
 
 Submitting, computing, and finally storing a QC dataset is as easy as calling the submit command and providing the
@@ -638,7 +638,7 @@ for handler_name in ["Bonds", "Angles", "ProperTorsions"]:
 ## Conclusions
 
 And that's all there is to it! As I've hopefully proved here, the ecosystem provided by the Open Force Field consortium
-enables entire force fields to be re-trained from within a single jupyter notebook.
+enables entire force fields to be re-trained from within a single Jupyter notebook.
 
 It is an ecosystem that is rapidly evolving, expanding, and improving, and ultimately aims to allow anyone to build
 their own force fields without requiring a whole team of researchers. If you found that something was unclear or did not
