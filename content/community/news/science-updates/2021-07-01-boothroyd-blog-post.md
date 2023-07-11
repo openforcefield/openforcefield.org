@@ -78,8 +78,6 @@ conda env create --name build-a-force-field --file "do-you-want-to-train-a-force
 conda activate build-a-force-field
 ```
 
-A completed Jupyter notebook [can be found on MyBinder](https://mybinder.org/v2/gist/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-how-to-build-a-force-field-ipynb/HEAD?filepath=how-to-build-a-force-field.ipynb).
-
 ## Generating a QC torsion drive training set
 
 As you might expect, the first step in training a new force field is generating a suite of reference data to train
