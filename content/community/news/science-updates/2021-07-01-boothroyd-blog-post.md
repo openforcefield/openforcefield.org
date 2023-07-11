@@ -48,12 +48,34 @@ It will be structured into several parts:
 
 ### Following along
 
-If you would like to follow along with the steps that I will be showing here, I recommend first creating a new [conda
-environment](https://gist.github.com/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-environment-yml) with all of the necessary dependencies:
+If you would like to follow along with the steps that I will be showing here, I recommend first creating a new conda environment with all of the necessary dependencies:
 
-```python
-!conda env create --name build-a-force-field --file do-you-want-to-train-a-force-field.yml
-!conda activate build-a-force-field
+```yaml
+name: build-a-force-field
+channels:
+  - conda-forge
+  - psi4
+  - conda-forge/label/libint_dev
+
+dependencies:
+  - python=3.9
+  - openff-toolkit=0.13.2
+  - openff-qcsubmit
+  - openff-bespokefit
+  - qcfractal
+  - psi4
+  - qcportal
+  - pytest
+  - dftd3
+```
+
+Assuming you save that to a file called
+`do-you-want-to-train-a-force-field.yml`, run the following shell commands to
+generate and activate your new environment:
+
+```bash
+conda env create --name build-a-force-field --file "do-you-want-to-train-a-force-field.yml"
+conda activate build-a-force-field
 ```
 
 A completed Jupyter notebook [can be found on MyBinder](https://mybinder.org/v2/gist/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-how-to-build-a-force-field-ipynb/HEAD?filepath=how-to-build-a-force-field.ipynb).
