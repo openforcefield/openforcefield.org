@@ -189,7 +189,7 @@ calculations, being able to scale from a single laptop all the way up to multipl
 globe.
 
 While the bulk of the QC training and test sets the Open Force Field uses (as we will see later in this post) are
-computed and stored in MolSSIs public QCFractal instance ([the QCArchive](https://qcarchive.molssi.org/)), here we will
+computed and stored in MolSSI's public QCFractal instance ([the QCArchive](https://qcarchive.molssi.org/)), here we will
 be spinning up a temporary local QCFractal to better showcase how simple generating new QC data is:
 
 
@@ -264,7 +264,7 @@ And that's it - we now have a set of torsion drives ready to train our force fie
 
 Almost all the QC data that Open Force Field generates, whether that be for production force fields or smaller
 scientific studies, are made available via the public [QCArchive](https://qcarchive.molssi.org/) repository. This
-is not only part of the consortiums' effort to make all the science it performs completely accessible and reproducible,
+is not only part of the consortium's effort to make all the science it performs completely accessible and reproducible,
 but so that anyone can use it as part of their efforts!
 
 We are going to retrieve a set of optimised geometries for our training molecules that were computed as part of a
@@ -643,5 +643,5 @@ enables entire force fields to be re-trained from within a single jupyter notebo
 It is an ecosystem that is rapidly evolving, expanding, and improving, and ultimately aims to allow anyone to build
 their own force fields without requiring a whole team of researchers. If you found that something was unclear or did not
 work as you would expect, the team would love to hear from you! Please reach out to support@openforcefield.org if you
-have any feedback or, alternatively, open an issue on one of the consortiums [many GitHub repositories](
+have any feedback or, alternatively, open an issue on one of the consortium's [many GitHub repositories](
 https://github.com/openforcefield).
