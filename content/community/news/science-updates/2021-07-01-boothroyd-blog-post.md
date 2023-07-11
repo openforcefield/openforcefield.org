@@ -427,19 +427,19 @@ Here we are going to train to all the parameters identified by the coverage repo
 
 
 ```python
-from openff.bespokefit.schema.smirks import AngleSmirks, BondSmirks, ProperTorsionSmirks
+from openff.bespokefit.schema.smirnoff import AngleSMIRKS, BondSMIRKS, ProperTorsionSMIRKS
 
 target_parameters = [
     *[
-        BondSmirks(smirks=smirks, attributes={"k", "length"})
+        BondSMIRKS(smirks=smirks, attributes={"k", "length"})
         for smirks in coverage["Bonds"]
     ],
     *[
-        AngleSmirks(smirks=smirks, attributes={"k", "angle"})
+        AngleSMIRKS(smirks=smirks, attributes={"k", "angle"})
         for smirks in coverage["Angles"]
     ],
     *[
-        ProperTorsionSmirks(smirks=smirks, attributes={"k1"})
+        ProperTorsionSMIRKS(smirks=smirks, attributes={"k1"})
         for smirks in coverage["ProperTorsions"]
     ],
 ]
@@ -461,19 +461,15 @@ parameter training undertaken by Open Force Field.
 
 ```python
 from openff.bespokefit.schema.smirnoff import (
-    AngleAngleSettings,
-    AngleForceSettings,
-    BondForceSettings,
-    BondLengthSettings,
-    ProperTorsionSettings,
+    BondHyperparameters,
+    AngleHyperparameters,
+    ProperTorsionHyperparameters,
 )
 
-parameter_settings=[
-    BondForceSettings(prior=1.0e02),
-    BondLengthSettings(prior=1.0e-01),
-    AngleForceSettings(prior=1.0e02),
-    AngleAngleSettings(prior=2.0e01),
-    ProperTorsionSettings(target="k", prior=1.0),
+parameter_settings = [
+    BondHyperparameters(priors=dict(k=100.0, length=0.1)),
+    AngleHyperparameters(priors=dict(k=100.0, angle=20.0)),
+    ProperTorsionHyperparameters(priors=dict(k=1.0))
 ]
 ```
 
@@ -527,14 +523,13 @@ input that will be used to train the force field:
 
 
 ```python
-from openff.bespokefit.schema.fitting import OptimizationSchema
+from openff.bespokefit.schema.fitting import (
+    OptimizationSchema,
+    OptimizationStageSchema,
+)
 from openff.bespokefit.schema.optimizers import ForceBalanceSchema
 
-optimization_schema = OptimizationSchema(
-    id="linear-alkanes",
-    # Define the force field that we will train
-    initial_force_field=initial_force_field_path,
-    # Define the optimizer
+optimization_schema = OptimizationStageSchema(
     optimizer=ForceBalanceSchema(
         max_iterations=50,
         step_convergence_threshold=0.01,
@@ -543,11 +538,11 @@ optimization_schema = OptimizationSchema(
         n_criteria=2,
         initial_trust_radius=-1.0,
     ),
+    parameters=target_parameters,
+    # Define the parameters to refit and the priors to place on them.
+    parameter_hyperparameters=parameter_settings,
     # Define the torsion profile targets to fit against.
     targets=targets,
-    # Define the parameters to refit and the priors to place on them.
-    target_parameters=target_parameters,
-    parameter_settings=parameter_settings,
 )
 ```
 
@@ -563,13 +558,13 @@ with open("optimization-schema.json", "w") as file:
 allowing anyone to try and reproduce the training that was performed simply be reloading the schema and using it as the
 input.
 
-Training our force field is as simply as calling `optimize`:
+Training our force field is as simple as calling `optimize`:
 
 
 ```python
 from openff.bespokefit.optimizers.forcebalance import ForceBalanceOptimizer
 
-results = ForceBalanceOptimizer.optimize(optimization_schema)
+results = ForceBalanceOptimizer.optimize(optimization_schema, initial_force_field)
 results
 ```
 
