@@ -9,7 +9,7 @@ slug: 'ff-training-example-2021-07-01'
 weight: 10
 markup: markdown
 thumb: "2021-07-01-boothroyd-blog-post.png"
-author: "Simon Boothroyd"
+author: "Simon Boothroyd, updated 11 July 2023 by Brent Westbrook"
 ---
 
 Within Open Force Field (as the name might suggest) a lot of time and effort is spent exploring exactly how should
