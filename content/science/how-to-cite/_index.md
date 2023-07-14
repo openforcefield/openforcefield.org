@@ -8,9 +8,9 @@ When using Open Force Field parameters or software in your research, please cite
 
 ### Force fields
 
-* Parsley ([Qiu et al., 2021](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00571) + [Specific version DOI](https://github.com/openforcefield/openff-forcefields#open-force-fields))
+* Parsley ([Qiu et al., 2021](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00571) + [Specific version DOI](https://zenodo.org/record/8048547))
 
-* Sage ([Qiu et al., 2021](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00571) + [Specific version DOI](https://github.com/openforcefield/openff-forcefields#open-force-fields))
+* Sage ([Boothroyd et al., 2023](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00039) + [Specific version DOI](https://zenodo.org/record/8048547))
  
 ### Software
 
