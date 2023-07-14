@@ -14,13 +14,20 @@ When using Open Force Field parameters or software in your research, please cite
  
 ### Software
 
-* OpenFF Toolkit ([Mobley et al., 2018](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00640) + [Specific version DOI](https://zenodo.org/record/6310995#.YkdRtpPMLMI))
+* OpenFF Toolkit ([Mobley et al., 2018](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00640) + [Specific version DOI](https://zenodo.org/record/8102071))
 
-* OpenFF BespokeFit ([Zenodo DOI](https://zenodo.org/record/5172174#.YkdU1JPMLMI))
+* OpenFF BespokeFit ([Horton et al., 2022](https://pubs.acs.org/doi/full/10.1021/acs.jcim.2c01153) + [Specific version DOI](zenodo not yet connected))
 
-* OpenFF Evaluator ([Boothroyd et al. preprint](https://chemrxiv.org/engage/chemrxiv/article-details/610ad0ed45805d722f80e4de) + [Specific version DOI](https://zenodo.org/record/5695016#.YkdTX5PMLMI))
+* OpenFF Evaluator ([Boothroyd et al., 2022](https://pubs.acs.org/doi/10.1021/acs.jctc.1c01111) + [Specific version DOI](https://zenodo.org/record/7730541))
+
+* OpenFF Interchange ([No publication](no doi) + [No Zenodo integration](no doi))
 
 ### Research
 
 * WBO interpolation ([Stern et al. preprint](https://www.biorxiv.org/content/10.1101/2020.08.27.270934v2))
+
+### Background
+
+* SMIRNOFF99frosst ([Mobley et al., 2018](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00640))
+
 {{< br >}}{{< br >}}
