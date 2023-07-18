@@ -86,7 +86,7 @@ conda activate build-a-force-field
 conda config --env --set subdir osx-64
 ```
 
-The full environment can be found [here](https://github.com/openforcefield/openforcefield.org/blob/319cb4752b44fb9b37789ac058eb9bc4b66b1698/content/community/news/science-updates/2021-07-01-boothroyd-blog-post/do-you-want-to-train-a-force-field-mac.yaml).
+The full environment can be found [here](https://github.com/openforcefield/openforcefield.org/blob/1448a4c88de2eaf6dbaf3fe1cf4e0ea278260e34/content/community/news/science-updates/2021-07-01-boothroyd-blog-post/do-you-want-to-train-a-force-field-mac.yaml).
 
 ## Generating a QC torsion drive training set
 
