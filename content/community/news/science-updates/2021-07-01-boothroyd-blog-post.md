@@ -66,27 +66,6 @@ dependencies:
   - psi4
   - qcportal
   - pytest
-  - dftd3
-```
-
-On newer Macs with Apple Silicon, you will have to use the following environment:
-
-```yaml
-name: build-a-force-field
-channels:
-  - conda-forge
-  - psi4
-  - conda-forge/label/libint_dev
-
-dependencies:
-  - python=3.9
-  - openff-toolkit=0.13.2
-  - openff-qcsubmit
-  - openff-bespokefit
-  - qcfractal
-  - psi4
-  - qcportal
-  - pytest
   - dftd3-python
 ```
 
@@ -106,6 +85,8 @@ CONDA_SUBDIR=osx-64 conda env create --name build-a-force-field --file "do-you-w
 conda activate build-a-force-field
 conda config --env --set subdir osx-64
 ```
+
+The full environment can be found [here](https://github.com/openforcefield/openforcefield.org/blob/319cb4752b44fb9b37789ac058eb9bc4b66b1698/content/community/news/science-updates/2021-07-01-boothroyd-blog-post/do-you-want-to-train-a-force-field-mac.yaml).
 
 ## Generating a QC torsion drive training set
 
