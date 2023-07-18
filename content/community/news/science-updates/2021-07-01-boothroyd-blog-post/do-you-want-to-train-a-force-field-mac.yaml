@@ -371,4 +371,3 @@ dependencies:
       - pymsmt==22.0
       - pytraj==2.0.6
       - sander==22.0
-prefix: /Users/lexiemcisaac/miniconda3/envs/build-a-force-field
