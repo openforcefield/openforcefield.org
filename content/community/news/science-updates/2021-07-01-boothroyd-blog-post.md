@@ -69,13 +69,42 @@ dependencies:
   - dftd3
 ```
 
+On newer Macs with Apple Silicon, you will have to use the following environment:
+
+```yaml
+name: build-a-force-field
+channels:
+  - conda-forge
+  - psi4
+  - conda-forge/label/libint_dev
+
+dependencies:
+  - python=3.9
+  - openff-toolkit=0.13.2
+  - openff-qcsubmit
+  - openff-bespokefit
+  - qcfractal
+  - psi4
+  - qcportal
+  - pytest
+  - dftd3-python
+```
+
 Assuming you save that to a file called
 `do-you-want-to-train-a-force-field.yml`, run the following shell commands to
-generate and activate your new environment:
+generate and activate your new environment.
 
+If you are on a system that is not Apple Silicon:
 ```bash
 conda env create --name build-a-force-field --file "do-you-want-to-train-a-force-field.yml"
 conda activate build-a-force-field
+```
+
+On a Mac with Apple Silicon:
+```bash
+CONDA_SUBDIR=osx-64 conda env create --name build-a-force-field --file "do-you-want-to-train-a-force-field.yml"
+conda activate build-a-force-field
+conda config --env --set subdir osx-64
 ```
 
 ## Generating a QC torsion drive training set
@@ -620,33 +649,34 @@ for handler_name in ["Bonds", "Angles", "ProperTorsions"]:
     BONDS
 
     [#6X4:1]-[#6X4:2]
-        INITIAL: length: 1.521 A  k: 517.219 kcal/(A**2 mol)
-        FINAL:   length: 1.526 A  k: 517.246 kcal/(A**2 mol)
+    INITIAL: <BondType with smirks: [#6X4:1]-[#6X4:2]  id: b1  length: 1.520980132854 angstrom  k: 517.2187207483 kilocalorie / angstrom ** 2 / mole  >
+    FINAL:   <BondType with smirks: [#6X4:1]-[#6X4:2]  id: b1  length: 1.526711910648 angstrom  k: 517.42080075 kilocalorie / angstrom ** 2 / mole  >
     [#6X4:1]-[#1:2]
-        INITIAL: length: 1.094 A  k: 754.071 kcal/(A**2 mol)
-        FINAL:   length: 1.096 A  k: 754.054 kcal/(A**2 mol)
+    INITIAL: <BondType with smirks: [#6X4:1]-[#1:2]  id: b83  length: 1.093910524997 angstrom  k: 754.0714751826 kilocalorie / angstrom ** 2 / mole  >
+    FINAL:   <BondType with smirks: [#6X4:1]-[#1:2]  id: b83  length: 1.0958505101 angstrom  k: 754.0516866618 kilocalorie / angstrom ** 2 / mole  >
+
 
     ANGLES
 
     [*:1]~[#6X4:2]-[*:3]
-        INITIAL: angle: 113.657 deg  k: 99.234 kcal/(mol rad**2)
-        FINAL:   angle: 114.532 deg  k: 58.458 kcal/(mol rad**2)
+    INITIAL: <AngleType with smirks: [*:1]~[#6X4:2]-[*:3]  angle: 113.6569396169 degree  k: 99.23399412421 kilocalorie / mole / radian ** 2  id: a1  >
+    FINAL:   <AngleType with smirks: [*:1]~[#6X4:2]-[*:3]  angle: 114.6409648038 degree  k: 96.83204742175 kilocalorie / mole / radian ** 2  id: a1  >
     [#1:1]-[#6X4:2]-[#1:3]
-        INITIAL: angle: 114.294 deg  k: 66.552 kcal/(mol rad**2)
-        FINAL:   angle: 111.392 deg  k: 60.785 kcal/(mol rad**2)
+    INITIAL: <AngleType with smirks: [#1:1]-[#6X4:2]-[#1:3]  angle: 114.294084683 degree  k: 66.55229431401 kilocalorie / mole / radian ** 2  id: a2  >
+    FINAL:   <AngleType with smirks: [#1:1]-[#6X4:2]-[#1:3]  angle: 112.9116848389 degree  k: 65.7503892673 kilocalorie / mole / radian ** 2  id: a2  >
 
-    PROPER TORSIONS
+
+    PROPERTORSIONS
 
     [#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
-        INITIAL: k1:  0.116 kcal/mol
-        FINAL:   k1:  0.094 kcal/mol
+    INITIAL: <ProperTorsionType with smirks: [#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]  periodicity1: 3  periodicity2: 2  periodicity3: 1  phase1: 0.0 degree  phase2: 180.0 degree  phase3: 180.0 degree  id: t2  k1: 0.1164348133257 kilocalorie / mole  k2: 0.2491194267913 kilocalorie / mole  k3: 0.295757514793 kilocalorie / mole  idivf1: 1.0  idivf2: 1.0  idivf3: 1.0  >
+    FINAL:   <ProperTorsionType with smirks: [#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]  periodicity1: 3  periodicity2: 2  periodicity3: 1  phase1: 0.0 degree  phase2: 180.0 degree  phase3: 180.0 degree  id: t2  k1: 0.1286147368566 kilocalorie / mole  k2: 0.2491194267913 kilocalorie / mole  k3: 0.295757514793 kilocalorie / mole  idivf1: 1.0  idivf2: 1.0  idivf3: 1.0  >
     [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
-        INITIAL: k1:  0.084 kcal/mol
-        FINAL:   k1: -0.091 kcal/mol
+    INITIAL: <ProperTorsionType with smirks: [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]  periodicity1: 3  phase1: 0.0 degree  id: t4  k1: 0.08414560911761 kilocalorie / mole  idivf1: 1.0  >
+    FINAL:   <ProperTorsionType with smirks: [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]  periodicity1: 3  phase1: 0.0 degree  id: t4  k1: 0.1182755518465 kilocalorie / mole  idivf1: 1.0  >
     [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
-        INITIAL: k1:  0.201 kcal/mol
-        FINAL:   k1: -0.013 kcal/mol
-
+    INITIAL: <ProperTorsionType with smirks: [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]  periodicity1: 3  phase1: 0.0 degree  id: t3  k1: 0.2005394316088 kilocalorie / mole  idivf1: 1.0  >
+    FINAL:   <ProperTorsionType with smirks: [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]  periodicity1: 3  phase1: 0.0 degree  id: t3  k1: 0.1430016473651 kilocalorie / mole  idivf1: 1.0  >
 
 
 
