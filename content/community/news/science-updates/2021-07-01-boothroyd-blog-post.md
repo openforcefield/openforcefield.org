@@ -9,7 +9,7 @@ slug: 'ff-training-example-2021-07-01'
 weight: 10
 markup: markdown
 thumb: "2021-07-01-boothroyd-blog-post.png"
-author: "Simon Boothroyd"
+author: "Simon Boothroyd, updated 11 July 2023 by Brent Westbrook and Alexandra McIsaac"
 ---
 
 Within Open Force Field (as the name might suggest) a lot of time and effort is spent exploring exactly how should
@@ -19,7 +19,7 @@ classical functional forms should be used for the force field interactions? or s
 
 A big part of this process is automation. No one wants to manually trawl through millions of molecules by hand when
 building a train / test set, or painstakingly set up and store thousands of quantum chemical calculations to train
-against. Ideally, training a force field should be at the level of 'these are the kinds of chemistry's I'm interested
+against. Ideally, training a force field should be at the level of 'these are the kinds of chemistries I'm interested
 in, this is the type of data I want to train against, let me vary these hyperparameters, and let me hit a big green GO
 button!'.
 
@@ -48,15 +48,45 @@ It will be structured into several parts:
 
 ### Following along
 
-If you would like to follow along with the steps that I will be showing here I recommend first creating a new [conda
-environment](https://gist.github.com/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-environment-yml) with all of the neccessary dependencies:
+If you would like to follow along with the steps that I will be showing here, I recommend first creating a new conda environment with all of the necessary dependencies:
 
-```python
-!conda env create --name build-a-force-field --file do-you-want-to-train-a-force-field.yml
-!conda activate build-a-force-field
+```yaml
+name: build-a-force-field
+channels:
+  - conda-forge
+  - psi4
+  - conda-forge/label/libint_dev
+
+dependencies:
+  - python=3.9
+  - openff-toolkit=0.13.2
+  - openff-qcsubmit
+  - openff-bespokefit
+  - qcfractal
+  - psi4
+  - qcportal
+  - pytest
+  - dftd3-python
 ```
 
-A completed Jupyter notebook [can be found on MyBinder](https://mybinder.org/v2/gist/SimonBoothroyd/2405bd7d15c2908227ad42bfe3a79064#file-how-to-build-a-force-field-ipynb/HEAD?filepath=how-to-build-a-force-field.ipynb).
+Assuming you save that to a file called
+`do-you-want-to-train-a-force-field.yml`, run the following shell commands to
+generate and activate your new environment.
+
+If you are on a system that is not Apple Silicon:
+```bash
+conda env create --name build-a-force-field --file "do-you-want-to-train-a-force-field.yml"
+conda activate build-a-force-field
+```
+
+On a Mac with Apple Silicon:
+```bash
+CONDA_SUBDIR=osx-64 conda env create --name build-a-force-field --file "do-you-want-to-train-a-force-field.yml"
+conda activate build-a-force-field
+conda config --env --set subdir osx-64
+```
+
+The full environment can be found [here](https://github.com/openforcefield/openforcefield.org/blob/1448a4c88de2eaf6dbaf3fe1cf4e0ea278260e34/content/community/news/science-updates/2021-07-01-boothroyd-blog-post/do-you-want-to-train-a-force-field-mac.yaml).
 
 ## Generating a QC torsion drive training set
 
@@ -65,8 +95,8 @@ against. While the Open Force Field consortium routinely works with both QC and 
 data](https://openff-evaluator.readthedocs.io/en/latest/datasets/curation.html) when building its force fields,
 I will 'only' be talking about training to QC data here to keep things short and sweet!
 
-The two main players in Open Force Fields QC data generation are the MolSSI QC ecosystem ([QCFractal](
-http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/) in particular) and the [OpenFF QCSubmit](
+The two main players in Open Force Field's QC data generation are the MolSSI QC ecosystem ([QCFractal](
+https://docs.qcarchive.molssi.org/projects/QCFractal/en/latest/) in particular) and the [OpenFF QCSubmit](
 https://openff-qcsubmit.readthedocs.io/en/latest/) package.
 
 So what do these two packages do? Well, to quote their documentation, QCFractal is
@@ -78,7 +108,7 @@ and QCSubmit provides
 > automated tools for submitting molecules to QCFractal and retrieving the results
 
 Simply put, QCSubmit allows us to curate large datasets of molecules that QCFractal can then perform QC calculations on
-in a way that scales across hundreds of compute resources without human intervention - i.e. no more manually runing
+in a way that scales across hundreds of compute resources without human intervention - i.e. no more manually running
 Psi4 or Gaussian :tada:!
 
 ### Preparing the training set
@@ -92,8 +122,8 @@ relevant chemical spaces are covered, it does not yet provide packaged tools to 
 
 Instead, for this blog post we will be training a force field for (wait for it) some linear alkanes :tada::tada::tada:!
 Ok it may not be the most exciting set, but I mainly want to show the process by which we can train a force field
-without needing a whole supercomputers worth of resources. This process itself can (and routinely does) handle datasets
-of thousands of unique molecules with diverse chemistry's.
+without needing a whole supercomputer worth of resources. This process itself can (and routinely does) handle datasets
+of thousands of unique molecules with diverse chemistries.
 
 Let's define these molecules now:
 
@@ -189,7 +219,7 @@ calculations, being able to scale from a single laptop all the way up to multipl
 globe.
 
 While the bulk of the QC training and test sets the Open Force Field uses (as we will see later in this post) are
-computed and stored in MolSSIs public QCFractal instance ([the QCArchive](https://qcarchive.molssi.org/)), here we will
+computed and stored in MolSSI's public QCFractal instance ([the QCArchive](https://qcarchive.molssi.org/)), here we will
 be spinning up a temporary local QCFractal to better showcase how simple generating new QC data is:
 
 
@@ -201,7 +231,7 @@ local_fractal_instance = FractalSnowflakeHandler(ncores=16)
 local_fractal_client = FractalClient(local_fractal_instance)
 ```
 
-*see the [main QCFractal documentation](http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/setup_quickstart.html)
+*see the [main QCFractal documentation](http://docs.qcarchive.molssi.org/projects/QCFractal/en/latest/setup_quickstart.html)
 for more information about setting up local instances to compute and store your non-public data*
 
 Submitting, computing, and finally storing a QC dataset is as easy as calling the submit command and providing the
@@ -264,7 +294,7 @@ And that's it - we now have a set of torsion drives ready to train our force fie
 
 Almost all the QC data that Open Force Field generates, whether that be for production force fields or smaller
 scientific studies, are made available via the public [QCArchive](https://qcarchive.molssi.org/) repository. This
-is not only part of the consortiums' effort to make all the science it performs completely accessible and reproducible,
+is not only part of the consortium's effort to make all the science it performs completely accessible and reproducible,
 but so that anyone can use it as part of their efforts!
 
 We are going to retrieve a set of optimised geometries for our training molecules that were computed as part of a
@@ -275,7 +305,7 @@ data from a running QCFractal instance. This functionality is provided by severa
 https://openff-qcsubmit.readthedocs.io/en/latest/examples/retrieving-results.html) - one for each type of QC data that
 can be retrieved.
 
-To pull down optimization data we will (surprise, surprise) using the optimization result collection:
+To pull down optimization data we will (surprise, surprise) use the optimization result collection:
 
 
 ```python
@@ -427,19 +457,19 @@ Here we are going to train to all the parameters identified by the coverage repo
 
 
 ```python
-from openff.bespokefit.schema.smirks import AngleSmirks, BondSmirks, ProperTorsionSmirks
+from openff.bespokefit.schema.smirnoff import AngleSMIRKS, BondSMIRKS, ProperTorsionSMIRKS
 
 target_parameters = [
     *[
-        BondSmirks(smirks=smirks, attributes={"k", "length"})
+        BondSMIRKS(smirks=smirks, attributes={"k", "length"})
         for smirks in coverage["Bonds"]
     ],
     *[
-        AngleSmirks(smirks=smirks, attributes={"k", "angle"})
+        AngleSMIRKS(smirks=smirks, attributes={"k", "angle"})
         for smirks in coverage["Angles"]
     ],
     *[
-        ProperTorsionSmirks(smirks=smirks, attributes={"k1"})
+        ProperTorsionSMIRKS(smirks=smirks, attributes={"k1"})
         for smirks in coverage["ProperTorsions"]
     ],
 ]
@@ -461,19 +491,15 @@ parameter training undertaken by Open Force Field.
 
 ```python
 from openff.bespokefit.schema.smirnoff import (
-    AngleAngleSettings,
-    AngleForceSettings,
-    BondForceSettings,
-    BondLengthSettings,
-    ProperTorsionSettings,
+    BondHyperparameters,
+    AngleHyperparameters,
+    ProperTorsionHyperparameters,
 )
 
-parameter_settings=[
-    BondForceSettings(prior=1.0e02),
-    BondLengthSettings(prior=1.0e-01),
-    AngleForceSettings(prior=1.0e02),
-    AngleAngleSettings(prior=2.0e01),
-    ProperTorsionSettings(target="k", prior=1.0),
+parameter_settings = [
+    BondHyperparameters(priors=dict(k=100.0, length=0.1)),
+    AngleHyperparameters(priors=dict(k=100.0, angle=20.0)),
+    ProperTorsionHyperparameters(priors=dict(k=1.0))
 ]
 ```
 
@@ -512,8 +538,9 @@ targets = [
 ]
 ```
 
-Each of these targets can take a multitude of options which I won't go into detail here, but will be described in much
-more detail in the soon to be published OpenFF Bespoke documentation.
+Each of these targets can take a multitude of options that I won't cover in
+detail here, but are described fully in the [OpenFF Bespoke
+documentation](https://docs.openforcefield.org/projects/bespokefit/en/stable/ref/api/openff.bespokefit/schema/openff.bespokefit.schema.targets.html#module-openff.bespokefit.schema.targets).
 
 ## Training the force field
 
@@ -526,14 +553,13 @@ input that will be used to train the force field:
 
 
 ```python
-from openff.bespokefit.schema.fitting import OptimizationSchema
+from openff.bespokefit.schema.fitting import (
+    OptimizationSchema,
+    OptimizationStageSchema,
+)
 from openff.bespokefit.schema.optimizers import ForceBalanceSchema
 
-optimization_schema = OptimizationSchema(
-    id="linear-alkanes",
-    # Define the force field that we will train
-    initial_force_field=initial_force_field_path,
-    # Define the optimizer
+optimization_schema = OptimizationStageSchema(
     optimizer=ForceBalanceSchema(
         max_iterations=50,
         step_convergence_threshold=0.01,
@@ -542,11 +568,11 @@ optimization_schema = OptimizationSchema(
         n_criteria=2,
         initial_trust_radius=-1.0,
     ),
+    parameters=target_parameters,
+    # Define the parameters to refit and the priors to place on them.
+    parameter_hyperparameters=parameter_settings,
     # Define the torsion profile targets to fit against.
     targets=targets,
-    # Define the parameters to refit and the priors to place on them.
-    target_parameters=target_parameters,
-    parameter_settings=parameter_settings,
 )
 ```
 
@@ -562,13 +588,13 @@ with open("optimization-schema.json", "w") as file:
 allowing anyone to try and reproduce the training that was performed simply be reloading the schema and using it as the
 input.
 
-Training our force field is as simply as calling `optimize`:
+Training our force field is as simple as calling `optimize`:
 
 
 ```python
 from openff.bespokefit.optimizers.forcebalance import ForceBalanceOptimizer
 
-results = ForceBalanceOptimizer.optimize(optimization_schema)
+results = ForceBalanceOptimizer.optimize(optimization_schema, initial_force_field)
 results
 ```
 
@@ -604,43 +630,44 @@ for handler_name in ["Bonds", "Angles", "ProperTorsions"]:
     BONDS
 
     [#6X4:1]-[#6X4:2]
-        INITIAL: length: 1.521 A  k: 517.219 kcal/(A**2 mol)
-        FINAL:   length: 1.526 A  k: 517.246 kcal/(A**2 mol)
+    INITIAL: <BondType with smirks: [#6X4:1]-[#6X4:2]  id: b1  length: 1.520980132854 angstrom  k: 517.2187207483 kilocalorie / angstrom ** 2 / mole  >
+    FINAL:   <BondType with smirks: [#6X4:1]-[#6X4:2]  id: b1  length: 1.526711910648 angstrom  k: 517.42080075 kilocalorie / angstrom ** 2 / mole  >
     [#6X4:1]-[#1:2]
-        INITIAL: length: 1.094 A  k: 754.071 kcal/(A**2 mol)
-        FINAL:   length: 1.096 A  k: 754.054 kcal/(A**2 mol)
+    INITIAL: <BondType with smirks: [#6X4:1]-[#1:2]  id: b83  length: 1.093910524997 angstrom  k: 754.0714751826 kilocalorie / angstrom ** 2 / mole  >
+    FINAL:   <BondType with smirks: [#6X4:1]-[#1:2]  id: b83  length: 1.0958505101 angstrom  k: 754.0516866618 kilocalorie / angstrom ** 2 / mole  >
+
 
     ANGLES
 
     [*:1]~[#6X4:2]-[*:3]
-        INITIAL: angle: 113.657 deg  k: 99.234 kcal/(mol rad**2)
-        FINAL:   angle: 114.532 deg  k: 58.458 kcal/(mol rad**2)
+    INITIAL: <AngleType with smirks: [*:1]~[#6X4:2]-[*:3]  angle: 113.6569396169 degree  k: 99.23399412421 kilocalorie / mole / radian ** 2  id: a1  >
+    FINAL:   <AngleType with smirks: [*:1]~[#6X4:2]-[*:3]  angle: 114.6409648038 degree  k: 96.83204742175 kilocalorie / mole / radian ** 2  id: a1  >
     [#1:1]-[#6X4:2]-[#1:3]
-        INITIAL: angle: 114.294 deg  k: 66.552 kcal/(mol rad**2)
-        FINAL:   angle: 111.392 deg  k: 60.785 kcal/(mol rad**2)
+    INITIAL: <AngleType with smirks: [#1:1]-[#6X4:2]-[#1:3]  angle: 114.294084683 degree  k: 66.55229431401 kilocalorie / mole / radian ** 2  id: a2  >
+    FINAL:   <AngleType with smirks: [#1:1]-[#6X4:2]-[#1:3]  angle: 112.9116848389 degree  k: 65.7503892673 kilocalorie / mole / radian ** 2  id: a2  >
 
-    PROPER TORSIONS
+
+    PROPERTORSIONS
 
     [#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
-        INITIAL: k1:  0.116 kcal/mol
-        FINAL:   k1:  0.094 kcal/mol
+    INITIAL: <ProperTorsionType with smirks: [#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]  periodicity1: 3  periodicity2: 2  periodicity3: 1  phase1: 0.0 degree  phase2: 180.0 degree  phase3: 180.0 degree  id: t2  k1: 0.1164348133257 kilocalorie / mole  k2: 0.2491194267913 kilocalorie / mole  k3: 0.295757514793 kilocalorie / mole  idivf1: 1.0  idivf2: 1.0  idivf3: 1.0  >
+    FINAL:   <ProperTorsionType with smirks: [#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]  periodicity1: 3  periodicity2: 2  periodicity3: 1  phase1: 0.0 degree  phase2: 180.0 degree  phase3: 180.0 degree  id: t2  k1: 0.1286147368566 kilocalorie / mole  k2: 0.2491194267913 kilocalorie / mole  k3: 0.295757514793 kilocalorie / mole  idivf1: 1.0  idivf2: 1.0  idivf3: 1.0  >
     [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
-        INITIAL: k1:  0.084 kcal/mol
-        FINAL:   k1: -0.091 kcal/mol
+    INITIAL: <ProperTorsionType with smirks: [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]  periodicity1: 3  phase1: 0.0 degree  id: t4  k1: 0.08414560911761 kilocalorie / mole  idivf1: 1.0  >
+    FINAL:   <ProperTorsionType with smirks: [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]  periodicity1: 3  phase1: 0.0 degree  id: t4  k1: 0.1182755518465 kilocalorie / mole  idivf1: 1.0  >
     [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
-        INITIAL: k1:  0.201 kcal/mol
-        FINAL:   k1: -0.013 kcal/mol
-
+    INITIAL: <ProperTorsionType with smirks: [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]  periodicity1: 3  phase1: 0.0 degree  id: t3  k1: 0.2005394316088 kilocalorie / mole  idivf1: 1.0  >
+    FINAL:   <ProperTorsionType with smirks: [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]  periodicity1: 3  phase1: 0.0 degree  id: t3  k1: 0.1430016473651 kilocalorie / mole  idivf1: 1.0  >
 
 
 
 ## Conclusions
 
 And that's all there is to it! As I've hopefully proved here, the ecosystem provided by the Open Force Field consortium
-enables entire force fields to be re-trained from within a single jupyter notebook.
+enables entire force fields to be re-trained from within a single Jupyter notebook.
 
 It is an ecosystem that is rapidly evolving, expanding, and improving, and ultimately aims to allow anyone to build
 their own force fields without requiring a whole team of researchers. If you found that something was unclear or did not
 work as you would expect, the team would love to hear from you! Please reach out to support@openforcefield.org if you
-have any feedback or, alternatively, open an issue on one of the consortiums [many GitHub repositories](
+have any feedback or, alternatively, open an issue on one of the consortium's [many GitHub repositories](
 https://github.com/openforcefield).
