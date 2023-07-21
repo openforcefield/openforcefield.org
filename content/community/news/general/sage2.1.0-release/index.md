@@ -45,8 +45,8 @@ Benchmarks against the public industrial partner benchmark set have shown positi
 ![ddE](CDF_plot_of_ddE.png "CDF plot of ddE")
 ![sulfamide-geometry-improvement](sulfamide-geometry.png "Improvements to hypervalent sulfur geometry")
 
-Find more details in the [release notes](https://github.com/openforcefield/openff-sage/releases/tag/2023.05.1), including how to re-run optimization and datasets used in training stored in [sage-2.1.0](https://github.com/openforcefield/sage-2.1.0) repo.
+
+A huge thanks to the whole OpenFF team, our industrial partners, and our collaborators for making this release possible! :tada:
+{{< br >}}{{< br >}}
 {{<button href="https://github.com/openforcefield/sage-2.1.0" text="GitHub" >}}
 {{<button href="https://zenodo.org/record/7889050" text="DOI" >}}
-{{< br >}}{{< br >}}
-A huge thanks to the whole OpenFF team, our industrial partners, and our collaborators for making this release possible! :tada:
