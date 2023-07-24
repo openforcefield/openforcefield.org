@@ -16,11 +16,13 @@ When using Open Force Field parameters or software in your research, please cite
 
 * OpenFF Toolkit ([Mobley et al., 2018](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00640) + [Specific version DOI](https://zenodo.org/record/8102071))
 
-* OpenFF BespokeFit ([Horton et al., 2022](https://pubs.acs.org/doi/full/10.1021/acs.jcim.2c01153) + [Specific version DOI](zenodo not yet connected))
+* OpenFF BespokeFit ([Horton et al., 2022](https://pubs.acs.org/doi/full/10.1021/acs.jcim.2c01153))
+
+[//]: # (Add version DOI after next release July 2023)
 
 * OpenFF Evaluator ([Boothroyd et al., 2022](https://pubs.acs.org/doi/10.1021/acs.jctc.1c01111) + [Specific version DOI](https://zenodo.org/record/7730541))
 
-* OpenFF Interchange ([No publication](no doi) + [No Zenodo integration](no doi))
+* OpenFF Interchange ([Specific version DOI](https://zenodo.org/record/8147764))
 
 ### Research
 
