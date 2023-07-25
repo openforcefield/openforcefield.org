@@ -22,7 +22,7 @@ The easiest way to access the latest force field files is to install the latest 
 `conda install --yes -c conda-forge "openff-forcefields >=2.1.0"`
 and load the force field via the toolkit:
 ```python
-from openff.toolkit.typing.engines.smirnoff import ForceField
+from openff.toolkit import ForceField
 openff_2_1_0 = ForceField("openff-2.1.0.offxml")
 ```
 If you experience any issues with the new force field, please be sure to email support@openforcefield.org or raise an issue on the [openff-sage](https://github.com/openforcefield/openff-sage) GitHub repository. This repository also contains the scripts, inputs and the results generated as part of the training the Sage line of OpenFF force fields.
