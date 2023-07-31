@@ -106,6 +106,7 @@ The [Open Force Field Consortium officially launched]({{< relref "introducing-th
 # Industry Partners
 {{< ul >}}
 - [AbbVie](https://www.abbvie.com/)
+- [Amgen](https://www.amgen.com/)
 - [AstraZeneca](https://www.astrazeneca.com/)
 - [Bayer](https://www.bayer.com/)
 - [Cresset](https://www.cresset-group.com/)
