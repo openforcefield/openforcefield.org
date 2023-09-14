@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 1
+weight: 4
 title: 3rd Open Force Field Workshop
 description: The Third Open Force Field Workshop was initially as an in-person gathering in Boston on May 4-5, 2020, but this meeting was cancelled due to the Covid-19 outbreak. This in-person meeting was replaced by a virtual meeting on the same dates. We decided to slightly experiment with the workshop format by making most of the content available before the meeting for asynchronous consumption.
 foldopen: true

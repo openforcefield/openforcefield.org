@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 3
+weight: 6
 title: 1st Open Force Field Workshop
 description: The First Open Force Field Workshop was held in La Jolla, CA on January 7-8, 2019. The meeting was open to Consortium members and collaborators, and parts of the meeting were recorded for posting online. Watch the videos from this workshop on YouTube and access presentation slides on Zenodo.
 foldopen: true
