@@ -52,7 +52,7 @@
 - title: "A transferable double exponential potential for condensed phase simulations of small molecules"
   authors: "Joshua T. Horton, Simon Boothroyd, Pavan Kumar Behara, David L. Mobley, and Daniel J. Cole"
   summary: We show how the OpenFF Toolkit plugin scheme can be used to compare Lennard-Jones 12-6 with doubnle exponential potentials.
-  img: double-exponential-potential.kpg
+  img: double-exponential-potential.jpg
   date: 2023-04-20
   preprint: 
     server: chemRxiv
@@ -99,6 +99,24 @@
     licence: "CC BY 4.0"
     date: 2023-01-24
   code: choderalab/sake
+- title: "Molecular-dynamics simulation methods for macromolecular crystallography"
+  authors: "David C. Wych, Phillip C. Aoto, Lily Vu, Alexander M. Wolff, David L. Mobley, James S. Fraser, Susan S. Taylor, and Michael E. Walla"
+  summary: "We demonstrate how simulations of protein X-ray structures in their crystal environments can be used to assess force field quality"
+  img: protein-crystal-simulations.jpg
+  date: 2023-01-01
+  preprint: 
+    server: bioRxiv
+    url: https://doi.org/10.1101/2022.04.04.486986
+    licence: "CC BY 4.0"
+    date: 2022-04-05
+  code: jthorton/de-forcefields
+  published:
+    doi: https://doi.org/10.1107/S2059798322011871
+    journal: Structural Biology
+    volume: 79
+    pages: 50
+    year: 2023
+    date: 2022-12-13
 - title: "SPICE, A Dataset of Drug-like Molecules and Peptides for Training Machine Learning Potentials"
   authors: "Peter Eastman, Pavan Kumar Behara, David L. Dotson, Raimondas Galvelis, John E. Herr, Josh T. Horton, Yuezhi Mao, John D. Chodera, Benjamin P. Pritchard, Yuanqing Wang, Gianni De Fabritiis, and Thomas E. Markland"
   summary: We generate a large open quantum chemical dataset of over 1.1M conformations with broad coverage of biomolecules and druglike small molecules useful for building and assessing force fields.
