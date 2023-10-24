@@ -1,6 +1,6 @@
 - title: "Tuning Potential Functions to Host–Guest Binding Data"
   authors: "Jeffry Setiadi, Simon Boothroyd, David Slochower, David Dotson, Matthew Thompson, Jeffrey Wagner, Lee-Ping Wang, and Michael K. Gilson"
-  summary: We apply the Open Force Field framework to parameterize general organic polymers, demonstrating the breadth of chemical species that the SMIRNOFF approach can parameterize.
+  summary: We extended the Open Force Field Evaluator framework to systematically calculate host-guest binding free energies, optimized force field parameters using experimental data, and demonstrated their potential transferability to protein-ligand systems.
   img: tuning-host-guest.jpg
   date: 2023-09-26
   preprint: 
