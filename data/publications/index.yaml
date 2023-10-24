@@ -18,6 +18,16 @@
     url: http://doi.org/10.26434/chemrxiv-2023-f2zxd-v2
     licence: "CC BY 4.0"
     date: 2023-10-19
+- title: "Current state of open source force fields in protein-ligand binding affinity predictions"
+  authors: "David F. Hahn, Vytautas Gapsys, Bert L. de Groot, David L. Mobley, and Gary J. Tresadern"
+  summary: "We benchmark the accuracy of OpenFF and major force fields for computing relative binding free energies on a set of 598 ligands and 22 protein targets."
+  img: hahn-benchmark.jpg
+  date: 2023-08-29
+  preprint: 
+    server: chemRxiv
+    url: http://doi.org/10.26434/chemrxiv-2023-ml7gd
+    licence: "CC BY 4.0"
+    date: 2023-08-29
 - title: "Machine-learned molecular mechanics force field for the simulation of protein-ligand systems and beyond"
   authors: "Kenichiro Takaba, Iván Pulido, Pavan Kumar Behara, Mike Henry, Hugo MacDermott-Opeskin, John D. Chodera, and Yuanqing Wang"
   summary: We show how the espaloma graph neural network can be used to construct a high-accuracy force field for protein-ligand systems from over 1.1 million quantum chemicl calculations, and demonstrate its performance on protein:ligand binding free energy calculations.
