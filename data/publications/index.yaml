@@ -58,6 +58,17 @@
     licence: "CC BY 4.0"
     date: 2023-02-16
   code: choderalab/espaloma_charge
+- title: "Spatial Attention Kinetic Networks with E(n)-Equivariance"
+  authors: "Yuanqing Wang and John D. Chodera"
+  summary: We describe a new machine learning potential that provides an excellent tradeoff between speed and accuracy for learning quantum chemical energies.
+  img: sake.jpg
+  date: 2023-01-24
+  preprint: 
+    server: arXiv
+    url: https://arxiv.org/abs/2301.08893
+    licence: "CC BY 4.0"
+    date: 2023-01-24
+  code: choderalab/sake
 - title: "SPICE, A Dataset of Drug-like Molecules and Peptides for Training Machine Learning Potentials"
   authors: "Peter Eastman, Pavan Kumar Behara, David L. Dotson, Raimondas Galvelis, John E. Herr, Josh T. Horton, Yuezhi Mao, John D. Chodera, Benjamin P. Pritchard, Yuanqing Wang, Gianni De Fabritiis, and Thomas E. Markland"
   summary: We generate a large open quantum chemical dataset of over 1.1M conformations with broad coverage of biomolecules and druglike small molecules useful for building and assessing force fields.
