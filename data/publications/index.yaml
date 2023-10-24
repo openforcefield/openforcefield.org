@@ -7,8 +7,18 @@
     server: arXiv
     url: https://arxiv.org/abs/2307.07085
     licence: "CC BY 4.0"
-    date: 2023-07-13
+    date: 2023-10-13
   code: choderalab/refit-espaloma
+- title: "Hierarchical clustering of chemical space using binary-encoded SMARTS for building data-driven chemical perception models"
+  authors: "Trevor Gokey and David L. Mobley"
+  summary: We demonstrate a method for automatically refining SMARTS-based typing for direct chemical perception to improve the accuracy of force fields.
+  img: besmarts.jpg
+  date: 2023-09-21
+  preprint: 
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv-2023-v969f
+    licence: "CC BY 4.0"
+    date: 2023-09-21
 - title: Development and Benchmarking of Open Force Field 2.0.0 — the Sage Small Molecule Force Field
   authors: "Simon Boothroyd, Pavan Kumar Behara, Owen C. Madin, David F. Hahn, Hyesu Jang, Vytautas Gapsys, Jeffrey R. Wagner, Joshua T. Horton, David L. Dotson, Matthew W. Thompson, Jessica Maat, Trevor Gokey, Lee-Ping Wang, Daniel J. Cole, Michael K. Gilson, John D. Chodera, Christopher I. Bayly, Michael R. Shirts, David L. Mobley"
   summary: We introduce the Open Force Field (OpenFF)~2.0.0 small molecule force field for drug-like molecules, code-named Sage, which builds upon our previous iteration, Parsley. OpenFF force fields are based on direct chemical perception, which generalizes easily to highly diverse sets of chemistries based on substructure queries. Like the previous OpenFF iterations, the Sage generation of OpenFF force fields was validated in protein-ligand simulations to be compatible with AMBER biopolymer force fields. In this paper we detail the methodology used to develop this force field, as well as the innovations and improvements introduced since the release of Parsley 1.0.0. One particularly significant feature of Sage is a set of improved Lennard-Jones (LJ) parameters retrained against condensed phase mixture data, the first refit of LJ parameters in the OpenFF small molecule force field line. Sage also includes valence parameters refit to a larger database of quantum chemical calculations than previous versions, as well as improvements in how this fitting is performed. Force field benchmarks show improvements in general metrics of performance against quantum chemistry reference data such as root mean square deviations (RMSD) of optimized conformer geometries, torsion fingerprint deviations (TFD), and improved relative conformer energetics (ΔΔ𝐸). We present a variety of benchmarks for these metrics against our previous force fields as well as in some cases other small molecule biomolecular force fields. Sage also demonstrates improved performance in estimating physical properties, including comparison against experimental data from various thermodynamic databases for small molecule properties such as Δ𝐻_𝑚𝑖𝑥, ρ(𝑥), Δ𝐺_𝑠𝑜𝑙𝑣 and Δ𝐺_𝑡𝑟𝑎𝑛𝑠. Additionally, we benchmarked against protein-ligand binding free energies (Δ𝐺_𝑏𝑖𝑛𝑑), where Sage yields results statistically similar to previous force fields. All the data is made publicly available along with complete details on how to reproduce the training results at https://github.com/openforcefield/openff-sage.
