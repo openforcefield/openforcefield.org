@@ -261,6 +261,19 @@
     year: 2022
     date: 2022-02-07
   code: SimonBoothroyd/bayesiantesting
+- title: "Quantum Chemistry Common Driver and Databases (QCDB) and Quantum Chemistry Engine (QCEngine): Automation and interoperability among computational chemistry programs"
+  authors: "Daniel G. A. Smith, Annabelle T. Lolinco, Zachary L. Glick, Jiyoung Lee, Asem Alenaizan, Taylor A. Barnes, Carlos H. Borca, Roberto Di Remigio, David L. Dotson, Sebastian Ehlert, Alexander G. Heide, Michael F. Herbst, Jan Hermann, Colton B. Hicks, Joshua T. Horton, Adrian G. Hurtado, Peter Kraus, Holger Kruse, Sebastian J. R. Lee, Jonathon P. Misiewicz, Levi N. Naden, Farhad Ramezanghorbani, Maximilian Scheurer, Jeffrey B. Schriber, Andrew C. Simmonett, Johannes Steinmetzer, Jeffrey R. Wagner, Logan Ward, Matthew Welborn, Doaa Altarawy, Jamshed Anwar, John D. Chodera, Andreas Dreuw, Heather J. Kulik, Fang Liu, Todd J. Martínez, Devin A. Matthews, Henry F. Schaefer, III, Jiří Šponer, Justin M. Turney, Lee-Ping Wang, Nuwan De Silva, Rollin A. King, John F. Stanton, Mark S. Gordon, Theresa L. Windus, C. David Sherrill, and Lori A. Burns"
+  summary: "We present a community effort to build a common driver and database for quantum chemistry calculations, and demonstrate its use in the QCArchive project."
+  img: qcarchive.jpg
+  date: 2021-11-22
+  code: https://qcarchive.molssi.org/
+  published:
+    doi: 10.1063/5.0059356
+    journal: The Journal of Chemical Physics
+    volume: 155
+    pages: 204801
+    year: 2021
+    date: 2021-11-22
 - title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks [Article v1.0]"
   authors: "David F. Hahn, Christopher I. Bayly, Hannah E. Bruce Macdonald, John D. Chodera, Antonia S. J. S. Mey, David L. Mobley, Laura Perez Benito, Christina E.M. Schindler, Gary Tresadern, Gregory L. Warren"
   summary: "As new methods, force fields, and implementations are developed, assessing the expected accuracy of free energy calculations on real-world systems (benchmarking) becomes critical to provide users with an assessment of the accuracy expected when these methods are applied within their domain of applicability, and developers with a way to assess the expected impact of new methodologies. Here, we present guidelines for (1) curating experimental data to develop meaningful benchmark sets, (2) preparing benchmark inputs according to best practices to facilitate widespread adoption, and (3) analysis of the resulting predictions to enable statistically meaningful comparisons among methods and force fields."
