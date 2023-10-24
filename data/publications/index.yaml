@@ -57,6 +57,16 @@
     pages: 1178
     year: 2023
     date: 2023-07-10
+- title: "Structure-Based Experimental Datasets for Benchmarking of Protein Simulation Force Fields"
+  authors: "Chapin E. Cavender, David A. Case, Julian C.-H. Chen, Lillian T. Chong, Daniel A. Keedy, Kresten Lindorff-Larsen, David L. Mobley, O. H. Samuli Ollila, Chris Oostenbrink, Paul Robustelli, Vincent A. Voelz, Michael E. Wall, David C. Wych, and Michael K. Gilson"
+  summary: We capture community consensus on best practices for assessing the quality of protein force fields via comparison with experimental data.
+  img: protein-benchmark-best-practices.jpg
+  date: 2023-03-02
+  preprint: 
+    server: arXiv
+    url: https://arxiv.org/abs/2303.11056
+    licence: "CC BY 4.0"
+    date: 2023-03-02
 - title: "EspalomaCharge: Machine learning-enabled ultra-fast partial charge assignment"
   authors: "Yuanqing Wang, Iván Pulido, Kenichiro Takaba, Benjamin Kaminow, Jenke Scheen, Lily Wang, and John D. Chodera"
   summary: We present an ultra-fast, scalable graph net based model to generate AM1-BCC ELF10 quality charges self-consistently for small molecules and arbitrary biopolymers.
