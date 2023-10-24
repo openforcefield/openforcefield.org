@@ -1,4 +1,141 @@
-- title: Development and Benchmarking of Open Force Field 2.0.0 — the Sage Small Molecule Force Field
+- title: "Tuning Potential Functions to Host–Guest Binding Data"
+  authors: "Jeffry Setiadi, Simon Boothroyd, David Slochower, David Dotson, Matthew Thompson, Jeffrey Wagner, Lee-Ping Wang, and Michael K. Gilson"
+  summary: We apply the Open Force Field framework to parameterize general organic polymers, demonstrating the breadth of chemical species that the SMIRNOFF approach can parameterize.
+  img: host-guest-tuning.jpg
+  date: 2023-09-26
+  preprint: 
+    server: chemRxiv
+    url: http://doi.org/10.26434/chemrxiv-2023-dwlf1
+    licence: "CC BY 4.0"
+    date: 2023-09-26
+- title: "Parameterization of general organic polymers within the Open Force Field framework"
+  authors: "Connor M. Davel, Timotej Bernat, Jeffrey R. Wagner, and Michael R. Shirts"
+  summary: We apply the Open Force Field framework to parameterize general organic polymers, demonstrating the breadth of chemical species that the SMIRNOFF approach can parameterize.
+  img: smirnoff-polymer.jpg
+  date: 2023-10-19
+  preprint: 
+    server: chemRxiv
+    url: http://doi.org/10.26434/chemrxiv-2023-f2zxd-v2
+    licence: "CC BY 4.0"
+    date: 2023-10-19
+- title: "Current state of open source force fields in protein-ligand binding affinity predictions"
+  authors: "David F. Hahn, Vytautas Gapsys, Bert L. de Groot, David L. Mobley, and Gary J. Tresadern"
+  summary: "We benchmark the accuracy of OpenFF and major force fields for computing relative binding free energies on a set of 598 ligands and 22 protein targets."
+  img: hahn-benchmark.jpg
+  date: 2023-08-29
+  preprint: 
+    server: chemRxiv
+    url: http://doi.org/10.26434/chemrxiv-2023-ml7gd
+    licence: "CC BY 4.0"
+    date: 2023-08-29
+- title: "Machine-learned molecular mechanics force field for the simulation of protein-ligand systems and beyond"
+  authors: "Kenichiro Takaba, Iván Pulido, Pavan Kumar Behara, Mike Henry, Hugo MacDermott-Opeskin, John D. Chodera, and Yuanqing Wang"
+  summary: We show how the espaloma graph neural network can be used to construct a high-accuracy force field for protein-ligand systems from over 1.1 million quantum chemicl calculations, and demonstrate its performance on protein:ligand binding free energy calculations.
+  img: espaloma.jpg
+  date: 2023-07-13
+  preprint: 
+    server: arXiv
+    url: https://arxiv.org/abs/2307.07085
+    licence: "CC BY 4.0"
+    date: 2023-10-13
+  code: choderalab/refit-espaloma
+- title: "Hierarchical clustering of chemical space using binary-encoded SMARTS for building data-driven chemical perception models"
+  authors: "Trevor Gokey and David L. Mobley"
+  summary: We demonstrate a method for automatically refining SMARTS-based typing for direct chemical perception to improve the accuracy of force fields.
+  img: besmarts.jpg
+  date: 2023-09-21
+  preprint: 
+    server: chemRxiv
+    url: https://doi.org/10.26434/chemrxiv-2023-v969f
+    licence: "CC BY 4.0"
+    date: 2023-09-21
+- title: "A transferable double exponential potential for condensed phase simulations of small molecules"
+  authors: "Joshua T. Horton, Simon Boothroyd, Pavan Kumar Behara, David L. Mobley, and Daniel J. Cole"
+  summary: We show how the OpenFF Toolkit plugin scheme can be used to compare Lennard-Jones 12-6 with doubnle exponential potentials.
+  img: double-exponential-potential.jpg
+  date: 2023-04-20
+  preprint: 
+    server: chemRxiv
+    url: https://chemrxiv.org/engage/chemrxiv/article-details/6401c0a163e8d44e594addea
+    licence: "CC BY 4.0"
+    date: 2023-03-06
+  code: jthorton/de-forcefields
+  published:
+    doi: https://doi.org/10.1039/D3DD00070B
+    journal: Digital Discovery
+    volume: 2
+    pages: 1178
+    year: 2023
+    date: 2023-07-10
+- title: "Structure-Based Experimental Datasets for Benchmarking of Protein Simulation Force Fields"
+  authors: "Chapin E. Cavender, David A. Case, Julian C.-H. Chen, Lillian T. Chong, Daniel A. Keedy, Kresten Lindorff-Larsen, David L. Mobley, O. H. Samuli Ollila, Chris Oostenbrink, Paul Robustelli, Vincent A. Voelz, Michael E. Wall, David C. Wych, and Michael K. Gilson"
+  summary: We capture community consensus on best practices for assessing the quality of protein force fields via comparison with experimental data.
+  img: protein-benchmark-best-practices.jpg
+  date: 2023-03-02
+  preprint: 
+    server: arXiv
+    url: https://arxiv.org/abs/2303.11056
+    licence: "CC BY 4.0"
+    date: 2023-03-02
+- title: "EspalomaCharge: Machine learning-enabled ultra-fast partial charge assignment"
+  authors: "Yuanqing Wang, Iván Pulido, Kenichiro Takaba, Benjamin Kaminow, Jenke Scheen, Lily Wang, and John D. Chodera"
+  summary: We present an ultra-fast, scalable graph net based model to generate AM1-BCC ELF10 quality charges self-consistently for small molecules and arbitrary biopolymers.
+  img: espaloma.jpg
+  date: 2023-02-14
+  preprint: 
+    server: arXiv
+    url: https://arxiv.org/abs/2302.06758
+    licence: "CC BY 4.0"
+    date: 2023-02-16
+  code: choderalab/espaloma_charge
+- title: "Spatial Attention Kinetic Networks with E(n)-Equivariance"
+  authors: "Yuanqing Wang and John D. Chodera"
+  summary: We describe a new machine learning potential that provides an excellent tradeoff between speed and accuracy for learning quantum chemical energies.
+  img: sake.jpg
+  date: 2023-01-24
+  preprint: 
+    server: arXiv
+    url: https://arxiv.org/abs/2301.08893
+    licence: "CC BY 4.0"
+    date: 2023-01-24
+  code: choderalab/sake
+- title: "Molecular-dynamics simulation methods for macromolecular crystallography"
+  authors: "David C. Wych, Phillip C. Aoto, Lily Vu, Alexander M. Wolff, David L. Mobley, James S. Fraser, Susan S. Taylor, and Michael E. Walla"
+  summary: "We demonstrate how simulations of protein X-ray structures in their crystal environments can be used to assess force field quality"
+  img: protein-crystal-simulations.jpg
+  date: 2023-01-01
+  preprint: 
+    server: bioRxiv
+    url: https://doi.org/10.1101/2022.04.04.486986
+    licence: "CC BY 4.0"
+    date: 2022-04-05
+  code: jthorton/de-forcefields
+  published:
+    doi: 10.1107/S2059798322011871
+    journal: Structural Biology
+    volume: 79
+    pages: 50
+    year: 2023
+    date: 2022-12-13
+- title: "SPICE, A Dataset of Drug-like Molecules and Peptides for Training Machine Learning Potentials"
+  authors: "Peter Eastman, Pavan Kumar Behara, David L. Dotson, Raimondas Galvelis, John E. Herr, Josh T. Horton, Yuezhi Mao, John D. Chodera, Benjamin P. Pritchard, Yuanqing Wang, Gianni De Fabritiis, and Thomas E. Markland"
+  summary: We generate a large open quantum chemical dataset of over 1.1M conformations with broad coverage of biomolecules and druglike small molecules useful for building and assessing force fields.
+  img: spice-dataset.jpg
+  date: 2022-11-23
+  preprint: 
+    server: arXiv
+    url: https://arxiv.org/abs/2209.10702
+    licence: "CC BY 4.0"
+    date: 2022-11-23
+  code: openmm/spice-dataset
+  published:
+    doi: 10.1038/s41597-022-01882-6
+    journal: Scientific Data
+    volume: 10
+    pages: 11
+    year: 2023
+    date: 2023-01-04
+- title: "Development and Benchmarking of Open Force Field 2.0.0: the Sage Small Molecule Force Field"
   authors: "Simon Boothroyd, Pavan Kumar Behara, Owen C. Madin, David F. Hahn, Hyesu Jang, Vytautas Gapsys, Jeffrey R. Wagner, Joshua T. Horton, David L. Dotson, Matthew W. Thompson, Jessica Maat, Trevor Gokey, Lee-Ping Wang, Daniel J. Cole, Michael K. Gilson, John D. Chodera, Christopher I. Bayly, Michael R. Shirts, David L. Mobley"
   summary: We introduce the Open Force Field (OpenFF)~2.0.0 small molecule force field for drug-like molecules, code-named Sage, which builds upon our previous iteration, Parsley. OpenFF force fields are based on direct chemical perception, which generalizes easily to highly diverse sets of chemistries based on substructure queries. Like the previous OpenFF iterations, the Sage generation of OpenFF force fields was validated in protein-ligand simulations to be compatible with AMBER biopolymer force fields. In this paper we detail the methodology used to develop this force field, as well as the innovations and improvements introduced since the release of Parsley 1.0.0. One particularly significant feature of Sage is a set of improved Lennard-Jones (LJ) parameters retrained against condensed phase mixture data, the first refit of LJ parameters in the OpenFF small molecule force field line. Sage also includes valence parameters refit to a larger database of quantum chemical calculations than previous versions, as well as improvements in how this fitting is performed. Force field benchmarks show improvements in general metrics of performance against quantum chemistry reference data such as root mean square deviations (RMSD) of optimized conformer geometries, torsion fingerprint deviations (TFD), and improved relative conformer energetics (ΔΔ𝐸). We present a variety of benchmarks for these metrics against our previous force fields as well as in some cases other small molecule biomolecular force fields. Sage also demonstrates improved performance in estimating physical properties, including comparison against experimental data from various thermodynamic databases for small molecule properties such as Δ𝐻_𝑚𝑖𝑥, ρ(𝑥), Δ𝐺_𝑠𝑜𝑙𝑣 and Δ𝐺_𝑡𝑟𝑎𝑛𝑠. Additionally, we benchmarked against protein-ligand binding free energies (Δ𝐺_𝑏𝑖𝑛𝑑), where Sage yields results statistically similar to previous force fields. All the data is made publicly available along with complete details on how to reproduce the training results at https://github.com/openforcefield/openff-sage.
   img: noun_sage_1576600.png
@@ -10,12 +147,30 @@
     date: 2022-11-21
   code: openforcefield/openff-sage
   published:
-    doi: https://doi.org/10.1021/acs.jctc.3c00039
+    doi: 10.1021/acs.jctc.3c00039
     journal: Journal of Chemical Theory and Computation
     volume: 19:11
     pages: 3251-3257
     year: 2023
     date: 2023-06-13
+- title: "Using physical property surrogate models to perform accelerated multi-fidelity optimization of force field parameters"
+  authors: "Owen C. Madin and Michael R. Shirts"
+  summary: "We demonstrate how fast machine learning surrogate models can be used to accelerate force field parameterization in a multi-fidelity optimization framework"
+  img: multi-fidelity-digital-discovery.jpg
+  date: 2022-09-22
+  preprint: 
+    server: chemRxiv
+    url: http://doi.org/10.26434/chemrxiv-2022-7bmzv-v2
+    licence: "CC BY 4.0"
+    date: 2022-12-09
+  code: ocmadin/LJ_surrogates
+  published:
+    doi: 10.1039/D2DD00138A
+    journal: Digital Discovery
+    volume: 2
+    pages: 828
+    year: 2023
+    date: 2023-05-05
 - title: "Collaborative assessment of molecular geometries and energies from the Open Force Field"
   authors: "Lorenzo D’Amore, David F. Hahn, David L. Dotson, Joshua T. Horton, Jamshed Anwar, Ian Craig, Thomas Fox, Alberto Gobbi, Sirish Kaushik Lakkaraju, Xavier Lucas, Katharina Meier, David L. Mobley, Arjun Narayanan, Christina E.M. Schindler, William C. Swope, Pieter J. in ’t Veld, Jeffrey Wagner, Bai Xue, and Gary Tresadern"
   summary: Force fields form the basis for classical molecular simulations and their accuracy is crucial for the quality of, for instance, protein-ligand binding simulations in drug discovery. The huge diversity of small molecule chemistry makes it a challenge to build and parameterize a suitable force field. The Open Force Field Initiative is a combined industry and academic consortium developing a state-of-the-art small molecule force field. In this report industry members of the consortium worked together to objectively evaluate the performance of the force fields (referred to here as OpenFF) produced by the initiative on a combined public and proprietary dataset of 19,653 relevant molecules selected from their internal research and compound collections. This evaluation was important because it was completely blind; at most partners, none of the molecules or data were used in force field development or testing prior to this work. We compare the Open Force Field “Sage” version 2.0.0 and “Parsley” version 1.3.0 with GAFF-2.11-AM1BCC, OPLS4 and SMIRNOFF99Frosst. We analyzed force field-optimized geometries and conformer energies compared to reference quantum mechanical data. We show that OPLS4 performs best, and the latest Open Force Field release shows a clear improvement compared to its predecessors. The performance of established force fields such as GAFF-2.11 was generally worse. While OpenFF researchers were involved in building the benchmarking infrastructure used in this work, benchmarking was done entirely in-house within industrial organizations and the resulting assessment is reported here. This work assesses the force field performance using separate bench- marking steps, external datasets, and involving external research groups. This effort may also be unique in terms of the number of different industrial partners involved, with 10 different companies participating in the benchmark efforts.
@@ -27,7 +182,7 @@
     license: "CC BY 4.0"
     date: 2022-11-04
   published:
-    doi: https://doi.org/10.1021/acs.jcim.2c01185
+    doi: 10.1021/acs.jcim.2c01185
     journal: Journal of Chemical Information and Modeling
     volume: 62:23
     pages: 6094–6104
@@ -45,7 +200,7 @@
     license: "CC BY 4.0"
     date: 2022-09-09
   published:
-    doi: https://doi.org/10.1021/acs.jcim.2c01153
+    doi: 10.1021/acs.jcim.2c01153
     journal: Journal of Chemical Information and Modeling
     volume: 62:22
     pages: 5622–5633
@@ -63,7 +218,7 @@
     license: "CC BY 4.0"
     date: 2021-11-16
   published:
-    doi: https://doi.org/10.1021/acs.jcim.1c00829
+    doi: 10.1021/acs.jcim.1c00829
     journal: Journal of Chemical Theory and Computation
     volume: 18:6
     pages: 3577–3592
@@ -81,7 +236,7 @@
     license: "CC BY 4.0"
     date: 2021-08-06
   published:
-    doi: https://doi.org/10.1021/acs.jctc.1c01111
+    doi: 10.1021/acs.jctc.1c01111
     journal: Journal of Chemical Theory and Computation
     volume: 18:6
     pages: 3566–3576
@@ -99,13 +254,26 @@
     date: 2021-05-13
     license: "CC BY 4.0"
   published:
-    doi: https://doi.org/10.1021/acs.jcim.1c00829
+    doi: 10.1021/acs.jcim.1c00829
     journal: Journal of Chemical Information and Modeling
     volume: 62:4
     pages: 874-889
     year: 2022
     date: 2022-02-07
   code: SimonBoothroyd/bayesiantesting
+- title: "Quantum Chemistry Common Driver and Databases (QCDB) and Quantum Chemistry Engine (QCEngine): Automation and interoperability among computational chemistry programs"
+  authors: "Daniel G. A. Smith, Annabelle T. Lolinco, Zachary L. Glick, Jiyoung Lee, Asem Alenaizan, Taylor A. Barnes, Carlos H. Borca, Roberto Di Remigio, David L. Dotson, Sebastian Ehlert, Alexander G. Heide, Michael F. Herbst, Jan Hermann, Colton B. Hicks, Joshua T. Horton, Adrian G. Hurtado, Peter Kraus, Holger Kruse, Sebastian J. R. Lee, Jonathon P. Misiewicz, Levi N. Naden, Farhad Ramezanghorbani, Maximilian Scheurer, Jeffrey B. Schriber, Andrew C. Simmonett, Johannes Steinmetzer, Jeffrey R. Wagner, Logan Ward, Matthew Welborn, Doaa Altarawy, Jamshed Anwar, John D. Chodera, Andreas Dreuw, Heather J. Kulik, Fang Liu, Todd J. Martínez, Devin A. Matthews, Henry F. Schaefer, III, Jiří Šponer, Justin M. Turney, Lee-Ping Wang, Nuwan De Silva, Rollin A. King, John F. Stanton, Mark S. Gordon, Theresa L. Windus, C. David Sherrill, and Lori A. Burns"
+  summary: "We present a community effort to build a common driver and database for quantum chemistry calculations, and demonstrate its use in the QCArchive project."
+  img: qcarchive.jpg
+  date: 2021-11-22
+  code: https://qcarchive.molssi.org/
+  published:
+    doi: 10.1063/5.0059356
+    journal: The Journal of Chemical Physics
+    volume: 155
+    pages: 204801
+    year: 2021
+    date: 2021-11-22
 - title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks [Article v1.0]"
   authors: "David F. Hahn, Christopher I. Bayly, Hannah E. Bruce Macdonald, John D. Chodera, Antonia S. J. S. Mey, David L. Mobley, Laura Perez Benito, Christina E.M. Schindler, Gary Tresadern, Gregory L. Warren"
   summary: "As new methods, force fields, and implementations are developed, assessing the expected accuracy of free energy calculations on real-world systems (benchmarking) becomes critical to provide users with an assessment of the accuracy expected when these methods are applied within their domain of applicability, and developers with a way to assess the expected impact of new methodologies. Here, we present guidelines for (1) curating experimental data to develop meaningful benchmark sets, (2) preparing benchmark inputs according to best practices to facilitate widespread adoption, and (3) analysis of the resulting predictions to enable statistically meaningful comparisons among methods and force fields."
@@ -116,13 +284,31 @@
     url: https://arxiv.org/abs/2105.06222
     date: 2021-05-13
   published:
-    doi: https://doi.org/10.33011/livecoms.4.1.1497
+    doi: 10.33011/livecoms.4.1.1497
     journal: Living Journal of Computational Molecular Science
     volume: 4:1
     pages: 1497
     year: 2022
     date: 2022-08-30
   code: openforcefield/FE-Benchmarks-Best-Practices
+- title: "A Benchmark of Electrostatic Method Performance in Relative Binding Free Energy Calculations"
+  authors: "Yunhui Ge, David F. Hahn, and David L. Mobley"
+  summary: "We compare reaction field (RF) with particle-mesh Ewald (PME) models of electrostatics for protein-ligand complex relative binding free energies."
+  img: pme-vs-rf.jpg
+  date: 2021-03-09
+  preprint:
+    server: chemRxiv
+    url: http://doi.org/10.26434/chemrxiv.13353410.v2
+    license: "CC BY 4.0"
+    date: 2020-02-16
+  published:
+    doi: 10.1021/acs.jcim.0c01424
+    journal: Journal of Chemical Theory and Computation
+    volume: 61
+    pages: 1048
+    year: 2021
+    date: 2021-03-09
+  code: openforcefield/openforcefield-forcebalance/tree/v1.0.0-RC2
 - title: "Development and Benchmarking of Open Force Field v1.0.0, the Parsley Small Molecule Force Field"
   authors: "Yudong Qiu, Daniel Smith, Simon Boothroyd, Hyesu Jang, Jeffrey Wagner, Caitlin C. Bannan, Trevor Gokey, Victoria T. Lim, Chaya Stern, Andrea Rizzi, Xavier Lucas, Bryon Tjanaka, Michael R. Shirts, Michael Gilson, John Chodera, Christopher I. Bayly, David Mobley, Lee-Ping Wang"
   summary: "We describe the structure and optimization of the Open Force Field 1.0.0 small molecule force field, code-named Parsley. Parsley uses the SMIRKS-native Open Force Field (SMIRNOFF) parameter assignment formalism in which parameter types are assigned directly by chemical perception, in contrast to traditional atom type-based approaches. This method provides a natural means to incorporate increasingly diverse chemistry without needlessly increasing force field complexity. In this work, we present essentially a full optimization of the valence parameters in the force field. The optimization was carried out with the ForceBalance tool and was informed by reference quantum chemical data that include torsion potential energy profiles, optimized gas-phase structures, and vibrational frequencies. These data were computed and are maintained with QCArchive, an open-source and freely available distributed computing and database software ecosystem. Tests of the resulting force field against compounds and data types outside the training set show improvements in optimized geometries and conformational energetics and demonstrate that Parsley's accuracy for liquid properties is similar to that of other general force fields."
@@ -134,7 +320,7 @@
     license: "CC BY 4.0"
     date: 2020-10-14
   published:
-    doi: https://doi.org/10.1021/acs.jctc.1c00571
+    doi: 10.1021/acs.jctc.1c00571
     journal: Journal of Chemical Theory and Computation
     volume: 17:10
     pages: 6262-6280
@@ -152,7 +338,7 @@
     license: "CC BY 4.0"
     date: 2020-10-02
   published:
-    doi: https://doi.org/10.1039/D2SC02739A
+    doi: 10.1039/D2SC02739A
     journal: Chemical Science
     volume: 13
     pages: 12016-12033
