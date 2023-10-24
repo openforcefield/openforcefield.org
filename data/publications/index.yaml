@@ -154,6 +154,24 @@
     year: 2022
     date: 2022-08-30
   code: openforcefield/FE-Benchmarks-Best-Practices
+- title: "A Benchmark of Electrostatic Method Performance in Relative Binding Free Energy Calculations"
+  authors: "Yunhui Ge, David F. Hahn, and David L. Mobley"
+  summary: "We compare reaction field (RF) with particle-mesh Ewald (PME) models of electrostatics for protein-ligand complex relative binding free energies."
+  img: pme-vs-rf.jpg
+  date: 2021-03-09
+  preprint:
+    server: chemRxiv
+    url: http://doi.org/10.26434/chemrxiv.13353410.v2
+    license: "CC BY 4.0"
+    date: 2020-02-16
+  published:
+    doi: https://doi.org/10.1021/acs.jcim.0c01424
+    journal: Journal of Chemical Theory and Computation
+    volume: 61
+    pages: 1048
+    year: 2021
+    date: 2021-03-09
+  code: openforcefield/openforcefield-forcebalance/tree/v1.0.0-RC2
 - title: "Development and Benchmarking of Open Force Field v1.0.0, the Parsley Small Molecule Force Field"
   authors: "Yudong Qiu, Daniel Smith, Simon Boothroyd, Hyesu Jang, Jeffrey Wagner, Caitlin C. Bannan, Trevor Gokey, Victoria T. Lim, Chaya Stern, Andrea Rizzi, Xavier Lucas, Bryon Tjanaka, Michael R. Shirts, Michael Gilson, John Chodera, Christopher I. Bayly, David Mobley, Lee-Ping Wang"
   summary: "We describe the structure and optimization of the Open Force Field 1.0.0 small molecule force field, code-named Parsley. Parsley uses the SMIRKS-native Open Force Field (SMIRNOFF) parameter assignment formalism in which parameter types are assigned directly by chemical perception, in contrast to traditional atom type-based approaches. This method provides a natural means to incorporate increasingly diverse chemistry without needlessly increasing force field complexity. In this work, we present essentially a full optimization of the valence parameters in the force field. The optimization was carried out with the ForceBalance tool and was informed by reference quantum chemical data that include torsion potential energy profiles, optimized gas-phase structures, and vibrational frequencies. These data were computed and are maintained with QCArchive, an open-source and freely available distributed computing and database software ecosystem. Tests of the resulting force field against compounds and data types outside the training set show improvements in optimized geometries and conformational energetics and demonstrate that Parsley's accuracy for liquid properties is similar to that of other general force fields."
