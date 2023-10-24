@@ -1,3 +1,13 @@
+- title: "Tuning Potential Functions to Host–Guest Binding Data"
+  authors: "Jeffry Setiadi, Simon Boothroyd, David Slochower, David Dotson, Matthew Thompson, Jeffrey Wagner, Lee-Ping Wang, and Michael K. Gilson"
+  summary: We apply the Open Force Field framework to parameterize general organic polymers, demonstrating the breadth of chemical species that the SMIRNOFF approach can parameterize.
+  img: host-guest-tuning.jpg
+  date: 2023-09-26
+  preprint: 
+    server: chemRxiv
+    url: http://doi.org/10.26434/chemrxiv-2023-dwlf1
+    licence: "CC BY 4.0"
+    date: 2023-09-26
 - title: "Parameterization of general organic polymers within the Open Force Field framework"
   authors: "Connor M. Davel, Timotej Bernat, Jeffrey R. Wagner, and Michael R. Shirts"
   summary: We apply the Open Force Field framework to parameterize general organic polymers, demonstrating the breadth of chemical species that the SMIRNOFF approach can parameterize.
