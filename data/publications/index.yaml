@@ -1,3 +1,13 @@
+- title: "Parameterization of general organic polymers within the Open Force Field framework"
+  authors: "Connor M. Davel, Timotej Bernat, Jeffrey R. Wagner, and Michael R. Shirts"
+  summary: We apply the Open Force Field framework to parameterize general organic polymers, demonstrating the breadth of chemical species that the SMIRNOFF approach can parameterize.
+  img: smirnoff-polymer.jpg
+  date: 2023-10-19
+  preprint: 
+    server: chemRxiv
+    url: http://doi.org/10.26434/chemrxiv-2023-f2zxd-v2
+    licence: "CC BY 4.0"
+    date: 2023-10-19
 - title: "Machine-learned molecular mechanics force field for the simulation of protein-ligand systems and beyond"
   authors: "Kenichiro Takaba, Iván Pulido, Pavan Kumar Behara, Mike Henry, Hugo MacDermott-Opeskin, John D. Chodera, and Yuanqing Wang"
   summary: We show how the espaloma graph neural network can be used to construct a high-accuracy force field for protein-ligand systems from over 1.1 million quantum chemicl calculations, and demonstrate its performance on protein:ligand binding free energy calculations.
