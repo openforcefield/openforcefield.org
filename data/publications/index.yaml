@@ -111,7 +111,7 @@
     date: 2022-04-05
   code: jthorton/de-forcefields
   published:
-    doi: https://doi.org/10.1107/S2059798322011871
+    doi: 10.1107/S2059798322011871
     journal: Structural Biology
     volume: 79
     pages: 50
@@ -129,7 +129,7 @@
     date: 2022-11-23
   code: openmm/spice-dataset
   published:
-    doi: https://www.nature.com/articles/s41597-022-01882-6
+    doi: 10.1038/s41597-022-01882-6
     journal: Scientific Data
     volume: 10
     pages: 11
@@ -147,7 +147,7 @@
     date: 2022-11-21
   code: openforcefield/openff-sage
   published:
-    doi: https://doi.org/10.1021/acs.jctc.3c00039
+    doi: 10.1021/acs.jctc.3c00039
     journal: Journal of Chemical Theory and Computation
     volume: 19:11
     pages: 3251-3257
@@ -165,7 +165,7 @@
     date: 2022-12-09
   code: ocmadin/LJ_surrogates
   published:
-    doi: https://doi.org/10.1039/D2DD00138A
+    doi: 10.1039/D2DD00138A
     journal: Digital Discovery
     volume: 2
     pages: 828
@@ -182,7 +182,7 @@
     license: "CC BY 4.0"
     date: 2022-11-04
   published:
-    doi: https://doi.org/10.1021/acs.jcim.2c01185
+    doi: 10.1021/acs.jcim.2c01185
     journal: Journal of Chemical Information and Modeling
     volume: 62:23
     pages: 6094–6104
@@ -200,7 +200,7 @@
     license: "CC BY 4.0"
     date: 2022-09-09
   published:
-    doi: https://doi.org/10.1021/acs.jcim.2c01153
+    doi: 10.1021/acs.jcim.2c01153
     journal: Journal of Chemical Information and Modeling
     volume: 62:22
     pages: 5622–5633
@@ -218,7 +218,7 @@
     license: "CC BY 4.0"
     date: 2021-11-16
   published:
-    doi: https://doi.org/10.1021/acs.jcim.1c00829
+    doi: 10.1021/acs.jcim.1c00829
     journal: Journal of Chemical Theory and Computation
     volume: 18:6
     pages: 3577–3592
@@ -236,7 +236,7 @@
     license: "CC BY 4.0"
     date: 2021-08-06
   published:
-    doi: https://doi.org/10.1021/acs.jctc.1c01111
+    doi: 10.1021/acs.jctc.1c01111
     journal: Journal of Chemical Theory and Computation
     volume: 18:6
     pages: 3566–3576
@@ -254,7 +254,7 @@
     date: 2021-05-13
     license: "CC BY 4.0"
   published:
-    doi: https://doi.org/10.1021/acs.jcim.1c00829
+    doi: 10.1021/acs.jcim.1c00829
     journal: Journal of Chemical Information and Modeling
     volume: 62:4
     pages: 874-889
@@ -271,7 +271,7 @@
     url: https://arxiv.org/abs/2105.06222
     date: 2021-05-13
   published:
-    doi: https://doi.org/10.33011/livecoms.4.1.1497
+    doi: 10.33011/livecoms.4.1.1497
     journal: Living Journal of Computational Molecular Science
     volume: 4:1
     pages: 1497
@@ -289,7 +289,7 @@
     license: "CC BY 4.0"
     date: 2020-02-16
   published:
-    doi: https://doi.org/10.1021/acs.jcim.0c01424
+    doi: 10.1021/acs.jcim.0c01424
     journal: Journal of Chemical Theory and Computation
     volume: 61
     pages: 1048
@@ -307,7 +307,7 @@
     license: "CC BY 4.0"
     date: 2020-10-14
   published:
-    doi: https://doi.org/10.1021/acs.jctc.1c00571
+    doi: 10.1021/acs.jctc.1c00571
     journal: Journal of Chemical Theory and Computation
     volume: 17:10
     pages: 6262-6280
@@ -325,7 +325,7 @@
     license: "CC BY 4.0"
     date: 2020-10-02
   published:
-    doi: https://doi.org/10.1039/D2SC02739A
+    doi: 10.1039/D2SC02739A
     journal: Chemical Science
     volume: 13
     pages: 12016-12033
