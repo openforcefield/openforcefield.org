@@ -29,6 +29,24 @@
     url: https://doi.org/10.26434/chemrxiv-2023-v969f
     licence: "CC BY 4.0"
     date: 2023-09-21
+- title: "A transferable double exponential potential for condensed phase simulations of small molecules"
+  authors: "Joshua T. Horton, Simon Boothroyd, Pavan Kumar Behara, David L. Mobley, and Daniel J. Cole"
+  summary: We show how the OpenFF Toolkit plugin scheme can be used to compare Lennard-Jones 12-6 with doubnle exponential potentials.
+  img: double-exponential-potential.kpg
+  date: 2023-04-20
+  preprint: 
+    server: chemRxiv
+    url: https://chemrxiv.org/engage/chemrxiv/article-details/6401c0a163e8d44e594addea
+    licence: "CC BY 4.0"
+    date: 2023-03-06
+  code: jthorton/de-forcefields
+  published:
+    doi: https://doi.org/10.1039/D3DD00070B
+    journal: Digital Discovery
+    volume: 2
+    pages: 1178
+    year: 2023
+    date: 2023-07-10
 - title: "EspalomaCharge: Machine learning-enabled ultra-fast partial charge assignment"
   authors: "Yuanqing Wang, Iván Pulido, Kenichiro Takaba, Benjamin Kaminow, Jenke Scheen, Lily Wang, and John D. Chodera"
   summary: We present an ultra-fast, scalable graph net based model to generate AM1-BCC ELF10 quality charges self-consistently for small molecules and arbitrary biopolymers.
