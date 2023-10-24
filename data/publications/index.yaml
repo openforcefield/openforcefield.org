@@ -102,7 +102,7 @@
 - title: "Molecular-dynamics simulation methods for macromolecular crystallography"
   authors: "David C. Wych, Phillip C. Aoto, Lily Vu, Alexander M. Wolff, David L. Mobley, James S. Fraser, Susan S. Taylor, and Michael E. Walla"
   summary: "We demonstrate how simulations of protein X-ray structures in their crystal environments can be used to assess force field quality"
-  img: protein-crystal-simulations.jpg
+  img: protein-crystal-simulation.jpg
   date: 2023-01-01
   preprint: 
     server: bioRxiv
