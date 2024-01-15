@@ -39,7 +39,7 @@ Changes can be broadly classified as:
        * broader coverage of parameters with extended training targets
 
 
-Find more details in the [release notes](https://github.com/openforcefield/openff-sage/releases/tag/2.0.0-rc.1), including how to re-run optimization and datasets used in training stored in [sage-2.1.0](https://github.com/openforcefield/sage-2.1.0) repo.
+Find more details in the [release notes](https://github.com/openforcefield/openff-forcefields/releases/tag/2023.04.1), including how to re-run optimization and datasets used in training stored in [sage-2.1.0](https://github.com/openforcefield/sage-2.1.0) repo.
 
 
 {{<button href="https://github.com/openforcefield/openff-forcefields/releases/tag/2023.05.1" text="GitHub" >}}
