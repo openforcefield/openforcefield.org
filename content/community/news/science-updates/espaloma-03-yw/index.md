@@ -30,9 +30,7 @@ $ conda install -c conda-forge "espaloma=0.3.2"
 ## Deployment
 To deploy `espaloma-0.3` is similarly easy---you would just have to massage your topology into one from `openff.toolkit` and `espaloma` can take care of the rest to return an `openmm.System` object:
 ```
-# imports
-import os
-import torch
+# import
 import espaloma as esp
 
 # define or load a molecule of interest via the Open Force Field toolkit
