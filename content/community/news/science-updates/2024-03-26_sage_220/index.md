@@ -24,7 +24,7 @@ If you'd like to help us test the release candidate, there are instructions at t
 
 ## Sulfamides
 In Sage 2.0.0 and 2.1.0, often sulfamide groups show a greatly reduced N-S-N angle and both greatly reduced and slightly increased N-S=O angles.
-In Sage 2.2.0, this issue has been fixed.
+In Sage 2.2.0, this issue has been fixed, as can be seen below.
 
 ![image](sulfamides_struc.jpg)
 
@@ -39,7 +39,6 @@ The two graphs show the angle value in the optimized conformer geometry for all 
 The y axis shows the value of the angle in the QM-optimized geometry, while the x axis shows the value in the MM-optimized geometry using Sage 2.1.0 (left) and the Sage 2.2.0 release candidate (right).
 For the plot on the left-hand side where the MM conformers have been optimized with Sage 2.1.0, there are clearly a number of data points to the left of the x=y line, indicating that Sage 2.1.0 is producing angles that are much smaller than they should be.
 However, the plot on the right-hand side does not show this feature, indicating improved performance in the Sage 2.2.0 release candidate.
-An example molecule is also shown below the two graphs, to highlight the qualitative improvement in the geometry.
 
 ![image](sulfamides.jpg)
 
