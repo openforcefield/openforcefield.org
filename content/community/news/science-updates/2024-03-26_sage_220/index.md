@@ -1,3 +1,17 @@
+---
+date: "2024-03-26T00:00:00+00:00"
+title: 'Improvements coming in the Sage 2.2.0 force field'
+tags: ["release", "force field", "fitting"]
+categories: ["science"]
+draft: false
+description: 'We are excited to share the release of our first release candidate of our newest force field, Sage 2.2.0! '
+slug: 'sage-220'
+weight: 10
+markup: markdown
+thumb: "sulfamides_struc.jpg"
+author: "Lexie McIsaac"
+---
+
 # Improvements coming in the Sage 2.2.0 force field
 
 We are excited to share the release of our first **release candidate** of our newest force field, Sage 2.2.0! 
@@ -18,7 +32,7 @@ To address this issue, we first noted that the force constant for `a32`, which c
 This would make those angles around the S atom much more flexible than QM would suggest they should be, and impose less of a penalty for deviating from the ideal angle.
 We expect the starting value to be a good estimate, so we reduced the amount that parameters are able to vary during optimization.
 This led to an increased force constant and substantially improved sulfamide properties in Sage 2.2.0.
-The median RMSD between a given MM-optimized conformer and its QM counterpart improved from 0.50 A in Sage 2.1.0 to 0.34 A in the Sage 2.2.0 release candidate for molecules containing the sulfamide group, and the mean absolute ddE for molecules containing the sulfamide group improved from 2.12 kcal/mol in Sage 2.1.0 to 1.71 kcal/mol in the Sage 2.2.0 release candidate.
+The median RMSD between a given MM-optimized conformer and its QM counterpart improved from 0.50 Å in Sage 2.1.0 to 0.34 Å in the Sage 2.2.0 release candidate for molecules containing the sulfamide group, and the mean absolute ddE for molecules containing the sulfamide group improved from 2.12 kcal/mol in Sage 2.1.0 to 1.71 kcal/mol in the Sage 2.2.0 release candidate.
 
 The improvements can be seen clearly in the figures below. 
 The two graphs show the angle value in the optimized conformer geometry for all angles described by `a32`, which includes both the N-S-N (green) and N-S=O (purple) angle in the sulfamide group. 
@@ -30,9 +44,9 @@ An example molecule is also shown below the two graphs, to highlight the qualita
 ![image](sulfamides.jpg)
 
 ## Epoxides
-In Sage 2.1.0, parameters are assigned in a heirarchical fashion, so any parameter that comes later in the list supercedes a parameter that is listed earlier.
+In Sage 2.1.0, parameters are assigned in a heirarchical fashion, so any parameter that comes later in the list supersedes a parameter that is listed earlier.
 Our 3-membered ring internal angle is `a3`, which is third in the parameter order. 
-However, for epoxide groups, the C-O-C internal angle was being overridden by `a28`, which is a generic parameter covering any R-O-R angle that appears later in the parameter list and thus takes precedence.
+However, for epoxide groups, the C-O-C internal angle was being overridden by `a28`. Parameter `a28` is a generic parameter covering any R-O-R angle, and it appears later in the parameter list and thus takes precedence.
 Because `a28` is a generic parameter, its equilibrium value is around 112 degrees, which is appropriate for many R-O-R angles, but not for epoxide, which should be closer to 60. 
 This led to substantially distorted geometries for the epoxide group, including increased C-O-C angles, decreased C-C-O angles, and increased C-C bonds.
 This was fixed in Sage 2.2.0.
@@ -41,7 +55,7 @@ This was fixed in Sage 2.2.0.
 
 To address this, we moved the `a3` parameter to the end of the parameter list, ensuring it takes precedence over `a28`.
 This resulted in substantially better geometries for the epoxide group.
-The median RMSD between an MM-optimzied conformer and its QM counterpart decreased from 0.41 A in Sage 2.1.0 to 0.31 A in the Sage 2.2.0 release candidate, while the mean absolute ddE decreased from 1.97 kcal/mol in Sage 2.1.0 to 1.84 kcal/mol in Sage 2.2.0 release candidate.
+The median RMSD between an MM-optimzied conformer and its QM counterpart decreased from 0.41 Å in Sage 2.1.0 to 0.31 Å in the Sage 2.2.0 release candidate, while the mean absolute ddE decreased from 1.97 kcal/mol in Sage 2.1.0 to 1.84 kcal/mol in Sage 2.2.0 release candidate.
 
 The most straightforward way to highlight the improvements to molecules containing an epoxide group is to plot the RMS error in the bond lengths, angles, dihedral angles, and improper dihedral angles, which is shown below, comparing Sage 2.0.0, Sage 2.1.0, and Sage 2.2.0.
 Note that the C-O-C epoxide angle was still covered by the generic `a28` angle in Sage 2.0.0, but that parameter has a much higher force constant in Sage 2.1.0, leading to the more distorted geometries.
