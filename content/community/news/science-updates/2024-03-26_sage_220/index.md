@@ -12,8 +12,6 @@ thumb: "sulfamides_struc.jpg"
 author: "Alexandra McIsaac"
 ---
 
-# Improvements coming in the Sage 2.2.0 force field
-
 We are excited to share the release of our first **release candidate** of our newest force field, Sage 2.2.0! 
 This force field builds upon our previous release, Sage 2.1.0, which is applicable to small, drug-like molecules.
 The Sage 2.2.0 release candidate improves the geometries of epoxide groups and sulfamide groups, which suffered from large errors in Sage 2.1.0.
