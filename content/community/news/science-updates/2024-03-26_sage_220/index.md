@@ -9,7 +9,7 @@ slug: 'sage-220'
 weight: 10
 markup: markdown
 thumb: "sulfamides_struc.jpg"
-author: "Lexie McIsaac"
+author: "Alexandra McIsaac"
 ---
 
 # Improvements coming in the Sage 2.2.0 force field
