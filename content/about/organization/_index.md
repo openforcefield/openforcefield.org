@@ -1,5 +1,6 @@
 ---
 color: darkblue
+title: Organization
 subheader: true
 header_intro: Mission
 header_list: [
