@@ -1,5 +1,6 @@
 ---
 color: red
+title: Research
 header_intro: " "
 header_list: [
   {
