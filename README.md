@@ -16,7 +16,7 @@ See more detailed instructions for creating or updating content below.
 
 ## Preview the website locally
 
-0. [Download and install Hugo](https://gohugo.io/getting-started/installing/).
+0. [Download and install Hugo](https://gohugo.io/getting-started/installing/). Note that the website will finally be built with Hugo v0.108.0.
 1. In the top-level directory, run `hugo server -D`
 2. Copy the Web address from this line (in this example, it is `localhost:1313`):
 ```
@@ -24,6 +24,13 @@ Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
 ```
 3. Paste the Web address into your browser
 
+If you have NPM installed, the appropriate version of Hugo can be installed and executed in one command, without interfering with any existing installations:
+
+```shell
+npx hugo-bin@0.108.0 server -D
+```
+
+Then open the provided link as above.
 
 ## Creating and updating content
 
