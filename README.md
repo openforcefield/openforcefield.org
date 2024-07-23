@@ -16,7 +16,7 @@ See more detailed instructions for creating or updating content below.
 
 ## Preview the website locally
 
-0. [Download and install Hugo](https://gohugo.io/getting-started/installing/). Note that the website will finally be built with Hugo v0.108.0.
+0. [Download and install Hugo](https://gohugo.io/getting-started/installing/). Note that the published version of the website will be built with Hugo v0.108.0 (this isn't the latest version).
 1. In the top-level directory, run `hugo server -D`
 2. Copy the Web address from this line (in this example, it is `localhost:1313`):
 ```
