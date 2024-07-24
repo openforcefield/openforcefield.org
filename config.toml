@@ -162,10 +162,10 @@ enableEmoji = true
         weight = 4
 
       [[menu.main]]
-        name = "Forum"
-        url = "https://discourse.openforcefield.org/"
+        name = "Discussions"
+        url = "https://github.com/orgs/openforcefield/discussions"
         parent = "community"
-        identifier = "forum"
+        identifier = "discussions"
         weight = 5
 
   [[menu.main]]

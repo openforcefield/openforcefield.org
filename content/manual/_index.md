@@ -271,8 +271,8 @@ The events page shows the webinars as standard page. This can be changed in the 
 ## Community > FAQ
 Standard page with all the FAQ
 {{< br >}}{{< br >}}
-## Community > Forum
-The forum should be coming at a later stage
+## Community > Discussions
+The place to ask questions about using OpenFF force fields and software.
 {{< br >}}{{< br >}}
 ## Community > News / Science Updates
 The news page has separate header settings:
