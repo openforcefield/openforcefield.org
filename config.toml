@@ -6,24 +6,20 @@ theme = "openff"
 enableEmoji = true
 
 [markup]
-  defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
-
 [params]
-  math = true
   header_title = "<b>open</b> force field"
   header_subtitle = "An open and collaborative approach to better force fields"
   "cc-by-4.0" = "https://creativecommons.org/licenses/by/4.0/"
   "cc-by-nc-nd-4.0" = "https://creativecommons.org/licenses/by/4.0/"
   "arxiv-1.0" = "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html"
+  math = true
 
 [menu]
 
