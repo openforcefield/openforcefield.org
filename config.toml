@@ -10,8 +10,15 @@ enableEmoji = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
 [params]
+  math = true
   header_title = "<b>open</b> force field"
   header_subtitle = "An open and collaborative approach to better force fields"
   "cc-by-4.0" = "https://creativecommons.org/licenses/by/4.0/"

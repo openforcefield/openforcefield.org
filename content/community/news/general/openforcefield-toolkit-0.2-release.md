@@ -5,7 +5,6 @@ tags: ["news","general","OpenFF Toolkit", "cheminformatics","SMIRNOFF", "softwar
 categories: ["news"]
 draft: false
 description: "Release of major new toolkit version, with open-source cheminformatics support."
-markup: mmark
 weight: 10
 author: "Jeff Wagner"
 thumb: "rdkit-logo.jpg"

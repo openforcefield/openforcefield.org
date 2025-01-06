@@ -5,7 +5,6 @@ tags: ["news","general","Open Force Field Initiative", "NIH", "funding"]
 categories: ["news"]
 draft: false
 description: "The Open Force Field Initiative has applied for NIH R&D funding to produce modern toolkits and high-quality biomolecular force fields to model complex heterogeneous biomolecular systems"
-markup: mmark
 weight: 10
 author: "John Chodera"
 thumb: "openff-nih-funding.png"

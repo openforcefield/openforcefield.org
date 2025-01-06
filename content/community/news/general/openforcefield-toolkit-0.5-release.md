@@ -5,7 +5,6 @@ tags: ["news", "general", "OpenFF Toolkit", "GBSA", "SMIRNOFF", "cheminformatics
 categories: ["news"]
 draft: false
 description: "Major OFF Toolkit milestone, adding support for implicit solvation."
-markup: mmark
 weight: 10
 author: "Jeff Wagner"
 thumb: "openff-toolkit-logo.jpg"

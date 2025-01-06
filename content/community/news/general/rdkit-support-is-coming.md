@@ -5,7 +5,6 @@ tags: ["news", "general", "OpenFF Toolkit", "cheminformatics", "RDKit", "OpenEye
 categories: ["news"]
 draft: false
 description: "A rundown of coming changes and improvements in the openforcefield toolkit."
-markup: mmark
 weight: 10
 author: "John Chodera"
 thumb: "openff-toolkit-logo.jpg"

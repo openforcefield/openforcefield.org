@@ -22,6 +22,9 @@
 	<script type="text/javascript" src="{{ $jquery.Permalink }}"></script>
 	{{ $script := resources.Get "js/script.js" | resources.Minify }}
 	<script type="text/javascript" src="{{ $script.Permalink }}"></script>
+    {{ if .Param "math" }}
+      {{ partialCached "math.html" . }}
+    {{ end }}
 </head>
 <body class="{{ .Params.class }}" data-color="{{ .Params.color | default "default" }}">
 	{{ partial "header" . }}

@@ -8,7 +8,6 @@ draft: false
 description: 'Force Field benchmark on small molecule energies and geometries.'
 weight: 10
 author: "David Hahn"
-markup: mmark # mmark is necessary for LaTeX to work properly
 thumb: benchmark-small-molecules.png
 ---
 

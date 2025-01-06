@@ -5,7 +5,6 @@ tags: ["news", "general", "Andreas Krämer", "webinar","CHARMM", "force field", 
 categories: ["news"]
 draft: false
 description: "Andreas Krämer will talk about automated optimization of the CHARMM36 lipid force field on Dec 17 at 2 pm (ET)."
-markup: mmark
 weight: 10
 author: "Karmen Condic-Jurkic"
 thumb: "webinar-kraemer-dec2019.png"
