@@ -318,8 +318,7 @@ Also it has its own header:
 - author: "David Mobley, Yudong Qiu, Simon Boothroyd, Lee-Ping Wang, and John Chodera"{{< br >}}
 *Authors of the item*
 
-- markup: mmark # mmark is necessary for LaTeX to work properly{{< br >}}
-*For use of markdown with LaTeX*
+- markup: markdown
 
 - thumb: "5-The-Open-Force-Field-1.0-small-molecule-force-field,-our-first-optimized-force-field-(codename-_Parsley_).jpg"{{< br >}}
 *Thumb image used with the item, the images are in the same folder as the items*

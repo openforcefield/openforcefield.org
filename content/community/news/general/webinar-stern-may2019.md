@@ -5,7 +5,7 @@ tags: ["news", "general", "Chaya Stern", "webinar","torsions", "fragmentation", 
 categories: ["news"]
 draft: false
 description: "Chaya Stern gives a webinar about her work done on molecular fragmentation and torsion drive pipeline on Jun 4 at 11 am (EDT)"
-markup: mmark
+markup: markdown
 weight: 10
 author: "Karmen Condic-Jurkic and Chaya Stern"
 thumb: "webinar-stern-may2019.jpg"
