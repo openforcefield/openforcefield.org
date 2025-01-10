@@ -5,7 +5,7 @@ tags: ["news", "general", "Chuan Tian", "webinar","Amber", "force field", "ff19S
 categories: ["news"]
 draft: false
 description: "Chuan Tian presents his work on the latest version of Amber force field (ff19SB) at 1 pm (ET) on Sep 12"
-markup: mark
+markup: markdown
 weight: 10
 author: "Karmen Condic-Jurkic"
 thumb: "webinar-tian-sep2019.jpg"

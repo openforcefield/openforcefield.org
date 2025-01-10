@@ -5,7 +5,7 @@ tags: ["news", "general", "Falk Hoffmann", "CHARMM","AMBER", "force field", "NMR
 categories: ["news"]
 draft: false
 description: "Falk Hoffmann will give a webinar on Sep 20 at 11 am (EDT) about his recent study on methyl group dynamics in amino acid side-chains using MD simulations and NMR relaxation rates"
-markup: mark
+markup: markdown
 weight: 10
 author: "Karmen Condic-Jurkic"
 thumb: "webinar-hoffman-sep2019.png"

@@ -5,7 +5,7 @@ tags: ["news","general", "Pankaj R. Daga", "webinar","data curation", "AI", "dru
 categories: ["news"]
 draft: false
 description: "Pankaj R. Daga will give a talk at UC Irvine on Sep 13 at 11 am (PT) about importance of data curation in the age of AI"
-markup: mark
+markup: markdown
 weight: 10
 author: "Karmen Condic-Jurkic"
 thumb: "webinar-daga-sep2019.jpg"
