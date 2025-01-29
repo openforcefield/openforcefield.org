@@ -8,7 +8,7 @@ draft: false
 description: 'At the end of our first year, the Open Force Field Consortium releases its first optimized force field: the Open Force Field 1.0 (codename "Parsley") small molecule force field'
 weight: 10
 author: "David Mobley, Yudong Qiu, Simon Boothroyd, Lee-Ping Wang, and John Chodera"
-markup: mmark # mmark is necessary for LaTeX to work properly
+markup: markdown
 thumb: "noun_parsley.svg"
 ---
 

@@ -5,7 +5,7 @@ tags: ["news", "general", "Yuanqing Wang", "webinar","Graph Nets", "machine lear
 categories: ["news"]
 draft: false
 description: "Yuanqing Wang (MSKCC) will talk about his ongoing work on applying machine learning techniques for fast prediction of atomic charges on Oct 14 at 1 pm (ET)."
-markup: mmark
+markup: markdown
 weight: 10
 author: "Karmen Condic-Jurkic"
 thumb: "webinar-wang-oct2019.png"
