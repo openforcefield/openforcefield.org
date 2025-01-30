@@ -5,7 +5,7 @@ tags: ["news", "general", "Vytautas Gapsys", "webinar","benchmarking", "binding 
 categories: ["news"]
 draft: false
 description: "Vytautas Gapsys will give a talk at UC Irvine on Aug 21 at 11 am (PT) on his work on binding free energy calculations."
-markup: mmark
+markup: markdown
 weight: 10
 author: "Karmen Condic-Jurkic"
 thumb: "webinar-gapsys-aug2019.png"
