@@ -32,7 +32,7 @@ Minor features
 
 Maintenance committments
 
-- Complete (current) SMIRNOFF specification
+- Portions of the SMIRNOFF specification supported by OpenFF Toolkit 0.16.8
 - All mainline OpenFF force fields
 - Exports to OpenMM, GROMACS, and Amber, except features not supported by those engines
 - Current public API, including `Interchange.from_openmm` and `Interchange.combine`
