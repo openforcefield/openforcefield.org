@@ -1,5 +1,5 @@
 ---
-date: "2025-03-07T00:00:00+00:00"
+date: "2025-03-06T00:00:00+00:00"
 title: "Interchange 1.0 roadmap"
 tags: ["news","general","newsletter","Open Force Field Initiative"]
 categories: ["news"]
