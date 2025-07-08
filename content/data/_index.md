@@ -24,7 +24,7 @@ Benchmarking and Other Datasets
 
 - [*QC Optimization Dataset: OpenFF Industry Benchmark Season 1 v1.2*](https://zenodo.org/uploads/15801401)
 - [*QC Singlepoint Dataset: MLPepper RECAP Optimized Fragments v1.1*](https://zenodo.org/uploads/15801339)
-- [*QC Singlepoint Dataset: OpenFF ESP Fragment Conformers v1.0*](https://zenodo.org/uploads/15785976)
+- [*QC Singlepoint Dataset: TorsionNet500 Single Points Dataset v1.0*](https://zenodo.org/uploads/15801248)
 - [*QC Torsiondrive Dataset: OpenFF Rowley Biaryl v1.0*](https://zenodo.org/uploads/15793709)
 - [*QC Singlepoint Dataset: OpenFF ESP Fragment Conformers v1.0*](https://zenodo.org/uploads/15785976)
 
