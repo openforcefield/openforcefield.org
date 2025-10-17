@@ -48,13 +48,6 @@ enableEmoji = true
         weight = 5
 
       [[menu.main]]
-        name = "Careers"
-        url = "/about/careers/openff/"
-        parent = "about"
-        identifier = "careers"
-        weight = 10
-
-      [[menu.main]]
         name = "Branding"
         url = "/about/branding/"
         parent = "about"
