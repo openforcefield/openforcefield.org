@@ -88,10 +88,6 @@
     title = "FAQ"
     url = "/community/faq"
     parent = "news"  
-  [[column4]]
-    title = "Discussions"
-    url = "/community/discussions"
-    parent = "news"
 
 [[right]]
   title = "Follow | Subscribe | Connect"
