@@ -86,7 +86,7 @@
     parent = "news"  
   [[column4]]
     title = "Discussions"
-    url = "/community/discussions"
+    url = "/community/forum"
     parent = "news"
 
 [[right]]

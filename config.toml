@@ -156,7 +156,7 @@ enableEmoji = true
 
       [[menu.main]]
         name = "Discussions"
-        url = "https://github.com/orgs/openforcefield/discussions"
+        url = "/community/forum"
         parent = "community"
         identifier = "discussions"
         weight = 5
