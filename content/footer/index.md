@@ -21,10 +21,6 @@
     url = "/about/team"
     parent = "about"
   [[column1]]
-    title = "Careers"
-    url = "/about/careers"
-    parent = "about"
-  [[column1]]
     title = "Branding"
     url = "/about/branding"
     parent = "about"
@@ -90,7 +86,7 @@
     parent = "news"  
   [[column4]]
     title = "Discussions"
-    url = "/community/discussions"
+    url = "/community/forum"
     parent = "news"
 
 [[right]]
