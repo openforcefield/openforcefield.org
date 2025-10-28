@@ -21,10 +21,6 @@
     url = "/about/team"
     parent = "about"
   [[column1]]
-    title = "Careers"
-    url = "/about/careers"
-    parent = "about"
-  [[column1]]
     title = "Branding"
     url = "/about/branding"
     parent = "about"
