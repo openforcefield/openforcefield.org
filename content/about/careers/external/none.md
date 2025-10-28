@@ -1,4 +1,0 @@
----
-color: darkblue
-title: ""
----
