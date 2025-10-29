@@ -17,7 +17,7 @@ Email us at `info@openforcefield.org` or reach out to one of our current [Primar
 {{< br >}}{{< br >}}
 ## How can I stay up to date with Open Force Field Initiative activites and developments?
 
-You can sign up for our mailing list [here](http://eepurl.com/gYuojL), or follow us on [Twitter](https://twitter.com/openforcefield) and [LinkedIn](https://www.linkedin.com/company/openforcefield/).
+You can follow us on [Bluesky](https://bsky.app/profile/openforcefield.org) and [LinkedIn](https://www.linkedin.com/company/openforcefield/).
 {{< br >}}{{< br >}}
 ## What is the scope of your current funding?  
 
