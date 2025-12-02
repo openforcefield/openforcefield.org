@@ -98,8 +98,8 @@
   title = "info@openforcefield.org"
 
 [[right]]
-  icon = "twitter"
-  url = "https://twitter.com/openforcefield"
+  icon = "bluesky"
+  url = "https://bsky.app/profile/openforcefield.org"
 
 [[right]]
   icon = "github"
