@@ -117,7 +117,4 @@
   icon = "youtube"
   url = "https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g"
 
-[[right]]
-  icon = "mailchimp"
-  url = "http://eepurl.com/gYuojL"
 +++
