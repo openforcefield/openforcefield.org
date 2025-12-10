@@ -108,7 +108,7 @@ The [Open Force Field Consortium officially launched]({{< relref "introducing-th
 - [Cresset](https://www.cresset-group.com/)
 - [Recursion](https://www.recursion.com/)
 - [F. Hoffman-La Roche AG](https://www.roche.com/)
-- [Johnson $ Johnson](https://www.jnj.com)
+- [Johnson & Johnson](https://www.jnj.com)
 - [OpenEye](https://www.eyesopen.com/)
 - [Pfizer](https://www.pfizer.com/)
 - [SandboxAQ](https://www.sandboxaq.com)
