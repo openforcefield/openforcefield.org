@@ -74,11 +74,12 @@ The [Open Force Field Consortium officially launched]({{< relref "introducing-th
 ## Consortium Governing Board
 {{< ul >}}
 - John D. Chodera (MSKCC)
-- Taylor Quinn (AstraZeneca)
+- Thomas Steinbrecher (Roche)
 - Michael K. Gilson (UCSD)
 - Katharina Meier (Bayer)
 - David L. Mobley (UCI)
 - Michael R. Shirts (CU Boulder)
+- Daniel Cole (Newcastle)
 {{< /ul >}}
 {{< br >}}
 
