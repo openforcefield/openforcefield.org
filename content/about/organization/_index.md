@@ -85,17 +85,14 @@ The [Open Force Field Consortium officially launched]({{< relref "introducing-th
 
 ## Consortium Advisory Board
 {{< ul >}}
-- [Cristopher Bayly](https://www.linkedin.com/in/christopher-bayly-b1341021/) (OpenEye)
-- [Zara Sands](https://www.linkedin.com/in/zarasands/) (Eli Lilly)
+- [Gaetano Calabro](https://www.linkedin.com/in/gaetano-calabr%C3%B3-a9aa4352/) (OpenEye)
 - [Eric Dybeck](https://www.linkedin.com/in/eric-dybeck-2bb62539/) (Pfizer)
-- [David Hahn](https://www.linkedin.com/in/vytautas-gapsys-7773768/) (Janssen)
-- [Jerome Hert](https://www.linkedin.com/in/jeromehert/) (Roche)
+- [David Hahn](https://www.linkedin.com/in/davidfriedrichhahn/) (Johnson & Johnson)
+- [Thomas Steinbrecher](https://www.linkedin.com/in/thomas-steinbrecher-905673212/) (Roche)
 - [Dan McKay](https://ca.linkedin.com/in/dan-mckay-75539315) (Ventus Therapeutics)
 - [Mark Mackey](https://www.linkedin.com/in/mark-mackey-6b4b8a23/) (Cresset)
 - [Katharina Meier](https://www.linkedin.com/in/katharina-meier-24744887/) (Bayer)
-- [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex), Secretary
-- [Taylor Quinn](https://www.linkedin.com/in/taylor-quinn-37528789/) (AstraZeneca)
-- [Huan Rui](https://www.linkedin.com/in/huan-rui-29867aa/) (Amgen)
+- [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex)
 - and others... {{< /ul >}}
 {{< br >}}
 {{< center >}}
@@ -105,16 +102,14 @@ The [Open Force Field Consortium officially launched]({{< relref "introducing-th
 
 # Industry Partners
 {{< ul >}}
-- [Amgen](https://www.amgen.com/)
+- [Achira](https://achira.ai/)
 - [AstraZeneca](https://www.astrazeneca.com/)
 - [Bayer](https://www.bayer.com/)
 - [Bristol Myers Squibb](https://www.bms.com/)
 - [Cresset](https://www.cresset-group.com/)
-- [Eli Lilly](https://www.lilly.com/)
-- [Exscientia](https://www.exscientia.ai/)
+- [Recursion](https://www.recursion.com/)
 - [F. Hoffman-La Roche AG](https://www.roche.com/)
-- [Janssen](https://www.janssen.com/)
-- [ModernaTX](https://www.modernatx.com)
+- [Johnson & Johnson](https://www.jnj.com)
 - [OpenEye](https://www.eyesopen.com/)
 - [Pfizer](https://www.pfizer.com/)
 - [SandboxAQ](https://www.sandboxaq.com)

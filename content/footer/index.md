@@ -98,8 +98,8 @@
   title = "info@openforcefield.org"
 
 [[right]]
-  icon = "twitter"
-  url = "https://twitter.com/openforcefield"
+  icon = "bluesky"
+  url = "https://bsky.app/profile/openforcefield.org"
 
 [[right]]
   icon = "github"
@@ -117,7 +117,4 @@
   icon = "youtube"
   url = "https://www.youtube.com/channel/UCh0aJSUm_sYr7nuTzhW806g"
 
-[[right]]
-  icon = "mailchimp"
-  url = "http://eepurl.com/gYuojL"
 +++
