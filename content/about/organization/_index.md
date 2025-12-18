@@ -40,27 +40,6 @@ subheader: "h1"
 # Open Force Field Initiative
 The **Open Force Field Initiative** is a network of academic and industry researchers working together to advance science and infrastructure required for building the next generation of small molecule and biomolecular force fields. The shared goal of these researchers is to develop automated and systematic data-driven techniques to parameterize and assess new generations of more accurate force fields. Software and data are released under open licensing agreements to enable rapid application, validation, extension and any kind of modification by our users and contributors. In addition, the Initiative aims to build and support a strong community of users and contributors from industry and academia, while exploring different pathways to sustainability.
 
-The Initiative has a scientific advisory board in place to assist with strategic planning, comprising prominent academic experts in the area of force field development and molecular modelling. The Initative Advisory Board (IAB) provides valuable input to help guide the Open Force Field Initiative toward the most relevant engineering and science efforts that will empower members of the biomolecular simulation and force field development communities. The Board convenes two virtual meetings per year to advise on various aspects of the overall Initiative and receives invitations to join our in-person meetings per year.
-
-{{< br >}}
-
-## Initiative Advisory Board
-{{< ul >}}
-- [David Case](https://rutchem.rutgers.edu/people/faculty-bio/130-case-david) (Rutgers) [[lab](http://casegroup.rutgers.edu/)]
-- [Lillian T. Chong](https://www.chem.pitt.edu/person/lillian-chong) (University of Pittsburgh) [[lab](https://ltchong.github.io/)]
-- [Alex Mackerell](https://faculty.rx.umaryland.edu/amackerell/) (University of Maryland) [[lab](http://mackerell.umaryland.edu/index.shtml)]
-- [Julia Rice](https://researcher.watson.ibm.com/researcher/view.php?person=us-jrice) (IBM Research)
-- [Sereina Riniker](https://riniker.ethz.ch/the-group/person-detail.MTIwNjc3.TGlzdC8xNDkzLC04NTQ1MTI4MDM=.html) (ETH Zurich) [[lab](https://riniker.ethz.ch/)]
-- [Benoît Roux](https://chemistry.uchicago.edu/faculty/beno%C3%AEt-roux) (University of Chicago) [[lab](http://thallium.bsd.uchicago.edu/RouxLab/)]
-- [Carlos Simmerling](https://www.stonybrook.edu/commcms/chemistry/faculty/_faculty-profiles/simmerling-carlos) (Stony Brook University) [[lab](http://laufercenter.stonybrook.edu/simmerling/Home)]
-- [Bill Swope](https://researcher.watson.ibm.com/researcher/view.php?person=us-swope) (IBM Research)
-- [Junmei Wang](https://www.pharmacy.pitt.edu/directory/profile.php?profile=1639) (University of Pittsburgh) [[lab](https://mulan.pharmacy.pitt.edu/)]
-{{< /ul >}}
-{{< br >}}
-{{< center >}}
-{{<button href="/minutes/iab" text="IAB Meeting Minutes" >}}
-{{</ center >}}
-
 {{< br >}}
 
 # Open Force Field Consortium
