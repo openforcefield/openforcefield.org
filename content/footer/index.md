@@ -67,14 +67,14 @@
 
 [[column4]]
   title = "Community"
-  url = "/community"
+  url = "/community/news/general"
   [[column4]]
     title = "News"
-    url = "/community/news"
+    url = "/community/news/general"
     parent = "news"
   [[column4]]
     title = "Events"
-    url = "/community/events"
+    url = "/community/events/webinars"
     parent = "news"
   [[column4]]
     title = "Collaborate"
