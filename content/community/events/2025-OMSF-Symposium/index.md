@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 2
+weight: 9
 title: 2025 OMSF Symposium
 description: Open Force Field presented at the 2025 Open Molecular Software Foundation Symposium.
 foldopen: true

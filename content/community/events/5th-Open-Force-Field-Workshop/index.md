@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 3
+weight: 95
 title: 5th Open Force Field Workshop
 description: The 5th Open Force Field Workshop was held as a series of online presentations over several months in 2022.
 foldopen: true

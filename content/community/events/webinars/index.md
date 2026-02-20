@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 7
+weight: 0
 title: Webinars
 description: OpenFF held a series of webinars in 2019
 foldopen: true
