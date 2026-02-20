@@ -76,13 +76,6 @@ enableEmoji = true
         weight = 2
 
       [[menu.main]]
-        name = "Collaborative projects"
-        url = "/science/collaborative-projects/"
-        parent = "science"
-        identifier = "collaborative-projects"
-        weight = 3
-
-      [[menu.main]]
         name = "How to cite"
         url = "/science/how-to-cite/"
         parent = "science"
