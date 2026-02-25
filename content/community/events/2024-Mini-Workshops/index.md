@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 10
+date: "2024-02-01"
 title: "2024 Online OpenFF Mini-Workshops"
 description: "The 2024 mini workshops are now available on YouTube and as Jupyter notebooks!"
 foldopen: true

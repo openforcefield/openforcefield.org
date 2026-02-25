@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 1
+date: "2026-02-01"
 title: 2026 Virtual Workshops
 description: Open Force Field is planning a series of virtual workshops in 2026
 foldopen: true

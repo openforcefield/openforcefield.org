@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 0
+date: "2019-01-01"
 title: Webinars
 description: OpenFF held a series of webinars in 2019
 foldopen: true
