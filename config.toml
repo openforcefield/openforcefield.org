@@ -128,7 +128,7 @@ enableEmoji = true
 
       [[menu.main]]
         name = "Events"
-        url = "/community/events/webinars/"
+        url = "/community/events/"
         parent = "community"
         identifier = "events"
         weight = 2
