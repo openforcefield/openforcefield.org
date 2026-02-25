@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 1
+date: "2023-05-14"
 title: 6th Open Force Field Workshop
 description: The 6th Open Force Field Workshop was held as a part of the 2023 Open Molecular Software Foundation Symposium.
 foldopen: true

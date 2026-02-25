@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 5
+date: "2019-08-30"
 title: 2nd Open Force Field Workshop
 description: We hosted the Second Open Force Field Workshop  again in La Jolla, CA on August 30-31, 2019. The first two days of the workshop focused on the progress update and future planning of OpenFF efforts in Year 2. The workshop was extended for another day (Sep 1), which was reserved for OpenFF team discussions, but open to interested Industry Partners. The venue was provided by the Skaggs School of Pharmacy and Pharmaceutical Sciences at UCSD campus.
 foldopen: true
