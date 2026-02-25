@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 96
+date: "2021-06-01"
 title: 4th Open Force Field Workshop
 description: The 4th Open Force Field Workshop was held as a series of online presentations over several months in 2021.
 foldopen: true

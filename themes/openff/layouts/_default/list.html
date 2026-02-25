@@ -8,7 +8,7 @@
 			{{ with .Content }}<div>{{ . }}</div>{{ end }}
 		</div>
 		{{ end }}
-		{{ range .Paginator.Pages.ByWeight }}
+		{{ range .Paginator.Pages.ByDate.Reverse }}
 			<div>
 				{{ if .Params.thumb }}
 				<div class="item-thumb">
@@ -29,16 +29,16 @@
 						{{ else }}
 							<a href="{{ .Permalink }}">{{ .Title }}</a>
 						{{ end }}
-						{{ if or .Date .Params.Author }}
+						{{ if or (and .Date (not .Params.hidedate)) .Params.Author }}
 							<h6>
 						{{ end }}
-						{{ if .Date }}
+						{{ if and .Date (not .Params.hidedate) }}
 							Posted on {{ .Date.Format "2 Jan 2006" }}
 						{{ end }}
 						{{ if .Params.Author }}
 							by {{ .Params.Author }}
 						{{ end }}
-						{{ if or .Date .Params.Author }}
+						{{ if or (and .Date (not .Params.hidedate)) .Params.Author }}
 							</h6>
 						{{ end }}
 					</h2>

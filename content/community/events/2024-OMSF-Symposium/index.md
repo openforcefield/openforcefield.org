@@ -1,6 +1,6 @@
 ---
 color: darkblue
-weight: 10
+date: "2024-05-16"
 title: 2024 OMSF Symposium
 description: Open Force Field presented at the 2024 Open Molecular Software Foundation Symposium.
 foldopen: true
