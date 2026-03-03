@@ -9,6 +9,4 @@ Regular updates from our Infrastructure and Science teams are posted to the [Ope
 
 ___
 
-Other new science updates are now being shared on the [OMSF blog](https://blog.omsf.io/tag/open-force-field/). 
-
 Older science update posts are available below.
