@@ -15,14 +15,14 @@ If you experience any issues with the new force field, please be sure to email s
 ## Sage ##
 ![Sage](img/noun_sage.svg)
 
-Sage (OpenFF 2.y.z) is the codename for the second generation of the small molecule force fields released by the Open Force Field Initiative. This line of force field release contains our first set of retrained Lennard-Jones parameters in addition to continued improvements to the valence parameters. All scripts, inputs and the results generated as part of the training the Sage line of OpenFF force fields can be found in the linked GitHub repositories.
+Sage (OpenFF 2.y.z) is the codename for the second generation of the small molecule force fields released by the Open Force Field Initiative. This line of force field release contains our first set of retrained van der Waals parameters in addition to continued improvements to the valence parameters. All scripts, inputs and the results generated as part of the training the Sage line of OpenFF force fields can be found in the linked GitHub repositories.
 
 {{< br >}}{{< br >}}
 ### openff 2.3.0 ###
 
 #### Release date: January 12, 2026
 
-Sage 2.3.0 is the first OpenFF force field to use the AshGC neural network charge model to assign charges. Both vdW parameter values and valence parameter values have been re-fit. Compared to 2.2.1, it splits torsions so that a single torsional parameter only covers a central bond with a single multiplicity. It also adds some bond and angle parameters to fix targeted chemistries.
+Sage 2.3.0 is the first OpenFF force field to use the AshGC neural network charge model to assign charges. Both van der Waals parameter values and valence parameter values have been re-fit. Compared to 2.2.1, it splits torsions so that a single torsional parameter only covers a central bond with a single multiplicity. It also adds some bond and angle parameters to fix targeted chemistries.
 
 Find more details in the [release notes](https://github.com/openforcefield/openff-forcefields/releases/tag/2026.01.0).
 
@@ -90,7 +90,7 @@ Find more details in the [release notes](https://github.com/openforcefield/openf
 
 OpenFF 2.0.0 was created using a multi-stage optimization starting from the [OpenFF 1.3.0](https://github.com/openforcefield/openff-forcefields/releases/tag/1.3.0) force field:
 
-* A select set of the vdW parameters were trained against a set of experimental mass density and enthalpy of mixing measurements sourced from the NIST ThermoML archive.
+* A select set of the van der Waals parameters were trained against a set of experimental mass density and enthalpy of mixing measurements sourced from the NIST ThermoML archive.
 * A select set of the bond length, bond force constant, equilibrium angle, angle force constant and torsion barrier height parameters were trained against a set of QC computed optimized geometries and torsion profiles, whereby the output force field of the first step  was used as the starting point.
 
 Find more details in the [release notes](https://github.com/openforcefield/openff-sage/releases/tag/2.0.0-rc.1), including how to re-run optimization and datasets used in training stored in [openff-sage](https://github.com/openforcefield/openff-sage) repo.
