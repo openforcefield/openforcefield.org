@@ -1,14 +1,13 @@
-name: Joshua Mitchell
+name: Ashley Mitchell
 role: Science Communicator
 filter-role: Staff
 lab:
-title: 
+title:
 institution:
-img: joshua-mitchell.jpg
+img: person.png
 webpage: "https://yoshanuikabundi.me/"
 description: _Documentation, tutorials, best practices_
 google_scholar: https://scholar.google.com.au/citations?user=ZYBbCkUAAAAJ&hl=en
 ORCID: 0000-0002-8246-5113
-twitter: yoshanuikabundi
 github: yoshanuikabundi
 linkedin: yoshanuikabundi
