@@ -61,7 +61,7 @@ jobs:
             --minify \
             --baseURL "https://openforcefield.org/"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         if: github.ref == 'refs/heads/v2'
         with:
           path: ./public
