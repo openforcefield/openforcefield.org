@@ -82,7 +82,6 @@ The [Open Force Field Consortium officially launched]({{< relref "introducing-th
 # Industry Partners
 {{< ul >}}
 - [Achira](https://achira.ai/)
-- [AstraZeneca](https://www.astrazeneca.com/)
 - [Bayer](https://www.bayer.com/)
 - [Bristol Myers Squibb](https://www.bms.com/)
 - [Cresset](https://www.cresset-group.com/)
