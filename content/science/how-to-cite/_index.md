@@ -13,7 +13,7 @@ When using Open Force Field parameters or software in your research, please cite
 
 * Sage (prior to 2.3.0)([Boothroyd et al., 2023](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00039) + [Specific version DOI](https://doi.org/10.5281/zenodo.3473553))
  
- * Sage (2.3.0 with AshGC charge model)([Wang et al., 2026](https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-597h9/v2) + [Specific version DOI](https://doi.org/10.5281/zenodo.3473553))
+ * Sage (2.3.0 with AshGC charge model)([Wang et al., 2026](https://pubs.acs.org/doi/10.1021/acs.jctc.6c00169) + [Specific version DOI](https://doi.org/10.5281/zenodo.3473553))
  
 ### Software
 
