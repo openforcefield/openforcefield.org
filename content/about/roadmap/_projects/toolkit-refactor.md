@@ -10,7 +10,6 @@ fte:
   infrastructure: 3
   science_code: 0
   science_exp: 0
-timeline:
 metrics:
   - "Toolkit and Interchange installable from a single package with unified versioning"
   - "OpenEye-dependent functionality maintained in a separate repository; main Toolkit repo CI runs without proprietary licenses"

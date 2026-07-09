@@ -43,22 +43,6 @@ export function totalFTE(project) {
 }
 
 /**
- * Returns the earliest date string from a project's timeline, or null.
- */
-export function earliestMilestone(project) {
-  const t = project.timeline || [];
-  return t.length > 0 ? t[0].date : null;
-}
-
-/**
- * Returns the latest date string from a project's timeline, or null.
- */
-export function latestMilestone(project) {
-  const t = project.timeline || [];
-  return t.length > 0 ? t[t.length - 1].date : null;
-}
-
-/**
  * Truncates a string to maxLen characters, adding ellipsis if needed.
  */
 export function truncate(str, maxLen) {

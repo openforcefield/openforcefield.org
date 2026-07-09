@@ -11,13 +11,6 @@ fte:
   infrastructure: 1
   science_code: 3
   science_exp: 6
-timeline:
-  - milestone: "Investigate state of existing code and audit requirements for modern fitting"
-    date: "Q3 2026"
-  - milestone: "Integrating with smee/descent"
-    date: "Q4 2026"
-  - milestone: "Experiments start"
-    date: "Q1 2027"
 metrics:
   - "Surrogate reproduces target property (density, ΔHvap, enthalpy of mixing) well with reference to full MD computation"
   - "Fewer MD simulation evaluations per optimization cycle"

@@ -10,11 +10,6 @@ fte:
   infrastructure: 0.5
   science_code: 0
   science_exp: 1
-timeline:
-  - milestone: "Re-run and publish all benchmark results for OpenFF force fields"
-    date: "Q3 2026"
-  - milestone: "Re-run and publish benchmark results for public external force fields, e.g. GAFF, CGENFF"
-    date: "Q4 2026"
 metrics:
   - "All five benchmark categories covered: QM torsions, condensed-phase properties, HFEs, SFEs, RBFEs"
   - "Results compared against at least GAFF2"

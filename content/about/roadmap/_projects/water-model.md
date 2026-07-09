@@ -14,13 +14,6 @@ fte:
   infrastructure: 0.5
   science_code: 1
   science_exp: 4
-timeline:
-  - milestone: "smee/descent water property fitting pipeline validated on TIP3P reference"
-    date: "Q3 2026"
-  - milestone: "Initial co-optimised 3-site water model fit complete"
-    date: "Q4 2026"
-  - milestone: "Comprehensive benchmarks complete: bulk properties, HFEs, condensed-phase properties"
-    date: "Q1 2027"
 metrics:
   - "Pure water properties reproduced well across the thermodynamic range relevant to biomolecular simulations (260–370 K, near-ambient pressure)"
   - "Mixture properties (enthalpies of mixing, mixture densities) improved vs TIP3P baseline for relevant small molecule solute classes"

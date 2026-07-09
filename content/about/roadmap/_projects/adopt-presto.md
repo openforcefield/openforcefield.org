@@ -11,11 +11,6 @@ fte:
   science_code: 0
   science_exp: 0
   other: 0
-timeline:
-  - milestone: "Maintenance handover from Cole group complete; CI and release pipeline running under OpenFF infrastructure"
-    date: "Q3 2026"
-  - milestone: "User support channel established; documentation reviewed and updated"
-    date: "Q4 2026"
 go_no_go:
   - gate: "Q3 2026"
     condition: "Handover from Cole group is feasible; Presto codebase is in a maintainable state and CI can be established under OpenFF infrastructure. If the codebase requires substantial rework to become maintainable, reassess scope."

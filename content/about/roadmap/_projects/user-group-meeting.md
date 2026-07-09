@@ -11,13 +11,6 @@ fte:
   science_code: 1
   science_exp: 0
   other: 1
-timeline:
-  - milestone: "Venue, dates, and budget confirmed"
-    date: "Q3 2026"
-  - milestone: "Programme, speakers, and registration open"
-    date: "Q4 2026"
-  - milestone: "OpenFF UGM held"
-    date: "Q1 2027"
 go_no_go:
   - gate: "Q3 2026"
     condition: "Sufficient confirmed attendee interest and funding secured; if fewer than 20 attendees can commit, consider a virtual or hybrid format as an alternative"

@@ -12,15 +12,6 @@ fte:
   science_code: 0
   science_exp: 0
   other: 2
-timeline:
-  - milestone: "Industry participants confirmed and on board"
-    date: "Q3 2026"
-  - milestone: "Standardised benchmarks running across partner datasets"
-    date: "Q4 2026"
-  - milestone: "Results compiled and shared with all participating partners"
-    date: "Q1 2027"
-  - milestone: "Publication or public report released (with partner approval)"
-    date: "Q2 2027"
 metrics:
   - "At least 3 industry consortium members participating with proprietary protein-ligand benchmark datasets"
   - "Results published or shared publicly with partner approval"

@@ -12,15 +12,6 @@ fte:
   infrastructure: 0
   science_code: 1
   science_exp: 3
-timeline:
-  - milestone: "Problem cases reviewed and root causes classified"
-    date: "Q3 2026"
-  - milestone: "Candidate torsion training data generated"
-    date: "Q3 2026"
-  - milestone: "Torsion refit validated against full 25k benchmark"
-    date: "Q4 2026"
-  - milestone: "OpenFF also collabrates on paper"
-    date: "Q1 2027"
 metrics:
   - "OpenFF torsion RMSE on the 25k Genentech fragment set reduced"
   - "No regressions on existing Sage torsion benchmark suite"

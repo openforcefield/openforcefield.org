@@ -13,13 +13,6 @@ fte:
   infrastructure: 0.5
   science_code: 1
   science_exp: 6
-timeline:
-  - milestone: "Virtual site SMIRNOFF infrastructure validated in smee/descent"
-    date: "Q3 2026"
-  - milestone: "First complete virtual site force field fit complete"
-    date: "Q4 2026"
-  - milestone: "Benchmarking"
-    date: "Q1 2027"
 metrics:
   - "Improved treatment of ESP"
   - "Improved dimer profiles"

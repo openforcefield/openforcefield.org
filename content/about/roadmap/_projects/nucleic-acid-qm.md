@@ -10,9 +10,6 @@ fte:
   infrastructure: 0
   science_code: 0
   science_exp: 1
-timeline:
-  - milestone: "Dataset planned and submitted"
-    date: "Q1 2027"
 metrics:
 go_no_go:
 dependencies: []

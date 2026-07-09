@@ -10,11 +10,6 @@ fte:
   infrastructure: 1.5
   science_code: 1
   science_exp: 0
-timeline:
-  - milestone: "Audit complete; pain points catalogued; deprecation plan agreed with team and communicated to external users"
-    date: "Q4 2026"
-  - milestone: "Refactored QCSubmit released with streamlined API"
-    date: "Q1 2027"
 metrics:
   - "Scientific workflows can practically use QCSubmit instead of converting to a different format at the earliest opportunity"
 go_no_go:

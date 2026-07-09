@@ -12,7 +12,6 @@ fte:
   infrastructure: 0
   science_code: 0
   science_exp: 3
-timeline:
 metrics:
   - "Folded protein stability benchmarks competitive with AMBER"
   - "Small molecule benchmarks not worsened"

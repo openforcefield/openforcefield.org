@@ -14,11 +14,6 @@ fte:
   infrastructure: 0.5
   science_code: 1
   science_exp: 7
-timeline:
-  - milestone: "SMIRNOFF and OpenMM/OpenFF Interchange infrastructure support for alternative mixing rules"
-    date: "Q3 2026"
-  - milestone: "Experiments start"
-    date: "Q4 2026"
 metrics:
 go_no_go:
 dependencies: []

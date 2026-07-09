@@ -14,11 +14,6 @@ fte:
   infrastructure: 2
   science_code: 0
   science_exp: 1
-timeline:
-  - milestone: "New modular infrastructure prototype software completed"
-    date: "Q3 2026"
-  - milestone: "Infrastructure requirements for continuous typing assessed; gaps identified"
-    date: "Q4 2026"
 go_no_go:
 metrics:
   - "Academic collaborators have been supported with OpenFF needs"

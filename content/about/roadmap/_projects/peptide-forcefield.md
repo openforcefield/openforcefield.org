@@ -11,13 +11,6 @@ fte:
   infrastructure: 0
   science_code: 1
   science_exp: 4
-timeline:
-  - milestone: "Peptide benchmark suite finalised covering acyclic and cyclic peptides; initial results on Gilson-lab SMIRNOFF candidates computed"
-    date: "Q3 2026"
-  - milestone: "Release workflow prototyped: refit/release process validated to retain performance on both peptide and small molecule benchmarks simultaneously"
-    date: "Q4 2026"
-  - milestone: "Peptide force field released, possibly as Rosemary 3.0 or a Sage 2.x, with benchmark dataset (conditional on performance gate)"
-    date: "Q1 2027"
 metrics:
   - "Good performance on a/cyclic peptide benchmarks"
   - "Performance on small molecule benchmarks not decreased relative to Sage 2.2"

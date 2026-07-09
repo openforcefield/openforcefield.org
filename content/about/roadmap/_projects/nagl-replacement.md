@@ -10,13 +10,6 @@ fte:
   infrastructure: 1
   science_code: 1
   science_exp: 0
-timeline:
-  - milestone: "DGL dependency removed; PyTorch Geometric-based training pipeline operational"
-    date: "Q3 2026"
-  - milestone: "Existing AshGC charge model ported to new infrastructure"
-    date: "Q4 2026"
-  - milestone: "New infrastructure released as openff-nagl v2.0; DGL no longer required"
-    date: "Q1 2027"
 metrics:
   - "AshGC charges reproduced within numerical tolerance using new infrastructure (no regression)"
   - "Training pipeline runs without DGL; all GNN operations use PyTorch Geometric or equivalent actively maintained library"

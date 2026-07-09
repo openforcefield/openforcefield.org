@@ -10,9 +10,6 @@ fte:
   infrastructure: 2
   science_code: 5
   science_exp: 2
-timeline:
-  - milestone: "Production force field fits migrated to smee/descent; retire workflows with ForceBalance"
-    date: "Q3 2026"
 metrics:
   - "Valence fitting wall-clock time ≤48 GPU hours on standard hardware"
   - "vdW fitting wall-clock time not increased vs ForceBalance baseline on equivalent hardware"

@@ -43,7 +43,7 @@ def parse_project(path: Path) -> dict:
 
     # Required fields
     required = ["id", "title", "category", "recommended", "summary",
-                "fte", "timeline", "metrics", "go_no_go"]
+                "fte", "metrics", "go_no_go"]
     for field in required:
         if field not in fm:
             print(f"WARNING: {path.name} missing required field '{field}'")
@@ -87,7 +87,6 @@ def parse_project(path: Path) -> dict:
         "stages": stages,
         "summary": fm.get("summary", ""),
         "fte": fte_normalized,
-        "timeline": fm.get("timeline", []),
         "metrics": fm.get("metrics", []),
         "go_no_go": fm.get("go_no_go", []),
         "dependencies": fm.get("dependencies", []),

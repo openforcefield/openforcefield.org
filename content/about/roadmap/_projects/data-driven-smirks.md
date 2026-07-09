@@ -14,15 +14,6 @@ fte:
   infrastructure: 0
   science_code: 1
   science_exp: 6
-timeline:
-  - milestone: "SMIRKS generation and clustering workflow prototyped and validated"
-    date: "Q3 2026"
-  - milestone: "Algorithm integrated with smee/descent; end-to-end fit on small test system complete"
-    date: "Q4 2026"
-  - milestone: "Full drug-like chemical space force field fit with data-driven SMIRKS benchmarked"
-    date: "Q1 2027"
-  - milestone: "Force field released if benchmarks are competitive"
-    date: "Q2 2027"
 metrics:
   - "Force field fit with data-driven SMIRKS matches or exceeds Sage on behcnmarks"
   - "SMIRKS generation process is fully automated, version-controlled, and reproducible"

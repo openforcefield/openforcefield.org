@@ -14,11 +14,6 @@ fte:
   infrastructure: 0.5
   science_code: 0.5
   science_exp: 1
-timeline:
-  - milestone: "Osmotic coefficients and ion RDFs implemented in dimsim"
-    date: "Q3 2026"
-  - milestone: "Co-optimization experiments with water can start"
-    date: "Q4 2026"
 metrics:
   - Improved performance on benchmarks
 go_no_go:

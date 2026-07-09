@@ -12,13 +12,6 @@ fte:
   infrastructure: 0.5
   science_code: 0.5
   science_exp: 1
-timeline:
-  - milestone: "Continue supporting lipid parameter re-fits from academic collaborators"
-    date: "Q3 2026"
-  - milestone: "Co-optimize with small molecule parameters while retaining lipid performance"
-    date: "Q4 2026"
-  - milestone: "Benchmarks"
-    date: "Q1 2027"
 metrics:
   - "Lipid bilayer structural properties (area per lipid, bilayer thickness)"
   - "No systematic decrease with Sage 2.x small molecule parameters"

@@ -35,7 +35,6 @@ export function initProject() {
   renderHero(project);
   renderPipeline(project);
   renderGoalsAndFTE(project);
-  renderTimeline(project);
   renderMetrics(project);
   renderGoNoGo(project);
   renderDependencies(project);
@@ -142,30 +141,6 @@ function fteRow(label, value, maxVal, cls) {
       <div class="fte-bar-bg">
         <div class="fte-bar-fill ${cls}" style="width:${pct}%"></div>
       </div>
-    </div>
-  `;
-}
-
-// ---- Timeline ----------------------------------------------
-function renderTimeline(p) {
-  const el = document.getElementById("project-timeline");
-  if (!el) return;
-  const milestones = p.timeline || [];
-
-  if (milestones.length === 0) {
-    el.innerHTML = `<p class="text-muted text-sm">No milestones defined yet.</p>`;
-    return;
-  }
-
-  el.innerHTML = `
-    <div class="timeline-track">
-      ${milestones.map(m => `
-        <div class="timeline-milestone">
-          <div class="milestone-dot"></div>
-          <div class="milestone-date">${m.date}</div>
-          <div class="milestone-label">${m.milestone}</div>
-        </div>
-      `).join("")}
     </div>
   `;
 }
@@ -292,7 +267,7 @@ function renderNotFound(id) {
         <a href="index.html">← Return to overview</a></p>`
     })
   );
-  ["pipeline-stepper","project-goals","project-fte","project-timeline",
+  ["pipeline-stepper","project-goals","project-fte",
    "project-metrics","project-gonogo","project-deps","project-nav"]
     .forEach(id => { const el = document.getElementById(id); if (el) el.remove(); });
 }

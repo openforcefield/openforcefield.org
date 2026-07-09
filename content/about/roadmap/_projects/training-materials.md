@@ -10,9 +10,6 @@ fte:
   infrastructure: 1
   science_code: 0
   science_exp: 0
-timeline:
-  - milestone: "Notebooks converted to Marimo and verified reproducible"
-    date: "Q4 2026"
 metrics:
   - "All priority notebooks run correctly in Marimo from a fresh environment without modification"
 go_no_go: []

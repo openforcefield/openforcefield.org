@@ -13,15 +13,6 @@ fte:
   infrastructure: 0
   science_code: 0
   science_exp: 6
-timeline:
-  - milestone: "Proof-of-concept fit with alternative alcohol electrostatics complete"
-    date: "Q3 2026"
-  - milestone: "Force field re-fitting complete, with multiple iterations"
-    date: "Q4 2026"
-  - milestone: "Benchmarking complete"
-    date: "Q1 2027"
-  - milestone: "Candidate period and release"
-    date: "Q2 2027"
 metrics:
   - "Physical properties improved for alcohols and amines"
   - "SFEs improved for alcohols and amines"

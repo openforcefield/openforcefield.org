@@ -14,15 +14,6 @@ fte:
   infrastructure: 1
   science_code: 2
   science_exp: 8
-timeline:
-  - milestone: "Next-gen GNN infrastructure available; expanded training dataset curated"
-    date: "Q3 2026"
-  - milestone: "New charge model trained and validated against AshGC baseline"
-    date: "Q4 2026"
-  - milestone: "Force field refit with new charges; compatibility benchmarks complete"
-    date: "Q1 2027"
-  - milestone: "OpenFF Charge Model 2.0 and updated Sage force field released"
-    date: "Q2 2027"
 metrics:
   - "QM benchmarks improved with new charge model"
   - "QM, physical property, free energy benchmarks improved with new force field"

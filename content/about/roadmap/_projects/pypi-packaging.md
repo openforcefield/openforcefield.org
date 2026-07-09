@@ -10,9 +10,6 @@ fte:
   infrastructure: 1.5
   science_code: 0
   science_exp: 0
-timeline:
-  - milestone: "openff-toolkit and openff-interchange available on PyPI"
-    date: "Q3 2026"
 metrics:
   - "pip install openff-toolkit works without conda for all core use cases (parameterisation, system building, export)"
   - "Core functionality available without AmberTools (already optional); users needing AmberTools can install it via conda (or other means)"

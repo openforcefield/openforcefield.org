@@ -18,16 +18,6 @@ export const PROJECTS = [
       "science_exp": 0.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Maintenance handover from Cole group complete; CI and release pipeline running under OpenFF infrastructure",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "User support channel established; documentation reviewed and updated",
-        "date": "Q4 2026"
-      }
-    ],
     "metrics": [
       "CI passing under OpenFF infrastructure across Linux and macOS",
       "At least one OpenFF community member successfully runs a bespoke torsion workflow using Presto with current Sage force fields",
@@ -63,24 +53,6 @@ export const PROJECTS = [
       "science_exp": 6.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Proof-of-concept fit with alternative alcohol electrostatics complete",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Force field re-fitting complete, with multiple iterations",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Benchmarking complete",
-        "date": "Q1 2027"
-      },
-      {
-        "milestone": "Candidate period and release",
-        "date": "Q2 2027"
-      }
-    ],
     "metrics": [
       "Physical properties improved for alcohols and amines",
       "SFEs improved for alcohols and amines",
@@ -116,24 +88,6 @@ export const PROJECTS = [
       "science_exp": 8.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Next-gen GNN infrastructure available; expanded training dataset curated",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "New charge model trained and validated against AshGC baseline",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Force field refit with new charges; compatibility benchmarks complete",
-        "date": "Q1 2027"
-      },
-      {
-        "milestone": "OpenFF Charge Model 2.0 and updated Sage force field released",
-        "date": "Q2 2027"
-      }
-    ],
     "metrics": [
       "QM benchmarks improved with new charge model",
       "QM, physical property, free energy benchmarks improved with new force field"
@@ -174,24 +128,6 @@ export const PROJECTS = [
       "science_exp": 6.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "SMIRKS generation and clustering workflow prototyped and validated",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Algorithm integrated with smee/descent; end-to-end fit on small test system complete",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Full drug-like chemical space force field fit with data-driven SMIRKS benchmarked",
-        "date": "Q1 2027"
-      },
-      {
-        "milestone": "Force field released if benchmarks are competitive",
-        "date": "Q2 2027"
-      }
-    ],
     "metrics": [
       "Force field fit with data-driven SMIRKS matches or exceeds Sage on behcnmarks",
       "SMIRKS generation process is fully automated, version-controlled, and reproducible"
@@ -228,16 +164,6 @@ export const PROJECTS = [
       "science_exp": 1.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "New modular infrastructure prototype software completed",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Infrastructure requirements for continuous typing assessed; gaps identified",
-        "date": "Q4 2026"
-      }
-    ],
     "metrics": [
       "Academic collaborators have been supported with OpenFF needs"
     ],
@@ -263,24 +189,6 @@ export const PROJECTS = [
       "science_exp": 0.0,
       "other": 2.0
     },
-    "timeline": [
-      {
-        "milestone": "Industry participants confirmed and on board",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Standardised benchmarks running across partner datasets",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Results compiled and shared with all participating partners",
-        "date": "Q1 2027"
-      },
-      {
-        "milestone": "Publication or public report released (with partner approval)",
-        "date": "Q2 2027"
-      }
-    ],
     "metrics": [
       "At least 3 industry consortium members participating with proprietary protein-ligand benchmark datasets",
       "Results published or shared publicly with partner approval"
@@ -311,16 +219,6 @@ export const PROJECTS = [
       "science_exp": 1.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Re-run and publish all benchmark results for OpenFF force fields",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Re-run and publish benchmark results for public external force fields, e.g. GAFF, CGENFF",
-        "date": "Q4 2026"
-      }
-    ],
     "metrics": [
       "All five benchmark categories covered: QM torsions, condensed-phase properties, HFEs, SFEs, RBFEs",
       "Results compared against at least GAFF2",
@@ -357,16 +255,6 @@ export const PROJECTS = [
       "science_exp": 1.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Osmotic coefficients and ion RDFs implemented in dimsim",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Co-optimization experiments with water can start",
-        "date": "Q4 2026"
-      }
-    ],
     "metrics": [
       "Improved performance on benchmarks"
     ],
@@ -393,20 +281,6 @@ export const PROJECTS = [
       "science_exp": 1.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Continue supporting lipid parameter re-fits from academic collaborators",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Co-optimize with small molecule parameters while retaining lipid performance",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Benchmarks",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": [
       "Lipid bilayer structural properties (area per lipid, bilayer thickness)",
       "No systematic decrease with Sage 2.x small molecule parameters"
@@ -436,16 +310,6 @@ export const PROJECTS = [
       "science_exp": 7.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "SMIRNOFF and OpenMM/OpenFF Interchange infrastructure support for alternative mixing rules",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Experiments start",
-        "date": "Q4 2026"
-      }
-    ],
     "metrics": null,
     "go_no_go": null,
     "dependencies": [],
@@ -468,20 +332,6 @@ export const PROJECTS = [
       "science_exp": 0.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "DGL dependency removed; PyTorch Geometric-based training pipeline operational",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Existing AshGC charge model ported to new infrastructure",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "New infrastructure released as openff-nagl v2.0; DGL no longer required",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": [
       "AshGC charges reproduced within numerical tolerance using new infrastructure (no regression)",
       "Training pipeline runs without DGL; all GNN operations use PyTorch Geometric or equivalent actively maintained library"
@@ -514,12 +364,6 @@ export const PROJECTS = [
       "science_exp": 1.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Dataset planned and submitted",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": null,
     "go_no_go": null,
     "dependencies": [],
@@ -543,20 +387,6 @@ export const PROJECTS = [
       "science_exp": 4.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Peptide benchmark suite finalised covering acyclic and cyclic peptides; initial results on Gilson-lab SMIRNOFF candidates computed",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Release workflow prototyped: refit/release process validated to retain performance on both peptide and small molecule benchmarks simultaneously",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Peptide force field released, possibly as Rosemary 3.0 or a Sage 2.x, with benchmark dataset (conditional on performance gate)",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": [
       "Good performance on a/cyclic peptide benchmarks",
       "Performance on small molecule benchmarks not decreased relative to Sage 2.2",
@@ -597,7 +427,6 @@ export const PROJECTS = [
       "science_exp": 3.0,
       "other": 0.0
     },
-    "timeline": null,
     "metrics": [
       "Folded protein stability benchmarks competitive with AMBER",
       "Small molecule benchmarks not worsened",
@@ -631,12 +460,6 @@ export const PROJECTS = [
       "science_exp": 0.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "openff-toolkit and openff-interchange available on PyPI",
-        "date": "Q3 2026"
-      }
-    ],
     "metrics": [
       "pip install openff-toolkit works without conda for all core use cases (parameterisation, system building, export)",
       "Core functionality available without AmberTools (already optional); users needing AmberTools can install it via conda (or other means)",
@@ -672,16 +495,6 @@ export const PROJECTS = [
       "science_exp": 0.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Audit complete; pain points catalogued; deprecation plan agreed with team and communicated to external users",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Refactored QCSubmit released with streamlined API",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": [
       "Scientific workflows can practically use QCSubmit instead of converting to a different format at the earliest opportunity"
     ],
@@ -706,12 +519,6 @@ export const PROJECTS = [
       "science_exp": 2.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Production force field fits migrated to smee/descent; retire workflows with ForceBalance",
-        "date": "Q3 2026"
-      }
-    ],
     "metrics": [
       "Valence fitting wall-clock time ≤48 GPU hours on standard hardware",
       "vdW fitting wall-clock time not increased vs ForceBalance baseline on equivalent hardware"
@@ -743,20 +550,6 @@ export const PROJECTS = [
       "science_exp": 6.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Investigate state of existing code and audit requirements for modern fitting",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Integrating with smee/descent",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Experiments start",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": [
       "Surrogate reproduces target property (density, ΔHvap, enthalpy of mixing) well with reference to full MD computation",
       "Fewer MD simulation evaluations per optimization cycle",
@@ -794,7 +587,6 @@ export const PROJECTS = [
       "science_exp": 0.0,
       "other": 0.0
     },
-    "timeline": null,
     "metrics": [
       "Toolkit and Interchange installable from a single package with unified versioning",
       "OpenEye-dependent functionality maintained in a separate repository; main Toolkit repo CI runs without proprietary licenses"
@@ -806,7 +598,7 @@ export const PROJECTS = [
   },
   {
     "id": "torsion-collaboration",
-    "title": "Collaborate to improve torsions",
+    "title": "Targeted improvement on partner dataset",
     "category": "accuracy",
     "maturity": "early",
     "recommended": true,
@@ -822,24 +614,6 @@ export const PROJECTS = [
       "science_exp": 3.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Problem cases reviewed and root causes classified",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Candidate torsion training data generated",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Torsion refit validated against full 25k benchmark",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "OpenFF also collabrates on paper",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": [
       "OpenFF torsion RMSE on the 25k Genentech fragment set reduced",
       "No regressions on existing Sage torsion benchmark suite"
@@ -867,12 +641,6 @@ export const PROJECTS = [
       "science_exp": 0.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Notebooks converted to Marimo and verified reproducible",
-        "date": "Q4 2026"
-      }
-    ],
     "metrics": [
       "All priority notebooks run correctly in Marimo from a fresh environment without modification"
     ],
@@ -897,20 +665,6 @@ export const PROJECTS = [
       "science_exp": 0.0,
       "other": 1.0
     },
-    "timeline": [
-      {
-        "milestone": "Venue, dates, and budget confirmed",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Programme, speakers, and registration open",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "OpenFF UGM held",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": [
       "At least 20 attendees across pharma, academic, and student groups",
       "Programme includes talks from both OpenFF team and external users (at least 3 external talks)",
@@ -946,20 +700,6 @@ export const PROJECTS = [
       "science_exp": 6.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "Virtual site SMIRNOFF infrastructure validated in smee/descent",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "First complete virtual site force field fit complete",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Benchmarking",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": [
       "Improved treatment of ESP",
       "Improved dimer profiles",
@@ -997,20 +737,6 @@ export const PROJECTS = [
       "science_exp": 4.0,
       "other": 0.0
     },
-    "timeline": [
-      {
-        "milestone": "smee/descent water property fitting pipeline validated on TIP3P reference",
-        "date": "Q3 2026"
-      },
-      {
-        "milestone": "Initial co-optimised 3-site water model fit complete",
-        "date": "Q4 2026"
-      },
-      {
-        "milestone": "Comprehensive benchmarks complete: bulk properties, HFEs, condensed-phase properties",
-        "date": "Q1 2027"
-      }
-    ],
     "metrics": [
       "Pure water properties reproduced well across the thermodynamic range relevant to biomolecular simulations (260–370 K, near-ambient pressure)",
       "Mixture properties (enthalpies of mixing, mixture densities) improved vs TIP3P baseline for relevant small molecule solute classes",
