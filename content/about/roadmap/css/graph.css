@@ -1,0 +1,299 @@
+/* ============================================================
+   OpenFF Roadmap — Dependency Graph Styles
+   ============================================================ */
+
+/* ---- Graph container ------------------------------------- */
+.graph-section {
+  margin: 2rem 0;
+}
+
+.graph-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.graph-controls-label {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
+
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: opacity 0.15s, border-color 0.15s;
+  background: transparent;
+  color: var(--color-text);
+}
+
+.filter-btn .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.filter-btn.active {
+  border-color: currentColor;
+}
+
+.filter-btn.inactive {
+  opacity: 0.4;
+}
+
+.graph-hint {
+  font-size: 0.75rem;
+  color: var(--color-text-faint);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.graph-wrapper {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  position: relative;
+}
+
+#graph-svg {
+  display: block;
+  width: 100%;
+  height: 560px;
+  cursor: grab;
+}
+
+#graph-svg:active { cursor: grabbing; }
+
+/* ---- SVG node elements ----------------------------------- */
+.node-group {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.node-group.dimmed {
+  opacity: 0.15;
+}
+
+.node-group.highlighted {
+  opacity: 1;
+}
+
+.node-rect {
+  rx: 10;
+  ry: 10;
+  transition: filter 0.2s;
+}
+
+.node-group:hover .node-rect {
+  filter: brightness(1.15);
+}
+
+.node-title {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+  fill: #e2e8f0;
+  pointer-events: none;
+  dominant-baseline: middle;
+}
+
+.node-badge-bg {
+  rx: 4;
+  ry: 4;
+}
+
+.node-badge-text {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 500;
+  fill: #cbd5e1;
+  pointer-events: none;
+  dominant-baseline: middle;
+}
+
+.node-maturity-dot {
+  transition: r 0.2s;
+}
+
+.node-alt-dash {
+  stroke-dasharray: 5,3;
+}
+
+.node-alt-badge {
+  font-family: var(--font-sans);
+  font-size: 8px;
+  font-weight: 700;
+  fill: #94a3b8;
+  pointer-events: none;
+}
+
+/* ---- SVG edge elements ----------------------------------- */
+.edge-path {
+  fill: none;
+  stroke-width: 1.5;
+  transition: opacity 0.2s;
+  marker-end: url(#arrowhead);
+}
+
+.edge-path.dimmed {
+  opacity: 0.05;
+}
+
+.edge-path.highlighted {
+  opacity: 1;
+  stroke-width: 2.5;
+}
+
+/* ---- Tooltip --------------------------------------------- */
+.graph-tooltip {
+  position: fixed;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  min-width: 220px;
+  max-width: 280px;
+  box-shadow: var(--shadow-lg);
+  pointer-events: none;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.graph-tooltip.visible {
+  opacity: 1;
+}
+
+.tooltip-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.4rem;
+  line-height: 1.3;
+}
+
+.tooltip-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.tooltip-fte-table {
+  width: 100%;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.tooltip-fte-table td:last-child {
+  text-align: right;
+  font-family: var(--font-mono);
+  color: var(--color-text);
+}
+
+.tooltip-link {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-accent-hover);
+  text-align: right;
+}
+
+/* ---- Legend ---------------------------------------------- */
+.graph-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-surface-2);
+  border-top: 1px solid var(--color-border);
+}
+
+.legend-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.legend-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-right: 0.25rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+}
+
+.legend-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legend-rect {
+  width: 14px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.legend-dash {
+  width: 14px;
+  height: 10px;
+  border-radius: 2px;
+  border: 1.5px dashed;
+  flex-shrink: 0;
+  background: transparent;
+}
+
+/* ---- Zoom controls --------------------------------------- */
+.zoom-controls {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.zoom-btn {
+  width: 30px;
+  height: 30px;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s;
+}
+
+.zoom-btn:hover {
+  background: var(--color-border);
+  color: var(--color-text);
+}
