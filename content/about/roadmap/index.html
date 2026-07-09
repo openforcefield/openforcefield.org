@@ -30,9 +30,6 @@
 <!-- Page content -->
 <main class="page-content">
   <div class="container">
-
-    <!-- Header: title/desc left, FTE card right -->
-    <div style="display:grid; grid-template-columns:1fr minmax(260px,30%); gap:2rem; align-items:start; padding: 2rem 0 1.5rem; border-bottom: 1px solid var(--color-border); margin-bottom: 1.25rem;">
       <div>
         <h1 style="margin-bottom:0.5rem;">Open Force Field Long-Term Roadmap</h1>
         <p style="color:var(--color-text-muted); line-height:1.7; margin:0;">
@@ -44,72 +41,22 @@
 	    <li> <strong> Accuracy Improvements </strong>
 	      <p>
 	    Improving the accuracy of our parameters within the domain of chemistry that we cover.
-	  <li> <strong> Infrastructure </strong>
+	    <li> <strong> Infrastructure </strong>
+	      <p>
 	    Improving the software tools we use for fitting, to enable faster fitting experiments involving larger datasets and advanced fitting targets or methods.
-	  </item>
-	  <item> Usability / Community
+	  <li> <strong> Usability / Community </strong>
+	    <p>
 	    Putting our software and models into the hands of real users and enabling them to advance their scientific programs.
-	  </item>
 	  <p>
-          Staff recommendations and alternatives for the Open Force Field Consortium's
-          2026–2027 priorities. Solid-border nodes are <strong>recommended</strong> items;
-          dashed-border nodes are <strong>alternatives</strong>.
-	  Recommendations are made based on staff's estimation of cost-benefit-risk analysis of individual projects, without any effort to match recommendations to available capacity. If all recommended priorities were pursued, they would amount to a drastic over-commitment of staff effort. Final decisions on the roadmap, including fitting objectives to staff capacity, will be made by the OpenFF Consortium Governing Board.
           Click any project to view details.
         </p>
       </div>
-      <!-- FTE available -->
-      <div class="card" style="background:var(--color-surface-2,var(--color-surface)); padding:0.75rem 1rem;">
-        <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem;">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;opacity:0.7;"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          <strong style="font-size:0.8rem;">FTE Available 2026–2027</strong>
-        </div>
-        <div style="display:flex; gap:1.25rem; flex-wrap:wrap; margin-bottom:0.4rem;">
-          <div>
-            <div style="font-size:1.25rem; font-weight:700; line-height:1.1;">2.7</div>
-            <div class="text-xs text-muted">Infrastructure FTE</div>
-          </div>
-          <div>
-            <div style="font-size:1.25rem; font-weight:700; line-height:1.1;">1<span style="font-weight:400; color:var(--color-text-muted);">[.5]</span></div>
-            <div class="text-xs text-muted">Science FTE <span style="color:var(--color-text-faint);">[.5 donated]</span></div>
-          </div>
-          <div>
-            <div style="font-size:1.25rem; font-weight:700; line-height:1.1;">0.5</div>
-            <div class="text-xs text-muted">Project management FTE</div>
-          </div>
-          <div>
-            <div style="font-size:1.25rem; font-weight:700; line-height:1.1;">44</div>
-            <div class="text-xs text-muted">Total FTE-months</div>
-          </div>
-        </div>
-        <p class="text-xs text-muted" style="margin:0; line-height:1.4;">Allowing for reasonable time off, sick leave, and other commitments. ~35% of infrastructure FTE is committed to ongoing maintenance and support. ~1 FTE-month per year is committed to the MuPT collaboration.</p>
-      </div>
-    </div>
-
-    <!-- Feedback link -->
-    <div style="margin-bottom:1.25rem; font-size:0.85rem;">
-      📝 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQjPg2tKHUFYdKPCBe7mxDkd2FHJGgpVNAjNV32atZWy02ew/viewform?usp=preview" style="color:var(--color-primary);">Share your feedback on this roadmap</a> (Google Form)
-    </div>
-
     <!-- Project grid -->
     <section style="margin-top:3rem;">
       <div style="display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-bottom:1.25rem; flex-wrap:wrap;">
         <h2 style="font-size:1rem; font-weight:600; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.08em; margin:0;">
           All Projects
         </h2>
-        <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem;">
-          <label for="sort-key" style="color:var(--color-text-muted); white-space:nowrap;">Sort by</label>
-          <select id="sort-key" style="font-size:0.8rem; padding:0.25rem 0.4rem; border:1px solid var(--color-border); border-radius:4px; background:var(--color-surface); color:var(--color-text);">
-            <option value="recommended">Recommended first</option>
-            <option value="science_code">Science (new code) FTE</option>
-            <option value="science_exp">Science (experiments) FTE</option>
-            <option value="infrastructure">Infrastructure FTE</option>
-            <option value="other">Other FTE</option>
-            <option value="total">Total FTE</option>
-            <option value="enables">Unlocks (# projects)</option>
-          </select>
-          <button id="sort-dir" title="Toggle sort direction" style="font-size:0.8rem; padding:0.25rem 0.5rem; border:1px solid var(--color-border); border-radius:4px; background:var(--color-surface); color:var(--color-text); cursor:pointer;">↑</button>
-        </div>
       </div>
       <div id="project-grid" style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1rem;"></div>
     </section>
@@ -132,8 +79,6 @@
   import { totalFTE, projectURL } from "./js/utils.js";
 
   const grid = document.getElementById("project-grid");
-  const sortKeyEl = document.getElementById("sort-key");
-  const sortDirEl = document.getElementById("sort-dir");
 
   let sortKey = "recommended";
   let sortAsc = false; // default: recommended first = desc (true=recommended at top)
@@ -185,22 +130,7 @@
     }).join("");
   }
 
-  sortKeyEl.addEventListener("change", () => {
-    sortKey = sortKeyEl.value;
-    // Default direction: recommended=desc (recommended first), others=desc (highest first)
-    sortAsc = false;
-    sortDirEl.textContent = "↓";
-    renderGrid();
-  });
-
-  sortDirEl.addEventListener("click", () => {
-    sortAsc = !sortAsc;
-    sortDirEl.textContent = sortAsc ? "↑" : "↓";
-    renderGrid();
-  });
-
   // Initial render: recommended first (desc)
-  sortDirEl.textContent = "↓";
   renderGrid();
 </script>
 
