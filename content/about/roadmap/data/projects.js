@@ -3,6 +3,26 @@
 
 export const PROJECTS = [
   {
+    "id": "ai-modified-protein-simulations",
+    "title": "AI-enabled simulations of modified proteins at scale",
+    "category": "infrastructure",
+    "maturity": "early",
+    "recommended": false,
+    "stages": [],
+    "summary": "TODO: one-sentence summary shown in the project grid.",
+    "fte": {
+      "infrastructure": 0.0,
+      "science_code": 0.0,
+      "science_exp": 0.0,
+      "other": 0.0
+    },
+    "metrics": null,
+    "go_no_go": null,
+    "dependencies": [],
+    "enables": [],
+    "body_html": "<h2>Goals</h2>\n<ul>\n<li>TODO</li>\n</ul>\n<h2>Benefits</h2>\n<p>TODO</p>"
+  },
+  {
     "id": "alcohols-amines",
     "title": "Improve parameters for alcohols and amines",
     "category": "accuracy",
