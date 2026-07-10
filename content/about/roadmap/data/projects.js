@@ -14,9 +14,9 @@ export const PROJECTS = [
     ],
     "summary": "Make OpenFF's modified-protein support (landing in 3.0) robust enough that an agentic workflow, not just a computational chemistry expert, can clean up deficient PDB inputs and run the simulation, so any team can simulate proteins as they actually exist in vivo.",
     "fte": {
-      "infrastructure": 0.0,
-      "science_code": 0.0,
-      "science_exp": 0.0,
+      "infrastructure": 12.0,
+      "science_code": 6.0,
+      "science_exp": 6.0,
       "other": 0.0
     },
     "metrics": [

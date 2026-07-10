@@ -8,9 +8,9 @@ stages:
   - benchmarking
 summary: "Make OpenFF's modified-protein support (landing in 3.0) robust enough that an agentic workflow, not just a computational chemistry expert, can clean up deficient PDB inputs and run the simulation, so any team can simulate proteins as they actually exist in vivo."
 fte:
-  infrastructure: 0
-  science_code: 0
-  science_exp: 0
+  infrastructure: 12
+  science_code: 6
+  science_exp: 6
 metrics:
   - "A leading AI model, using our tools unassisted, reaches 90% success simulating a curated PDB benchmark of modified proteins"
 go_no_go:
