@@ -14,7 +14,8 @@ fte:
 metrics:
   - "A leading AI model, using our tools unassisted, reaches 90% success simulating a curated PDB benchmark of modified proteins"
 go_no_go:
-dependencies: []
+dependencies:
+  - protein-forcefield
 enables: []
 ---
 
