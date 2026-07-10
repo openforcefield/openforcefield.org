@@ -3,38 +3,6 @@
 
 export const PROJECTS = [
   {
-    "id": "adopt-presto",
-    "title": "Adopt Presto",
-    "category": "usability",
-    "maturity": "early",
-    "recommended": false,
-    "stages": [
-      "community_maintenance"
-    ],
-    "summary": "Take over maintenance of Presto (the successor to BespokeFit) from the Cole group, ensuring ongoing user support and ecosystem compatibility for consortium members.",
-    "fte": {
-      "infrastructure": 3.0,
-      "science_code": 0.0,
-      "science_exp": 0.0,
-      "other": 0.0
-    },
-    "metrics": [
-      "CI passing under OpenFF infrastructure across Linux and macOS",
-      "At least one OpenFF community member successfully runs a bespoke torsion workflow using Presto with current Sage force fields",
-      "User support requests responded to within the standard OpenFF support window",
-      "No unresolved compatibility breakages with openff-toolkit or openff-interchange for more than one release cycle"
-    ],
-    "go_no_go": [
-      {
-        "gate": "Q3 2026",
-        "condition": "Handover from Cole group is feasible; Presto codebase is in a maintainable state and CI can be established under OpenFF infrastructure. If the codebase requires substantial rework to become maintainable, reassess scope."
-      }
-    ],
-    "dependencies": [],
-    "enables": [],
-    "body_html": "<h2>Goals</h2>\n<ul>\n<li>Accept maintenance responsibility for Presto from the Cole group, including CI infrastructure, PyPI releases, and dependency management</li>\n<li><strong>Familiarise OpenFF staff with the Presto codebase</strong> in preparation for ongoing support duties — this includes revising documentation and examples, adding tests to improve coverage and confidence, and building internal knowledge of the code's architecture and edge cases</li>\n<li>Ensure Presto remains compatible with current OpenFF Toolkit and Interchange APIs as these evolve</li>\n<li>Provide user support for consortium members running bespoke torsion parameterisation workflows</li>\n</ul>\n<h2>Benefits</h2>\n<p>Bespoke torsion parameterisation — fitting torsion profiles specifically for each ligand rather than relying on generic SMIRKS patterns — is a popular approach for accuracy improvement in RBFE campaigns. </p>\n<p>BespokeFit accumulated significant technical debt and proved difficult to maintain, with the result that it is now deprecated; Presto is a cleaner, modern update developed by the Cole group. Taking over maintenance ensures this capability remains accessible to consortium members as BespokeFit is retired, without requiring OpenFF to fund new scientific development — the principal cost is infrastructure continuity and user support.</p>"
-  },
-  {
     "id": "alcohols-amines",
     "title": "Improve parameters for alcohols and amines",
     "category": "accuracy",
@@ -371,45 +339,6 @@ export const PROJECTS = [
     "body_html": "<h2>Goals</h2>\n<ul>\n<li>Define a representative library of nucleic acid fragments covering DNA and RNA backbone segments (phosphate-sugar-base units), nucleobase analogues, base-stacking model systems, perhaps others</li>\n<li>Submit and complete high-level QM calculations via QCSubmit</li>\n<li>Validate, curate, and publicly deposit the dataset in QCArchive for use by OpenFF and the broader biomolecular simulation community</li>\n</ul>\n<h2>Benefits</h2>\n<p>This is a necessary first step towards our planned extension towards nucleic acid parameters.</p>"
   },
   {
-    "id": "peptide-forcefield",
-    "title": "A peptide force field",
-    "category": "domain",
-    "maturity": "early",
-    "recommended": true,
-    "stages": [
-      "benchmarking",
-      "release"
-    ],
-    "summary": "Benchmark SMIRNOFF force field candidates on peptides, and conditionally release a supported OpenFF peptide force field if performance is sufficient. The key benefits of this project are prototyping the unification of peptide and small molecule parameters for when the protein force field is ready.",
-    "fte": {
-      "infrastructure": 0.0,
-      "science_code": 1.0,
-      "science_exp": 4.0,
-      "other": 0.0
-    },
-    "metrics": [
-      "Good performance on a/cyclic peptide benchmarks",
-      "Performance on small molecule benchmarks not decreased relative to Sage 2.2",
-      "Release workflow documented: process for producing a combined peptide/protein/small molecule force field validated end-to-end",
-      "Force field released as .offxml with benchmark data and reproduction scripts"
-    ],
-    "go_no_go": [
-      {
-        "gate": "Q3 2026",
-        "condition": "At least one SMIRNOFF candidate demonstrates good performance on the peptide benchmark suite for both acyclic and cyclic peptides, including potentially Sage 2.3. If no protein FF candidate achieves good performance, we do not proceed with the rest of the release pipeline."
-      },
-      {
-        "gate": "Q4 2026",
-        "condition": "Release workflow successfully produces a force field that retains performance on both peptide/protein and small molecule benchmarks simultaneously. If this cannot be achieved, delay release until resolved."
-      }
-    ],
-    "dependencies": [],
-    "enables": [
-      "protein-forcefield"
-    ],
-    "body_html": "<h2>Goals</h2>\n<ul>\n<li>Define a set of peptide benchmarks</li>\n<li>Evaluate SMIRNOFF force field candidates on peptide benchmarks</li>\n<li>Prototype and validate a <strong>release workflow</strong> for a combined peptide/protein force field that retains good performance across peptide/protein benchmarks <em>and</em> small molecule benchmarks simultaneously — this is a key deliverable in its own right, independent of whether a final release occurs</li>\n<li>Release if performance works</li>\n<li>Document the release workflow and lessons learned to directly accelerate the <a href=\"/about/roadmap/project/?id=protein-forcefield\">protein force field</a> project</li>\n</ul>\n<h2>Benefits</h2>\n<p>While we continue working on folded protein parameters, our current SMIRNOFF candidates appear to perform well on peptides. This puts a peptide force field in the hands of the community. In addition, working out the release process where small molecule parameters and peptide/protein parameters can be co-optimized and performance in both domains retained, is work that directly accelerates our overall goal of a protein force field.</p>"
-  },
-  {
     "id": "protein-forcefield",
     "title": "A folded protein force field",
     "category": "domain",
@@ -438,9 +367,7 @@ export const PROJECTS = [
         "condition": "Small-molecule compatibility checks pass across QM benchmarks; if significant incompatibilities found, attempt targeted refit before release"
       }
     ],
-    "dependencies": [
-      "peptide-forcefield"
-    ],
+    "dependencies": [],
     "enables": [],
     "body_html": "<h2>Goals</h2>\n<ul>\n<li>Coordinate with the Chapin Cavender, who is leading the work, and assist with any roadblocks</li>\n<li>Assist with benchmarking</li>\n<li>Ensure co-optimised protein parameters are compatible with OpenFF small molecule parameters</li>\n<li>Package, document, and release the combined force field under OpenFF infrastructure with full reproducibility materials</li>\n</ul>\n<h2>Benefits</h2>\n<p>A supported co-optimized small molecule and protein force field is one of the most consistently requested capabilities from OpenFF's industrial and academic user base. Having both protein and small molecule parameters under the same SMIRNOFF framework — rather than a patchwork of AMBER proteins + OpenFF ligands — provides a uniquely consistent treatment for protein-ligand systems and simplifies simulation setup substantially.</p>"
   },
@@ -570,31 +497,6 @@ export const PROJECTS = [
     ],
     "enables": [],
     "body_html": "<h2>Goals</h2>\n<ul>\n<li>Implement a multi-fidelity optimization framework based on Gaussian process surrogate modelling, as developed by Madin &amp; Shirts (2023; <em>Digital Discovery</em>), adapted for the smee/descent fitting stack</li>\n<li>Train GP surrogate models that approximate the objective function (experimental physical property RMSE) as a cheap, fast function of LJ parameter vectors, using Latin hypercube sampling of initial simulation points</li>\n<li>Aim for substantial shortening and improvment of LJ fitting process</li>\n</ul>\n<h2>Benefits</h2>\n<p>Surrogate modelling addresses a fundamental bottleneck: the most informative vdW fitting targets (condensed-phase simulations) are very expensive to evaluate repeatedly. The Madin &amp; Shirts results also show that global search over surrogates finds improved parameter sets that local optimization cannot reach.</p>\n<p>If successful, this would qualitatively improve the coverage and quality of vdW parameter optimization in OpenFF force fields, complementing the speed gains from smee/descent's gradient-based approach.</p>"
-  },
-  {
-    "id": "toolkit-refactor",
-    "title": "Refactor OpenFF Toolkit",
-    "category": "infrastructure",
-    "maturity": "early",
-    "recommended": false,
-    "stages": [
-      "infra_updates"
-    ],
-    "summary": "Consolidate the OpenFF Toolkit and Interchange into a single repository — reducing maintenance burden and simplifying the codebase. Optionally, make the main repository RDKit-only (moving OpenEye support to a separate repo) and add a tensor representation for direct translation to smee.",
-    "fte": {
-      "infrastructure": 3.0,
-      "science_code": 0.0,
-      "science_exp": 0.0,
-      "other": 0.0
-    },
-    "metrics": [
-      "Toolkit and Interchange installable from a single package with unified versioning",
-      "OpenEye-dependent functionality maintained in a separate repository; main Toolkit repo CI runs without proprietary licenses"
-    ],
-    "go_no_go": null,
-    "dependencies": [],
-    "enables": [],
-    "body_html": "<h2>Goals</h2>\n<ul>\n<li><strong>Consolidate Toolkit and Interchange into a mono-repo</strong> with unified versioning, CI, and release process — eliminating cross-repo synchronisation issues and making atomic changes across the parameterisation and system-export stack possible in a single PR. This may also include folding in smaller supporting packages such as openff-utilities, openff-units, and similar minor repos</li>\n<li><em>(Optional)</em> <strong>Make the main Toolkit repository RDKit-only</strong>, moving OpenEye-dependent functionality to a separate repository. This allows external contributors to participate fully — submitting PRs, running CI, and reviewing code — without the headaches of the proprietary OpenEye license restriction, while still maintaining OpenEye support for users who need it</li>\n<li><em>(Optional)</em> <strong>Add a tensor representation</strong> that enables direct translation from parameterised systems to smee tensors, bypassing the current Interchange object model</li>\n</ul>\n<h2>Benefits</h2>\n<p><strong>Reduced maintenance burden.</strong> The Toolkit and Interchange are tightly coupled but currently live in separate repositories, requiring coordinated releases, cross-repo CI, and careful version pinning. Merging them into a mono-repo eliminates this coordination overhead and makes refactoring across the parameterisation boundary straightforward.</p>\n<p><strong>Unblocks external contributions.</strong> The OpenEye backend requires a proprietary license key stored as a CI secret. Because GitHub Actions does not expose secrets to pull requests from forks, PRs from external contributors always fail the OpenEye tests. The only workaround would be granting public write access to the main repository so contributors can push branches directly — which is not acceptable from a security standpoint. This effectively blocks the open-source contribution model for any code that touches cheminformatics. Moving OpenEye support to a separate repository eliminates this problem — the main repo's CI runs without proprietary licenses, so forks work cleanly.</p>\n<p><strong>Faster setup for force field fitting.</strong> Creating smee tensor representations natively will save time when setting up force field fits using large datasets of molecules. Further, this will more tightly integrate the core stack with the fitting stack, creating new opportunities for further optimization.</p>"
   },
   {
     "id": "torsion-collaboration",

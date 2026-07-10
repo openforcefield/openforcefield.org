@@ -19,8 +19,7 @@ metrics:
 go_no_go:
   - gate: "Q4 2026"
     condition: "Small-molecule compatibility checks pass across QM benchmarks; if significant incompatibilities found, attempt targeted refit before release"
-dependencies:
-  - peptide-forcefield
+dependencies: []
 enables: []
 ---
 

@@ -6,7 +6,7 @@ This repository contains the **staff proposal** for the Open Force Field Consort
 
 ## What this is
 
-The roadmap presents 23 proposed projects across four categories:
+The roadmap presents 21 proposed projects across four categories:
 
 - **Infrastructure / Fitting Pipeline** — tooling, automation, and pipeline improvements
 - **Domain Expansion** — extending force field coverage to new chemical spaces
