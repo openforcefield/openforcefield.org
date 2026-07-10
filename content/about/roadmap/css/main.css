@@ -2,7 +2,27 @@
    OpenFF Roadmap — Design System
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+/* Same typeface as the rest of the Hugo site (see themes/openff/assets/sass/generic.scss) */
+@font-face {
+  font-family: Montserrat;
+  src: url(/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(/fonts/Montserrat/Montserrat-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(/fonts/Montserrat/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(/fonts/Montserrat/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
 
 /* ---- Custom Properties — Dark (default) ------------------ */
 :root {
@@ -40,8 +60,8 @@
   --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
   --shadow-lg: 0 8px 32px rgba(0,0,0,0.6);
 
-  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
-  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+  --font-sans: "Montserrat", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 
   --max-width: 1400px;
   --nav-height: 60px;
