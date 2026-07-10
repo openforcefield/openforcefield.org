@@ -8,19 +8,24 @@ export const PROJECTS = [
     "category": "infrastructure",
     "maturity": "early",
     "recommended": false,
-    "stages": [],
-    "summary": "TODO: one-sentence summary shown in the project grid.",
+    "stages": [
+      "infra_updates",
+      "benchmarking"
+    ],
+    "summary": "Make OpenFF's modified-protein support (landing in 3.0) robust enough that an agentic workflow, not just a computational chemistry expert, can clean up deficient PDB inputs and run the simulation, so any team can simulate proteins as they actually exist in vivo.",
     "fte": {
       "infrastructure": 0.0,
       "science_code": 0.0,
       "science_exp": 0.0,
       "other": 0.0
     },
-    "metrics": null,
+    "metrics": [
+      "A leading AI model, using our tools unassisted, reaches 90% success simulating a curated PDB benchmark of modified proteins"
+    ],
     "go_no_go": null,
     "dependencies": [],
     "enables": [],
-    "body_html": "<h2>Goals</h2>\n<ul>\n<li>TODO</li>\n</ul>\n<h2>Benefits</h2>\n<p>TODO</p>"
+    "body_html": "<h2>Goals</h2>\n<ul>\n<li>Build out OpenFF 3.0's modified-protein handling with agentic-workflow-friendly surfaces — Python API points, CLIs, AI-facing docs, skill files, MCP tooling, or whatever else proves high-leverage — so an LLM can identify and fix deficient inputs (missing hydrogens, spurious crosslinks, ambiguous bond networks) without expert intervention</li>\n<li>Curate a benchmark set of modified proteins from the PDB and measure whether a leading AI model can use our tools to simulate them successfully, targeting 90%</li>\n<li>If we hit that target, put remaining effort into modified-residue handling in PDBFixer (the tool most workflows already use to prepare OpenFF inputs), so teams can start from lower-quality structures too</li>\n</ul>\n<h2>Benefits</h2>\n<p>An estimated 50–90% of human proteins are post-translationally modified, so the unmodified form most workflows are forced to simulate is often effectively a different molecule than the one under study — and predictions will systematically fail to match experiment as a result. This isn't a niche case: GLP-1 drugs and Humira depend on engineered modifications, and SARS-CoV-2 spike glycosylation is inaccessible to unmodified-protein simulation.</p>\n<p>Today, fixing a deficient modified-protein PDB file by hand only takes moderate chemistry judgement, not deep expertise — but that's still enough of a bar that most teams without a dedicated computational chemist either strip the modifications and hope they don't matter, or skip simulation entirely. Making input cleanup something an agentic workflow can do reliably removes that bottleneck without requiring any new modeling capability of our own.</p>\n<p>There's useful spillover too: the AI-testing process will surface malformed PDB entries for curator review, stress-test gemmi and RDKit at scale, could seed synthetic modified-protein datasets for cofolding model training, and leaves us with openly available AI-facing docs, prompts, and best practices as a byproduct.</p>"
   },
   {
     "id": "alcohols-amines",
