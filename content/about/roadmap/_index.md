@@ -3,6 +3,8 @@ color: darkblue
 title: "Roadmap"
 ---
 
+<div class="roadmap">
+
 The long-term roadmap for Open Force Field includes specific projects grouped into four broad objectives:
 
 - **Domain Expansion** — Expanding the domain of bioorganic chemistry for which our force fields are parameterized. Starting with drug-like small molecules, then advancing to peptides and proteins, then lipids, then nucleic acids, then metalloorganic chemistry.
@@ -84,3 +86,5 @@ Click any project to view details.
   // Initial render: recommended first (desc)
   renderGrid();
 </script>
+
+</div>

@@ -32,7 +32,7 @@ enables:
 - Evaluate SMIRNOFF force field candidates on peptide benchmarks
 - Prototype and validate a **release workflow** for a combined peptide/protein force field that retains good performance across peptide/protein benchmarks *and* small molecule benchmarks simultaneously — this is a key deliverable in its own right, independent of whether a final release occurs
 - Release if performance works
-- Document the release workflow and lessons learned to directly accelerate the [protein force field](project.html?id=protein-forcefield) project
+- Document the release workflow and lessons learned to directly accelerate the [protein force field](/about/roadmap/project/?id=protein-forcefield) project
 
 ## Benefits
 

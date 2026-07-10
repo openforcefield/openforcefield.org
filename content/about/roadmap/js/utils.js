@@ -54,7 +54,7 @@ export function truncate(str, maxLen) {
  * Returns the URL for a project's detail page.
  */
 export function projectURL(id) {
-  return `project.html?id=${id}`;
+  return `/about/roadmap/project/?id=${id}`;
 }
 
 /**

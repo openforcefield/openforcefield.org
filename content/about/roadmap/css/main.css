@@ -117,12 +117,13 @@
 
 .theme-toggle .toggle-icon { font-size: 0.9rem; line-height: 1; }
 
-/* ---- Reset & Base ---------------------------------------- */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+/* ---- Reset & Base ------------------------------------------
+   Scoped to .roadmap so this stylesheet can be embedded inside a
+   shared Hugo page without overriding the site's own typography,
+   body background, links, etc. outside the roadmap content itself. */
+:where(.roadmap, .roadmap *, .roadmap *::before, .roadmap *::after) { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
-
-body {
+.roadmap {
   font-family: var(--font-sans);
   background: var(--color-bg);
   color: var(--color-text);
@@ -131,21 +132,24 @@ body {
   font-size: 15px;
 }
 
-a { color: var(--color-accent-hover); text-decoration: none; }
-a:hover { text-decoration: underline; }
+.roadmap a { color: var(--color-accent-hover); text-decoration: none; }
+.roadmap a:hover { text-decoration: underline; }
 
-h1, h2, h3, h4 { font-weight: 600; line-height: 1.3; }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.35rem; }
-h3 { font-size: 1.1rem; }
+.roadmap h1, .roadmap h2, .roadmap h3, .roadmap h4 { font-weight: 600; line-height: 1.3; }
+.roadmap h1 { font-size: 2rem; }
+.roadmap h2 { font-size: 1.35rem; }
+.roadmap h3 { font-size: 1.1rem; }
 
-p { margin-bottom: 0.75rem; }
-p:last-child { margin-bottom: 0; }
+.roadmap p { margin-bottom: 0.75rem; }
+.roadmap p:last-child { margin-bottom: 0; }
 
-ul, ol { padding-left: 1.4rem; }
-li { margin-bottom: 0.25rem; }
+/* :where() keeps these as low-priority defaults so the theme's own
+   list styling (e.g. the em-dash bullets in themes/openff's main.scss)
+   still wins when this page is rendered inside the Hugo theme. */
+:where(.roadmap ul, .roadmap ol) { padding-left: 1.4rem; }
+:where(.roadmap li) { margin-bottom: 0.25rem; }
 
-code {
+.roadmap code {
   font-family: var(--font-mono);
   font-size: 0.875em;
   background: var(--color-surface-2);
@@ -336,7 +340,7 @@ code {
 
 /* ---- Responsive ------------------------------------------ */
 @media (max-width: 768px) {
-  h1 { font-size: 1.5rem; }
+  .roadmap h1 { font-size: 1.5rem; }
   .container { padding: 0 1rem; }
 }
 

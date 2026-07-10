@@ -47,7 +47,7 @@ function renderBreadcrumb(p) {
   if (!el) return;
   const cat = CATEGORIES[p.category] || CATEGORIES.infrastructure;
   el.innerHTML = `
-    <a href="index.html">OpenFF Roadmap</a>
+    <a href="/about/roadmap/">OpenFF Roadmap</a>
     <span class="sep">/</span>
     <span>${cat.label}</span>
     <span class="sep">/</span>
@@ -264,7 +264,7 @@ function renderNotFound(id) {
       className: "project-hero",
       innerHTML: `<h1 class="hero-title">Project not found</h1>
         <p class="hero-summary">No project with id "<code>${id || "(none)"}</code>" was found.
-        <a href="index.html">← Return to overview</a></p>`
+        <a href="/about/roadmap/">← Return to overview</a></p>`
     })
   );
   ["pipeline-stepper","project-goals","project-fte",

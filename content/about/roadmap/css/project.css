@@ -2,6 +2,10 @@
    OpenFF Roadmap — Project Detail Page Styles
    ============================================================ */
 
+/* The theme prints a generic <h1>{{ .Title }}</h1> above page content;
+   the project hero below renders the real (dynamic) title instead. */
+article:has(#project-hero) > h1 { display: none; }
+
 /* ---- Hero ------------------------------------------------ */
 .project-hero {
   padding: 2rem 0 1.5rem;

@@ -1,36 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project — OpenFF Roadmap</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/project.css">
-  <script>
-    (function(){
-      var t=localStorage.getItem("openff-theme")||
-        (window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
-      document.documentElement.setAttribute("data-theme",t);
-    })();
-  </script>
-</head>
-<body>
+---
+color: darkblue
+title: "Project"
+---
+<div class="roadmap">
 
-<!-- Navigation -->
-<nav class="site-nav">
-  <div class="container">
-    <a href="index.html" class="nav-logo">Open<span>FF</span> Roadmap</a>
-    <nav class="nav-breadcrumb" id="breadcrumb">
-      <!-- Populated by project.js -->
-    </nav>
-    <a href="index.html" class="nav-home-link">← All projects</a>
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"></button>
-  </div>
-</nav>
+<link rel="stylesheet" href="/about/roadmap/css/main.css">
+<link rel="stylesheet" href="/about/roadmap/css/project.css">
 
 <!-- Page content -->
 <main class="page-content">
   <div class="container">
+
+    <nav class="nav-breadcrumb" id="breadcrumb" style="margin-bottom:1.5rem;">
+      <!-- Populated by project.js -->
+    </nav>
 
     <!-- Hero -->
     <div id="project-hero" class="project-hero">
@@ -122,11 +105,10 @@
 </main>
 
 <script type="module">
-  import { initTheme } from "./js/theme.js";
-  import { initProject } from "./js/project.js?v=3";
+  import { initTheme } from "/about/roadmap/js/theme.js";
+  import { initProject } from "/about/roadmap/js/project.js?v=3";
   initTheme();
   initProject();
 </script>
 
-</body>
-</html>
+</div>
