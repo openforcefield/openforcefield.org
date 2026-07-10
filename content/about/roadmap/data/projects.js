@@ -312,6 +312,26 @@ export const PROJECTS = [
     "body_html": "<h2>Goals</h2>\n<ul>\n<li>Evaluate alternatives to the Lorentz-Berthelot combining rules for LJ cross-interactions: candidate approaches include Waldman-Hagler rules</li>\n<li>Implement the necessary infrastructure changes in the SMIRNOFF specification and OpenFF Interchange to support non-standard mixing rules without hacking the parameter format</li>\n<li>Refit force field LJ parameters under the chosen alternative mixing rule scheme and benchmark comprehensively</li>\n<li>Make a transparent release decision: publish an updated force field if benchmarks support it, or document the outcome clearly if the improvement is insufficient</li>\n</ul>"
   },
   {
+    "id": "mlip-setup-inference",
+    "title": "Enable MLIP model setup and inference",
+    "category": "infrastructure",
+    "maturity": "early",
+    "recommended": false,
+    "stages": [],
+    "summary": "TODO: one-sentence summary shown in the project grid.",
+    "fte": {
+      "infrastructure": 0.0,
+      "science_code": 0.0,
+      "science_exp": 0.0,
+      "other": 0.0
+    },
+    "metrics": null,
+    "go_no_go": null,
+    "dependencies": [],
+    "enables": [],
+    "body_html": "<h2>Goals</h2>\n<ul>\n<li>TODO</li>\n</ul>\n<h2>Benefits</h2>\n<p>TODO</p>"
+  },
+  {
     "id": "nagl-replacement",
     "title": "Replace NAGL with next-gen charge model infrastructure",
     "category": "infrastructure",
