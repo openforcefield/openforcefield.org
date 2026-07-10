@@ -8,19 +8,26 @@ export const PROJECTS = [
     "category": "infrastructure",
     "maturity": "early",
     "recommended": false,
-    "stages": [],
-    "summary": "TODO: one-sentence summary shown in the project grid.",
+    "stages": [
+      "infra_updates",
+      "fitting",
+      "benchmarking"
+    ],
+    "summary": "Modernize the OpenFF/QCArchive fitting pipeline so an agent can drive it end-to-end — curating QC data, generating more on-the-fly via active learning, and specializing a general force field for a target chemistry — cutting today's month-long, expert-orchestrated process to weeks.",
     "fte": {
-      "infrastructure": 0.0,
-      "science_code": 0.0,
-      "science_exp": 0.0,
+      "infrastructure": 24.0,
+      "science_code": 12.0,
+      "science_exp": 12.0,
       "other": 0.0
     },
-    "metrics": null,
+    "metrics": [
+      "An agent can go from a target chemistry to curated QC data to fitted, benchmarked, specialized force field parameters without expert orchestration",
+      "(External goal) QCArchive supports chemical (sub)structure search and agent-specific permissions for safe, autonomous dataset growth"
+    ],
     "go_no_go": null,
     "dependencies": [],
     "enables": [],
-    "body_html": "<h2>Goals</h2>\n<ul>\n<li>TODO</li>\n</ul>\n<h2>Benefits</h2>\n<p>TODO</p>"
+    "body_html": "<h2>Goals</h2>\n<ul>\n<li>Make OpenFF's fitting pipeline active-learning capable, by expanding parameter validation metrics to drive on-the-fly generation of whatever QC training data a given specialization run actually needs</li>\n<li>Streamline interoperability between QCArchive and OpenFF so an agent can go from \"chemistry of interest\" to curated data to fitted, benchmarked, specialized parameters without the manual hand-offs the pipeline requires today</li>\n</ul>\n<h2>Benefits</h2>\n<p>Specializing a general OpenFF force field for a specific chemistry currently takes months and requires an expert to hand-carry data through QC curation, fitting, and benchmarking, moving between QCArchive and OpenFF tooling by hand at every stage. That expertise bottleneck is largely why teams working with novel chemistry rarely refit and just accept whatever accuracy the general force field happens to give them on their actual target.</p>\n<p>Making the pipeline something an agent can drive unsupervised removes that bottleneck directly: QCArchive becomes queryable and safely agent-operable, and OpenFF's fitting side gains the active-learning loop needed to decide what QC data to generate next. OpenFF's tools already sit behind 500+ dependent public repositories, and QCArchive is the only proven open framework of its kind for the QC calculations force field development needs — so this positions us as the first open source agentic force field specialization workflow, rather than leaving that capability to emerge only in closed, vendor-controlled ecosystems.</p>"
   },
   {
     "id": "ai-modified-protein-simulations",
