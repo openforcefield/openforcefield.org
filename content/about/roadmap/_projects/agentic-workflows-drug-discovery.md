@@ -9,9 +9,9 @@ stages:
   - release
 summary: "Make OpenFF and Open Free Energy AI-native: MCP interfaces, a hardened agentic workflow built on Genentech's OpenFE agent (already matching commercial tools on three internal targets), and guardrails against physically nonsensical setups, so non-experts and AI agents can run full binding free energy campaigns unassisted."
 fte:
-  infrastructure: 6
-  science_code: 9
-  science_exp: 3
+  infrastructure: 48
+  science_code: 24
+  science_exp: 24
 metrics:
   - "A non-expert user or AI agent can run a full OpenFE binding free energy campaign end-to-end via MCP tooling, without expert troubleshooting, at accuracy matching Genentech's agent on its three original drug discovery programs"
   - "Agent guardrails catch common invalid setup errors (e.g. an unbound ligand, incorrect protonation state, or implausible system configuration) before a GPU job is submitted"
