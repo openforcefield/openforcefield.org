@@ -24,19 +24,6 @@
   font-weight: 700;
 }
 
-/* ---- Custom Properties — Dark (default) ------------------ */
-:root {
-  --color-bg:           #0f1117;
-  --color-surface:      #1a1d27;
-  --color-surface-2:    #222636;
-  --color-border:       #2d3148;
-  --color-border-light: #3d4260;
-  --color-text:         #e2e8f0;
-  --color-text-muted:   #8892a4;
-  --color-text-faint:   #4a5568;
-  --color-accent:       #6366f1;
-  --color-accent-hover: #818cf8;
-
   /* Category colors — must match projects.js */
   --cat-infrastructure: #6366f1;
   --cat-domain:         #10b981;
@@ -89,33 +76,6 @@
 
   --graph-node-text: #1a1d2e;
 }
-
-/* ---- Theme toggle button --------------------------------- */
-.theme-toggle {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.3rem 0.65rem;
-  background: var(--color-surface-2);
-  border: 1px solid var(--color-border);
-  border-radius: 999px;
-  color: var(--color-text-muted);
-  font-size: 0.75rem;
-  font-weight: 500;
-  font-family: var(--font-sans);
-  cursor: pointer;
-  transition: border-color 0.15s, color 0.15s, background 0.15s;
-  white-space: nowrap;
-  margin-left: auto;
-  flex-shrink: 0;
-}
-
-.theme-toggle:hover {
-  border-color: var(--color-border-light);
-  color: var(--color-text);
-}
-
-.theme-toggle .toggle-icon { font-size: 0.9rem; line-height: 1; }
 
 /* ---- Reset & Base ------------------------------------------
    Scoped to .roadmap so this stylesheet can be embedded inside a
