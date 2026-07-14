@@ -12,6 +12,8 @@ The long-term roadmap for Open Force Field includes specific projects grouped in
 - **Infrastructure** — Improving the software tools we use for fitting, to enable faster fitting experiments involving larger datasets and advanced fitting targets or methods.
 - **Usability / Community** — Putting our software and models into the hands of real users and enabling them to advance their scientific programs.
 
+The projects listed here are proposals developed by staff that represent our vision of steps we could take that move us toward our roadmap objectives. Projects that we believe to offer the most direct path toward value to the Open Force Field Consortium are listed first. Projects listed as "ALT" (dashed border) may be of interest to alternative funding sources.
+
 Click any project to view details.
 
 <link rel="stylesheet" href="css/main.css">
