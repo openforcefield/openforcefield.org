@@ -53,12 +53,6 @@
   --max-width: 1400px;
   --nav-height: 60px;
 
-  /* Graph node text (SVG fill fallback via CSS variable) */
-  --graph-node-text: #e2e8f0;
-}
-
-/* ---- Light mode ------------------------------------------ */
-[data-theme="light"] {
   --color-bg:           #f8f9fc;
   --color-surface:      #ffffff;
   --color-surface-2:    #f1f3f8;
