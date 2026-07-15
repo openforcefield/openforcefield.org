@@ -1,19 +1,18 @@
 // Shared utilities — imported by graph.js and project.js
 
-export const CATEGORIES = {
-  infrastructure: { label: "Infrastructure / Fitting Pipeline", color: "#6366f1" },
-  domain:         { label: "Domain Expansion",                  color: "#10b981" },
-  accuracy:       { label: "Accuracy Improvements",             color: "#f59e0b" },
-  benchmarking:   { label: "Benchmarking",                      color: "#3b82f6" },
-  usability:      { label: "Usability / Community",             color: "#ec4899" },
-};
+/**
+ * Reads a CSS custom property (declared on :root in css/main.css).
+ */
+export function cssVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
 
 export const MATURITY_COLORS = {
-  early: "#f97316",
-  mid:   "#eab308",
-  late:  "#22c55e",
-  end:   "#94a3b8",
-  full:  "#a78bfa",
+  early: cssVar("--mat-early"),
+  mid:   cssVar("--mat-mid"),
+  late:  cssVar("--mat-late"),
+  end:   cssVar("--mat-end"),
+  full:  cssVar("--mat-full"),
 };
 
 export const MATURITY_LABELS = {

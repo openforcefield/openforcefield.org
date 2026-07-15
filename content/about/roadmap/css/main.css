@@ -24,7 +24,8 @@
   font-weight: 700;
 }
 
-  /* Category colors — must match projects.js */
+:root {
+  /* Category colors — read into JS via cssVar() in js/utils.js */
   --cat-infrastructure: #6366f1;
   --cat-domain:         #10b981;
   --cat-accuracy:       #f59e0b;
