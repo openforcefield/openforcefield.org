@@ -25,7 +25,8 @@
 }
 
 :root {
-  /* Category colors — read into JS via cssVar() in js/utils.js */
+  /* Category colors — also read by layouts/_default/roadmap-project.html
+     and layouts/partials/roadmap-grid-card.html via var(--cat-<id>) */
   --cat-infrastructure: #6366f1;
   --cat-domain:         #10b981;
   --cat-accuracy:       #f59e0b;
@@ -68,8 +69,6 @@
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
   --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
   --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
-
-  --graph-node-text: #1a1d2e;
 }
 
 /* ---- Reset & Base ------------------------------------------
@@ -297,44 +296,4 @@
 @media (max-width: 768px) {
   .roadmap h1 { font-size: 1.5rem; }
   .container { padding: 0 1rem; }
-}
-
-/* ---- Light mode graph & component overrides -------------- */
-[data-theme="light"] .graph-wrapper {
-  background: #ffffff;
-}
-
-[data-theme="light"] .graph-legend {
-  background: var(--color-surface-2);
-}
-
-[data-theme="light"] .graph-tooltip {
-  background: #ffffff;
-}
-
-[data-theme="light"] .fte-section {
-  background: var(--color-surface);
-}
-
-[data-theme="light"] .metrics-list li,
-[data-theme="light"] .gonogo-gate,
-[data-theme="light"] .dep-card,
-[data-theme="light"] .project-nav-link {
-  background: var(--color-surface);
-}
-
-[data-theme="light"] .card {
-  background: var(--color-surface);
-}
-
-/* Zoom buttons */
-[data-theme="light"] .zoom-btn {
-  background: var(--color-surface-2);
-  border-color: var(--color-border);
-  color: var(--color-text-muted);
-}
-
-[data-theme="light"] .zoom-btn:hover {
-  background: var(--color-border);
-  color: var(--color-text);
 }

@@ -1,0 +1,14 @@
+{{/* Renders one FTE bar row. Expects: label, value, maxVal, cls */}}
+{{ $pct := 0.0 }}
+{{ if gt .maxVal 0.0 }}
+  {{ $pct = math.Round (mul (div .value .maxVal) 100) }}
+{{ end }}
+<div class="fte-row">
+  <div class="fte-label">
+    <span class="fte-label-name">{{ .label }}</span>
+    <span class="fte-label-value">{{ .value }} mo</span>
+  </div>
+  <div class="fte-bar-bg">
+    <div class="fte-bar-fill {{ .cls }}" style="width:{{ $pct }}%"></div>
+  </div>
+</div>

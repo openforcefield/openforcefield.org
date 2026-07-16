@@ -1,0 +1,6 @@
+infra_updates: "Upfront Infrastructure"
+data_generation: "Data Generation"
+fitting: "Fitting"
+benchmarking: "Benchmarking"
+release: "Release"
+community_maintenance: "Community & Maintenance"

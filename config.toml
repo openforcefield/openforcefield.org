@@ -5,10 +5,8 @@ theme = "openff"
 
 enableEmoji = true
 
-# content/about/roadmap/_projects/*.md are data sources for build.py
-# (compiled into data/projects.js), not standalone Hugo pages.
 # content/about/roadmap/README.md is repo documentation, not a page.
-ignoreFiles = ["/_projects/", "README\\.md$"]
+ignoreFiles = ["README\\.md$"]
 
 [markup]
   defaultMarkdownHandler = "goldmark"
