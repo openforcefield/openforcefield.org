@@ -1,12 +1,10 @@
-{{/* Renders the "All Projects" card grid: recommended projects first, then alternatives. */}}
+{{/* Renders the "All Projects" card grid. Ordering — recommended first, then by
+     pipeline stage — is handled by the roadmap-sort-projects partial. */}}
 {{ $projSection := .Page.Site.GetPage "/about/roadmap/projects" }}
 {{ $cats := .Page.Site.Data.roadmap.categories }}
 
 <div id="project-grid" style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1rem;">
-  {{ range (where $projSection.Pages "Params.recommended" true) }}
-    {{ partial "roadmap-grid-card" (dict "page" . "cats" $cats) }}
-  {{ end }}
-  {{ range (where $projSection.Pages "Params.recommended" false) }}
+  {{ range (partial "roadmap-sort-projects.html" $projSection.Pages) }}
     {{ partial "roadmap-grid-card" (dict "page" . "cats" $cats) }}
   {{ end }}
 </div>

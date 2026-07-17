@@ -1,0 +1,29 @@
+{{/* Returns a project Page collection sorted for display: recommended projects
+     first, then alternatives; within each group by earliest stage, then latest
+     stage, then title. Projects with no known stage sort last within their group.
+     Expects: a project Page collection. Returns: a sorted slice of Pages. */}}
+{{ $stages := site.Data.roadmap.stages }}
+{{ $ranked := slice }}
+{{ range . }}
+  {{ $page := . }}
+  {{/* first/last = indices of the earliest and latest stages this project spans.
+       Sorting by first then last puts short, early projects ahead of longer
+       ones that start at the same stage. Projects with no stage sort last. */}}
+  {{ $first := len $stages }}
+  {{ $last := 0 }}
+  {{ range $i, $s := $stages }}
+    {{ if in $page.Params.stages $s.key }}
+      {{ if lt $i $first }}{{ $first = $i }}{{ end }}
+      {{ if gt $i $last }}{{ $last = $i }}{{ end }}
+    {{ end }}
+  {{ end }}
+  {{/* recommended projects sort first; zero-pad so a lexical sort is numeric:
+       recommended, then earliest stage, then latest stage, then title */}}
+  {{ $recRank := cond $page.Params.recommended "0" "1" }}
+  {{ $ranked = $ranked | append (dict "page" $page "key" (printf "%s-%03d-%03d-%s" $recRank $first $last $page.Title)) }}
+{{ end }}
+{{ $out := slice }}
+{{ range sort $ranked "key" }}
+  {{ $out = $out | append .page }}
+{{ end }}
+{{ return $out }}
