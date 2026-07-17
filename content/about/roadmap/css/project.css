@@ -41,10 +41,16 @@ article:has(#project-hero) > h1 { display: none; }
 }
 
 .pipeline-stepper {
+  /* geometry shared by the dots and their connector lines */
+  --stage-dot-size: 36px;
+  --stage-line-thickness: 2px;
   display: flex;
   align-items: stretch;
   gap: 0;
   overflow-x: auto;
+  /* overflow-x:auto forces overflow-y to clip rather than stay visible, so pad
+     the top to keep the active dot's box-shadow ring from being cut off */
+  padding-top: 0.5rem;
   padding-bottom: 0.25rem;
 }
 
@@ -57,27 +63,42 @@ article:has(#project-hero) > h1 { display: none; }
   position: relative;
 }
 
-/* connector line between stages */
+/* Connector line between stages. Each stage colours the near half of its
+   adjacent segments (::after = half toward the next stage, ::before = half
+   toward the previous one), so two active stages meet at the midpoint to form a
+   continuous bar, while a skipped stage leaves a centred gap. */
 .pipeline-stage:not(:last-child)::after {
   content: "";
   position: absolute;
-  top: 18px;
-  right: -1px;
-  width: calc(100% - 36px);
-  left: calc(50% + 16px);
-  height: 2px;
+  /* centre the line on the dot: radius minus half the line's thickness */
+  top: calc(var(--stage-dot-size) / 2 - var(--stage-line-thickness) / 2);
+  /* start just inside the dot's right edge (radius, less a 2px overlap) */
+  left: calc(50% + var(--stage-dot-size) / 2 - 2px);
+  right: 0;
+  height: var(--stage-line-thickness);
   background: var(--color-border);
   z-index: 0;
 }
 
-.pipeline-stage.active:not(:last-child)::after,
-.pipeline-stage + .pipeline-stage.active::before {
+.pipeline-stage:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  top: calc(var(--stage-dot-size) / 2 - var(--stage-line-thickness) / 2);
+  left: 0;
+  right: calc(50% + var(--stage-dot-size) / 2 - 2px);
+  height: var(--stage-line-thickness);
+  background: var(--color-border);
+  z-index: 0;
+}
+
+.pipeline-stage.active::before,
+.pipeline-stage.active::after {
   background: var(--color-accent);
 }
 
 .stage-dot-wrap {
-  width: 36px;
-  height: 36px;
+  width: var(--stage-dot-size);
+  height: var(--stage-dot-size);
   border-radius: 50%;
   display: flex;
   align-items: center;
