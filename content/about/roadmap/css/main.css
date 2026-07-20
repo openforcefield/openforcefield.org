@@ -190,31 +190,35 @@
   font-weight: 600;
   letter-spacing: 0.01em;
   white-space: nowrap;
+
+  /* Each modifier sets --badge-hue; bg, text and border are all derived
+     from that single hue.
+     Fallback keeps a bare .badge legible if no modifier is applied. */
+  --badge-hue: var(--color-text-muted);
+  background: color-mix(in srgb, var(--badge-hue) 16%, transparent);
+  color: color-mix(in oklab, var(--badge-hue) 80%, black);
+  border: 1px solid color-mix(in srgb, var(--badge-hue) 45%, transparent);
 }
 
-.badge--cat-infrastructure { background: rgba(99,102,241,0.15); color: #a5b4fc; border: 1px solid rgba(99,102,241,0.3); }
-.badge--cat-domain          { background: rgba(16,185,129,0.15); color: #6ee7b7; border: 1px solid rgba(16,185,129,0.3); }
-.badge--cat-accuracy        { background: rgba(245,158,11,0.15); color: #fcd34d; border: 1px solid rgba(245,158,11,0.3); }
-.badge--cat-benchmarking    { background: rgba(59,130,246,0.15); color: #93c5fd; border: 1px solid rgba(59,130,246,0.3); }
-.badge--cat-usability       { background: rgba(236,72,153,0.15); color: #f9a8d4; border: 1px solid rgba(236,72,153,0.3); }
+.badge--cat-infrastructure { --badge-hue: var(--cat-infrastructure); }
+.badge--cat-domain         { --badge-hue: var(--cat-domain); }
+.badge--cat-accuracy       { --badge-hue: var(--cat-accuracy); }
+.badge--cat-benchmarking   { --badge-hue: var(--cat-benchmarking); }
+.badge--cat-usability      { --badge-hue: var(--cat-usability); }
 
-.badge--mat-early { background: rgba(249,115,22,0.15); color: #fdba74; border: 1px solid rgba(249,115,22,0.3); }
-.badge--mat-mid   { background: rgba(234,179,8,0.15);  color: #fde047; border: 1px solid rgba(234,179,8,0.3); }
-.badge--mat-late  { background: rgba(34,197,94,0.15);  color: #86efac; border: 1px solid rgba(34,197,94,0.3); }
-.badge--mat-end   { background: rgba(148,163,184,0.15);color: #cbd5e1; border: 1px solid rgba(148,163,184,0.3); }
-.badge--mat-full  { background: rgba(167,139,250,0.15);color: #c4b5fd; border: 1px solid rgba(167,139,250,0.3); }
+.badge--mat-early { --badge-hue: var(--mat-early); }
+.badge--mat-mid   { --badge-hue: var(--mat-mid); }
+.badge--mat-late  { --badge-hue: var(--mat-late); }
+.badge--mat-end   { --badge-hue: var(--mat-end); }
+.badge--mat-full  { --badge-hue: var(--mat-full); }
 
 .badge--alt {
-  background: rgba(148,163,184,0.1);
-  color: #94a3b8;
-  border: 1px solid rgba(148,163,184,0.25);
+  --badge-hue: var(--mat-end);
   font-style: italic;
 }
 
 .badge--recommended {
-  background: rgba(34,197,94,0.1);
-  color: #86efac;
-  border: 1px solid rgba(34,197,94,0.25);
+  --badge-hue: var(--mat-late);
 }
 
 /* ---- Cards ----------------------------------------------- */
