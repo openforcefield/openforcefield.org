@@ -1,0 +1,6 @@
+{{/* Renders one dependency/enables card. Expects a Page (a project). */}}
+<a href="{{ .RelPermalink }}" class="dep-card">
+  <span class="dep-card-dot" style="background:var(--cat-{{ .Params.category }})"></span>
+  {{ .Title }}
+  <span class="dep-card-arrow">&rarr;</span>
+</a>

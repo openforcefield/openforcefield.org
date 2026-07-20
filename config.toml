@@ -5,6 +5,9 @@ theme = "openff"
 
 enableEmoji = true
 
+# content/about/roadmap/README.md is repo documentation, not a page.
+ignoreFiles = ["README\\.md$"]
+
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]

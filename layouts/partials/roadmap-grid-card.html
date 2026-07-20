@@ -1,0 +1,39 @@
+{{/* Renders one project grid card. Expects: page (a project Page), cats (category label map) */}}
+{{ $p := .page }}
+{{ $cat := $p.Params.category }}
+{{ $catLabel := index .cats $cat }}
+{{ $infra := $p.Params.fte.infrastructure | default 0 }}
+{{ $code := $p.Params.fte.science_code | default 0 }}
+{{ $exp := $p.Params.fte.science_exp | default 0 }}
+{{ $other := $p.Params.fte.other | default 0 }}
+{{ $fte := add (add $infra $code) (add $exp $other) }}
+{{ $scale := "" }}
+{{ $icons := "" }}
+{{ if gt $fte 0.0 }}
+  {{ if lt $fte 1.0 }}
+    {{ $scale = "S" }}{{ $icons = "\U0001F464" }}
+  {{ else if le $fte 4.0 }}
+    {{ $scale = "M" }}{{ $icons = "\U0001F464\U0001F464" }}
+  {{ else }}
+    {{ $scale = "L" }}{{ $icons = "\U0001F464\U0001F464\U0001F464" }}
+  {{ end }}
+{{ end }}
+<a href="{{ $p.RelPermalink }}" class="card card-link" style="
+  border-left: 3px {{ if $p.Params.recommended }}solid{{ else }}dotted{{ end }} var(--cat-{{ $cat }});
+  {{ if not $p.Params.recommended }}filter:saturate(0.35) opacity(0.85);{{ end }}
+">
+  <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:0.5rem; margin-bottom:0.5rem;">
+    <span class="badge badge--cat-{{ $cat }}" style="font-size:0.7rem;">{{ $catLabel }}</span>
+    {{ if not $p.Params.recommended }}<span class="badge badge--alt" style="font-size:0.7rem;">ALT</span>{{ end }}
+  </div>
+  <h3 style="font-size:0.9rem; margin-bottom:0.5rem; line-height:1.4;">{{ $p.Title }}</h3>
+  <p style="font-size:0.78rem; color:var(--color-text-muted); margin-bottom:0.75rem; line-height:1.5;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
+    {{ $p.Params.summary }}
+  </p>
+  <div style="display:flex; align-items:center; justify-content:flex-end; gap:0.5rem;">
+    {{ if $scale }}
+      <span class="text-xs text-muted" style="font-family:var(--font-mono);">{{ $icons }} {{ $scale }}</span>
+    {{ end }}
+  </div>
+</a>

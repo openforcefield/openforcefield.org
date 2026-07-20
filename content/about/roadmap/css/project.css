@@ -1,0 +1,479 @@
+/* ============================================================
+   OpenFF Roadmap — Project Detail Page Styles
+   ============================================================ */
+
+/* The theme prints a generic <h1>{{ .Title }}</h1> above page content;
+   the project hero below renders the real (dynamic) title instead. */
+article:has(#project-hero) > h1 { display: none; }
+
+/* ---- Hero ------------------------------------------------ */
+.project-hero {
+  padding: 2rem 0 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 2rem;
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  color: var(--color-text);
+}
+
+.hero-summary {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  max-width: 720px;
+  line-height: 1.7;
+}
+
+/* ---- Pipeline stepper ------------------------------------ */
+.pipeline-section {
+  margin-bottom: 2rem;
+}
+
+.pipeline-stepper {
+  /* geometry shared by the dots and their connector lines */
+  --stage-dot-size: 36px;
+  --stage-line-thickness: 2px;
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  overflow-x: auto;
+  /* overflow-x:auto forces overflow-y to clip rather than stay visible, so pad
+     the top to keep the active dot's box-shadow ring from being cut off */
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+
+.pipeline-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 100px;
+  position: relative;
+}
+
+/* Connector line between stages. Each stage colours the near half of its
+   adjacent segments (::after = half toward the next stage, ::before = half
+   toward the previous one), so two active stages meet at the midpoint to form a
+   continuous bar, while a skipped stage leaves a centred gap. */
+.pipeline-stage:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  /* centre the line on the dot: radius minus half the line's thickness */
+  top: calc(var(--stage-dot-size) / 2 - var(--stage-line-thickness) / 2);
+  /* start just inside the dot's right edge (radius, less a 2px overlap) */
+  left: calc(50% + var(--stage-dot-size) / 2 - 2px);
+  right: 0;
+  height: var(--stage-line-thickness);
+  background: var(--color-border);
+  z-index: 0;
+}
+
+.pipeline-stage:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  top: calc(var(--stage-dot-size) / 2 - var(--stage-line-thickness) / 2);
+  left: 0;
+  right: calc(50% + var(--stage-dot-size) / 2 - 2px);
+  height: var(--stage-line-thickness);
+  background: var(--color-border);
+  z-index: 0;
+}
+
+.pipeline-stage.active::before,
+.pipeline-stage.active::after {
+  background: var(--color-accent);
+}
+
+.stage-dot-wrap {
+  width: var(--stage-dot-size);
+  height: var(--stage-dot-size);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+}
+
+.pipeline-stage.active .stage-dot-wrap {
+  background: var(--color-accent);
+  box-shadow: 0 0 0 4px rgba(99,102,241,0.2);
+}
+
+.pipeline-stage.inactive .stage-dot-wrap {
+  background: var(--color-surface-2);
+  border: 2px solid var(--color-border);
+}
+
+.stage-dot-wrap svg {
+  width: 16px;
+  height: 16px;
+}
+
+.pipeline-stage.active .stage-dot-wrap svg { color: #fff; }
+.pipeline-stage.inactive .stage-dot-wrap svg { color: var(--color-text-faint); }
+
+.stage-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+}
+
+.pipeline-stage.active .stage-label { color: var(--color-text); }
+.pipeline-stage.inactive .stage-label { color: var(--color-text-faint); }
+
+/* ---- Two-column section ---------------------------------- */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+  .two-col { grid-template-columns: 1fr; }
+}
+
+/* ---- Goals & Benefits ------------------------------------ */
+.goals-section h3 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 1rem 0 0.5rem;
+}
+
+.goals-section h3:first-child { margin-top: 0; }
+
+.goals-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goals-section ul li {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.3rem 0;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.goals-section ul li:last-child { border-bottom: none; }
+
+.goals-section ul li::before {
+  content: "→";
+  color: var(--color-accent-hover);
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.benefits-text {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+/* Rendered markdown body */
+.body-html h2 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 1.25rem 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.body-html h2:first-child { margin-top: 0; }
+
+.body-html ul {
+  list-style: none;
+  padding: 0;
+}
+
+.body-html ul li {
+  display: block;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.body-html ul li::before {
+  content: "→";
+  color: var(--color-accent-hover);
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+}
+
+.body-html p {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+/* ---- FTE bars -------------------------------------------- */
+.fte-section {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+}
+
+.fte-row {
+  margin-bottom: 1rem;
+}
+
+.fte-row:last-of-type { margin-bottom: 0; }
+
+.fte-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.35rem;
+}
+
+.fte-label-name {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.fte-label-value {
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.fte-bar-bg {
+  height: 8px;
+  background: var(--color-surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.fte-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+
+.fte-bar-fill.infrastructure { background: linear-gradient(90deg, #6366f1, #818cf8); }
+.fte-bar-fill.science-code   { background: linear-gradient(90deg, #10b981, #34d399); }
+.fte-bar-fill.science-exp    { background: linear-gradient(90deg, #f59e0b, #fcd34d); }
+
+.fte-total {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fte-total-label { font-size: 0.8rem; color: var(--color-text-muted); font-weight: 600; }
+.fte-total-value {
+  font-size: 1rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+/* ---- Metrics --------------------------------------------- */
+.metrics-section {
+  margin-bottom: 2rem;
+}
+
+.metrics-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.metrics-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.metrics-list li::before {
+  content: "✓";
+  color: #22c55e;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+/* ---- Go/No-Go -------------------------------------------- */
+.gonogo-section {
+  margin-bottom: 2rem;
+}
+
+.gonogo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.gonogo-gate {
+  display: flex;
+  gap: 1rem;
+  padding: 0.875rem 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid #f59e0b;
+  border-radius: var(--radius-md);
+  align-items: flex-start;
+}
+
+.gate-date {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fcd34d;
+  flex-shrink: 0;
+  background: rgba(245,158,11,0.1);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+  margin-top: 0.1rem;
+}
+
+.gate-condition {
+  font-size: 0.875rem;
+  color: var(--color-text);
+  line-height: 1.55;
+}
+
+/* ---- Dependencies & Unlocks ------------------------------ */
+.deps-section {
+  margin-bottom: 2rem;
+}
+
+.deps-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.dep-card {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.875rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.dep-card:hover {
+  border-color: var(--color-border-light);
+  background: var(--color-surface-2);
+  text-decoration: none;
+}
+
+.dep-card-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.dep-card-arrow {
+  color: var(--color-text-faint);
+  font-size: 0.75rem;
+  margin-left: auto;
+}
+
+.deps-empty {
+  font-size: 0.8125rem;
+  color: var(--color-text-faint);
+  font-style: italic;
+}
+
+/* ---- Prev/Next navigation -------------------------------- */
+.project-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--color-border);
+  margin-top: 1rem;
+}
+
+.project-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--color-text-muted);
+  font-size: 0.8125rem;
+  transition: border-color 0.15s, color 0.15s;
+  max-width: 45%;
+}
+
+.project-nav-link:hover {
+  border-color: var(--color-border-light);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.project-nav-link.next { margin-left: auto; }
+
+.nav-link-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-faint);
+  display: block;
+}
+
+.nav-link-title {
+  font-weight: 500;
+  color: inherit;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
