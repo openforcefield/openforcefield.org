@@ -55,7 +55,6 @@
   --max-width: 1400px;
   --nav-height: 60px;
 
-  --color-bg:           #f8f9fc;
   --color-surface:      #ffffff;
   --color-surface-2:    #f1f3f8;
   --color-border:       #dde1ee;
@@ -79,7 +78,6 @@
 
 .roadmap {
   font-family: var(--font-sans);
-  background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
   min-height: 100vh;

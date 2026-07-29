@@ -18,7 +18,7 @@ Click any project to view details.
 
 <link rel="stylesheet" href="css/main.css">
 
-<section style="margin-top:3rem;">
+<section style="margin-top:3rem; margin-bottom:4rem;">
   <div style="display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-bottom:1.25rem; flex-wrap:wrap;">
     <h2 style="font-size:1rem; font-weight:600; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.08em; margin:0;">
       All Projects
