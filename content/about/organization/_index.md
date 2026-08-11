@@ -74,10 +74,6 @@ The [Open Force Field Consortium officially launched]({{< relref "introducing-th
 - [Arjun Narayanan](https://www.linkedin.com/in/arjun-narayanan-0ba28a54/) (Vertex)
 - and others... {{< /ul >}}
 {{< br >}}
-{{< center >}}
-{{<button href="/minutes/cab" text="CAB Meeting Minutes" >}}
-{{</ center >}}
-{{< br >}}
 
 # Industry Partners
 {{< ul >}}
